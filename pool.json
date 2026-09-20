@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "pool_id": "pool_jev_catalog",
+  "slug": "jev-catalog",
+  "title": "Jev: Use Cases, Alternatives & Products",
+  "locale": "en",
+  "description": "Jev use cases, open-source alternatives, real products and current access prices.",
+  "evidence_scope": "Official documentation, linked projects and dated access and pricing sources.",
+  "icon": "Research",
+  "methodology_summary": "Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.",
+  "tags": [
+    "AI",
+    "Jev",
+    "Developer tools"
+  ],
+  "canonical_url": "https://shaduf.ai/p/jev-catalog/",
+  "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
+  "cadence": "Daily at 05:00 UTC",
+  "release_state": "live",
+  "latest_research_at": "2026-09-20T17:58:55Z",
+  "public_repo": "https://github.com/shaduf-labs/jev-catalog",
+  "related_pools": []
+}

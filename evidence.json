@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "evidence_id": "typesafe-launch",
+      "source_type": "official launch post",
+      "source_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "title": "Introducing System One Models & Jev",
+      "claim": "TypeSafe positions Jev as a fast structured-decision model for software and reports early-access, price, and latency claims.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-docs",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/primitives",
+      "title": "TypeSafe primitives",
+      "claim": "The official primitive contract describes Choice, Score, and Noul typed decisions.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "system-one-adapter",
+      "source_type": "official GitHub repository",
+      "source_url": "https://github.com/typesafe-ai/system-one-adapter-python",
+      "title": "System One Adapter",
+      "claim": "TypeSafe publishes a drop-in interface backed by other LLM APIs for comparison, not an open Jev model.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "semif",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf",
+      "title": "SemIf, formerly OpenJev",
+      "claim": "An independent open-model project reproduces a Jev-like interface pattern and explicitly says it is not Jev or affiliated with TypeSafe.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "mini-jev",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/r-ms/mini-jev",
+      "title": "mini-Jev",
+      "claim": "A MIT-licensed Qwen3-4B teaching experiment reads option logits and states that its scores are not calibrated probabilities.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "gliclass",
+      "source_type": "open-source GitHub repository",
+      "source_url": "https://github.com/Knowledgator/GLiClass",
+      "title": "GLiClass",
+      "claim": "GLiClass is an Apache-2.0 local zero-shot sequence classifier, an adjacent alternative rather than a Jev-compatible model.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "jev-showcase",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/cobusgreyling/Jev",
+      "title": "Jev Showcase",
+      "claim": "The public repository includes the TypeSafe Jev endpoint, model reference, live-key instructions, and typed examples.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-router-demo",
+      "source_type": "official GitHub documentation",
+      "source_url": "https://github.com/TypeSafeAI/typesafe-playground/blob/main/docs/tool-router.md",
+      "title": "Jev tool router",
+      "claim": "TypeSafe documents a Jev-backed routing demo and explicitly says the agent and tool execution are mocked.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "jev-usecases",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/kenhuangus/jev-usecases",
+      "title": "Jev use cases",
+      "claim": "The repository documents the public endpoint and implements Choice, Score, and Noul use cases.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "jev-pricing-wrapper",
+      "source_type": "independent guide",
+      "source_url": "https://jevtypesafeai.com/pricing",
+      "title": "Jev pricing",
+      "claim": "An independent wrapper states its own prepaid pricing and explicitly separates it from direct TypeSafe pricing.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "jev-alternatives-guide",
+      "source_type": "independent guide",
+      "source_url": "https://jevaiguide.com/jev-alternatives/",
+      "title": "Jev alternatives",
+      "claim": "An independent guide identifies community Jev-like projects and adjacent classifiers; its list is treated as a lead source requiring direct verification.",
+      "accessed_at": "2026-09-20T17:58:55Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    }
+  ]
+}

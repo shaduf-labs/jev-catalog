@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "change_id": "bootstrap-catalogue",
+      "changed_at": "2026-09-20T17:58:55Z",
+      "summary": "Created the first four-page Jev catalogue with an evidence-led report, comparison tables, and fit-check widget.",
+      "path": "/p/jev-catalog"
+    },
+    {
+      "change_id": "bootstrap-evidence",
+      "changed_at": "2026-09-20T17:58:55Z",
+      "summary": "Recorded current launch-week use cases, alternatives, project evidence, access routes, and price uncertainty.",
+      "path": "/p/reports/bootstrap-evidence"
+    },
+    {
+      "change_id": "eli5-explainer",
+      "changed_at": "2026-09-20T19:37:22.597Z",
+      "summary": "Added a plain-English What is Jev? ELI5 page while preserving the four required catalogue destinations.",
+      "path": "/p/what-is-jev"
+    }
+  ]
+}

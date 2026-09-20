@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "runs": [
+    {
+      "run_id": "run:manual:b48aef8e204f05d99b6933660bd67d70",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-20T17:02:41Z",
+      "completed_at": "2026-09-20T17:58:55Z",
+      "title": "Bootstrap evidence pass for Jev",
+      "summary": "First source-led catalogue of Jev use cases, open-source substitutions, directly evidenced projects, and dated access/pricing routes.",
+      "report_path": "/p/jev-catalog/reports/bootstrap-evidence",
+      "entrypoint": "reports/bootstrap-evidence/index.html"
+    }
+  ]
+}

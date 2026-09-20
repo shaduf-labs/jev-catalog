@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "status": "current",
+  "current_answer": "Jev is a hosted System One model for bounded software decisions: Choice, Score, or Noul in, with code-owned thresholds and fallback out. It is worth testing for routing, scoring, ranking, and guardrails, but it is not a replacement for open-ended generation. The first checked public record contains demos, integrations, and Jev-like alternatives but no verified production product.",
+  "catalogue_card": {
+    "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
+    "text": "Start with a small bounded decision. Compare the official hosted model with adapters, local Jev-like projects, classifiers, and general LLMs by the layer they replace. Check access and price by route before sending real data."
+  },
+  "summary": [
+    "Choice, Score, and Noul cover routing, scoring, and yes/no gates inside ordinary code.",
+    "Open-source projects replace an interface, local runtime, or classifier role; none checked is the Jev model.",
+    "Public Jev demos and integrations are early evidence, not verified production products.",
+    "TypeSafe's launch reports $0.042 per million input tokens and free output; gateways and wrappers have separate terms and prices."
+  ],
+  "uncertainty": [
+    "Speed, calibration, and cost figures are vendor-reported and workload-dependent.",
+    "Official access eligibility, current model versions, gateway listings, data handling, and limits can change.",
+    "No checked public source established a commercial production deployment or customer use."
+  ],
+  "checked_at": "2026-09-20T17:58:55Z",
+  "meaningfully_updated_at": "2026-09-20T17:58:55Z",
+  "freshness_note": "Bootstrap snapshot checked 2026-09-20; refresh access, pricing, model versions, and adoption evidence before relying on them."
+}
