@@ -11,6 +11,17 @@
       "summary": "First source-led catalogue of Jev use cases, open-source substitutions, directly evidenced projects, and dated access/pricing routes.",
       "report_path": "/p/jev-catalog/reports/bootstrap-evidence",
       "entrypoint": "reports/bootstrap-evidence/index.html"
+    },
+    {
+      "run_id": "run:6ee2dcc6-09c0-4f2a-8e92-6d6835767621",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-20T20:23:59Z",
+      "completed_at": "2026-09-20T20:47:00Z",
+      "title": "Access, pricing, and availability refresh for Jev",
+      "summary": "Current official Jev model, endpoint, aliases, price, limits, text-only input, access ambiguity, legal/data terms, OpenRouter and Cloudflare routes, inaccessible Vercel status, and the independent proxy price were checked; remaining account and gateway gaps stay explicit.",
+      "report_path": "/p/jev-catalog/reports/access-pricing-refresh",
+      "entrypoint": "reports/access-pricing-refresh/index.html"
     }
   ]
 }

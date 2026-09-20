@@ -110,6 +110,156 @@
       "accessed_at": "2026-09-20T17:58:55Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-models-refresh",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/models",
+      "title": "TypeSafe models",
+      "claim": "The current model page names Jev 1.13 / jev-1.13.0, aliases jev-latest and jev-preview, $0.042/M input with free output, 250,000 tokens/second and 1,200 requests/minute, a 64k request context, a 32k state-plus-longest-question limit, and text-only input.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-api-refresh",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/api",
+      "title": "TypeSafe API reference",
+      "claim": "The API reference documents POST https://api.typesafe.ai/v1/systemone, Bearer API keys, state plus typed questions, model aliases, and 401, 422, 429, and 529 failure conditions.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-console-refresh",
+      "source_type": "official console",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "TypeSafe console",
+      "claim": "The public console redirects to login and offers Google or email-code sign-in; this establishes a login surface but not a new account's credits or API eligibility.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-homepage-refresh",
+      "source_type": "official vendor site",
+      "source_url": "https://typesafe.ai/",
+      "title": "TypeSafe homepage",
+      "claim": "The homepage repeats the $42 per billion input-token headline and exposes a Join Waitlist path, leaving public account eligibility ambiguous alongside the console login.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-legal-index-refresh",
+      "source_type": "official legal index",
+      "source_url": "https://docs.typesafe.ai/legal",
+      "title": "TypeSafe legal index",
+      "claim": "The legal index links the Data Processing Addendum, Master Customer Agreement, and Privacy Policy and points to enterprise zero-data-retention information.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-mca-refresh",
+      "source_type": "official legal agreement",
+      "source_url": "https://typesafe.ai/legal/mca",
+      "title": "Master Customer Agreement",
+      "claim": "The MCA permits processing of Input to provide services and calculate fees, describes telemetry, fraud/abuse, and legal processing, says Input is not included in training datasets without prior consent, and makes credits and usage limits part of access.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-privacy-refresh",
+      "source_type": "official privacy policy",
+      "source_url": "https://typesafe.ai/legal/privacy-policy",
+      "title": "TypeSafe Privacy Policy",
+      "claim": "The privacy policy says TypeSafe does not train or fine-tune on prompts or Input, may disclose Input to service providers, hosts services in the United States, and retains personal data as reasonably necessary without giving a Jev-specific duration.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-dpa-refresh",
+      "source_type": "official data agreement",
+      "source_url": "https://typesafe.ai/legal/data-processing",
+      "title": "Data Processing Addendum",
+      "claim": "The DPA describes TypeSafe as processor for Customer Personal Data, purpose-based service processing and retention, subprocessors, and international-transfer terms for the relevant customer arrangement.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openrouter-jev-refresh",
+      "source_type": "gateway model listing",
+      "source_url": "https://openrouter.ai/typesafe/jev-1.13/",
+      "title": "OpenRouter Jev 1.13",
+      "claim": "OpenRouter lists typesafe/jev-1.13 at $0.042/M input and $0/M output, with a 32k context and a 2026-09-18 release date; its availability panel is an observation, not a guarantee.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openrouter-catalog-refresh",
+      "source_type": "gateway catalogue",
+      "source_url": "https://openrouter.ai/typesafe",
+      "title": "OpenRouter TypeSafe catalogue",
+      "claim": "The OpenRouter catalogue lists Jev Latest and Jev 1.13 and provides a unified API route; gateway account, routing, logging, and terms remain a separate boundary.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "openrouter-lab-refresh",
+      "source_type": "gateway feature page",
+      "source_url": "https://openrouter.ai/labs/jev/compile",
+      "title": "OpenRouter Jev Lab",
+      "claim": "The Jev Lab documents a two-stage workflow that compiles prompts into typed questions and calls alpha.decisions with typesafe/jev-1.13.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "cloudflare-jev-refresh",
+      "source_type": "gateway documentation",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Cloudflare Jev model page",
+      "claim": "Cloudflare documents the third-party typesafe/jev model with a 32k context, AI.run and REST examples, and example output identifying jev-1.13.0; Jev-specific numeric pricing points to the dashboard.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "cloudflare-gateway-refresh",
+      "source_type": "gateway documentation",
+      "source_url": "https://developers.cloudflare.com/ai-gateway/",
+      "title": "Cloudflare AI Gateway",
+      "claim": "Cloudflare says AI Gateway is available on all plans and provides routing, analytics, and logging controls; this does not establish Jev-specific pricing or retention.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vercel-jev-refresh",
+      "source_type": "gateway page",
+      "source_url": "https://vercel.com/ai-gateway/models/typesafe-ai/jev",
+      "title": "Vercel AI Gateway Jev page",
+      "claim": "The named Vercel Jev page was inaccessible to the direct checker; no current model ID, price, availability, or provider status is accepted from it.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "jev-proxy-pricing-refresh",
+      "source_type": "independent hosted proxy",
+      "source_url": "https://jevtypesafeai.com/pricing",
+      "title": "Independent Jev wrapper pricing",
+      "claim": "The independent page says it is not affiliated with TypeSafe and self-reports /api/v1/decide, $0.42/M input, free output, and $5–$100 prepaid packs; those terms and price are not official TypeSafe billing.",
+      "accessed_at": "2026-09-20T20:47:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

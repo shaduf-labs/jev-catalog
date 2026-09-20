@@ -18,6 +18,24 @@
       "changed_at": "2026-09-20T19:37:22.597Z",
       "summary": "Added a plain-English What is Jev? ELI5 page while preserving the four required catalogue destinations.",
       "path": "/p/what-is-jev"
+    },
+    {
+      "change_id": "access-pricing-refresh",
+      "changed_at": "2026-09-20T20:47:00Z",
+      "summary": "Refreshed the official Jev model ID, aliases, endpoint, price, limits, context, text-only input, access ambiguity, and legal/data terms from current TypeSafe pages; no verified production-product finding was changed.",
+      "path": "/p/where-to-use"
+    },
+    {
+      "change_id": "gateway-route-refresh",
+      "changed_at": "2026-09-20T20:47:00Z",
+      "summary": "Separated current OpenRouter and Cloudflare listings from the inaccessible Vercel lead and the independent proxy, preserving the proxy's self-reported 10× higher price and remaining gaps.",
+      "path": "/p/where-to-use"
+    },
+    {
+      "change_id": "research-report-refresh",
+      "changed_at": "2026-09-20T20:47:00Z",
+      "summary": "Added the dated access, pricing, availability, and data-terms report for the regular run while retaining the bootstrap report and source trail.",
+      "path": "/p/jev-catalog/reports/access-pricing-refresh"
     }
   ]
 }

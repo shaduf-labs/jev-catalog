@@ -1,23 +1,26 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Jev is a hosted System One model for bounded software decisions: Choice, Score, or Noul in, with code-owned thresholds and fallback out. It is worth testing for routing, scoring, ranking, and guardrails, but it is not a replacement for open-ended generation. The first checked public record contains demos, integrations, and Jev-like alternatives but no verified production product.",
+  "current_answer": "Jev is a hosted TypeSafe System One model for bounded software decisions: Choice, Score, or Noul in, with code-owned thresholds and fallback out. The current official record names Jev 1.13 (jev-1.13.0), with jev-latest and jev-preview currently pointing to it, a POST https://api.typesafe.ai/v1/systemone endpoint, $0.042 per million input tokens and free output. It is worth testing for routing, scoring, ranking, and guardrails, but access eligibility is not guaranteed by the visible console login or Join Waitlist path, and no checked public source establishes a verified production product.",
   "catalogue_card": {
     "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
-    "text": "Start with a small bounded decision. Compare the official hosted model with adapters, local Jev-like projects, classifiers, and general LLMs by the layer they replace. Check access and price by route before sending real data."
+    "text": "Start with a small bounded decision. Compare the pinned official model with adapters, local Jev-like projects, classifiers, general LLMs, OpenRouter, Cloudflare, the inaccessible Vercel lead, and the independent proxy by the layer and data boundary they replace. Check account eligibility, current limits, terms, and price before sending real data."
   },
   "summary": [
     "Choice, Score, and Noul cover routing, scoring, and yes/no gates inside ordinary code.",
-    "Open-source projects replace an interface, local runtime, or classifier role; none checked is the Jev model.",
-    "Public Jev demos and integrations are early evidence, not verified production products.",
-    "TypeSafe's launch reports $0.042 per million input tokens and free output; gateways and wrappers have separate terms and prices."
+    "The current official model is jev-1.13.0; jev-latest and jev-preview currently alias it. The direct endpoint is POST https://api.typesafe.ai/v1/systemone.",
+    "TypeSafe lists $0.042 per million input tokens with free output, 250,000 tokens/second, 1,200 requests/minute, a 64k request context, a 32k state-plus-longest-question limit, and text-only input.",
+    "OpenRouter currently lists typesafe/jev-1.13 at the same displayed rate; Cloudflare documents typesafe/jev but leaves Jev-specific numeric pricing to the dashboard.",
+    "The named Vercel route was inaccessible to the checker. The independent proxy is not official and self-reports $0.42/M input with free output—10× the current direct displayed rate.",
+    "Open-source projects replace an interface, local runtime, or classifier role; none checked is the Jev model. Public Jev demos and integrations remain early evidence, not verified production products."
   ],
   "uncertainty": [
-    "Speed, calibration, and cost figures are vendor-reported and workload-dependent.",
-    "Official access eligibility, current model versions, gateway listings, data handling, and limits can change.",
-    "No checked public source established a commercial production deployment or customer use."
+    "Console login eligibility, credit grant, API-key access, and the public Join Waitlist path are not reconciled by public pages; treat access as an account check.",
+    "TypeSafe says rate limits may be adjusted dynamically. OpenRouter quotas/fees/data controls, Cloudflare dashboard pricing/retention, Vercel availability, and the independent proxy terms/retention remain incomplete.",
+    "TypeSafe legal pages distinguish no training/fine-tuning on Input without consent from service, billing, telemetry, fraud/abuse, legal processing, and ordinary retention; no Jev-specific retention duration is published here.",
+    "Speed, calibration, availability, gateway uptime panels, and provider claims are workload- or route-dependent. No checked public source established a commercial production deployment or customer use."
   ],
-  "checked_at": "2026-09-20T17:58:55Z",
-  "meaningfully_updated_at": "2026-09-20T17:58:55Z",
-  "freshness_note": "Bootstrap snapshot checked 2026-09-20; refresh access, pricing, model versions, and adoption evidence before relying on them."
+  "checked_at": "2026-09-20T20:47:00Z",
+  "meaningfully_updated_at": "2026-09-20T20:47:00Z",
+  "freshness_note": "Access, pricing, model, limit, gateway, and legal/data pages were refreshed on 20 September 2026 for run:6ee2dcc6-09c0-4f2a-8e92-6d6835767621. Prices, aliases, availability, quotas, and terms are time-sensitive; use the dated source trail and recheck the live account route."
 }
