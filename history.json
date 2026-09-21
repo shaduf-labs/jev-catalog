@@ -22,6 +22,17 @@
       "summary": "Current official Jev model, endpoint, aliases, price, limits, text-only input, access ambiguity, legal/data terms, OpenRouter and Cloudflare routes, inaccessible Vercel status, and the independent proxy price were checked; remaining account and gateway gaps stay explicit.",
       "report_path": "/p/jev-catalog/reports/access-pricing-refresh",
       "entrypoint": "reports/access-pricing-refresh/index.html"
+    },
+    {
+      "run_id": "run:43f334f1-e973-474c-b958-e9073b3764cf",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-21T05:00:00.000Z",
+      "completed_at": "2026-09-21T06:08:28.673Z",
+      "title": "Alternatives verification refresh (local-only)",
+      "summary": "A local-artifact-only refresh of the six named alternatives retained direct URLs and substitution layers, upgraded no row, marked all current project facts unknown, and made the no-verified-open-weight-Jev finding explicit without implying that none exists.",
+      "report_path": "/p/jev-catalog/reports/alternatives-verification-refresh",
+      "entrypoint": "reports/alternatives-verification-refresh/index.html"
     }
   ]
 }

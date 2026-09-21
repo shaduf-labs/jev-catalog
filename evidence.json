@@ -260,6 +260,26 @@
       "accessed_at": "2026-09-20T20:47:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "alternatives-verification-refresh",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/alternatives-verification-refresh",
+      "title": "Alternatives verification refresh",
+      "claim": "The 2026-09-21 refresh used supplied local artifacts only; it did not live-check the six retained repositories or documentation sets, so all current project facts remain unknown and no row was upgraded.",
+      "accessed_at": "2026-09-21T05:48:52.635Z",
+      "relation": "limits",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "no-verified-open-weight-jev-refresh",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/alternatives-verification-refresh",
+      "title": "Alternatives verification refresh — negative finding",
+      "claim": "No verified open-weight Jev model was found in this refresh; this is a verification-status negative finding, not evidence that no such model exists.",
+      "accessed_at": "2026-09-21T05:48:52.635Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
     }
   ]
 }
