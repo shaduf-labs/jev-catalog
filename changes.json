@@ -48,6 +48,18 @@
       "changed_at": "2026-09-21T06:08:28.673Z",
       "summary": "Added the dated alternatives verification report with the runner boundary, retained direct URLs, unknowns, negative finding, and follow-up checks.",
       "path": "/p/jev-catalog/reports/alternatives-verification-refresh"
+    },
+    {
+      "change_id": "alternatives-substitution-refresh",
+      "changed_at": "2026-09-22T05:55:05Z",
+      "summary": "Refreshed the six alternatives with direct-source evidence and a layer-by-layer substitution matrix; kept mini-jev unverified and preserved the negative finding that no open-weight Jev model was verified.",
+      "path": "/p/alternatives"
+    },
+    {
+      "change_id": "alternatives-substitution-report",
+      "changed_at": "2026-09-22T05:55:05Z",
+      "summary": "Added the dated alternatives substitution report with source ledger, evidence boundaries, builder guidance, and explicit unknowns for model, interface, runtime/privacy, workflow, cost, and latency.",
+      "path": "/p/jev-catalog/reports/alternatives-substitution-refresh"
     }
   ]
 }

@@ -1,28 +1,29 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Jev is a hosted TypeSafe System One model for bounded software decisions: Choice, Score, or Noul in, with code-owned thresholds and fallback out. The current official record names Jev 1.13 (jev-1.13.0), with jev-latest and jev-preview currently pointing to it, a POST https://api.typesafe.ai/v1/systemone endpoint, $0.042 per million input tokens and free output. It is worth testing for routing, scoring, ranking, and guardrails, but access eligibility is not guaranteed by the visible console login or Join Waitlist path, no checked public source establishes a verified production product, and the 2026-09-21 alternatives refresh did not verify an open-weight Jev model.",
+  "current_answer": "Jev is a hosted TypeSafe System One model for bounded software decisions: Choice, Score, or Noul in, with code-owned thresholds and fallback out. The 22 September alternatives audit found no verified open-weight Jev model: the closest interface substitute is an adapter backed by other LLM providers, while SemIf, jevlike, GLiClass, and structured-output LLMs replace different model or workflow layers.",
   "catalogue_card": {
     "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
-    "text": "Start with a small bounded decision. Compare the pinned official model with adapters, local Jev-like projects, classifiers, general LLMs, OpenRouter, Cloudflare, the inaccessible Vercel lead, and the independent proxy by the layer and data boundary they replace. The 2026-09-21 alternatives refresh was local-artifact only: its six current project rows remain unknown, and no open-weight Jev model was verified."
+    "text": "Start with a small bounded decision. Compare Jev with the adapter, local experiments, classifiers, and structured-output LLMs by the layer they replace. The 22 September 2026 direct-source audit kept mini-jev unverified and found no verified open-weight Jev model."
   },
   "summary": [
     "Choice, Score, and Noul cover routing, scoring, and yes/no gates inside ordinary code.",
-    "The current official model is jev-1.13.0; jev-latest and jev-preview currently alias it. The direct endpoint is POST https://api.typesafe.ai/v1/systemone.",
-    "TypeSafe lists $0.042 per million input tokens with free output, 250,000 tokens/second, 1,200 requests/minute, a 64k request context, a 32k state-plus-longest-question limit, and text-only input.",
-    "OpenRouter currently lists typesafe/jev-1.13 at the same displayed rate; Cloudflare documents typesafe/jev but leaves Jev-specific numeric pricing to the dashboard.",
-    "The named Vercel route was inaccessible to the checker. The independent proxy is not official and self-reports $0.42/M input with free output—10× the current direct displayed rate.",
-    "The 2026-09-21 alternatives refresh was local-artifact only: all six current project rows remain unknown, no row was upgraded, and no verified open-weight Jev model was found in that refresh.",
-    "That negative finding is about verification status, not proof that an open-weight Jev model does not exist."
+    "The current official record names Jev 1.13 (jev-1.13.0), with jev-latest and jev-preview currently pointing to it, a POST https://api.typesafe.ai/v1/systemone endpoint, $0.042 per million input tokens and free output.",
+    "TypeSafe lists 250,000 tokens/second, 1,200 requests/minute, a 64k request context, a 32k state-plus-longest-question limit, and text-only input; access eligibility and some provider terms remain account checks.",
+    "The 22 September alternatives audit keeps model identity, interface compatibility, runtime/privacy, workflow role, and trade-offs separate.",
+    "The adapter is the closest interface substitute but calls other LLM providers; SemIf is an independent local experiment; jevlike is a trainable scorer; GLiClass is a classifier; a structured-output LLM is a schema/generation baseline.",
+    "No verified open-weight Jev model was found. This is a verification-status finding, not proof that no such model exists.",
+    "mini-jev remains an unverified lead; no current licence, weights, runtime, parity, cost, or privacy claim is promoted."
   ],
   "uncertainty": [
     "Console login eligibility, credit grant, API-key access, and the public Join Waitlist path are not reconciled by public pages; treat access as an account check.",
-    "TypeSafe says rate limits may be adjusted dynamically. OpenRouter quotas/fees/data controls, Cloudflare dashboard pricing/retention, Vercel availability, and the independent proxy terms/retention remain incomplete.",
+    "OpenRouter quotas/fees/data controls, Cloudflare dashboard pricing/retention, Vercel availability, and independent proxy terms/retention remain incomplete.",
     "TypeSafe legal pages distinguish no training/fine-tuning on Input without consent from service, billing, telemetry, fraud/abuse, legal processing, and ordinary retention; no Jev-specific retention duration is published here.",
     "Speed, calibration, availability, gateway uptime panels, and provider claims are workload- or route-dependent. No checked public source established a commercial production deployment or customer use.",
-    "The six alternatives were not live-checked on 2026-09-21. Current model parity, API compatibility, local execution, privacy/data path, licence, evaluation, cost, latency, and maintenance facts remain unknown for every row."
+    "The alternatives audit has direct evidence for the adapter, SemIf, jevlike, GLiClass, and the structured-output baseline, but current model parity, full primitive compatibility, privacy/data path, exact licence where not stated, cost, latency, and maintenance remain unknown where the sources are silent.",
+    "The mini-jev repository was not successfully checked in this refresh; do not carry its historical label forward as a current fact."
   ],
-  "checked_at": "2026-09-21T05:48:52.635Z",
-  "meaningfully_updated_at": "2026-09-21T06:08:28.673Z",
-  "freshness_note": "The alternatives page and dated verification report were refreshed on 21 September 2026 from local artifacts only. The six retained direct URLs were not opened in this run, so their current facts remain unknown and no open-weight Jev model was verified. Access, pricing, model, limit, gateway, and legal/data pages were last live-refreshed on 20 September 2026; use the dated source trail and recheck time-sensitive routes."
+  "checked_at": "2026-09-22T05:47:00Z",
+  "meaningfully_updated_at": "2026-09-22T05:55:05Z",
+  "freshness_note": "Alternatives were refreshed on 22 September 2026 from direct repositories or first-party documentation where available; the page separates model, interface, runtime/privacy, workflow, and trade-off evidence and leaves silent fields unknown. Access, pricing, official model, gateway, and legal/data pages were last live-refreshed on 20 September 2026; use the dated source trail for time-sensitive route checks."
 }

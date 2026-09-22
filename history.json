@@ -33,6 +33,17 @@
       "summary": "A local-artifact-only refresh of the six named alternatives retained direct URLs and substitution layers, upgraded no row, marked all current project facts unknown, and made the no-verified-open-weight-Jev finding explicit without implying that none exists.",
       "report_path": "/p/jev-catalog/reports/alternatives-verification-refresh",
       "entrypoint": "reports/alternatives-verification-refresh/index.html"
+    },
+    {
+      "run_id": "run:12eff83e-6150-42af-a3bc-96f68a5c95ce",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-22T05:00:00Z",
+      "completed_at": "2026-09-22T05:55:05Z",
+      "title": "Alternatives substitution matrix refresh",
+      "summary": "Direct-source audit of exactly six named alternatives, separating model parity, System One-like interface, local/privacy boundary, workflow role, and trade-offs; no verified open-weight Jev model was found.",
+      "report_path": "/p/jev-catalog/reports/alternatives-substitution-refresh",
+      "entrypoint": "reports/alternatives-substitution-refresh/index.html"
     }
   ]
 }

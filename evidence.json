@@ -280,6 +280,86 @@
       "accessed_at": "2026-09-21T05:48:52.635Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "alternatives-adapter-2026-09-22",
+      "source_type": "official GitHub repository",
+      "source_url": "https://github.com/typesafe-ai/system-one-adapter-python",
+      "title": "System One Adapter",
+      "claim": "The current README describes a drop-in TypeSafeClient replacement backed by OpenAI, Anthropic, or compatible LLM APIs, with Choice, Score, Noul, structured-output modes, retries, and usage/debug fields; this is an adapter rather than Jev weights.",
+      "accessed_at": "2026-09-22T05:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "alternatives-semif-2026-09-22",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf",
+      "title": "SemIf (formerly OpenJev)",
+      "claim": "The project describes an independent open-model reproduction of a decision-interface pattern and explicitly says it does not reproduce Jev’s undisclosed model or training; its local/browser paths and full primitive parity remain separate checks.",
+      "accessed_at": "2026-09-22T05:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "alternatives-semif-method-2026-09-22",
+      "source_type": "community project method",
+      "source_url": "https://github.com/TheoLeeCJ/SemIf/blob/master/docs/METHOD.md",
+      "title": "SemIf method",
+      "claim": "The method page describes generation-free option readouts and warm RTX 3090 timings with model loading and result writes excluded; these are project measurements, not a Jev benchmark.",
+      "accessed_at": "2026-09-22T05:47:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "alternatives-jevlike-2026-09-22",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/vinnylarouge/jevlike",
+      "title": "jevlike",
+      "claim": "The repository documents a local trainable option scorer with JSONL context/options/label input, CPU/MPS/CUDA paths, evaluation and calibration commands, and states that its local experiments do not reproduce Jev or TypeSafe’s private training.",
+      "accessed_at": "2026-09-22T05:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "alternatives-minijev-2026-09-22",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/r-ms/mini-jev",
+      "title": "mini-jev",
+      "claim": "The direct repository check was not completed in this refresh; current status, model/weights, contract, licence, runtime, privacy, evaluation, cost, and latency remain unknown.",
+      "accessed_at": "2026-09-22T05:47:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "alternatives-gliclass-2026-09-22",
+      "source_type": "open-source GitHub repository",
+      "source_url": "https://github.com/Knowledgator/GLiClass",
+      "title": "GLiClass",
+      "claim": "The current repository documents a generalist text-classification model, label/score/threshold client behavior, downloadable model IDs, Ray Serve deployment, and CPU/GPU-oriented configurations; it does not establish Jev primitives or parity.",
+      "accessed_at": "2026-09-22T05:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "alternatives-structured-output-2026-09-22",
+      "source_type": "official provider documentation",
+      "source_url": "https://openai.com/index/introducing-structured-outputs-in-the-api/",
+      "title": "Introducing Structured Outputs in the API",
+      "claim": "OpenAI distinguishes JSON mode from Structured Outputs that conform to a developer-supplied JSON Schema; this establishes a schema boundary, not Jev model parity, calibrated decision correctness, or a current deployment price.",
+      "accessed_at": "2026-09-22T05:47:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "alternatives-structured-output-node-2026-09-22",
+      "source_type": "official provider documentation",
+      "source_url": "https://github.com/openai/openai-node/blob/main/docs/structured-outputs.md",
+      "title": "OpenAI Node Structured Outputs guide",
+      "claim": "The official guide recommends Responses parsing with text.format and documents supported schema constraints; semantic correctness, current price, latency, and provider data terms remain deployment-specific.",
+      "accessed_at": "2026-09-22T05:47:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }
