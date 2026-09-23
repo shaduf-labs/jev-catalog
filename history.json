@@ -44,6 +44,17 @@
       "summary": "Direct-source audit of exactly six named alternatives, separating model parity, System One-like interface, local/privacy boundary, workflow role, and trade-offs; no verified open-weight Jev model was found.",
       "report_path": "/p/jev-catalog/reports/alternatives-substitution-refresh",
       "entrypoint": "reports/alternatives-substitution-refresh/index.html"
+    },
+    {
+      "run_id": "run:2c5550ce-7675-4864-9d81-63f0d6ac2060",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-23T05:00:00Z",
+      "completed_at": "2026-09-23T05:25:00Z",
+      "title": "Bounded adoption and product verification audit",
+      "summary": "Direct-source audit of killmyidea, Jev Showcase, the TypeSafe playground router, jev-usecases, and the Awesome Jev lead index. killmyidea is a direct-source application with public-deployment metadata but unverified public access and adoption; the other leads remain an unofficial integration, an explicitly mocked demo, an MIT reference harness, or an index. No verified production product was found.",
+      "report_path": "/p/jev-catalog/reports/adoption-product-verification",
+      "entrypoint": "reports/adoption-product-verification/index.html"
     }
   ]
 }

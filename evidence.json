@@ -360,6 +360,86 @@
       "accessed_at": "2026-09-22T05:47:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "killmyidea-adoption-audit-2026-09-23",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/monteduro/killmyidea/blob/main/src/lib/typesafe.ts",
+      "title": "killmyidea Jev client",
+      "claim": "The current source sets the System One endpoint and jev-latest model alias; the application sends state and typed questions through a server-side Jev call.",
+      "accessed_at": "2026-09-23T05:19:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "killmyidea-deployment-metadata-audit-2026-09-23",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/monteduro/killmyidea/blob/main/README.md",
+      "title": "killmyidea deployment metadata",
+      "claim": "The checked source documents local, Vercel, and alternate-server paths, a public hostname, production analytics configuration, and SQLite archive design; these are deployment metadata, not proof of a live service or adoption.",
+      "accessed_at": "2026-09-23T05:19:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "killmyidea-public-host-audit-2026-09-23",
+      "source_type": "public application host",
+      "source_url": "https://killmyidea.stemonte.io/",
+      "title": "killmyidea public host access check",
+      "claim": "The public host and the attempted robots.txt, favicon.ico, and api/stats paths were not accessible to this checker; no live status was accepted.",
+      "accessed_at": "2026-09-23T05:19:27Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "jev-showcase-adoption-audit-2026-09-23",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/cobusgreyling/Jev",
+      "title": "Jev Showcase direct-source audit",
+      "claim": "The repository documents Jev endpoint/model wiring and optional live calls, but its main paths are local or Docker and it identifies itself as an unofficial TypeSafe companion; no public deployment or production trace was found.",
+      "accessed_at": "2026-09-23T05:19:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-router-adoption-audit-2026-09-23",
+      "source_type": "official GitHub documentation",
+      "source_url": "https://github.com/TypeSafeAI/typesafe-playground/blob/main/docs/tool-router.md",
+      "title": "TypeSafe playground tool-router boundary",
+      "claim": "The document describes a Jev-backed routing step but explicitly says agent and tool execution are mocked, with no production credentials or real tools; it is a repository demo.",
+      "accessed_at": "2026-09-23T05:19:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "jev-usecases-adoption-audit-2026-09-23",
+      "source_type": "community GitHub repository",
+      "source_url": "https://github.com/kenhuangus/jev-usecases",
+      "title": "jev-usecases reference-harness boundary",
+      "claim": "The MIT repository documents Jev endpoint/model use and live fixture instructions, while its README states that the initial implementation is not a claim that procedures, labels, or thresholds are ready for unattended production.",
+      "accessed_at": "2026-09-23T05:19:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "awesome-jev-index-boundary-2026-09-23",
+      "source_type": "community directory",
+      "source_url": "https://github.com/valentynkit/awesome-jev-typesafe",
+      "title": "Awesome Jev lead index",
+      "claim": "The directory was used only as an index for leads. Its entries, stars, screenshots, and labels were not accepted as direct evidence of Jev use, deployment, or adoption.",
+      "accessed_at": "2026-09-23T05:19:27Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "no-verified-production-product-adoption-audit-2026-09-23",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/adoption-product-verification",
+      "title": "Jev adoption audit negative finding",
+      "claim": "No checked source met the catalogue bar for a verified production product: explicit Jev use plus direct evidence of operation beyond a local, mocked, or reference project and a named product or organisation using it.",
+      "accessed_at": "2026-09-23T05:25:00Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
     }
   ]
 }

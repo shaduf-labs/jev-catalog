@@ -60,6 +60,18 @@
       "changed_at": "2026-09-22T05:55:05Z",
       "summary": "Added the dated alternatives substitution report with source ledger, evidence boundaries, builder guidance, and explicit unknowns for model, interface, runtime/privacy, workflow, cost, and latency.",
       "path": "/p/jev-catalog/reports/alternatives-substitution-refresh"
+    },
+    {
+      "change_id": "adoption-product-verification",
+      "changed_at": "2026-09-23T05:25:00Z",
+      "summary": "Updated the products page with the 23 September bounded adoption audit: killmyidea is a direct-source Jev application with public-deployment metadata but unverified access and adoption; the other leads remain an unofficial integration, mocked demo, reference harness, or lead index; no verified production product was found.",
+      "path": "/p/products"
+    },
+    {
+      "change_id": "adoption-product-verification-report",
+      "changed_at": "2026-09-23T05:25:00Z",
+      "summary": "Added the dated adoption and product verification report with direct source links, evidence labels, deployment boundaries, the public-host access failure, and the preserved negative finding.",
+      "path": "/p/jev-catalog/reports/adoption-product-verification"
     }
   ]
 }
