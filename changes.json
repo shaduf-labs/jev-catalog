@@ -72,6 +72,18 @@
       "changed_at": "2026-09-23T05:25:00Z",
       "summary": "Added the dated adoption and product verification report with direct source links, evidence labels, deployment boundaries, the public-host access failure, and the preserved negative finding.",
       "path": "/p/jev-catalog/reports/adoption-product-verification"
+    },
+    {
+      "change_id": "builder-fit-maintenance",
+      "changed_at": "2026-09-24T05:30:04Z",
+      "summary": "Updated the home, use-cases, alternatives, products, and where-to-use pages with the 24 September builder branch, task-fit and measurement boundary, six-row substitution labels, bounded product status, and proposed maintenance note.",
+      "path": "/p/jev-catalog"
+    },
+    {
+      "change_id": "builder-fit-maintenance-report",
+      "changed_at": "2026-09-24T05:30:04Z",
+      "summary": "Added the Run 4 builder-fit and maintenance synthesis with direct source links, dated evidence gates, bounded unknowns, proposed maintenance rules, and no-independent-measurement statement.",
+      "path": "/p/jev-catalog/reports/builder-fit-maintenance"
     }
   ]
 }

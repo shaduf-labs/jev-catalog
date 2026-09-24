@@ -16,7 +16,7 @@
     <meta property="og:description" content="Where Choice, Score, and Noul fit in software.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/use-cases/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Use cases","description":"Where Choice, Score, and Noul fit in software.","dateModified":"2026-09-23T05:25:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Use cases","description":"Where Choice, Score, and Noul fit in software.","dateModified":"2026-09-24T05:30:04Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../feed.xml"><link rel="stylesheet" href="../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="use-cases">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -51,9 +51,11 @@
 <article class="jev-page">
   <div class="eyebrow">Page 01 · Fit test</div>
   <h1>What can I build with Jev?</h1>
-  <p class="lede">Use Jev where software needs a bounded judgment more often than it needs a paragraph.</p>
+  <p class="lede">Use Jev when software needs a bounded judgment rather than generated text.</p>
 
   <div class="callout teal"><strong>Model shape:</strong> state plus typed questions in; a Choice, Score, or Noul answer with probabilities out. The answer space is defined before the call, so the output can be consumed without free-form parsing.</div>
+
+  <div class="callout blue"><strong>Task-fit gate · synthesis checked 24 Sep 2026:</strong> <strong>Pass</strong> when the workload has labelled state and a closed Choice, ordered Score, or yes/no Noul question, with code defining the next action. <strong>Stop</strong> for open-ended writing, code generation, summaries, conversation, arithmetic, or a deterministic policy. <strong>Unknown</strong> remains for accuracy, calibration, and error cost until the builder tests a fixed workload. No independent workload measurement was run for this catalogue.</div>
 
   <div class="grid three">
     <div class="card"><span class="tag blue">Choice</span><h3>Route or select</h3><p>Pick one of your labels: support queue, document type, model tier, tool, lead bucket, or next workflow step.</p><p class="small">Best when the options are known and the code can reject low confidence.</p></div>
@@ -74,11 +76,11 @@
   <ol class="steps">
     <li><div><strong>Pick one repeated branch.</strong> Start with a decision that currently costs a slow LLM call or brittle rules—not the whole product.</div></li>
     <li><div><strong>Write the answer space.</strong> Name the options or 2–10 score levels. Define what a “yes” means for Noul.</div></li>
-    <li><div><strong>Measure on labelled examples.</strong> Record accuracy, calibration, latency, state size, and the cost of a wrong decision.</div></li>
+    <li><div><strong>Measure your workload.</strong> The catalogue has no independent workload measurement. On labelled examples, record accuracy, calibration, latency, state size, and the cost of a wrong decision.</div></li>
     <li><div><strong>Keep a fallback.</strong> Route uncertain or high-impact cases to a rule, larger model, or person until the evidence earns automation.</div></li>
   </ol>
 
-  <div class="callout red"><strong>Not a replacement for:</strong> writing, code generation, summarisation, open-ended conversation, arithmetic, or a policy engine that must be deterministic. “Cannot hallucinate” means Jev stays inside your declared output space; it can still choose the wrong valid option.</div>
+  <div class="callout red"><strong>Boundary:</strong> Jev is not a replacement for writing, code generation, summarisation, open-ended conversation, arithmetic, or a policy engine that must be deterministic. “Cannot hallucinate” means Jev stays inside your declared output space; it can still choose the wrong valid option.</div>
 
   <div class="source-list"><strong>Sources checked 20 Sep 2026</strong><ul>
     <li><a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">TypeSafe launch post</a> — official use-case framing and vendor-reported claims.</li>
@@ -102,7 +104,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>23 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>24 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../index.html">Full pool information →</a></section>
     </div>

@@ -440,6 +440,26 @@
       "accessed_at": "2026-09-23T05:25:00Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "builder-fit-maintenance-synthesis",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/builder-fit-maintenance",
+      "title": "Builder fit and maintenance synthesis",
+      "claim": "Run run:c4d2041e-27de-485b-9190-087eb8bb275a, recorded at runs/2026/09/c4d2041e-27de-485b-9190-087eb8bb275a/report.md, synthesizes the 20 September access record, 22 September alternatives audit, and 23 September product audit into a dated builder decision branch and proposed maintenance rules.",
+      "accessed_at": "2026-09-24T05:30:04Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "builder-fit-no-independent-measurement",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/builder-fit-maintenance",
+      "title": "Builder fit synthesis — measurement boundary",
+      "claim": "The report at runs/2026/09/c4d2041e-27de-485b-9190-087eb8bb275a/report.md records that no independent workload measurement, common comparison, or authenticated Jev call was run.",
+      "accessed_at": "2026-09-24T05:30:04Z",
+      "relation": "limits",
+      "publication_basis": "owner-authored"
     }
   ]
 }

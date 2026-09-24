@@ -1,22 +1,22 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Jev is a hosted TypeSafe System One model for bounded software decisions: Choice, Score, or Noul in, with code-owned thresholds and fallback out. The 23 September adoption audit found one direct-source application with public-deployment metadata, but public access and adoption are unverified; the other checked leads are an unofficial local/Docker integration, an explicitly mocked official-repo demo, an MIT reference harness with a non-production disclaimer, and a lead index. No verified production product was found.",
+  "current_answer": "Jev is a hosted TypeSafe System One model for bounded software decisions: Choice, Score, or Noul in, with code-owned thresholds and fallback out. The 24 September builder-fit synthesis says to pilot direct only after task, access, data, and fallback checks; use OpenRouter only as an accepted access route; substitute by layer when needed; wait when route conditions are unknown; and stop when task fit or fallback fails. No independent workload measurement was run.",
   "catalogue_card": {
     "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
-    "text": "Start with a small bounded decision. Compare Jev with the adapter, local experiments, classifiers, and structured-output LLMs by the layer they replace. The 23 September 2026 direct-source adoption audit found no verified production product: killmyidea has direct Jev wiring and public-deployment metadata, but access and adoption remain unverified."
+    "text": "Start with a bounded decision and use the branch: pilot direct after access and data checks; use OpenRouter only as an accepted route fallback; substitute by interface, local workflow, classifier, or generation layer; wait on unknown account or terms; stop when the task or fallback fails. The 22 September alternatives audit found no verified open-weight Jev model in its six checks, and the 23 September product audit found no verified production product in its checked sources."
   },
   "summary": [
     "Choice, Score, and Noul cover routing, scoring, and yes/no gates inside ordinary code.",
     "The current official record names Jev 1.13 (jev-1.13.0), with jev-latest and jev-preview currently pointing to it, a POST https://api.typesafe.ai/v1/systemone endpoint, $0.042 per million input tokens and free output.",
     "TypeSafe lists 250,000 tokens/second, 1,200 requests/minute, a 64k request context, a 32k state-plus-longest-question limit, and text-only input; access eligibility and some provider terms remain account checks.",
+    "The 24 September builder branch is pilot, route fallback, substitute, wait, or stop. It is a decision guide, not an access, adoption, or performance measurement.",
     "The 22 September alternatives audit keeps model identity, interface compatibility, runtime/privacy, workflow role, and trade-offs separate.",
     "The adapter is the closest interface substitute but calls other LLM providers; SemIf is an independent local experiment; jevlike is a trainable scorer; GLiClass is a classifier; a structured-output LLM is a schema/generation baseline.",
-    "No verified open-weight Jev model was found. This is a verification-status finding, not proof that no such model exists.",
-    "mini-jev remains an unverified lead; no current licence, weights, runtime, parity, cost, or privacy claim is promoted.",
-    "The 23 September bounded adoption audit labels killmyidea a direct-source Jev application with public-deployment metadata; its public host, current access, and adoption were not verified.",
+    "No verified open-weight Jev model was found in the six direct checks on 22 September 2026. This is a verification-status finding, not proof that no such model exists.",
+    "The 23 September bounded adoption audit found no verified production product in the checked sources. killmyidea has direct Jev wiring and public-deployment metadata, but access and adoption remain unverified.",
     "Jev Showcase is an unofficial local/Docker integration, the TypeSafe playground tool router is an explicitly mocked official-repository demo, jev-usecases is an MIT reference harness with an explicit non-production disclaimer, and Awesome Jev is a lead index only.",
-    "No checked source met the catalogue bar for a verified production product. README claims, stars, SDK/package metadata, screenshots, and directory listings were not treated as adoption evidence."
+    "Proposed maintenance cadences are not measured analytics or automated monitoring. Historical values should be marked unknown when their current source is stale or unreachable."
   ],
   "uncertainty": [
     "Console login eligibility, credit grant, API-key access, and the public Join Waitlist path are not reconciled by public pages; treat access as an account check.",
@@ -24,12 +24,13 @@
     "TypeSafe legal pages distinguish no training/fine-tuning on Input without consent from service, billing, telemetry, fraud/abuse, legal processing, and ordinary retention; no Jev-specific retention duration is published here.",
     "Speed, calibration, availability, gateway uptime panels, and provider claims are workload- or route-dependent. No checked public source established a commercial production deployment or customer use.",
     "The alternatives audit has direct evidence for the adapter, SemIf, jevlike, GLiClass, and the structured-output baseline, but current model parity, full primitive compatibility, privacy/data path, exact licence where not stated, cost, latency, and maintenance remain unknown where the sources are silent.",
-    "The mini-jev repository was not successfully checked in this refresh; do not carry its historical label forward as a current fact.",
+    "The mini-jev repository was not successfully checked in the alternatives refresh; do not carry its historical label forward as a current fact.",
     "The killmyidea repository shows a Jev endpoint/model path and deployment metadata, but the public host was not accessible to the checker; current operation and adoption remain unknown.",
     "No checked direct source names a paying customer, operator, case study, production trace, package release in use, or independent usage measure for the audited leads. No authenticated Jev call was made.",
-    "The safe labels are direct-source application, unofficial integration/showcase, explicitly mocked demo, reference harness, and lead index. None is a verified production product."
+    "No independent workload measurement, common comparison, or authenticated Jev call was run in these records. Live performance, accuracy, calibration, and fallback success remain unknown.",
+    "The maintenance rules are proposed page-owner rules. They do not establish source freshness, analytics, account access, gateway quotas, customer usage, or automated change detection."
   ],
-  "checked_at": "2026-09-23T05:19:27Z",
-  "meaningfully_updated_at": "2026-09-23T05:25:00Z",
-  "freshness_note": "Products and adoption were refreshed on 23 September 2026 from direct repositories, direct project files, and the public host check described in the dated report. The audit found no verified production product and leaves public access and adoption unknown. Alternatives were refreshed on 22 September 2026; access, pricing, official model, gateway, and legal/data pages were last live-refreshed on 20 September 2026."
+  "checked_at": "2026-09-24T05:30:04Z",
+  "meaningfully_updated_at": "2026-09-24T05:30:04Z",
+  "freshness_note": "The 24 September 2026 builder-fit synthesis adds a bounded decision branch, proposed maintenance rules, and an explicit no-independent-measurement statement. Alternatives remain dated 22 September 2026; product evidence remains dated 23 September 2026; official access, pricing, model, gateway, and legal/data records remain dated 20 September 2026."
 }

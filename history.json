@@ -55,6 +55,17 @@
       "summary": "Direct-source audit of killmyidea, Jev Showcase, the TypeSafe playground router, jev-usecases, and the Awesome Jev lead index. killmyidea is a direct-source application with public-deployment metadata but unverified public access and adoption; the other leads remain an unofficial integration, an explicitly mocked demo, an MIT reference harness, or an index. No verified production product was found.",
       "report_path": "/p/jev-catalog/reports/adoption-product-verification",
       "entrypoint": "reports/adoption-product-verification/index.html"
+    },
+    {
+      "run_id": "run:c4d2041e-27de-485b-9190-087eb8bb275a",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-24T05:00:00Z",
+      "completed_at": "2026-09-24T05:30:04Z",
+      "title": "Builder fit and maintenance synthesis",
+      "summary": "The 24 September synthesis added a pilot, route fallback, substitute, wait, and stop branch; preserved bounded no-verified-open-weight-Jev and no-verified-production-product findings; proposed source refresh rules; and recorded that no independent workload measurement was run.",
+      "report_path": "/p/jev-catalog/reports/builder-fit-maintenance",
+      "entrypoint": "reports/builder-fit-maintenance/index.html"
     }
   ]
 }

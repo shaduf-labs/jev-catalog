@@ -16,7 +16,7 @@
     <meta property="og:description" content="What adapters, local projects, classifiers, and LLMs actually substitute for.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/alternatives/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Open-source alternatives","description":"What adapters, local projects, classifiers, and LLMs actually substitute for.","dateModified":"2026-09-23T05:25:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/alternatives/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Open-source alternatives","description":"What adapters, local projects, classifiers, and LLMs actually substitute for.","dateModified":"2026-09-24T05:30:04Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/alternatives/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../feed.xml"><link rel="stylesheet" href="../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="alternatives">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -51,9 +51,9 @@
 <article class="jev-page">
   <div class="eyebrow">Page 02 · substitution matrix · checked 22 Sep 2026</div>
   <h1>Open-source alternatives to Jev</h1>
-  <p class="lede">The useful question is not “which project looks like Jev?” It is “which layer can this project replace?” This dated audit separates the model, the System One-like interface, the runtime/privacy boundary, and the workflow job.</p>
+  <p class="lede">This dated audit identifies the layer each project can replace: model, System One-like interface, runtime/privacy boundary, or workflow role.</p>
 
-  <div class="callout red"><strong>Negative finding, unchanged:</strong> no verified open-weight Jev model was found in this refresh. That is a verification-status finding, not proof that no such model exists. None of the six rows below is Jev-model parity.</div>
+  <div class="callout red"><strong>Bounded finding, checked 22 Sep 2026:</strong> no verified open-weight Jev model was found in the six direct checks. This is a verification-status finding, not proof that no such model exists. None of the six rows below is Jev-model parity.</div>
   <div class="callout teal"><strong>Checked 22 September 2026:</strong> the six rows were checked against the direct repository or first-party documentation where available. A source-backed fact is kept separate from an inference about Jev equivalence. The <a href="../reports/alternatives-substitution-refresh/index.html">dated research report</a> contains the source ledger and the remaining unknowns.</div>
 
   <h2>Read the layers before choosing</h2>
@@ -61,7 +61,7 @@
     <div class="card"><span class="tag blue">Model</span><h3>Weights are not an interface</h3><p>The adapter, SemIf, jevlike, GLiClass, mini-jev, and a general LLM are different models or unknowns. A familiar name or output shape does not establish Jev weights, training, calibration, or parity.</p></div>
     <div class="card"><span class="tag">Interface / SDK</span><h3>Contract must be tested</h3><p>Choice, Score, and Noul semantics, option probabilities, errors, retries, and changing options are separate checks. An adapter can preserve a surface while routing decisions to another provider.</p></div>
     <div class="card"><span class="tag amber">Runtime / privacy</span><h3>“Local” is not a blanket guarantee</h3><p>Inspect model downloads, hardware, outbound calls, telemetry, storage, retention, licences, and provider boundaries. The matrix marks only what the checked source actually supports.</p></div>
-    <div class="card"><span class="tag red">Workflow</span><h3>Replace the job, not the label</h3><p>A scorer or classifier may replace one bounded step; a structured-output LLM may add generation or explanation. Keep thresholds, permissions, side effects, and semantic checks in your code.</p></div>
+    <div class="card"><span class="tag red">Workflow</span><h3>Choose the workflow role</h3><p>A scorer or classifier may replace one bounded step; a structured-output LLM may add generation or explanation. Keep thresholds, permissions, side effects, and semantic checks in your code.</p></div>
   </div>
 
   <h2>Six-row substitution matrix</h2>
@@ -75,42 +75,42 @@
           <td><strong>Different model.</strong> The README calls it a drop-in replacement backed by LLM APIs instead of TypeSafe. No Jev weights or Jev-model reproduction claim is accepted.</td>
           <td><strong>Closest interface substitute, not parity.</strong> It exposes <code>Choice</code>, <code>Score</code>, <code>Noul</code>, <code>system_one</code>, discrete/probability modes, validation, and retries. Native structured output or prompted JSON can be selected. A provider/model is required, so compatibility belongs in an application test.</td>
           <td>Python code can run locally, but the decision call goes to a selected OpenAI, Anthropic, or compatible provider. The README documents provider calls and request/debug history; it does not establish a local model, telemetry policy, retention period, or privacy guarantee.</td>
-          <td><strong>Choose for:</strong> provider comparison, pre-waitlist development, or a fallback evaluation path. The repository has a <code>LICENSE</code>, tests, and provider extras; the TypeSafe organisation listing labels it MIT. <strong>Unknown:</strong> direct provider price, latency, reliability, calibration, and data terms. A usage latency field is not a benchmark.</td>
+          <td><strong>Choose for: interface/provider substitution.</strong> Use it for provider comparison, pre-waitlist development, or a fallback evaluation path. The repository has a <code>LICENSE</code>, tests, and provider extras; the TypeSafe organisation listing labels it MIT. <strong>Unknown:</strong> direct provider price, latency, reliability, calibration, and data terms. A usage latency field is not a benchmark.</td>
         </tr>
         <tr>
           <td><a href="https://github.com/TheoLeeCJ/SemIf"><strong>SemIf / OpenJev</strong></a><br><span class="tag">Independent project · repository and method/demo pages checked</span></td>
           <td><strong>Different open-model implementation.</strong> The README says it reproduces the interface pattern with open models and does not reproduce Jev’s undisclosed model or training. No Jev parity claim is accepted.</td>
           <td><strong>Partial / unknown.</strong> It reads typed option probabilities and supports runtime-defined decisions, but this refresh did not verify a complete <code>Choice</code>/<code>Score</code>/<code>Noul</code> contract, errors, retries, or SDK compatibility.</td>
           <td>The <a href="https://github.com/TheoLeeCJ/SemIf/blob/master/webgpu-demo/index.html">browser-only WebGPU demo</a> documents no backend, and a llama.cpp/GGUF path is described. This supports a possible local data path, not a blanket privacy guarantee. Hardware/model downloads, outbound behaviour outside the demo, exact licence, and weight provenance are <strong>unknown</strong>.</td>
-          <td><strong>Choose for:</strong> an experimental local decision readout when the team can pin and measure an open model. <a href="https://github.com/TheoLeeCJ/SemIf/blob/master/docs/METHOD.md">Method timings</a> on a warm RTX 3090 exclude model load and result writes; they are project measurements, not Jev comparisons. Hosted price, maintenance, calibration, and production readiness are unknown.</td>
+          <td><strong>Choose for: experimental local readout.</strong> Use it when the team can pin and measure an open model. <a href="https://github.com/TheoLeeCJ/SemIf/blob/master/docs/METHOD.md">Method timings</a> on a warm RTX 3090 exclude model load and result writes; they are project measurements, not Jev comparisons. Hosted price, maintenance, calibration, and production readiness are unknown.</td>
         </tr>
         <tr>
           <td><a href="https://github.com/vinnylarouge/jevlike"><strong>jevlike</strong></a><br><span class="tag">Research starter · direct README checked</span></td>
           <td><strong>Different trainable scorer.</strong> Each option is represented and scored against context. The README calls it a research starter and says it is not a copy of Jev.</td>
           <td><strong>Drops the Jev contract.</strong> The input is JSONL with <code>context</code>, <code>options</code>, and a zero-based <code>label</code>; output is option scores/probabilities. No <code>Choice</code>, <code>Score</code>, or <code>Noul</code> SDK is established.</td>
           <td><strong>Local path stated.</strong> Quickstart supports CPU, Apple MPS, and CUDA. The default byte encoder trains from scratch; the optional frozen Hugging Face encoder needs the same model at load time. The code is MIT; downloaded data and pretrained models retain their own terms. Network/telemetry behaviour is not stated.</td>
-          <td><strong>Choose for:</strong> a bounded multi-option scorer when you own training data and deployment. The README reports accuracy, calibration error, controls, and local experiments, but says these do not show equal quality with Jev or reproduce TypeSafe’s private training. Hosted price, production support, and independent replication are unknown.</td>
+          <td><strong>Choose for: local workflow scorer.</strong> Use it for a bounded multi-option scorer when you own training data and deployment. The README reports accuracy, calibration error, controls, and local experiments, but says these do not show equal quality with Jev or reproduce TypeSafe’s private training. Hosted price, production support, and independent replication are unknown.</td>
         </tr>
         <tr>
           <td><a href="https://github.com/r-ms/mini-jev"><strong>mini-jev</strong></a><br><span class="tag amber">Retained lead · current direct facts unavailable</span></td>
           <td><strong>Unknown.</strong> No current direct source was successfully checked, so the historical “teaching bench” label is not treated as fact. No Jev parity or open-weight claim is accepted.</td>
           <td><strong>Unknown.</strong> Choice/Score/Noul behaviour, input/output, logits, retries, and compatibility were not verified on 22 September 2026.</td>
           <td><strong>Unknown.</strong> Local requirements, weights, licence, model provenance, outbound network behaviour, and data handling were not verified.</td>
-          <td><strong>Do not choose for production on this evidence.</strong> Inspect the repository and runtime before selecting it. Price, latency, evaluation, calibration, maintenance, and operational status are all unknown; the direct URL is retained for follow-up only.</td>
+          <td><strong>Choice: unverified lead only.</strong> Do not choose it as a Jev substitute on this evidence. Inspect the repository and runtime before selecting it. Price, latency, evaluation, calibration, maintenance, operational status, and substitution layer are all unknown; the direct URL is retained for follow-up only.</td>
         </tr>
         <tr>
           <td><a href="https://github.com/Knowledgator/GLiClass"><strong>GLiClass</strong></a><br><span class="tag">Open-source classifier · direct repository checked</span></td>
           <td><strong>Different classifier family.</strong> The repository describes a generalist/lightweight text-classification model and names downloadable IDs such as <code>knowledgator/gliclass-edge-v3.0</code>. No Jev model or parity claim is accepted.</td>
           <td><strong>Drops the Jev contract.</strong> The documented client takes text, labels, and a threshold and returns label/score objects. It does not establish <code>Choice</code>, <code>Score</code>, <code>Noul</code>, or Jev state semantics.</td>
           <td><strong>Local/self-hostable path stated.</strong> The README documents Python use, model loading, Ray Serve, and CPU/GPU-oriented configurations, including CUDA streaming examples. Actual outbound calls, telemetry, storage, and retention are unknown. A <code>LICENSE</code> file is present; its exact licence text was not relied on for this refresh.</td>
-          <td><strong>Choose for:</strong> zero-shot or multi-label classification, routing, sentiment, reranking, or fact-check triage when a local classifier API is enough. No direct cost, latency, calibration guarantee, Jev comparison, or privacy commitment is established.</td>
+          <td><strong>Choose for: local classifier workflow.</strong> Use it for zero-shot or multi-label classification, routing, sentiment, reranking, or fact-check triage when a local classifier API is enough. No direct cost, latency, calibration guarantee, Jev comparison, or privacy commitment is established.</td>
         </tr>
         <tr>
           <td><a href="https://openai.com/index/introducing-structured-outputs-in-the-api/"><strong>General LLM + structured output</strong></a><br><span class="tag blue">Official OpenAI structured-output baseline</span></td>
           <td><strong>Different hosted generative model.</strong> The official source describes schema-constrained output, not Jev or System One model parity.</td>
           <td><strong>Schema contract only.</strong> Structured Outputs can make returned objects conform to a developer-supplied JSON Schema; this does not provide <code>Choice</code>/<code>Score</code>/<code>Noul</code> semantics, Jev state handling, calibrated decision probabilities, or semantic correctness. JSON mode alone does not guarantee a schema.</td>
           <td>The cited baseline is a hosted provider API. Local execution, current retention/training settings, and a specific model/price are <strong>unknown</strong> because no deployment was selected for this row.</td>
-          <td><strong>Choose for:</strong> extraction, generation, explanation, or a bounded decision step when your code owns schema validation, thresholds, retries, and semantic safety checks. The provider-reported schema-following evaluation is not a Jev benchmark. Current price, latency, failure rate, data terms, and semantic accuracy are unknown for the unspecified deployment.</td>
+          <td><strong>Choose for: schema/generation workflow.</strong> Use it for extraction, generation, explanation, or a bounded decision step when your code owns schema validation, thresholds, retries, and semantic safety checks. The provider-reported schema-following evaluation is not a Jev benchmark. Current price, latency, failure rate, data terms, and semantic accuracy are unknown for the unspecified deployment.</td>
         </tr>
       </tbody>
     </table>
@@ -152,7 +152,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>23 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>24 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../index.html">Full pool information →</a></section>
     </div>

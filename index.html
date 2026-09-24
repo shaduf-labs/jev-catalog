@@ -16,7 +16,7 @@
     <meta property="og:description" content="A sourced overview of Jev, its fit, alternatives, projects, and access.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"What can I build with Jev, what alternatives exist, and where can I use it at what cost?","description":"A sourced overview of Jev, its fit, alternatives, projects, and access.","dateModified":"2026-09-23T05:25:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"What can I build with Jev, what alternatives exist, and where can I use it at what cost?","description":"A sourced overview of Jev, its fit, alternatives, projects, and access.","dateModified":"2026-09-24T05:30:04Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="feed.xml"><link rel="stylesheet" href="assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="home">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -51,12 +51,22 @@
 <article class="jev-page">
   <div class="hero">
     <div class="eyebrow">Independent, source-led catalogue · access checked 20 Sep 2026</div>
-    <h1>Jev, in the place where software makes small decisions</h1>
-    <p class="lede">A practical starting point for builders comparing TypeSafe AI's System One model with rules, classifiers, general LLMs, and local experiments—now with a current access and pricing snapshot.</p>
+    <h1>Jev: use cases, alternatives, products, and access</h1>
+    <p class="lede">A source-led catalogue for builders comparing TypeSafe AI's System One model with rules, classifiers, general LLMs, and local experiments.</p>
     <p>Jev is not a chat model. It takes state plus typed questions and returns a choice, a score, or a yes/no probability that your program can branch on.</p>
-    <div class="callout blue"><strong>Short answer:</strong> Jev looks promising for bounded, repeated judgments—routing, scoring, ranking, and guardrails. Keep thresholds, permissions, side effects, explanations, and human fallback in ordinary code.</div>
+    <div class="callout blue"><strong>Short answer:</strong> Jev is intended for bounded, repeated judgments such as routing, scoring, ranking, and guardrails. Keep thresholds, permissions, side effects, explanations, and human fallback in ordinary code.</div>
     <div class="callout teal"><strong>Access refresh:</strong> the current TypeSafe model page names <code>jev-1.13.0</code>, with <code>jev-latest</code> and <code>jev-preview</code> currently pointing to it. Direct pricing is $0.042/M input tokens with free output, but login, credits, and the public waitlist do not prove that every new account can call the API. <a href="/p/where-to-use">Compare every route</a>.</div>
   </div>
+
+  <h2>Builder decision · synthesis 24 Sep 2026</h2>
+  <div class="table-wrap"><table><thead><tr><th>Branch</th><th>Use it when</th><th>Action</th></tr></thead><tbody>
+    <tr><td><strong>Pilot</strong></td><td>The task is a bounded Choice, Score, or Noul decision; the selected route has a key and credits; data terms are accepted; and a fallback exists.</td><td>Use direct TypeSafe first, pin <code>jev-1.13.0</code>, and log errors and fallback outcomes.</td></tr>
+    <tr><td><strong>Route fallback</strong></td><td>Direct TypeSafe access is blocked and OpenRouter's account, logging, billing, and terms are acceptable.</td><td>Treat OpenRouter as a Jev access route, not as a different open model.</td></tr>
+    <tr><td><strong>Substitute</strong></td><td>The blocker is the interface, local scoring/classification, or generation layer.</td><td>Use the named adapter, local project, classifier, or structured-output LLM for that layer. None is verified Jev-model parity.</td></tr>
+    <tr><td><strong>Wait</strong></td><td>Eligibility, credits, price, quota, terms, or data controls are unknown.</td><td>Use synthetic or redacted state and recheck the selected route.</td></tr>
+    <tr><td><strong>Stop</strong></td><td>The task needs open-ended writing or code, a deterministic policy, an automatic irreversible action, or has no acceptable fallback.</td><td>Keep the rule, human review, or another approved path.</td></tr>
+  </tbody></table></div>
+  <p class="small">The 24 September synthesis is a decision guide, not an access, adoption, or performance measurement. The bounded product audit checked on 23 September 2026 found no verified production product in its sources. <a href="reports/builder-fit-maintenance/index.html">Read the synthesis report.</a></p>
 
   <h2>The decision loop</h2>
   <div class="flow" aria-label="State to decision to policy flow">
@@ -77,7 +87,7 @@
   <div class="grid">
     <a class="card" href="/p/use-cases"><span class="tag blue">01 · Fit</span><h3>Use cases</h3><p>See where Choice, Score, and Noul fit—and where prose, code, or human judgment must stay.</p></a>
     <a class="card" href="/p/alternatives"><span class="tag">02 · Compare</span><h3>Open-source alternatives</h3><p>Compare adapters, local Jev-like experiments, classifiers, and general LLMs by what they actually replace.</p></a>
-    <a class="card" href="/p/products"><span class="tag amber">03 · Evidence</span><h3>Products and projects</h3><p>Browse direct links, evidence levels, and the important negative finding: no verified production product found yet.</p></a>
+    <a class="card" href="/p/products"><span class="tag amber">03 · Evidence</span><h3>Products and projects</h3><p>Browse direct links and evidence levels. The bounded 23 Sep 2026 audit found no verified production product in the checked sources.</p></a>
     <a class="card" href="/p/where-to-use"><span class="tag red">04 · Access</span><h3>Where to use and price</h3><p>Compare <code>jev-1.13.0</code>, aliases, limits, legal terms, gateways, the inaccessible Vercel lead, and the independent proxy's separate price.</p></a>
   </div>
 
@@ -99,7 +109,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>23 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>24 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="index.html">Full pool information →</a></section>
     </div>
