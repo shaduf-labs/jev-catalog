@@ -120,6 +120,18 @@
       "changed_at": "2026-09-25T16:35:00Z",
       "summary": "Added full direct-source report and bounded 24-hour platform monitor while retaining eight earlier reports as historical records.",
       "path": "/p/jev-catalog/reports/full-catalogue-rebuild"
+    },
+    {
+      "change_id": "second-source-catalogue-2026-09-25",
+      "changed_at": "2026-09-25T18:20:11Z",
+      "summary": "Expanded project, use-case and alternative matrices with direct links and status limits; updated Vercel promotion boundary and public metadata.",
+      "path": "/p/jev-catalog"
+    },
+    {
+      "change_id": "second-source-report-2026-09-25",
+      "changed_at": "2026-09-25T18:20:11Z",
+      "summary": "Added dated source pass with exact 24-hour window, primary links, feed-access gaps and unresolved outcomes; retained nine earlier snapshots.",
+      "path": "/p/jev-catalog/reports/second-source-pass"
     }
   ]
 }

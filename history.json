@@ -99,6 +99,17 @@
       "summary": "Direct-source rebuild of use cases, independent Jev-like alternatives, project integrations, route pricing and access; no production product or independent benchmark verified. Monitored the preceding 24 hours with documented platform gaps.",
       "report_path": "/p/jev-catalog/reports/full-catalogue-rebuild",
       "entrypoint": "reports/full-catalogue-rebuild/index.html"
+    },
+    {
+      "run_id": "run:manual:e9dff084ff9213a3651ce9a8c05cf923",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-25T17:39:11Z",
+      "completed_at": "2026-09-25T18:20:11Z",
+      "title": "Second full-scope Jev source pass",
+      "summary": "Expanded projects, use cases and layered alternatives; corrected Vercel Free promotion boundary and monitored exact preceding 24 hours. No authenticated call, independent benchmark or verified production deployment.",
+      "report_path": "/p/jev-catalog/reports/second-source-pass",
+      "entrypoint": "reports/second-source-pass/index.html"
     }
   ]
 }

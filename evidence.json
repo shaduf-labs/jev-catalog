@@ -700,6 +700,116 @@
       "accessed_at": "2026-09-25T16:35:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-jevmail",
+      "source_type": "primary project or provider source",
+      "source_url": "https://github.com/fazlerocks/jevmail",
+      "title": "Jevmail",
+      "claim": "README documents read-only Gmail triage using Vercel Jev; no-key preview is simulated.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-docjev",
+      "source_type": "primary project or provider source",
+      "source_url": "https://github.com/jerryjliu/docjev",
+      "title": "DocJev",
+      "claim": "Local extraction followed by Jev document category/split judgments; optional cloud OCR.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-pg-jev",
+      "source_type": "primary project or provider source",
+      "source_url": "https://github.com/realZachi/pg-jev",
+      "title": "pg-jev",
+      "claim": "SQL Jev judgments with privileged Postgres requirements and off-host row implications.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-wordpress-triage",
+      "source_type": "primary project or provider source",
+      "source_url": "https://github.com/soderlind/jev-comment-triage",
+      "title": "Jev Comment Triage",
+      "claim": "WordPress plugin documents held comments, asynchronous judgment, retries and human fallback.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-localjev",
+      "source_type": "primary project or provider source",
+      "source_url": "https://github.com/githubnext/localjev",
+      "title": "LocalJev",
+      "claim": "Local TypeSafe-shaped bridge; generated JSON probabilities are not direct logit readout.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-open-jev-zefan",
+      "source_type": "primary project or provider source",
+      "source_url": "https://github.com/Zefan-Cai/Open-Jev",
+      "title": "Open-Jev",
+      "claim": "Independent Qwen adapters, separate base weights and local API.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-nanojev",
+      "source_type": "primary project or provider source",
+      "source_url": "https://github.com/TianyuCodings/NanoJev",
+      "title": "NanoJev",
+      "claim": "Independent game-control artifact and local readout; benchmarks task-specific.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-vercel-promo",
+      "source_type": "primary project or provider source",
+      "source_url": "https://vercel.com/ai-gateway/models/jev",
+      "title": "Vercel Jev model",
+      "claim": "25 Sep display Free for TypeSafe AI and DigitalOcean provider rows; promotion ends 25 Sep, post-price unknown.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-vercel-general",
+      "source_type": "primary project or provider source",
+      "source_url": "https://vercel.com/docs/ai-gateway/pricing",
+      "title": "Vercel general pricing",
+      "claim": "General credits/tiers are separate from post-promotion Jev rate.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-x-search",
+      "source_type": "platform search surface",
+      "source_url": "https://x.com/search?q=%22Jev%22%20%22TypeSafe%22&src=typed_query&f=live",
+      "title": "X live search",
+      "claim": "Native search returned 403; current post coverage unknown.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "second-tiktok-search",
+      "source_type": "platform search surface",
+      "source_url": "https://www.tiktok.com/search?q=TypeSafe%20Jev",
+      "title": "TikTok search",
+      "claim": "Native search inaccessible; current post coverage unknown.",
+      "accessed_at": "2026-09-25T18:20:11Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

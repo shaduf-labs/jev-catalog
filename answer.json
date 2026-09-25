@@ -1,29 +1,29 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Jev is TypeSafe AI’s hosted model for bounded Choice, Score and Noul judgments; application code owns validation, policy, permissions, action and fallback. Direct-source checks on 25 September 2026 found several independent open-weight Jev-like models and numerous project integration paths, but did not verify TypeSafe Jev weights in public sources, model parity, a current production customer deployment or independent workload performance. Direct TypeSafe lists $0.042 per million input tokens and free output; gateway billing and access differ, with Vercel’s promotion/price conflict unresolved.",
+  "current_answer": "Jev is TypeSafe AI’s hosted model for bounded Choice, Score and Noul judgments; application code owns validation, policy, permissions, action and fallback. Direct-source checks on 25 September 2026 found more documented integrations and independent open-weight/local substitutes, but no public TypeSafe Jev weights, independently verified production deployment or same-workload parity benchmark. TypeSafe direct lists $0.042/M input tokens and free output. Vercel displayed Free for TypeSafe AI and DigitalOcean provider rows through a promotion ending 25 September; eligibility and post-promotion price are unknown.",
   "catalogue_card": {
     "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
-    "text": "Compare evidence-labelled use cases, independent model and interface alternatives, direct-code and README project integrations, and dated provider routes. The workload protocol has no results; audit the selected account and data terms before a pilot."
+    "text": "Compare evidence-labelled project and official-example use cases, independent weights versus interfaces/runtimes, direct-code versus documented and mock projects, and dated provider routes. No live Jev call or bill was checked."
   },
   "summary": [
-    "Choice, Score and Noul return bounded decisions; code still owns policy and side effects.",
-    "Kev, CLM, Laya, Jeff and OpenDecision are independent Jev-like alternatives with different weight, API and licence boundaries; they are not TypeSafe Jev weights.",
-    "Numerous Jev integration paths were documented or inspected, but none of the audited rows independently verified a current production customer deployment.",
-    "Direct TypeSafe lists jev-1.13.0, $0.042/M input, free output, dynamic limits and a text-only direct API.",
-    "OpenRouter, Cloudflare, Vercel and Netlify have different endpoints, account terms and pricing; Vercel current charge is unresolved at the promotion boundary.",
-    "The preceding-24-hour monitor found AgentRun and two arXiv papers within the window; X, TikTok, native search surfaces and some time metadata were inaccessible.",
-    "No authenticated call or independent benchmark was run; the workload protocol remains unfilled."
+    "Choice, Score and Noul are bounded judgments; code owns policy, review and side effects.",
+    "Independent artifacts include Kev, CLM, Open-Jev, system-one and NanoJev; local interfaces/runtimes replace different layers, not TypeSafe weights.",
+    "Email, document, SQL, WordPress, browser and developer tools document Jev paths; no audited row independently verifies production.",
+    "TypeSafe direct lists jev-1.13.0 and $0.042/M input with free output; no account call was made.",
+    "Vercel showed Free provider rows with a promotion ending 25 Sep; post-promotion price unknown. Cloudflare and Netlify require account rate checks.",
+    "The 24 Sep 18:20–25 Sep 18:20 UTC monitor is bounded by native-feed failures.",
+    "No independent benchmark or filled workload evaluation exists."
   ],
   "uncertainty": [
-    "TypeSafe Jev weights were not publicly located or published in checked sources; this is not a legal proprietary-status conclusion.",
-    "No same-workload independent comparison establishes Jev-like model parity; Laya licence and base-model terms need checks.",
-    "No audited project was independently verified as a currently operating production Jev product, although direct code and documented integrations exist.",
-    "Account eligibility, credits, live quota, data controls and actual bill were not checked for any route. Vercel pricing/promotion conflict, Netlify credit conversion and Cloudflare dashboard rate remain unresolved.",
-    "X current posts and TikTok were not adequately accessible; the 24-hour scan is bounded, not exhaustive.",
-    "No independent Jev accuracy, calibration, latency, safety or production threshold was measured."
+    "TypeSafe Jev weights were not publicly located in checked sources; this is not a legal conclusion.",
+    "Alternative parity and some checkpoint/base licences remain unverified; similar names have distinct lineages.",
+    "No audited row independently verified production; author live-use claims are different evidence.",
+    "Account eligibility, bill, Cloudflare rate, Netlify conversion and Vercel post-promotion rate unknown.",
+    "Native X, TikTok, GitHub timestamp, YouTube and Reddit feeds inaccessible or incomplete; no full 24-hour coverage claimed.",
+    "No Jev call or independent accuracy, calibration, latency or safety measurement."
   ],
-  "checked_at": "2026-09-25T16:43:09.384Z",
-  "meaningfully_updated_at": "2026-09-25T16:43:09.384Z",
-  "freshness_note": "Full direct-source catalogue rebuild and bounded 24-hour monitor on 25 September 2026; previous reports remain dated historical snapshots."
+  "checked_at": "2026-09-25T18:20:11Z",
+  "meaningfully_updated_at": "2026-09-25T18:20:11Z",
+  "freshness_note": "Second direct-source pass on 25 September 2026; exact preceding-24-hour monitor bounded by native-feed gaps. Nine earlier reports remain dated snapshots."
 }
