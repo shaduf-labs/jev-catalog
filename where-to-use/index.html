@@ -16,7 +16,7 @@
     <meta property="og:description" content="Official access, gateways, independent wrappers, and dated prices.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/where-to-use/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Where to use and price","description":"Official access, gateways, independent wrappers, and dated prices.","dateModified":"2026-09-24T05:30:04Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/where-to-use/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Where to use and price","description":"Official access, gateways, independent wrappers, and dated prices.","dateModified":"2026-09-24T14:10:41Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/where-to-use/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../feed.xml"><link rel="stylesheet" href="../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="where-to-use">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -53,7 +53,7 @@
   <h1>Where can I use Jev, and at what price?</h1>
   <p class="lede">Access routes are not interchangeable. The official model, a gateway, and an independent proxy can have different endpoints, billing, accounts, limits, and data boundaries.</p>
 
-  <div class="callout blue"><strong>Checked 20 September 2026:</strong> the current official model record names Jev 1.13, model ID <code>jev-1.13.0</code>, at <strong>$0.042 per million input tokens</strong> with free output. The console has a login surface, while the public site still exposes a Join Waitlist path. That combination does not prove that every new account receives credits or API access.</div>
+  <div class="callout blue"><strong>Checked 20 September 2026:</strong> the 20 Sep official model record named Jev 1.13, model ID <code>jev-1.13.0</code>, at <strong>$0.042 per million input tokens</strong> with free output. A waitlist link was observed on 20 Sep; on 24 Sep the fetched home text did not show it. Console access, credits, and eligibility are still unverified. The missing text is not evidence that the waitlist ended.</div>
 
   <h2>Builder branch · synthesis 24 Sep 2026</h2>
   <div class="table-wrap"><table><thead><tr><th>Branch</th><th>Condition</th><th>Action</th></tr></thead><tbody>
@@ -75,7 +75,7 @@
   <div class="table-wrap"><table><thead><tr><th>Route</th><th>How to start</th><th>Endpoint / model</th><th>Price, limits, and input</th><th>Terms and confidence</th></tr></thead><tbody>
     <tr>
       <td><strong>TypeSafe direct</strong><br><span class="tag blue">official</span></td>
-      <td><a href="https://console.typesafe.ai/">Console login</a> offers Google or email-code sign-in. The public TypeSafe site also shows <em>Join Waitlist</em>. Login proves the access surface exists, not that a new account receives credits or API eligibility.</td>
+      <td><a href="https://console.typesafe.ai/">Console login</a> offers Google or email-code sign-in. A <em>Join Waitlist</em> link was observed on 20 Sep; the fetched home text on 24 Sep did not show it. Login does not prove credits or API eligibility; the missing text does not prove open signup.</td>
       <td><code>POST https://api.typesafe.ai/v1/systemone</code><br><code>jev-1.13.0</code><br>Aliases: <code>jev-latest</code>, <code>jev-preview</code> (currently the same target).</td>
       <td><strong>$0.042 / 1M input tokens</strong>; output free. Published limits: 250,000 tokens/second and 1,200 requests/minute, subject to dynamic adjustment. 64k request context; 32k state plus longest question. Text-only input.</td>
       <td>Official/current model and API pages. Read the <a href="https://docs.typesafe.ai/legal">legal index</a> before sending data; access eligibility, credit grant, and live quotas remain an account-level check.</td>
@@ -105,12 +105,13 @@
       <td><strong>Independent hosted proxy</strong><br><span class="tag amber">not official</span></td>
       <td><a href="https://jevtypesafeai.com/pricing">Independent pricing page</a> advertises its own account/key and prepaid packs, and claims a no-waitlist route. Those are the wrapper's claims.</td>
       <td><code>https://jevtypesafeai.com/api/v1/decide</code>; compatibility with Jev is the independent site's claim, not TypeSafe endorsement.</td>
-      <td><strong>$0.42 / 1M input tokens</strong>; output free; prepaid packs of $5–$100. That self-reported input price is <strong>10×</strong> the current official displayed rate.</td>
-      <td>Separate account, billing, key, retention, and data-processing boundary. The accepted pricing page does not establish its full terms or live <code>/get-jev</code> route.</td>
+      <td><strong>Independent proxy, self-reported on 24 Sep 2026:</strong> $0.42/M input with $5/$10/$20 packs; $0.35/M with $50; $0.25/M with $100; output free. These tiered rates are separate from TypeSafe direct billing.</td>
+      <td>Separate account, billing, key, retention, and data-processing boundary. Purchase, account terms, retention, and live access are unverified. The public pricing page does not establish a live <code>/get-jev</code> route.</td>
     </tr>
   </tbody></table></div>
 
   <h2>Official context and data terms</h2>
+  <div class="callout amber"><strong>Legal revision trigger · 24 Sep 2026:</strong> TypeSafe's MCA displays a 23 Sep 2026 update date. Its current text permits service/fee processing and telemetry and says Customer Data is not used to train model weights without prior consent. We could not determine which clauses changed from the 19 Sep version. Review the current MCA, DPA, and selected route before sending sensitive data.</div>
   <div class="callout teal"><strong>“Not used to train” is not “not stored.”</strong> The checked TypeSafe legal pages say Input is not used to train or fine-tune models without consent. They also allow processing for service delivery, fee calculation, telemetry, fraud/abuse prevention, and legal purposes. The privacy policy says services are hosted in the United States and standard retention lasts as long as reasonably necessary; it does not give a Jev-specific retention duration. Enterprise zero-data-retention is a separate option.</div>
   <ul>
     <li><a href="https://typesafe.ai/legal/mca">Master Customer Agreement</a>: credits and usage limits govern access; service and telemetry processing are described; output can be inaccurate and service is not promised to be uninterrupted.</li>
@@ -126,12 +127,12 @@
     <li><div><strong>Recheck the data boundary.</strong> Gateways and the independent proxy add their own account, logging, retention, billing, and terms. Minimise state and keep a fallback for 429/529 or provider outages.</div></li>
   </ol>
 
-  <div class="callout amber"><strong>Cost intuition:</strong> input-token pricing is not a price per decision in the abstract. State and question text determine token use; gateway fees, quotas, and proxy packs can change the bill. The independent wrapper's self-reported $0.42/M is not official TypeSafe pricing.</div>
+  <div class="callout amber"><strong>Cost intuition:</strong> input-token pricing is not a price per decision in the abstract. State and question text determine token use; gateway fees, quotas, and proxy packs can change the bill. The independent wrapper's self-reported rates vary by pack ($0.42/M, $0.35/M, or $0.25/M on 24 Sep) and are not official TypeSafe pricing.</div>
 
-  <div class="source-list"><strong>Direct sources checked 20 Sep 2026</strong><ul>
+  <div class="source-list"><strong>Direct source baseline: 20 Sep 2026; selected fields rechecked 24 Sep 2026</strong><ul>
     <li><a href="https://docs.typesafe.ai/models">TypeSafe models</a> — current model ID, aliases, price, limits, context, text-only input, and data notes.</li>
     <li><a href="https://docs.typesafe.ai/api">TypeSafe API reference</a> — endpoint, request/response shapes, and error conditions.</li>
-    <li><a href="https://console.typesafe.ai/">TypeSafe console</a> and <a href="https://typesafe.ai/">TypeSafe homepage</a> — login surface and the public waitlist path.</li>
+    <li><a href="https://console.typesafe.ai/">TypeSafe console</a> and <a href="https://typesafe.ai/">TypeSafe homepage</a> — console login on 24 Sep and a home waitlist link observed on 20 Sep, not in the fetched home text on 24 Sep.</li>
     <li><a href="https://docs.typesafe.ai/legal">TypeSafe legal index</a>, <a href="https://typesafe.ai/legal/mca">MCA</a>, <a href="https://typesafe.ai/legal/privacy-policy">privacy policy</a>, and <a href="https://typesafe.ai/legal/data-processing">DPA</a> — official data and contract terms.</li>
     <li><a href="https://openrouter.ai/typesafe/jev-1.13/">OpenRouter Jev 1.13</a>, <a href="https://openrouter.ai/typesafe">TypeSafe catalogue</a>, and <a href="https://openrouter.ai/labs/jev/compile">Jev Lab</a> — current listing and typed-decision route.</li>
     <li><a href="https://developers.cloudflare.com/ai/models/typesafe/jev/">Cloudflare Jev model page</a> and <a href="https://developers.cloudflare.com/ai-gateway/">AI Gateway overview</a> — model interface and account route.</li>
@@ -139,7 +140,7 @@
     <li><a href="https://jevtypesafeai.com/pricing">Independent wrapper pricing</a> — self-reported price and non-affiliation statement.</li>
     <li><a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">TypeSafe launch post</a> — preserved bootstrap context for the original price and early-access framing.</li>
   </ul></div>
-  <p class="small footnote">This is an independent access refresh from <code>run:6ee2dcc6-09c0-4f2a-8e92-6d6835767621</code>, checked 20 September 2026. It does not upgrade the catalogue's separate finding that no checked public source establishes a verified commercial production product using Jev.</p>
+  <p class="small footnote">This page preserves the independent access refresh from <code>run:6ee2dcc6-09c0-4f2a-8e92-6d6835767621</code>, checked 20 September 2026, with only the stated 24 September corrections. <a href="../reports/freshness-change-detection/index.html">Read the bounded change-detection report.</a> It does not upgrade the catalogue's separate finding that no checked public source establishes a verified commercial production product using Jev.</p>
 </article>
 <!-- SHADUF_AGENT_DOCUMENT_END --></div>
     </article><div class="center-fade" aria-hidden="true"></div></main>

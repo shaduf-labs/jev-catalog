@@ -66,6 +66,17 @@
       "summary": "The 24 September synthesis added a pilot, route fallback, substitute, wait, and stop branch; preserved bounded no-verified-open-weight-Jev and no-verified-production-product findings; proposed source refresh rules; and recorded that no independent workload measurement was run.",
       "report_path": "/p/jev-catalog/reports/builder-fit-maintenance",
       "entrypoint": "reports/builder-fit-maintenance/index.html"
+    },
+    {
+      "run_id": "run:manual:60f0123d612489bea7f4a5253ad7209c",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-24T14:03:00.139Z",
+      "completed_at": "2026-09-24T14:10:41Z",
+      "title": "Bounded freshness and change-detection pass",
+      "summary": "Corrected the independent proxy tier record, recorded the MCA displayed Sep 23 update with exact diff unknown, dated the waitlist observation, and preserved older source-check dates and bounded negative findings.",
+      "report_path": "/p/jev-catalog/reports/freshness-change-detection",
+      "entrypoint": "reports/freshness-change-detection/index.html"
     }
   ]
 }

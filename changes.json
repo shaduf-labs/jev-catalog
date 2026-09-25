@@ -84,6 +84,18 @@
       "changed_at": "2026-09-24T05:30:04Z",
       "summary": "Added the Run 4 builder-fit and maintenance synthesis with direct source links, dated evidence gates, bounded unknowns, proposed maintenance rules, and no-independent-measurement statement.",
       "path": "/p/jev-catalog/reports/builder-fit-maintenance"
+    },
+    {
+      "change_id": "freshness-proxy-legal-correction",
+      "changed_at": "2026-09-24T14:10:41Z",
+      "summary": "Corrected independent proxy tiered self-reported rates, recorded the TypeSafe MCA displayed 23 Sep update with exact diff unknown, and dated the waitlist observation without implying open signup.",
+      "path": "/p/where-to-use"
+    },
+    {
+      "change_id": "freshness-change-detection-report",
+      "changed_at": "2026-09-24T14:10:41Z",
+      "summary": "Added a bounded 24 Sep trigger report while preserving 20 Sep access, 22 Sep alternatives, and 23 Sep product evidence dates and negative-finding scope.",
+      "path": "/p/jev-catalog/reports/freshness-change-detection"
     }
   ]
 }

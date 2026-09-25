@@ -146,7 +146,7 @@
       "source_type": "official vendor site",
       "source_url": "https://typesafe.ai/",
       "title": "TypeSafe homepage",
-      "claim": "The homepage repeats the $42 per billion input-token headline and exposes a Join Waitlist path, leaving public account eligibility ambiguous alongside the console login.",
+      "claim": "On 20 Sep 2026 the homepage repeated the $42 per billion input-token headline and exposed a Join Waitlist path; this historical observation does not establish current signup eligibility.",
       "accessed_at": "2026-09-20T20:47:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -256,7 +256,7 @@
       "source_type": "independent hosted proxy",
       "source_url": "https://jevtypesafeai.com/pricing",
       "title": "Independent Jev wrapper pricing",
-      "claim": "The independent page says it is not affiliated with TypeSafe and self-reports /api/v1/decide, $0.42/M input, free output, and $5–$100 prepaid packs; those terms and price are not official TypeSafe billing.",
+      "claim": "On 20 Sep 2026 the report recorded the independent page as not affiliated with TypeSafe, with /api/v1/decide, $0.42/M input, free output, and $5–$100 prepaid packs; it omitted the tier detail recorded on 24 Sep.",
       "accessed_at": "2026-09-20T20:47:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
@@ -459,6 +459,46 @@
       "claim": "The report at runs/2026/09/c4d2041e-27de-485b-9190-087eb8bb275a/report.md records that no independent workload measurement, common comparison, or authenticated Jev call was run.",
       "accessed_at": "2026-09-24T05:30:04Z",
       "relation": "limits",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "typesafe-mca-date-2026-09-24",
+      "source_type": "official legal agreement",
+      "source_url": "https://typesafe.ai/legal/mca",
+      "title": "TypeSafe MCA, displayed Sep 23 update",
+      "claim": "On 24 Sep the MCA displayed Last updated Sep 23, 2026. Current text permits service/fee processing and telemetry, restricts model-weight training on Customer Data without consent, and includes credit expiry terms. The exact diff from the Sep 19 body is unknown.",
+      "accessed_at": "2026-09-24T14:10:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "independent-proxy-tiers-2026-09-24",
+      "source_type": "independent hosted proxy",
+      "source_url": "https://jevtypesafeai.com/pricing",
+      "title": "Independent proxy pricing tiers",
+      "claim": "On 24 Sep the independent, non-TypeSafe-affiliated page self-reported $0.42/M input for $5/$10/$20 packs, $0.35/M for $50, and $0.25/M for $100, with free output. Whether tiers existed on 20 Sep and actual purchase/data terms are unknown.",
+      "accessed_at": "2026-09-24T14:10:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "typesafe-home-waitlist-2026-09-24",
+      "source_type": "official vendor site",
+      "source_url": "https://typesafe.ai/",
+      "title": "TypeSafe home access surface",
+      "claim": "The fetched home text on 24 Sep did not show the Join Waitlist string observed on 20 Sep; this does not establish that the waitlist ended or that signup is open.",
+      "accessed_at": "2026-09-24T14:10:41Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "freshness-change-detection-2026-09-24",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/freshness-change-detection",
+      "title": "Bounded Jev freshness and change-detection pass",
+      "claim": "The bounded 24 Sep report documents two correction triggers and preserves earlier alternatives and product audit dates, without a new account test, benchmark, or full audit.",
+      "accessed_at": "2026-09-24T14:10:41Z",
+      "relation": "supports",
       "publication_basis": "owner-authored"
     }
   ]
