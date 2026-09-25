@@ -96,6 +96,18 @@
       "changed_at": "2026-09-24T14:10:41Z",
       "summary": "Added a bounded 24 Sep trigger report while preserving 20 Sep access, 22 Sep alternatives, and 23 Sep product evidence dates and negative-finding scope.",
       "path": "/p/jev-catalog/reports/freshness-change-detection"
+    },
+    {
+      "change_id": "workload-evaluation-recipe",
+      "changed_at": "2026-09-25T06:55:15.957Z",
+      "summary": "Added a support-ticket Choice evaluation protocol with separate cohorts, labelled gold cases, frozen comparators, failure-inclusive denominators, review-load reporting, and blank results; no Jev call or benchmark was run.",
+      "path": "/p/jev-catalog/reports/workload-evaluation-recipe"
+    },
+    {
+      "change_id": "workload-evaluation-fit-link",
+      "changed_at": "2026-09-25T06:55:15.957Z",
+      "summary": "Added a small fit-stage link on the home and use-cases pages to the unfilled workload protocol, with the no-measured-result boundary explicit.",
+      "path": "/p/use-cases"
     }
   ]
 }

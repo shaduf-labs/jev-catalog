@@ -500,6 +500,76 @@
       "accessed_at": "2026-09-24T14:10:41Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "workload-api-2026-09-25",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/api",
+      "title": "TypeSafe API reference",
+      "claim": "Documents the direct POST request, typed questions, model response, token usage, and 401/422/429/529 errors used to design the protocol.",
+      "accessed_at": "2026-09-25T06:55:15.957Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "workload-primitives-2026-09-25",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/primitives",
+      "title": "TypeSafe primitives",
+      "claim": "Defines Choice, Score, and Noul boundaries, including an explicit Choice alternative when the set may be incomplete.",
+      "accessed_at": "2026-09-25T06:55:15.957Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "workload-confidence-2026-09-25",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/confidence",
+      "title": "TypeSafe confidence",
+      "claim": "Choice confidence summarizes the returned distribution and is not a correctness guarantee.",
+      "accessed_at": "2026-09-25T06:55:15.957Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "workload-models-2026-09-25",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/models",
+      "title": "TypeSafe models",
+      "claim": "Displays jev-1.13.0, direct input-token list pricing, context limits, and dynamic rate-limit caveat; account charges and eligibility are not established.",
+      "accessed_at": "2026-09-25T06:55:15.957Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "workload-jaggedness-2026-09-25",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13",
+      "title": "Jev 1.13 jaggedness",
+      "claim": "Vendor-described literal, numeric, state, and adversarial failure modes inform challenge-case design, not measured rates.",
+      "accessed_at": "2026-09-25T06:55:15.957Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "workload-legal-2026-09-25",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/legal",
+      "title": "TypeSafe legal index",
+      "claim": "Links current MCA, privacy policy, and DPA; route-specific retention and account terms remain checks before real data.",
+      "accessed_at": "2026-09-25T06:55:15.957Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "workload-protocol-report-2026-09-25",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/workload-evaluation-recipe",
+      "title": "Support-ticket workload-evaluation protocol",
+      "claim": "The published method has blank result cells and makes no claim of an authenticated Jev call, workload performance, or production suitability.",
+      "accessed_at": "2026-09-25T06:55:15.957Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
     }
   ]
 }

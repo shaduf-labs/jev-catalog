@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Jev is a hosted TypeSafe System One model for bounded software decisions: Choice, Score, or Noul in, with code-owned thresholds and fallback out. The 24 September builder-fit synthesis says to pilot direct only after task, access, data, and fallback checks; use OpenRouter only as an accepted access route; substitute by layer when needed; wait when route conditions are unknown; and stop when task fit or fallback fails. No independent workload measurement was run. A 24 September bounded check corrected the independent proxy to tiered self-reported rates and found that TypeSafe’s MCA displays a 23 September update date; the legal diff and account conditions remain unknown.",
+  "current_answer": "Jev is a hosted TypeSafe System One model for bounded Choice, Score, or Noul decisions; code owns thresholds, permissions, actions, and fallback. The 24 September builder-fit branch remains conditional: pilot only after task, access, data, and fallback checks; wait on unknown terms or account facts; stop for unsafe or irreversible automation. A 25 September support-ticket recipe shows how to test Choice on a builder’s own labelled cases, including out-of-scope, ambiguous, sensitive, and high-confidence wrong-route cases, with errors reported alongside review load. It is a protocol only: no Jev call, result, threshold, or production suitability was measured.",
   "catalogue_card": {
     "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
-    "text": "Start with a bounded decision and use the branch: pilot direct after access and data checks; use OpenRouter only as an accepted route fallback; substitute by interface, local workflow, classifier, or generation layer; wait on unknown account or terms; stop when the task or fallback fails. The 22 September alternatives audit found no verified open-weight Jev model in its six checks, and the 23 September product audit found no verified production product in its checked sources."
+    "text": "Start with a bounded decision and the pilot/wait/stop gate. Before automatic routing, use the 25 September support-ticket protocol to test labelled cases, including out-of-scope and high-confidence errors, and record review load. This pool has no measured Jev result. Earlier alternatives and product audits remain bounded and unchanged."
   },
   "summary": [
     "Choice, Score, and Noul cover routing, scoring, and yes/no gates inside ordinary code.",
@@ -16,7 +16,8 @@
     "No verified open-weight Jev model was found in the six direct checks on 22 September 2026. This is a verification-status finding, not proof that no such model exists.",
     "The 23 September bounded adoption audit found no verified production product in the checked sources. killmyidea has direct Jev wiring and public-deployment metadata, but access and adoption remain unverified.",
     "Jev Showcase is an unofficial local/Docker integration, the TypeSafe playground tool router is an explicitly mocked official-repository demo, jev-usecases is an MIT reference harness with an explicit non-production disclaimer, and Awesome Jev is a lead index only.",
-    "Proposed maintenance cadences are not measured analytics or automated monitoring. Historical values should be marked unknown when their current source is stale or unreachable."
+    "Proposed maintenance cadences are not measured analytics or automated monitoring. Historical values should be marked unknown when their current source is stale or unreachable.",
+    "The 25 September Choice workload-evaluation protocol defines separate consecutive and challenge cohorts, adjudicated gold labels, pinned test inputs and model, fair local baselines, review fallback, and failure-inclusive denominators; all result cells remain blank."
   ],
   "uncertainty": [
     "A Join Waitlist link was observed on 20 Sep but not in the fetched home text on 24 Sep; this does not prove open signup. Console login eligibility, credit grant, and API-key access remain unverified.",
@@ -30,9 +31,10 @@
     "No independent workload measurement, common comparison, or authenticated Jev call was run in these records. Live performance, accuracy, calibration, and fallback success remain unknown.",
     "The maintenance rules are proposed page-owner rules. They do not establish source freshness, analytics, account access, gateway quotas, customer usage, or automated change detection.",
     "The 23 Sep TypeSafe MCA revision date is visible, but the exact Sep 19-to-23 clause diff is unknown; review the current MCA, DPA, and selected route before sensitive data.",
-    "The independent proxy self-reports $0.42/M input for $5/$10/$20 packs, $0.35/M for $50, and $0.25/M for $100 on 24 Sep; whether these tiers already existed on 20 Sep, and actual purchase and retention terms, are unknown."
+    "The independent proxy self-reports $0.42/M input for $5/$10/$20 packs, $0.35/M for $50, and $0.25/M for $100 on 24 Sep; whether these tiers already existed on 20 Sep, and actual purchase and retention terms, are unknown.",
+    "The support-ticket protocol has not been executed. Workload-specific false-route, out-of-scope, high-impact, latency, review-load, token-cost, and human-resolution outcomes remain unknown. No confidence cutoff is validated for deployment."
   ],
-  "checked_at": "2026-09-24T14:10:41Z",
-  "meaningfully_updated_at": "2026-09-24T14:10:41Z",
-  "freshness_note": "The 24 Sep 2026 bounded check rechecked selected model, API, route, legal, proxy, waitlist, and lightweight product indicators. It corrected the proxy tier record and noted the MCA’s displayed 23 Sep date; no account, legal diff, alternative matrix, or production deployment was verified. Retain 20 Sep baseline access records, 22 Sep alternatives, and 23 Sep product audit dates except for explicitly rechecked fields."
+  "checked_at": "2026-09-25T06:55:15.957Z",
+  "meaningfully_updated_at": "2026-09-25T06:55:15.957Z",
+  "freshness_note": "On 25 Sep 2026 the direct API, primitive, confidence, model, jaggedness, and legal documentation were checked for a Choice workload-evaluation method. This adds no account test, Jev request, benchmark, new catalogue candidate, or production finding. The 27 Sep access/model/price/limits cadence remains separate; older route, alternatives, and product check dates are not reset."
 }

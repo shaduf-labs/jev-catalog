@@ -77,6 +77,17 @@
       "summary": "Corrected the independent proxy tier record, recorded the MCA displayed Sep 23 update with exact diff unknown, dated the waitlist observation, and preserved older source-check dates and bounded negative findings.",
       "report_path": "/p/jev-catalog/reports/freshness-change-detection",
       "entrypoint": "reports/freshness-change-detection/index.html"
+    },
+    {
+      "run_id": "run:d30a42d1-35d2-4bd7-960a-e68c1650cdb1",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-25T05:00:00.000Z",
+      "completed_at": "2026-09-25T06:55:15.957Z",
+      "title": "Support-ticket workload-evaluation protocol",
+      "summary": "Prepared an unfilled Choice evaluation method for one support-ticket route. It separates consecutive and challenge cohorts, freezes labels and comparators, includes review and failure accounting, and records that no Jev call or measured result occurred.",
+      "report_path": "/p/jev-catalog/reports/workload-evaluation-recipe",
+      "entrypoint": "reports/workload-evaluation-recipe/index.html"
     }
   ]
 }
