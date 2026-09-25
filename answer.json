@@ -1,40 +1,29 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Jev is a hosted TypeSafe System One model for bounded Choice, Score, or Noul decisions; code owns thresholds, permissions, actions, and fallback. The 24 September builder-fit branch remains conditional: pilot only after task, access, data, and fallback checks; wait on unknown terms or account facts; stop for unsafe or irreversible automation. A 25 September support-ticket recipe shows how to test Choice on a builder’s own labelled cases, including out-of-scope, ambiguous, sensitive, and high-confidence wrong-route cases, with errors reported alongside review load. It is a protocol only: no Jev call, result, threshold, or production suitability was measured.",
+  "current_answer": "Jev is TypeSafe AI’s hosted model for bounded Choice, Score and Noul judgments; application code owns validation, policy, permissions, action and fallback. Direct-source checks on 25 September 2026 found several independent open-weight Jev-like models and numerous project integration paths, but did not verify TypeSafe Jev weights in public sources, model parity, a current production customer deployment or independent workload performance. Direct TypeSafe lists $0.042 per million input tokens and free output; gateway billing and access differ, with Vercel’s promotion/price conflict unresolved.",
   "catalogue_card": {
     "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
-    "text": "Start with a bounded decision and the pilot/wait/stop gate. Before automatic routing, use the 25 September support-ticket protocol to test labelled cases, including out-of-scope and high-confidence errors, and record review load. This pool has no measured Jev result. Earlier alternatives and product audits remain bounded and unchanged."
+    "text": "Compare evidence-labelled use cases, independent model and interface alternatives, direct-code and README project integrations, and dated provider routes. The workload protocol has no results; audit the selected account and data terms before a pilot."
   },
   "summary": [
-    "Choice, Score, and Noul cover routing, scoring, and yes/no gates inside ordinary code.",
-    "The current official record names Jev 1.13 (jev-1.13.0), with jev-latest and jev-preview currently pointing to it, a POST https://api.typesafe.ai/v1/systemone endpoint, $0.042 per million input tokens and free output.",
-    "TypeSafe lists 250,000 tokens/second, 1,200 requests/minute, a 64k request context, a 32k state-plus-longest-question limit, and text-only input; access eligibility and some provider terms remain account checks.",
-    "The 24 September builder branch is pilot, route fallback, substitute, wait, or stop. It is a decision guide, not an access, adoption, or performance measurement.",
-    "The 22 September alternatives audit keeps model identity, interface compatibility, runtime/privacy, workflow role, and trade-offs separate.",
-    "The adapter is the closest interface substitute but calls other LLM providers; SemIf is an independent local experiment; jevlike is a trainable scorer; GLiClass is a classifier; a structured-output LLM is a schema/generation baseline.",
-    "No verified open-weight Jev model was found in the six direct checks on 22 September 2026. This is a verification-status finding, not proof that no such model exists.",
-    "The 23 September bounded adoption audit found no verified production product in the checked sources. killmyidea has direct Jev wiring and public-deployment metadata, but access and adoption remain unverified.",
-    "Jev Showcase is an unofficial local/Docker integration, the TypeSafe playground tool router is an explicitly mocked official-repository demo, jev-usecases is an MIT reference harness with an explicit non-production disclaimer, and Awesome Jev is a lead index only.",
-    "Proposed maintenance cadences are not measured analytics or automated monitoring. Historical values should be marked unknown when their current source is stale or unreachable.",
-    "The 25 September Choice workload-evaluation protocol defines separate consecutive and challenge cohorts, adjudicated gold labels, pinned test inputs and model, fair local baselines, review fallback, and failure-inclusive denominators; all result cells remain blank."
+    "Choice, Score and Noul return bounded decisions; code still owns policy and side effects.",
+    "Kev, CLM, Laya, Jeff and OpenDecision are independent Jev-like alternatives with different weight, API and licence boundaries; they are not TypeSafe Jev weights.",
+    "Numerous Jev integration paths were documented or inspected, but none of the audited rows independently verified a current production customer deployment.",
+    "Direct TypeSafe lists jev-1.13.0, $0.042/M input, free output, dynamic limits and a text-only direct API.",
+    "OpenRouter, Cloudflare, Vercel and Netlify have different endpoints, account terms and pricing; Vercel current charge is unresolved at the promotion boundary.",
+    "The preceding-24-hour monitor found AgentRun and two arXiv papers within the window; X, TikTok, native search surfaces and some time metadata were inaccessible.",
+    "No authenticated call or independent benchmark was run; the workload protocol remains unfilled."
   ],
   "uncertainty": [
-    "A Join Waitlist link was observed on 20 Sep but not in the fetched home text on 24 Sep; this does not prove open signup. Console login eligibility, credit grant, and API-key access remain unverified.",
-    "OpenRouter quotas/fees/data controls, Cloudflare dashboard pricing/retention, Vercel availability, and independent proxy terms/retention remain incomplete.",
-    "TypeSafe legal pages distinguish no training/fine-tuning on Input without consent from service, billing, telemetry, fraud/abuse, legal processing, and ordinary retention; no Jev-specific retention duration is published here.",
-    "Speed, calibration, availability, gateway uptime panels, and provider claims are workload- or route-dependent. No checked public source established a commercial production deployment or customer use.",
-    "The alternatives audit has direct evidence for the adapter, SemIf, jevlike, GLiClass, and the structured-output baseline, but current model parity, full primitive compatibility, privacy/data path, exact licence where not stated, cost, latency, and maintenance remain unknown where the sources are silent.",
-    "The mini-jev repository was not successfully checked in the alternatives refresh; do not carry its historical label forward as a current fact.",
-    "The killmyidea repository shows a Jev endpoint/model path and deployment metadata, but the public host was not accessible to the checker; current operation and adoption remain unknown.",
-    "No checked direct source names a paying customer, operator, case study, production trace, package release in use, or independent usage measure for the audited leads. No authenticated Jev call was made.",
-    "No independent workload measurement, common comparison, or authenticated Jev call was run in these records. Live performance, accuracy, calibration, and fallback success remain unknown.",
-    "The maintenance rules are proposed page-owner rules. They do not establish source freshness, analytics, account access, gateway quotas, customer usage, or automated change detection.",
-    "The 23 Sep TypeSafe MCA revision date is visible, but the exact Sep 19-to-23 clause diff is unknown; review the current MCA, DPA, and selected route before sensitive data.",
-    "The independent proxy self-reports $0.42/M input for $5/$10/$20 packs, $0.35/M for $50, and $0.25/M for $100 on 24 Sep; whether these tiers already existed on 20 Sep, and actual purchase and retention terms, are unknown.",
-    "The support-ticket protocol has not been executed. Workload-specific false-route, out-of-scope, high-impact, latency, review-load, token-cost, and human-resolution outcomes remain unknown. No confidence cutoff is validated for deployment."
+    "TypeSafe Jev weights were not publicly located or published in checked sources; this is not a legal proprietary-status conclusion.",
+    "No same-workload independent comparison establishes Jev-like model parity; Laya licence and base-model terms need checks.",
+    "No audited project was independently verified as a currently operating production Jev product, although direct code and documented integrations exist.",
+    "Account eligibility, credits, live quota, data controls and actual bill were not checked for any route. Vercel pricing/promotion conflict, Netlify credit conversion and Cloudflare dashboard rate remain unresolved.",
+    "X current posts and TikTok were not adequately accessible; the 24-hour scan is bounded, not exhaustive.",
+    "No independent Jev accuracy, calibration, latency, safety or production threshold was measured."
   ],
-  "checked_at": "2026-09-25T06:55:15.957Z",
-  "meaningfully_updated_at": "2026-09-25T06:55:15.957Z",
-  "freshness_note": "On 25 Sep 2026 the direct API, primitive, confidence, model, jaggedness, and legal documentation were checked for a Choice workload-evaluation method. This adds no account test, Jev request, benchmark, new catalogue candidate, or production finding. The 27 Sep access/model/price/limits cadence remains separate; older route, alternatives, and product check dates are not reset."
+  "checked_at": "2026-09-25T16:43:09.384Z",
+  "meaningfully_updated_at": "2026-09-25T16:43:09.384Z",
+  "freshness_note": "Full direct-source catalogue rebuild and bounded 24-hour monitor on 25 September 2026; previous reports remain dated historical snapshots."
 }

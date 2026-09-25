@@ -88,6 +88,17 @@
       "summary": "Prepared an unfilled Choice evaluation method for one support-ticket route. It separates consecutive and challenge cohorts, freezes labels and comparators, includes review and failure accounting, and records that no Jev call or measured result occurred.",
       "report_path": "/p/jev-catalog/reports/workload-evaluation-recipe",
       "entrypoint": "reports/workload-evaluation-recipe/index.html"
+    },
+    {
+      "run_id": "run:manual:c338300f21a06ed237a48a75759ca44f",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-25T16:27:15.811Z",
+      "completed_at": "2026-09-25T16:35:00Z",
+      "title": "Full Jev catalogue rebuild and 24-hour monitor",
+      "summary": "Direct-source rebuild of use cases, independent Jev-like alternatives, project integrations, route pricing and access; no production product or independent benchmark verified. Monitored the preceding 24 hours with documented platform gaps.",
+      "report_path": "/p/jev-catalog/reports/full-catalogue-rebuild",
+      "entrypoint": "reports/full-catalogue-rebuild/index.html"
     }
   ]
 }

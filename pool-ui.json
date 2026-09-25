@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-09-22T05:55:05Z",
+  "meaningfully_updated_at": "2026-09-25T16:43:09.384Z",
   "pages": [
     {
       "id": "home",
@@ -87,6 +87,21 @@
       "description": "Official access, gateways, independent wrappers, and dated prices.",
       "parent": null,
       "entrypoint": "where-to-use/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "research",
+      "slug": "research",
+      "label": "Research history",
+      "icon": "book",
+      "group": "Evidence",
+      "description": "All nine dated reports and the current source ledger.",
+      "parent": null,
+      "entrypoint": "research/index.html",
       "entrypoint_type": "html_fragment",
       "redirects": [],
       "visibility": "public",

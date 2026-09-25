@@ -108,6 +108,18 @@
       "changed_at": "2026-09-25T06:55:15.957Z",
       "summary": "Added a small fit-stage link on the home and use-cases pages to the unfilled workload protocol, with the no-measured-result boundary explicit.",
       "path": "/p/use-cases"
+    },
+    {
+      "change_id": "full-catalogue-rebuild-2026-09-25",
+      "changed_at": "2026-09-25T16:35:00Z",
+      "summary": "Rebuilt every catalogue page, updated the fit tool, added open-weight Jev-like alternatives, direct-source project inventory, Netlify and Vercel access caveats, and complete dated research history.",
+      "path": "/p/jev-catalog"
+    },
+    {
+      "change_id": "full-catalogue-report-2026-09-25",
+      "changed_at": "2026-09-25T16:35:00Z",
+      "summary": "Added full direct-source report and bounded 24-hour platform monitor while retaining eight earlier reports as historical records.",
+      "path": "/p/jev-catalog/reports/full-catalogue-rebuild"
     }
   ]
 }

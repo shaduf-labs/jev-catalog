@@ -161,3 +161,6 @@ tr:last-child td { border-bottom: 0; }
 @media (prefers-reduced-motion: reduce) {
   .fit-tool .meter span { transition: none; }
 }
+.fit-frame { display:block; width:100%; min-height:580px; border:0; margin:24px 0; }
+.report-list { padding-left: 1.3rem; } .report-list li { padding: 12px 0; border-bottom: 1px solid var(--jev-line); }
+.report-page .table-wrap { overflow-x: auto; } .report-page table { table-layout:auto; min-width:680px; }

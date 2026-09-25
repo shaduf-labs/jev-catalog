@@ -570,6 +570,136 @@
       "accessed_at": "2026-09-25T06:55:15.957Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "kev-2026-09-25",
+      "source_type": "community repository",
+      "source_url": "https://github.com/jaredpalmer/kev",
+      "title": "kev",
+      "claim": "Independent Jev-like model/runtime; Kev-4B card provides Apache-2.0 weights, not TypeSafe Jev weights",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "clm-2026-09-25",
+      "source_type": "community repository",
+      "source_url": "https://github.com/Contrastive-LM/CLM",
+      "title": "clm",
+      "claim": "Independent Jev-like model/head with released weights and System One-shaped route; author-run parity claims not adopted",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "laya-2026-09-25",
+      "source_type": "community repository",
+      "source_url": "https://github.com/he-jev/laya",
+      "title": "laya",
+      "claim": "Independent decision-head project; exact weight licence unresolved",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "jeff-2026-09-25",
+      "source_type": "community repository",
+      "source_url": "https://github.com/Gestalt-Lab/jeff",
+      "title": "jeff",
+      "claim": "Independent Qwen adapter with typed readouts; author-run comparison not generalized",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "open-decision-2026-09-25",
+      "source_type": "community repository",
+      "source_url": "https://github.com/deepanwadhwa/OpenDecision",
+      "title": "open-decision",
+      "claim": "Local framework/backend substitute, not a Jev-equivalent checkpoint",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "browser-use-2026-09-25",
+      "source_type": "community code",
+      "source_url": "https://github.com/browser-use/jev-ultrafast/blob/main/jev_ultrafast/model.py",
+      "title": "browser-use",
+      "claim": "Direct TypeSafe Jev request in browser-action code, not production operation evidence",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "json-render-2026-09-25",
+      "source_type": "repository guide/code",
+      "source_url": "https://github.com/vercel-labs/json-render/blob/main/apps/web/lib/jev/README.md",
+      "title": "json-render",
+      "claim": "Experimental Jev composition via Vercel AI Gateway; no customer deployment proved",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "canny-2026-09-25",
+      "source_type": "community code",
+      "source_url": "https://github.com/qkal/Canny/blob/main/src/jev.ts",
+      "title": "canny",
+      "claim": "Direct Jev advisory integration beside deterministic completion ledger",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "agentrun-2026-09-25",
+      "source_type": "community repository",
+      "source_url": "https://github.com/Parcha-ai/agentrun",
+      "title": "agentrun",
+      "claim": "Newly announced adapter with optional live-key path; default demos scripted",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "netlify-route-2026-09-25",
+      "source_type": "provider changelog",
+      "source_url": "https://www.netlify.com/changelog/typesafe-jev-ai-gateway/",
+      "title": "netlify-route",
+      "claim": "Netlify gateway route billed in credits; effective Jev rate unknown",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "vercel-route-2026-09-25",
+      "source_type": "provider model page",
+      "source_url": "https://vercel.com/ai-gateway/models/jev",
+      "title": "vercel-route",
+      "claim": "Model listing price conflicts with free-through-25-Sep launch promotion; current charge unknown",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "jev-mobile-2026-09-25",
+      "source_type": "research paper",
+      "source_url": "https://arxiv.org/abs/2609.30186",
+      "title": "jev-mobile",
+      "claim": "24 Sep author-reported mobile GUI experiment, not deployed product",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "jev-wild-2026-09-25",
+      "source_type": "research paper",
+      "source_url": "https://arxiv.org/abs/2609.30216",
+      "title": "jev-wild",
+      "claim": "24 Sep paper reports a 2,170-project dataset, not independently verified products",
+      "accessed_at": "2026-09-25T16:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

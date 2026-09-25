@@ -16,7 +16,7 @@
     <meta property="og:description" content="Where Choice, Score, and Noul fit in software.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/use-cases/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Use cases","description":"Where Choice, Score, and Noul fit in software.","dateModified":"2026-09-25T06:55:15.957Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Use cases","description":"Where Choice, Score, and Noul fit in software.","dateModified":"2026-09-25T16:43:09.384Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../feed.xml"><link rel="stylesheet" href="../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="use-cases">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -42,55 +42,38 @@
   </header>
     <aside class="left-surface" data-left-surface>
     <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
-    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../index.html" ><span aria-hidden="true">·</span><b>Jev catalogue</b></a><a href="../what-is-jev/index.html" ><span aria-hidden="true">·</span><b>What is Jev? ELI5</b></a></nav></section><section class="tree-group"><div class="tree-label">Build decisions</div><nav aria-label="Build decisions"><a href="index.html" aria-current="page"><span aria-hidden="true">·</span><b>Use cases</b></a><a href="../alternatives/index.html" ><span aria-hidden="true">·</span><b>Open-source alternatives</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../products/index.html" ><span aria-hidden="true">box</span><b>Products and projects</b></a></nav></section><section class="tree-group"><div class="tree-label">Access</div><nav aria-label="Access"><a href="../where-to-use/index.html" ><span aria-hidden="true">·</span><b>Where to use and price</b></a></nav></section></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../index.html" ><span aria-hidden="true">·</span><b>Jev catalogue</b></a><a href="../what-is-jev/index.html" ><span aria-hidden="true">·</span><b>What is Jev? ELI5</b></a></nav></section><section class="tree-group"><div class="tree-label">Build decisions</div><nav aria-label="Build decisions"><a href="index.html" aria-current="page"><span aria-hidden="true">·</span><b>Use cases</b></a><a href="../alternatives/index.html" ><span aria-hidden="true">·</span><b>Open-source alternatives</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../products/index.html" ><span aria-hidden="true">box</span><b>Products and projects</b></a><a href="../research/index.html" ><span aria-hidden="true">·</span><b>Research history</b></a></nav></section><section class="tree-group"><div class="tree-label">Access</div><nav aria-label="Access"><a href="../where-to-use/index.html" ><span aria-hidden="true">·</span><b>Where to use and price</b></a></nav></section></div>
     
   </aside>
     <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><link rel="stylesheet" href="../assets/jev-catalogue.css">
-<article class="jev-page">
-  <div class="eyebrow">Page 01 · Fit test</div>
-  <h1>What can I build with Jev?</h1>
-  <p class="lede">Use Jev when software needs a bounded judgment rather than generated text.</p>
-
-  <div class="callout teal"><strong>Model shape:</strong> state plus typed questions in; a Choice, Score, or Noul answer with probabilities out. The answer space is defined before the call, so the output can be consumed without free-form parsing.</div>
-
-  <div class="callout blue"><strong>Task-fit gate · synthesis checked 24 Sep 2026:</strong> <strong>Pass</strong> when the workload has labelled state and a closed Choice, ordered Score, or yes/no Noul question, with code defining the next action. <strong>Stop</strong> for open-ended writing, code generation, summaries, conversation, arithmetic, or a deterministic policy. <strong>Unknown</strong> remains for accuracy, calibration, and error cost until the builder tests a fixed workload. No independent workload measurement was run for this catalogue.</div>
-
-  <div class="grid three">
-    <div class="card"><span class="tag blue">Choice</span><h3>Route or select</h3><p>Pick one of your labels: support queue, document type, model tier, tool, lead bucket, or next workflow step.</p><p class="small">Best when the options are known and the code can reject low confidence.</p></div>
-    <div class="card"><span class="tag">Score</span><h3>Prioritise or rank</h3><p>Place a state on an ordered rubric: urgency, risk, quality, fit, or review level.</p><p class="small">Best when you can define what each level means and validate it on real examples.</p></div>
-    <div class="card"><span class="tag amber">Noul</span><h3>Gate or escalate</h3><p>Ask whether a condition is true: escalate, allow, complete, safe, or worth a human review.</p><p class="small">Best when the probability feeds a conservative threshold in your code.</p></div>
-  </div>
-
-  <h2>Patterns that fit the boundary</h2>
-  <div class="table-wrap"><table><thead><tr><th>Pattern</th><th>Jev decides</th><th>Your system still owns</th></tr></thead><tbody>
-    <tr><td>Support triage</td><td>Topic, urgency, escalation probability</td><td>Queue permissions, reply text, SLA policy, human handoff</td></tr>
-    <tr><td>Model routing</td><td>Complexity or risk bucket</td><td>Which provider to call, budgets, retries, and the final response</td></tr>
-    <tr><td>Tool-call guardrail</td><td>Whether a proposed action looks risky</td><td>Allowlist, authentication, confirmation, and execution</td></tr>
-    <tr><td>Moderation or review</td><td>Policy label and review score</td><td>Appeal path, evidence, enforcement, and audit record</td></tr>
-    <tr><td>Data extraction</td><td>Which declared field or category fits</td><td>Schema checks, missing values, storage, and correction flow</td></tr>
-  </tbody></table></div>
-
-  <div class="callout teal"><strong>Before production, test your own labelled cases.</strong> Include out-of-scope, ambiguous, security/privacy, and high-confidence wrong-route cases. Record false routes alongside the review load; a typed response alone does not establish decision quality. Keep irreversible actions behind a verified code or human fallback. <a href="../reports/workload-evaluation-recipe/index.html">Use the support-ticket evaluation recipe</a> (method only; no Jev result).</div>
-
-  <h2>A safe first spike</h2>
-  <ol class="steps">
-    <li><div><strong>Pick one repeated branch.</strong> Start with a decision that currently costs a slow LLM call or brittle rules—not the whole product.</div></li>
-    <li><div><strong>Write the answer space.</strong> Name the options or 2–10 score levels. Define what a “yes” means for Noul.</div></li>
-    <li><div><strong>Measure your workload.</strong> The catalogue has no independent workload measurement. On labelled examples, record accuracy, calibration, latency, state size, and the cost of a wrong decision.</div></li>
-    <li><div><strong>Keep a fallback.</strong> Route uncertain or high-impact cases to a rule, larger model, or person until the evidence earns automation.</div></li>
-  </ol>
-
-  <div class="callout red"><strong>Boundary:</strong> Jev is not a replacement for writing, code generation, summarisation, open-ended conversation, arithmetic, or a policy engine that must be deterministic. “Cannot hallucinate” means Jev stays inside your declared output space; it can still choose the wrong valid option.</div>
-
-  <div class="source-list"><strong>Sources checked 20 Sep 2026</strong><ul>
-    <li><a href="https://typesafe.ai/blog/introducing-system-one-models-and-jev">TypeSafe launch post</a> — official use-case framing and vendor-reported claims.</li>
-    <li><a href="https://docs.typesafe.ai/primitives">TypeSafe primitives</a> — Choice, Score, and Noul contract.</li>
-    <li><a href="https://docs.typesafe.ai/patterns">TypeSafe patterns</a> — workflow patterns and code-led control.</li>
-    <li><a href="https://github.com/TypeSafeAI/typesafe-playground/blob/main/docs/tool-router.md">TypeSafe playground router</a> — an official demo that explicitly mocks execution.</li>
-  </ul></div>
-</article>
+<article class="jev-page"><div class="eyebrow">Use cases · checked 25 September 2026</div><h1>What can I build with Jev?</h1>
+<p class="lede">The useful unit is one bounded judgment in a larger workflow, not the entire application. These rows separate code observed in a project (implementation), documented examples, an author-reported experiment, and proposed patterns.</p>
+<div class="callout blue"><strong>Fit test:</strong> define an answer space; keep permissions, thresholds and side effects in code; include an other/review route; test wrong and high-confidence answers on your own labelled cases. A Choice distribution or schema-valid object is not a correctness guarantee. Noul returns a yes probability, not a built-in third outcome or separate confidence.</div>
+<h2>Inspected implementation paths</h2>
+<div class="table-wrap"><table><thead><tr><th>Pattern and source</th><th>Input → Jev output → code action</th><th>Failure check</th></tr></thead><tbody>
+<tr><td><a href="https://github.com/browser-use/jev-ultrafast/blob/main/jev_ultrafast/model.py">Browser action selection</a><br>Direct call code</td><td>Indexed DOM elements, goal and recent actions → operation/target Choices → guarded browser action; a separate LLM types open text.</td><td>Recheck stale or covered targets and destructive actions; repository demo does not show general task success.</td></tr>
+<tr><td><a href="https://github.com/vercel-labs/json-render/blob/main/apps/web/lib/jev/README.md">UI composition</a><br>Repository guide and <a href="https://github.com/vercel-labs/json-render/blob/main/apps/web/lib/jev/compose.ts">source path</a></td><td>App-owned component candidates → membership/layout Choices → code validates the assembled tree.</td><td>Candidate library and bindings limit possible UI; experimental playground, not arbitrary JSON generation or production use.</td></tr>
+<tr><td><a href="https://github.com/tamaratran/fast-jev-compaction">Coding-context selection</a><br>Repository documentation</td><td>Tool history and task → keep/drop judgments → retain selected context verbatim.</td><td>Wrong deletion may hide needed evidence; record and recover removed context. Project evaluations are not independent results.</td></tr>
+<tr><td><a href="https://github.com/qkal/Canny/blob/main/src/jev.ts">Completion check</a><br>Direct call code</td><td>Edit/check ledger and completion claim → advisory semantic judgment → deterministic ledger still blocks unsupported done claims.</td><td>Jev does not authorize completion; no-key mode remains local.</td></tr>
+<tr><td><a href="https://github.com/devagrawal09/jev-review">Code-review triage</a><br>README-described workflow</td><td>Diff/files → staged risk and severity judgments → local dashboard and reviewer priorities.</td><td>No claim of secure automated review or production deployment.</td></tr>
+<tr><td><a href="https://github.com/sharziki/semdecide">Shell/CI semantic filter</a><br>README-described CLI</td><td>UTF-8/JSONL → Noul, Choice or Score → exit code, JSON output or escalation.</td><td>Text is sent to TypeSafe; provider failure is distinct from false and guard mode escalates on failure.</td></tr>
+</tbody></table></div>
+<h2>Documented examples and studies</h2>
+<div class="table-wrap"><table><thead><tr><th>Pattern and evidence</th><th>Input → output → action</th><th>Limit</th></tr></thead><tbody>
+<tr><td><a href="https://docs.typesafe.ai/api">Support routing</a>; <a href="https://www.netlify.com/changelog/typesafe-jev-ai-gateway/">Netlify example</a><br>Vendor examples</td><td>Ticket and metadata → queue Choice and optional urgency Noul → code routes or reviews.</td><td>Unknown or multiple intents need review; no automatic refund or account change.</td></tr>
+<tr><td><a href="https://developers.cloudflare.com/ai/models/typesafe/jev/">Refund, support and account-risk examples</a><br>Cloudflare examples</td><td>Declared case state → typed judgment → application-owned routing or review.</td><td>Examples are API-shaped, not proof of deployed customer workloads.</td></tr>
+<tr><td><a href="https://openrouter.ai/blog/tutorials/how-to-use-jev/">Marketplace moderation</a><br>Provider tutorial</td><td>Listing fields → bounded policy/contradiction judgments → code chooses publish, hold or reject.</td><td>Evaluate on consented, labelled cases; keep appeal and human review.</td></tr>
+<tr><td><a href="https://arxiv.org/abs/2609.30186">Mobile GUI action loop</a><br>Author-reported 24 Sep experiment</td><td>VLM plan and accessibility tree → Jev action selection → guarded mobile action.</td><td>Reported AndroidWorld result was not independently replicated; no deployed app verified.</td></tr>
+</tbody></table></div>
+<h2>Proposed patterns, not observed Jev deployments</h2>
+<div class="table-wrap"><table><thead><tr><th>Pattern</th><th>Input → output → action</th><th>Limit</th></tr></thead><tbody>
+<tr><td>Document field selection</td><td>OCR-extracted candidate values → Choice among observed values plus missing → code validates provenance and schema.</td><td>Jev cannot supply an absent value; OCR and storage are separate.</td></tr>
+<tr><td>Model or tool tier routing</td><td>Task features and permitted options → tier/tool Choice → code checks budgets and permissions before calling it.</td><td>Measure full pipeline cost, errors, fallback and review load, not only one decision call.</td></tr>
+</tbody></table></div>
+<div class="callout teal"><strong>Evaluation method:</strong> <a href="../reports/workload-evaluation-recipe/index.html">the support-ticket workload protocol</a> defines labelled and challenge cohorts with blank results. No Jev call, benchmark, accuracy, confidence cutoff or production-safety result was measured for this catalogue.</div>
+<p class="small">Core source: <a href="https://docs.typesafe.ai/primitives">TypeSafe primitives</a> and <a href="https://docs.typesafe.ai/model-jaggedness/jev-1.13">model jaggedness</a>, checked 25 September 2026. Each linked project is evidence for its own described pattern, not general Jev performance.</p></article>
 <!-- SHADUF_AGENT_DOCUMENT_END --></div>
     </article><div class="center-fade" aria-hidden="true"></div></main>
     <aside class="right-surface" data-right-surface>
