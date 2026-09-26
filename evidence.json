@@ -810,6 +810,176 @@
       "accessed_at": "2026-09-25T18:20:11Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-vercel-model",
+      "source_type": "primary source or public observation",
+      "source_url": "https://vercel.com/ai-gateway/models/jev",
+      "title": "Vercel Jev model",
+      "claim": "26 Sep display still said Free for TypeSafe AI and DigitalOcean provider rows while stating promotion ended 25 Sep.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-vercel-announcement",
+      "source_type": "primary source or public observation",
+      "source_url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
+      "title": "Vercel Jev announcement",
+      "claim": "Announcement said free until 25 Sep; not a current account rate.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-vercel-general",
+      "source_type": "primary source or public observation",
+      "source_url": "https://vercel.com/docs/ai-gateway/pricing",
+      "title": "Vercel Gateway general pricing",
+      "claim": "General credits and no-markup language do not state Jev post-promotion provider-specific rate or eligibility.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-cloudflare-jev",
+      "source_type": "primary source or public observation",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Cloudflare Jev model",
+      "claim": "First-party page lists $0.042/M input and $0 output/cached input, 32k context and ZDR Yes for route.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-opper-card",
+      "source_type": "primary source or public observation",
+      "source_url": "https://opper.ai/typesafe/jev-1-13-0",
+      "title": "Opper Jev card",
+      "claim": "Card displays rounded $0.04/M input and $0 output; ZDR not established.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-opper-article",
+      "source_type": "primary source or public observation",
+      "source_url": "https://opper.ai/blog/jev-vs-kev-open-decision-model",
+      "title": "Opper Jev versus Kev article",
+      "claim": "Opper describes System One endpoint, asserts $0.042/M rate and reports its own 362-item comparison.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-opper-repo",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/opper-ai/jev-vs-kev",
+      "title": "Opper comparison repository",
+      "claim": "Repository supplies code, manifest and results for one operator-run suite; pool did not rerun it.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-opper-manifest",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/opper-ai/jev-vs-kev/blob/main/fresh_manifest.jsonl",
+      "title": "Opper frozen item manifest",
+      "claim": "Provides source URLs and labels for 362 operator-run comparison items.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-opper-results",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/opper-ai/jev-vs-kev/blob/main/results.md",
+      "title": "Opper comparison results",
+      "claim": "Operator-reported accuracy, calibration, counted-token and latency results; not independent pool measures.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-laya-card",
+      "source_type": "primary source or public observation",
+      "source_url": "https://huggingface.co/convaiinnovations/laya",
+      "title": "Laya model card",
+      "claim": "Card links NandhaKishorM/laya, lists Apache-2.0 and documents root-checkpoint limits.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-laya-repo",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/NandhaKishorM/laya",
+      "title": "Laya linked implementation",
+      "claim": "Quick start loads convaiinnovations/laya; implementation claims Apache-2.0.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-laya-he",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/he-jev/laya",
+      "title": "he-jev/laya",
+      "claim": "Separate related namespace; identical code or weights not proven by inspected provenance or checksum.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-qwen-base",
+      "source_type": "primary source or public observation",
+      "source_url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "title": "Qwen3.8-27B base card",
+      "claim": "Separately supplied base weights list Apache-2.0; this does not establish JevAny adapter licences.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-jevany",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/weitianxin/JevAny",
+      "title": "JevAny repository",
+      "claim": "Claims two rank-16 adapters; SFT/RLCR cards inaccessible and individual licences unverified.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-jev-trade",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/aowang-ai/jev-trade",
+      "title": "Jev Trade repository",
+      "claim": "Default mock and testnet configuration; keyless mode simulates fills.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-jev-trade-desk",
+      "source_type": "primary source or public observation",
+      "source_url": "https://www.jev-trade.com/",
+      "title": "Jev Trade public desk",
+      "claim": "Displayed Offline and blank positions/trades on 26 Sep; not a live-operation verification.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "26-reddit-opper",
+      "source_type": "primary source or public observation",
+      "source_url": "https://www.reddit.com/r/LocalLLaMA/comments/1wq2hfc/jev_vs_kev_opensource_jev_alternative_tested_side/",
+      "title": "Opper Reddit announcement",
+      "claim": "Displayed around 40 minutes old near 05:05 UTC on 26 Sep; approximate in-window announcement.",
+      "accessed_at": "2026-09-26T05:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

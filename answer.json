@@ -1,29 +1,31 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Jev is TypeSafe AI’s hosted model for bounded Choice, Score and Noul judgments; application code owns validation, policy, permissions, action and fallback. Direct-source checks on 25 September 2026 found more documented integrations and independent open-weight/local substitutes, but no public TypeSafe Jev weights, independently verified production deployment or same-workload parity benchmark. TypeSafe direct lists $0.042/M input tokens and free output. Vercel displayed Free for TypeSafe AI and DigitalOcean provider rows through a promotion ending 25 September; eligibility and post-promotion price are unknown.",
+  "current_answer": "Jev is TypeSafe AI’s hosted model for bounded Choice, Score and Noul judgments; application code owns validation, policy, permissions, action and fallback. On 26 September Vercel still displayed Free for its Jev provider rows although its promotion said it ended 25 September; the effective rate and eligibility are unknown. Cloudflare’s Jev-specific page lists $0.042/M input and $0 output/cached input. Opper lists another route and reports one Jev–Kev comparison; we did not rerun it. No authenticated Jev call, account bill, independent parity result or verified production deployment was established.",
   "catalogue_card": {
     "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
-    "text": "Compare evidence-labelled project and official-example use cases, independent weights versus interfaces/runtimes, direct-code versus documented and mock projects, and dated provider routes. No live Jev call or bill was checked."
+    "text": "Compare evidence-labelled project and official-example use cases, independent weights versus interfaces/runtimes, direct-code versus documented and mock projects, and dated provider routes. Vercel post-promotion effective rate is unknown; Cloudflare has a Jev-specific public list. No live Jev call or bill was checked."
   },
   "summary": [
     "Choice, Score and Noul are bounded judgments; code owns policy, review and side effects.",
-    "Independent artifacts include Kev, CLM, Open-Jev, system-one and NanoJev; local interfaces/runtimes replace different layers, not TypeSafe weights.",
-    "Email, document, SQL, WordPress, browser and developer tools document Jev paths; no audited row independently verifies production.",
-    "TypeSafe direct lists jev-1.13.0 and $0.042/M input with free output; no account call was made.",
-    "Vercel showed Free provider rows with a promotion ending 25 Sep; post-promotion price unknown. Cloudflare and Netlify require account rate checks.",
-    "The 24 Sep 18:20–25 Sep 18:20 UTC monitor is bounded by native-feed failures.",
-    "No independent benchmark or filled workload evaluation exists."
+    "Independent artifacts include Kev, CLM and Laya; Laya’s linked convai model card and Nandha implementation are distinct from unverified he-jev identity.",
+    "JevAny’s Qwen base card lists Apache-2.0, but its adapter files and individual licences remained unverified.",
+    "Email, document, SQL, WordPress, browser and developer tools document Jev paths; Jev Trade defaults to mock and its public desk was Offline. No audited production operation was verified.",
+    "TypeSafe direct and OpenRouter list $0.042/M input; Cloudflare now lists $0.042/M input and zero output/cached input.",
+    "Vercel still displayed Free on 26 Sep after its stated 25 Sep promotion end; effective post-promotion rate and eligibility are unknown.",
+    "Opper adds a public route and one operator-reported 362-item Jev–Kev suite; the pool did not rerun it.",
+    "The exact 25 Sep 05:03:32–26 Sep 05:03:32 UTC monitor is bounded by native-feed failures."
   ],
   "uncertainty": [
-    "TypeSafe Jev weights were not publicly located in checked sources; this is not a legal conclusion.",
-    "Alternative parity and some checkpoint/base licences remain unverified; similar names have distinct lineages.",
-    "No audited row independently verified production; author live-use claims are different evidence.",
-    "Account eligibility, bill, Cloudflare rate, Netlify conversion and Vercel post-promotion rate unknown.",
-    "Native X, TikTok, GitHub timestamp, YouTube and Reddit feeds inaccessible or incomplete; no full 24-hour coverage claimed.",
-    "No Jev call or independent accuracy, calibration, latency or safety measurement."
+    "Vercel effective post-promotion provider-specific rate, eligibility and actual bill are unknown; stale Free display is not proof of a free current rate.",
+    "Cloudflare quota/bill and application-wide data boundary, Netlify credit conversion, and Opper entitlement/routing/terms/bill are unverified.",
+    "TypeSafe Jev weights were not publicly located; alternative parity and some separate checkpoint, adapter and base licences remain unverified.",
+    "he-jev/laya file identity and JevAny adapter files, hashes and individual licences remain unverified.",
+    "No audited row independently verified current production; author claims and offline demos are different evidence.",
+    "Native X, TikTok, GitHub timestamps, YouTube and Reddit feeds were inaccessible or incomplete; no full 24-hour coverage claimed.",
+    "No pool-run Jev call or independent accuracy, calibration, latency, safety or billing measurement."
   ],
-  "checked_at": "2026-09-25T18:20:11Z",
-  "meaningfully_updated_at": "2026-09-25T18:20:11Z",
-  "freshness_note": "Second direct-source pass on 25 September 2026; exact preceding-24-hour monitor bounded by native-feed gaps. Nine earlier reports remain dated snapshots."
+  "checked_at": "2026-09-26T05:07:00Z",
+  "meaningfully_updated_at": "2026-09-26T05:07:00Z",
+  "freshness_note": "Selected direct-source check 26 September 2026; exact preceding-24-hour monitor bounded by native-feed gaps. Ten earlier reports remain dated snapshots."
 }

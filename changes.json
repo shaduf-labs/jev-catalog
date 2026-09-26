@@ -132,6 +132,36 @@
       "changed_at": "2026-09-25T18:20:11Z",
       "summary": "Added dated source pass with exact 24-hour window, primary links, feed-access gaps and unresolved outcomes; retained nine earlier snapshots.",
       "path": "/p/jev-catalog/reports/second-source-pass"
+    },
+    {
+      "change_id": "post-promotion-vercel",
+      "changed_at": "2026-09-26T05:07:00Z",
+      "summary": "On 26 Sep, Vercel still displayed Free despite its stated 25 Sep Jev promotion end; effective post-promotion rate and eligibility remain unknown.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "cloudflare-jev-rate",
+      "changed_at": "2026-09-26T05:07:00Z",
+      "summary": "Replaced dashboard-only Jev price note with Cloudflare’s Jev-specific $0.042/M input and $0 output/cached input list.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "opper-route-comparison",
+      "changed_at": "2026-09-26T05:07:00Z",
+      "summary": "Added Opper Jev route, rounded versus asserted exact price distinction, and one operator-reported 362-item Jev–Kev comparison.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "artifact-boundaries",
+      "changed_at": "2026-09-26T05:07:00Z",
+      "summary": "Linked Laya canonical model card and implementation; marked he-jev identity unverified and separated JevAny base from inaccessible adapter licences.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "post-promotion-report",
+      "changed_at": "2026-09-26T05:07:00Z",
+      "summary": "Added the dated 26 Sep change-audit report and preserved ten historical reports.",
+      "path": "/p/jev-catalog/reports/post-promotion-route-check"
     }
   ]
 }

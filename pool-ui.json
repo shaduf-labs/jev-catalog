@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-09-25T18:20:11Z",
+  "meaningfully_updated_at": "2026-09-26T05:07:00Z",
   "pages": [
     {
       "id": "home",
@@ -84,7 +84,7 @@
       "label": "Where to use and price",
       "icon": "wallet",
       "group": "Access",
-      "description": "Public routes and prices, including Vercel’s 25 Sep promotion boundary.",
+      "description": "Public routes and list prices; Vercel Free display conflicts with its expired promotion, and effective rate is unknown.",
       "parent": null,
       "entrypoint": "where-to-use/index.html",
       "entrypoint_type": "html_fragment",
@@ -99,7 +99,7 @@
       "label": "Research history",
       "icon": "book",
       "group": "Evidence",
-      "description": "All ten dated reports, newest source pass first.",
+      "description": "Eleven dated reports, newest selected-source route and comparison check first.",
       "parent": null,
       "entrypoint": "research/index.html",
       "entrypoint_type": "html_fragment",
