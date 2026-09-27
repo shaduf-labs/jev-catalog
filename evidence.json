@@ -980,6 +980,176 @@
       "accessed_at": "2026-09-26T05:07:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-vercel-model",
+      "source_type": "primary source or public observation",
+      "source_url": "https://vercel.com/ai-gateway/models/jev",
+      "title": "Vercel Jev model",
+      "claim": "27 Sep rounded $0.04/M input on both provider rows; 26 Sep Free/promotion text no longer accessible. Exact tariff and eligibility unknown.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-vercel-general",
+      "source_type": "primary source or public observation",
+      "source_url": "https://vercel.com/docs/ai-gateway/pricing",
+      "title": "Vercel Gateway general pricing",
+      "claim": "$5/month credit applies to subset of eligible free-tier models; no Jev-specific eligibility established.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-vercel-launch",
+      "source_type": "primary source or public observation",
+      "source_url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
+      "title": "Vercel Jev launch notice",
+      "claim": "Previously recorded promo sentence no longer accessible on 27 Sep; no change hour stated.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-typesafe-model",
+      "source_type": "primary source or public observation",
+      "source_url": "https://docs.typesafe.ai/models",
+      "title": "TypeSafe model list",
+      "claim": "jev-1.13.0, aliases, $0.042/M input, free output and dynamic listed limits unchanged.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-typesafe-api",
+      "source_type": "primary source or public observation",
+      "source_url": "https://docs.typesafe.ai/api",
+      "title": "TypeSafe API",
+      "claim": "Bearer-key System One endpoint and typed questions.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-typesafe-mca",
+      "source_type": "primary source or public observation",
+      "source_url": "https://typesafe.ai/legal/mca",
+      "title": "TypeSafe MCA",
+      "claim": "Displays 23 Sep update and current processing terms; exact 19→23 diff unknown.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-typesafe-privacy",
+      "source_type": "primary source or public observation",
+      "source_url": "https://typesafe.ai/legal/privacy-policy",
+      "title": "TypeSafe privacy",
+      "claim": "Displays 19 Nov 2025; no input training is distinct from indefinite zero retention.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-typesafe-dpa",
+      "source_type": "primary source or public observation",
+      "source_url": "https://typesafe.ai/legal/data-processing",
+      "title": "TypeSafe DPA",
+      "claim": "Displays 24 Apr 2026 with processor/subprocessor terms.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-openrouter",
+      "source_type": "primary source or public observation",
+      "source_url": "https://openrouter.ai/typesafe/jev-1.13/",
+      "title": "OpenRouter Jev",
+      "claim": "Lists $0.042/M input and $0 output, 32k context.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-cloudflare",
+      "source_type": "primary source or public observation",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Cloudflare Jev",
+      "claim": "Lists $0.042/M input, $0 output/cached and route-level ZDR Yes.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-netlify",
+      "source_type": "primary source or public observation",
+      "source_url": "https://www.netlify.com/changelog/typesafe-jev-ai-gateway/",
+      "title": "Netlify Jev route",
+      "claim": "Describes Functions SDK and Netlify credits; no Jev USD/token conversion.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-opper",
+      "source_type": "primary source or public observation",
+      "source_url": "https://opper.ai/typesafe/jev-1-13-0",
+      "title": "Opper Jev card",
+      "claim": "Rounded $0.04/M input, premium model, ZDR not established.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-quantdinger",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/OpenByteInc/QuantDinger",
+      "title": "QuantDinger",
+      "claim": "README describes optional Jev entry Choice gate, exits bypass, error fail-open and fallback; live Jev use unverified.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-cli",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/okooo5km/jev",
+      "title": "Community Jev CLI",
+      "claim": "README-described direct/OpenRouter CLI; exact in-window release date unknown.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-jevmail",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/fazlerocks/jevmail",
+      "title": "Jevmail",
+      "claim": "No-key preview simulator and Vercel path; free Jev eligibility unverified.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-jevtrade",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/aowang-ai/jev-trade",
+      "title": "Jev Trade",
+      "claim": "Mock/testnet defaults and keyless simulation; live Jev trading unverified.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "27-jevtrade-desk",
+      "source_type": "primary source or public observation",
+      "source_url": "https://www.jev-trade.com/",
+      "title": "Jev Trade desk",
+      "claim": "Offline with blank positions and trades at 27 Sep check.",
+      "accessed_at": "2026-09-27T05:09:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
     }
   ]
 }

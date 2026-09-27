@@ -121,6 +121,17 @@
       "summary": "Vercel still displayed Free after its stated 25 Sep promotion end; effective Jev rate unknown. Cloudflare listed $0.042/M input and zero output/cached input. Added Opper route and one operator-reported Jev–Kev suite; narrowed Laya and JevAny artifact boundaries.",
       "report_path": "/p/jev-catalog/reports/post-promotion-route-check",
       "entrypoint": "reports/post-promotion-route-check/index.html"
+    },
+    {
+      "run_id": "run:fd126dac-9390-4889-8a56-28cf9775eab7",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-27T05:00:00Z",
+      "completed_at": "2026-09-27T05:09:00Z",
+      "title": "Seven-day Jev access checkpoint and daily discovery",
+      "summary": "Vercel now shows rounded $0.04/M input instead of its 26 Sep Free display; exact tariff, Jev free-credit eligibility and bill unverified. Other route lists rechecked; QuantDinger documented as optional fail-open integration, not verified live operation.",
+      "report_path": "/p/jev-catalog/reports/seven-day-access-checkpoint",
+      "entrypoint": "reports/seven-day-access-checkpoint/index.html"
     }
   ]
 }

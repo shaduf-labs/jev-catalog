@@ -162,6 +162,24 @@
       "changed_at": "2026-09-26T05:07:00Z",
       "summary": "Added the dated 26 Sep change-audit report and preserved ten historical reports.",
       "path": "/p/jev-catalog/reports/post-promotion-route-check"
+    },
+    {
+      "change_id": "seven-day-route-check-2026-09-27",
+      "changed_at": "2026-09-27T05:09:00Z",
+      "summary": "Updated current Vercel Jev provider-row display to rounded $0.04/M input from historical 26 Sep Free; kept exact tariff, free-credit eligibility and bill unverified. Rechecked other routes and data terms.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "quantdinger-bounded-lead-2026-09-27",
+      "changed_at": "2026-09-27T05:09:00Z",
+      "summary": "Added QuantDinger only as a creator-documented optional Jev entry gate with fail-open, exit bypass and no verified live Jev or trade; updated Jevmail and Jev Trade checks.",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "seven-day-report-2026-09-27",
+      "changed_at": "2026-09-27T05:09:00Z",
+      "summary": "Added dated seven-day access and daily-discovery report with fixed monitor window, comparison and discovery limits; kept all eleven historical reports.",
+      "path": "/p/jev-catalog/reports/seven-day-access-checkpoint"
     }
   ]
 }
