@@ -180,6 +180,18 @@
       "changed_at": "2026-09-27T05:09:00Z",
       "summary": "Added dated seven-day access and daily-discovery report with fixed monitor window, comparison and discovery limits; kept all eleven historical reports.",
       "path": "/p/jev-catalog/reports/seven-day-access-checkpoint"
+    },
+    {
+      "change_id": "implementation-path-catalogue-2026-09-28",
+      "changed_at": "2026-09-28T05:09:00Z",
+      "summary": "Updated home, use cases, products and Jev explainer with source-path distinctions for Jevmail, WordPress and QuantDinger; separated code policy and mocked tests from live use.",
+      "path": "/p/jev-catalog"
+    },
+    {
+      "change_id": "implementation-path-report-2026-09-28",
+      "changed_at": "2026-09-28T05:09:00Z",
+      "summary": "Added dated implementation-path audit, exact 27–28 September monitor window, file/test ledger, route check and native-feed limitations; retained all twelve earlier reports.",
+      "path": "/p/jev-catalog/reports/implementation-path-audit"
     }
   ]
 }

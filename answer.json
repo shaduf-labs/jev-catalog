@@ -1,21 +1,19 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Jev is TypeSafe AI’s hosted model for bounded Choice, Score and Noul judgments; application code owns validation, policy, permissions, action and fallback. On 27 September Vercel displayed rounded $0.04/M input on its TypeSafe AI and DigitalOcean provider rows, replacing the 26 September Free display. The exact tariff, Jev free-credit eligibility and billed cost remain unverified. Other public route lists were checked, but no authenticated Jev call, independent parity result or verified production deployment was established.",
+  "current_answer": "Jev is TypeSafe AI’s hosted model for bounded Choice, Score and Noul judgments; application code owns validation, policy, permissions, action and fallback. The 28 September source-path audit found different contracts: Jevmail classifier errors propagate after limited retries; configured WordPress comment triage holds eligible comments on provider error but an absent provider leaves WordPress’s original decision; QuantDinger’s optional entry gate can allow after missing key, credit denial, invalid response or provider error. These are code observations, not observed live Jev use. Public route listings showed no established material change from 27 September; exact account terms and bills remain unverified.",
   "catalogue_card": {
     "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
-    "text": "Compare evidence-labelled use cases, independent weights versus interfaces/runtimes, documented versus mocked projects, and dated provider routes. Vercel now shows a rounded input list, not a verified account tariff or Jev free-credit entitlement. No live Jev call or bill was checked."
+    "text": "Compare source-backed use cases, independent alternatives, code-backed versus mocked project behavior, and dated public route listings. The 28 September audit does not verify live Jev deployment or account cost."
   },
   "summary": [
-    "Choice, Score and Noul are bounded judgments; code owns policy, review and side effects.",
-    "Independent artifacts include Kev, CLM and Laya; Laya’s linked convai model card and Nandha implementation are distinct from unverified he-jev identity.",
-    "JevAny’s Qwen base card lists Apache-2.0, but its adapter files and individual licences remained unverified.",
-    "Email, document, SQL, WordPress, browser and developer tools document Jev paths; Jev Trade defaults to mock and its public desk was Offline. No audited production operation was verified.",
-    "TypeSafe direct and OpenRouter list $0.042/M input; Cloudflare now lists $0.042/M input and zero output/cached input.",
-    "Opper adds a public route and one operator-reported 362-item Jev–Kev suite; the pool did not rerun it.",
-    "Vercel’s 27 Sep Jev page shows rounded $0.04/M input on two provider rows, replacing its 26 Sep Free display; exact tariff, eligibility and bill remain unverified.",
-    "QuantDinger documents an optional Jev pre-trade entry gate with fail-open and exit bypass; no live Jev call or trading outcome was verified.",
-    "The exact 26 Sep 05:06:53–27 Sep 05:06:53 UTC monitor is bounded by native-feed failures; date-only project updates are not verified in-window launches."
+    "Choice, Score and Noul are bounded judgments; application code owns policy, review and side effects.",
+    "Jevmail uses the AI SDK Jev classifier; no-key preview is a simulator and low confidence is a flag, not a review gate.",
+    "Configured WordPress Jev Comment Triage holds eligible comments on provider error; absent provider preserves WordPress’s original decision.",
+    "QuantDinger source and mocked tests show an optional entry gate with fallback/allow paths; no live Jev call or trade was observed.",
+    "Independent Jev-like weights, local runtimes and adapters remain distinct from TypeSafe Jev weights and verified parity.",
+    "27–28 September route listings showed no established new material change; displayed prices are not an account bill or entitlement.",
+    "No exact-time new item was verified in the 27 Sep 05:05:48–28 Sep 05:05:48 UTC monitor; multiple native feeds failed, so coverage is incomplete."
   ],
   "uncertainty": [
     "Vercel exact provider-specific tariff beyond its rounded $0.04/M input display, output charge, Jev free-credit eligibility and actual bill remain unverified; the 26 Sep Free display is historical.",
@@ -24,9 +22,12 @@
     "he-jev/laya file identity and JevAny adapter files, hashes and individual licences remain unverified.",
     "No audited row independently verified current production; author claims and offline demos are different evidence.",
     "Native X, TikTok, GitHub timestamps, YouTube and Reddit feeds were inaccessible or incomplete; no full 24-hour coverage claimed.",
-    "No pool-run Jev call or independent accuracy, calibration, latency, safety or billing measurement."
+    "No pool-run Jev call or independent accuracy, calibration, latency, safety or billing measurement.",
+    "Jevmail caller write transaction and test assertions, WordPress provider validation and test assertions, and QuantDinger order call-site effects and audit durability remain unverified.",
+    "No source path or mocked test establishes live Jev use, installation, production trading or application safety.",
+    "GitHub date-only topic updates and inaccessible native recent feeds do not establish exact-window event timestamps."
   ],
-  "checked_at": "2026-09-27T05:09:00Z",
-  "meaningfully_updated_at": "2026-09-27T05:09:00Z",
-  "freshness_note": "Selected direct-source check 27 September 2026; exact preceding-24-hour monitor bounded by native-feed gaps. Eleven earlier reports remain dated snapshots."
+  "checked_at": "2026-09-28T05:09:00Z",
+  "meaningfully_updated_at": "2026-09-28T05:09:00Z",
+  "freshness_note": "Source-path audit and bounded discovery check 28 September 2026; exact monitor window 27 Sep 05:05:48–28 Sep 05:05:48 UTC. Twelve earlier reports remain dated snapshots."
 }

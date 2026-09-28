@@ -1150,6 +1150,86 @@
       "accessed_at": "2026-09-27T05:09:00Z",
       "relation": "limits",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "28-jevmail-classifier",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/fazlerocks/jevmail/blob/main/src/lib/classify.ts",
+      "title": "Jevmail classifier",
+      "claim": "AI SDK Jev call with category Choice, urgency Score and AI SDK boolean question for personal mail; selective retry/throw, low-confidence flag and unexpected-category mapping.",
+      "accessed_at": "2026-09-28T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "28-jevmail-schema",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/fazlerocks/jevmail/blob/main/src/db/schema.ts",
+      "title": "Jevmail SQLite schema",
+      "claim": "Classification and feedback tables define storage fields, not observed message transactions.",
+      "accessed_at": "2026-09-28T05:09:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "28-wordpress-plugin",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/soderlind/jev-comment-triage/blob/main/jev-comment-triage.php",
+      "title": "WordPress Jev Comment Triage source",
+      "claim": "Configured eligible comments held for async review; errors held and retried; absent provider preserves WordPress decision; malformed-success provider validation unknown.",
+      "accessed_at": "2026-09-28T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "28-quantdinger-filter",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/OpenByteInc/QuantDinger/blob/main/backend_api_python/app/services/ai_decision_filter.py",
+      "title": "QuantDinger decision filter",
+      "claim": "Optional direct TypeSafe entry gate with five Choice questions, fallback/allow policies, bypass branches and best-effort audit storage.",
+      "accessed_at": "2026-09-28T05:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "28-quantdinger-tests",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/OpenByteInc/QuantDinger/blob/main/backend_api_python/tests/test_ai_decision_filter.py",
+      "title": "QuantDinger mocked tests",
+      "claim": "Monkeypatched provider tests cover selected bypass, risk-block, fallback and credit-denial branches, not a live call or trade.",
+      "accessed_at": "2026-09-28T05:09:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "28-github-topic",
+      "source_type": "primary source or public observation",
+      "source_url": "https://github.com/topics/jev",
+      "title": "GitHub Jev topic",
+      "claim": "Date-only project updates do not prove a source event occurred in the exact 27–28 September monitor window.",
+      "accessed_at": "2026-09-28T05:09:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "28-typesafe-model",
+      "source_type": "primary source or public observation",
+      "source_url": "https://docs.typesafe.ai/models",
+      "title": "TypeSafe model list",
+      "claim": "28 September displayed Jev model aliases, price and limits without established material delta versus 27 September; account bill unverified.",
+      "accessed_at": "2026-09-28T05:09:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "28-vercel-card",
+      "source_type": "primary source or public observation",
+      "source_url": "https://vercel.com/ai-gateway/models/jev",
+      "title": "Vercel Jev card",
+      "claim": "28 September still displayed rounded $0.04/M input; exact tariff, free-credit eligibility and bill unverified.",
+      "accessed_at": "2026-09-28T05:09:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }
