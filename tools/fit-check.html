@@ -1,48 +1,72 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex, nofollow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self'; base-uri 'none'; form-action 'none'">
-  <title>Jev fit check</title>
-  <style>html, body { margin: 0; padding: 0; }</style>
-  <link rel="stylesheet" href="../assets/jev-catalogue.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'self'; img-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Jev (TypeSafe AI) task fit check</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #fff; }
+  body { color: #37352f; font: 15px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  * { box-sizing: border-box; }
+  .fit { padding: 18px 18px 20px; }
+  h2 { margin: 0 0 4px; font-size: 18px; letter-spacing: -.01em; }
+  .intro { margin: 0 0 14px; color: #6b6a66; font-size: 13.5px; }
+  .q { margin: 0 0 12px; padding: 12px 14px; border: 1px solid #e6e5e2; border-radius: 6px; }
+  .q p { margin: 0 0 8px; font-weight: 650; }
+  .q small { display: block; margin: -4px 0 8px; color: #6b6a66; font-weight: 400; font-size: 12.5px; }
+  .opts { display: flex; flex-wrap: wrap; gap: 8px; }
+  button { font: inherit; font-size: 13.5px; min-height: 36px; padding: 6px 12px; border: 1px solid #d4d2cd; border-radius: 6px; background: #fff; color: #37352f; cursor: pointer; text-align: left; max-width: 100%; }
+  button[aria-pressed="true"] { border-color: #326ca6; background: #e7eef6; color: #214b75; font-weight: 650; }
+  button:focus-visible { outline: 3px solid #d08a16; outline-offset: 2px; }
+  .reset { margin-top: 4px; border-style: dashed; color: #6b6a66; }
+  .result { margin-top: 14px; padding: 14px; border-left: 4px solid #d4d2cd; border-radius: 6px; background: #f7f7f5; }
+  .result strong { display: block; font-size: 16px; margin-bottom: 4px; }
+  .result.good { border-left-color: #3e7d5c; background: #f3f8f5; }
+  .result.maybe { border-left-color: #8a641f; background: #fbf7ee; }
+  .result.no { border-left-color: #9f3f3b; background: #fbf3f2; }
+  .result ul { margin: 8px 0 0; padding-left: 20px; }
+  .result li { margin: 3px 0; }
+  .note { margin: 12px 0 0; color: #6b6a66; font-size: 12.5px; }
+</style>
 </head>
 <body>
-  <div class="fit-tool" data-shaduf-resize-root>
-    <div class="tool-inner">
-      <div class="eyebrow">A quick design check</div>
-      <h1 id="fit-title">Does this task fit Jev?</h1>
-      <p class="tool-intro">Choose the closest answer for each question. The result is a starting heuristic: Jev can choose, score, or gate, while your code owns the policy and side effects.</p>
-      <form data-fit-form aria-labelledby="fit-title">
-        <fieldset>
-          <legend>1. Is the answer space bounded?</legend>
-          <label><input type="radio" name="bounded-yes" data-choice-group="bounded" value="2" tabindex="0"> <span>Yes — I can name the options or an ordered rubric.</span></label>
-          <label><input type="radio" name="bounded-no" data-choice-group="bounded" value="0" tabindex="0"> <span>No — the task needs prose, code, or an open-ended answer.</span></label>
-        </fieldset>
-        <fieldset>
-          <legend>2. Can ordinary code own the next action?</legend>
-          <label><input type="radio" name="policy-yes" data-choice-group="policy" value="2" tabindex="0"> <span>Yes — thresholds, permissions, and side effects stay in code.</span></label>
-          <label><input type="radio" name="policy-no" data-choice-group="policy" value="0" tabindex="0"> <span>No — the model must decide or execute an irreversible action by itself.</span></label>
-        </fieldset>
-        <fieldset>
-          <legend>3. Do you have a fallback for uncertainty?</legend>
-          <label><input type="radio" name="fallback-yes" data-choice-group="fallback" value="2" tabindex="0"> <span>Yes — a rule, larger model, or human can review low-confidence cases.</span></label>
-          <label><input type="radio" name="fallback-no" data-choice-group="fallback" value="0" tabindex="0"> <span>No — every answer would be trusted automatically.</span></label>
-        </fieldset>
-        <button type="submit">Check fit</button>
-      </form>
-      <div class="result" data-fit-result role="status" aria-live="polite">
-        <strong tabindex="-1">Answer the three questions</strong>
-        <span>This is a fit heuristic, not a model evaluation. Start with a small labelled workload and measure error cost.</span>
-        <div class="meter" aria-hidden="true"><span data-fit-meter></span></div>
-      </div>
-      <p class="tool-note">No data leaves this widget. It is a local decision aid, not a Jev call or an eligibility or price check.</p>
-      <noscript><p class="tool-note">Enable JavaScript to calculate the local heuristic; the catalogue explains the fit test in full.</p></noscript>
+<div class="fit" data-shaduf-resize-root>
+  <h2>Does this task fit Jev?</h2>
+  <p class="intro">Answer three questions. The check runs only in your browser; it sends nothing and does not call Jev.</p>
+  <div class="q" data-q="bounded">
+    <p id="q1">1. Can you list the possible answers in advance?</p>
+    <small>For example named queues, labels, yes/no, or an ordered rubric of up to 10 levels. Arithmetic and date comparisons belong in code, not in the question.</small>
+    <div class="opts" role="group" aria-labelledby="q1">
+      <button type="button" aria-pressed="false" data-value="yes">Yes, the answer set is fixed</button>
+      <button type="button" aria-pressed="false" data-value="no">No, it needs free text, code or an open answer</button>
     </div>
   </div>
-  <script src="../assets/fit-check.js"></script>
-  <script src="../assets/shaduf-tool-resize.js"></script>
+  <div class="q" data-q="code">
+    <p id="q2">2. Will your own code decide what happens after the answer?</p>
+    <small>Permissions, thresholds, side effects and irreversible actions stay in code.</small>
+    <div class="opts" role="group" aria-labelledby="q2">
+      <button type="button" aria-pressed="false" data-value="yes">Yes, code checks and acts</button>
+      <button type="button" aria-pressed="false" data-value="no">No, the model's answer would act by itself</button>
+    </div>
+  </div>
+  <div class="q" data-q="fallback">
+    <p id="q3">3. What happens when Jev is unsure, wrong or unavailable?</p>
+    <small>A rule, a larger model or a person handles low-confidence answers and errors. For a yes/no question, the middle probabilities are the unsure band.</small>
+    <div class="opts" role="group" aria-labelledby="q3">
+      <button type="button" aria-pressed="false" data-value="yes">A fallback or review path exists</button>
+      <button type="button" aria-pressed="false" data-value="no">Every answer would be trusted</button>
+    </div>
+  </div>
+  <div class="result" data-result role="status" aria-live="polite">
+    <strong>Answer the three questions</strong>
+    <span>The result is a starting point, not a measurement of accuracy.</span>
+  </div>
+  <button type="button" class="reset" data-reset>Clear answers</button>
+  <p class="note">Method: each question restates a line in TypeSafe's own documentation (checked 28 Sep 2026). The sources are quoted on the Limitations page.</p>
+</div>
+<script src="../assets/fit-check.js"></script>
+<script src="../assets/shaduf-tool-resize.js"></script>
 </body>
 </html>

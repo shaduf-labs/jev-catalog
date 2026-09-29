@@ -143,6 +143,17 @@
       "summary": "Source-path audit of Jevmail, WordPress comment triage and QuantDinger distinguishes error, no-key and bypass policies from observed production use; no exact-time new item verified in the bounded 27–28 September monitor. Route lists showed no material established change.",
       "report_path": "/p/jev-catalog/reports/implementation-path-audit",
       "entrypoint": "reports/implementation-path-audit/index.html"
+    },
+    {
+      "run_id": "run:manual:e3ce5784cf44ff403a32f4cdaa67052b",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-28T19:11:21Z",
+      "completed_at": "2026-09-28T19:57:00Z",
+      "title": "Release 1 question pages: access, cost, trust, build, limits and videos",
+      "summary": "Checked signup and credit status (reopened 27 Sep, no new-user credit), route prices and limits, lookalike resellers (3–16× list price), billing basis and third-party token counts, production claims, the Python SDK, error codes, confidence semantics, 17 documented limitations, 46 demo videos and new alternatives. Corrected two wrongly 'official' project labels. No pool Jev call.",
+      "report_path": "/p/jev-catalog/reports/release-1-question-pages",
+      "entrypoint": "reports/release-1-question-pages/index.html"
     }
   ]
 }

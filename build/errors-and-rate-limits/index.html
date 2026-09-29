@@ -1,0 +1,219 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Jev API errors and rate limits · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Jev (TypeSafe AI) API status codes 400, 401, 403, 422, 429 and 529: causes, request limits, when to retry and how to fall back.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/build/errors-and-rate-limits/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Jev API errors and rate limits · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Jev (TypeSafe AI) API status codes 400, 401, 403, 422, 429 and 529: causes, request limits, when to retry and how to fall back.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/build/errors-and-rate-limits/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev API errors and rate limits","description":"Jev (TypeSafe AI) API status codes 400, 401, 403, 422, 429 and 529: causes, request limits, when to retry and how to fall back.","dateModified":"2026-09-28T19:57:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/errors-and-rate-limits/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="build-errors">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="index.html" aria-current="page"><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Open-source Jev alternatives</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Products and projects using Jev</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv">
+  <div class="jv-kicker"><span>Build</span><span>SDK 0.7.2 · API docs checked <time datetime="2026-09-28">28 September 2026</time></span></div>
+  <h1>Jev (TypeSafe AI) API errors 400, 401, 403, 422, 429 and 529: causes, limits and retries</h1>
+  <p class="jv-lede">TypeSafe's API reference lists four error codes. In practice users also see 400 for rule violations, 403 for a missing key, and a Cloudflare HTML 403 when the text you send contains a shell command. This page separates what is documented from what is reported, gives the request limits, and ends with a procedure for choosing what your code does when Jev fails.</p>
+
+  <div class="jv-answer">
+    <strong>Short answer</strong>
+    <p>Fix the request and do not retry on 400, 401, 403 and 422. Retry 408, 429 and 5xx (including 529) with bounded exponential backoff that honours <code>Retry-After</code>; the official Python SDK already does this (2 retries, 0.5–5 s backoff, 30 s budget, 10 s per attempt). There is no 250 ms TypeSafe default timeout: that figure was one project's own setting. Decide before you ship whether each decision fails closed, fails to review, or fails open.</p>
+  </div>
+
+  <h2 id="matrix">Status codes: documented vs reported</h2>
+  <p>"Documented" is TypeSafe's API reference or the SDK source at tag v0.7.2. "Reported" is a named user's report, dated, not rerun by the pool.</p>
+  <div class="table-wrap stack wide">
+    <table class="jv-heat">
+      <thead><tr><th>Status</th><th>What TypeSafe documents</th><th>What users report</th><th>SDK retries?</th><th>What to do</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Status">400 Bad Request</td><td data-l="Documented">Not in the API error table. SDK maps it to <code>TypeSafeBadRequestError</code>.</td><td data-l="Reported">A Noul with no instructions or criteria; more than 255 options ("Too many choices…"); more than 10 Score levels; an empty question key; an unknown model; a capitalised <code>type</code>. <span class="ev ev-reported">Reported</span></td><td data-l="SDK retries" class="k k-stop"><strong>No</strong></td><td data-l="Do">Fix the request. Check limits locally before sending.</td></tr>
+        <tr><td data-l="Status">401 Unauthorized</td><td data-l="Documented">"Missing or invalid API key"</td><td data-l="Reported">An invalid key returns 401 with <code>authentication_error</code>.</td><td data-l="SDK retries" class="k k-stop"><strong>No</strong></td><td data-l="Do">Check the key and the <code>Authorization: Bearer</code> header.</td></tr>
+        <tr><td data-l="Status">403 Forbidden (JSON)</td><td data-l="Documented">Not in the table (docs say a missing key is 401). SDK maps 403 to <code>TypeSafePermissionDeniedError</code>.</td><td data-l="Reported">A missing or empty key returns 403 "Must supply an API key!" (reports of 21 and 25 Sep). <span class="ev ev-reported">Reported</span></td><td data-l="SDK retries" class="k k-stop"><strong>No</strong></td><td data-l="Do">Set <code>TYPESAFE_API_KEY</code>. Treat 401 and JSON 403 both as "key problem".</td></tr>
+        <tr><td data-l="Status">403 Forbidden (HTML)</td><td data-l="Documented">Not documented.</td><td data-l="Reported">A <code>state</code> containing a shell <code>curl … https://</code> command got a Cloudflare HTML 403 in about 45 ms (23 Sep; still open). <span class="ev ev-reported">Reported</span></td><td data-l="SDK retries" class="k k-stop"><strong>No</strong></td><td data-l="Do">Check for <code>Content-Type: text/html</code> and a <code>cf-ray</code> header. Not a key problem: rephrase or escape the text, or use your fallback.</td></tr>
+        <tr><td data-l="Status">404 Not Found</td><td data-l="Documented">SDK maps it (<code>TypeSafeNotFoundError</code>).</td><td data-l="Reported">No specific report.</td><td data-l="SDK retries" class="k k-stop"><strong>No</strong></td><td data-l="Do">Check the base URL and path <code>/v1/systemone</code>.</td></tr>
+        <tr><td data-l="Status">408 Request Timeout</td><td data-l="Documented">Retried by the SDK; documented by OpenRouter and Cloudflare.</td><td data-l="Reported">—</td><td data-l="SDK retries" class="k k-go"><strong>Yes</strong></td><td data-l="Do">Retry with backoff.</td></tr>
+        <tr><td data-l="Status">422 Unprocessable Entity</td><td data-l="Documented">"The request body failed validation…"</td><td data-l="Reported">Schema failures only: <code>state</code> null or missing; wrong JSON type for <code>state</code>; Score criteria sent as a map. <span class="ev ev-reported">Reported</span></td><td data-l="SDK retries" class="k k-stop"><strong>No</strong></td><td data-l="Do">Fix the field named in <code>detail[].loc</code>.</td></tr>
+        <tr><td data-l="Status">429 Too Many Requests</td><td data-l="Documented">"exceeded your rate limit. Back off and retry"</td><td data-l="Reported">Two testers saw no 429 on the direct route (145 sequential questions in 81 s; 120 requests a minute for 1–2 minutes, 25 Sep). Vercel's free tier throttled in one test. <span class="ev ev-reported">Reported</span></td><td data-l="SDK retries" class="k k-go"><strong>Yes</strong></td><td data-l="Do">Back off; honour <code>Retry-After</code> and <code>retry-after-ms</code>; put more questions in one request; cap concurrency.</td></tr>
+        <tr><td data-l="Status">500–599</td><td data-l="Documented">Only 529 is listed. SDK sends every 5xx to <code>TypeSafeInternalServerError</code>.</td><td data-l="Reported">—</td><td data-l="SDK retries" class="k k-go"><strong>Yes</strong></td><td data-l="Do">Retry, then fall back.</td></tr>
+        <tr><td data-l="Status">529 Overloaded</td><td data-l="Documented">"temporarily overloaded. Retry after a short delay"</td><td data-l="Reported">Whether 529 occurs in practice, and with which headers, is unverified. <span class="ev ev-unverified">Unverified</span></td><td data-l="SDK retries" class="k k-go"><strong>Yes</strong></td><td data-l="Do">Back off; count 429 and 529 separately in monitoring.</td></tr>
+        <tr><td data-l="Status">No status: connection error or timeout</td><td data-l="Documented"><code>TypeSafeAPIConnectionError</code>, <code>TypeSafeAPITimeoutError</code></td><td data-l="Reported">—</td><td data-l="SDK retries" class="k k-go"><strong>Yes</strong></td><td data-l="Do">Retry within the budget, then fall back.</td></tr>
+        <tr><td data-l="Status">200 with an invalid body</td><td data-l="Documented"><code>TypeSafeAPIResponseValidationError</code> with a <code>field_path</code></td><td data-l="Reported">—</td><td data-l="SDK retries" class="k k-stop"><strong>No</strong></td><td data-l="Do">Treat as a failure: send to your fallback, never to the default action.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><small>Sources: <a href="https://docs.typesafe.ai/api">API reference</a>; SDK <a href="https://github.com/typesafe-ai/typesafe-sdk-python/blob/v0.7.2/src/typesafe_sdk/_core/errors.py">errors.py</a> and <a href="https://github.com/typesafe-ai/typesafe-sdk-python/blob/v0.7.2/src/typesafe_sdk/_core/retry.py">retry.py</a> at v0.7.2; community reports listed below. Error bodies come in three shapes: a plain string for 400 rule violations, an object with <code>error_type</code> and <code>message</code> for unknown-model 400 and for 401/403, and a list for 422. Parse all three, or log the raw body.</small></p>
+
+  <h2 id="defaults">Retry and timeout defaults</h2>
+  <dl class="jv-facts">
+    <div><dt>Timeout per attempt</dt><dd>10.0 s (SDK <code>DEFAULT_TIMEOUT</code>)</dd></div>
+    <div><dt>Retries</dt><dd>2 after the first attempt (3 attempts in total)</dd></div>
+    <div><dt>Backoff</dt><dd>0.5 s, doubling, capped at 5 s, minus up to 25% jitter</dd></div>
+    <div><dt>Retried</dt><dd>408, 429, 500–599 (includes 529), connection errors, timeouts</dd></div>
+    <div><dt>Server hints</dt><dd><code>Retry-After</code> and <code>retry-after-ms</code> replace the backoff</dd></div>
+    <div><dt>Budget</dt><dd>30 s per call including waits; stops before a wait that would exceed it</dd></div>
+  </dl>
+  <p><span class="ev ev-documented">Documented</span> <small>SDK v0.7.2 source and docs, 28 Sep 2026.</small></p>
+  <div class="jv-box info">
+    <p><strong>About the "250 ms timeout".</strong> Some pages repeat a "250 ms default timeout". It is not TypeSafe's. It was <code>DEFAULT_TIMEOUT_MS = 250</code> in oh-my-claudecode 5.5.0's own Jev hook, raised to 2000 ms on 22 Sep after the project measured round trips of 465–605 ms (<a href="https://github.com/Yeachan-Heo/oh-my-claudecode/issues/4091">#4091</a>). A gate timeout shorter than the real round trip makes every call fail; with a fail-open policy that silently switches the gate off. Set your timeout from latency you measure on your route. <span class="ev ev-reported">Reported</span></p>
+  </div>
+
+  <h2 id="limits">Request limits</h2>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Limit</th><th>Value</th><th>What happens if exceeded</th><th>Label</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Limit">Choice options</td><td data-l="Value">Up to 255</td><td data-l="Exceeded">256 returns 400 "Too many choices…". One option is accepted and returns confidence 1.0.</td><td data-l="Label"><span class="ev ev-documented">Documented</span> limit; <span class="ev ev-reported">Reported</span> status</td></tr>
+        <tr><td data-l="Limit">Score levels</td><td data-l="Value">"should have at least two"; the API accepts up to 10</td><td data-l="Exceeded">11 returns 400. The SDK only checks for at least one level.</td><td data-l="Label"><span class="ev ev-documented">Documented</span>; <span class="ev ev-reported">Reported</span> status</td></tr>
+        <tr><td data-l="Limit">Whole request</td><td data-l="Value">64k tokens (state plus all questions)</td><td data-l="Exceeded">Not observed</td><td data-l="Label"><span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="Limit">State plus longest question</td><td data-l="Value">32k tokens</td><td data-l="Exceeded">Not observed</td><td data-l="Label"><span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="Limit">Rate (direct)</td><td data-l="Value">250,000 tokens/s and 1,200 requests/min, "adjusting dynamically", can change without notice; higher on custom and enterprise plans</td><td data-l="Exceeded">429</td><td data-l="Label"><span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="Limit"><code>state</code></td><td data-l="Value">Required: string, object or array of text</td><td data-l="Exceeded">null returns 422; <code>""</code>, <code>{}</code> and <code>[]</code> are reported as accepted</td><td data-l="Label"><span class="ev ev-documented">Documented</span>; <span class="ev ev-reported">Reported</span></td></tr>
+        <tr><td data-l="Limit">Question key</td><td data-l="Value">Any string; never sent to the model</td><td data-l="Exceeded"><code>""</code> returns 400</td><td data-l="Label"><span class="ev ev-reported">Reported</span></td></tr>
+        <tr><td data-l="Limit">Input type</td><td data-l="Value">Text only</td><td data-l="Exceeded">—</td><td data-l="Label"><span class="ev ev-documented">Documented</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="routes">How gateways differ</h2>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Route</th><th>Different behaviour</th><th>Label</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Route">OpenRouter</td><td data-l="Behaviour">Adds 402 (insufficient credits), 403 for guardrail or moderation blocks, 408, 502 (model down or invalid response) and 503 (no provider meets routing requirements). <code>Retry-After</code> may appear on 429 and 503.</td><td data-l="Label"><span class="ev ev-documented">Documented</span> <a href="https://openrouter.ai/docs/api-reference/errors">OpenRouter errors</a></td></tr>
+        <tr><td data-l="Route">Vercel AI Gateway</td><td data-l="Behaviour">Free tier: lower per-model limits and 429 <code>rate_limit_exceeded</code>. Paid tier: Vercel does not rate limit; provider 429s pass through. AI SDK <code>maxRetries</code> defaults to 2.</td><td data-l="Label"><span class="ev ev-documented">Documented</span> Vercel rate-limit docs</td></tr>
+        <tr><td data-l="Route">Cloudflare Workers AI</td><td data-l="Behaviour">Its own codes, for example 3036/429 (daily free allocation used), 3040/429 (out of capacity), 3007/408 (timeout), 3006/413 (request too large). The table is for Workers AI in general, not Jev-specific.</td><td data-l="Label"><span class="ev ev-documented">Documented</span> <a href="https://developers.cloudflare.com/workers-ai/platform/errors/">Workers AI errors</a></td></tr>
+        <tr><td data-l="Route">Bifrost gateway</td><td data-l="Behaviour">Reported to replace native error details with a generic error and drop <code>Retry-After</code>, <code>retry-after-ms</code> and <code>x-typesafe-request-id</code>.</td><td data-l="Label"><span class="ev ev-reported">Reported</span> <a href="https://github.com/maximhq/bifrost/issues/7599">bifrost #7599</a></td></tr>
+        <tr><td data-l="Route"><code>langchain-typesafe</code> classifier</td><td data-l="Behaviour">Single attempt, no retry on 429 or 529, only minimum limits checked (feature request of 28 Sep).</td><td data-l="Label"><span class="ev ev-reported">Reported</span> <a href="https://github.com/langchain-ai/langchain/issues/40867">LangChain #40867</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="fallback">What should your code do when Jev fails?</h2>
+  <ol>
+    <li><strong>Classify the failure.</strong> Key problem (401, or 403 with a JSON body); request problem (400, 422); edge block (403 with an HTML body); rate or capacity (408, 429, 5xx, 529, timeout, connection error); malformed success (response validation error).</li>
+    <li><strong>Retry only the transient class,</strong> with a bounded number of attempts inside a total time budget, honouring server wait hints. Never retry key, request or edge-block errors.</li>
+    <li><strong>Choose the disposition for each decision before shipping.</strong> Fail closed or hold when a wrong "allow" is costly (moderation, payments, destructive tool calls). Fail to review when a human queue exists. Fail open only when the action is cheap to undo, and log that the gate was bypassed.</li>
+    <li><strong>Test the no-key path and the outage path separately.</strong> "No key configured" is often a different code path from "API error".</li>
+  </ol>
+  <p>Three audited projects made three different choices. <span class="ev ev-documented">Documented</span> <small>source-path audit of 28 Sep 2026, not re-audited</small></p>
+  <div class="table-wrap stack">
+    <table class="jv-heat">
+      <thead><tr><th>Project</th><th>On 429 or 5xx</th><th>On other errors or no key</th><th>Disposition</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Project">Jevmail (<code>src/lib/classify.ts</code>)</td><td data-l="429/5xx">429: waits (Retry-After or 5 s, up to 30 s) and retries once. 5xx: retries once after 1.5 s.</td><td data-l="Other">403 is a named error; others are thrown. No classifier fallback without a key.</td><td data-l="Disposition" class="k k-stop"><strong>Stops</strong>No classification is made (fail closed for sorting)</td></tr>
+        <tr><td data-l="Project">WordPress Jev Comment Triage</td><td data-l="429/5xx">With a configured provider, the comment stays held and is retried; after 3 attempts it is left held for a person.</td><td data-l="Other">With no provider configured, WordPress's original decision stands and may publish the comment.</td><td data-l="Disposition" class="k k-hold"><strong>Holds</strong>when configured; fails open when not configured</td></tr>
+        <tr><td data-l="Project">QuantDinger <code>ai_decision_filter.py</code></td><td data-l="429/5xx">Timeout 1–30 s (default 8 s). A Jev error, invalid schema or low confidence goes to an LLM fallback, then the entry is allowed.</td><td data-l="Other">No key or internal-credit denial: entry allowed.</td><td data-l="Disposition" class="k k-go"><strong>Proceeds</strong>Fail-open trade entry gate</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><small>The same projects are compared by failure type on <a href="../../use-cases/index.html#failure-policies">Use cases</a> and graded on <a href="../../products/index.html">Products and projects</a>.</small></p>
+
+  <details>
+    <summary>Community reports used on this page (9)</summary>
+    <div>
+      <div class="table-wrap stack">
+        <table>
+          <thead><tr><th>Report</th><th>Opened</th><th>Status on 28 Sep</th><th>What it shows</th></tr></thead>
+          <tbody>
+            <tr><td data-l="Report"><a href="https://github.com/typesafe-ai/skills/issues/1">typesafe-ai/skills #1</a></td><td data-l="Opened">18 Sep</td><td data-l="Status">Open</td><td data-l="Shows">Rule violations return 400, not 422; unknown model 400; three body shapes</td></tr>
+            <tr><td data-l="Report"><a href="https://github.com/typesafe-ai/typesafe-sdk-js/issues/6">typesafe-sdk-js #6</a></td><td data-l="Opened">18 Sep</td><td data-l="Status">Open</td><td data-l="Shows">Live table: empty Noul 400, null state 422, 11 levels 400, 256 options 400, empty key 400</td></tr>
+            <tr><td data-l="Report"><a href="https://github.com/typesafe-ai/skills/issues/8">typesafe-ai/skills #8</a></td><td data-l="Opened">21 Sep</td><td data-l="Status">Open</td><td data-l="Shows">Missing key 403 vs invalid key 401</td></tr>
+            <tr><td data-l="Report"><a href="https://github.com/Yeachan-Heo/oh-my-claudecode/issues/4091">oh-my-claudecode #4091</a></td><td data-l="Opened">22 Sep</td><td data-l="Status">Closed (PR #4092)</td><td data-l="Shows">Capitalised type 400; Score map 422; the project's own 250 ms timeout</td></tr>
+            <tr><td data-l="Report"><a href="https://github.com/typesafe-ai/typesafe-sdk-js/issues/15">typesafe-sdk-js #15</a></td><td data-l="Opened">23 Sep</td><td data-l="Status">Open</td><td data-l="Shows">Cloudflare HTML 403 on <code>curl</code> text in <code>state</code></td></tr>
+            <tr><td data-l="Report"><a href="https://github.com/jakenbear/the-jev-enator/issues/37">the-jev-enator #37</a></td><td data-l="Opened">25 Sep</td><td data-l="Status">Open</td><td data-l="Shows">Error classification including the edge block; retry once on 429 and 529</td></tr>
+            <tr><td data-l="Report"><a href="https://github.com/jumboly/jev-client/issues/9">jumboly/jev-client #9</a></td><td data-l="Opened">25 Sep</td><td data-l="Status">Open</td><td data-l="Shows">No 429 at 120 requests a minute for 1–2 minutes; 529 unverified</td></tr>
+            <tr><td data-l="Report"><a href="https://github.com/maximhq/bifrost/issues/7599">maximhq/bifrost #7599</a></td><td data-l="Opened">26 Sep</td><td data-l="Status">Open</td><td data-l="Shows">Gateway drops error details and headers</td></tr>
+            <tr><td data-l="Report"><a href="https://github.com/langchain-ai/langchain/issues/40867">langchain #40867</a></td><td data-l="Opened">28 Sep</td><td data-l="Status">Open</td><td data-l="Shows">No local limit checks or retries; says oversized questions return 422, which contradicts the 400 reports</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </details>
+
+  <div class="jv-box warn">
+    <h2>What was not verified</h2>
+    <ul>
+      <li>No request was sent to the Jev API. Every live status code above is a named third party's report; TypeSafe may have changed behaviour since.</li>
+      <li>Whether 529 occurs in practice, which rate-limit headers the direct route sends, and whether limits apply per key, account or organisation.</li>
+      <li>The server's status code for an empty Choice is not stated in the report that describes it.</li>
+      <li>Vercel's dedicated AI Gateway errors page returned 404; Cloudflare's error table is not Jev-specific.</li>
+    </ul>
+  </div>
+
+  <section class="jv-related" aria-labelledby="err-related">
+    <h2 id="err-related">Related pages</h2>
+    <ul>
+      <li><a href="../python/index.html">Python example with a retry client</a></li>
+      <li><a href="../confidence-thresholds/index.html">Confidence thresholds</a></li>
+      <li><a href="../../where-to-use/index.html">Route limits and prices</a></li>
+      <li><a href="../../products/index.html">Products and projects (failure policies)</a></li>
+      <li><a href="../../limitations/index.html">Limitations and fit check</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>28 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>

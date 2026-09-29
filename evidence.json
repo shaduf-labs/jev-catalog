@@ -1230,6 +1230,1976 @@
       "accessed_at": "2026-09-28T05:09:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s03",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/team",
+      "title": "typesafe.ai/team",
+      "claim": "Documented: TypeSafe · CEO Diogo Almeida",
+      "accessed_at": "2026-09-28T19:43:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s04",
+      "source_type": "documented source",
+      "source_url": "https://x.com/typesafeai/status/2101786156572823624",
+      "title": "x.com/typesafeai/status/2101786156572823624",
+      "claim": "Documented: Jev is now available to everyone. No waitlist. Start using it here: https://t.co/5MfN4rIif5",
+      "accessed_at": "2026-09-28T19:43:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s05",
+      "source_type": "documented source",
+      "source_url": "https://x.com/typesafeai/status/2101973003710222600",
+      "title": "x.com/typesafeai/status/2101973003710222600",
+      "claim": "Documented: We are back! https://t.co/77U1SKk8Xe",
+      "accessed_at": "2026-09-28T19:44:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s06",
+      "source_type": "documented source",
+      "source_url": "https://x.com/typesafeai/status/2102281508950307159",
+      "title": "x.com/typesafeai/status/2102281508950307159",
+      "claim": "Documented: we have to temporarily pause signups for Jev. We need to ensure quality of service for our existing signups, which will continue to function.",
+      "accessed_at": "2026-09-28T19:42:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s07",
+      "source_type": "documented source",
+      "source_url": "https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "x.com/CompleteSkeptic/status/2104338649999626397",
+      "claim": "Documented: good news: ANYONE CAN SIGN UP ... bad news: we had to temporarily disable the free credits (just for new users)",
+      "accessed_at": "2026-09-28T19:43:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s08",
+      "source_type": "documented source",
+      "source_url": "https://x.com/CompleteSkeptic/status/2099925682726002904",
+      "title": "x.com/CompleteSkeptic/status/2099925682726002904",
+      "claim": "Documented: a new type of frontier AI model that we are releasing today: Jev",
+      "accessed_at": "2026-09-28T19:43:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s09",
+      "source_type": "reported source",
+      "source_url": "https://aifront-page.com/typesafe-ai-pauses-jev-ai-model-signups-demand-surge/",
+      "title": "aifront-page.com/typesafe-ai-pauses-jev-ai-model-signups-demand-surge/",
+      "claim": "Reported: announced on September 20 that the AI model is available for everyone, with new users getting $5 in credit (120 million tokens).",
+      "accessed_at": "2026-09-28T19:43:58Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s10",
+      "source_type": "reported source",
+      "source_url": "https://aifront-page.com/typesafe-ai-reopens-jev-sign-ups-free-credit-suspended/",
+      "title": "aifront-page.com/typesafe-ai-reopens-jev-sign-ups-free-credit-suspended/",
+      "claim": "Reported: new users will not be provided free $5 in credit (120 million tokens)",
+      "accessed_at": "2026-09-28T19:42:49Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s11",
+      "source_type": "reported source",
+      "source_url": "https://cryptobriefing.com/typesafe-jev-ai-public-access/",
+      "title": "cryptobriefing.com/typesafe-jev-ai-public-access/",
+      "claim": "Reported: New users now get $5 in credits to start experimenting.",
+      "accessed_at": "2026-09-28T19:43:33Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s12",
+      "source_type": "reported source",
+      "source_url": "https://lmspedia.org/jev-pricing-access-guide/",
+      "title": "lmspedia.org/jev-pricing-access-guide/",
+      "claim": "Reported: Our own signup on 22 September 2026 found no credit balance anywhere in the console, on either Home or Usage.",
+      "accessed_at": "2026-09-28T19:42:50Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s13",
+      "source_type": "reported source",
+      "source_url": "https://flaviocopes.com/jev-api-key/",
+      "title": "flaviocopes.com/jev-api-key/",
+      "claim": "Reported: TypeSafe paused new signups on September 22, 2026, and they were still paused as of September 24.",
+      "accessed_at": "2026-09-28T19:42:50Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s14",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query=jev%20signup&tags=comment&numericFilters=created_at_i>1789430400",
+      "title": "hn.algolia.com/api/v1/search_by_date?query=jev%20signup&tags=comment&numericFilters=create",
+      "claim": "Reported: I haven't had time to dig into Jev (they aren't accepting new signups)",
+      "accessed_at": "2026-09-28T19:49:51Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s15",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "status.typesafe.ai/",
+      "claim": "Documented: All services are online ... api.typesafe.ai ... 99.818% uptime; console.typesafe.ai ... 99.976% uptime",
+      "accessed_at": "2026-09-28T19:41:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s16",
+      "source_type": "reported source",
+      "source_url": "https://didcodexreset.com/news/01c763b5f72a480c8f2586c6.html",
+      "title": "didcodexreset.com/news/01c763b5f72a480c8f2586c6.html",
+      "claim": "Reported: The company linked to its status page at https://status.typesafe.ai.",
+      "accessed_at": "2026-09-28T19:43:57Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s17",
+      "source_type": "reported source",
+      "source_url": "https://jevaiguide.com/is-jev-down/",
+      "title": "jevaiguide.com/is-jev-down/",
+      "claim": "Reported: open TypeSafe's official status page, status.typesafe.ai ... 99.827% API availability over the previous 90 days",
+      "accessed_at": "2026-09-28T19:42:50Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s19",
+      "source_type": "unverified source",
+      "source_url": "https://docs.typesafe.ai/changelog",
+      "title": "docs.typesafe.ai/changelog",
+      "claim": "Unverified: HTTP 404; no product changelog at this path (SDK changelogs exist under /sdk/...)",
+      "accessed_at": "2026-09-28T19:41:35Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s20",
+      "source_type": "unverified source",
+      "source_url": "https://docs.typesafe.ai/pricing",
+      "title": "docs.typesafe.ai/pricing",
+      "claim": "Unverified: HTTP 404 (also /rate-limits 404, /quickstart 404; quickstart is /introduction/quickstart)",
+      "accessed_at": "2026-09-28T19:42:08Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "docs.typesafe.ai/models.md",
+      "claim": "Documented: Price (per Btok / per Mtok) | $42 / $0.042 ... Charged per input token. Output tokens are free.",
+      "accessed_at": "2026-09-28T19:42:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s22",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/api.md",
+      "title": "docs.typesafe.ai/api.md",
+      "claim": "Documented: \"usage\": { \"input_tokens\": 296, \"output_tokens\": 20 }",
+      "accessed_at": "2026-09-28T19:42:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s23",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "docs.typesafe.ai/legal.md",
+      "claim": "Documented: We also offer zero data retention (ZDR) for enterprise customers.",
+      "accessed_at": "2026-09-28T19:42:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s24",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/typesafe/jev-1.13",
+      "title": "openrouter.ai/typesafe/jev-1.13",
+      "claim": "Documented: In / Out Price $0.042 / $0 per 1M  Context 32K",
+      "accessed_at": "2026-09-28T19:44:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s25",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "Documented: \"name\":\"TypeSafe | typesafe/jev-1.13-20260917\",\"context_length\":32000,\"pricing\":{\"prompt\":\"0.000000042\",\"completion\":\"0\"",
+      "accessed_at": "2026-09-28T19:49:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s26",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "openrouter.ai/docs/guides/community/jev",
+      "claim": "Documented: System One API POST https://openrouter.ai/api/v1/systemone ... Every Jev response includes a usage.cost field",
+      "accessed_at": "2026-09-28T19:45:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s27",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/typesafe/jev-router",
+      "title": "openrouter.ai/typesafe/jev-router",
+      "claim": "Documented: Is Jev Router free? Yes. The pricing shown on this page for Jev Router is zero",
+      "accessed_at": "2026-09-28T19:44:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s28",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "openrouter.ai/api/v1/models",
+      "claim": "Documented: \"id\": \"typesafe/jev-router\" ... \"pricing\": {\"prompt\": \"-1\", \"completion\": \"-1\"}",
+      "accessed_at": "2026-09-28T19:44:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s29",
+      "source_type": "documented source",
+      "source_url": "https://x.com/OpenRouter/status/2103610898690855161",
+      "title": "x.com/OpenRouter/status/2103610898690855161",
+      "claim": "Documented: Introducing typesafe/jev-router: a cache-aware model router powered by Jev and @typesafeai",
+      "accessed_at": "2026-09-28T19:45:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s32",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "ai-gateway.vercel.sh/v1/models",
+      "claim": "Documented: \"zdr\": \"none\", \"no_training\": \"all\" ... \"pricing\": {\"input\": \"0.000000042\", \"output\": \"0\"}",
+      "accessed_at": "2026-09-28T19:44:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s36",
+      "source_type": "reported source",
+      "source_url": "https://jev-router.com/",
+      "title": "jev-router.com/",
+      "claim": "Reported: Jev Router is an independent service ... We do not provide access to TypeSafe's Jev model.",
+      "accessed_at": "2026-09-28T19:45:13Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s37",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/orgs/typesafe-ai",
+      "title": "api.github.com/orgs/typesafe-ai",
+      "claim": "Documented: \"name\": \"TypeSafe\", \"blog\": \"https://typesafe.ai/\" ... \"is_verified\": false",
+      "accessed_at": "2026-09-28T19:45:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s38",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/orgs/TypeSafeAI",
+      "title": "api.github.com/orgs/TypeSafeAI",
+      "claim": "Documented: \"name\": \"TypeSafe Community\", \"blog\": \"https://jev.works\", \"description\": \"This is an UNOFFICIAL organization made for community repos.\"",
+      "accessed_at": "2026-09-28T19:45:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s39",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json",
+      "title": "pypi.org/pypi/typesafe-sdk/json",
+      "claim": "Documented: Repository: https://github.com/typesafe-ai/typesafe-sdk-python ... author_email TypeSafe AI <an address on the typesafe.ai domain>",
+      "accessed_at": "2026-09-28T19:45:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s40",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk",
+      "title": "registry.npmjs.org/@typesafe-ai/sdk",
+      "claim": "Documented: \"latest\": \"0.6.0\" ... git+https://github.com/typesafe-ai/typesafe-sdk-js.git",
+      "accessed_at": "2026-09-28T19:45:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s41",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "Documented: Get your API key from the dashboard (https://console.typesafe.ai/keys) ... pip install typesafe-sdk",
+      "accessed_at": "2026-09-28T19:42:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s42",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "research.eye.security/rise-of-the-jev-clones/",
+      "claim": "Reported: What they sell is real Jev. Every request goes straight to TypeSafe's own API. You just pay up to 11.5x the official price",
+      "accessed_at": "2026-09-28T19:46:13Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s43",
+      "source_type": "reported source",
+      "source_url": "https://gbhackers.com/670-jev-domains-registered/",
+      "title": "gbhackers.com/670-jev-domains-registered/",
+      "claim": "Reported: monthly plans promoted by jev-ai[.]pro and jev-agent[.]org equated to approximately $0.247 to $0.483 per million input tokens",
+      "accessed_at": "2026-09-28T19:46:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s44",
+      "source_type": "reported source",
+      "source_url": "https://cybersecuritynews.com/fake-jev-ai-stores/",
+      "title": "cybersecuritynews.com/fake-jev-ai-stores/",
+      "claim": "Reported: The report does not describe a malware infection or establish that operators stole prompts.",
+      "accessed_at": "2026-09-28T19:46:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s45",
+      "source_type": "reported source",
+      "source_url": "https://mallory.ai/stories/01a0d921-ef4e-7088-ba66-a9a949062eb4",
+      "title": "mallory.ai/stories/01a0d921-ef4e-7088-ba66-a9a949062eb4",
+      "claim": "Reported: Some fraudulent or unaffiliated storefronts ranked above TypeSafe in search results",
+      "accessed_at": "2026-09-28T19:46:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s46",
+      "source_type": "reported source",
+      "source_url": "https://cyberpress.org/fake-jev-sites-proxy-official-api/",
+      "title": "cyberpress.org/fake-jev-sites-proxy-official-api/",
+      "claim": "Reported: HTTP 200; body not quoted (content read only via search summary: says findings do not establish data theft)",
+      "accessed_at": "2026-09-28T19:46:39Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s48",
+      "source_type": "reported source",
+      "source_url": "https://jev-ai.pro/pricing",
+      "title": "jev-ai.pro/pricing",
+      "claim": "Reported: $0.242 / 1M input tokens $29 $14.50 $174 billed yearly",
+      "accessed_at": "2026-09-28T19:46:41Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s49",
+      "source_type": "reported source",
+      "source_url": "https://jev-ai.pro/",
+      "title": "jev-ai.pro/",
+      "claim": "Reported: Jev AI (jev-ai.pro) is an independent playground and API for Jev ... select Jev-Omni in the Playground",
+      "accessed_at": "2026-09-28T19:46:40Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s50",
+      "source_type": "reported source",
+      "source_url": "https://jev-agent.org/pricing",
+      "title": "jev-agent.org/pricing",
+      "claim": "Reported: None of these are TypeSafe's own prices: they are Jev Agent's rates for reselling access to Jev",
+      "accessed_at": "2026-09-28T19:46:42Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s51",
+      "source_type": "reported source",
+      "source_url": "https://jevmodel.org/pricing",
+      "title": "jevmodel.org/pricing",
+      "claim": "Reported: Start here $9.90 15,000,000 input tokens ... $0.66 / 1M input tokens",
+      "accessed_at": "2026-09-28T19:46:43Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s52",
+      "source_type": "reported source",
+      "source_url": "https://jevmodel.org/",
+      "title": "jevmodel.org/",
+      "claim": "Reported: Jev API is now open · no waitlist · 21 Sep 2026 ... 100,000 tokens Free when you sign in",
+      "accessed_at": "2026-09-28T19:46:43Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s53",
+      "source_type": "reported source",
+      "source_url": "https://jevapi.pro/pricing",
+      "title": "jevapi.pro/pricing",
+      "claim": "Reported: $990 / year ... 120,000 decision credits ≈ $0.0083 per decision",
+      "accessed_at": "2026-09-28T19:47:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s54",
+      "source_type": "reported source",
+      "source_url": "https://jevai.site/",
+      "title": "jevai.site/",
+      "claim": "Reported: This is an unofficial reference site. It is not affiliated with TypeSafe AI.",
+      "accessed_at": "2026-09-28T19:46:44Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s55",
+      "source_type": "reported source",
+      "source_url": "https://jev-ai.live/",
+      "title": "jev-ai.live/",
+      "claim": "Reported: grab $5 in free credit at console.typesafe.ai",
+      "accessed_at": "2026-09-28T19:46:43Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s56",
+      "source_type": "reported source",
+      "source_url": "https://www.jevaiplayground.com/",
+      "title": "www.jevaiplayground.com/",
+      "claim": "Reported: New signups paused $5 credit previously announced $0.042 / 1M input tokens",
+      "accessed_at": "2026-09-28T19:46:44Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s57",
+      "source_type": "reported source",
+      "source_url": "https://jevplayground.com/",
+      "title": "jevplayground.com/",
+      "claim": "Reported: Jev Playground is an independent tool and is not affiliated with or endorsed by TypeSafe AI.",
+      "accessed_at": "2026-09-28T19:46:46Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s58",
+      "source_type": "reported source",
+      "source_url": "https://typesafe.pro/",
+      "title": "typesafe.pro/",
+      "claim": "Reported: No. typesafe.pro is an independent access gateway.",
+      "accessed_at": "2026-09-28T19:46:45Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s59",
+      "source_type": "reported source",
+      "source_url": "https://typesafeai.app/",
+      "title": "typesafeai.app/",
+      "claim": "Reported: Unofficial community project",
+      "accessed_at": "2026-09-28T19:46:45Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s60",
+      "source_type": "reported source",
+      "source_url": "https://jev.works/",
+      "title": "jev.works/",
+      "claim": "Reported: Your TypeSafe API key  Import your key to override the shared server default.",
+      "accessed_at": "2026-09-28T19:46:46Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s61",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/cookbooks/parallel_questions.md",
+      "title": "docs.typesafe.ai/cookbooks/parallel_questions.md",
+      "claim": "Documented: The document dominates every request. N single-question calls pay for it N times, in N round trips; the batched call pays once.",
+      "accessed_at": "2026-09-28T19:42:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s62",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/api/types/responses.md",
+      "title": "docs.typesafe.ai/sdk/python/api/types/responses.md",
+      "claim": "Documented: Number of input tokens used, or `None` when the API did not report it.",
+      "accessed_at": "2026-09-28T19:42:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s63",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/javascript/api/interfaces/Usage.md",
+      "title": "docs.typesafe.ai/sdk/javascript/api/interfaces/Usage.md",
+      "claim": "Documented: readonly input_tokens: number; ... Number of input tokens used.",
+      "accessed_at": "2026-09-28T19:42:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s64",
+      "source_type": "reported source",
+      "source_url": "https://www.ayautomate.com/blog/jev-pricing-cost-per-decision",
+      "title": "www.ayautomate.com/blog/jev-pricing-cost-per-decision",
+      "claim": "Reported: Jev counted more input tokens than GPT-5.6 Terra for the same prompt: 360 against 153 on the 8-way task",
+      "accessed_at": "2026-09-28T19:47:30Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s65",
+      "source_type": "reported source",
+      "source_url": "https://www.ayautomate.com/benchmarks/jev-vs-llm/summary.json",
+      "title": "www.ayautomate.com/benchmarks/jev-vs-llm/summary.json",
+      "claim": "Reported: \"typesafe/jev-1.13|intent8\": { \"n\": 160 ... \"in_tok_mean\": 359.875",
+      "accessed_at": "2026-09-28T19:47:46Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s67",
+      "source_type": "reported source",
+      "source_url": "https://www.navyaai.com/blog/jev-typesafe-limitations-production",
+      "title": "www.navyaai.com/blog/jev-typesafe-limitations-production",
+      "claim": "Reported: 200 real calls to the production API averaged 442 input tokens and 47.3 output tokens per decision",
+      "accessed_at": "2026-09-28T19:47:30Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s68",
+      "source_type": "reported source",
+      "source_url": "https://madewithjev.com/jev-statistics",
+      "title": "madewithjev.com/jev-statistics",
+      "claim": "Reported: $0.000068 median cost of one decision ... across 15 builds that published both a volume and a total.",
+      "accessed_at": "2026-09-28T19:48:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s69",
+      "source_type": "reported source",
+      "source_url": "https://www.brizz.ai/blog/replacing-llm-classifier-with-jev",
+      "title": "www.brizz.ai/blog/replacing-llm-classifier-with-jev",
+      "claim": "Reported: spend on this step drops from $11,594 to $2,759, or 76%.",
+      "accessed_at": "2026-09-28T19:47:31Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s70",
+      "source_type": "reported source",
+      "source_url": "https://polylane.com/blog/we-swapped-our-llms-for-jev/",
+      "title": "polylane.com/blog/we-swapped-our-llms-for-jev/",
+      "claim": "Reported: Cost per 1,000 calls reduction: $0.76199 —> $0.46369.",
+      "accessed_at": "2026-09-28T19:47:32Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s71",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/search?query=polylane&tags=story",
+      "title": "hn.algolia.com/api/v1/search?query=polylane&tags=story",
+      "claim": "Reported: We swapped our LLMs for Jev. It's 39% cheaper — 7 points, 4 comments",
+      "accessed_at": "2026-09-28T19:47:32Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s72",
+      "source_type": "reported source",
+      "source_url": "https://x.com/rauchg/status/2100307962262872105",
+      "title": "x.com/rauchg/status/2100307962262872105",
+      "claim": "Reported: That reviewer runs on GPT Luna today. Jev is up to 18x faster (p95) *and* more accurate.",
+      "accessed_at": "2026-09-28T19:49:32Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s73",
+      "source_type": "reported source",
+      "source_url": "https://venturebeat.com/security/companies-are-putting-jev-in-charge-of-ai-agent-decisions-and-prompt-injection-can-influence-the-verdict",
+      "title": "venturebeat.com/security/companies-are-putting-jev-in-charge-of-ai-agent-decisions-and-pro",
+      "claim": "Reported: Vercel said roughly 13% of its paid AI Gateway teams were running it within 24 hours.",
+      "accessed_at": "2026-09-28T19:49:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s74",
+      "source_type": "reported source",
+      "source_url": "https://venturebeat.com/orchestration/companies-are-paying-llms-to-generate-text-for-decisions-that-only-need-a-label-jev-offers-a-cheaper-way",
+      "title": "venturebeat.com/orchestration/companies-are-paying-llms-to-generate-text-for-decisions-tha",
+      "claim": "Reported: direct GET HTTP 429 (x2); summarising fetch reports no mention of Vercel, Bryo or Notra",
+      "accessed_at": "2026-09-28T19:48:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s75",
+      "source_type": "reported source",
+      "source_url": "https://x.com/nikhilmudholkar/status/2100604560335139083",
+      "title": "x.com/nikhilmudholkar/status/2100604560335139083",
+      "claim": "Reported: Jev lost to Gemini on our email classification benchmark. I'm still interested in putting it into production.",
+      "accessed_at": "2026-09-28T19:49:14Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s76",
+      "source_type": "reported source",
+      "source_url": "https://www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/",
+      "title": "www.marktechpost.com/2026/09/19/typesafe-ai-releases-jev/",
+      "claim": "Reported: His post said the fx reviewer still ran on Luna. Engineer Pranit Sharma shared the benchmark.",
+      "accessed_at": "2026-09-28T19:49:09Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s77",
+      "source_type": "reported source",
+      "source_url": "https://prefactor.tech/blog/jev-early-results-vercel-bryo-what-they-show",
+      "title": "prefactor.tech/blog/jev-early-results-vercel-bryo-what-they-show",
+      "claim": "Reported: Vercel and Bryo AI report faster, cheaper results with Jev. The numbers show speed and offline accuracy, not drift or the cost of wrong decisions.",
+      "accessed_at": "2026-09-28T19:48:56Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-a-a-s78",
+      "source_type": "reported source",
+      "source_url": "https://fundaai.substack.com/p/deepllm-jev-users-report-10-faster",
+      "title": "fundaai.substack.com/p/deepllm-jev-users-report-10-faster",
+      "claim": "Reported: 80 of 2,153 hands-on cases (3.7%) are in production; prototypes, side projects and trial demos make up 62.4%.",
+      "accessed_at": "2026-09-28T19:47:32Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s01",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "docs.typesafe.ai/llms.txt",
+      "claim": "Documented: [Changelog](https://docs.typesafe.ai/sdk/python/changelog.md): Python clients for the TypeSafe AI API",
+      "accessed_at": "2026-09-28T19:41:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s02b",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/api#errors",
+      "title": "docs.typesafe.ai/api#errors",
+      "claim": "Documented: When you receive a `429 Too Many Requests` or `529 Overloaded` response, retry the request with exponential backoff instead of retrying immediately.",
+      "accessed_at": "2026-09-28T19:41:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s03d",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models#language-support",
+      "title": "docs.typesafe.ai/models#language-support",
+      "claim": "Documented: English is the primary training language and where accuracy is currently best. Other languages, including CJK scripts, are handled but not equally well",
+      "accessed_at": "2026-09-28T19:41:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s03g",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models#aliases",
+      "title": "docs.typesafe.ai/models#aliases",
+      "claim": "Documented: If you have tuned confidence thresholds against a specific version, pin that version's ID instead of the alias",
+      "accessed_at": "2026-09-28T19:41:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s05b",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13#math-and-numbers",
+      "title": "docs.typesafe.ai/model-jaggedness/jev-1.13#math-and-numbers",
+      "claim": "Documented: Jev is not a calculator. We strongly recommend implementing any mathematical logic in code.",
+      "accessed_at": "2026-09-28T19:41:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s05c",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13#generation",
+      "title": "docs.typesafe.ai/model-jaggedness/jev-1.13#generation",
+      "claim": "Documented: `jev-1.13` is not trained to generate text.",
+      "accessed_at": "2026-09-28T19:41:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python",
+      "title": "docs.typesafe.ai/sdk/python",
+      "claim": "Documented: pip install typesafe-sdk",
+      "accessed_at": "2026-09-28T19:41:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s07",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/changelog",
+      "title": "docs.typesafe.ai/sdk/python/changelog",
+      "claim": "Documented: ser/de library has been changed from `msgspec` to `pydantic`",
+      "accessed_at": "2026-09-28T19:41:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s08",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/api/constants",
+      "title": "docs.typesafe.ai/sdk/python/api/constants",
+      "claim": "Documented: DEFAULT_TIMEOUT = 10.0",
+      "accessed_at": "2026-09-28T19:41:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s09",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/api/retries",
+      "title": "docs.typesafe.ai/sdk/python/api/retries",
+      "claim": "Documented: Whether to honor `Retry-After` and `retry-after-ms` response headers.",
+      "accessed_at": "2026-09-28T19:41:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s10",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/api/exceptions",
+      "title": "docs.typesafe.ai/sdk/python/api/exceptions",
+      "claim": "Documented: Access was denied (403).",
+      "accessed_at": "2026-09-28T19:41:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s11",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart",
+      "title": "docs.typesafe.ai/introduction/quickstart",
+      "claim": "Documented: Install the SDK** (requires Python >= 3.10).",
+      "accessed_at": "2026-09-28T19:41:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s12",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/usage",
+      "title": "docs.typesafe.ai/sdk/python/usage",
+      "claim": "Documented: Request and response bodies are **not** redacted.",
+      "accessed_at": "2026-09-28T19:41:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s12b",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/usage#using-a-different-api-url",
+      "title": "docs.typesafe.ai/sdk/python/usage#using-a-different-api-url",
+      "claim": "Documented: base_url=\"https://ai-gateway.vercel.sh/typesafe\",",
+      "accessed_at": "2026-09-28T19:41:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s13",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/noul",
+      "title": "docs.typesafe.ai/primitives/noul",
+      "claim": "Documented: There is no separate `confidence` value for a Noul, unlike a [Choice](/primitives/choice) or a [Score](/primitives/score).",
+      "accessed_at": "2026-09-28T19:41:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s14",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/choice",
+      "title": "docs.typesafe.ai/primitives/choice",
+      "claim": "Documented: Add an `other` or `none of the above` option when the list might not cover every input",
+      "accessed_at": "2026-09-28T19:41:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s15",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/score",
+      "title": "docs.typesafe.ai/primitives/score",
+      "claim": "Documented: 200; 6 documented Score answers used in formula check (no excerpt needed)",
+      "accessed_at": "2026-09-28T19:41:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s16",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/machine-learning-primer",
+      "title": "docs.typesafe.ai/introduction/machine-learning-primer",
+      "claim": "Documented (vendor claim): **Reinforcement learning for calibrated decisions** trains TypeSafe to return decisions and calibrated probabilities instead of generated text.",
+      "accessed_at": "2026-09-28T19:41:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s17",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/concepts/how-to-build-with-system-one",
+      "title": "docs.typesafe.ai/concepts/how-to-build-with-system-one",
+      "claim": "Documented: TypeSafe is designed for building **AI-powered software**, where code owns the workflow and AI handles narrow, structured decisions.",
+      "accessed_at": "2026-09-28T19:41:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s18",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/concepts/system-one",
+      "title": "docs.typesafe.ai/concepts/system-one",
+      "claim": "Documented: System One models do not write replies, produce code, or generate explanations of their reasoning.",
+      "accessed_at": "2026-09-28T19:45:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s19",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/project/typesafe-sdk/",
+      "title": "pypi.org/project/typesafe-sdk/",
+      "claim": "Documented: 200; metadata (not a quote): requires_python >=3.10, author TypeSafe AI <an address on the typesafe.ai domain>, maintainer Daniel Gafni; releases 0.0.1a0, 0.5.7, 0.6.0, 0.7.0, 0.7.1, 0.7.2",
+      "accessed_at": "2026-09-28T19:41:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s20",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/project/typesafe-ai/",
+      "title": "pypi.org/project/typesafe-ai/",
+      "claim": "Documented (third-party package page): Redirect shim: the TypeSafe AI Python SDK is published as 'typesafe-sdk'. This package depends on it and re-exports its public API.",
+      "accessed_at": "2026-09-28T19:41:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s21",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python",
+      "title": "github.com/typesafe-ai/typesafe-sdk-python",
+      "claim": "Documented: 200; metadata (not a quote): MIT licence, repo created 2026-09-04, GitHub releases v0.5.7 (published 2026-09-11T23:06Z, titled 2026-09-12), v0.6.0 (09-15), v0.7.0 (09-18), v0.7.1 (09-21), v0.7.2 (09-26); 8 open issues",
+      "accessed_at": "2026-09-28T19:41:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s22",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python/blob/v0.7.2/src/typesafe_sdk/_core/errors.py",
+      "title": "github.com/typesafe-ai/typesafe-sdk-python/blob/v0.7.2/src/typesafe_sdk/_core/errors.py",
+      "claim": "Documented (source read): 400: TypeSafeBadRequestError,",
+      "accessed_at": "2026-09-28T19:42:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s23",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python/blob/v0.7.2/src/typesafe_sdk/_core/retry.py",
+      "title": "github.com/typesafe-ai/typesafe-sdk-python/blob/v0.7.2/src/typesafe_sdk/_core/retry.py",
+      "claim": "Documented (source read): http_statuses: set[int] = field(default_factory=lambda: {408, 429, *range(500, 600)})",
+      "accessed_at": "2026-09-28T19:42:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s24",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python/blob/v0.7.2/src/typesafe_sdk/_core/questions.py",
+      "title": "github.com/typesafe-ai/typesafe-sdk-python/blob/v0.7.2/src/typesafe_sdk/_core/questions.py",
+      "claim": "Documented (source read): Reject a score question with no criteria; at least one score is required.",
+      "accessed_at": "2026-09-28T19:42:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s25",
+      "source_type": "reported source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python/issues/17",
+      "title": "github.com/typesafe-ai/typesafe-sdk-python/issues/17",
+      "claim": "Reported: The API answers `400 Noul question must have criteria or instructions`",
+      "accessed_at": "2026-09-28T19:41:39Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s26",
+      "source_type": "reported + maintainer response source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python/issues/16",
+      "title": "github.com/typesafe-ai/typesafe-sdk-python/issues/16",
+      "claim": "Reported + maintainer response: this was intentional, documented as breaking, and happened long time ago",
+      "accessed_at": "2026-09-28T19:42:13Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s27",
+      "source_type": "reported + maintainer response source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python/issues/15",
+      "title": "github.com/typesafe-ai/typesafe-sdk-python/issues/15",
+      "claim": "Reported + maintainer response: Thank you, this seems like a problem in our API. We will fix it but I can't promise it happening too soon.",
+      "accessed_at": "2026-09-28T19:42:12Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s28",
+      "source_type": "reported source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python/issues/12",
+      "title": "github.com/typesafe-ai/typesafe-sdk-python/issues/12",
+      "claim": "Reported: Choice(instructions=\"What's the tone?\", criteria={})",
+      "accessed_at": "2026-09-28T19:41:39Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s29",
+      "source_type": "reported + maintainer response source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python/issues/9",
+      "title": "github.com/typesafe-ai/typesafe-sdk-python/issues/9",
+      "claim": "Reported + maintainer response: Fixed in https://github.com/typesafe-ai/typesafe-sdk-python/releases/tag/v0.7.1",
+      "accessed_at": "2026-09-28T19:42:13Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s30",
+      "source_type": "reported source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-js/issues/6",
+      "title": "github.com/typesafe-ai/typesafe-sdk-js/issues/6",
+      "claim": "Reported: choice criteria, 256 labels → 400 {\"detail\":\"Too many choices. Must have at most 255 choices.\"}",
+      "accessed_at": "2026-09-28T19:42:23Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s31",
+      "source_type": "reported source",
+      "source_url": "https://github.com/typesafe-ai/skills/issues/8",
+      "title": "github.com/typesafe-ai/skills/issues/8",
+      "claim": "Reported: So a **missing** key gets 403 while an **invalid** key gets 401",
+      "accessed_at": "2026-09-28T19:42:31Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s32",
+      "source_type": "reported source",
+      "source_url": "https://github.com/typesafe-ai/skills/issues/1",
+      "title": "github.com/typesafe-ai/skills/issues/1",
+      "claim": "Reported: A request whose body fails validation returns **`400 Bad Request`**, not `422`",
+      "accessed_at": "2026-09-28T19:42:32Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s33",
+      "source_type": "reported source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-js/issues/15",
+      "title": "github.com/typesafe-ai/typesafe-sdk-js/issues/15",
+      "claim": "Reported: Clients get a `403` with an HTML body instead of a JSON error.",
+      "accessed_at": "2026-09-28T19:42:32Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s34",
+      "source_type": "reported source",
+      "source_url": "https://github.com/langchain-ai/langchain/issues/40867",
+      "title": "github.com/langchain-ai/langchain/issues/40867",
+      "claim": "Reported: The classifier currently makes a single attempt",
+      "accessed_at": "2026-09-28T19:42:23Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s35",
+      "source_type": "reported source",
+      "source_url": "https://github.com/jakenbear/the-jev-enator/issues/37",
+      "title": "github.com/jakenbear/the-jev-enator/issues/37",
+      "claim": "Reported: Never retry `auth` / `validation` / `waf`.",
+      "accessed_at": "2026-09-28T19:42:24Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s36",
+      "source_type": "reported source",
+      "source_url": "https://github.com/jumboly/jev-client/issues/9",
+      "title": "github.com/jumboly/jev-client/issues/9",
+      "claim": "Reported: 毎分 120 回を 1〜2 分送っても 429 は 0 件。2026-09-25",
+      "accessed_at": "2026-09-28T19:42:24Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s37",
+      "source_type": "reported source",
+      "source_url": "https://github.com/maximhq/bifrost/issues/7599",
+      "title": "github.com/maximhq/bifrost/issues/7599",
+      "claim": "Reported: native error detail is replaced with a generic `api_error`, and the request/retry/billing headers are missing",
+      "accessed_at": "2026-09-28T19:42:24Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s38",
+      "source_type": "reported source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/issues/4091",
+      "title": "github.com/Yeachan-Heo/oh-my-claudecode/issues/4091",
+      "claim": "Reported: `src/hooks/jev/config.ts:27` sets `DEFAULT_TIMEOUT_MS = 250`.",
+      "accessed_at": "2026-09-28T19:42:24Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s39",
+      "source_type": "reported source",
+      "source_url": "https://jevaiguide.com/jev-rate-limits/",
+      "title": "jevaiguide.com/jev-rate-limits/",
+      "claim": "Reported: we ran 145 questions one after another in 81 seconds, and later dozens of smaller tests, without a single 429",
+      "accessed_at": "2026-09-28T19:42:45Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s40",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/api-reference/errors",
+      "title": "openrouter.ai/docs/api-reference/errors",
+      "claim": "Documented (route owner): Your account or API key has insufficient credits. Add more credits and retry the request.",
+      "accessed_at": "2026-09-28T19:42:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s41",
+      "source_type": "documented source",
+      "source_url": "https://vercel.com/docs/ai-gateway/rate-limits.md",
+      "title": "vercel.com/docs/ai-gateway/rate-limits.md",
+      "claim": "Documented (route owner): AI Gateway does not rate limit paid-tier requests. The free tier applies lower per-model limits",
+      "accessed_at": "2026-09-28T19:45:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s42",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/errors/",
+      "title": "developers.cloudflare.com/workers-ai/platform/errors/",
+      "claim": "Documented (route owner): `Capacity temporarily exceeded, please try again.`",
+      "accessed_at": "2026-09-28T19:42:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s44",
+      "source_type": "reported source",
+      "source_url": "https://www.alexmolas.com/2026/09/23/jev-cant-be-calibrated.html",
+      "title": "www.alexmolas.com/2026/09/23/jev-cant-be-calibrated.html",
+      "claim": "Reported (critique, no data): treat Jev’s outputs as good scores (they rank examples well) rather than good probabilities",
+      "accessed_at": "2026-09-28T19:42:45Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s45",
+      "source_type": "reported source",
+      "source_url": "https://news.ycombinator.com/item?id=49816899",
+      "title": "news.ycombinator.com/item?id=49816899",
+      "claim": "Reported: 200 via Algolia API; metadata (not a quote): title Jev Can't Be Calibrated, 65 points, 61 comments; thread text not read",
+      "accessed_at": "2026-09-28T19:43:30Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s46",
+      "source_type": "reported source",
+      "source_url": "https://github.com/AnthusAI/Jev-Calibration",
+      "title": "github.com/AnthusAI/Jev-Calibration",
+      "claim": "Reported: **For a two-option Choice, the `confidence` field is `2·p_top − 1`** (to within rounding).",
+      "accessed_at": "2026-09-28T19:43:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s47",
+      "source_type": "reported source",
+      "source_url": "https://github.com/Adilmp/does-jev-confidence-mean-anything",
+      "title": "github.com/Adilmp/does-jev-confidence-mean-anything",
+      "claim": "Reported: **8,000 judgments · 4 wordings · 2 base rates · `jev-1.13.0` · $0.05**",
+      "accessed_at": "2026-09-28T19:46:15Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s48",
+      "source_type": "reported source",
+      "source_url": "https://github.com/abhixhek/jevcal",
+      "title": "github.com/abhixhek/jevcal",
+      "claim": "Reported (tool README): That is simulator output, not a Jev benchmark.",
+      "accessed_at": "2026-09-28T19:43:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s49",
+      "source_type": "reported source",
+      "source_url": "https://github.com/Adilmp/jevcal",
+      "title": "github.com/Adilmp/jevcal",
+      "claim": "Reported (tool metadata): Find out what your confidence threshold actually buys you, then fix it. Single file, numpy only.",
+      "accessed_at": "2026-09-28T19:46:19Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s50",
+      "source_type": "reported source",
+      "source_url": "https://pypi.org/project/jevkit-calibrate/",
+      "title": "pypi.org/project/jevkit-calibrate/",
+      "claim": "Reported (tool metadata): Verify TypeSafe Jev's calibration on your own data. Reliability diagrams, ECE, Brier, and confidence thresholds derived from labeled outcomes.",
+      "accessed_at": "2026-09-28T19:43:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s51",
+      "source_type": "reported source",
+      "source_url": "https://prefactor.tech/blog/jev-calibrated-confidence-is-not-correctness",
+      "title": "prefactor.tech/blog/jev-calibrated-confidence-is-not-correctness",
+      "claim": "Reported (vendor blog, no data): TypeSafe has not published Jev's reward function, its architecture, or its calibration methodology.",
+      "accessed_at": "2026-09-28T19:43:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s52",
+      "source_type": "reported source",
+      "source_url": "https://www.marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev/",
+      "title": "www.marktechpost.com/2026/09/23/a-coding-guide-to-typesafe-ai-jev/",
+      "claim": "Reported: \"\"\"TypeSafe's published statistic: (count x peak - 1) / (count - 1).\"\"\"",
+      "accessed_at": "2026-09-28T19:45:30Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s53",
+      "source_type": "reported source",
+      "source_url": "https://mljar.com/blog/jev-python/",
+      "title": "mljar.com/blog/jev-python/",
+      "claim": "Reported: pip install typesafe-sdk python-dotenv",
+      "accessed_at": "2026-09-28T19:45:29Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s54",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/project/llm-typesafe/",
+      "title": "pypi.org/project/llm-typesafe/",
+      "claim": "Documented (package metadata): 200; metadata (not a quote): author Simon Willison; requires llm>=0.35, httpx2>=2.13.0, pydantic>=2; only release 0.1a0",
+      "accessed_at": "2026-09-28T19:45:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s55",
+      "source_type": "reported source",
+      "source_url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "title": "www.nobodywho.ai/posts/jev-in-25-lines/",
+      "claim": "Reported: repo_id=\"Qwen/Qwen3-0.6B-GGUF\",",
+      "accessed_at": "2026-09-28T19:45:30Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s56",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/cookbooks.md",
+      "title": "docs.typesafe.ai/cookbooks.md",
+      "claim": "Documented: 200; 18 cookbook entries (titles taken from llms.txt)",
+      "accessed_at": "2026-09-28T19:41:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s60",
+      "source_type": "reported source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/issues/4091#issuecomment",
+      "title": "github.com/Yeachan-Heo/oh-my-claudecode/issues/4091#issuecomment",
+      "claim": "Reported (project owner): 200; metadata (not a quote): owner states PR #4092 merged; lowercase types, Score criteria as ordered list, default timeout 250 ms -> 2000 ms",
+      "accessed_at": "2026-09-28T19:42:34Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s22b",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python/blob/v0.7.2/src/typesafe_sdk/__init__.py",
+      "title": "github.com/typesafe-ai/typesafe-sdk-python/blob/v0.7.2/src/typesafe_sdk/__init__.py",
+      "claim": "Documented (source read): \"TypeSafeRateLimitError\",",
+      "accessed_at": "2026-09-28T19:52:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-b-s12c",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/api/clients/sync",
+      "title": "docs.typesafe.ai/sdk/python/api/clients/sync",
+      "claim": "Documented: 200; metadata (not a quote): system_one signature includes state, questions, model, response_model, extra_body, timeout, headers, retry",
+      "accessed_at": "2026-09-28T19:41:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-128",
+      "source_type": "alternatives source",
+      "source_url": "https://api.github.com/repos/NandhaKishorM/laya/releases",
+      "title": "api.github.com/repos/NandhaKishorM/laya/releases",
+      "claim": "Documented: v0.3.21 2026-09-27T19:41:23Z",
+      "accessed_at": "2026-09-28T19:45:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-129",
+      "source_type": "alternatives source",
+      "source_url": "https://api.github.com/repos/ollaya-dev/ollaya/releases",
+      "title": "api.github.com/repos/ollaya-dev/ollaya/releases",
+      "claim": "Documented: v0.7.5 2026-09-28T05:30:53Z; v0.7.4 2026-09-28T03:45:20Z",
+      "accessed_at": "2026-09-28T19:45:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-130",
+      "source_type": "alternatives source",
+      "source_url": "https://api.github.com/repos/nokia-applied-research/AnyJev/releases",
+      "title": "api.github.com/repos/nokia-applied-research/AnyJev/releases",
+      "claim": "Documented: v0.2.0 2026-09-28T08:33:19Z",
+      "accessed_at": "2026-09-28T19:45:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-131",
+      "source_type": "alternatives source",
+      "source_url": "https://api.github.com/repos/jaredpalmer/kev/releases",
+      "title": "api.github.com/repos/jaredpalmer/kev/releases",
+      "claim": "Documented: latest release kev-family 2026-09-20T17:18:57Z",
+      "accessed_at": "2026-09-28T19:45:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-132",
+      "source_type": "alternatives source",
+      "source_url": "https://huggingface.co/api/models?search=ollaya&sort=lastModified&direction=-1&limit=100",
+      "title": "huggingface.co/api/models?search=ollaya&sort=lastModified&direction=-1&limit=100",
+      "claim": "Documented: ollaya-dev/decider modified 2026-09-28T04:47; ollaya-dev/clm created 2026-09-28T03:12",
+      "accessed_at": "2026-09-28T19:44:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-133",
+      "source_type": "alternatives source",
+      "source_url": "https://huggingface.co/api/models?search=jevper&sort=lastModified&direction=-1&limit=100",
+      "title": "huggingface.co/api/models?search=jevper&sort=lastModified&direction=-1&limit=100",
+      "claim": "Documented: 0 in window",
+      "accessed_at": "2026-09-28T19:44:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-134",
+      "source_type": "alternatives source",
+      "source_url": "https://pypi.org/pypi/jevper/json",
+      "title": "pypi.org/pypi/jevper/json",
+      "claim": "Documented: jevper 0.7.11 uploaded 2026-09-26T09:45:19Z",
+      "accessed_at": "2026-09-28T19:53:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-135",
+      "source_type": "alternatives source",
+      "source_url": "https://pypi.org/pypi/ollaya/json",
+      "title": "pypi.org/pypi/ollaya/json",
+      "claim": "Unverified: 404: no PyPI package named ollaya (installer is a shell script per README)",
+      "accessed_at": "2026-09-28T19:53:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-136",
+      "source_type": "alternatives source",
+      "source_url": "https://github.com/ollaya-dev/ollaya",
+      "title": "github.com/ollaya-dev/ollaya",
+      "claim": "Documented: \"speaks TypeSafe's /v1/systemone wire format, so existing Jev clients work by changing one environment variable\"",
+      "accessed_at": "2026-09-28T19:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-137",
+      "source_type": "alternatives source",
+      "source_url": "https://github.com/ollaya-dev/ollaya#license",
+      "title": "github.com/ollaya-dev/ollaya#license",
+      "claim": "Documented: \"Apache-2.0. Each model keeps its own license\"",
+      "accessed_at": "2026-09-28T19:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-138",
+      "source_type": "alternatives source",
+      "source_url": "https://github.com/ollaya-dev/ollaya/releases/tag/v0.7.5",
+      "title": "github.com/ollaya-dev/ollaya/releases/tag/v0.7.5",
+      "claim": "Documented: \"Ollaya reads images: decider:2b-vision, and images on the API\"",
+      "accessed_at": "2026-09-28T19:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-139",
+      "source_type": "alternatives source",
+      "source_url": "https://github.com/zhulinchng/jevper",
+      "title": "github.com/zhulinchng/jevper",
+      "claim": "Documented: \"an independent implementation of the documented System One wire format. It is not affiliated with, endorsed by, or supported by TypeSafe AI\"",
+      "accessed_at": "2026-09-28T19:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-140",
+      "source_type": "alternatives source",
+      "source_url": "https://huggingface.co/api/models/jaredpalmer/kev-4b",
+      "title": "huggingface.co/api/models/jaredpalmer/kev-4b",
+      "claim": "Documented: license apache-2.0; base_model Qwen/Qwen3.5-4B-Base (adapter)",
+      "accessed_at": "2026-09-28T19:56:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-141",
+      "source_type": "alternatives source",
+      "source_url": "https://huggingface.co/api/models/jaredpalmer/kev-27b",
+      "title": "huggingface.co/api/models/jaredpalmer/kev-27b",
+      "claim": "Documented: license apache-2.0; base_model Qwen/Qwen3.8-27B (adapter)",
+      "accessed_at": "2026-09-28T19:56:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-142",
+      "source_type": "alternatives source",
+      "source_url": "https://github.com/NandhaKishorM/laya/releases/tag/v0.3.21",
+      "title": "github.com/NandhaKishorM/laya/releases/tag/v0.3.21",
+      "claim": "Documented: \"fix(serve): return 400 for a deeply nested JSON body\"",
+      "accessed_at": "2026-09-28T19:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-143",
+      "source_type": "alternatives source",
+      "source_url": "https://huggingface.co/api/models/convaiinnovations/laya",
+      "title": "huggingface.co/api/models/convaiinnovations/laya",
+      "claim": "Documented: license apache-2.0; no base_model in card metadata",
+      "accessed_at": "2026-09-28T19:56:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-144",
+      "source_type": "alternatives source",
+      "source_url": "https://huggingface.co/api/models/ollaya-dev/clm",
+      "title": "huggingface.co/api/models/ollaya-dev/clm",
+      "claim": "Documented: base_model Contrastive-LM/CLM-v0.1-8B, Qwen/Qwen3-8B; license apache-2.0 (ONNX packaging repo)",
+      "accessed_at": "2026-09-28T19:56:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-145",
+      "source_type": "alternatives source",
+      "source_url": "https://github.com/aleskxyz/kev-onnx",
+      "title": "github.com/aleskxyz/kev-onnx",
+      "claim": "Unverified: Self-hosted, TypeSafe-compatible /v1/systemone API server for the KEV decision model - CPU-only ONNX (Apache-2.0)",
+      "accessed_at": "2026-09-28T19:42:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-146",
+      "source_type": "alternatives source",
+      "source_url": "https://github.com/PragmaTwice/jeva.cpp",
+      "title": "github.com/PragmaTwice/jeva.cpp",
+      "claim": "Unverified: llama.cpp fork with a JEV-compatible decision API (MIT)",
+      "accessed_at": "2026-09-28T19:42:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-147",
+      "source_type": "alternatives source",
+      "source_url": "https://github.com/solvingSteve/Gevva0",
+      "title": "github.com/solvingSteve/Gevva0",
+      "claim": "Unverified: System 0 local decision gateway powered by Gemma 4 (Apache-2.0)",
+      "accessed_at": "2026-09-28T19:42:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-c-148",
+      "source_type": "alternatives source",
+      "source_url": "https://huggingface.co/salfatigroup/rene-1-31b-fp8",
+      "title": "huggingface.co/salfatigroup/rene-1-31b-fp8",
+      "claim": "Unverified: HF createdAt; license apache-2.0; base_model not in card metadata",
+      "accessed_at": "2026-09-28T19:42:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-9owxrsro4d8-54",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=9oWxrsRo4d8&t=54s",
+      "title": "Meet Jev: The AI Built to Make Decisions (vogel)",
+      "claim": "Reported: creator chapter \"0:54 Testing Jev on my own emails\" marks a email and inbox classification demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:43:34Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-4mtlpuqpb80-272",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=4mTLpuQpB80&t=272s",
+      "title": "Jev is HERE. How to use it (Greg Isenberg)",
+      "claim": "Reported: creator chapter \"4:32 Email Triage Demo\" marks a email and inbox classification demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:43:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-opclvazvu0i-502",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=OPClvAzvu0I&t=502s",
+      "title": "JEV in pratica (con TypeScript) (Giuseppe Funicello)",
+      "claim": "Reported: creator chapter \"8:22 Demo: classificare le email\" marks a email and inbox classification demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:48:10Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video--kibgpga_xi-780",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=-KIBgpGA_XI&t=780s",
+      "title": "I’m using Jev more than Opus 5.5 or GPT-6. Here’s why. (How I AI)",
+      "claim": "Reported: creator chapter \"13:00 Use case 3: Gmail triage with Jev scoring and LLM follow-up\" marks a email and inbox classification demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:44Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-jpflid19qnq-0",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=JpfLID19QnQ&t=0s",
+      "title": "Jev Explained for Python Developers (Dave Ebbelaar)",
+      "claim": "Reported: creator chapter \"0:00 Jev and your first Python request\" marks a support tickets and customer messages demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:43:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-mqg1-jaky1e-564",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=MQg1-JAky1E&t=564s",
+      "title": "Jev Full Tutorial for Beginners: How to Use & Set up Jev (Typesafe) (Mikey No Code)",
+      "claim": "Reported: creator chapter \"9:24 Build 2: Support Ticket Triage & Automated Department Routing\" marks a support tickets and customer messages demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:30Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-d9lcivc5ayu-634",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=d9lCIVc5AyU&t=634s",
+      "title": "Jev: The AI Model That's Breaking The Internet (Full Tutorial) (Mayank Aggarwal)",
+      "claim": "Reported: creator chapter \"10:34 Build 2: Support Ticket Triage\" marks a support tickets and customer messages demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:31Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-qqswbxy3nsc-555",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=qQSWBxY3NSc&t=555s",
+      "title": "What is Jev AI? Explained with Live demo by Mohit. (DrHimanshiChaudhary)",
+      "claim": "Reported: creator chapter \"9:15 Live Test: Jev AI Speed & Confidence Scores\" marks a support tickets and customer messages demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:48:30Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-avstlc_k2pc-179",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=AvSTLc_k2pc&t=179s",
+      "title": "Jev AI in 6 Minutes: How to Get In Without the Waitlist (and My Real Test) (The AI Stack)",
+      "claim": "Reported: creator chapter \"2:59 What I found: the refund test\" marks a support tickets and customer messages demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:48:31Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-mqg1-jaky1e#mod-726",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=MQg1-JAky1E&t=726s",
+      "title": "Jev Full Tutorial for Beginners: How to Use & Set up Jev (Typesafe) (Mikey No Code)",
+      "claim": "Reported: creator chapter \"12:06 Build 3: Content Moderation & Policy Violation Assessment\" marks a content moderation demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:30Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-cenkpfvn-vo#mod-767",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=CenkPFVn-vo&t=767s",
+      "title": "Jev: This is what the AI ​​model can really do (10 use cases) (Julian Ivanov | KI-Automatisierung)",
+      "claim": "Reported: creator chapter \"12:47 Guardrail und Model-Router im Support-Bot\" marks a content moderation demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:44:05Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-hhushkyhkcm-1197",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=HHUsHkYhkcM&t=1197s",
+      "title": "How To Build A Harness With Jev | A LangChain x TypeSafe Conversation (LangChain)",
+      "claim": "Reported: creator chapter \"19:57 Live demo: safety classification and model routing\" marks a model routing, tool selection and agent harness demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:43:57Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-ve5dswll06m-207",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=VE5dsWll06M&t=207s",
+      "title": "Building a Harness with Jev (LangChain)",
+      "claim": "Reported: creator chapter \"3:27 Demo: Jev vs an LLM head to head\" marks a model routing, tool selection and agent harness demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:43:59Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-7eahgcruiae-311",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=7EAhGcrUiaE&t=311s",
+      "title": "Build a Jev router that picks your AI model (NextWork)",
+      "claim": "Reported: creator chapter \"5:11 your first jev call\" marks a model routing, tool selection and agent harness demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:48:15Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-7w8erwnuua8-650",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=7w8eRWnUUA8&t=650s",
+      "title": "Jev and Herdr: The Best Way to Route Models (Must-Try Workflow) (Nidhi Singh)",
+      "claim": "Reported: creator chapter \"10:50 Demo 1: a research task gets routed to Grok 4.6\" marks a model routing, tool selection and agent harness demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:46:37Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-qecoxg85ais-150",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=QEcOXG85aIs&t=150s",
+      "title": "Jev with LangChain: Smarter AI Agent Tool Selection | Reduce Tokens & Cost (Mohamed Naji Aboo)",
+      "claim": "Reported: creator chapter \"2:30 Dynamic Tool Selection with TypeSafe Classifier\" marks a model routing, tool selection and agent harness demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:46:25Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-zr7anrl50xs-359",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=ZR7anrL50xs&t=359s",
+      "title": "How to Build Things with Jev & OpenJevs (Sam Witteveen)",
+      "claim": "Reported: creator chapter \"5:59 Model Router Demo\" marks a model routing, tool selection and agent harness demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:46:26Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-rpqquemrbaa-239",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=rpQqUEmRbaA&t=239s",
+      "title": "JEV Explained in Plain English — Build a Real AI Model Router (cloud-monk - cloud in plain english)",
+      "claim": "Reported: creator chapter \"3:59 Real World Application\" marks a model routing, tool selection and agent harness demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:46:39Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-pmnq5e5xp4s-638",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=pmnq5e5Xp4s&t=638s",
+      "title": "I Tried Jev AI in Python: Honest First Look (Real Python)",
+      "claim": "Reported: creator chapter \"10:38 Running with --env-file\" marks a python demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:43:56Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-kwwgy-2rzxk-222",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=kWwgY-2rZXk&t=222s",
+      "title": "Jev: Typed AI Decisions in Python — Build a Classifier + Route Coding Standards with Claude Code (Omar Kamal)",
+      "claim": "Reported: creator chapter \"3:42 Your first API call\" marks a python demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:34Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-x117w2rark8-296",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=X117w2Rark8&t=296s",
+      "title": "Jev - The Ultimate Classification Model? (Sam Witteveen)",
+      "claim": "Reported: creator chapter \"4:56 Demo\" marks a python demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:43:52Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-zgxej_9isxy-774",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=ZgXej_9isxY&t=774s",
+      "title": "What is Jev and How to Use it? (Codevolution)",
+      "claim": "Reported: creator chapter \"12:54 Using Jev with TypeScript\" marks a typescript and vercel ai sdk demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:46:10Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-ccmqps6q9gw-131",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=CcmqPS6q9Gw&t=131s",
+      "title": "I tried TypeSafe's System One Model: Jev (Joe Maddalone)",
+      "claim": "Reported: creator chapter \"2:11 Typescript Application Using and Testing Jev\" marks a typescript and vercel ai sdk demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:33Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-nom_itcfd4k-241",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=noM_ITCFd4k&t=241s",
+      "title": "Is Jev Actually Useful for E-Commerce? (306 Technologies)",
+      "claim": "Reported: creator chapter \"4:01 Testing Warehouse Selection\" marks a typescript and vercel ai sdk demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:48:24Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-3c9h3t2brmu-542",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=3C9h3T2BRMU&t=542s",
+      "title": "How To Setup JEV With n8n: I Let It Sort My Gmail Leads (n8n Setup) (Stephanie Nyarko)",
+      "claim": "Reported: creator chapter \"9:02 The Ask Jev node: three questions\" marks a n8n and no-code workflows demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:34Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-0hxoysilnyw-85",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=0hxoySIlnyw&t=85s",
+      "title": "jev + n8n: turn a probability into a decision (Perseo n8n Automations )",
+      "claim": "Reported: creator chapter \"1:25 Running it in n8n\" marks a n8n and no-code workflows demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-xyyvqc5e-p0-297",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=xYYvqc5E-p0&t=297s",
+      "title": "#51 - JEV: THE AI THAT DECIDES IN MILLISECONDS (4 practical cases in N8N) - Complete N8N Course (Hiperautomação)",
+      "claim": "Reported: creator chapter \"4:57 Caso 1: triagem de atendimento\" marks a n8n and no-code workflows demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:48:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-s4skngv8njm-141",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=s4skNgV8nJM&t=141s",
+      "title": "How to Use Jev Instantly in Claude Code with OpenRouter (No Waitlist) (Philipp Acsany · Practical Claude Code)",
+      "claim": "Reported: creator chapter \"2:21 Test Jev with curl\" marks a claude code and coding agents demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-_u-o5lyhj7q-57",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=_U-O5lYhJ7Q&t=57s",
+      "title": "10 Levels of Jev For Agentic Engineers (IndyDevDan)",
+      "claim": "Reported: creator chapter \"0:57 Smart If Statement Jev\" marks a claude code and coding agents demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:48:27Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-ulkx0bnnqzy-81",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=ULKX0bnNQZY&t=81s",
+      "title": "How to add Jev AI to Claude Code in 6 minutes (step-by-step) (Kev Builds Apps)",
+      "claim": "Reported: creator chapter \"1:21 Jev + Claude Code CLI Demo\" marks a claude code and coding agents demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:46:34Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-mwgatggbw-c-353",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=MwGATggBw-c&t=353s",
+      "title": "Is Jev actually good? We tested TypeSafe's classifier on 3,080 bank support messages (M37)",
+      "claim": "Reported: creator chapter \"5:53 Jev's result\" marks a evaluation and finance checks demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:38Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-f6lulvfjo9s-180",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=f6LulVfjo9s&t=180s",
+      "title": "JEV против CLAUDE: прогнал 200 счетов, дешевле в 50 раз (INCUBEAI)",
+      "claim": "Reported: creator chapter \"3:00 Первый счёт: «сменили банк, оплатите сегодня»\" marks a evaluation and finance checks demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:48:20Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-cdhfrthks7e-455",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=cDhFRtHKS7E&t=455s",
+      "title": "TypeSafe AI Jev: 50 Financial Jobs, Verifiable Demos & Honest Limits (The Fintech Builder)",
+      "claim": "Reported: creator chapter \"7:35 01 Ledger integrity review\" marks a evaluation and finance checks demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:46:33Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-ymgh8js6wb8-853",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=ymgH8jS6Wb8&t=853s",
+      "title": "I Tested Jev on 12 Real Use Cases. My Honest Thoughts. (Nate Herk | AI Automation)",
+      "claim": "Reported: creator chapter \"14:13 Real-Time Trading & Handoffs\" marks a trading (paper) demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:44:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-8dgrqdukf-u-759",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=8DgRqDukf-U&t=759s",
+      "title": "Build a 24/7 AI Trading Bot With JEV (Lewis Jackson)",
+      "claim": "Reported: creator chapter \"12:39 Running the initial test\" marks a trading (paper) demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:44:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-ba8wehymjko-332",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=bA8WeHYmJko&t=332s",
+      "title": "Jev is the FIRST of a Whole New Class of AI Models (Here's How to Actually Use It) (Cole Medin)",
+      "claim": "Reported: creator chapter \"5:32 Jev Plays My Game (Insane)\" marks a games and real-time control demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:32Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-4u6-uidpj6o-894",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=4u6-uiDpJ6o&t=894s",
+      "title": "Jev Explained for Beginners with Demo (KodeKloud)",
+      "claim": "Reported: creator chapter \"14:54 Building the game on KodeKey with Claude Code\" marks a games and real-time control demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:44:09Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-fqfkzidoyam-567",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=FQFKZiDOYAM&t=567s",
+      "title": "爆火的 TypeSafe AI Jev 模型到底怎么玩？海量社区案例带你入门，附两个实战 Demo (NiceKate AI)",
+      "claim": "Reported: creator chapter \"9:27 实战一：兔子冒险\" marks a games and real-time control demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:39Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-qkpnaohbxwo-168",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=QkPnAoHBXwo&t=168s",
+      "title": "This new AI model isn't an LLM. It's 20x cheaper and plays Doom in real time (Jev explained) (Alex Volkov from ThursdAI)",
+      "claim": "Reported: creator chapter \"2:48 Live demo: classifying 12 tweets a second\" marks a games and real-time control demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:38Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-nq_lu5qt-fi-359",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=Nq_lu5QT-fI&t=359s",
+      "title": "Jev: The New AI Model That's Breaking The Internet (Full Tutorial) (Moritz | AI Systems)",
+      "claim": "Reported: creator chapter \"5:59 Building a voice-controlled browser\" marks a browser, scraping and data extraction demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:32Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-l87pznsmm-g-1289",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=l87PznsmM-g&t=1289s",
+      "title": "AI Web Scraping with Jev + Playwright is Mind-Blowing! (ByteGrad)",
+      "claim": "Reported: creator chapter \"21:29 Classifying data with Jev\" marks a browser, scraping and data extraction demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:48:14Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-7ikwt8ljv-o-862",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=7ikwT8LJV-o&t=862s",
+      "title": "Jeev in Practice: I Created a Tool That Finds Ads That Sell (Nate IA | Vibe Coding Elite )",
+      "claim": "Reported: creator chapter \"14:22 JEV Funcionando na prática.\" marks a browser, scraping and data extraction demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:42Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-cenkpfvn-vo-137",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=CenkPFVn-vo&t=137s",
+      "title": "Jev: This is what the AI ​​model can really do (10 use cases) (Julian Ivanov | KI-Automatisierung)",
+      "claim": "Reported: creator chapter \"2:17 Demo 1\" marks a other concrete demos demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:44:05Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-0zffcer1e9u-2700",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=0zFfcEr1e9U&t=2700s",
+      "title": "Jev by TypeSafe AI | What is a System-1 Decision Model | CampusX (CampusX)",
+      "claim": "Reported: creator chapter \"45:00 Hands-on Project: Multi-Attribute E-Commerce Review Classifier\" marks a other concrete demos demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:44:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-eah1h1gyxdm-254",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=EAh1h1GYxDM&t=254s",
+      "title": "Understand Jev (the only video you need) (ZazenCodes)",
+      "claim": "Reported: creator chapter \"4:14 Noul: Yes/No Probabilities\" marks a other concrete demos demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:44:08Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-pu73lyf7r1i-2325",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=pU73lYF7R1I&t=2325s",
+      "title": "JEV / TypeSafe AI API & Rust - Let make a rust lb (Jeremy Chone)",
+      "claim": "Reported: creator chapter \"38:45 Live API Run: Testing Fast Classification & Multi-language Prompting\" marks a other concrete demos demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:33Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-xexljspyxqk-31",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=XEXLjsPYxQk&t=31s",
+      "title": "Jev入門 話題の判断専用AI、Jevの組み込みを試してみました (ともすた | たにぐち まこと)",
+      "claim": "Reported: creator chapter \"0:31 Jevを使ってみよう\" marks a other concrete demos demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:49:39Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r1-video-qbybrjoagoo-730",
+      "source_type": "creator video (chapter marker; not watched)",
+      "source_url": "https://www.youtube.com/watch?v=QbYBRjOaGOo&t=730s",
+      "title": "Jev Explained: Demos and Use Cases (Syntax)",
+      "claim": "Reported: creator chapter \"12:10 demo: jev chat bot with no LLM\" marks a other concrete demos demo; frames not viewed by the pool.",
+      "accessed_at": "2026-09-28T19:44:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
     }
   ]
 }

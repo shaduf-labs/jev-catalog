@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'self'; img-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Jev (TypeSafe AI) cost per decision worksheet</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #fff; }
+  body { color: #37352f; font: 15px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  * { box-sizing: border-box; }
+  .ws { padding: 18px 18px 20px; }
+  h2 { margin: 0 0 4px; font-size: 18px; }
+  .intro { margin: 0 0 14px; color: #6b6a66; font-size: 13.5px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px 16px; }
+  .f { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  label { font-weight: 650; font-size: 14px; }
+  .hint { color: #6b6a66; font-size: 12.5px; line-height: 1.4; }
+  input { width: 100%; min-width: 0; font: inherit; padding: 7px 9px; border: 1px solid #b9b7b1; border-radius: 6px; background: #fff; color: #37352f; }
+  input:focus-visible, button:focus-visible { outline: 3px solid #d08a16; outline-offset: 2px; }
+  input[aria-invalid="true"] { border-color: #9f3f3b; }
+  .req { color: #9f3f3b; font-weight: 700; }
+  .price { margin: 14px 0 0; padding: 10px 12px; border-left: 4px solid #326ca6; border-radius: 6px; background: #f4f7fb; font-size: 13.5px; }
+  .out { margin-top: 14px; padding: 14px; border: 1px solid #e6e5e2; border-radius: 6px; }
+  .out h3 { margin: 0 0 8px; font-size: 15px; }
+  .msg { margin: 0; color: #6b6a66; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 7px 6px; border-bottom: 1px solid #e6e5e2; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+  th { color: #6b6a66; font-size: 11.5px; letter-spacing: .04em; text-transform: uppercase; font-weight: 650; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .be { margin: 10px 0 0; font-size: 14px; }
+  .ref { margin: 12px 0 0; color: #6b6a66; font-size: 12.5px; }
+  button { font: inherit; font-size: 13.5px; margin-top: 12px; padding: 6px 12px; border: 1px dashed #b9b7b1; border-radius: 6px; background: #fff; color: #37352f; cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="ws" data-shaduf-resize-root>
+  <h2>Jev cost per decision</h2>
+  <p class="intro">Enter your own measurements. The worksheet runs only in your browser; it sends nothing and calls no model.</p>
+  <div class="grid">
+    <div class="f"><label for="tok">Input tokens per request <span class="req">*</span></label><input id="tok" type="number" inputmode="decimal" min="1" step="1" placeholder="from usage.input_tokens" aria-describedby="tok-h"><span class="hint" id="tok-h">Average <code>usage.input_tokens</code> from your own requests. Required; there is no default.</span></div>
+    <div class="f"><label for="dec">Decisions per month</label><input id="dec" type="number" inputmode="decimal" min="0" step="1" value="1000000" aria-describedby="dec-h"><span class="hint" id="dec-h">One decision = one question answered.</span></div>
+    <div class="f"><label for="per">Decisions (questions) per request</label><input id="per" type="number" inputmode="decimal" min="1" step="1" value="1" aria-describedby="per-h"><span class="hint" id="per-h">The state is billed once per request, however many questions it carries. Your token count above must match this batch size.</span></div>
+    <div class="f"><label for="retry">Retry rate (%)</label><input id="retry" type="number" inputmode="decimal" min="0" max="100" step="0.1" value="0" aria-describedby="retry-h"><span class="hint" id="retry-h">Extra requests per 100 requests. Counted as fully billed (worst case; billing of failed requests is not documented).</span></div>
+    <div class="f"><label for="fb">Fallback share (%)</label><input id="fb" type="number" inputmode="decimal" min="0" max="100" step="0.1" value="0" aria-describedby="fb-h"><span class="hint" id="fb-h">Decisions you send on to another model or a person (low confidence, errors).</span></div>
+    <div class="f"><label for="fbc">Fallback cost per decision (USD)</label><input id="fbc" type="number" inputmode="decimal" min="0" step="any" placeholder="your current model" aria-describedby="fbc-h"><span class="hint" id="fbc-h">What one decision costs on your current model or process. Needed for the fallback and break-even rows.</span></div>
+  </div>
+  <p class="price">Jev list price used: <strong>$0.042 per million input tokens; output tokens free</strong> (TypeSafe models page, checked 28 Sep 2026). Gateways may bill differently; on OpenRouter use each response's <code>usage.cost</code>.</p>
+  <div class="out" role="status" aria-live="polite">
+    <h3>Result</h3>
+    <p class="msg" data-msg>Enter your measured input tokens per request to see the cost.</p>
+    <table data-table hidden>
+      <thead><tr><th scope="col">Item</th><th scope="col" class="n">Per month</th><th scope="col" class="n">Per 1,000 decisions</th></tr></thead>
+      <tbody data-body></tbody>
+    </table>
+    <p class="be" data-be hidden></p>
+  </div>
+  <p class="ref">Reference only, not a default: Opper reported that Jev adds about 257 input tokens to every request (25 Sep 2026, operator-reported, Reported). TypeSafe's own API examples show 296–318 input tokens for a one-sentence state and one short question.</p>
+  <button type="button" data-reset>Clear inputs</button>
+</div>
+<script src="../assets/cost-worksheet.js"></script>
+<script src="../assets/shaduf-tool-resize.js"></script>
+</body>
+</html>

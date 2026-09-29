@@ -1,0 +1,214 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Jev confidence thresholds · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="What Jev (TypeSafe AI) probability and confidence fields mean for Choice, Score and Noul, and a procedure to pick a cutoff on your own data.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/build/confidence-thresholds/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Jev confidence thresholds · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="What Jev (TypeSafe AI) probability and confidence fields mean for Choice, Score and Noul, and a procedure to pick a cutoff on your own data.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/build/confidence-thresholds/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev confidence thresholds","description":"What Jev (TypeSafe AI) probability and confidence fields mean for Choice, Score and Noul, and a procedure to pick a cutoff on your own data.","dateModified":"2026-09-28T19:57:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/confidence-thresholds/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="build-confidence">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="index.html" aria-current="page"><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Open-source Jev alternatives</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Products and projects using Jev</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv">
+  <div class="jv-kicker"><span>Build</span><span>Model <code>jev-1.13.0</code> · docs checked <time datetime="2026-09-28">28 September 2026</time></span></div>
+  <h1>Setting Jev (TypeSafe AI) confidence thresholds: what the numbers mean and how to test them on your data</h1>
+  <p class="jv-lede">Jev returns probabilities for Choice and Score, a <code>confidence</code> number for both, and a single yes-probability for Noul. None of these is the probability that the answer is correct on your task. This page explains each field, shows how TypeSafe's own examples fit a formula, lists independent calibration tests, and gives a seven-step procedure for choosing a cutoff.</p>
+
+  <div class="jv-answer">
+    <strong>Short answer</strong>
+    <p><code>confidence</code> summarises how peaked the probability distribution is. For a Choice with n options it matches (n·p_max − 1)/(n − 1) in TypeSafe's documented examples, which is 2·p_top − 1 when there are two options. It is not the probability that the answer is correct. Noul has no confidence field; its number is P(yes). Pick a cutoff per question on your own labelled data, and recalibrate if a reliability check shows the probabilities are off. This site recommends no threshold.</p>
+  </div>
+
+  <h2 id="fields">What each field means</h2>
+  <div class="table-wrap stack wide">
+    <table>
+      <thead><tr><th>Type</th><th>Fields</th><th>Official meaning</th><th>What the pool found</th><th>Label</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Type">Choice</td><td data-l="Fields"><code>choice</code>, <code>probabilities</code>, <code>confidence</code></td><td data-l="Official"><code>choice</code> is the highest-probability option; <code>probabilities</code> sum to 1; <code>confidence</code> is "derived from" how the probabilities are spread (flat is low, one peak is high).</td><td data-l="Found">Fits (n·p_max − 1)/(n − 1) in 7 of 7 documented examples, within ±0.01. It adds no information beyond the probabilities.</td><td data-l="Label"><span class="ev ev-documented">Documented</span>; fit <span class="ev ev-tested">Tested (offline arithmetic)</span></td></tr>
+        <tr><td data-l="Type">Score</td><td data-l="Fields"><code>score</code>, <code>legend</code>, <code>probabilities</code>, <code>confidence</code></td><td data-l="Official"><code>score</code> is a probability-weighted position that "can land between levels". The jaggedness page says score levels are "weak in numerical calibration".</td><td data-l="Found">The same formula fits the 3-level examples but not the documented 4-level and 5-level examples. <strong>The Score confidence formula is undocumented.</strong></td><td data-l="Label"><span class="ev ev-documented">Documented</span>; <span class="ev ev-tested">Tested (offline arithmetic)</span></td></tr>
+        <tr><td data-l="Type">Noul</td><td data-l="Fields"><code>noul</code></td><td data-l="Official">Probability that the answer is yes. "There is no separate <code>confidence</code> value for a Noul."</td><td data-l="Found">Near 0.5 means undecided, not "medium". A Noul and its negation need not add up to 1 (official example: 0.72 + 0.47 = 1.19).</td><td data-l="Label"><span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="Type">All</td><td data-l="Fields">Rounding</td><td data-l="Official">Documented examples show two decimals.</td><td data-l="Found">Probabilities are reported to be rounded to two decimals after the winner is picked, which can flip near-ties (<a href="https://github.com/typesafe-ai/typesafe-sdk-python/issues/15">SDK #15</a>). Treat differences of 0.01 or less as ties.</td><td data-l="Label"><span class="ev ev-reported">Reported</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <figure class="jv-figure">
+    <p class="fig-title">TypeSafe's documented Choice example: probabilities and confidence</p>
+    <ul class="jv-bars">
+      <li class="c-doc"><span class="l">billing</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="88" height="18" rx="2"/></svg><span class="v">0.88</span></li>
+      <li class="c-doc"><span class="l">technical</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="12" height="18" rx="2"/></svg><span class="v">0.12</span></li>
+      <li class="c-doc"><span class="l">sales</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="0" height="18" rx="2"/></svg><span class="v">0.00</span></li>
+      <li class="c-rep"><span class="l"><code>confidence</code> returned</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="81" height="18" rx="2"/></svg><span class="v">0.81</span></li>
+    </ul>
+    <figcaption>From the <a href="https://docs.typesafe.ai/api">API reference</a> example for a <code>department</code> Choice (documentation values, not a pool measurement). With three options, (3 × 0.88 − 1) ÷ 2 = 0.82, within 0.01 of the returned 0.81. The two-option shortcut 2 × 0.88 − 1 = 0.76 does not fit. A confidence of 0.81 does not mean the answer is right 81% of the time.</figcaption>
+  </figure>
+
+  <details>
+    <summary>Formula check on all 12 documented examples</summary>
+    <div>
+      <p><span class="ev ev-tested">Tested (offline arithmetic, no Jev call)</span> on TypeSafe's documented example responses, labelled <code>jev-1.13.0</code>. TypeSafe's docs call the three-option formula an approximation.</p>
+      <div class="table-wrap stack">
+        <table class="jv-heat">
+          <thead><tr><th>Documented example</th><th>n</th><th>p_max</th><th>Returned confidence</th><th>(n·p−1)/(n−1)</th><th>2p−1</th></tr></thead>
+          <tbody>
+            <tr><td data-l="Example">API Choice <code>department</code></td><td data-l="n">3</td><td data-l="p_max">0.88</td><td data-l="Returned">0.81</td><td data-l="Formula" class="k k-go">0.82</td><td data-l="2p−1">0.76</td></tr>
+            <tr><td data-l="Example">Quickstart Choice</td><td data-l="n">3</td><td data-l="p_max">0.85</td><td data-l="Returned">0.78</td><td data-l="Formula" class="k k-go">0.775</td><td data-l="2p−1">0.70</td></tr>
+            <tr><td data-l="Example">Choice <code>department</code> (primitives page)</td><td data-l="n">3</td><td data-l="p_max">0.61</td><td data-l="Returned">0.42</td><td data-l="Formula" class="k k-go">0.415</td><td data-l="2p−1">0.22</td></tr>
+            <tr><td data-l="Example">Choice <code>shipping_issue</code></td><td data-l="n">5</td><td data-l="p_max">0.74</td><td data-l="Returned">0.67</td><td data-l="Formula" class="k k-go">0.675</td><td data-l="2p−1">0.48</td></tr>
+            <tr><td data-l="Example">Choice <code>requested_resolution</code></td><td data-l="n">4</td><td data-l="p_max">0.40</td><td data-l="Returned">0.20</td><td data-l="Formula" class="k k-go">0.20</td><td data-l="2p−1">−0.20</td></tr>
+            <tr><td data-l="Example">Choice <code>tone</code></td><td data-l="n">3</td><td data-l="p_max">0.84</td><td data-l="Returned">0.76</td><td data-l="Formula" class="k k-go">0.76</td><td data-l="2p−1">0.68</td></tr>
+            <tr><td data-l="Example">Choice <code>return_reason</code></td><td data-l="n">5</td><td data-l="p_max">1.00</td><td data-l="Returned">1.00</td><td data-l="Formula" class="k k-go">1.00</td><td data-l="2p−1">1.00</td></tr>
+            <tr><td data-l="Example">API Score <code>frustration</code></td><td data-l="n">3</td><td data-l="p_max">0.95</td><td data-l="Returned">0.92</td><td data-l="Formula" class="k k-go">0.925</td><td data-l="2p−1">0.90</td></tr>
+            <tr><td data-l="Example">Score, 3 levels (0, 0.57, 0.43)</td><td data-l="n">3</td><td data-l="p_max">0.57</td><td data-l="Returned">0.35</td><td data-l="Formula" class="k k-go">0.355</td><td data-l="2p−1">0.14</td></tr>
+            <tr><td data-l="Example">Score, 3 levels (0, 0.74, 0.26)</td><td data-l="n">3</td><td data-l="p_max">0.74</td><td data-l="Returned">0.61</td><td data-l="Formula" class="k k-go">0.61</td><td data-l="2p−1">0.48</td></tr>
+            <tr><td data-l="Example">Score, 4 levels (0, 0, 0.48, 0.52)</td><td data-l="n">4</td><td data-l="p_max">0.52</td><td data-l="Returned">0.52</td><td data-l="Formula" class="k k-stop">0.36</td><td data-l="2p−1">0.04</td></tr>
+            <tr><td data-l="Example">Score, 5 levels (0, 0.14, 0.86, 0, 0)</td><td data-l="n">5</td><td data-l="p_max">0.86</td><td data-l="Returned">0.89</td><td data-l="Formula" class="k k-stop">0.825</td><td data-l="2p−1">0.72</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><small>Green: the formula fits within ±0.01. Red: it does not. A MarkTechPost guide (23 Sep) presents the formula as "TypeSafe's published statistic"; the official text only uses it to approximate three-option confidence in a demo.</small></p>
+    </div>
+  </details>
+
+  <div class="jv-box info">
+    <h2>What TypeSafe says (vendor claims)</h2>
+    <ul>
+      <li>Jev "is trained with RLCD … to return calibrated decisions". No calibration metric (ECE, Brier score, reliability plot) is published on the pages read.</li>
+      <li>"The correct threshold values depend on your domain and the performance of the model for your use case." The 0.5 and 0.9 values on the Confidence page appear in illustrative code, not as recommendations.</li>
+      <li>For Noul: use 0.5 when yes and no are equally actionable, raise the cutoff when a false yes is costly, lower it when a missed yes is costly, and send middle values to a person.</li>
+      <li>"Low confidence: Do not act. Route to a human, request clarification, or fall back to a different system."</li>
+      <li>"Don't carry a threshold tuned on a Noul over to a Choice." Pin the versioned model ID once thresholds are tuned.</li>
+    </ul>
+    <p><small>Sources: <a href="https://docs.typesafe.ai/confidence">Confidence page</a>, <a href="https://docs.typesafe.ai/models">Models page</a>, <a href="https://docs.typesafe.ai/primitives/noul">Noul page</a>, <a href="https://docs.typesafe.ai/model-jaggedness/jev-1.13">jaggedness page</a>, checked 28 Sep 2026. <span class="ev ev-documented">Documented</span> as TypeSafe's own claims.</small></p>
+  </div>
+
+  <h2 id="procedure">Seven steps to choose a cutoff</h2>
+  <ol class="steps">
+    <li><strong>Freeze the question.</strong> Fix the question text, criteria, <code>model="jev-1.13.0"</code> (never an alias) and how you serialise the request.</li>
+    <li><strong>Label real cases.</strong> Collect a few hundred per question, including out-of-scope, ambiguous and high-impact cases. Split them into development and held-out test sets that share no source conversation.</li>
+    <li><strong>Record the raw output.</strong> For each development case, store the probabilities and, for Choice and Score, the confidence. You may compute your own statistic from the probabilities.</li>
+    <li><strong>Check calibration.</strong> Plot a reliability diagram. If it is off, fit a recalibrator (isotonic or Platt) on development data only.</li>
+    <li><strong>Sweep cutoffs on development data.</strong> For each cutoff, count the cost of wrongly accepted answers and the review load. Choose against a written maximum error rate and your review capacity. Use a separate cutoff for each question and each question type.</li>
+    <li><strong>Evaluate once on the held-out set.</strong> Report the counts and the review load.</li>
+    <li><strong>Re-run after every change</strong> to the model version, criteria or question wording, and check for drift in production with logged outcomes.</li>
+  </ol>
+  <p>This is the maintained version of the pool's <a href="../../reports/workload-evaluation-recipe/index.html">25 September workload-evaluation protocol</a>, which remains as a dated report.</p>
+
+  <h3>Thresholds that projects chose (examples, not recommendations)</h3>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Project</th><th>Setting</th><th>How it is used</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Project">QuantDinger</td><td data-l="Setting"><code>JEV_MIN_CONFIDENCE=0.55</code></td><td data-l="Used">Risk and execution checks on a trade entry gate</td></tr>
+        <tr><td data-l="Project">Jevmail</td><td data-l="Setting">Top-two probability gap below 0.15</td><td data-l="Used">A low-confidence flag, not a review gate</td></tr>
+        <tr><td data-l="Project">WordPress Jev Comment Triage</td><td data-l="Setting">Spam 0.75, scam 0.65, hold 0.45</td><td data-l="Used">Default site thresholds</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><small>From the 28 Sep source-path audit. They show what three projects picked; none was validated on your data.</small></p>
+
+  <h2 id="calibration">Independent calibration tests and tools</h2>
+  <div class="table-wrap stack wide">
+    <table>
+      <thead><tr><th>Item</th><th>Date</th><th>Method</th><th>Reported result</th><th>Licence</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Item"><a href="https://github.com/AnthusAI/Jev-Calibration">AnthusAI/Jev-Calibration</a></td><td data-l="Date">19 Sep</td><td data-l="Method">8,801 constructed sentiment examples on <code>jev-1.13.0</code>; 60/40 split; Platt vs isotonic</td><td data-l="Result">Expected calibration error 0.117 raw, 0.052 after Platt scaling, 0.008 after isotonic recalibration</td><td data-l="Licence">None stated</td></tr>
+        <tr><td data-l="Item"><a href="https://github.com/Adilmp/does-jev-confidence-mean-anything">Adilmp/does-jev-confidence-mean-anything</a></td><td data-l="Date">19 Sep</td><td data-l="Method">8,000 judgments against human labels (civil_comments), 4 wordings, 2 base rates</td><td data-l="Result">Error 0.157–0.209 raw, 0.006–0.023 after recalibration; ranking quality (AUC) about 0.91, unchanged</td><td data-l="Licence">None stated</td></tr>
+        <tr><td data-l="Item"><a href="https://www.alexmolas.com/2026/09/23/jev-cant-be-calibrated.html">Alex Molas, "Jev can't be calibrated"</a></td><td data-l="Date">23 Sep</td><td data-l="Method">Argument, no experiment; HN discussion 65 points, 61 comments (thread not read)</td><td data-l="Result">Calibration depends on your data distribution; treat outputs as scores and recalibrate on a few hundred labels</td><td data-l="Licence">—</td></tr>
+        <tr><td data-l="Item"><a href="https://prefactor.tech/blog/jev-calibrated-confidence-is-not-correctness">Prefactor article</a></td><td data-l="Date">25 Sep</td><td data-l="Method">Opinion from an agent-observability vendor; no data</td><td data-l="Result">Notes that TypeSafe has not published its calibration method</td><td data-l="Licence">—</td></tr>
+        <tr><td data-l="Item"><a href="https://github.com/abhixhek/jevcal">abhixhek/jevcal</a></td><td data-l="Date">18 Sep</td><td data-l="Method">Command-line tool: threshold per question for a target accuracy; drift check; demo uses a simulator</td><td data-l="Result">Publishes no Jev numbers</td><td data-l="Licence">MIT</td></tr>
+        <tr><td data-l="Item"><a href="https://github.com/Adilmp/jevcal">Adilmp/jevcal</a> (a different project with the same name)</td><td data-l="Date">19 Sep</td><td data-l="Method">Single-file recalibration</td><td data-l="Result">—</td><td data-l="Licence">MIT</td></tr>
+        <tr><td data-l="Item"><a href="https://pypi.org/project/jevkit-calibrate/">jevkit-calibrate</a> 0.1.0</td><td data-l="Date">21 Sep</td><td data-l="Method">Reliability diagrams, expected calibration error, Brier score, thresholds from labelled outcomes</td><td data-l="Result">—</td><td data-l="Licence">MIT</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><span class="ev ev-reported">Reported</span> <small>Each result comes from one dataset and one model version, measured by its author. The pool did not rerun them. Repositories without a licence cannot be reused freely.</small></p>
+
+  <div class="jv-box warn">
+    <h2>What was not verified</h2>
+    <ul>
+      <li>How Score confidence is computed for 4 or more levels.</li>
+      <li>Whether TypeSafe's calibration claim holds on any given task; the independent tests each cover one dataset.</li>
+      <li>abhixhek/jevcal's statement that TypeSafe's customer agreement restricts publishing benchmark results was not checked against the agreement.</li>
+      <li>The pool made no Jev call; the formula check uses documentation examples only.</li>
+    </ul>
+  </div>
+
+  <section class="jv-related" aria-labelledby="ct-related">
+    <h2 id="ct-related">Related pages</h2>
+    <ul>
+      <li><a href="../../limitations/index.html">Limitations and fit check</a></li>
+      <li><a href="../python/index.html">Python example</a></li>
+      <li><a href="../errors-and-rate-limits/index.html">Errors and rate limits</a></li>
+      <li><a href="../../where-to-use/cost-per-decision/index.html">Cost per decision (fallback share)</a></li>
+      <li><a href="../../reports/workload-evaluation-recipe/index.html">25 Sep workload-evaluation protocol</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>28 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>

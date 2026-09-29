@@ -2,136 +2,112 @@
   "schema_version": "1.0.0",
   "items": [
     {
-      "change_id": "bootstrap-catalogue",
-      "changed_at": "2026-09-20T17:58:55Z",
-      "summary": "Created the first four-page Jev catalogue with an evidence-led report, comparison tables, and fit-check widget.",
+      "change_id": "release-1-question-pages-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "Reorganised the catalogue by reader question: rebuilt Home and the Use cases, Alternatives, Products and Where-to-use hubs, extended What is Jev, and kept every earlier URL and report.",
       "path": "/p/jev-catalog"
     },
     {
-      "change_id": "bootstrap-evidence",
-      "changed_at": "2026-09-20T17:58:55Z",
-      "summary": "Recorded current launch-week use cases, alternatives, project evidence, access routes, and price uncertainty.",
-      "path": "/p/reports/bootstrap-evidence"
+      "change_id": "access-status-page-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "New page: Jev API access status with a dated timeline; signups reopened 27 Sep, new-user free credit disabled.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
     },
     {
-      "change_id": "eli5-explainer",
-      "changed_at": "2026-09-20T19:37:22.597Z",
-      "summary": "Added a plain-English What is Jev? ELI5 page while preserving the four required catalogue destinations.",
-      "path": "/p/what-is-jev"
+      "change_id": "official-vs-reseller-page-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "New page: official TypeSafe surfaces, a five-step check and lookalike reseller prices (3–16× list price).",
+      "path": "/p/jev-catalog/where-to-use/official-vs-reseller"
     },
     {
-      "change_id": "access-pricing-refresh",
-      "changed_at": "2026-09-20T20:47:00Z",
-      "summary": "Refreshed the official Jev model ID, aliases, endpoint, price, limits, context, text-only input, access ambiguity, and legal/data terms from current TypeSafe pages; no verified production-product finding was changed.",
-      "path": "/p/where-to-use"
+      "change_id": "cost-per-decision-page-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "New page and worksheet tool: cost per decision from your own input-token counts, with third-party token measurements.",
+      "path": "/p/jev-catalog/where-to-use/cost-per-decision"
     },
     {
-      "change_id": "gateway-route-refresh",
-      "changed_at": "2026-09-20T20:47:00Z",
-      "summary": "Separated current OpenRouter and Cloudflare listings from the inaccessible Vercel lead and the independent proxy, preserving the proxy's self-reported 10× higher price and remaining gaps.",
-      "path": "/p/where-to-use"
+      "change_id": "python-page-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "New page: version-pinned Python example for typesafe-sdk 0.7.2, a tested-offline retry client and 12 gotchas.",
+      "path": "/p/jev-catalog/build/python"
     },
     {
-      "change_id": "research-report-refresh",
-      "changed_at": "2026-09-20T20:47:00Z",
-      "summary": "Added the dated access, pricing, availability, and data-terms report for the regular run while retaining the bootstrap report and source trail.",
-      "path": "/p/jev-catalog/reports/access-pricing-refresh"
+      "change_id": "errors-page-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "New page: documented vs reported error codes, request limits, gateway differences and a fallback procedure.",
+      "path": "/p/jev-catalog/build/errors-and-rate-limits"
     },
     {
-      "change_id": "alternatives-verification-refresh",
-      "changed_at": "2026-09-21T06:08:28.673Z",
-      "summary": "Published the 21 September alternatives refresh: retained all six rows and substitution layers, made the local-only verification boundary visible, kept every current project field unknown, and recorded that no open-weight Jev model was verified.",
-      "path": "/p/alternatives"
+      "change_id": "confidence-page-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "New page: what Jev's confidence fields mean, a formula check on documented examples, calibration tests and a seven-step cutoff procedure.",
+      "path": "/p/jev-catalog/build/confidence-thresholds"
     },
     {
-      "change_id": "alternatives-verification-report",
-      "changed_at": "2026-09-21T06:08:28.673Z",
-      "summary": "Added the dated alternatives verification report with the runner boundary, retained direct URLs, unknowns, negative finding, and follow-up checks.",
-      "path": "/p/jev-catalog/reports/alternatives-verification-refresh"
+      "change_id": "limitations-page-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "New page: 17 limitations TypeSafe documents for Jev 1.13, with workarounds, and the explained fit check.",
+      "path": "/p/jev-catalog/limitations"
     },
     {
-      "change_id": "alternatives-substitution-refresh",
-      "changed_at": "2026-09-22T05:55:05Z",
-      "summary": "Refreshed the six alternatives with direct-source evidence and a layer-by-layer substitution matrix; kept mini-jev unverified and preserved the negative finding that no open-weight Jev model was verified.",
-      "path": "/p/alternatives"
+      "change_id": "videos-page-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "New page: 46 demo videos in 13 use-case groups, each linked to the creator-marked start of the demo.",
+      "path": "/p/jev-catalog/videos"
     },
     {
-      "change_id": "alternatives-substitution-report",
-      "changed_at": "2026-09-22T05:55:05Z",
-      "summary": "Added the dated alternatives substitution report with source ledger, evidence boundaries, builder guidance, and explicit unknowns for model, interface, runtime/privacy, workflow, cost, and latency.",
-      "path": "/p/jev-catalog/reports/alternatives-substitution-refresh"
+      "change_id": "route-matrix-update-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "Route matrix: Vercel's exact $0.042/M and ZDR none, OpenRouter /api/v1/systemone, new Jev Router row, Opper 64K context.",
+      "path": "/p/jev-catalog/where-to-use"
     },
     {
-      "change_id": "adoption-product-verification",
-      "changed_at": "2026-09-23T05:25:00Z",
-      "summary": "Updated the products page with the 23 September bounded adoption audit: killmyidea is a direct-source Jev application with public-deployment metadata but unverified access and adoption; the other leads remain an unofficial integration, mocked demo, reference harness, or lead index; no verified production product was found.",
-      "path": "/p/products"
+      "change_id": "products-claims-corrections-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "Products: added a production-claims ledger; relabelled two rows from the unofficial TypeSafeAI community organisation as not TypeSafe official.",
+      "path": "/p/jev-catalog/products"
     },
     {
-      "change_id": "adoption-product-verification-report",
-      "changed_at": "2026-09-23T05:25:00Z",
-      "summary": "Added the dated adoption and product verification report with direct source links, evidence labels, deployment boundaries, the public-host access failure, and the preserved negative finding.",
-      "path": "/p/jev-catalog/reports/adoption-product-verification"
+      "change_id": "alternatives-ollaya-jevper-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "Alternatives: added Ollaya and Jevper rows, updated Kev and Laya, and listed six unchecked leads.",
+      "path": "/p/jev-catalog/alternatives"
     },
     {
-      "change_id": "builder-fit-maintenance",
-      "changed_at": "2026-09-24T05:30:04Z",
-      "summary": "Updated the home, use-cases, alternatives, products, and where-to-use pages with the 24 September builder branch, task-fit and measurement boundary, six-row substitution labels, bounded product status, and proposed maintenance note.",
+      "change_id": "release-1-report-2026-09-28",
+      "changed_at": "2026-09-28T19:57:00Z",
+      "summary": "Added the release 1 research report and moved Research into the Evidence group with release notes, URL map, evidence gaps and the daily scan summary.",
+      "path": "/p/jev-catalog/reports/release-1-question-pages"
+    },
+    {
+      "change_id": "implementation-path-catalogue-2026-09-28",
+      "changed_at": "2026-09-28T05:09:00Z",
+      "summary": "Updated home, use cases, products and Jev explainer with source-path distinctions for Jevmail, WordPress and QuantDinger; separated code policy and mocked tests from live use.",
       "path": "/p/jev-catalog"
     },
     {
-      "change_id": "builder-fit-maintenance-report",
-      "changed_at": "2026-09-24T05:30:04Z",
-      "summary": "Added the Run 4 builder-fit and maintenance synthesis with direct source links, dated evidence gates, bounded unknowns, proposed maintenance rules, and no-independent-measurement statement.",
-      "path": "/p/jev-catalog/reports/builder-fit-maintenance"
+      "change_id": "implementation-path-report-2026-09-28",
+      "changed_at": "2026-09-28T05:09:00Z",
+      "summary": "Added dated implementation-path audit, exact 27–28 September monitor window, file/test ledger, route check and native-feed limitations; retained all twelve earlier reports.",
+      "path": "/p/jev-catalog/reports/implementation-path-audit"
     },
     {
-      "change_id": "freshness-proxy-legal-correction",
-      "changed_at": "2026-09-24T14:10:41Z",
-      "summary": "Corrected independent proxy tiered self-reported rates, recorded the TypeSafe MCA displayed 23 Sep update with exact diff unknown, and dated the waitlist observation without implying open signup.",
-      "path": "/p/where-to-use"
+      "change_id": "seven-day-route-check-2026-09-27",
+      "changed_at": "2026-09-27T05:09:00Z",
+      "summary": "Updated current Vercel Jev provider-row display to rounded $0.04/M input from historical 26 Sep Free; kept exact tariff, free-credit eligibility and bill unverified. Rechecked other routes and data terms.",
+      "path": "/p/jev-catalog/where-to-use"
     },
     {
-      "change_id": "freshness-change-detection-report",
-      "changed_at": "2026-09-24T14:10:41Z",
-      "summary": "Added a bounded 24 Sep trigger report while preserving 20 Sep access, 22 Sep alternatives, and 23 Sep product evidence dates and negative-finding scope.",
-      "path": "/p/jev-catalog/reports/freshness-change-detection"
+      "change_id": "quantdinger-bounded-lead-2026-09-27",
+      "changed_at": "2026-09-27T05:09:00Z",
+      "summary": "Added QuantDinger only as a creator-documented optional Jev entry gate with fail-open, exit bypass and no verified live Jev or trade; updated Jevmail and Jev Trade checks.",
+      "path": "/p/jev-catalog/products"
     },
     {
-      "change_id": "workload-evaluation-recipe",
-      "changed_at": "2026-09-25T06:55:15.957Z",
-      "summary": "Added a support-ticket Choice evaluation protocol with separate cohorts, labelled gold cases, frozen comparators, failure-inclusive denominators, review-load reporting, and blank results; no Jev call or benchmark was run.",
-      "path": "/p/jev-catalog/reports/workload-evaluation-recipe"
-    },
-    {
-      "change_id": "workload-evaluation-fit-link",
-      "changed_at": "2026-09-25T06:55:15.957Z",
-      "summary": "Added a small fit-stage link on the home and use-cases pages to the unfilled workload protocol, with the no-measured-result boundary explicit.",
-      "path": "/p/use-cases"
-    },
-    {
-      "change_id": "full-catalogue-rebuild-2026-09-25",
-      "changed_at": "2026-09-25T16:35:00Z",
-      "summary": "Rebuilt every catalogue page, updated the fit tool, added open-weight Jev-like alternatives, direct-source project inventory, Netlify and Vercel access caveats, and complete dated research history.",
-      "path": "/p/jev-catalog"
-    },
-    {
-      "change_id": "full-catalogue-report-2026-09-25",
-      "changed_at": "2026-09-25T16:35:00Z",
-      "summary": "Added full direct-source report and bounded 24-hour platform monitor while retaining eight earlier reports as historical records.",
-      "path": "/p/jev-catalog/reports/full-catalogue-rebuild"
-    },
-    {
-      "change_id": "second-source-catalogue-2026-09-25",
-      "changed_at": "2026-09-25T18:20:11Z",
-      "summary": "Expanded project, use-case and alternative matrices with direct links and status limits; updated Vercel promotion boundary and public metadata.",
-      "path": "/p/jev-catalog"
-    },
-    {
-      "change_id": "second-source-report-2026-09-25",
-      "changed_at": "2026-09-25T18:20:11Z",
-      "summary": "Added dated source pass with exact 24-hour window, primary links, feed-access gaps and unresolved outcomes; retained nine earlier snapshots.",
-      "path": "/p/jev-catalog/reports/second-source-pass"
+      "change_id": "seven-day-report-2026-09-27",
+      "changed_at": "2026-09-27T05:09:00Z",
+      "summary": "Added dated seven-day access and daily-discovery report with fixed monitor window, comparison and discovery limits; kept all eleven historical reports.",
+      "path": "/p/jev-catalog/reports/seven-day-access-checkpoint"
     },
     {
       "change_id": "post-promotion-vercel",
@@ -164,34 +140,136 @@
       "path": "/p/jev-catalog/reports/post-promotion-route-check"
     },
     {
-      "change_id": "seven-day-route-check-2026-09-27",
-      "changed_at": "2026-09-27T05:09:00Z",
-      "summary": "Updated current Vercel Jev provider-row display to rounded $0.04/M input from historical 26 Sep Free; kept exact tariff, free-credit eligibility and bill unverified. Rechecked other routes and data terms.",
-      "path": "/p/jev-catalog/where-to-use"
-    },
-    {
-      "change_id": "quantdinger-bounded-lead-2026-09-27",
-      "changed_at": "2026-09-27T05:09:00Z",
-      "summary": "Added QuantDinger only as a creator-documented optional Jev entry gate with fail-open, exit bypass and no verified live Jev or trade; updated Jevmail and Jev Trade checks.",
-      "path": "/p/jev-catalog/products"
-    },
-    {
-      "change_id": "seven-day-report-2026-09-27",
-      "changed_at": "2026-09-27T05:09:00Z",
-      "summary": "Added dated seven-day access and daily-discovery report with fixed monitor window, comparison and discovery limits; kept all eleven historical reports.",
-      "path": "/p/jev-catalog/reports/seven-day-access-checkpoint"
-    },
-    {
-      "change_id": "implementation-path-catalogue-2026-09-28",
-      "changed_at": "2026-09-28T05:09:00Z",
-      "summary": "Updated home, use cases, products and Jev explainer with source-path distinctions for Jevmail, WordPress and QuantDinger; separated code policy and mocked tests from live use.",
+      "change_id": "second-source-catalogue-2026-09-25",
+      "changed_at": "2026-09-25T18:20:11Z",
+      "summary": "Expanded project, use-case and alternative matrices with direct links and status limits; updated Vercel promotion boundary and public metadata.",
       "path": "/p/jev-catalog"
     },
     {
-      "change_id": "implementation-path-report-2026-09-28",
-      "changed_at": "2026-09-28T05:09:00Z",
-      "summary": "Added dated implementation-path audit, exact 27–28 September monitor window, file/test ledger, route check and native-feed limitations; retained all twelve earlier reports.",
-      "path": "/p/jev-catalog/reports/implementation-path-audit"
+      "change_id": "second-source-report-2026-09-25",
+      "changed_at": "2026-09-25T18:20:11Z",
+      "summary": "Added dated source pass with exact 24-hour window, primary links, feed-access gaps and unresolved outcomes; retained nine earlier snapshots.",
+      "path": "/p/jev-catalog/reports/second-source-pass"
+    },
+    {
+      "change_id": "full-catalogue-rebuild-2026-09-25",
+      "changed_at": "2026-09-25T16:35:00Z",
+      "summary": "Rebuilt every catalogue page, updated the fit tool, added open-weight Jev-like alternatives, direct-source project inventory, Netlify and Vercel access caveats, and complete dated research history.",
+      "path": "/p/jev-catalog"
+    },
+    {
+      "change_id": "full-catalogue-report-2026-09-25",
+      "changed_at": "2026-09-25T16:35:00Z",
+      "summary": "Added full direct-source report and bounded 24-hour platform monitor while retaining eight earlier reports as historical records.",
+      "path": "/p/jev-catalog/reports/full-catalogue-rebuild"
+    },
+    {
+      "change_id": "workload-evaluation-recipe",
+      "changed_at": "2026-09-25T06:55:15.957Z",
+      "summary": "Added a support-ticket Choice evaluation protocol with separate cohorts, labelled gold cases, frozen comparators, failure-inclusive denominators, review-load reporting, and blank results; no Jev call or benchmark was run.",
+      "path": "/p/jev-catalog/reports/workload-evaluation-recipe"
+    },
+    {
+      "change_id": "workload-evaluation-fit-link",
+      "changed_at": "2026-09-25T06:55:15.957Z",
+      "summary": "Added a small fit-stage link on the home and use-cases pages to the unfilled workload protocol, with the no-measured-result boundary explicit.",
+      "path": "/p/jev-catalog/use-cases"
+    },
+    {
+      "change_id": "freshness-proxy-legal-correction",
+      "changed_at": "2026-09-24T14:10:41Z",
+      "summary": "Corrected independent proxy tiered self-reported rates, recorded the TypeSafe MCA displayed 23 Sep update with exact diff unknown, and dated the waitlist observation without implying open signup.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "freshness-change-detection-report",
+      "changed_at": "2026-09-24T14:10:41Z",
+      "summary": "Added a bounded 24 Sep trigger report while preserving 20 Sep access, 22 Sep alternatives, and 23 Sep product evidence dates and negative-finding scope.",
+      "path": "/p/jev-catalog/reports/freshness-change-detection"
+    },
+    {
+      "change_id": "builder-fit-maintenance",
+      "changed_at": "2026-09-24T05:30:04Z",
+      "summary": "Updated the home, use-cases, alternatives, products, and where-to-use pages with the 24 September builder branch, task-fit and measurement boundary, six-row substitution labels, bounded product status, and proposed maintenance note.",
+      "path": "/p/jev-catalog"
+    },
+    {
+      "change_id": "builder-fit-maintenance-report",
+      "changed_at": "2026-09-24T05:30:04Z",
+      "summary": "Added the Run 4 builder-fit and maintenance synthesis with direct source links, dated evidence gates, bounded unknowns, proposed maintenance rules, and no-independent-measurement statement.",
+      "path": "/p/jev-catalog/reports/builder-fit-maintenance"
+    },
+    {
+      "change_id": "adoption-product-verification",
+      "changed_at": "2026-09-23T05:25:00Z",
+      "summary": "Updated the products page with the 23 September bounded adoption audit: killmyidea is a direct-source Jev application with public-deployment metadata but unverified access and adoption; the other leads remain an unofficial integration, mocked demo, reference harness, or lead index; no verified production product was found.",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "adoption-product-verification-report",
+      "changed_at": "2026-09-23T05:25:00Z",
+      "summary": "Added the dated adoption and product verification report with direct source links, evidence labels, deployment boundaries, the public-host access failure, and the preserved negative finding.",
+      "path": "/p/jev-catalog/reports/adoption-product-verification"
+    },
+    {
+      "change_id": "alternatives-substitution-refresh",
+      "changed_at": "2026-09-22T05:55:05Z",
+      "summary": "Refreshed the six alternatives with direct-source evidence and a layer-by-layer substitution matrix; kept mini-jev unverified and preserved the negative finding that no open-weight Jev model was verified.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "alternatives-substitution-report",
+      "changed_at": "2026-09-22T05:55:05Z",
+      "summary": "Added the dated alternatives substitution report with source ledger, evidence boundaries, builder guidance, and explicit unknowns for model, interface, runtime/privacy, workflow, cost, and latency.",
+      "path": "/p/jev-catalog/reports/alternatives-substitution-refresh"
+    },
+    {
+      "change_id": "alternatives-verification-refresh",
+      "changed_at": "2026-09-21T06:08:28.673Z",
+      "summary": "Published the 21 September alternatives refresh: retained all six rows and substitution layers, made the local-only verification boundary visible, kept every current project field unknown, and recorded that no open-weight Jev model was verified.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "alternatives-verification-report",
+      "changed_at": "2026-09-21T06:08:28.673Z",
+      "summary": "Added the dated alternatives verification report with the runner boundary, retained direct URLs, unknowns, negative finding, and follow-up checks.",
+      "path": "/p/jev-catalog/reports/alternatives-verification-refresh"
+    },
+    {
+      "change_id": "access-pricing-refresh",
+      "changed_at": "2026-09-20T20:47:00Z",
+      "summary": "Refreshed the official Jev model ID, aliases, endpoint, price, limits, context, text-only input, access ambiguity, and legal/data terms from current TypeSafe pages; no verified production-product finding was changed.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "gateway-route-refresh",
+      "changed_at": "2026-09-20T20:47:00Z",
+      "summary": "Separated current OpenRouter and Cloudflare listings from the inaccessible Vercel lead and the independent proxy, preserving the proxy's self-reported 10× higher price and remaining gaps.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "research-report-refresh",
+      "changed_at": "2026-09-20T20:47:00Z",
+      "summary": "Added the dated access, pricing, availability, and data-terms report for the regular run while retaining the bootstrap report and source trail.",
+      "path": "/p/jev-catalog/reports/access-pricing-refresh"
+    },
+    {
+      "change_id": "eli5-explainer",
+      "changed_at": "2026-09-20T19:37:22.597Z",
+      "summary": "Added a plain-English What is Jev? ELI5 page while preserving the four required catalogue destinations.",
+      "path": "/p/jev-catalog/what-is-jev"
+    },
+    {
+      "change_id": "bootstrap-catalogue",
+      "changed_at": "2026-09-20T17:58:55Z",
+      "summary": "Created the first four-page Jev catalogue with an evidence-led report, comparison tables, and fit-check widget.",
+      "path": "/p/jev-catalog"
+    },
+    {
+      "change_id": "bootstrap-evidence",
+      "changed_at": "2026-09-20T17:58:55Z",
+      "summary": "Recorded current launch-week use cases, alternatives, project evidence, access routes, and price uncertainty.",
+      "path": "/p/jev-catalog/reports/bootstrap-evidence"
     }
   ]
 }

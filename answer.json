@@ -1,33 +1,30 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Jev is TypeSafe AI’s hosted model for bounded Choice, Score and Noul judgments; application code owns validation, policy, permissions, action and fallback. The 28 September source-path audit found different contracts: Jevmail classifier errors propagate after limited retries; configured WordPress comment triage holds eligible comments on provider error but an absent provider leaves WordPress’s original decision; QuantDinger’s optional entry gate can allow after missing key, credit denial, invalid response or provider error. These are code observations, not observed live Jev use. Public route listings showed no established material change from 27 September; exact account terms and bills remain unverified.",
+  "current_answer": "Jev is TypeSafe AI's hosted model for bounded Choice, Score and Noul judgments; your code must check each answer and own the action, review and fallback. TypeSafe lists jev-1.13.0 at $0.042 per million input tokens with free output; signups reopened on 27 September 2026 but new users currently get no free credit. OpenRouter, Cloudflare, Vercel, Netlify and Opper serve it at the same or rounded list price, while lookalike reseller storefronts charged 3–16× that price. Open projects and 46 creator videos show Jev in email sorting, ticket triage, moderation, model routing, trading gates and games, but no audited project or company claim has been independently verified as a production deployment. TypeSafe documents 17 limitations, including arithmetic, dates and long irrelevant context. Independent open-weight alternatives (Kev, CLM, Laya) and runtimes such as Ollaya exist; none has verified parity with Jev.",
   "catalogue_card": {
     "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
-    "text": "Compare source-backed use cases, independent alternatives, code-backed versus mocked project behavior, and dated public route listings. The 28 September audit does not verify live Jev deployment or account cost."
+    "text": "Question-ordered pages on Jev (TypeSafe AI): use cases, demo videos, limits, Python and error handling, confidence thresholds, access status, reseller checks, cost per decision, routes, projects and open alternatives, each with evidence labels and check dates."
   },
   "summary": [
-    "Choice, Score and Noul are bounded judgments; application code owns policy, review and side effects.",
-    "Jevmail uses the AI SDK Jev classifier; no-key preview is a simulator and low confidence is a flag, not a review gate.",
-    "Configured WordPress Jev Comment Triage holds eligible comments on provider error; absent provider preserves WordPress’s original decision.",
-    "QuantDinger source and mocked tests show an optional entry gate with fallback/allow paths; no live Jev call or trade was observed.",
-    "Independent Jev-like weights, local runtimes and adapters remain distinct from TypeSafe Jev weights and verified parity.",
-    "27–28 September route listings showed no established new material change; displayed prices are not an account bill or entitlement.",
-    "No exact-time new item was verified in the 27 Sep 05:05:48–28 Sep 05:05:48 UTC monitor; multiple native feeds failed, so coverage is incomplete."
+    "Jev answers from a fixed answer set: Choice (up to 255 options), Score (up to 10 levels), Noul (probability of yes). It does not generate text and accepts text input only.",
+    "Signups reopened on 27 Sep 2026 (CEO post); free credit for new users is temporarily disabled. The earlier $5 credit rests on secondary reports with a conflicting first-hand report.",
+    "List price $0.042/M input, output free on TypeSafe, OpenRouter, Cloudflare and (in its models API) Vercel; Opper and Vercel's web page round to $0.04; Netlify bills credits. Lookalike resellers displayed 3–16× the list price.",
+    "Cost per decision depends on counted input tokens; third parties report a fixed overhead of roughly 250–300 tokens even for one-line requests.",
+    "The official Python package is typesafe-sdk 0.7.2 (not typesafe-ai); the SDK retries 408, 429 and 5xx with a 30 s budget. There is no 250 ms TypeSafe default timeout.",
+    "Choice confidence matches (n·p_max − 1)/(n − 1) in TypeSafe's examples; it is not the probability of being correct. The Score formula is undocumented.",
+    "46 creator videos show Jev running on concrete tasks in 13 use-case groups; start times are the creators' chapter markers, not watched by the pool.",
+    "Seven company and analyst production or cost claims are listed; none is independently verified."
   ],
   "uncertainty": [
-    "Vercel exact provider-specific tariff beyond its rounded $0.04/M input display, output charge, Jev free-credit eligibility and actual bill remain unverified; the 26 Sep Free display is historical.",
-    "Cloudflare quota/bill and application-wide data boundary, Netlify credit conversion, and Opper entitlement/routing/terms/bill are unverified.",
-    "TypeSafe Jev weights were not publicly located; alternative parity and some separate checkpoint, adapter and base licences remain unverified.",
-    "he-jev/laya file identity and JevAny adapter files, hashes and individual licences remain unverified.",
-    "No audited row independently verified current production; author claims and offline demos are different evidence.",
-    "Native X, TikTok, GitHub timestamps, YouTube and Reddit feeds were inaccessible or incomplete; no full 24-hour coverage claimed.",
-    "No pool-run Jev call or independent accuracy, calibration, latency, safety or billing measurement.",
-    "Jevmail caller write transaction and test assertions, WordPress provider validation and test assertions, and QuantDinger order call-site effects and audit durability remain unverified.",
-    "No source path or mocked test establishes live Jev use, installation, production trading or application safety.",
-    "GitHub date-only topic updates and inaccessible native recent feeds do not establish exact-window event timestamps."
+    "No pool-made Jev call, account, bill or signup; the console returned HTTP 403. Live status codes and limits are third-party reports.",
+    "Whether question text, criteria and failed requests are billed is undocumented; Jev Router billing and failure behaviour are undocumented.",
+    "Score confidence for 4+ levels is unknown; independent calibration tests each use one dataset.",
+    "No video frames or transcripts were viewed.",
+    "Reddit, X, TikTok, Lobsters and GitHub code search could not be read in the daily scan.",
+    "Search analytics and Search Console data were unavailable; pages were chosen from qualitative signals."
   ],
-  "checked_at": "2026-09-28T05:09:00Z",
-  "meaningfully_updated_at": "2026-09-28T05:09:00Z",
-  "freshness_note": "Source-path audit and bounded discovery check 28 September 2026; exact monitor window 27 Sep 05:05:48–28 Sep 05:05:48 UTC. Twelve earlier reports remain dated snapshots."
+  "checked_at": "2026-09-28T19:57:00Z",
+  "meaningfully_updated_at": "2026-09-28T19:57:00Z",
+  "freshness_note": "Release 1 of 28 September 2026: access, routes, resellers, SDK, errors, limits, videos and alternatives checked 19:41–19:57 UTC. Thirteen earlier reports remain dated snapshots."
 }
