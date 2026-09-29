@@ -3200,6 +3200,686 @@
       "accessed_at": "2026-09-28T19:44:00Z",
       "relation": "context",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s13",
+      "source_type": "documented source",
+      "source_url": "https://www.npmjs.com/package/@jkudish/jev-mcp",
+      "title": "www.npmjs.com/package/@jkudish/jev-mcp",
+      "claim": "Documented: MCP server exposing TypeSafe Jev as purpose-built judgment tools (version or commit: 0.11.0). Outcome: 200 registry; in window",
+      "accessed_at": "2026-09-29T07:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s14",
+      "source_type": "documented source",
+      "source_url": "https://www.npmjs.com/package/@ai-sdk/typesafe-ai",
+      "title": "www.npmjs.com/package/@ai-sdk/typesafe-ai",
+      "claim": "Documented: AI SDK integration for Typesafe AI (version or commit: 3.0.10 (3.0.9 at 2026-09-28T17:14:59Z)). Outcome: 200 registry; two publishes in window; content not diffed",
+      "accessed_at": "2026-09-29T07:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s15",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/orgs/typesafe-ai/repos",
+      "title": "api.github.com/orgs/typesafe-ai/repos",
+      "claim": "Documented: typesafe-ai/n8n-nodes-typesafe-ai created 2026-09-23T00:17:24Z, pushed 2026-09-28T07:48:08Z; skills pushed 2026-09-12. Outcome: 200",
+      "accessed_at": "2026-09-29T07:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s16",
+      "source_type": "third-party report",
+      "source_url": "https://dev.to/shimo4228/is-there-any-point-to-this-removing-the-jev-plugins-i-added-to-claude-code-after-one-week-49eh",
+      "title": "dev.to/shimo4228/is-there-any-point-to-this-removing-the-jev-plugins-i-added-to-claude-code-after-one-week-49eh",
+      "claim": "Reported: \"Is There Any Point to This?\" Removing the Jev Plugins I Added to Claude Code After One Week. Outcome: title only; body not read",
+      "accessed_at": "2026-09-29T07:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s20",
+      "source_type": "unverified lead",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "console.typesafe.ai/",
+      "claim": "Unverified: HTTP 403 to our client. Outcome: failed; signup not observable",
+      "accessed_at": "2026-09-29T07:07:40Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s21",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "typesafe.ai/",
+      "claim": "Documented: $42 Per Billion input tokens; Sign in; Contact sales. No signup, credit, waitlist or status link text.. Outcome: 200",
+      "accessed_at": "2026-09-29T07:07:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s22",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "Documented: Get your API key from the dashboard. Outcome: 200; no credit or signup-status text; no status.typesafe.ai link",
+      "accessed_at": "2026-09-29T07:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s23",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models",
+      "title": "docs.typesafe.ai/models",
+      "claim": "Documented: jev-preview currently points to the same model as jev-latest. There is no preview build available right now. (version or commit: jev-1.13.0). Outcome: 200; $0.042/M; 250,000 tok/s; 1,200 RPM; 64k/32k; unchanged",
+      "accessed_at": "2026-09-29T07:07:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s24",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "status.typesafe.ai/",
+      "claim": "Documented: All services are online. Latest incident: Sep 28 Degradation in API Traffic, resolved 4:07pm UTC. Outcome: 200; no incident after 28 Sep 16:07; API 99.819% uptime",
+      "accessed_at": "2026-09-29T07:07:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s25",
+      "source_type": "third-party report",
+      "source_url": "https://news.ycombinator.com/item?id=49877712",
+      "title": "news.ycombinator.com/item?id=49877712",
+      "claim": "Reported: I finally made typesafe.ai account and put down $5 whole dollars.. Outcome: HN comment via Algolia; first-hand signup report; credit not mentioned",
+      "accessed_at": "2026-09-29T07:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s26",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "Documented: context_length 32000; pricing prompt 0.000000042, completion 0 (version or commit: typesafe/jev-1.13). Outcome: 200; unchanged. Not listed in /api/v1/models (only jev-router is)",
+      "accessed_at": "2026-09-29T07:08:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s27",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "openrouter.ai/api/v1/models",
+      "claim": "Documented: typesafe/jev-router pricing prompt \"-1\", completion \"-1\"; context_length 1000000. Outcome: 200; unchanged",
+      "accessed_at": "2026-09-29T07:08:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "ai-gateway.vercel.sh/v1/models",
+      "claim": "Documented: pricing input 0.000000042, output 0; zdr none; no_training all; context_window 32000 (version or commit: typesafe-ai/jev). Outcome: 200; unchanged",
+      "accessed_at": "2026-09-29T07:08:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "Documented: Context Window 32,000 tokens; Zero data retention Yes; Input (per 1M tokens) $0.042; Output $0.00 (version or commit: typesafe/jev). Outcome: 200; unchanged",
+      "accessed_at": "2026-09-29T07:07:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s30",
+      "source_type": "documented source",
+      "source_url": "https://opper.ai/typesafe/jev-1-13-0",
+      "title": "opper.ai/typesafe/jev-1-13-0",
+      "claim": "Documented: Context window 64K; Input price $0.04 /1M; Output price $0 /1M; ZDR not established (version or commit: typesafe/jev-1.13.0). Outcome: 200; unchanged",
+      "accessed_at": "2026-09-29T07:07:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s31",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json",
+      "title": "pypi.org/pypi/typesafe-sdk/json",
+      "claim": "Documented: latest version 0.7.2. Outcome: 200; unchanged",
+      "accessed_at": "2026-09-29T07:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s32",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk",
+      "title": "registry.npmjs.org/@typesafe-ai/sdk",
+      "claim": "Documented: dist-tags latest 0.6.0; modified 2026-09-15T18:17:19Z. Outcome: 200; unchanged",
+      "accessed_at": "2026-09-29T07:07:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s40",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/skills/tree/65a39f393687675ce170e6094757de20370365b9",
+      "title": "github.com/typesafe-ai/skills/tree/65a39f393687675ce170e6094757de20370365b9",
+      "claim": "Documented: Tree: .claude-plugin/marketplace.json, .claude-plugin/plugin.json, README.md, LICENSE, skills/typesafe-ai/SKILL.md (no hooks, no MCP server) (version or commit: v0.5.7 = 65a39f393687675ce170e6094757de20370365b9). Outcome: 200; 9 entries",
+      "accessed_at": "2026-09-29T07:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s41",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/skills/blob/65a39f393687675ce170e6094757de20370365b9/skills/typesafe-ai/SKILL.md#L145-L150",
+      "title": "github.com/typesafe-ai/skills/blob/65a39f393687675ce170e6094757de20370365b9/skills/typesafe-ai/SKILL.md#L145-L150",
+      "claim": "Documented: Separate missing evidence, model errors, code errors, and service failures. ... Keep API credentials server-side in web apps. (version or commit: v0.5.7). Outcome: 200",
+      "accessed_at": "2026-09-29T07:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s42",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/agent-skill.md",
+      "title": "docs.typesafe.ai/agent-skill.md",
+      "claim": "Documented: claude plugin marketplace add typesafe-ai/skills; claude plugin install typesafe@typesafe-ai. Outcome: 200",
+      "accessed_at": "2026-09-29T07:08:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s43",
+      "source_type": "third-party report",
+      "source_url": "https://github.com/typesafe-ai/skills/issues/13",
+      "title": "github.com/typesafe-ai/skills/issues/13",
+      "claim": "Reported: Broken link to the v1 migration guide returns 404. Outcome: open; pool confirmed docs.typesafe.ai/migrating-to-v1.md returns 404",
+      "accessed_at": "2026-09-29T07:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s44",
+      "source_type": "documented source",
+      "source_url": "https://github.com/danna-zhou/jev-mcp/blob/436469a258593ab6c7e33dcf05a78bd8f5e95d22/hooks/lib.mjs#L46-L61",
+      "title": "github.com/danna-zhou/jev-mcp/blob/436469a258593ab6c7e33dcf05a78bd8f5e95d22/hooks/lib.mjs#L46-L61",
+      "claim": "Documented: Fail-open helper: if the Jev/Kev endpoint is unreachable, don't block the agent — just warn and let the normal flow continue. (version or commit: 436469a258593ab6c7e33dcf05a78bd8f5e95d22). Outcome: 200",
+      "accessed_at": "2026-09-29T07:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s45",
+      "source_type": "documented source",
+      "source_url": "https://github.com/danna-zhou/jev-mcp/blob/436469a258593ab6c7e33dcf05a78bd8f5e95d22/hooks/pretooluse-guardrail.mjs#L24-L85",
+      "title": "github.com/danna-zhou/jev-mcp/blob/436469a258593ab6c7e33dcf05a78bd8f5e95d22/hooks/pretooluse-guardrail.mjs#L24-L85",
+      "claim": "Documented: if (!HIGH_STAKES_PATTERN.test(command)) { process.exit(0); // fast path ... } ... catch (err) { failOpen(err, \"PreToolUse\"); } (version or commit: 436469a258593ab6c7e33dcf05a78bd8f5e95d22). Outcome: 200",
+      "accessed_at": "2026-09-29T07:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s46",
+      "source_type": "documented source",
+      "source_url": "https://github.com/danna-zhou/jev-mcp/blob/436469a258593ab6c7e33dcf05a78bd8f5e95d22/hooks/stop-guardrail.mjs#L51-L130",
+      "title": "github.com/danna-zhou/jev-mcp/blob/436469a258593ab6c7e33dcf05a78bd8f5e95d22/hooks/stop-guardrail.mjs#L51-L130",
+      "claim": "Documented: This is display-only — it never blocks the turn from ending. ... const SHOULD_BLOCK = false; (version or commit: 436469a258593ab6c7e33dcf05a78bd8f5e95d22). Outcome: 200",
+      "accessed_at": "2026-09-29T07:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s47",
+      "source_type": "documented source",
+      "source_url": "https://github.com/danna-zhou/jev-mcp/blob/436469a258593ab6c7e33dcf05a78bd8f5e95d22/src/index.ts#L16-L18",
+      "title": "github.com/danna-zhou/jev-mcp/blob/436469a258593ab6c7e33dcf05a78bd8f5e95d22/src/index.ts#L16-L18",
+      "claim": "Documented: BASE_URL default http://127.0.0.1:8009; API_KEY default \"local\"; DEFAULT_MODEL default \"kev-latest\" (version or commit: 436469a258593ab6c7e33dcf05a78bd8f5e95d22). Outcome: 200",
+      "accessed_at": "2026-09-29T07:09:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s48",
+      "source_type": "documented source",
+      "source_url": "https://github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/src/config.mjs#L9-L16",
+      "title": "github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/src/config.mjs#L9-L16",
+      "claim": "Documented: mode: 'shadow', ... timeoutMs: 1500, cacheTtlMs: 60_000, failOpen: true, redact: true (version or commit: 7d7e8763f0e382fc253d091902abe8a7eb0a1ea2 (merge of PR #1)). Outcome: 200",
+      "accessed_at": "2026-09-29T07:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s49",
+      "source_type": "documented source",
+      "source_url": "https://github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/src/policy.mjs#L81-L105",
+      "title": "github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/src/policy.mjs#L81-L105",
+      "claim": "Documented: Shadow mode keeps every decision visible and none of them binding. ... if (cfg.failOpen) return decision; (version or commit: 7d7e8763f0e382fc253d091902abe8a7eb0a1ea2). Outcome: 200",
+      "accessed_at": "2026-09-29T07:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s50",
+      "source_type": "documented source",
+      "source_url": "https://github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/src/run.mjs#L131-L139",
+      "title": "github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/src/run.mjs#L131-L139",
+      "claim": "Documented: state: { user_goal, proposed_action: { tool, input: sanitize(...) }, recent_actions: session.recent, working_directory: evt.cwd } (version or commit: 7d7e8763f0e382fc253d091902abe8a7eb0a1ea2). Outcome: 200",
+      "accessed_at": "2026-09-29T07:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s51",
+      "source_type": "documented source",
+      "source_url": "https://github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/src/jev-client.mjs#L136-L184",
+      "title": "github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/src/jev-client.mjs#L136-L184",
+      "claim": "Documented: A 200 that carries no usable answer is a failure, not an all-clear. (version or commit: 7d7e8763f0e382fc253d091902abe8a7eb0a1ea2). Outcome: 200",
+      "accessed_at": "2026-09-29T07:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s52",
+      "source_type": "documented source",
+      "source_url": "https://github.com/brunopivetta88/jev-claude/pull/1",
+      "title": "github.com/brunopivetta88/jev-claude/pull/1",
+      "claim": "Documented: JEV + Claude: calibrated guardrails for coding agents — merged 2026-09-25T14:25:20Z (version or commit: head 1867957c1944ee7c68843144b02afd5d7f96e759). Outcome: 200; feature is on default branch",
+      "accessed_at": "2026-09-29T07:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s53",
+      "source_type": "documented source",
+      "source_url": "https://github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/src/entry.mjs#L5-L24",
+      "title": "github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/src/entry.mjs#L5-L24",
+      "claim": "Documented: const HARD_DEADLINE_MS = 8000; ... jev-guard: hook exceeded its deadline, allowing (version or commit: 7d7e8763f0e382fc253d091902abe8a7eb0a1ea2). Outcome: 200",
+      "accessed_at": "2026-09-29T07:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s54",
+      "source_type": "documented source",
+      "source_url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/src/index.ts#L296-L372",
+      "title": "github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/src/index.ts#L296-L372",
+      "claim": "Documented: A screening tool must fail closed: a missing or malformed answer must not be treated as a clean bill of health (version or commit: v0.11.0 = 53fe5756252956863af2ecbd2952339352e82e15). Outcome: 200",
+      "accessed_at": "2026-09-29T07:11:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s55",
+      "source_type": "third-party report",
+      "source_url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/README.md#L242",
+      "title": "github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/README.md#L242",
+      "claim": "Reported: The recommendation is advisory: pass, review, block, or skip. The server never blocks on its own; enforcement stays with the calling agent. (version or commit: v0.11.0). Outcome: 200",
+      "accessed_at": "2026-09-29T07:11:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s56",
+      "source_type": "documented source",
+      "source_url": "https://github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/src/provider.ts#L28-L49",
+      "title": "github.com/jkudish/jev-mcp/blob/53fe5756252956863af2ecbd2952339352e82e15/src/provider.ts#L28-L49",
+      "claim": "Documented: REQUEST_TIMEOUT_MS ... 60_000; MAX_ATTEMPTS ... 3; retry 408, 409, 429, 500-599; typesafe and vercel branches go through SDK-owned transports (version or commit: v0.11.0). Outcome: 200",
+      "accessed_at": "2026-09-29T07:11:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s57",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/project/langchain-typesafe/0.0.1a3/",
+      "title": "pypi.org/project/langchain-typesafe/0.0.1a3/",
+      "claim": "Documented: AutoModeMiddleware classifies calls to explicitly configured tools and blocks risky calls before execution (version or commit: 0.0.1a3 sdist sha256 d77647a7a5bafaa82db8212a682b223a9bbcd52fb015e49464f211552f1f3272). Outcome: 200; sdist read, not installed or run",
+      "accessed_at": "2026-09-29T07:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s58",
+      "source_type": "documented source (PyPI sdist, pinned version)",
+      "source_url": "https://pypi.org/project/langchain-typesafe/0.0.1a3/",
+      "title": "pypi.org/project/langchain-typesafe/0.0.1a3/",
+      "claim": "Documented: The classifier receives the proposed tool call and up to 30 recent messages. ... Classification failures propagate ... so failures are fail-closed. (version or commit: 0.0.1a3 (sdist sha256 d77647a7…3272)). Outcome: read from PyPI sdist",
+      "accessed_at": "2026-09-29T07:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s59",
+      "source_type": "documented source (PyPI sdist, pinned version)",
+      "source_url": "https://pypi.org/project/langchain-typesafe/0.0.1a3/",
+      "title": "pypi.org/project/langchain-typesafe/0.0.1a3/",
+      "claim": "Documented: _DEFAULT_TIMEOUT = 30.0 ... \"TypeSafe API key is required. Pass `api_key` or set `TYPESAFE_API_KEY`.\" (version or commit: 0.0.1a3). Outcome: read from PyPI sdist",
+      "accessed_at": "2026-09-29T07:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s60",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/blob/9fd35ece5d6de65b511bf43b55e42c499e4fc194/src/hooks/jev/config.ts#L1-L31",
+      "title": "github.com/Yeachan-Heo/oh-my-claudecode/blob/9fd35ece5d6de65b511bf43b55e42c499e4fc194/src/hooks/jev/config.ts#L1-L31",
+      "claim": "Documented: Unset = no points enabled — a key alone sends nothing anywhere ... const DEFAULT_TIMEOUT_MS = 250; ACTIVATED_POINTS ... new Set<string>() (version or commit: v5.5.0 = 9fd35ece5d6de65b511bf43b55e42c499e4fc194 (also main)). Outcome: 200",
+      "accessed_at": "2026-09-29T07:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s61",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/blob/9fd35ece5d6de65b511bf43b55e42c499e4fc194/src/hooks/jev/resolver.ts#L1-L14",
+      "title": "github.com/Yeachan-Heo/oh-my-claudecode/blob/9fd35ece5d6de65b511bf43b55e42c499e4fc194/src/hooks/jev/resolver.ts#L1-L14",
+      "claim": "Documented: Degrade paths (timeout, HTTP error, invalid response) return the twin and log mode:\"degraded\". The resolver never throws (version or commit: v5.5.0). Outcome: 200",
+      "accessed_at": "2026-09-29T07:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s62",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/blob/9fd35ece5d6de65b511bf43b55e42c499e4fc194/docs/adr/03665-jev-degradation-contract.md",
+      "title": "github.com/Yeachan-Heo/oh-my-claudecode/blob/9fd35ece5d6de65b511bf43b55e42c499e4fc194/docs/adr/03665-jev-degradation-con",
+      "claim": "Documented: Rejected: fail-closed — blocking the orchestration on an external judgment API would make OMC hostage to one dependency. (version or commit: v5.5.0). Outcome: 200",
+      "accessed_at": "2026-09-29T07:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s63",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/pull/4092",
+      "title": "github.com/Yeachan-Heo/oh-my-claudecode/pull/4092",
+      "claim": "Documented: fix(jev): send the request shape the TypeSafe API accepts (#4091); diff: -const DEFAULT_TIMEOUT_MS = 250; +const DEFAULT_TIMEOUT_MS = 2000; (version or commit: base dev; merge 0dcd7bc68c17df70f32eb01b4e85aae92e153e06). Outcome: 200; merged into dev, not main; main and v5.5.0 still 250",
+      "accessed_at": "2026-09-29T07:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s64",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/dev/src/hooks/jev/config.ts",
+      "title": "raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/dev/src/hooks/jev/config.ts",
+      "claim": "Documented: line 36: const DEFAULT_TIMEOUT_MS = 2000; (version or commit: dev). Outcome: 200; main line 27 still 250",
+      "accessed_at": "2026-09-29T07:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s65",
+      "source_type": "third-party report",
+      "source_url": "https://github.com/codaaiteam/jev-mcp",
+      "title": "github.com/codaaiteam/jev-mcp",
+      "claim": "Reported: MCP server for Jev ... give any agent typed, calibrated decisions (description). Same owner's repos link jevtypesafeai.com. Outcome: seen, not audited",
+      "accessed_at": "2026-09-29T07:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s66",
+      "source_type": "third-party report",
+      "source_url": "https://www.npmjs.com/package/mcp-jev",
+      "title": "www.npmjs.com/package/mcp-jev",
+      "claim": "Reported: Two tools: jev_decide (noul/choice/score) and jev_list_models. (version or commit: 2.0.1). Outcome: seen, not audited; repo github.com/mndpjm/mcp-jev",
+      "accessed_at": "2026-09-29T07:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s67",
+      "source_type": "third-party report",
+      "source_url": "https://github.com/Afloat16/jev-mcp",
+      "title": "github.com/Afloat16/jev-mcp",
+      "claim": "Reported: Unofficial conservative MCP server for TypeSafe AI Jev. Outcome: seen, not audited",
+      "accessed_at": "2026-09-29T07:06:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s70",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/src/retry.ts#L5-L23",
+      "title": "github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/src/retry.ts#L5-L23",
+      "claim": "Documented: DEFAULT_TIMEOUT_MS = 10_000; maxRetries: 2, backoffInitialMs: 500, backoffMaxMs: 5_000 ... httpStatuses: 408, 429, 5xx (version or commit: v0.6.0 = 66880ccded6cb642dc1809620c2b108c33730214). Outcome: 200",
+      "accessed_at": "2026-09-29T07:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s71",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/src/errors.ts#L70-L118",
+      "title": "github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/src/errors.ts#L70-L118",
+      "claim": "Documented: 400 BadRequestError, 401 AuthenticationError, 403 PermissionDeniedError, 404 NotFoundError, 422 UnprocessableEntityError, 429 RateLimitError, >=500 InternalServerError (version or commit: v0.6.0). Outcome: 200",
+      "accessed_at": "2026-09-29T07:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s72",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/src/client.ts#L48-L65",
+      "title": "github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/src/client.ts#L48-L65",
+      "claim": "Documented: No API key was provided. ... TypeSafeClient is running in a browser ... pass `dangerouslyAllowBrowser: true` (version or commit: v0.6.0). Outcome: 200",
+      "accessed_at": "2026-09-29T07:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s73",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/javascript/api/interfaces/TypeSafeClientConfig.md",
+      "title": "docs.typesafe.ai/sdk/javascript/api/interfaces/TypeSafeClientConfig.md",
+      "claim": "Documented: Custom HTTP fetch implementation for transport configuration or tests. Default: global `fetch`. (version or commit: 0.6.0). Outcome: 200",
+      "accessed_at": "2026-09-29T07:16:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s74",
+      "source_type": "third-party report",
+      "source_url": "https://api.github.com/repos/typesafe-ai/typesafe-sdk-js/issues?state=all",
+      "title": "api.github.com/repos/typesafe-ai/typesafe-sdk-js/issues?state=all",
+      "claim": "Reported: 14 open issues listed incl. #2 cancellation crash, #6 invalid shapes, #14 key echoed, #15 HTML 403, #17 non-finite numbers. Outcome: 200",
+      "accessed_at": "2026-09-29T07:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s75",
+      "source_type": "documented source",
+      "source_url": "https://ai-sdk.dev/docs/reference/ai-sdk-core/evaluate.md",
+      "title": "ai-sdk.dev/docs/reference/ai-sdk-core/evaluate.md",
+      "claim": "Documented: maxRetries: Nonnegative integer; defaults to 2. ... malformed answers throw InvalidResponseDataError. Invalid answers are not retried. (version or commit: ai 7.0.122 docs). Outcome: 200",
+      "accessed_at": "2026-09-29T07:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s76",
+      "source_type": "documented source",
+      "source_url": "https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai.md",
+      "title": "ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai.md",
+      "claim": "Documented: Set the TYPESAFE_AI_API_KEY environment variable. ... The SDK uses the neutral name boolean and maps it to TypeSafe's noul field. (version or commit: @ai-sdk/typesafe-ai 3.0.10). Outcome: 200",
+      "accessed_at": "2026-09-29T07:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s77",
+      "source_type": "documented source",
+      "source_url": "https://ai-sdk.dev/docs/ai-sdk-core/evaluation.md",
+      "title": "ai-sdk.dev/docs/ai-sdk-core/evaluation.md",
+      "claim": "Documented: For tests, use Experimental_EvaluationMockModelV4 from ai/test.. Outcome: 200",
+      "accessed_at": "2026-09-29T07:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s78",
+      "source_type": "documented source",
+      "source_url": "https://cdn.jsdelivr.net/npm/ai@7.0.103/dist/index.d.ts",
+      "title": "cdn.jsdelivr.net/npm/ai@7.0.103/dist/index.d.ts",
+      "claim": "Documented: experimental_evaluate absent from ai@7.0.102 type declarations, present in ai@7.0.103 and 7.0.122 (version or commit: 7.0.102 vs 7.0.103). Outcome: 200; package contents read, not installed",
+      "accessed_at": "2026-09-29T07:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s79",
+      "source_type": "documented source",
+      "source_url": "https://vercel.com/kb/guide/typesafe-jev-and-ai-sdk",
+      "title": "vercel.com/kb/guide/typesafe-jev-and-ai-sdk",
+      "claim": "Documented: Install AI SDK 7.0.105 or later, which adds experimental_evaluate. Outcome: 200; conflicts with 7.0.103 package contents",
+      "accessed_at": "2026-09-29T07:16:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s80",
+      "source_type": "documented source",
+      "source_url": "https://github.com/vercel-labs/jev-ai-sdk-form-router/blob/27ea469d15b5b26b922d9faacfdcffc13bf024bb/lib/router.ts#L8-L10",
+      "title": "github.com/vercel-labs/jev-ai-sdk-form-router/blob/27ea469d15b5b26b922d9faacfdcffc13bf024bb/lib/router.ts#L8-L10",
+      "claim": "Documented: const CONFIDENCE_THRESHOLD = 0.95; const JEV_TIMEOUT_MS = 12_000; const LUNA_TIMEOUT_MS = 25_000; (version or commit: 27ea469d15b5b26b922d9faacfdcffc13bf024bb). Outcome: 200; fallback model in source openai/gpt-6-luna-fast",
+      "accessed_at": "2026-09-29T07:16:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s81",
+      "source_type": "documented source",
+      "source_url": "https://vercel.com/templates/next.js/jev-and-ai-sdk",
+      "title": "vercel.com/templates/next.js/jev-and-ai-sdk",
+      "claim": "Documented: The app accepts Jev's choice when its confidence is at least 95%. If confidence is lower, missing, or invalid, or Jev fails, openai/gpt-5.6-luna-fast. Outcome: 200; page names gpt-5.6-luna-fast, source names gpt-6-luna-fast",
+      "accessed_at": "2026-09-29T07:16:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s82",
+      "source_type": "documented source",
+      "source_url": "https://vercel.com/i/jev-integrations",
+      "title": "vercel.com/i/jev-integrations",
+      "claim": "Documented: With AI SDK, you call experimental_evaluate and select an evaluation model. With TanStack AI, you call decide(). Outcome: 200",
+      "accessed_at": "2026-09-29T07:16:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s83",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ai",
+      "title": "registry.npmjs.org/ai",
+      "claim": "Documented: dist-tags latest 7.0.122; engines node >=22. Outcome: 200",
+      "accessed_at": "2026-09-29T07:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s90",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/api/clients/sync.md",
+      "title": "docs.typesafe.ai/sdk/python/api/clients/sync.md",
+      "claim": "Documented: transport: httpx2.BaseTransport | None ... Optional custom HTTP transport; http_client mutually exclusive with transport (version or commit: typesafe-sdk 0.7.2 docs). Outcome: 200",
+      "accessed_at": "2026-09-29T07:16:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s91",
+      "source_type": "documented source",
+      "source_url": "https://github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/test/core.test.mjs#L21-L41",
+      "title": "github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/test/core.test.mjs#L21-L41",
+      "claim": "Documented: A stand-in Jev that records what it was asked and answers on command. (version or commit: 7d7e8763f0e382fc253d091902abe8a7eb0a1ea2). Outcome: 200; not run by pool",
+      "accessed_at": "2026-09-29T07:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-s92",
+      "source_type": "documented source (PyPI sdist, pinned version)",
+      "source_url": "https://pypi.org/project/langchain-typesafe/0.0.1a3/",
+      "title": "pypi.org/project/langchain-typesafe/0.0.1a3/",
+      "claim": "Documented: test_classifier_failure_terminates_agent_run ... pytest.raises(TypeSafeInternalServerError ... assert executions == [] (version or commit: 0.0.1a3). Outcome: read; not run",
+      "accessed_at": "2026-09-29T07:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r2-t03opt",
+      "source_type": "owner-authored offline test",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/integration-trust",
+      "title": "shaduf.ai/p/jev-catalog/reports/integration-trust",
+      "claim": "Tested: exit=0; systemMessage \"jev guardrail unreachable, skipping review: fetch failed\" for git push; rm -rf / not sent (exit 0, no output) (version or commit: lib.mjs sha256 2064e808…089e; pretooluse-guardrail.mjs sha256 d6890148…079e). Outcome: Tested offline, no Jev call; node v24.20.0",
+      "accessed_at": "2026-09-29T07:12:00Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "r2-t04",
+      "source_type": "owner-authored offline test",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/integration-trust",
+      "title": "shaduf.ai/p/jev-catalog/reports/integration-trust",
+      "claim": "Tested: 429 Retry-After:1 then 200 -> ok on attempt 2 (1053 ms); 529x3 -> fail after 3; hang x3 -> timeout after 3 (3908 ms) (version or commit: node v24.20.0). Outcome: Tested offline, no Jev call",
+      "accessed_at": "2026-09-29T07:16:00Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "r2-finding-guard-dispositions",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/integration-trust",
+      "title": "Integration trust report, 29 Sep 2026",
+      "claim": "Of five Jev guardrails read in pinned source on 29 Sep 2026, only LangChain AutoModeMiddleware stops the agent when Jev fails; jev-claude and oh-my-claudecode ship in shadow mode, jkudish/jev-mcp is advisory, danna-zhou's hooks fail open; the official typesafe@typesafe-ai plugin makes no Jev call.",
+      "accessed_at": "2026-09-29T07:17:00Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "r2-finding-omc-timeout-correction",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/integration-trust",
+      "title": "Integration trust report, 29 Sep 2026",
+      "claim": "Correction: oh-my-claudecode PR #4092 (timeout 250 to 2000 ms) was merged into dev on 22 Sep; v5.5.0 and main still set DEFAULT_TIMEOUT_MS = 250 on 29 Sep 2026.",
+      "accessed_at": "2026-09-29T07:17:00Z",
+      "relation": "supports",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "r2-finding-no-live-call",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/integration-trust",
+      "title": "Integration trust report, 29 Sep 2026",
+      "claim": "No integration, SDK or example was run against the live Jev API in the 29 Sep 2026 run; offline runs used closed local ports and a local mock server only.",
+      "accessed_at": "2026-09-29T07:17:00Z",
+      "relation": "limits",
+      "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "r2-finding-analytics-unavailable",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/integration-trust",
+      "title": "Integration trust report, 29 Sep 2026",
+      "claim": "Search and site analytics were unavailable for the 29 Sep 2026 run; no search volumes are stated.",
+      "accessed_at": "2026-09-29T07:17:00Z",
+      "relation": "limits",
+      "publication_basis": "owner-authored"
     }
   ]
 }

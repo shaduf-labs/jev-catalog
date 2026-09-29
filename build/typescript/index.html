@@ -1,0 +1,308 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Call Jev from TypeScript · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Jev (TypeSafe AI) from TypeScript: @typesafe-ai/sdk vs AI SDK experimental_evaluate vs fetch vs Workers, with versions, minimal calls and 12 gotchas.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/build/typescript/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Call Jev from TypeScript · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Jev (TypeSafe AI) from TypeScript: @typesafe-ai/sdk vs AI SDK experimental_evaluate vs fetch vs Workers, with versions, minimal calls and 12 gotchas.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/build/typescript/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Call Jev from TypeScript","description":"Jev (TypeSafe AI) from TypeScript: @typesafe-ai/sdk vs AI SDK experimental_evaluate vs fetch vs Workers, with versions, minimal calls and 12 gotchas.","dateModified":"2026-09-29T07:17:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/typescript/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="build-typescript">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="index.html" aria-current="page"><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Open-source Jev alternatives</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Products and projects using Jev</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv">
+  <div class="jv-kicker"><span>Build</span><span><code>@typesafe-ai/sdk</code> 0.6.0 · <code>ai</code> 7.0.122 · checked <time datetime="2026-09-29">29 September 2026</time>, 07:14–07:16 UTC</span></div>
+  <h1>Call Jev (TypeSafe AI) from TypeScript: AI SDK <code>experimental_evaluate</code> vs <code>@typesafe-ai/sdk</code> vs fetch</h1>
+  <p class="jv-lede">There are four ways to call Jev from TypeScript: TypeSafe's own SDK, the Vercel AI SDK's <code>experimental_evaluate</code>, a plain HTTP request, and the Cloudflare Workers binding. They differ in runtime, key variable, field names, default retries and timeouts. This page compares them at pinned versions and lists twelve TypeScript-specific mistakes.</p>
+
+  <div class="jv-answer">
+    <strong>Short answer</strong>
+    <p>For TypeSafe direct on Node 20 or later, use the official <code>@typesafe-ai/sdk</code> 0.6.0. If you use Vercel AI Gateway or already use the AI SDK, use AI SDK <code>experimental_evaluate</code> (<code>ai</code> 7.0.105 or later). For other runtimes or routes, use raw <code>fetch</code> and add your own retry and timeout. <span class="ev ev-documented">Documented</span> <small>package sources and docs, checked 29 Sep 2026</small></p>
+  </div>
+
+  <dl class="jv-facts">
+    <div><dt>Official SDK</dt><dd><code>@typesafe-ai/sdk</code> 0.6.0, npm 15 Sep 2026, 18:17 UTC; tag <code>66880cc</code>; MIT</dd></div>
+    <div><dt>AI SDK core</dt><dd><code>ai</code> 7.0.122, 28 Sep 2026, 21:59 UTC; Apache-2.0</dd></div>
+    <div><dt>First <code>ai</code> with <code>experimental_evaluate</code></dt><dd>7.0.103 (16 Sep) by package contents; Vercel's guide says 7.0.105</dd></div>
+    <div><dt>AI SDK direct provider</dt><dd><code>@ai-sdk/typesafe-ai</code> 3.0.10, 28 Sep 2026, 22:00 UTC</dd></div>
+    <div><dt>Node</dt><dd>SDK ≥ 20; <code>ai</code> and <code>@ai-sdk/typesafe-ai</code> ≥ 22</dd></div>
+  </dl>
+
+  <h2 id="choose">Which path fits your project</h2>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>If your project…</th><th>Use</th><th>Because</th></tr></thead>
+      <tbody>
+        <tr><td data-l="If">Runs on Node 20 or 21</td><td data-l="Use"><code>@typesafe-ai/sdk</code> or raw <code>fetch</code></td><td data-l="Because"><code>ai</code> declares Node ≥ 22</td></tr>
+        <tr><td data-l="If">Calls Jev through Vercel AI Gateway</td><td data-l="Use"><code>experimental_evaluate</code> with <code>'typesafe-ai/jev'</code></td><td data-l="Because">The gateway string and <code>AI_GATEWAY_API_KEY</code> (or Vercel OIDC) are built in</td></tr>
+        <tr><td data-l="If">Wants typed helpers and mapped error classes for TypeSafe direct</td><td data-l="Use"><code>@typesafe-ai/sdk</code></td><td data-l="Because"><code>choice()</code>, <code>score()</code>, <code>noul()</code> and one error class per status</td></tr>
+        <tr><td data-l="If">Runs on Cloudflare Workers</td><td data-l="Use"><code>env.AI.run('typesafe/jev', …)</code></td><td data-l="Because">No package or TypeSafe key; the account binding authenticates</td></tr>
+        <tr><td data-l="If">Uses another route, runtime or a gateway without an SDK</td><td data-l="Use">Raw <code>fetch</code></td><td data-l="Because">Stable HTTP contract; you write retry, timeout and parsing</td></tr>
+        <tr><td data-l="If">Must not stop working after a minor upgrade</td><td data-l="Use">Pin exact versions</td><td data-l="Because"><code>experimental_evaluate</code> "may change in patch releases"; the SDK is 0.x</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="compare">Comparison at pinned versions</h2>
+  <p><span class="ev ev-documented">Documented</span> <small>SDK source at tag v0.6.0 (<a href="https://github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/src/retry.ts#L5-L23">retry.ts</a>, <a href="https://github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/src/errors.ts#L70-L118">errors.ts</a>, <a href="https://github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/src/client.ts#L48-L65">client.ts</a>); <a href="https://ai-sdk.dev/docs/reference/ai-sdk-core/evaluate">AI SDK evaluate reference</a>, <a href="https://ai-sdk.dev/docs/ai-sdk-core/evaluation">evaluation guide</a> and <a href="https://ai-sdk.dev/providers/ai-sdk-providers/typesafe-ai">TypeSafe provider page</a>; <a href="https://developers.cloudflare.com/ai/models/typesafe/jev/">Cloudflare model page</a>; all checked 29 Sep 2026</small></p>
+  <div class="table-wrap stack wide">
+    <table>
+      <thead><tr><th>Field</th><th><code>@typesafe-ai/sdk</code> (official)</th><th>AI SDK <code>experimental_evaluate</code></th><th>Raw <code>fetch</code></th><th>Cloudflare Workers binding</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Field">Install</td><td data-l="Official SDK"><code>npm install @typesafe-ai/sdk</code></td><td data-l="AI SDK"><code>npm i ai</code>, plus <code>@ai-sdk/typesafe-ai</code> for TypeSafe direct</td><td data-l="fetch">Nothing</td><td data-l="Workers"><code>env.AI</code> binding in the <code>wrangler</code> config</td></tr>
+        <tr><td data-l="Field">Runtime</td><td data-l="Official SDK">Node ≥ 20; ESM, CJS and types. Refuses to run in a browser unless <code>dangerouslyAllowBrowser: true</code></td><td data-l="AI SDK">Node ≥ 22</td><td data-l="fetch">Any runtime with <code>fetch</code></td><td data-l="Workers">Cloudflare Workers</td></tr>
+        <tr><td data-l="Field">Routes</td><td data-l="Official SDK">TypeSafe direct; <code>baseURL</code> (<code>TYPESAFE_BASE_URL</code>) for compatible endpoints</td><td data-l="AI SDK">Gateway string <code>'typesafe-ai/jev'</code>, or <code>typeSafeAi.evaluationModel('jev-latest')</code> for TypeSafe direct</td><td data-l="fetch">Any System One endpoint</td><td data-l="Workers">Cloudflare <code>typesafe/jev</code></td></tr>
+        <tr><td data-l="Field">Key variable</td><td data-l="Official SDK"><code>TYPESAFE_API_KEY</code></td><td data-l="AI SDK">Gateway: <code>AI_GATEWAY_API_KEY</code>. Direct provider: <strong><code>TYPESAFE_AI_API_KEY</code></strong></td><td data-l="fetch">Your choice</td><td data-l="Workers">Account binding</td></tr>
+        <tr><td data-l="Field">Answer fields</td><td data-l="Official SDK">Choice <code>choice</code>, <code>probabilities</code>, <code>confidence</code>; Score <code>score</code>, <code>legend</code>, <code>probabilities</code>, <code>confidence</code>; Noul <code>noul</code>; <code>usage.input_tokens</code>, <code>usage.output_tokens</code>; <code>model</code></td><td data-l="AI SDK">Choice <code>.choice</code>; Score <code>.score</code>; Noul is called <code>boolean</code> and returns <code>.probability</code>; confidence at <code>providerMetadata.typesafe.confidence[id]</code>; <code>usage.inputTokens</code>; <code>warnings</code>; <code>response.modelId</code></td><td data-l="fetch">As the API reference</td><td data-l="Workers">Not re-read on 29 Sep (the page shows <code>console.log(response)</code> only)</td></tr>
+        <tr><td data-l="Field">Default retries</td><td data-l="Official SDK">2 retries on 408, 429, 5xx (including 529), connection errors and timeouts; backoff 0.5 s doubling to 5 s with up to 25% jitter; honours <code>retry-after-ms</code> and <code>Retry-After</code> up to 60 s</td><td data-l="AI SDK"><code>maxRetries</code> 2 in Core for transient failures (e.g. 429, 529); malformed answers are not retried</td><td data-l="fetch">None</td><td data-l="Workers">Not documented on the page read</td></tr>
+        <tr><td data-l="Field">Default timeout</td><td data-l="Official SDK"><strong>10 s per attempt</strong>; no total budget found in the JS source (the Python SDK has a 30 s budget)</td><td data-l="AI SDK"><strong>None documented</strong>; pass <code>abortSignal</code></td><td data-l="fetch">None</td><td data-l="Workers">Not documented on the page read</td></tr>
+        <tr><td data-l="Field">Errors</td><td data-l="Official SDK"><code>BadRequestError</code> 400, <code>AuthenticationError</code> 401, <code>PermissionDeniedError</code> 403, <code>NotFoundError</code> 404, <code>UnprocessableEntityError</code> 422, <code>RateLimitError</code> 429, <code>InternalServerError</code> ≥ 500, <code>APIConnectionError</code>, <code>APITimeoutError</code>, <code>APIUserAbortError</code>. A missing key throws at construction</td><td data-l="AI SDK"><code>APICallError</code> (provider failures incl. auth and validation), <code>InvalidArgumentError</code>, <code>InvalidResponseDataError</code> (malformed answers), <code>Experimental_EvaluationUnsupportedQuestionTypeError</code>, <code>NoSuchModelError</code></td><td data-l="fetch">Whatever you map</td><td data-l="Workers">Workers AI error codes (see <a href="../errors-and-rate-limits/index.html#routes">errors page</a>)</td></tr>
+        <tr><td data-l="Field">Test facility</td><td data-l="Official SDK"><code>fetch</code> option: "Custom HTTP fetch implementation for transport configuration or tests"</td><td data-l="AI SDK"><code>Experimental_EvaluationMockModelV4</code> from <code>ai/test</code></td><td data-l="fetch">A local mock server</td><td data-l="Workers">Not documented</td></tr>
+        <tr><td data-l="Field">Stability</td><td data-l="Official SDK">0.x; nine open issues (below)</td><td data-l="AI SDK">Experimental: "may change in patch releases"</td><td data-l="fetch">Stable HTTP contract</td><td data-l="Workers">Route-owner page</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="jv-box info">
+    <h2>Two things that differ between sources</h2>
+    <ul>
+      <li><strong>First AI SDK version.</strong> <code>experimental_evaluate</code> is absent from the type declarations of <code>ai</code> 7.0.102 and present in 7.0.103 (published 16 Sep 2026, 18:36 UTC). <a href="https://vercel.com/kb/guide/typesafe-jev-and-ai-sdk">Vercel's guide</a> says "Install AI SDK 7.0.105 or later". This page uses 7.0.105 as the minimum and records the conflict. <span class="ev ev-documented">Documented</span> <small>package contents read, not installed; 29 Sep</small></li>
+      <li><strong>Key variable name.</strong> The official SDK reads <code>TYPESAFE_API_KEY</code>. The AI SDK's direct provider reads <code>TYPESAFE_AI_API_KEY</code>. A key set under the wrong name is a "missing key" error, not a Jev error. <span class="ev ev-documented">Documented</span> <small>SDK env.ts; ai-sdk.dev provider page; 29 Sep</small></li>
+    </ul>
+  </div>
+
+  <h2 id="calls">Minimal Choice call per path</h2>
+  <p>Each example asks one Choice question about a support message. The code follows each owner's published example and has not been run by the pool, which has no API key. Model IDs differ by route; the current IDs are in the <a href="../../where-to-use/index.html#matrix">route matrix</a>.</p>
+
+  <p class="jv-code-head"><strong>1. <code>@typesafe-ai/sdk</code> 0.6.0</strong> <span class="ev ev-documented">Documented, not executed</span> <span>SDK README and docs JavaScript page</span></p>
+  <pre><code>// npm install @typesafe-ai/sdk@0.6.0        (Node &gt;= 20, server side only)
+// export TYPESAFE_API_KEY=...
+import { TypeSafeClient, choice } from "@typesafe-ai/sdk";
+
+const client = new TypeSafeClient();          // throws at once if the key is missing
+const response = await client.systemOne({
+  state: "I was charged twice for my subscription this month.",
+  questions: {
+    category: choice("What is this ticket about?", { billing: null, technical: null, other: null }),
+  },
+});
+
+console.log(response.answers.category.choice, response.answers.category.confidence);
+console.log(response.model);                  // log which versioned model answered</code></pre>
+  <p><small>The documented example sets no model, so the SDK default alias <code>jev-latest</code> applies.</small></p>
+
+  <p class="jv-code-head"><strong>2. AI SDK <code>experimental_evaluate</code> through Vercel AI Gateway</strong> <span class="ev ev-documented">Documented, not executed</span> <span>ai-sdk.dev evaluation guide and TypeSafe provider page</span></p>
+  <pre><code>// npm i ai@7.0.122                          (Node &gt;= 22; 7.0.105 or later per Vercel)
+// export AI_GATEWAY_API_KEY=...
+import { experimental_evaluate } from "ai";
+
+const result = await experimental_evaluate({
+  model: "typesafe-ai/jev",
+  state: "I was charged twice for my subscription this month.",
+  questions: {
+    department: {
+      type: "choice",
+      instructions: "Which team should handle this?",
+      criteria: { billing: "Payments and invoices", technical: "Bugs and integrations", other: null },
+    },
+  },
+});
+
+console.log(result.answers.department.choice);
+console.log(result.providerMetadata?.typesafe?.confidence?.department);  // confidence is not on the answer</code></pre>
+  <p><small>For TypeSafe direct instead of the gateway, install <code>@ai-sdk/typesafe-ai</code>, set <code>TYPESAFE_AI_API_KEY</code>, and pass <code>model: typeSafeAi.evaluationModel("jev-latest")</code> (base URL <code>https://api.typesafe.ai/v1</code>).</small></p>
+
+  <p class="jv-code-head"><strong>3. Raw <code>fetch</code></strong> <span class="ev ev-documented">Documented, not executed</span> <span>request shape from the docs quickstart; the timeout line is the pool's addition</span></p>
+  <pre><code>const res = await fetch("https://api.typesafe.ai/v1/systemone", {
+  method: "POST",
+  headers: { Authorization: `Bearer ${process.env.TYPESAFE_API_KEY}`, "Content-Type": "application/json" },
+  body: JSON.stringify({
+    model: "jev-1.13.0",
+    state: "I was charged twice for my subscription this month.",
+    questions: {
+      category: { type: "choice", instructions: "What is this ticket about?",
+                  criteria: { billing: null, technical: null, other: null } },
+    },
+  }),
+  signal: AbortSignal.timeout(10_000),        // raw fetch has no timeout unless you set one
+});
+if (!res.ok) throw new Error(`Jev ${res.status}: ${await res.text()}`);
+const body = await res.json();
+console.log(body.answers.category.choice, body.answers.category.confidence);</code></pre>
+  <p><small>A retry loop for this path, tested offline against a local mock server, is the worked example on <a href="../testing-without-a-key/index.html#t04">Testing without a key</a>.</small></p>
+
+  <p class="jv-code-head"><strong>4. Cloudflare Workers binding</strong> <span class="ev ev-documented">Documented, not executed</span> <span>Cloudflare model page for <code>typesafe/jev</code></span></p>
+  <pre><code>export default {
+  async fetch(request, env) {
+    const response = await env.AI.run("typesafe/jev", {
+      state: "I was charged twice for my subscription this month.",
+      questions: {
+        department: { type: "choice", instructions: "Which team should handle this?",
+                      criteria: { billing: null, technical: null, other: null } },
+      },
+    });
+    return Response.json(response);
+  },
+};</code></pre>
+
+  <h2 id="worst-case">How long a call can take with default settings</h2>
+  <p>With the official SDK's defaults and an endpoint that never answers, one call makes 3 attempts of 10 s each, with 0.5 s and 1 s waits between them. That adds up to about 31.5 s. The Claude Code plugins audited on <a href="../claude-code-mcp/index.html">Claude Code and MCP</a> give a hook 10–15 s. Set a per-call timeout shorter than your caller's deadline.</p>
+  <figure class="jv-figure">
+    <p class="fig-title">One call to a hanging endpoint, 0–31.5 s</p>
+    <div class="jv-rt">
+      <p class="lbl">SDK defaults: 3 × 10 s attempts, 0.5 s and 1 s backoff (derived arithmetic)</p>
+      <div class="track rt-sdk" role="img" aria-label="Three 10 second attempts with 0.5 and 1 second waits, 31.5 seconds in total; a 15 second hook deadline falls during the second attempt">
+        <span class="seg try"></span><span class="seg wait"></span><span class="seg try"></span><span class="seg wait"></span><span class="seg try"></span>
+        <span class="mark"></span>
+      </div>
+      <div class="scale" aria-hidden="true"><span>0 s</span><span>15 s</span><span>31.5 s</span></div>
+      <p class="note">Red line: a 15 s hook deadline. The caller gives up during the second attempt, while the SDK is still retrying.</p>
+    </div>
+    <div class="jv-rt">
+      <p class="lbl">Same retry pattern at 800 ms per attempt, <span class="ev ev-tested">Tested offline</span> 3.9 s</p>
+      <div class="track rt-t04" role="img" aria-label="Three 0.8 second attempts with 0.5 and 1 second waits, finished after 3.9 seconds">
+        <span class="seg try"></span><span class="seg wait"></span><span class="seg try"></span><span class="seg wait"></span><span class="seg try"></span><span></span>
+      </div>
+      <p class="note">The pool's offline test (T04) measured 3,908 ms for this case against a local mock server.</p>
+    </div>
+    <figcaption>Blue: attempts; gray: backoff waits. The 31.5 s figure is derived from <a href="https://github.com/typesafe-ai/typesafe-sdk-js/blob/66880ccded6cb642dc1809620c2b108c33730214/src/retry.ts#L5-L23">retry.ts</a> defaults, not measured. <span class="ev ev-documented">Documented</span> defaults, 29 Sep 2026.</figcaption>
+  </figure>
+
+  <h2 id="gotchas">TypeScript gotchas</h2>
+  <p>Status codes and their meanings are on <a href="../errors-and-rate-limits/index.html">Errors and rate limits</a>. This table lists only problems specific to the TypeScript paths.</p>
+  <div class="table-wrap stack wide">
+    <table>
+      <thead><tr><th>#</th><th>Gotcha</th><th>What to do</th><th>Source and label</th></tr></thead>
+      <tbody>
+        <tr><td data-l="#">TS1</td><td data-l="Gotcha">Question <code>type</code> must be lowercase (<code>choice</code>, <code>score</code>, <code>noul</code>); capitalised types return 400</td><td data-l="Do">Use the SDK helpers <code>choice()</code>, <code>score()</code>, <code>noul()</code></td><td data-l="Source">oh-my-claudecode #4091 <span class="ev ev-reported">Reported</span></td></tr>
+        <tr><td data-l="#">TS2</td><td data-l="Gotcha"><code>state: null</code> returns 422, and the JS SDK does not stop it locally</td><td data-l="Do">Validate <code>state</code> before calling</td><td data-l="Source"><a href="https://github.com/typesafe-ai/typesafe-sdk-js/issues/6">typesafe-sdk-js #6</a> <span class="ev ev-reported">Reported</span></td></tr>
+        <tr><td data-l="#">TS3</td><td data-l="Gotcha">The model ID differs by route: <code>jev-1.13.0</code> or <code>jev-latest</code> direct; <code>typesafe-ai/jev</code> on Vercel; <code>typesafe/jev-1.13</code> on OpenRouter; <code>typesafe/jev</code> on Cloudflare</td><td data-l="Do">Keep the ID in configuration per route; check the <a href="../../where-to-use/index.html#matrix">route matrix</a></td><td data-l="Source">Route pages <span class="ev ev-documented">Documented</span> 29 Sep</td></tr>
+        <tr><td data-l="#">TS4</td><td data-l="Gotcha">Three key variables: <code>TYPESAFE_API_KEY</code> (official SDK), <code>TYPESAFE_AI_API_KEY</code> (AI SDK direct provider), <code>AI_GATEWAY_API_KEY</code> (gateway)</td><td data-l="Do">Set the one your path reads. The official SDK throws at construction if it is missing</td><td data-l="Source">SDK <code>env.ts</code> L1–11; ai-sdk.dev <span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="#">TS5</td><td data-l="Gotcha">The AI SDK calls a Noul <code>boolean</code> and returns <code>.probability</code>, not <code>.noul</code>; confidence sits in <code>providerMetadata.typesafe.confidence</code></td><td data-l="Do">Do not port field names between paths</td><td data-l="Source">ai-sdk.dev <span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="#">TS6</td><td data-l="Gotcha">Double retries: the SDK and the AI SDK each retry twice by default; a wrapper that retries on top multiplies calls and cost</td><td data-l="Do">Set <code>maxRetries: 0</code> (AI SDK) or <code>retry: { maxRetries: 0 }</code> in the lower layer when you retry yourself</td><td data-l="Source">retry.ts; ai-sdk.dev <span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="#">TS7</td><td data-l="Gotcha">Worst case with SDK defaults and a hanging endpoint is about 31.5 s (see the figure)</td><td data-l="Do">Pass a per-call <code>timeout</code> or <code>abortSignal</code> shorter than your caller's deadline</td><td data-l="Source">Derived from retry.ts; T04 shows the pattern at 800 ms</td></tr>
+        <tr><td data-l="#">TS8</td><td data-l="Gotcha">Vercel's free tier returns 429 <code>rate_limit_exceeded</code></td><td data-l="Do">Handle it separately from TypeSafe's own 429</td><td data-l="Source">Vercel rate-limit docs <span class="ev ev-documented">Documented</span> (28 Sep)</td></tr>
+        <tr><td data-l="#">TS9</td><td data-l="Gotcha">The SDK throws in a browser unless <code>dangerouslyAllowBrowser: true</code>, and that setting would expose the key</td><td data-l="Do">Call Jev from a server route</td><td data-l="Source"><code>client.ts</code> L60–65, L268 <span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="#">TS10</td><td data-l="Gotcha">Cancelling a call can terminate Node 20 and 22 (open issue #2); jkudish/jev-mcp routes around it</td><td data-l="Do">Avoid aborting in-flight SDK calls on those Node versions, or use raw <code>fetch</code></td><td data-l="Source">typesafe-sdk-js #2; jkudish README L757 <span class="ev ev-reported">Reported</span></td></tr>
+        <tr><td data-l="#">TS11</td><td data-l="Gotcha"><code>experimental_evaluate</code> "may change in patch releases"</td><td data-l="Do">Pin the exact <code>ai</code> version</td><td data-l="Source">ai-sdk.dev <span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="#">TS12</td><td data-l="Gotcha">Probabilities are rounded to 2 decimals and may not sum to 1</td><td data-l="Do">Do not assert exact sums in tests</td><td data-l="Source">ai-sdk.dev provider page <span class="ev ev-documented">Documented</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="issues">Open issues in the official JS SDK</h2>
+  <p>Open on GitHub on 29 Sep 2026. Each is the reporter's description, not rerun by the pool. <span class="ev ev-reported">Reported</span></p>
+  <ul>
+    <li>#2: a handled cancellation can crash Node 20 and 22.</li>
+    <li>#6: <code>noul()</code> with no arguments, and <code>state: null</code>, build requests the API rejects.</li>
+    <li>#8: timeouts above Node's timer maximum fire after about 1 ms.</li>
+    <li>#9: a blank <code>Retry-After</code> header bypasses backoff.</li>
+    <li>#12: <code>score()</code> accepts a null level, which returns 422.</li>
+    <li>#13: 402 and 413 fall through to a generic <code>APIError</code>.</li>
+    <li>#14: the API key can be echoed into <code>APIConnectionError</code>, and an empty key is sent.</li>
+    <li>#15: Cloudflare HTML 403 when the state contains <code>curl</code> text.</li>
+    <li>#17: non-finite numbers serialise as null.</li>
+  </ul>
+  <p><small>Issue list: <a href="https://github.com/typesafe-ai/typesafe-sdk-js/issues">typesafe-ai/typesafe-sdk-js issues</a>.</small></p>
+
+  <h2 id="examples">Projects that use these paths</h2>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Project</th><th>What its code does</th><th>Label and date</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Project"><a href="https://github.com/fazlerocks/jevmail/blob/main/src/lib/classify.ts">Jevmail</a> <code>classify.ts</code></td><td data-l="Code">Calls <code>experimental_evaluate({ model: 'typesafe-ai/jev', …, maxRetries: 0 })</code>, then runs its own 429 wait-and-retry-once and 5xx retry-once. This avoids stacking the AI SDK's 2 retries under its own (TS6).</td><td data-l="Label"><span class="ev ev-documented">Documented</span> 28 Sep audit, not re-audited</td></tr>
+        <tr><td data-l="Project"><a href="https://github.com/vercel-labs/jev-ai-sdk-form-router/blob/27ea469d15b5b26b922d9faacfdcffc13bf024bb/lib/router.ts#L8-L10">Vercel template <code>jev-ai-sdk-form-router</code></a></td><td data-l="Code"><code>CONFIDENCE_THRESHOLD = 0.95</code>. The Jev call uses <code>AbortSignal.timeout(12_000)</code> and <code>maxRetries: 1</code>. If confidence is below 0.95 or missing, or Jev fails, it calls a fallback LLM (25 s, 1 retry). A missing confidence counts as a fallback, not a pass. <code>package.json</code> pins <code>ai</code> 7.0.107. The fallback model is <code>openai/gpt-6-luna-fast</code> in source but <code>openai/gpt-5.6-luna-fast</code> on the <a href="https://vercel.com/templates/next.js/jev-and-ai-sdk">template page</a>.</td><td data-l="Label"><span class="ev ev-documented">Documented</span> at <code>27ea469</code> (22 Sep), checked 29 Sep</td></tr>
+        <tr><td data-l="Project"><code>MSFT-TKENDRICK/JEV-examples</code></td><td data-l="Code">The author states the examples were never executed live. Not opened by the pool.</td><td data-l="Label"><span class="ev ev-reported">Reported</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><small>Seen only: TanStack AI <code>decide()</code> with <code>vercelGatewayDecider('typesafe-ai/jev')</code> or <code>cloudflareDecider('typesafe/jev')</code>, described by <a href="https://vercel.com/i/jev-integrations">Vercel</a>. LangChain JS was not checked. For TypeScript demo videos, see the <a href="../../videos/index.html#vg-typescript">TypeScript group on the videos page</a>.</small></p>
+
+  <div class="jv-box warn">
+    <h2>What was not verified</h2>
+    <ul>
+      <li>No example on this page was run. The official JS SDK was not installed, and the AI SDK was read from its published type declarations and docs.</li>
+      <li>The AI SDK's default timeout is undocumented. The changes in <code>@ai-sdk/typesafe-ai</code> 3.0.9 and 3.0.10 (both 28 Sep) were not compared.</li>
+      <li>The Cloudflare binding's response shape, retries and timeout were not re-read on 29 Sep.</li>
+      <li>The 31.5 s worst case is arithmetic from SDK defaults, not a measurement.</li>
+    </ul>
+  </div>
+
+  <section class="jv-related" aria-labelledby="ts-related">
+    <h2 id="ts-related">Related pages</h2>
+    <ul>
+      <li><a href="../index.html">Build hub: choose an integration path</a></li>
+      <li><a href="../python/index.html">Call Jev from Python</a></li>
+      <li><a href="../testing-without-a-key/index.html">Testing without a key</a></li>
+      <li><a href="../errors-and-rate-limits/index.html">Errors and rate limits</a></li>
+      <li><a href="../../where-to-use/index.html">Routes, model IDs and prices</a></li>
+      <li><a href="../../videos/index.html#vg-typescript">TypeScript demo videos</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>29 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>

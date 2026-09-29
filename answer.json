@@ -1,30 +1,35 @@
 {
   "schema_version": "1.0.0",
   "status": "current",
-  "current_answer": "Jev is TypeSafe AI's hosted model for bounded Choice, Score and Noul judgments; your code must check each answer and own the action, review and fallback. TypeSafe lists jev-1.13.0 at $0.042 per million input tokens with free output; signups reopened on 27 September 2026 but new users currently get no free credit. OpenRouter, Cloudflare, Vercel, Netlify and Opper serve it at the same or rounded list price, while lookalike reseller storefronts charged 3–16× that price. Open projects and 46 creator videos show Jev in email sorting, ticket triage, moderation, model routing, trading gates and games, but no audited project or company claim has been independently verified as a production deployment. TypeSafe documents 17 limitations, including arithmetic, dates and long irrelevant context. Independent open-weight alternatives (Kev, CLM, Laya) and runtimes such as Ollaya exist; none has verified parity with Jev.",
+  "current_answer": "Jev is TypeSafe AI's hosted model for bounded Choice, Score and Noul judgments; your code must check each answer and own the action, review and fallback. TypeSafe lists jev-1.13.0 at $0.042 per million input tokens with free output; signups reopened on 27 September 2026 but new users still get no free credit (rechecked 29 September). OpenRouter, Cloudflare, Vercel, Netlify and Opper serve it at the same or rounded list price, while lookalike reseller storefronts charged 3–16× that price. Python and TypeScript have official SDKs (typesafe-sdk 0.7.2, @typesafe-ai/sdk 0.6.0) and the Vercel AI SDK offers experimental_evaluate. Claude Code and MCP guardrails built on Jev behave very differently when Jev fails: of five read in source, only LangChain's AutoModeMiddleware fails closed, and the official TypeSafe plugin makes no Jev call. Open projects and 46 creator videos show Jev in email sorting, ticket triage, moderation, model routing, trading gates and games, but no audited project or company claim has been independently verified as a production deployment. TypeSafe documents 17 limitations, including arithmetic, dates and long irrelevant context. Independent open-weight alternatives (Kev, CLM, Laya) and runtimes such as Ollaya exist; none has verified parity with Jev.",
   "catalogue_card": {
     "question": "What can I build with Jev, what alternatives exist, and where can I use it at what cost?",
-    "text": "Question-ordered pages on Jev (TypeSafe AI): use cases, demo videos, limits, Python and error handling, confidence thresholds, access status, reseller checks, cost per decision, routes, projects and open alternatives, each with evidence labels and check dates."
+    "text": "Question-ordered pages on Jev (TypeSafe AI): use cases, demo videos, limits, Python, TypeScript, Claude Code and MCP guardrails, testing without a key, error handling, confidence thresholds, access status, reseller checks, cost per decision, routes, projects and open alternatives, each with evidence labels and check dates."
   },
   "summary": [
     "Jev answers from a fixed answer set: Choice (up to 255 options), Score (up to 10 levels), Noul (probability of yes). It does not generate text and accepts text input only.",
     "Signups reopened on 27 Sep 2026 (CEO post); free credit for new users is temporarily disabled. The earlier $5 credit rests on secondary reports with a conflicting first-hand report.",
     "List price $0.042/M input, output free on TypeSafe, OpenRouter, Cloudflare and (in its models API) Vercel; Opper and Vercel's web page round to $0.04; Netlify bills credits. Lookalike resellers displayed 3–16× the list price.",
     "Cost per decision depends on counted input tokens; third parties report a fixed overhead of roughly 250–300 tokens even for one-line requests.",
-    "The official Python package is typesafe-sdk 0.7.2 (not typesafe-ai); the SDK retries 408, 429 and 5xx with a 30 s budget. There is no 250 ms TypeSafe default timeout.",
+    "The official Python package is typesafe-sdk 0.7.2 (not typesafe-ai); the SDK retries 408, 429 and 5xx with a 30 s budget. There is no 250 ms TypeSafe default timeout; that is oh-my-claudecode's own default, still 250 ms in its v5.5.0 release.",
+    "TypeScript: @typesafe-ai/sdk 0.6.0 (Node 20+, 2 retries, 10 s per attempt) or AI SDK experimental_evaluate (ai 7.0.105+ per Vercel, first present in 7.0.103; Node 22+; no documented default timeout). The two read different key variables: TYPESAFE_API_KEY and TYPESAFE_AI_API_KEY.",
+    "Claude Code and MCP guardrails (read in source 29 Sep): LangChain AutoModeMiddleware fails closed and sends the last 30 messages; danna-zhou's hooks fail open; jev-claude and oh-my-claudecode ship in shadow mode; jkudish/jev-mcp is advisory; the official TypeSafe plugin makes no Jev call.",
+    "Integrations can be tested without a key by swapping the transport, the model or the server; none of these proves how Jev answers, and no-key mock modes left on in production are the most common way a Jev check silently disappears in audited projects.",
     "Choice confidence matches (n·p_max − 1)/(n − 1) in TypeSafe's examples; it is not the probability of being correct. The Score formula is undocumented.",
     "46 creator videos show Jev running on concrete tasks in 13 use-case groups; start times are the creators' chapter markers, not watched by the pool.",
     "Seven company and analyst production or cost claims are listed; none is independently verified."
   ],
   "uncertainty": [
-    "No pool-made Jev call, account, bill or signup; the console returned HTTP 403. Live status codes and limits are third-party reports.",
+    "No pool-made Jev call, account, bill or signup; the console still returned HTTP 403 on 29 Sep. Live status codes and limits are third-party reports.",
+    "No Claude Code or MCP integration was run against the live API; one hook was run offline against a closed port. jkudish/jev-mcp's TypeSafe-direct transport and jev-claude's rule list were not read.",
+    "The official JS SDK was not installed; the AI SDK's default timeout is undocumented and its first version with experimental_evaluate conflicts between package contents (7.0.103) and Vercel's guide (7.0.105).",
     "Whether question text, criteria and failed requests are billed is undocumented; Jev Router billing and failure behaviour are undocumented.",
     "Score confidence for 4+ levels is unknown; independent calibration tests each use one dataset.",
     "No video frames or transcripts were viewed.",
-    "Reddit, X, TikTok, Lobsters and GitHub code search could not be read in the daily scan.",
-    "Search analytics and Search Console data were unavailable; pages were chosen from qualitative signals."
+    "Reddit, X, TikTok and Lobsters could not be read in the daily scan; YouTube and GitHub code search were not attempted on 29 Sep.",
+    "Search analytics and Search Console data were still unavailable on 29 Sep; pages were chosen from qualitative signals."
   ],
-  "checked_at": "2026-09-28T19:57:00Z",
-  "meaningfully_updated_at": "2026-09-28T19:57:00Z",
-  "freshness_note": "Release 1 of 28 September 2026: access, routes, resellers, SDK, errors, limits, videos and alternatives checked 19:41–19:57 UTC. Thirteen earlier reports remain dated snapshots."
+  "checked_at": "2026-09-29T07:17:00Z",
+  "meaningfully_updated_at": "2026-09-29T07:17:00Z",
+  "freshness_note": "29 September 2026 (07:05–07:17 UTC): Claude Code and MCP guardrails, TypeScript paths and no-key testing researched; access, routes, prices and SDK versions rechecked with no change. Earlier reports remain dated snapshots."
 }

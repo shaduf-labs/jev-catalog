@@ -1,0 +1,279 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Testing Jev without a key · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Test a Jev (TypeSafe AI) integration without an API key: 12 mocks and simulators compared, 10 failure branches and a tested offline example.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/build/testing-without-a-key/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Testing Jev without a key · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Test a Jev (TypeSafe AI) integration without an API key: 12 mocks and simulators compared, 10 failure branches and a tested offline example.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/build/testing-without-a-key/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Testing Jev without a key","description":"Test a Jev (TypeSafe AI) integration without an API key: 12 mocks and simulators compared, 10 failure branches and a tested offline example.","dateModified":"2026-09-29T07:17:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/testing-without-a-key/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="build-testing">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="index.html" aria-current="page"><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Open-source Jev alternatives</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Products and projects using Jev</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv">
+  <div class="jv-kicker"><span>Build</span><span>12 test facilities · 10 failure branches · checked <time datetime="2026-09-29">29 September 2026</time>, 07:15–07:17 UTC</span></div>
+  <h1>Testing a Jev (TypeSafe AI) integration without an API key: mocks, simulators and failure branches</h1>
+  <p class="jv-lede">You can test most of a Jev integration before you have a key. You do this by replacing one layer of the call with something you control. This page lists twelve ways to do that and what each proves and cannot prove. It then gives ten failure branches to drive and a tested example of a client run against a local mock server.</p>
+
+  <div class="jv-answer">
+    <strong>Short answer</strong>
+    <p>Replace one layer at a time: the HTTP transport (the official SDKs accept a custom <code>fetch</code> or <code>transport</code>), the model (the AI SDK mock model), or the whole server (a local mock). Then drive each of the ten failure branches below before you have a key. None of these proves how Jev itself answers. A no-key "mock mode" left on in production is the most common way a Jev check silently disappears. <span class="ev ev-documented">Documented</span> and <span class="ev ev-tested">Tested (offline)</span> <small>29 Sep 2026</small></p>
+  </div>
+  <p><small>No key yet? <a href="../../where-to-use/access-status/index.html">Access status</a> shows whether you can get one today.</small></p>
+
+  <h2 id="layers">What runs for real under each approach</h2>
+  <p>Only the layers marked "real" are tested by a given approach. Everything to the right of the first scripted layer is whatever you told it to say.</p>
+  <figure class="jv-figure">
+    <p class="fig-title">Layers of one Jev call, and which ones each test approach replaces</p>
+    <div class="table-wrap stack">
+      <table class="jv-layer">
+        <thead><tr><th>Approach</th><th>Your code</th><th>Client library (retries, error classes)</th><th>HTTP over a socket</th><th>API server</th><th>Jev model</th></tr></thead>
+        <tbody>
+          <tr><td data-l="Approach">Official SDK with a custom <code>fetch</code> (JS) or <code>transport</code> (Python)</td><td data-l="Your code" class="l l-real">Real</td><td data-l="Client library" class="l l-real">Real</td><td data-l="HTTP" class="l l-mock">Your script</td><td data-l="API server" class="l l-mock">Your script</td><td data-l="Jev model" class="l l-mock">Your script</td></tr>
+          <tr><td data-l="Approach">AI SDK <code>Experimental_EvaluationMockModelV4</code></td><td data-l="Your code" class="l l-real">Real</td><td data-l="Client library" class="l l-real">AI SDK core only; provider mapping replaced</td><td data-l="HTTP" class="l l-mock">Your script</td><td data-l="API server" class="l l-mock">Your script</td><td data-l="Jev model" class="l l-mock">Your script</td></tr>
+          <tr><td data-l="Approach">Local mock server (pool tests T01, T04)</td><td data-l="Your code" class="l l-real">Real</td><td data-l="Client library" class="l l-real">Real</td><td data-l="HTTP" class="l l-real">Real</td><td data-l="API server" class="l l-mock">Your script</td><td data-l="Jev model" class="l l-mock">Your script</td></tr>
+          <tr><td data-l="Approach">System One-compatible local server (Ollaya, Kev)</td><td data-l="Your code" class="l l-real">Real</td><td data-l="Client library" class="l l-real">Real</td><td data-l="HTTP" class="l l-real">Real</td><td data-l="API server" class="l l-alt">Different server</td><td data-l="Jev model" class="l l-alt">Different model</td></tr>
+          <tr><td data-l="Approach">Real key against the live API (not done by the pool)</td><td data-l="Your code" class="l l-real">Real</td><td data-l="Client library" class="l l-real">Real</td><td data-l="HTTP" class="l l-real">Real</td><td data-l="API server" class="l l-real">Real</td><td data-l="Jev model" class="l l-real">Real</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <figcaption>Summary of the facility table below. Only the last row can show Jev's real answers, latency and error bodies. <span class="ev ev-documented">Documented</span> facility docs, 29 Sep 2026.</figcaption>
+  </figure>
+
+  <h2 id="facilities">Twelve test facilities: what each proves</h2>
+  <p>"Silent-bypass risk" asks whether, in production, a missing key or a failure could skip Jev without anyone noticing.</p>
+  <div class="table-wrap stack wide">
+    <table>
+      <thead><tr><th>Facility (owner · language)</th><th>Replaces</th><th>Can emit 429 / 529 / timeout?</th><th>Realistic probabilities?</th><th>Proves</th><th>Cannot prove</th><th>Silent-bypass risk</th><th>Source, label, date</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Facility">Official JS SDK <code>fetch</code> option<br><small>Official · TS/JS</small></td><td data-l="Replaces">HTTP transport</td><td data-l="429/529/timeout">Yes: you script responses, delays and aborts; the SDK's real retry and error mapping run</td><td data-l="Probabilities">Only if you script them</td><td data-l="Proves">Your handling of the SDK's real error classes and retries</td><td data-l="Cannot prove">Model behaviour, real latency, route-specific errors</td><td data-l="Risk"><span class="chip ok">Low</span> the no-key check still throws at construction</td><td data-l="Source"><a href="https://docs.typesafe.ai/sdk/javascript/api/interfaces/TypeSafeClientConfig">TypeSafeClientConfig</a> <span class="ev ev-documented">Documented</span> 29 Sep</td></tr>
+        <tr><td data-l="Facility">Official Python SDK <code>transport</code> / <code>http_client</code> (httpx2)<br><small>Official · Python</small></td><td data-l="Replaces">HTTP transport</td><td data-l="429/529/timeout">Yes, for example with an httpx mock transport</td><td data-l="Probabilities">Only if scripted</td><td data-l="Proves">The same for Python, including the 30 s retry budget</td><td data-l="Cannot prove">Model behaviour, real latency, route-specific errors</td><td data-l="Risk"><span class="chip ok">Low</span></td><td data-l="Source"><a href="https://docs.typesafe.ai/sdk/python/api/clients/sync">Sync client docs</a> <span class="ev ev-documented">Documented</span> 29 Sep</td></tr>
+        <tr><td data-l="Facility">AI SDK <code>Experimental_EvaluationMockModelV4</code> (<code>ai/test</code>)<br><small>Route owner (Vercel) · TS</small></td><td data-l="Replaces">Whole model (provider and HTTP)</td><td data-l="429/529/timeout">Yes, by throwing from <code>doEvaluate</code>; HTTP status mapping is <strong>not</strong> exercised</td><td data-l="Probabilities">Only if scripted</td><td data-l="Proves">Your threshold, fallback and error branches around <code>experimental_evaluate</code></td><td data-l="Cannot prove">Gateway auth, provider error mapping, retry timing on real statuses, model output</td><td data-l="Risk"><span class="chip ok">Low</span> if production passes the real model</td><td data-l="Source"><a href="https://ai-sdk.dev/docs/ai-sdk-core/evaluation">AI SDK evaluation guide</a>; <code>ai@7.0.122</code> test types <span class="ev ev-documented">Documented</span> 29 Sep</td></tr>
+        <tr><td data-l="Facility">Local mock server (pool tests T01 Python, T04 Node)<br><small>Pool · Python, Node</small></td><td data-l="Replaces">Remote API, over real HTTP</td><td data-l="429/529/timeout">Yes: 429 with <code>Retry-After</code>, 529, HTML 403, hangs</td><td data-l="Probabilities">Only if scripted</td><td data-l="Proves">Retry, timeout, status mapping and parsing over a real socket</td><td data-l="Cannot prove">Model behaviour; real limits</td><td data-l="Risk"><span class="chip ok">None</span> by itself</td><td data-l="Source">T01 (<a href="../python/index.html#retry-client">Python page</a>, 28 Sep); T04 (<a href="#t04">below</a>) <span class="ev ev-tested">Tested offline</span></td></tr>
+        <tr><td data-l="Facility">jev-claude <code>fakeJev</code> test server<br><small>Community project · Node</small></td><td data-l="Replaces">Remote API</td><td data-l="429/529/timeout">Not in the tests read</td><td data-l="Probabilities">Scripted</td><td data-l="Proves">That plugin's fail-open and "a 200 with no answers is a failure" branches, in enforce mode</td><td data-l="Cannot prove">Its shipped shadow default; the real API</td><td data-l="Risk"><span class="chip fail">High</span> plugin default is shadow: nothing is enforced</td><td data-l="Source"><a href="https://github.com/brunopivetta88/jev-claude/blob/7d7e8763f0e382fc253d091902abe8a7eb0a1ea2/test/core.test.mjs#L21-L41">test/core.test.mjs L21–41</a> <span class="ev ev-documented">Documented</span> 29 Sep</td></tr>
+        <tr><td data-l="Facility">LangChain <code>AutoModeMiddleware</code> unit tests<br><small>Framework vendor · Python</small></td><td data-l="Replaces">HTTP responses</td><td data-l="429/529/timeout">A 500 is used in a test</td><td data-l="Probabilities">Scripted</td><td data-l="Proves">A failure ends the run and the tool is not executed</td><td data-l="Cannot prove">The real API; the tests assert the criteria default bug rather than flag it</td><td data-l="Risk"><span class="chip ok">None</span> no key raises</td><td data-l="Source"><a href="https://pypi.org/project/langchain-typesafe/0.0.1a3/">sdist</a> tests L317–341 <span class="ev ev-documented">Documented</span> 29 Sep</td></tr>
+        <tr><td data-l="Facility">QuantDinger monkeypatched <code>requests.post</code> tests<br><small>Project · Python</small></td><td data-l="Replaces">HTTP call</td><td data-l="429/529/timeout">Errors and malformed responses</td><td data-l="Probabilities">Scripted</td><td data-l="Proves">LLM fallback and allow-on-failure branches</td><td data-l="Cannot prove">Live orders, real Jev</td><td data-l="Risk"><span class="chip fail">High</span> no key → LLM if configured, else allow</td><td data-l="Source">28 Sep audit (carried) <span class="ev ev-documented">Documented</span> 28 Sep</td></tr>
+        <tr><td data-l="Facility">Jevmail <code>/preview</code><br><small>Project · TS</small></td><td data-l="Replaces">Whole app path (in-memory simulator)</td><td data-l="429/529/timeout">No</td><td data-l="Probabilities">No (simulated)</td><td data-l="Proves">UI interaction without credentials</td><td data-l="Cannot prove">Gateway entitlement, any Jev answer, accuracy, cost</td><td data-l="Risk"><span class="chip warn">Medium</span> the simulator is separate; <code>classifyMessage</code> has no no-key branch</td><td data-l="Source">28 Sep audit (carried); README <span class="ev ev-reported">Reported</span></td></tr>
+        <tr><td data-l="Facility">TypeSafeAI <code>mockCallJev</code><br><small>Unofficial community organisation (not TypeSafe) · TS</small></td><td data-l="Replaces">Whole client</td><td data-l="429/529/timeout">Not established</td><td data-l="Probabilities">Mocked</td><td data-l="Proves">The demo flow runs without a key</td><td data-l="Cannot prove">Anything about the API</td><td data-l="Risk"><span class="chip warn">Demo-only path</span></td><td data-l="Source">25 Sep report (carried) <span class="ev ev-documented">Documented</span> 25 Sep</td></tr>
+        <tr><td data-l="Facility">Jev Workbench seeded demo<br><small>Project</small></td><td data-l="Replaces">Whole app path</td><td data-l="429/529/timeout">Not established</td><td data-l="Probabilities">Seeded</td><td data-l="Proves">Local UI and function registry</td><td data-l="Cannot prove">Real calls; the project states it has no retry protection</td><td data-l="Risk"><span class="chip warn">Explicitly simulated</span></td><td data-l="Source">25 Sep report (carried) <span class="ev ev-reported">Reported</span></td></tr>
+        <tr><td data-l="Facility">jev-trader and Jev Trade <code>MODEL=mock</code><br><small>Projects</small></td><td data-l="Replaces">Whole decision model (a heuristic)</td><td data-l="429/529/timeout">No</td><td data-l="Probabilities">No</td><td data-l="Proves">Pipeline wiring</td><td data-l="Cannot prove">Any Jev behaviour; the default is the mock, not Jev</td><td data-l="Risk"><span class="chip fail">High</span> the default is a mock momentum heuristic</td><td data-l="Source">25–26 Sep reports (carried) <span class="ev ev-reported">Reported</span></td></tr>
+        <tr><td data-l="Facility">System One-compatible local servers (Ollaya <code>/v1/systemone</code>, Kev, kev-onnx)<br><small>Alternative projects</small></td><td data-l="Replaces">Model and server (same request shape)</td><td data-l="429/529/timeout">Not documented as fault injection</td><td data-l="Probabilities">Real, <strong>from a different model</strong></td><td data-l="Proves">Request shape and parsing against a live local server</td><td data-l="Cannot prove">Jev's answers, calibration, limits, error codes</td><td data-l="Risk"><span class="chip warn">Medium</span> configs that default to a local server can reach production pointed at the wrong model</td><td data-l="Source">Authors' docs (<a href="../../alternatives/index.html">alternatives</a>, 28 Sep) <span class="ev ev-reported">Reported</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="silent-bypass">How a Jev check silently disappears</h2>
+  <p>In the projects the pool has audited, the most common way to lose a Jev check in production is a no-key or test mode that is still switched on. Examples:</p>
+  <ul>
+    <li><strong>QuantDinger</strong> (trade entry gate): with no key, entry goes to an LLM if one is configured, otherwise it is allowed. <span class="ev ev-documented">Documented</span> <small>28 Sep audit</small></li>
+    <li><strong>jev-trader and Jev Trade</strong>: <code>MODEL=mock</code> is the default, so a fresh deployment trades on a heuristic, not on Jev. <span class="ev ev-reported">Reported</span> <small>25–26 Sep</small></li>
+    <li><strong>danna-zhou/jev-mcp hooks</strong>: any failure, including an unreachable endpoint, lets the command proceed. <span class="ev ev-tested">Tested offline</span> <small>29 Sep, see <a href="../claude-code-mcp/index.html#offline-run">Claude Code and MCP</a></small></li>
+    <li><strong>jev-claude</strong>: installs in <code>shadow</code> mode, so every decision becomes "allow" with a note. <span class="ev ev-documented">Documented</span> <small>29 Sep</small></li>
+  </ul>
+  <p>To guard against this, make the no-key path fail loudly at start-up, and log every time a decision is skipped. The first row of the checklist below tests for this.</p>
+
+  <h2 id="checklist">Ten failure branches to drive before you have a key</h2>
+  <p>One row per branch. The status codes are explained on <a href="../errors-and-rate-limits/index.html#matrix">Errors and rate limits</a>; this table covers only how to simulate each branch and what your code must do. Tick a row when your tests cover it. The ticks are not saved.</p>
+  <div class="jv-tick">
+    <div class="table-wrap stack">
+      <table>
+        <thead><tr><th>Branch</th><th>How to simulate it without a key</th><th>What your code must do</th></tr></thead>
+        <tbody>
+          <tr><td data-l="Branch"><input type="checkbox" id="np-1"><label for="np-1">No key</label></td><td data-l="Simulate">Unset the key variable and construct the client</td><td data-l="Must do">Fail loudly at start-up, or take an explicit, logged fallback. Never skip the decision silently.</td></tr>
+          <tr><td data-l="Branch"><input type="checkbox" id="np-2"><label for="np-2">401 invalid key</label></td><td data-l="Simulate">Mock returns 401 with a JSON body</td><td data-l="Must do">Stop retrying, alert, and treat it as a configuration failure.</td></tr>
+          <tr><td data-l="Branch"><input type="checkbox" id="np-3"><label for="np-3">403 HTML (edge block)</label></td><td data-l="Simulate">Mock returns 403 with <code>Content-Type: text/html</code></td><td data-l="Must do">Check the content type before rotating keys, then route to your fallback.</td></tr>
+          <tr><td data-l="Branch"><input type="checkbox" id="np-4"><label for="np-4">422 schema error</label></td><td data-l="Simulate">Send <code>state: null</code> to a mock that returns 422, or assert that your own validator rejects it first</td><td data-l="Must do">Do not retry; log the request shape.</td></tr>
+          <tr><td data-l="Branch"><input type="checkbox" id="np-5"><label for="np-5">429 with <code>Retry-After</code></label></td><td data-l="Simulate">Mock returns 429 with <code>Retry-After: 1</code>, then 200</td><td data-l="Must do">Wait as told (bounded), retry, and succeed on the next attempt.</td></tr>
+          <tr><td data-l="Branch"><input type="checkbox" id="np-6"><label for="np-6">529 overloaded</label></td><td data-l="Simulate">Mock returns 529 three times</td><td data-l="Must do">Retry within your budget, then take your chosen failure policy.</td></tr>
+          <tr><td data-l="Branch"><input type="checkbox" id="np-7"><label for="np-7">Timeout</label></td><td data-l="Simulate">Mock never responds</td><td data-l="Must do">Abort at your deadline, which must be shorter than your caller's, then take the failure policy.</td></tr>
+          <tr><td data-l="Branch"><input type="checkbox" id="np-8"><label for="np-8">Malformed JSON</label></td><td data-l="Simulate">Mock returns 200 with a truncated body</td><td data-l="Must do">Treat it as a failure, not as "no risk found".</td></tr>
+          <tr><td data-l="Branch"><input type="checkbox" id="np-9"><label for="np-9"><code>choice</code> not among the options</label></td><td data-l="Simulate">Mock returns 200 with an unknown <code>choice</code></td><td data-l="Must do">Reject the answer. Do not map it to a default category (Jevmail maps unknown answers to "promotional").</td></tr>
+          <tr><td data-l="Branch"><input type="checkbox" id="np-10"><label for="np-10">Low confidence</label></td><td data-l="Simulate">Mock returns a valid answer below your threshold</td><td data-l="Must do">Take your low-confidence route: a person, another model, or abstain. See <a href="../confidence-thresholds/index.html">Confidence thresholds</a> for choosing the cutoff.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="tally" aria-hidden="true"></p>
+  </div>
+  <p><span class="ev ev-documented">Documented</span> <small>method assembled from the SDK sources, audited projects and the pool's offline tests, 29 Sep 2026</small></p>
+
+  <h2 id="t04">Worked example: a Node client against a local mock server (T04)</h2>
+  <p class="jv-code-head"><span class="ev ev-tested">Tested (offline, local mock server, no Jev call)</span> <span>Node v24.20.0, 29 Sep 2026, about 07:16 UTC.</span></p>
+  <p>The client is pool-authored. It mirrors the defaults of <code>@typesafe-ai/sdk</code> 0.6.0: 2 retries, retrying 408, 429, 5xx and timeouts, honouring <code>Retry-After</code>, and backoff starting at 0.5 s and doubling. <strong>It is not the SDK itself; the SDK was not installed.</strong> The per-attempt timeout was cut to 800 ms so the hang case finishes quickly. It uses only <code>node:http</code> and the built-in <code>fetch</code>, and it ran in a temporary directory that was then deleted. The Python counterpart (T01, 28 Sep) is the retry client on the <a href="../python/index.html#retry-client">Python page</a>.</p>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Mock server script</th><th>Attempts</th><th>Time</th><th>Result</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Script">429 with <code>Retry-After: 1</code>, then 200</td><td data-l="Attempts"><span class="jv-dots" aria-hidden="true">●●</span> 2</td><td data-l="Time">1,053 ms</td><td data-l="Result"><span class="chip ok">success</span> <code>billing</code>, confidence 0.85, on attempt 2</td></tr>
+        <tr><td data-l="Script">529 three times</td><td data-l="Attempts"><span class="jv-dots" aria-hidden="true">●●●</span> 3</td><td data-l="Time">1,519 ms</td><td data-l="Result"><span class="chip fail">gave up</span> HTTP 529 after 3 attempts</td></tr>
+        <tr><td data-l="Script">403 with an HTML body (Cloudflare-style)</td><td data-l="Attempts"><span class="jv-dots" aria-hidden="true">●</span> 1</td><td data-l="Time">5 ms</td><td data-l="Result"><span class="chip fail">failed at once</span> 403, flagged as HTML</td></tr>
+        <tr><td data-l="Script">401</td><td data-l="Attempts"><span class="jv-dots" aria-hidden="true">●</span> 1</td><td data-l="Time">4 ms</td><td data-l="Result"><span class="chip fail">failed at once</span> no retry</td></tr>
+        <tr><td data-l="Script">422</td><td data-l="Attempts"><span class="jv-dots" aria-hidden="true">●</span> 1</td><td data-l="Time">3 ms</td><td data-l="Result"><span class="chip fail">failed at once</span> no retry</td></tr>
+        <tr><td data-l="Script">200 with malformed JSON</td><td data-l="Attempts"><span class="jv-dots" aria-hidden="true">●</span> 1</td><td data-l="Time">4 ms</td><td data-l="Result"><span class="chip fail">failed at once</span> malformed-json</td></tr>
+        <tr><td data-l="Script">200 with <code>choice: "legal"</code> (not an option)</td><td data-l="Attempts"><span class="jv-dots" aria-hidden="true">●</span> 1</td><td data-l="Time">5 ms</td><td data-l="Result"><span class="chip fail">rejected</span> invalid-answer</td></tr>
+        <tr><td data-l="Script">No response, three times</td><td data-l="Attempts"><span class="jv-dots" aria-hidden="true">●●●</span> 3</td><td data-l="Time">3,908 ms</td><td data-l="Result"><span class="chip fail">timed out</span> 3 × 800 ms plus 0.5 s and 1 s backoff</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><strong>Reading.</strong> The client honoured <code>Retry-After</code>, gave up on repeated 529s, and did not retry 401, 403, 422, malformed JSON or an out-of-set answer. With the SDK's 10 s default timeout, the hang case would take about 31.5 s (derived arithmetic). <strong>What T04 does not prove:</strong> TypeSafe's real headers and bodies, whether 529 occurs in practice, or the SDK's own internal behaviour.</p>
+  <details>
+    <summary>T04 script and raw output</summary>
+    <div>
+      <pre><code>// T04 (pool-authored, offline): raw-fetch Jev client vs a local mock server. No Jev call.
+import http from 'node:http';
+const script = []; let hits = 0;
+const server = http.createServer((req, res) =&gt; {
+  hits++; const step = script.shift() ?? { status: 500, body: '{}' };
+  if (step.hang) return;
+  res.writeHead(step.status, { 'content-type': step.ctype ?? 'application/json', ...(step.headers ?? {}) });
+  res.end(step.body);
+});
+await new Promise(r =&gt; server.listen(0, '127.0.0.1', r));
+const url = `http://127.0.0.1:${server.address().port}/v1/systemone`;
+const OPTIONS = ['billing', 'technical', 'other'];
+const RETRY = new Set([408, 429, ...Array.from({ length: 100 }, (_, i) =&gt; 500 + i)]);
+async function ask({ timeoutMs = 800, maxRetries = 2 } = {}) {
+  for (let attempt = 0; ; attempt++) {
+    const ctl = new AbortController(); const t = setTimeout(() =&gt; ctl.abort(), timeoutMs);
+    let res;
+    try {
+      res = await fetch(url, { method: 'POST', signal: ctl.signal, headers: { 'content-type': 'application/json', authorization: 'Bearer test-not-a-key' },
+        body: JSON.stringify({ model: 'jev-1.13.0', state: 'I was charged twice', questions: { category: { type: 'choice', instructions: 'Team?', criteria: { billing: null, technical: null, other: null } } } }) });
+      var text = await res.text();
+    } catch (e) {
+      clearTimeout(t);
+      const kind = ctl.signal.aborted ? 'timeout' : 'connection';
+      if (attempt &gt;= maxRetries) return { ok: false, kind, attempts: attempt + 1 };
+      await new Promise(r =&gt; setTimeout(r, 500 * 2 ** attempt)); continue;
+    }
+    clearTimeout(t);
+    if (!res.ok) {
+      const html = !(res.headers.get('content-type') ?? '').includes('json');
+      if (attempt &lt; maxRetries &amp;&amp; RETRY.has(res.status)) {
+        const ra = Number(res.headers.get('retry-after'));
+        await new Promise(r =&gt; setTimeout(r, Number.isFinite(ra) &amp;&amp; ra &gt;= 0 &amp;&amp; res.headers.has('retry-after') ? ra * 1000 : 500 * 2 ** attempt)); continue;
+      }
+      return { ok: false, kind: 'http', status: res.status, html, attempts: attempt + 1 };
+    }
+    let body; try { body = JSON.parse(text); } catch { return { ok: false, kind: 'malformed-json', attempts: attempt + 1 }; }
+    const a = body?.answers?.category;
+    if (!a || !OPTIONS.includes(a.choice) || typeof a.confidence !== 'number') return { ok: false, kind: 'invalid-answer', got: a ?? null, attempts: attempt + 1 };
+    return { ok: true, choice: a.choice, confidence: a.confidence, attempts: attempt + 1 };
+  }
+}
+const good = JSON.stringify({ model: 'jev-1.13.0', answers: { category: { type: 'choice', choice: 'billing', probabilities: { billing: 0.9, technical: 0.06, other: 0.04 }, confidence: 0.85 } }, usage: { input_tokens: 300, output_tokens: 20 } });
+const cases = [
+  ['429 Retry-After:1 then 200', [{ status: 429, headers: { 'retry-after': '1' }, body: '{"error":"rate"}' }, { status: 200, body: good }]],
+  ['529 x3', [{ status: 529, body: '{}' }, { status: 529, body: '{}' }, { status: 529, body: '{}' }]],
+  ['HTML 403 (Cloudflare-style)', [{ status: 403, ctype: 'text/html', body: '&lt;html&gt;blocked&lt;/html&gt;' }]],
+  ['401', [{ status: 401, body: '{"error":"bad key"}' }]],
+  ['422', [{ status: 422, body: '{"error":"state null"}' }]],
+  ['200 malformed JSON', [{ status: 200, body: '{"answers": ' }]],
+  ['200 choice not among options', [{ status: 200, body: good.replace('"choice":"billing"', '"choice":"legal"') }]],
+  ['hang past client timeout x3', [{ hang: true }, { hang: true }, { hang: true }]],
+];
+for (const [name, steps] of cases) {
+  script.length = 0; script.push(...steps); hits = 0;
+  const t0 = Date.now(); const r = await ask();
+  console.log(JSON.stringify({ case: name, result: r, server_hits: hits, ms: Date.now() - t0 }));
+}
+server.closeAllConnections?.(); server.close();</code></pre>
+      <pre><code>{"case":"429 Retry-After:1 then 200","result":{"ok":true,"choice":"billing","confidence":0.85,"attempts":2},"server_hits":2,"ms":1053}
+{"case":"529 x3","result":{"ok":false,"kind":"http","status":529,"html":false,"attempts":3},"server_hits":3,"ms":1519}
+{"case":"HTML 403 (Cloudflare-style)","result":{"ok":false,"kind":"http","status":403,"html":true,"attempts":1},"server_hits":1,"ms":5}
+{"case":"401","result":{"ok":false,"kind":"http","status":401,"html":false,"attempts":1},"server_hits":1,"ms":4}
+{"case":"422","result":{"ok":false,"kind":"http","status":422,"html":false,"attempts":1},"server_hits":1,"ms":3}
+{"case":"200 malformed JSON","result":{"ok":false,"kind":"malformed-json","attempts":1},"server_hits":1,"ms":4}
+{"case":"200 choice not among options","result":{"ok":false,"kind":"invalid-answer","got":{"type":"choice","choice":"legal","probabilities":{"billing":0.9,"technical":0.06,"other":0.04},"confidence":0.85},"attempts":1},"server_hits":1,"ms":5}
+{"case":"hang past client timeout x3","result":{"ok":false,"kind":"timeout","attempts":3},"server_hits":3,"ms":3908}</code></pre>
+    </div>
+  </details>
+
+  <div class="jv-box warn">
+    <h2>What was not verified</h2>
+    <ul>
+      <li>No test on this page used the real Jev API; the pool has no key. Real headers, error bodies, latency and model answers are not covered.</li>
+      <li>The official JS SDK was not installed; T04 mirrors its defaults in pool code. The Python SDK install (planned test T03) has still not been done.</li>
+      <li>Rows marked "carried" (Jevmail, QuantDinger, <code>mockCallJev</code>, Jev Workbench, jev-trader, Jev Trade, Ollaya and Kev) keep their 25–28 Sep check dates and were not rechecked.</li>
+      <li>The project test suites listed above were read, not run.</li>
+    </ul>
+  </div>
+
+  <section class="jv-related" aria-labelledby="tk-related">
+    <h2 id="tk-related">Related pages</h2>
+    <ul>
+      <li><a href="../index.html">Build hub: choose an integration path</a></li>
+      <li><a href="../errors-and-rate-limits/index.html">What each status code means</a></li>
+      <li><a href="../confidence-thresholds/index.html">Confidence thresholds (low-confidence branch)</a></li>
+      <li><a href="../python/index.html">Call Jev from Python</a></li>
+      <li><a href="../typescript/index.html">Call Jev from TypeScript</a></li>
+      <li><a href="../claude-code-mcp/index.html">Claude Code and MCP guardrails</a></li>
+      <li><a href="../../where-to-use/access-status/index.html">No key yet? Access status</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>29 Sept 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>

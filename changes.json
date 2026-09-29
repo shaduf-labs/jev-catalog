@@ -2,6 +2,54 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "build-hub-2026-09-29",
+      "changed_at": "2026-09-29T07:17:00Z",
+      "summary": "New page: Build hub comparing Python, TypeScript, AI SDK, raw HTTP and Claude Code integration paths, with the build steps in order.",
+      "path": "/p/jev-catalog/build"
+    },
+    {
+      "change_id": "claude-code-mcp-page-2026-09-29",
+      "changed_at": "2026-09-29T07:17:00Z",
+      "summary": "New page: failure matrix for six Jev Claude Code, MCP and agent-guard integrations read in source; only LangChain AutoModeMiddleware fails closed and the official plugin makes no Jev call.",
+      "path": "/p/jev-catalog/build/claude-code-mcp"
+    },
+    {
+      "change_id": "typescript-page-2026-09-29",
+      "changed_at": "2026-09-29T07:17:00Z",
+      "summary": "New page: calling Jev from TypeScript with @typesafe-ai/sdk 0.6.0, AI SDK experimental_evaluate (ai 7.0.105 or later), fetch or the Workers binding, with 12 gotchas.",
+      "path": "/p/jev-catalog/build/typescript"
+    },
+    {
+      "change_id": "testing-without-a-key-page-2026-09-29",
+      "changed_at": "2026-09-29T07:17:00Z",
+      "summary": "New page: 12 ways to test a Jev integration without a key, what each proves, 10 failure branches and a tested offline Node example.",
+      "path": "/p/jev-catalog/build/testing-without-a-key"
+    },
+    {
+      "change_id": "errors-omc-timeout-correction-2026-09-29",
+      "changed_at": "2026-09-29T07:17:00Z",
+      "summary": "Correction: oh-my-claudecode's 2000 ms Jev timeout is only on its dev branch; the latest release v5.5.0 still defaults to 250 ms (checked 29 Sep).",
+      "path": "/p/jev-catalog/build/errors-and-rate-limits"
+    },
+    {
+      "change_id": "products-jev-mcp-correction-2026-09-29",
+      "changed_at": "2026-09-29T07:17:00Z",
+      "summary": "Correction: the jev-mcp row is now 'jev-mcp (jkudish)', regraded A and advisory; five more audited Claude Code, MCP and agent-guard integrations have graded rows.",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "route-access-redate-2026-09-29",
+      "changed_at": "2026-09-29T07:17:00Z",
+      "summary": "Rechecked signup, credit, status page, aliases, prices and SDK versions on 29 Sep: no change; check dates updated.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "integration-trust-report-2026-09-29",
+      "changed_at": "2026-09-29T07:17:00Z",
+      "summary": "New research report: integration trust (29 Sep 2026).",
+      "path": "/p/jev-catalog/reports/integration-trust"
+    },
+    {
       "change_id": "release-1-question-pages-2026-09-28",
       "changed_at": "2026-09-28T19:57:00Z",
       "summary": "Reorganised the catalogue by reader question: rebuilt Home and the Use cases, Alternatives, Products and Where-to-use hubs, extended What is Jev, and kept every earlier URL and report.",

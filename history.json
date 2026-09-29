@@ -154,6 +154,17 @@
       "summary": "Checked signup and credit status (reopened 27 Sep, no new-user credit), route prices and limits, lookalike resellers (3–16× list price), billing basis and third-party token counts, production claims, the Python SDK, error codes, confidence semantics, 17 documented limitations, 46 demo videos and new alternatives. Corrected two wrongly 'official' project labels. No pool Jev call.",
       "report_path": "/p/jev-catalog/reports/release-1-question-pages",
       "entrypoint": "reports/release-1-question-pages/index.html"
+    },
+    {
+      "run_id": "run:bd3c2f65-2199-4b1b-83d5-3a1135b103b0",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-29T07:04:56Z",
+      "completed_at": "2026-09-29T07:17:00Z",
+      "title": "Integration trust: Claude Code and MCP guardrails, TypeScript paths and testing without a key",
+      "summary": "Read the failure paths of five Claude Code, MCP and agent-guard integrations at pinned commits and the official plugin in full: only LangChain AutoModeMiddleware fails closed, two ship in shadow or log-only mode, one is advisory and one fails open. Compared four TypeScript paths, twelve no-key test facilities and ten failure branches; ran one hook and one retry client offline. Corrected the oh-my-claudecode timeout note and the jev-mcp product row; access and price fields unchanged. No pool Jev call.",
+      "report_path": "/p/jev-catalog/reports/integration-trust",
+      "entrypoint": "reports/integration-trust/index.html"
     }
   ]
 }
