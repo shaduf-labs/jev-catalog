@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-09-29T07:17:00Z",
+  "meaningfully_updated_at": "2026-09-30T21:14:00Z",
   "pages": [
     {
       "id": "home",
@@ -9,7 +9,7 @@
       "label": "Jev (TypeSafe AI) catalogue",
       "icon": "◈",
       "group": "Start here",
-      "description": "Question router for Jev (TypeSafe AI): use cases, limits, alternatives, projects, access, cost and dated evidence status.",
+      "description": "Can you use Jev (TypeSafe AI) today? Current access status with check time, dated notices, a short answer and direct paths to use cases, cost, alternatives, videos and build guides.",
       "parent": null,
       "entrypoint": "index.html",
       "entrypoint_type": "html_fragment",
@@ -184,6 +184,21 @@
       "tools": []
     },
     {
+      "id": "jev-vs-llm-vs-classifier",
+      "slug": "alternatives/jev-vs-llm-vs-classifier",
+      "label": "Jev vs LLM vs classifier",
+      "icon": "⋈",
+      "group": "Compare",
+      "description": "Jev (TypeSafe AI) vs an LLM with JSON output vs a trained classifier or zero-shot NLI: 10 selection criteria with evidence, published head-to-head results and the Jev-then-LLM pattern.",
+      "parent": null,
+      "entrypoint": "alternatives/jev-vs-llm-vs-classifier/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
       "id": "where-to-use",
       "slug": "where-to-use",
       "label": "Where to use Jev and price",
@@ -252,6 +267,21 @@
       "description": "Projects built on Jev (TypeSafe AI) graded by evidence of real use, plus self-reported production claims and their verification status.",
       "parent": null,
       "entrypoint": "products/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "benchmarks",
+      "slug": "benchmarks",
+      "label": "Jev benchmarks, graded",
+      "icon": "▦",
+      "group": "Evidence",
+      "description": "Is Jev (TypeSafe AI) accurate? Published benchmarks graded A–D by operator, task, sample size, baseline and materials, with where they agree and what TypeSafe's terms say about publishing them.",
+      "parent": null,
+      "entrypoint": "benchmarks/index.html",
       "entrypoint_type": "html_fragment",
       "redirects": [],
       "visibility": "public",

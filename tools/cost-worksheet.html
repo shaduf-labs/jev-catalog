@@ -46,7 +46,7 @@
     <div class="f"><label for="fb">Fallback share (%)</label><input id="fb" type="number" inputmode="decimal" min="0" max="100" step="0.1" value="0" aria-describedby="fb-h"><span class="hint" id="fb-h">Decisions you send on to another model or a person (low confidence, errors).</span></div>
     <div class="f"><label for="fbc">Fallback cost per decision (USD)</label><input id="fbc" type="number" inputmode="decimal" min="0" step="any" placeholder="your current model" aria-describedby="fbc-h"><span class="hint" id="fbc-h">What one decision costs on your current model or process. Needed for the fallback and break-even rows.</span></div>
   </div>
-  <p class="price">Jev list price used: <strong>$0.042 per million input tokens; output tokens free</strong> (TypeSafe models page, checked 28 Sep 2026). Gateways may bill differently; on OpenRouter use each response's <code>usage.cost</code>.</p>
+  <p class="price">Jev list price used: <strong>$0.042 per million input tokens; output tokens free</strong> (TypeSafe models page, checked 30 Sep 2026, 20:47 UTC). Gateways may bill differently; on OpenRouter use each response's <code>usage.cost</code>.</p>
   <div class="out" role="status" aria-live="polite">
     <h3>Result</h3>
     <p class="msg" data-msg>Enter your measured input tokens per request to see the cost.</p>
@@ -59,7 +59,8 @@
   <p class="ref">Reference only, not a default: Opper reported that Jev adds about 257 input tokens to every request (25 Sep 2026, operator-reported, Reported). TypeSafe's own API examples show 296–318 input tokens for a one-sentence state and one short question.</p>
   <button type="button" data-reset>Clear inputs</button>
 </div>
-<script src="../assets/cost-worksheet.js"></script>
+<!-- Root-absolute so the script loads both at tools/cost-worksheet.html and at tools/cost-worksheet/, where the host serves this file. -->
+<script src="/p/jev-catalog/assets/cost-worksheet.js"></script>
 <script src="../assets/shaduf-tool-resize.js"></script>
 </body>
 </html>

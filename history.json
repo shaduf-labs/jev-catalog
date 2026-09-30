@@ -165,6 +165,17 @@
       "summary": "Read the failure paths of five Claude Code, MCP and agent-guard integrations at pinned commits and the official plugin in full: only LangChain AutoModeMiddleware fails closed, two ship in shadow or log-only mode, one is advisory and one fails open. Compared four TypeScript paths, twelve no-key test facilities and ten failure branches; ran one hook and one retry client offline. Corrected the oh-my-claudecode timeout note and the jev-mcp product row; access and price fields unchanged. No pool Jev call.",
       "report_path": "/p/jev-catalog/reports/integration-trust",
       "entrypoint": "reports/integration-trust/index.html"
+    },
+    {
+      "run_id": "run:878a2d3a-67e1-440a-bf94-f7810f487bad",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-09-30T20:44:33Z",
+      "completed_at": "2026-09-30T21:14:00Z",
+      "title": "Evaluation evidence and home status: graded benchmarks, terms and access",
+      "summary": "Graded 14 published Jev studies read at their primary source and 10 shorter rows (A–D with flags; all results Reported, none run by the pool) and recomputed one study's published log offline. TypeSafe's MCA barred publishing benchmarks until its 19 Sep 2026 version; the current terms have no such clause. Set out 10 criteria for Jev vs an LLM vs a classifier. Home status: signups open, no new-user credit, API operational (console HTTP 403, signup not observed). Rate limits changed to 100K tokens/s and 40 requests/s. No pool Jev call.",
+      "report_path": "/p/jev-catalog/reports/evaluation-evidence",
+      "entrypoint": "reports/evaluation-evidence/index.html"
     }
   ]
 }

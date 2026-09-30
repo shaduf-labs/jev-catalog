@@ -2,6 +2,66 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "tools-fixed-2026-09-30",
+      "changed_at": "2026-09-30T21:14:00Z",
+      "summary": "Fixed the fit check and the cost worksheet: both now load their scripts at the address where the site serves them (tools/<name>/ as well as tools/<name>.html); every button and field was tested in a browser.",
+      "path": "/p/jev-catalog/limitations"
+    },
+    {
+      "change_id": "home-status-2026-09-30",
+      "changed_at": "2026-09-30T21:14:00Z",
+      "summary": "Home reworked: current access status (signups open, no new-user credit, API operational; checked 30 Sep 2026, 20:47 UTC), four dated notices, a short answer and direct task paths. The dated 'What changed' list moved to Research.",
+      "path": "/p/jev-catalog"
+    },
+    {
+      "change_id": "benchmarks-page-2026-09-30",
+      "changed_at": "2026-09-30T21:14:00Z",
+      "summary": "New page: graded ledger of published Jev benchmarks (A–D with flags; all results Reported), where studies agree and conflict, what is not measured, and TypeSafe's terms on publishing benchmarks.",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "jev-vs-llm-vs-classifier-2026-09-30",
+      "changed_at": "2026-09-30T21:14:00Z",
+      "summary": "New page: Jev vs an LLM with JSON output vs a trained classifier, with 10 criteria, published head-to-head results and the Jev-then-LLM pattern; the classifier comparison rests only on grade D rows.",
+      "path": "/p/jev-catalog/alternatives/jev-vs-llm-vs-classifier"
+    },
+    {
+      "change_id": "rate-limits-2026-09-30",
+      "changed_at": "2026-09-30T21:14:00Z",
+      "summary": "Correction: TypeSafe's rate limits are now 100K tokens per second and 40 requests per second (checked 30 Sep 2026, 20:47 UTC), replacing 250,000 tokens/s and 1,200 requests/min.",
+      "path": "/p/jev-catalog/build/errors-and-rate-limits"
+    },
+    {
+      "change_id": "access-status-2026-09-30",
+      "changed_at": "2026-09-30T21:14:00Z",
+      "summary": "Access status rechecked 30 Sep 2026, 20:47 UTC: unchanged; the 29 Sep maintenance and console events were added to the timeline; API uptime 99.828%.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "typescript-drift-2026-09-30",
+      "changed_at": "2026-09-30T21:14:00Z",
+      "summary": "TypeScript page: version-drift note for ai 7.0.124 and @ai-sdk/typesafe-ai 3.0.12 (released 30 Sep, not re-audited).",
+      "path": "/p/jev-catalog/build/typescript"
+    },
+    {
+      "change_id": "official-surfaces-2026-09-30",
+      "changed_at": "2026-09-30T21:14:00Z",
+      "summary": "Official vs reseller: added the typesafe-ai n8n node repository and WorkflowEvals as official surfaces; the npm package publisher was not checked.",
+      "path": "/p/jev-catalog/where-to-use/official-vs-reseller"
+    },
+    {
+      "change_id": "confidence-molas-2026-09-30",
+      "changed_at": "2026-09-30T21:14:00Z",
+      "summary": "Confidence thresholds: corrected the Alex Molas row (it includes one small example) and linked the calibration rows of the benchmarks ledger.",
+      "path": "/p/jev-catalog/build/confidence-thresholds"
+    },
+    {
+      "change_id": "report-2026-09-30",
+      "changed_at": "2026-09-30T21:14:00Z",
+      "summary": "New research report: evaluation evidence and home status, 30 Sep 2026.",
+      "path": "/p/jev-catalog/reports/evaluation-evidence"
+    },
+    {
       "change_id": "build-hub-2026-09-29",
       "changed_at": "2026-09-29T07:17:00Z",
       "summary": "New page: Build hub comparing Python, TypeScript, AI SDK, raw HTTP and Claude Code integration paths, with the build steps in order.",

@@ -3880,6 +3880,466 @@
       "accessed_at": "2026-09-29T07:17:00Z",
       "relation": "limits",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "r3-status-page",
+      "source_type": "official status page",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "TypeSafe status page",
+      "claim": "'All services are online' at 20:47 UTC on 30 Sep 2026; 'Console is unavailable.' resolved 29 Sep 22:05 UTC; routine maintenance ended 29 Sep 15:32 UTC; API uptime 99.828%.",
+      "accessed_at": "2026-09-30T20:47:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-models-page",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "TypeSafe models page",
+      "claim": "jev-1.13.0 at $0.042 per million input tokens, output free; rate limits 100K tokens per second / 40 requests per second, can change without notice (was 250,000 tokens/s and 1,200 RPM on 29 Sep).",
+      "accessed_at": "2026-09-30T20:47:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-quickstart",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "TypeSafe quickstart",
+      "claim": "Tells readers to log in to the Playground and get an API key from the dashboard; no waitlist, pause or credit text.",
+      "accessed_at": "2026-09-30T20:47:12Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-console-403",
+      "source_type": "official console",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "TypeSafe console",
+      "claim": "Console root, /signup and /login returned HTTP 403 to the pool's client; signup was not observed directly.",
+      "accessed_at": "2026-09-30T20:47:12Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-ceo-post",
+      "source_type": "executive post",
+      "source_url": "https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Diogo Almeida (TypeSafe CEO) on X, 27 Sep 2026",
+      "claim": "'ANYONE CAN SIGN UP'; free credits temporarily disabled for new users. Re-read through X oEmbed on 30 Sep 2026, 20:47 UTC.",
+      "accessed_at": "2026-09-30T20:47:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-openrouter-guide",
+      "source_type": "gateway documentation",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "OpenRouter Jev guide",
+      "claim": "'There's no waitlist or separate TypeSafe account.'",
+      "accessed_at": "2026-09-30T21:00:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-openrouter-router-endpoints",
+      "source_type": "gateway API",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-router/endpoints",
+      "title": "OpenRouter Jev Router endpoints",
+      "claim": "The /endpoints call returned an empty list on 30 Sep; meaning not stated; not queried before, so whether new is unknown.",
+      "accessed_at": "2026-09-30T20:47:12Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-eye-security",
+      "source_type": "security research",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Eye Security, Rise of the Jev-Clones",
+      "claim": "Report still online on 30 Sep: lookalike resellers charge up to 11.5x the official price; three named sites answered HTTP 200 at 20:53 UTC.",
+      "accessed_at": "2026-09-30T20:53:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-npm-ai",
+      "source_type": "package registry",
+      "source_url": "https://registry.npmjs.org/ai",
+      "title": "npm: ai",
+      "claim": "ai 7.0.124 released 30 Sep 2026, 17:50 UTC (7.0.123 at 02:21 UTC); newer than the audited 7.0.122.",
+      "accessed_at": "2026-09-30T20:47:12Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-npm-ai-sdk-typesafe",
+      "source_type": "package registry",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "title": "npm: @ai-sdk/typesafe-ai",
+      "claim": "3.0.12 released 30 Sep 2026, 17:49 UTC (3.0.11 at 02:20 UTC); newer than the audited 3.0.10.",
+      "accessed_at": "2026-09-30T20:47:12Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-pypi-sdk",
+      "source_type": "package registry",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json",
+      "title": "PyPI: typesafe-sdk",
+      "claim": "Latest release still 0.7.2 on 30 Sep 2026.",
+      "accessed_at": "2026-09-30T20:47:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-npm-typesafe-sdk",
+      "source_type": "package registry",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk",
+      "title": "npm: @typesafe-ai/sdk",
+      "claim": "Latest release still 0.6.0 on 30 Sep 2026.",
+      "accessed_at": "2026-09-30T20:47:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-workflowevals",
+      "source_type": "official repository",
+      "source_url": "https://github.com/typesafe-ai/WorkflowEvals",
+      "title": "typesafe-ai/WorkflowEvals",
+      "claim": "Official code to rerun TypeSafe's workflow benchmark; Apache-2.0; one commit on 29 Sep 2026, 16:25 UTC.",
+      "accessed_at": "2026-09-30T20:48:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-n8n-node",
+      "source_type": "official repository",
+      "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai",
+      "title": "typesafe-ai/n8n-nodes-typesafe-ai",
+      "claim": "Official n8n node repository, MIT, created 23 Sep 2026, tag 0.9.0, last push 29 Sep 21:11 UTC; publisher of the same-named npm package not checked.",
+      "accessed_at": "2026-09-30T20:48:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-integrations-recheck",
+      "source_type": "package registries",
+      "source_url": "https://registry.npmjs.org/@jkudish/jev-mcp",
+      "title": "Claude Code and MCP integration versions",
+      "claim": "No newer release or push for the six audited integrations on 30 Sep 2026, 21:10 UTC (@jkudish/jev-mcp 0.11.0; oh-my-claudecode v5.5.0; langchain-typesafe 0.0.1a3).",
+      "accessed_at": "2026-09-30T21:10:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-terms",
+      "source_type": "legal text",
+      "source_url": "https://typesafe.ai/legal/terms",
+      "title": "TypeSafe Terms of Use (19 Sep 2026)",
+      "claim": "No clause about publishing benchmarks or performance results.",
+      "accessed_at": "2026-09-30T20:48:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-aup",
+      "source_type": "legal text",
+      "source_url": "https://typesafe.ai/legal/acceptable-use-policy",
+      "title": "TypeSafe Acceptable Use Policy (23 Sep 2026)",
+      "claim": "No clause about publishing benchmarks or performance results.",
+      "accessed_at": "2026-09-30T20:48:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-mca",
+      "source_type": "legal text",
+      "source_url": "https://typesafe.ai/legal/mca",
+      "title": "TypeSafe Master Customer Agreement (23 Sep 2026)",
+      "claim": "No benchmark or publishing clause; 2.3(b) bars distillation and building a competing product; 2.3(c) reverse engineering; 2.3(g) security testing.",
+      "accessed_at": "2026-09-30T20:49:26Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-mca-archived-0916",
+      "source_type": "archived legal text",
+      "source_url": "https://web.archive.org/web/20260916215503/https://typesafe.ai/legal/mca",
+      "title": "TypeSafe MCA, version of 27 Aug 2026 (archived 16 Sep)",
+      "claim": "Section 2.3(f): customer will not 'publish benchmarks or performance information about the Services'.",
+      "accessed_at": "2026-09-30T20:51:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-mca-archived-0920",
+      "source_type": "archived legal text",
+      "source_url": "https://web.archive.org/web/20260920204330/https://typesafe.ai/legal/mca",
+      "title": "TypeSafe MCA, version of 19 Sep 2026 (archived 20 Sep)",
+      "claim": "Section 2.3(f) benchmark clause no longer present.",
+      "accessed_at": "2026-09-30T20:51:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-dpa",
+      "source_type": "legal text",
+      "source_url": "https://typesafe.ai/legal/data-processing",
+      "title": "TypeSafe DPA (24 Apr 2026)",
+      "claim": "No clause about publishing benchmarks.",
+      "accessed_at": "2026-09-30T20:49:26Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-privacy",
+      "source_type": "legal text",
+      "source_url": "https://typesafe.ai/legal/privacy-policy",
+      "title": "TypeSafe Privacy Policy (19 Nov 2025)",
+      "claim": "No clause about publishing benchmarks.",
+      "accessed_at": "2026-09-30T20:48:28Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-hn-terms-claim",
+      "source_type": "forum comment",
+      "source_url": "https://news.ycombinator.com/item?id=49753778",
+      "title": "Hacker News comment, 18 Sep 2026",
+      "claim": "Claims Terms of Use 1(v) and MCA 2.3(f) prohibited publishing benchmarks; the MCA part matches; the Terms part is not confirmed by the 15 Sep capture.",
+      "accessed_at": "2026-09-30T20:50:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b01-evals",
+      "source_type": "vendor benchmark",
+      "source_url": "https://evals.typesafe.ai/",
+      "title": "TypeSafe workflow evals",
+      "claim": "Jev 67.8% mean agreement with reference answers averaged from GPT-6 Astra and Claude Fable 5.1 on four TypeSafe-built workflows; not accuracy against human labels (grade B, COI, LLM-labels).",
+      "accessed_at": "2026-09-30T20:48:28Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b02-arize",
+      "source_type": "third-party benchmark",
+      "source_url": "https://arize.com/blog/jev-as-a-judge/",
+      "title": "Arize, Jev vs LLM-as-a-Judge",
+      "claim": "RAGTruth: Jev 87% and Opus 5 87% after threshold tuning; 76% vs 83% at a 0.5 cutoff (grade B).",
+      "accessed_at": "2026-09-30T20:53:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b03-navya",
+      "source_type": "third-party benchmark",
+      "source_url": "https://www.navyaai.com/blog/jev-typesafe-limitations-production",
+      "title": "NavyaAI, We Benchmarked Jev Directly",
+      "claim": "AG News n=200: Jev 87.5-88.0% vs 71-83% for cheap LLM setups (grade C).",
+      "accessed_at": "2026-09-30T20:53:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b04-parallel",
+      "source_type": "third-party benchmark",
+      "source_url": "https://parallel.ai/blog/testing-jev",
+      "title": "Parallel, Testing out Jev",
+      "claim": "Reranking comparable to an internal system; internal classifiers win on topic and freshness; no n (grade D).",
+      "accessed_at": "2026-09-30T20:53:33Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b05-litellm",
+      "source_type": "gateway benchmark",
+      "source_url": "https://docs.litellm.ai/blog/jev-auto-router-benchmark",
+      "title": "LiteLLM, JEV Classifier benchmark",
+      "claim": "80 authored routing prompts: Jev 95.00% vs Haiku 4.5 73.75%; ratios reproduced by the pool (grade C, COI, small-n).",
+      "accessed_at": "2026-09-30T20:53:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b06-jevals",
+      "source_type": "third-party benchmark",
+      "source_url": "https://jevals.com/notes/2026-09-18/",
+      "title": "Jevals release 2026-09-18",
+      "claim": "PubMedQA tied with Gemini 3.8 Flash; Banking77 Gemini significantly ahead; HelpSteer2 no model beats base rates (grade B).",
+      "accessed_at": "2026-09-30T20:55:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b06-recompute",
+      "source_type": "published data file",
+      "source_url": "https://github.com/Jevals/jevals-data/tree/21bb47b72814cf661539b313844d2d2e26166e54",
+      "title": "Jevals per-decision logs at 21bb47b",
+      "claim": "Pool's offline recomputation of the PubMedQA log: accuracy 91.33%, median 0.438 s, p95 0.653 s match; calibration error 5.10 vs published 5.0 (Tested, no Jev call).",
+      "accessed_at": "2026-09-30T20:58:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b07-jevbench",
+      "source_type": "third-party benchmark",
+      "source_url": "https://benchmarkheaven.com/jev-models",
+      "title": "JevBench v1.5.4",
+      "claim": "Jev 1.13.0 first among Jev-class systems; no LLM in the ranking; half the items sealed (grade B, sealed, no-baseline).",
+      "accessed_at": "2026-09-30T20:53:33Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b08-cmu",
+      "source_type": "academic paper",
+      "source_url": "https://arxiv.org/abs/2609.26550",
+      "title": "arXiv 2609.26550 v3, JEV-as-a-Judge",
+      "claim": "Within three points of GPT-6 on text-readable verdicts; behind on math, code and logic; cascade 0.9 points ahead of GPT-6 at 41% of its fee (grade B).",
+      "accessed_at": "2026-09-30T21:00:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b09-robustness",
+      "source_type": "academic paper",
+      "source_url": "https://arxiv.org/abs/2609.26758",
+      "title": "arXiv 2609.26758 v2, Type-Safe Is Not Error-Free",
+      "claim": "Renaming options from 0/1 to no/yes flips 32.5% of Jev's decisions (grade B, no-baseline).",
+      "accessed_at": "2026-09-30T21:00:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b10-mindstudio",
+      "source_type": "secondary summary",
+      "source_url": "https://www.mindstudio.ai/blog/jev-vs-classic-classifiers-benchmark",
+      "title": "MindStudio, Jev vs BERT and Zero-Shot NLI",
+      "claim": "Secondary summary of an unnamed study: trained encoder 93.2% vs Jev 80.1% on Banking77 (grade D).",
+      "accessed_at": "2026-09-30T20:53:33Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b11-opper",
+      "source_type": "gateway benchmark",
+      "source_url": "https://opper.ai/blog/jev-vs-kev-open-decision-model",
+      "title": "Opper, Jev vs. Kev",
+      "claim": "Jev and Kev within noise on 362 fresh items; Jev lower calibration error (grade B, COI, small-n).",
+      "accessed_at": "2026-09-30T20:53:33Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b12-bryo",
+      "source_type": "company post",
+      "source_url": "https://x.com/nikhilmudholkar/status/2100604560335139083",
+      "title": "Bryo AI CTO on X, 17 Sep 2026",
+      "claim": "'Jev lost to Gemini on our email classification benchmark' (1,565 German and English emails; figures from Prefactor; grade C).",
+      "accessed_at": "2026-09-30T20:53:33Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b13-nyuad",
+      "source_type": "academic paper",
+      "source_url": "https://arxiv.org/abs/2609.24574",
+      "title": "arXiv 2609.24574 v2, decision models for text annotation",
+      "claim": "Jev trails the per-task best LLM on 14 of 15 tasks (median 11.6 macro-F1) at a median 44 times lower cost; routing low-confidence items to an LLM matches or exceeds the LLM alone (grade A provisional).",
+      "accessed_at": "2026-09-30T21:01:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b14-elastic",
+      "source_type": "vendor blog",
+      "source_url": "https://www.elastic.co/search-labs/blog/ecommerce-search-reranking-llm-alternative-jev",
+      "title": "Elastic, Using Jev as a search reranker",
+      "claim": "ESCI: +0.018 to +0.021 nDCG@10 over hybrid search (grade A provisional).",
+      "accessed_at": "2026-09-30T20:57:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b15-punk2898",
+      "source_type": "community benchmark",
+      "source_url": "https://github.com/punk2898/awesome-jev-verified/tree/df84c78c6729",
+      "title": "punk2898 benchmark in awesome-jev-verified",
+      "claim": "True/false 92.5% vs Sol 92.1%; multiple choice 77.3% vs Sol 82.5%; '445x cheaper did not reproduce' (grade A provisional).",
+      "accessed_at": "2026-09-30T20:57:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b16-molas",
+      "source_type": "blog post",
+      "source_url": "https://www.alexmolas.com/2026/09/23/jev-cant-be-calibrated.html",
+      "title": "Alex Molas, Jev can't be calibrated",
+      "claim": "Argument with one small example: Jev gives a fair coin 0.92 heads (grade D).",
+      "accessed_at": "2026-09-30T20:57:01Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b17-anthus",
+      "source_type": "community benchmark",
+      "source_url": "https://github.com/AnthusAI/Jev-Calibration",
+      "title": "AnthusAI/Jev-Calibration",
+      "claim": "Calibration error 0.117 raw, 0.052 Platt, 0.008 isotonic; accuracy unchanged (grade B, no-baseline).",
+      "accessed_at": "2026-09-30T20:57:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b21-diy",
+      "source_type": "blog post",
+      "source_url": "https://dev.to/kgluszczyk/a-diy-jev-typed-decisions-from-gpt-6-luna-logprobs-benchmarked-head-to-head-1fd8",
+      "title": "A DIY Jev (DEV.to)",
+      "claim": "13 datasets: Jev 76.5% vs DIY logprob 73.8% vs prompted JSON 70.1% (grade C).",
+      "accessed_at": "2026-09-30T20:57:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b23-casco",
+      "source_type": "vendor blog",
+      "source_url": "https://casco.com/blog/jev-cvss-benchmark",
+      "title": "Casco CVSS benchmark",
+      "claim": "Jev seventh of eight by mean absolute CVSS error (3.40; GPT-6 Astra 1.92) (grade C).",
+      "accessed_at": "2026-09-30T20:57:01Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-b24-scifact",
+      "source_type": "community benchmark",
+      "source_url": "https://github.com/cjgunase/jev-scifact-eval",
+      "title": "jev-scifact-eval",
+      "claim": "SciFact Label+Rationale F1 0.625 vs keyword baseline 0.303 and VeriSci 0.485 (grade A provisional, no LLM baseline).",
+      "accessed_at": "2026-09-30T20:57:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-openai-decision-api",
+      "source_type": "news headline",
+      "source_url": "https://thenewstack.io/openai-decision-api-luna/",
+      "title": "The New Stack, OpenAI Decision API headline",
+      "claim": "A hosted decision API from OpenAI was reported on 29 Sep; not checked at OpenAI's own source.",
+      "accessed_at": "2026-09-30T21:02:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r3-report",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/evaluation-evidence",
+      "title": "Evaluation evidence report, 30 Sep 2026",
+      "claim": "The pool ran no benchmark, made no Jev call and did not average or rank studies; all benchmark results are Reported.",
+      "accessed_at": "2026-09-30T21:14:00Z",
+      "relation": "limits",
+      "publication_basis": "owner-authored"
     }
   ]
 }
