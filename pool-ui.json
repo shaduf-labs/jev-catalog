@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "default_page": "home",
-  "meaningfully_updated_at": "2026-09-30T21:14:00Z",
+  "meaningfully_updated_at": "2026-10-01T06:30:00Z",
   "pages": [
     {
       "id": "home",
@@ -9,7 +9,7 @@
       "label": "Jev (TypeSafe AI) catalogue",
       "icon": "◈",
       "group": "Start here",
-      "description": "Can you use Jev (TypeSafe AI) today? Current access status with check time, dated notices, a short answer and direct paths to use cases, cost, alternatives, videos and build guides.",
+      "description": "Can you use Jev (TypeSafe AI) today? Current access status with check time, dated notices, a short answer and direct paths to use cases, data handling, cost, alternatives, videos and build guides.",
       "parent": null,
       "entrypoint": "index.html",
       "entrypoint_type": "html_fragment",
@@ -57,6 +57,21 @@
       "description": "Tasks people build with Jev (TypeSafe AI), graded by evidence: inspected source code, vendor examples, author claims and proposals, with failure notes.",
       "parent": null,
       "entrypoint": "use-cases/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "support-ticket-triage",
+      "slug": "use-cases/support-ticket-triage",
+      "label": "Support-ticket triage with Jev",
+      "icon": "▤",
+      "group": "Use cases",
+      "description": "Support-ticket triage with Jev (TypeSafe AI): what five real projects do when Jev is unsure, errors, returns a malformed answer or hangs, read in source, plus an eight-rule safe design.",
+      "parent": null,
+      "entrypoint": "use-cases/support-ticket-triage/index.html",
       "entrypoint_type": "html_fragment",
       "redirects": [],
       "visibility": "public",
@@ -199,6 +214,21 @@
       "tools": []
     },
     {
+      "id": "laya-vs-kev",
+      "slug": "alternatives/laya-vs-kev",
+      "label": "Jev vs Laya vs Kev",
+      "icon": "scale",
+      "group": "Compare",
+      "description": "Jev (TypeSafe AI) vs Laya vs Kev on the same rows: licences, base model, hardware, context, API, calibration and languages, the graded tests that ran two of them, and a pick-if table.",
+      "parent": null,
+      "entrypoint": "alternatives/laya-vs-kev/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
       "id": "where-to-use",
       "slug": "where-to-use",
       "label": "Where to use Jev and price",
@@ -222,6 +252,21 @@
       "description": "Can a new user get a Jev (TypeSafe AI) API key today? Dated signup, waitlist and free-credit timeline with sources.",
       "parent": null,
       "entrypoint": "where-to-use/access-status/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": true,
+      "tools": []
+    },
+    {
+      "id": "data-privacy",
+      "slug": "where-to-use/data-privacy",
+      "label": "Jev data retention and privacy",
+      "icon": "eye",
+      "group": "Access and cost",
+      "description": "What data leaves your system when you use Jev (TypeSafe AI): training, retention and zero data retention quoted by route, gateway and provider layers apart, with a route picker and checklist.",
+      "parent": null,
+      "entrypoint": "where-to-use/data-privacy/index.html",
       "entrypoint_type": "html_fragment",
       "redirects": [],
       "visibility": "public",

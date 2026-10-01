@@ -4340,6 +4340,436 @@
       "accessed_at": "2026-09-30T21:14:00Z",
       "relation": "limits",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "r4-status-page",
+      "source_type": "official status page",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "TypeSafe status page",
+      "claim": "\"All services are online\", last updated 1 Oct 2026, 05:16 UTC; no event after 29 Sep, 22:05 UTC; API 90-day uptime 99.828%.",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-models-page",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "TypeSafe models page",
+      "claim": "jev-1.13.0 is the only model; jev-latest and jev-preview point to it; $0.042 per million input tokens, output free; 100K tokens per second and 40 requests per second; 64k per request, 32k for state plus the longest question.",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-console-403",
+      "source_type": "official console",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "TypeSafe console",
+      "claim": "Console, signup and login returned HTTP 403 to the pool on 1 Oct 2026; signup was not observed directly.",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-ceo-post",
+      "source_type": "executive post",
+      "source_url": "https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "TypeSafe CEO post of 27 Sep 2026",
+      "claim": "Re-read on 1 Oct 2026: \"ANYONE CAN SIGN UP\" with free credits temporarily disabled for new users; no later statement restoring credit found.",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-openrouter-guide",
+      "source_type": "gateway documentation",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "OpenRouter Jev guide",
+      "claim": "\"There's no waitlist or separate TypeSafe account.\"",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-archive-models",
+      "source_type": "web archive capture",
+      "source_url": "https://web.archive.org/web/20260929192432id_/https://docs.typesafe.ai/models?_rsc=rNaoFCJPQB8a248S",
+      "title": "Internet Archive capture of the TypeSafe models page, 29 Sep 2026 19:24:32 UTC",
+      "claim": "The capture still lists 250,000 tokens per second and 1,200 requests per minute, so the rate-limit change happened after 29 Sep, 19:24:32 UTC and by 30 Sep, 20:47 UTC.",
+      "accessed_at": "2026-10-01T05:18:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-eye-security",
+      "source_type": "security research",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Eye Security, \"Rise of the Jev-Clones\"",
+      "claim": "Report still online on 1 Oct 2026; the three named reseller sites still answered with Jev playground pages.",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-workflowevals",
+      "source_type": "official repository",
+      "source_url": "https://github.com/typesafe-ai/WorkflowEvals",
+      "title": "typesafe-ai/WorkflowEvals",
+      "claim": "Repository unchanged and public on 1 Oct 2026 (last push 29 Sep, 16:25 UTC).",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-npm-ai",
+      "source_type": "package registry",
+      "source_url": "https://registry.npmjs.org/ai",
+      "title": "npm: ai",
+      "claim": "ai 7.0.126 was published on 30 Sep 2026, 23:00 UTC, after the TypeScript page's audit of 7.0.122; not re-audited.",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-npm-jkudish",
+      "source_type": "package registry",
+      "source_url": "https://registry.npmjs.org/@jkudish/jev-mcp",
+      "title": "npm: @jkudish/jev-mcp",
+      "claim": "Version 0.12.0 was published on 1 Oct 2026, 00:49 UTC; the audited version was 0.11.0; not re-audited.",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-legal-dates",
+      "source_type": "official legal page",
+      "source_url": "https://typesafe.ai/legal/mca",
+      "title": "TypeSafe Master Customer Agreement",
+      "claim": "\"Last updated\" dates unchanged on 1 Oct 2026: Terms 19 Sep, AUP 23 Sep, MCA 23 Sep 2026, DPA 24 Apr 2026, Privacy Policy 19 Nov 2025.",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-laya-card",
+      "source_type": "model card",
+      "source_url": "https://huggingface.co/convaiinnovations/laya",
+      "title": "Laya model card (Convai Innovations)",
+      "claim": "Apache-2.0 weights; no base_model field in card metadata; English checkpoint context 512 tokens; card links the NandhaKishorM/laya code repository.",
+      "accessed_at": "2026-10-01T05:20:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-laya-multilingual",
+      "source_type": "model card",
+      "source_url": "https://huggingface.co/convaiinnovations/laya-multilingual",
+      "title": "Laya multilingual model card",
+      "claim": "Multilingual checkpoint on mmBERT-base, 1,024 tokens by default and up to 8,192; the card says it \"Ships uncalibrated\".",
+      "accessed_at": "2026-10-01T05:20:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-laya-code",
+      "source_type": "code repository",
+      "source_url": "https://github.com/NandhaKishorM/laya",
+      "title": "NandhaKishorM/laya",
+      "claim": "Apache-2.0; release v0.3.22 on 29 Sep 2026, 17:48 UTC.",
+      "accessed_at": "2026-10-01T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-kev-readme",
+      "source_type": "code repository",
+      "source_url": "https://github.com/jaredpalmer/kev/tree/90512f1c517d977741f2104470a40635408236c9",
+      "title": "Kev README at commit 90512f1",
+      "claim": "Server accepts 65,536 tokens; small models trained mostly on states of up to 384 tokens; English only; author says the Kev-27B vs Jev comparison \"isn't a controlled comparison\".",
+      "accessed_at": "2026-10-01T05:21:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-kev-cards",
+      "source_type": "model card",
+      "source_url": "https://huggingface.co/jaredpalmer/kev-4b",
+      "title": "Kev model cards (4B, 9B, 27B)",
+      "claim": "Apache-2.0 weights; Kev-4B on Qwen3.5-4B-Base, Kev-27B on Qwen3.8-27B; Kev-9B and Kev-27B cards changed on 30 Sep 2026.",
+      "accessed_at": "2026-10-01T05:20:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-qwen-bases",
+      "source_type": "model metadata",
+      "source_url": "https://huggingface.co/Qwen/Qwen3.5-4B-Base",
+      "title": "Qwen base model metadata",
+      "claim": "Qwen3.5-4B-Base and Qwen3.8-27B are Apache-2.0 in their Hugging Face metadata; ModernBERT-large Apache-2.0; mmBERT-base MIT.",
+      "accessed_at": "2026-10-01T05:22:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-he-jev",
+      "source_type": "code repository",
+      "source_url": "https://github.com/he-jev/laya",
+      "title": "he-jev/laya",
+      "claim": "Its only branch head is commit c5d78730 of the Hugging Face repository convaiinnovations/laya (19 Sep 2026); who operates the account is not established.",
+      "accessed_at": "2026-10-01T05:21:36Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-ollama",
+      "source_type": "runtime announcement",
+      "source_url": "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models",
+      "title": "Ollama 0.35 decision models",
+      "claim": "Ollama's official decision models are nimble and tev1; Laya and Kev are not among them.",
+      "accessed_at": "2026-10-01T05:20:42Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-jevbench",
+      "source_type": "benchmark",
+      "source_url": "https://benchmarkheaven.com/jev-models",
+      "title": "JevBench v1.5.4",
+      "claim": "Capability: Jev 80.0; kev 8B research preview 59.7; kev 4B research preview 53.8; Laya typed-decisions 41.7; Laya 36.9; Laya multilingual 23.0 (Reported).",
+      "accessed_at": "2026-10-01T05:20:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-arxiv-names",
+      "source_type": "academic paper",
+      "source_url": "https://arxiv.org/abs/2609.26758",
+      "title": "arXiv 2609.26758 v2, \"Type-Safe Is Not Error-Free\"",
+      "claim": "Yes/no option names flip 76.9% of Laya's decisions and 32.5% of Jev's (Reported).",
+      "accessed_at": "2026-10-01T05:20:42Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-openrouter-zdr-list",
+      "source_type": "gateway API",
+      "source_url": "https://openrouter.ai/api/v1/endpoints/zdr",
+      "title": "OpenRouter ZDR endpoint list",
+      "claim": "The TypeSafe endpoint typesafe/jev-1.13-20260917 is on OpenRouter's ZDR endpoint list (922 endpoints).",
+      "accessed_at": "2026-10-01T05:27:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-openrouter-policy",
+      "source_type": "gateway documentation",
+      "source_url": "https://openrouter.ai/docs/features/zdr",
+      "title": "OpenRouter ZDR documentation",
+      "claim": "\"your prompts are not retained unless you specifically opt in to prompt logging\"; provider ZDR can be enforced per request.",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-openrouter-endpoint-policy",
+      "source_type": "gateway listing",
+      "source_url": "https://openrouter.ai/typesafe/jev-1.13",
+      "title": "OpenRouter Jev 1.13 data policy",
+      "claim": "TypeSafe endpoint data policy: training false, retainsPrompts false, canPublish false.",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-vercel-zdr",
+      "source_type": "gateway documentation",
+      "source_url": "https://vercel.com/docs/ai-gateway/capabilities/zdr",
+      "title": "Vercel AI Gateway ZDR documentation",
+      "claim": "Gateway does not retain prompts or outputs; ZDR enforceable on Pro and Enterprise; TypeSafe AI marked ZDR, with a quoted TypeSafe clause not found in TypeSafe's public legal texts.",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-vercel-endpoints",
+      "source_type": "gateway API",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Vercel endpoints API for typesafe-ai/jev",
+      "claim": "Returned only the DigitalOcean endpoint, with has_zdr false and has_no_training true.",
+      "accessed_at": "2026-10-01T05:30:40Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-vercel-model-page",
+      "source_type": "gateway listing",
+      "source_url": "https://vercel.com/ai-gateway/models/jev",
+      "title": "Vercel Jev model page",
+      "claim": "Lists two providers for Jev: TypeSafe AI and DigitalOcean.",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-cloudflare-data",
+      "source_type": "gateway documentation",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/data-usage/",
+      "title": "Cloudflare Workers AI data usage",
+      "claim": "Cloudflare does not use Customer Content to train models on Workers AI; Jev page lists zero data retention \"Yes\".",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-cloudflare-logging",
+      "source_type": "gateway documentation",
+      "source_url": "https://developers.cloudflare.com/ai-gateway/observability/logging/",
+      "title": "Cloudflare AI Gateway logging",
+      "claim": "\"Logs are enabled by default for each gateway\".",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-opper-route",
+      "source_type": "gateway listing",
+      "source_url": "https://opper.ai/typesafe/jev-1-13-0",
+      "title": "Opper TypeSafe route card",
+      "claim": "\"No training on customer data\"; \"Zero data retention posture is not established for this route\"; region United States; transfer mechanism unknown.",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-typesafe-legal-docs",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "TypeSafe docs legal page",
+      "claim": "\"We also offer zero data retention (ZDR) for enterprise customers.\"",
+      "accessed_at": "2026-10-01T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-typesafe-privacy",
+      "source_type": "official legal page",
+      "source_url": "https://typesafe.ai/legal/privacy-policy",
+      "title": "TypeSafe Privacy Policy",
+      "claim": "TypeSafe will not train or fine tune models on Input; the Services are hosted in the United States; no retention period is stated.",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-typesafe-mca-data",
+      "source_type": "official legal page",
+      "source_url": "https://typesafe.ai/legal/mca",
+      "title": "TypeSafe MCA sections 4.1, 4.3 and 10.3",
+      "claim": "No training on Customer Data without prior consent; a licence in perpetuity to use Customer Data to derive Telemetry and to monitor for fraud and abuse; Telemetry may be processed without restriction; no obligation to store or retain Customer Data.",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-typesafe-dpa",
+      "source_type": "official legal page",
+      "source_url": "https://typesafe.ai/legal/data-processing",
+      "title": "TypeSafe DPA",
+      "claim": "Subprocessors as described on trust.typesafe.ai; 15-day objection window; EU SCCs; retention \"as long as necessary\".",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-trust-portal",
+      "source_type": "trust portal",
+      "source_url": "https://trust.typesafe.ai/",
+      "title": "TypeSafe trust portal",
+      "claim": "Script-only page; the subprocessor list and any SOC 2 report could not be read.",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-triage-a",
+      "source_type": "code repository",
+      "source_url": "https://github.com/CyrilBaah/jev-triage-desk/tree/63913177babe5bb19cb7598ff2aac2908abffa1d",
+      "title": "CyrilBaah/jev-triage-desk at 63913177",
+      "claim": "No gate on department confidence; on a Jev API error or malformed answer the ticket gets lane \"archive\"; no timeout set.",
+      "accessed_at": "2026-10-01T05:32:50Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-triage-b",
+      "source_type": "code repository",
+      "source_url": "https://github.com/tuhinmitra888/ai-jev-ticket-triage/tree/3e8b83a890474203b4a8fc17809cc3b35ce7c587",
+      "title": "tuhinmitra888/ai-jev-ticket-triage at 3e8b83a8",
+      "claim": "Category confidence below 0.5 goes to human triage; API errors return 502 without routing.",
+      "accessed_at": "2026-10-01T05:32:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-triage-c",
+      "source_type": "code repository",
+      "source_url": "https://github.com/enderkus/zammad-jev-dispatcher/tree/f999eca7cac1d77256b2e95a280dc3757d449e47",
+      "title": "enderkus/zammad-jev-dispatcher at f999eca7",
+      "claim": "Confidence below 0.55 leaves the ticket Unclassified with an internal note; no timeout set.",
+      "accessed_at": "2026-10-01T05:32:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-triage-d",
+      "source_type": "code repository",
+      "source_url": "https://github.com/gbesse/zammad-jev-triage/tree/5d2a0a783b52d378cb53832f99a9c2ed05d8a42e",
+      "title": "gbesse/zammad-jev-triage at 5d2a0a78",
+      "claim": "Validates model, choice and probability; returns 503 on errors so the source retries; below 0.9 or other goes to review; 20 s timeout.",
+      "accessed_at": "2026-10-01T05:32:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-triage-e",
+      "source_type": "code repository",
+      "source_url": "https://github.com/veermshah/jev-support-desk/tree/aef8fa0ca38b486556a183d0f1f90bb4553232c1",
+      "title": "veermshah/jev-support-desk at aef8fa0c",
+      "claim": "Queue confidence below 0.6 goes to triage review; an SDK error aborts the batch.",
+      "accessed_at": "2026-10-01T05:32:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-evals-customer-service",
+      "source_type": "vendor benchmark",
+      "source_url": "https://evals.typesafe.ai/",
+      "title": "TypeSafe workflow evals, customer_service",
+      "claim": "Jev 76.0% agreement with LLM reference answers on 204 customer-service cases at $0.0001 per case (Reported, vendor).",
+      "accessed_at": "2026-10-01T05:34:39Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-third-party-privacy-claims",
+      "source_type": "third-party guide",
+      "source_url": "https://vendortrustindex.com/vendors/jev",
+      "title": "vendortrustindex.com Jev entry",
+      "claim": "Claims Jev does not sign BAAs and that a SOC 2 Type II report is current; neither is addressed or verifiable in TypeSafe's public text.",
+      "accessed_at": "2026-10-01T05:26:06Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r4-report",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/alternatives-data-handling-triage",
+      "title": "Research report, 1 Oct 2026: Laya vs Kev, data handling by route, support-ticket triage",
+      "claim": "The pool made no Jev call, opened no account and ran no benchmark; data terms are a reading of public text, not legal advice; benchmark results are Reported.",
+      "accessed_at": "2026-10-01T06:30:00Z",
+      "relation": "limits",
+      "publication_basis": "owner-authored"
     }
   ]
 }

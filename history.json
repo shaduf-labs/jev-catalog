@@ -176,6 +176,17 @@
       "summary": "Graded 14 published Jev studies read at their primary source and 10 shorter rows (A–D with flags; all results Reported, none run by the pool) and recomputed one study's published log offline. TypeSafe's MCA barred publishing benchmarks until its 19 Sep 2026 version; the current terms have no such clause. Set out 10 criteria for Jev vs an LLM vs a classifier. Home status: signups open, no new-user credit, API operational (console HTTP 403, signup not observed). Rate limits changed to 100K tokens/s and 40 requests/s. No pool Jev call.",
       "report_path": "/p/jev-catalog/reports/evaluation-evidence",
       "entrypoint": "reports/evaluation-evidence/index.html"
+    },
+    {
+      "run_id": "run:35d0708f-1681-4f24-9954-581f127a7a34",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-01T05:14:57Z",
+      "completed_at": "2026-10-01T06:30:00Z",
+      "title": "Laya vs Kev, data handling by route, and support-ticket triage",
+      "summary": "Compared hosted Jev, Laya and Kev on the same rows: only Opper's 362-item test finds an open model (Kev-4B) within noise of Jev, and JevBench scores Laya and earlier Kev previews well below Jev. Quoted training, retention and ZDR terms for TypeSafe direct and four gateways with gateway and provider layers apart: no primary text allows training on prompts without consent; TypeSafe's MCA grants a licence in perpetuity to use Customer Data to derive telemetry and monitor for fraud and abuse; Vercel also routes Jev through DigitalOcean, marked not ZDR. Read five ticket-triage projects in source: four send unsure tickets to a person, one archives tickets on API errors. Access unchanged; rate-limit change narrowed. No pool Jev call.",
+      "report_path": "/p/jev-catalog/reports/alternatives-data-handling-triage",
+      "entrypoint": "reports/alternatives-data-handling-triage/index.html"
     }
   ]
 }
