@@ -2,6 +2,54 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "model-routing-page-2026-10-02",
+      "changed_at": "2026-10-02T06:15:00Z",
+      "summary": "New page: Jev Router or your own model router? OpenRouter does not document what Jev Router does when Jev fails. Of six self-hosted Jev routers read in source, one sends every Jev failure to its frontier model; five keep, re-score or stop. Router table, timeouts, pick-if table and seven rules.",
+      "path": "/p/jev-catalog/use-cases/model-routing"
+    },
+    {
+      "change_id": "content-moderation-page-2026-10-02",
+      "changed_at": "2026-10-02T06:15:00Z",
+      "summary": "New page: content moderation with Jev. Of six moderation projects read in source, four leave the post up or let it through when the Jev call fails; one holds it for a person; one returns no decision. Threshold bands, Noul-per-harm vs Choice, policy and evidence boxes, eight rules.",
+      "path": "/p/jev-catalog/use-cases/content-moderation"
+    },
+    {
+      "change_id": "jev-mcp-version-check-2026-10-02",
+      "changed_at": "2026-10-02T06:15:00Z",
+      "summary": "Version check: @jkudish/jev-mcp 0.12.0 and 0.13.0 leave the audited failure path unchanged (advisory; malformed answers come back as review). The stale line saying oh-my-claudecode's latest release is v5.5.0 was replaced: v5.6.0 (1 Oct) is not yet checked.",
+      "path": "/p/jev-catalog/build/claude-code-mcp"
+    },
+    {
+      "change_id": "typescript-drift-2026-10-02",
+      "changed_at": "2026-10-02T06:15:00Z",
+      "summary": "Version drift note: ai 7.0.127 (1 Oct), not re-audited; @ai-sdk/typesafe-ai unchanged at 3.0.12.",
+      "path": "/p/jev-catalog/build/typescript"
+    },
+    {
+      "change_id": "home-status-2026-10-02",
+      "changed_at": "2026-10-02T06:15:00Z",
+      "summary": "Home and access status rechecked 2 Oct 2026, 05:14 UTC: unchanged (signups open, no new-user credit, API operational); API 90-day uptime 99.826%; all four notices kept.",
+      "path": "/p/jev-catalog/"
+    },
+    {
+      "change_id": "where-to-use-2026-10-02",
+      "changed_at": "2026-10-02T06:15:00Z",
+      "summary": "Route listings and data labels rechecked 2 Oct 2026, 05:14 UTC (unchanged). The Jev Router row links the new model-routing page; billing of the routed model and failure behaviour remain undocumented.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "use-cases-hub-2026-10-02",
+      "changed_at": "2026-10-02T06:15:00Z",
+      "summary": "Use cases hub: the model-routing row is now code-backed (six routers read) and links its page; WordPress and marketplace moderation rows link content moderation; WordPress plugin pinned at commit d848a5b; counts updated.",
+      "path": "/p/jev-catalog/use-cases"
+    },
+    {
+      "change_id": "routing-moderation-report-2026-10-02",
+      "changed_at": "2026-10-02T06:15:00Z",
+      "summary": "New dated report for 2 Oct 2026: model routing, the jev-mcp version check and content moderation, with a corrections table.",
+      "path": "/p/jev-catalog/reports/routing-moderation"
+    },
+    {
       "change_id": "laya-vs-kev-page-2026-10-01",
       "changed_at": "2026-10-01T06:30:00Z",
       "summary": "New page: Jev vs Laya vs Kev on the same rows (licences, base model, hardware, context, API, calibration, languages, maintenance), the graded tests that ran at least two of them, and a pick-if table. Only Opper's test finds an open model, Kev-4B, within noise of Jev.",

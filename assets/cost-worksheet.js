@@ -1,5 +1,5 @@
 (() => {
-  const PRICE = 0.042 / 1e6 // USD per input token, TypeSafe models page, checked 2026-10-01 05:16 UTC
+  const PRICE = 0.042 / 1e6 // USD per input token, TypeSafe models page, checked 2026-10-02 05:14 UTC
   const $ = (id) => document.getElementById(id)
   const ids = ['tok', 'dec', 'per', 'retry', 'fb', 'fbc']
   const defaults = { tok: '', dec: '1000000', per: '1', retry: '0', fb: '0', fbc: '' }

@@ -4770,6 +4770,336 @@
       "accessed_at": "2026-10-01T06:30:00Z",
       "relation": "limits",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "r5-status-page",
+      "source_type": "official status page",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "TypeSafe status page",
+      "claim": "All services are online (last updated 2 Oct 2026, 05:14 UTC); no event after 29 Sep, 22:05 UTC; API 90-day uptime 99.826%, console 99.976%.",
+      "accessed_at": "2026-10-02T05:14:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-ceo-post",
+      "source_type": "executive post",
+      "source_url": "https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "TypeSafe CEO post, 27 Sep 2026",
+      "claim": "Re-read through publish.x.com oEmbed: signups open (\"ANYONE CAN SIGN UP\"), free credits temporarily disabled for new users; no later statement restoring credit found.",
+      "accessed_at": "2026-10-02T05:14:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-console-403",
+      "source_type": "official console",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "TypeSafe console",
+      "claim": "Console /, /signup and /login returned HTTP 403 to the pool; signup not observed directly.",
+      "accessed_at": "2026-10-02T05:14:11Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-models-page",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "TypeSafe models page",
+      "claim": "jev-1.13.0; $0.042 per million input tokens, output free; 100K tokens per second and 40 requests per second; unchanged since 1 Oct.",
+      "accessed_at": "2026-10-02T05:14:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-openrouter-zdr",
+      "source_type": "gateway API",
+      "source_url": "https://openrouter.ai/api/v1/endpoints/zdr",
+      "title": "OpenRouter ZDR endpoint list",
+      "claim": "The TypeSafe endpoint typesafe/jev-1.13-20260917 is on the list of 926 ZDR endpoints (unchanged).",
+      "accessed_at": "2026-10-02T05:14:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-vercel-endpoints",
+      "source_type": "gateway API",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Vercel AI Gateway endpoints for Jev",
+      "claim": "Only DigitalOcean is listed, has_zdr false, has_no_training true (unchanged).",
+      "accessed_at": "2026-10-02T05:14:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-cloudflare",
+      "source_type": "gateway documentation",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Cloudflare Workers AI Jev model page",
+      "claim": "Zero data retention Yes; $0.042 input, $0 output; context 32,000 (unchanged).",
+      "accessed_at": "2026-10-02T05:14:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-ai-sdk",
+      "source_type": "package registry",
+      "source_url": "https://registry.npmjs.org/ai",
+      "title": "npm: ai",
+      "claim": "ai 7.0.127 published 2026-10-01T19:20:23Z; not re-audited.",
+      "accessed_at": "2026-10-02T05:14:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-jev-router-docs",
+      "source_type": "gateway documentation",
+      "source_url": "https://openrouter.ai/docs/guides/routing/routers/jev-router.md",
+      "title": "OpenRouter Jev Router docs",
+      "claim": "Jev judges task type, difficulty and how much a stronger model would help; the router chooses the cheapest candidate that meets that bar from a curated pool; exclusions that empty the pool return 404. No statement on Jev failure, long-context handling or routed-model billing.",
+      "accessed_at": "2026-10-02T05:15:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-jev-router-page",
+      "source_type": "gateway model page",
+      "source_url": "https://openrouter.ai/typesafe/jev-router",
+      "title": "OpenRouter Jev Router model page and FAQ",
+      "claim": "Pricing shown is zero; the page does not say how the routed model is billed.",
+      "accessed_at": "2026-10-02T05:15:54Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-auto-router",
+      "source_type": "gateway documentation",
+      "source_url": "https://openrouter.ai/docs/guides/routing/routers/auto-router.md",
+      "title": "OpenRouter Auto Router docs",
+      "claim": "openrouter/auto degrades to a default model set if classification is unavailable and bills the selected model at its standard rate; no Jev involved.",
+      "accessed_at": "2026-10-02T05:15:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-llms-full",
+      "source_type": "gateway documentation",
+      "source_url": "https://openrouter.ai/docs/llms-full.txt",
+      "title": "OpenRouter full docs export",
+      "claim": "Searched for Jev failure wording: \"fails rather than falls back\" not found; the Jev-verified cascade cookbook lets a Jev failure reach the caller as an error.",
+      "accessed_at": "2026-10-02T05:16:31Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-litellm",
+      "source_type": "source code",
+      "source_url": "https://github.com/BerriAI/litellm/tree/8d28e8d77622861a20da872268f9375e6d87afd4/litellm/router_strategy/complexity_router",
+      "title": "LiteLLM complexity router at 8d28e8d",
+      "claim": "Jev Choice over five tiers; confidence logged only; 3,000 ms timeout; on failure the local heuristic scorer picks by default, or an operator-set tier or model.",
+      "accessed_at": "2026-10-02T05:16:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-gargpratyush",
+      "source_type": "source code",
+      "source_url": "https://github.com/gargpratyush/jev-router/tree/38da6b84ea01241bfc41fbddc0928d0f40a703f0",
+      "title": "gargpratyush/jev-router at 38da6b8",
+      "claim": "On any Jev failure the session keeps its current model; below confidence 0.3 no downgrade.",
+      "accessed_at": "2026-10-02T05:18:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-billionsbobby",
+      "source_type": "source code",
+      "source_url": "https://github.com/BillionsBobby/JevRouter/tree/e11084c808e1902d11230e7a7937e5008fec7f02",
+      "title": "BillionsBobby/JevRouter at e11084c",
+      "claim": "On Jev error, malformed answer or confidence below 0.55 the router returns no decision to the caller.",
+      "accessed_at": "2026-10-02T05:18:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-0xnatoshi",
+      "source_type": "source code",
+      "source_url": "https://github.com/0xNatoshi/jev-codex-router/tree/8701ef788aa8cb0948f299538747fb01029d32b8",
+      "title": "0xNatoshi/jev-codex-router at 8701ef7",
+      "claim": "Any Jev error sends the request to gpt-6-astra at medium effort, the router's frontier tier; the ask is clipped to 400 characters.",
+      "accessed_at": "2026-10-02T05:18:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-agent-router",
+      "source_type": "source code",
+      "source_url": "https://github.com/nidhi-singh02/agent-router/tree/fb24d06a62fb33a92c7836b4920ae9f4b1216c63",
+      "title": "nidhi-singh02/agent-router at fb24d06",
+      "claim": "On Jev failure, run exits with an error and launches nothing; consequential tasks below confidence 0.75 ask the user to pick.",
+      "accessed_at": "2026-10-02T05:18:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-autojev",
+      "source_type": "source code",
+      "source_url": "https://github.com/thinkany-ai/autojev/tree/d5d5731668d248140e2ae88dd3dcd482065a0096",
+      "title": "thinkany-ai/autojev at d5d5731",
+      "claim": "No prompt text is sent to Jev; on failure or confidence below 0.5 local selection by preference picks the model.",
+      "accessed_at": "2026-10-02T05:18:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-jkudish-diff-012",
+      "source_type": "source diff",
+      "source_url": "https://github.com/jkudish/jev-mcp/compare/53fe5756252956863af2ecbd2952339352e82e15...fcd18d8609ba05a2f1988af91407d86377801ca0",
+      "title": "@jkudish/jev-mcp 0.11.0 to 0.12.0",
+      "claim": "Server code moved to src/server.ts with tool logic byte-identical; rate-limit and outage results now thrown as tool errors; failure disposition unchanged (advisory).",
+      "accessed_at": "2026-10-02T05:22:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-jkudish-diff-013",
+      "source_type": "source diff",
+      "source_url": "https://github.com/jkudish/jev-mcp/compare/fcd18d8609ba05a2f1988af91407d86377801ca0...5e0ca5cacd1556dc0b8c227648843d3ebf5bdc93",
+      "title": "@jkudish/jev-mcp 0.12.0 to 0.13.0",
+      "claim": "jev_verify adds a subject Noul and moves claim text into state; a repository example hook denies at block 0.85 or more and defers to the harness on failure.",
+      "accessed_at": "2026-10-02T05:22:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-omc-560",
+      "source_type": "release listing",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases",
+      "title": "oh-my-claudecode releases",
+      "claim": "v5.6.0 published 2026-10-01T05:18:28Z after the audited v5.5.0; not yet checked.",
+      "accessed_at": "2026-10-02T05:14:11Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-wp-triage",
+      "source_type": "source code",
+      "source_url": "https://github.com/soderlind/jev-comment-triage/blob/d848a5be916f9ec904215808219ea6af6faee6d2/jev-comment-triage.php",
+      "title": "WordPress Jev Comment Triage at d848a5b",
+      "claim": "On API failure the comment stays pending and is retried; author name, email and URL are sent by default; missing answer fields read as 0.0.",
+      "accessed_at": "2026-10-02T05:23:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-brainstormity",
+      "source_type": "source code",
+      "source_url": "https://github.com/brainstormity/Jev-Moderation-Bot/tree/325ea7f4ae889b666ca6133ddac0efcf2f1e7afc",
+      "title": "Jev-Moderation-Bot at 325ea7f",
+      "claim": "On Jev error the Discord message stays up; tiers from 0.70 delete; a pardon lifts the timeout but does not restore the message.",
+      "accessed_at": "2026-10-02T05:23:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-soter",
+      "source_type": "source code",
+      "source_url": "https://github.com/frolleks/soter/tree/756579a5f77f1e0e612015dd32eb0f90453adcf9",
+      "title": "frolleks/soter at 756579a",
+      "claim": "\"a scan error never blocks chat\"; hate above 0.8 or the high_spam Choice deletes; /pardon does not restore the message.",
+      "accessed_at": "2026-10-02T05:23:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-telegram-bot",
+      "source_type": "source code",
+      "source_url": "https://github.com/backmeupplz/jev_antispam_bot/tree/0b07e88b8c59d93d5672b2d631ad9b366acd8ca3",
+      "title": "backmeupplz/jev_antispam_bot at 0b07e88",
+      "claim": "One Noul per spam pattern; 0.81 or more deletes; on error the message is kept; no reversal path found.",
+      "accessed_at": "2026-10-02T05:23:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-mastra",
+      "source_type": "source code",
+      "source_url": "https://github.com/CodeAlive-AI/mastra-jev-moderation/blob/8735ea80efad6ec1dab26f74f1a7851007758915/jev-moderation.ts",
+      "title": "mastra-jev-moderation at 8735ea8",
+      "claim": "Fails open: timeout, HTTP error, unparsable answer or open circuit breaker lets the message through; block at 0.7 or more refuses the turn.",
+      "accessed_at": "2026-10-02T05:23:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-demo-moderator",
+      "source_type": "source code",
+      "source_url": "https://github.com/Zafer-Liu/jev-demo-moderator/tree/cc47b255a7c10dc1fee2639d5a5626cd7fec7a7a",
+      "title": "Zafer-Liu/jev-demo-moderator at cc47b25",
+      "claim": "Runnable demo: a per-item Jev error returns no action; code only tightens publish to review.",
+      "accessed_at": "2026-10-02T05:23:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-primitives",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/primitives.md",
+      "title": "TypeSafe primitives, Noul and Choice docs",
+      "claim": "Questions are evaluated independently; Choice values sum to 1; there is no separate confidence value for a Noul; add an other or none-of-the-above option when the list may not cover everything.",
+      "accessed_at": "2026-10-02T05:26:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-consistency-cookbook",
+      "source_type": "vendor test",
+      "source_url": "https://docs.typesafe.ai/cookbooks/consistency_choice_cookbook.md",
+      "title": "TypeSafe self-consistency cookbook (choices)",
+      "claim": "Repeatability on one borderline post over 15 runs: 90.8% label agreement, 99.2% with automatic labels on 74.2% of answers when answers below 0.60 go to review (Reported, TypeSafe's own test; not accuracy).",
+      "accessed_at": "2026-10-02T05:26:31Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-aup",
+      "source_type": "official legal text",
+      "source_url": "https://typesafe.ai/legal/acceptable-use-policy",
+      "title": "TypeSafe Acceptable Use Policy",
+      "claim": "Last updated 23 Sep 2026; no clause on automated moderation decisions about people found in sections 1–4, the Terms or the MCA.",
+      "accessed_at": "2026-10-02T05:14:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-moderation-accuracy-search",
+      "source_type": "official benchmark site",
+      "source_url": "https://evals.typesafe.ai/",
+      "title": "TypeSafe evals and WorkflowEvals README",
+      "claim": "No moderation, toxicity, safety or content-policy result found; no published moderation accuracy for Jev.",
+      "accessed_at": "2026-10-02T05:27:03Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-opentweet",
+      "source_type": "third-party guide",
+      "source_url": "https://opentweet.io/jev/content-moderation",
+      "title": "opentweet: Content Moderation With Jev",
+      "claim": "Recommends two cut points per rule with a human queue between them; no text on Jev errors or outages (Reported).",
+      "accessed_at": "2026-10-02T05:27:52Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r5-report",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/routing-moderation",
+      "title": "Research report, 2 Oct 2026: model routing, jev-mcp version check, content moderation",
+      "claim": "The pool made no Jev call, opened no account and ran no router or moderation project; failure behaviour is read from source at pinned commits; nothing in the run is Tested.",
+      "accessed_at": "2026-10-02T06:15:00Z",
+      "relation": "limits",
+      "publication_basis": "owner-authored"
     }
   ]
 }

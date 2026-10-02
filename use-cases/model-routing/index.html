@@ -1,0 +1,318 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Jev Router or your own router? · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Jev router choices compared: OpenRouter&#039;s Jev Router, LiteLLM and five open-source routers, and where each sends a request when Jev fails or is unsure.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/use-cases/model-routing/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Jev Router or your own router? · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Jev router choices compared: OpenRouter&#039;s Jev Router, LiteLLM and five open-source routers, and where each sends a request when Jev fails or is unsure.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/use-cases/model-routing/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev Router or your own router?","description":"Jev router choices compared: OpenRouter's Jev Router, LiteLLM and five open-source routers, and where each sends a request when Jev fails or is unsure.","dateModified":"2026-10-02T06:15:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/model-routing/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="model-routing">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a><a href="../support-ticket-triage/index.html" ><span aria-hidden="true">▤</span><b>Support-ticket triage with Jev</b></a><a href="index.html" aria-current="page"><span aria-hidden="true">⇉</span><b>Jev Router or your own router?</b></a><a href="../content-moderation/index.html" ><span aria-hidden="true">⚑</span><b>Content moderation with Jev</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../../build/index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../../build/python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../../build/typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../../build/claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../../build/errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../../build/confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../../build/testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Open-source Jev alternatives</b></a><a href="../../alternatives/jev-vs-llm-vs-classifier/index.html" ><span aria-hidden="true">⋈</span><b>Jev vs LLM vs classifier</b></a><a href="../../alternatives/laya-vs-kev/index.html" ><span aria-hidden="true">⚖</span><b>Jev vs Laya vs Kev</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/data-privacy/index.html" ><span aria-hidden="true">eye</span><b>Jev data retention and privacy</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Products and projects using Jev</b></a><a href="../../benchmarks/index.html" ><span aria-hidden="true">▦</span><b>Jev benchmarks, graded</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv">
+  <div class="jv-kicker"><span>Use cases</span><span>OpenRouter docs read <time datetime="2026-10-02T05:15:54Z">2 October 2026, 05:15–05:16 UTC</time> · six routers read at pinned commits 05:16–05:21 UTC</span></div>
+  <h1>Jev Router or your own model router? Where requests go when Jev fails (TypeSafe AI)</h1>
+  <p class="jv-lede">The phrase "jev router" is used for several different things: OpenRouter's Jev Router (a chat endpoint that uses Jev to pick another model), LiteLLM's complexity router with Jev as its classifier, open-source routers that call Jev themselves, and an unrelated gateway at jev-router.com. Bing and DuckDuckGo suggest "jev router" when you type "jev r" or "jev routing" (checked 2 Oct 2026). This page compares what OpenRouter documents about its Jev Router with what six self-hosted routers do in their source code. The question is the same for all of them: where does a request go when Jev fails, is unsure, or gets a prompt longer than it can read?</p>
+
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">OpenRouter does not document what Jev Router does when Jev fails. Of six self-hosted Jev routers read in source, one sends every Jev failure to its frontier model; five keep, re-score or stop.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>OpenRouter docs and source at pinned commits, checked 2 Oct 2026</span></p>
+    <p>The six are LiteLLM's complexity router and the five model routers with the most GitHub stars in a repository search for "jev model router" (313 results on 2 Oct 2026). They were chosen by stars, not sampled, so this is not a count of how Jev routers are usually built. All six are code-backed integrations. The pool ran none of them, and none is independently verified as operating.</p>
+  </div>
+
+  <h2 id="on-failure">Where a request goes when the Jev call fails</h2>
+  <figure class="jv-figure" aria-labelledby="mr-flow-cap">
+    <p class="fig-title" id="mr-flow-cap">A router asks Jev which model should answer. The Jev call fails. What happens next?</p>
+    <ol class="jv-flow-cascade">
+      <li><strong>1. A request arrives</strong>The router sends Jev the request, or a summary of it, plus the list of models it may choose from.</li>
+      <li class="arrow" aria-hidden="true"><svg viewBox="0 0 26 26"><path d="M3 13h18M16 7l6 6-6 6" fill="none" stroke="#6b6a66" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></li>
+      <li class="mid"><strong>2. The Jev call fails</strong>An HTTP error, a timeout, or an answer the router cannot use (for example a model name that is not on its list).</li>
+      <li class="arrow" aria-hidden="true"><svg viewBox="0 0 26 26"><path d="M3 13h18M16 7l6 6-6 6" fill="none" stroke="#6b6a66" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></li>
+      <li class="split">
+        <div class="bad"><strong><span class="n">1</span>Frontier model</strong><small>0xNatoshi/jev-codex-router: <code>gpt-6-astra</code> at medium effort ("Fail-open: any Jev error → astra @medium")</small></div>
+        <div class="keep"><strong><span class="n">1</span>Current model kept</strong><small>gargpratyush/jev-router: the session stays on the model it already uses</small></div>
+        <div class="local"><strong><span class="n">2</span>Local scorer picks</strong><small>LiteLLM (its heuristic scorer by default, or an operator-set tier or model); autojev (local selection by preference)</small></div>
+        <div class="stop"><strong><span class="n">2</span>No model chosen</strong><small>BillionsBobby/JevRouter returns "no decision"; agent-router <code>run</code> exits with an error and launches nothing</small></div>
+        <div class="unk"><strong>OpenRouter Jev Router</strong><small>Not documented in the four OpenRouter documents searched</small></div>
+      </li>
+    </ol>
+    <figcaption>Read from source at the commits listed in the <a href="#routers">router table</a>, and from OpenRouter's docs (<a href="#jev-router">facts table</a>). <span class="ev ev-documented">Documented</span> 2 Oct 2026. The colours show where the request goes, not whether that choice is right for you: a frontier fallback costs more on every outage, while "no model chosen" leaves your code to decide.</figcaption>
+  </figure>
+
+  <h2 id="jev-router">OpenRouter's Jev Router: what is documented and what is not</h2>
+  <p>Jev Router (<code>typesafe/jev-router</code>) is a chat-completions model on OpenRouter. You send a normal chat request; Jev judges it and OpenRouter forwards it to another model. It does not return Jev decisions. <span class="ev ev-documented">Documented</span> <small>OpenRouter docs read 2 Oct 2026, 05:15–05:16 UTC; prices and IDs from the 05:14 UTC route check</small></p>
+  <div class="table-wrap stack">
+    <table class="jv-facts-t">
+      <thead><tr><th>Item</th><th>What OpenRouter says</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Item">How it picks</td><td data-l="OpenRouter says">Jev "reads the conversation and judges the task type, difficulty, and how much a stronger model would help. The router then chooses the cheapest candidate that meets that bar from a curated pool of models."</td><td data-l="Status"><span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="Item">Which models</td><td data-l="OpenRouter says">A curated pool chosen by OpenRouter. The pool is not listed. For the hardest requests "the router can pair the chosen model with an expert advisor". The response's <code>model</code> field names the model that answered.</td><td data-l="Status"><span class="ev ev-documented">Documented</span>; pool members not listed</td></tr>
+        <tr><td data-l="Item">Your control</td><td data-l="OpenRouter says">A <code>jev-router</code> plugin with an include list (<code>models</code> or <code>allowed_models</code>) and an exclude list (<code>excluded_models</code>), up to 1,024 patterns each. The lists "only narrow the router's pool". Unknown plugin keys are rejected with <code>400</code>.</td><td data-l="Status"><span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="Item">Edge cases that are documented</td><td data-l="OpenRouter says">An include list that matches nothing "is ignored" and the whole pool is used (reported as <code>list_fallback: "models_ignored"</code>). Exclusions "are never ignored": if they remove every model, "the request fails with <code>404</code>". Lists can also lower the tier (<code>list_tier_cap</code>) or remove the advisor (<code>max_fallback: "deep"</code>).</td><td data-l="Status"><span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="Item">Seeing what happened</td><td data-l="OpenRouter says">Send <code>X-OpenRouter-Metadata: enabled</code>. The response then lists <code>resolved_models</code>, "Models the router selected, in fallback order", and the list fields.</td><td data-l="Status"><span class="ev ev-documented">Documented</span></td></tr>
+        <tr><td data-l="Item">Jev error, timeout or malformed answer</td><td data-l="OpenRouter says" class="nd">Not stated in the Jev Router docs page, the model page and its FAQ, the model's <code>llms.txt</code>, or OpenRouter's full docs export (<code>llms-full.txt</code>, 4.16 MB, searched for Jev failure wording).</td><td data-l="Status"><span class="chip warn">Not documented</span></td></tr>
+        <tr><td data-l="Item">"Fails rather than falls back on invalid Jev output"</td><td data-l="OpenRouter says" class="nd">Not found in any of those four documents. The claim comes from one third-party blog (seen 28 Sep).</td><td data-l="Status"><span class="ev ev-unverified">Unverified</span></td></tr>
+        <tr><td data-l="Item">Long conversations</td><td data-l="OpenRouter says" class="nd">The router lists a 1,000,000-token context. Jev on OpenRouter lists 32,000. Which part of a long conversation Jev reads is not stated.</td><td data-l="Status"><span class="chip warn">Not documented</span></td></tr>
+        <tr><td data-l="Item">Billing</td><td data-l="OpenRouter says" class="nd">Model page FAQ: "The pricing shown on this page for Jev Router is zero, so you are not charged for prompt or completion tokens." OpenRouter's models API shows <code>-1</code> for prompt and completion. How the model that answers is billed is not stated on the pages searched. (The Auto Router page says "You pay the standard rate for whichever model is selected", but that page is about <code>openrouter/auto</code>, not Jev Router.)</td><td data-l="Status"><span class="chip warn">Not documented</span> for the routed model</td></tr>
+        <tr><td data-l="Item">Endpoints</td><td data-l="OpenRouter says">Its <code>/endpoints</code> call lists no endpoint (unchanged since 28 Sep).</td><td data-l="Status"><span class="ev ev-documented">Documented</span>; meaning not stated</td></tr>
+        <tr><td data-l="Item">Data handling of the routing step</td><td data-l="OpenRouter says" class="nd">Not covered on the Jev Router page. Labels for the Jev endpoint itself are on <a href="../../where-to-use/data-privacy/index.html#rt-openrouter">data handling by route</a>.</td><td data-l="Status"><span class="chip warn">Not documented</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="jv-box info" id="auto">
+    <h3>For comparison: OpenRouter Auto (no Jev involved)</h3>
+    <p><code>openrouter/auto</code> uses "a fast, lightweight classifier" that assigns each prompt one of about 30 task types, then ranks models by spend for that task type within a cost tier. Its page states a fallback: "If classification or rankings are ever unavailable, the router degrades gracefully to a default model set — a request never fails because routing infrastructure hiccuped." The default set is not listed. Price: "You pay the standard rate for whichever model is selected. There is no additional fee for using the Auto Router." <span class="ev ev-documented">Documented</span> <small>2 Oct 2026, 05:15 UTC</small></p>
+  </div>
+
+  <h2 id="routers">Six self-hosted routers: what each does when Jev fails or is unsure</h2>
+  <p>Open a situation to highlight its column and read what the six do; opening one closes the others. Every cell comes from source at the commit shown. <span class="ev ev-documented">Documented</span> <small>Read 2 Oct 2026, 05:16–05:21 UTC. Timeouts are code defaults.</small></p>
+  <div class="jv-scen">
+    <div class="jv-acc" role="group" aria-label="Situation">
+      <details name="mr" id="mr-err" open>
+        <summary><span class="acc-k">Jev errors or times out</span><span class="acc-h">The HTTP call fails or takes too long</span></summary>
+        <div><p>One router sends the request to its frontier tier (0xNatoshi, after 4 s). One keeps the current model (gargpratyush, 3 s deadline). Two pick locally: LiteLLM uses its heuristic scorer by default after 3 s, autojev its own selection after 2 s or 8 s. Two choose no model: BillionsBobby returns "no decision" with a <code>provider_error</code>, and agent-router <code>run</code> exits without launching anything. Decide which of these your budget can live with before you launch.</p></div>
+      </details>
+      <details name="mr" id="mr-uns">
+        <summary><span class="acc-k">Jev is unsure</span><span class="acc-h">Low confidence in the chosen model or tier</span></summary>
+        <div><p>Four of six act on confidence: gargpratyush below 0.3 makes no downgrade, BillionsBobby below 0.55 returns no decision, agent-router below 0.75 on consequential tasks asks you to pick, and autojev below 0.5 selects locally. LiteLLM only logs confidence, and 0xNatoshi logs it "without changing other valid choices". How to choose your own threshold: <a href="../../build/confidence-thresholds/index.html">confidence thresholds</a>.</p></div>
+      </details>
+      <details name="mr" id="mr-mal">
+        <summary><span class="acc-k">Malformed answer</span><span class="acc-h">The answer names no tier, or one the router does not know</span></summary>
+        <div><p>Five of six send a malformed answer down the same path as an error: LiteLLM to its fallback, gargpratyush to "keep current", BillionsBobby to "no decision", 0xNatoshi to Astra and autojev to local selection. agent-router's malformed-answer path was not traced.</p></div>
+      </details>
+      <details name="mr" id="mr-long">
+        <summary><span class="acc-k">Long prompt</span><span class="acc-h">More text than Jev can read in one request</span></summary>
+        <div><p>Four routers send the full current ask, task or last message with no length cut (LiteLLM, gargpratyush, BillionsBobby, agent-router). A very long ask can then fail at Jev and take the failure path. 0xNatoshi clips the ask to 400 characters; autojev sends no prompt text at all, only a token estimate and signals. Jev reads 32,000 tokens on OpenRouter; TypeSafe direct allows 64k per request with 32k for state plus the longest question.</p></div>
+      </details>
+    </div>
+    <div class="table-wrap stack stack-md">
+      <table class="jv-heat">
+        <thead><tr><th>Router (commit)</th><th>Where the request goes on failure</th><th class="c-uns">Jev unsure</th><th class="c-err">Error or timeout (timeout)</th><th class="c-mal">Malformed answer</th><th class="c-long">What reaches Jev; long prompts</th></tr></thead>
+        <tbody>
+          <tr id="r-litellm"><td data-l="Router"><a href="https://github.com/BerriAI/litellm/tree/8d28e8d77622861a20da872268f9375e6d87afd4/litellm/router_strategy/complexity_router">LiteLLM complexity router</a>, <code>classifier_type: "jev"</code> (<code>8d28e8d</code>)<small>Code-backed integration in an AI gateway. One Jev Choice over five tiers or operator-defined tiers. Tests: not checked</small></td><td data-l="On failure" class="k k-fb"><strong>Local fallback</strong>The <code>llm_v2</code> capable tier if set; else <code>fallback_tier</code>; else <code>classifier_fallback</code>, default <code>heuristic</code> (LiteLLM's local scorer), or <code>default_model</code></td><td data-l="Jev unsure" class="k k-na c-uns"><strong>No threshold</strong>Confidence is logged only</td><td data-l="Error or timeout" class="k k-fb c-err"><strong>Fallback after 3 s</strong>Circuit breaker on by default (30 s cooldown)</td><td data-l="Malformed" class="k k-fb c-mal"><strong>Fallback</strong>Missing, unknown or empty tier, or schema error</td><td data-l="What reaches Jev" class="k k-na c-long"><strong>Full current ask</strong>Plus system text and earlier user turns up to a character budget. No cut to Jev's limit</td></tr>
+          <tr id="r-garg"><td data-l="Router"><a href="https://github.com/gargpratyush/jev-router/tree/38da6b84ea01241bfc41fbddc0928d0f40a703f0">gargpratyush/jev-router</a> (<code>38da6b8</code>)<small>Code-backed integration: Claude Code proxy choosing haiku, sonnet, opus or fable. Tests: yes</small></td><td data-l="On failure" class="k k-hold"><strong>Keeps the current model</strong>No change; never steps up into <code>fable</code> unless asked</td><td data-l="Jev unsure" class="k k-go c-uns"><strong>&lt; 0.3: no downgrade</strong>Upgrades capped at sonnet, or the current tier if higher</td><td data-l="Error or timeout" class="k k-hold c-err"><strong>Keep current</strong>1.5 s per attempt, 1 retry, 3 s deadline</td><td data-l="Malformed" class="k k-hold c-mal"><strong>Keep current</strong>Unknown tier</td><td data-l="What reaches Jev" class="k k-na c-long"><strong>Last user message</strong>System reminders stripped; plus current model and a context-size estimate. No cut</td></tr>
+          <tr id="r-bobby"><td data-l="Router"><a href="https://github.com/BillionsBobby/JevRouter/tree/e11084c808e1902d11230e7a7937e5008fec7f02">BillionsBobby/JevRouter</a> (<code>e11084c</code>)<small>Code-backed integration: routes to models, tools and subagents from capability manifests. Tests: yes</small></td><td data-l="On failure" class="k k-flag"><strong>No decision</strong>Nothing selected; the caller must choose</td><td data-l="Jev unsure" class="k k-go c-uns"><strong>&lt; 0.55: no decision</strong><code>min_confidence</code> default</td><td data-l="Error or timeout" class="k k-flag c-err"><strong>No decision</strong>15 s (TypeSafe) or 20 s (OpenRouter Decisions); <code>provider_error</code> attached</td><td data-l="Malformed" class="k k-flag c-mal"><strong>No decision</strong>Unknown capability, missing probabilities or bad confidence</td><td data-l="What reaches Jev" class="k k-na c-long"><strong>Request, actor, context</strong>No cut</td></tr>
+          <tr id="r-natoshi"><td data-l="Router"><a href="https://github.com/0xNatoshi/jev-codex-router/tree/8701ef788aa8cb0948f299538747fb01029d32b8">0xNatoshi/jev-codex-router</a> (<code>8701ef7</code>)<small>Code-backed integration for Codex: tiers <code>gpt-5.6-luna</code>, <code>gpt-5.6-sol</code>, <code>gpt-6-astra</code>. Tests: yes</small></td><td data-l="On failure" class="k k-stop"><strong><code>gpt-6-astra</code>, medium effort</strong>The router's frontier tier. Also Astra when no key is set</td><td data-l="Jev unsure" class="k k-na c-uns"><strong>Ignored</strong>Confidence "is logged without changing other valid choices"</td><td data-l="Error or timeout" class="k k-stop c-err"><strong>Astra after 4 s</strong>Any exception</td><td data-l="Malformed" class="k k-stop c-mal"><strong>Astra</strong>Parsing raises; same branch</td><td data-l="What reaches Jev" class="k k-go c-long"><strong>Clipped to 400 characters</strong>Last user text, head and tail, plus bounded signals. The thread never reaches Jev</td></tr>
+          <tr id="r-agent"><td data-l="Router"><a href="https://github.com/nidhi-singh02/agent-router/tree/fb24d06a62fb33a92c7836b4920ae9f4b1216c63">nidhi-singh02/agent-router</a> (<code>fb24d06</code>)<small>Code-backed integration: command-line tool that picks the agent tool, model and effort. Tests: yes</small></td><td data-l="On failure" class="k k-flag"><strong><code>run</code>: exits, nothing launched</strong>"TypeSafe could not select a route". <code>effort</code>: no change</td><td data-l="Jev unsure" class="k k-go c-uns"><strong>&lt; 0.75 and consequential: you pick</strong>Asks you to choose one of the top two</td><td data-l="Error or timeout" class="k k-flag c-err"><strong>Exit with error</strong>SDK default timeout (not set in code)</td><td data-l="Malformed" class="k k-na c-mal"><strong>Not traced</strong></td><td data-l="What reaches Jev" class="k k-na c-long"><strong>Task text</strong>No cut. Refuses to send text that looks like a credential</td></tr>
+          <tr id="r-autojev"><td data-l="Router"><a href="https://github.com/thinkany-ai/autojev/tree/d5d5731668d248140e2ae88dd3dcd482065a0096">thinkany-ai/autojev</a> (<code>d5d5731</code>)<small>Code-backed integration: desktop gateway; preference balanced, cost, quality or speed. Tests: some</small></td><td data-l="On failure" class="k k-fb"><strong>Local selection</strong>By heuristic tier and preference (cost → cheapest capable; quality → strong tier)</td><td data-l="Jev unsure" class="k k-go c-uns"><strong>&lt; 0.5: local selection</strong></td><td data-l="Error or timeout" class="k k-fb c-err"><strong>Local selection</strong>2 s (balanced) or 8 s</td><td data-l="Malformed" class="k k-fb c-mal"><strong>Local selection</strong>Invalid candidate</td><td data-l="What reaches Jev" class="k k-go c-long"><strong>No prompt text</strong>Token estimate, tool and vision flags, a local complexity score and the candidate list with costs</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <ul class="jv-keys">
+    <li class="k-stop">Sends the request to the router's frontier tier</li>
+    <li class="k-hold">Keeps the model already in use</li>
+    <li class="k-fb">A local rule or scorer picks the model</li>
+    <li class="k-flag">No model chosen; the caller decides</li>
+    <li class="k-go">Acts on confidence, or limits what Jev reads</li>
+    <li class="k-na">No gate, no cut, or not traced</li>
+  </ul>
+
+  <h3 id="inputs">What decides, what you can override, and what it costs</h3>
+  <div class="table-wrap stack stack-md">
+    <table>
+      <thead><tr><th>Router</th><th>What Jev is asked; candidates</th><th>Your override</th><th>Cost basis</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Router">LiteLLM</td><td data-l="Jev is asked">One Choice "tier" over five tiers (non-reasoning, simple, medium, complex, reasoning) or tiers you define; you set each tier's models</td><td data-l="Override">Operator configuration</td><td data-l="Cost">The Jev call, priced from LiteLLM's model registry, plus the routed model</td></tr>
+        <tr><td data-l="Router">gargpratyush</td><td data-l="Jev is asked">One Choice "model" over the account's tiers plus three Scores</td><td data-l="Override">Phrases such as "use opus" or "switch to haiku" in the prompt</td><td data-l="Cost">The Jev call plus the Claude model; no downgrade above 20,000 context tokens, to avoid rebuilding the cache</td></tr>
+        <tr><td data-l="Router">BillionsBobby</td><td data-l="Jev is asked">One Choice over capability manifests (optionally in two stages), such as <code>model.claude-sonnet</code></td><td data-l="Override">Policy filters, permissions, <code>requires_confirmation</code></td><td data-l="Cost">One or two Jev calls per route</td></tr>
+        <tr><td data-l="Router">0xNatoshi</td><td data-l="Jev is asked">A capability tier, thinking depth and a route lease; code forces Astra for some review and architecture cases</td><td data-l="Override">A kill-switch file sends everything to Astra without asking Jev; shadow mode serves Astra</td><td data-l="Cost">The Jev call plus the routed model; leases reuse one decision to skip a paid Jev call</td></tr>
+        <tr><td data-l="Router">agent-router</td><td data-l="Jev is asked">Six questions (family, phase, complexity, creativity, consequence, cache value), then a ranker over account and model candidates</td><td data-l="Override">You choose when asked</td><td data-l="Cost">The Jev call plus the launched agent; cost and quota rechecked before launch</td></tr>
+        <tr><td data-l="Router">autojev</td><td data-l="Jev is asked">One Choice over eligible model IDs</td><td data-l="Override">An explicit model request is kept</td><td data-l="Cost">Estimated per request; models with unknown prices are used only as a fallback</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="counts">What the six rows add up to</h2>
+  <figure class="jv-figure" aria-labelledby="mr-tally-cap">
+    <p class="fig-title" id="mr-tally-cap">Six routers read in source, one chip each</p>
+    <ul class="jv-tally">
+      <li><span class="t-q">Jev errors or times out<small>where the request goes</small></span><ul class="t-cells"><li class="t-red"><b>Frontier tier</b>0xNatoshi</li><li class="t-amber"><b>Keep current</b>gargpratyush</li><li class="t-blue"><b>Local scorer</b>LiteLLM</li><li class="t-blue"><b>Local scorer</b>autojev</li><li class="t-gray"><b>No model</b>BillionsBobby</li><li class="t-gray"><b>No model</b>agent-router</li></ul></li>
+      <li><span class="t-q">Jev is unsure<small>does the router use confidence?</small></span><ul class="t-cells"><li class="t-green"><b>Gate 0.3</b>gargpratyush</li><li class="t-green"><b>Gate 0.55</b>BillionsBobby</li><li class="t-green"><b>Gate 0.75</b>agent-router</li><li class="t-green"><b>Gate 0.5</b>autojev</li><li class="t-gray"><b>Logged only</b>LiteLLM</li><li class="t-gray"><b>Logged only</b>0xNatoshi</li></ul></li>
+      <li><span class="t-q">What reaches Jev<small>length of the prompt text</small></span><ul class="t-cells"><li class="t-gray"><b>Full, no cut</b>LiteLLM</li><li class="t-gray"><b>Full, no cut</b>gargpratyush</li><li class="t-gray"><b>Full, no cut</b>BillionsBobby</li><li class="t-gray"><b>Full, no cut</b>agent-router</li><li class="t-green"><b>400 characters</b>0xNatoshi</li><li class="t-green"><b>No text</b>autojev</li></ul></li>
+      <li><span class="t-q">OpenRouter Jev Router<small>for comparison</small></span><ul class="t-cells"><li class="t-dash"><b>On failure</b>not documented</li><li class="t-dash"><b>When unsure</b>not documented</li><li class="t-dash"><b>Long conversations</b>not documented</li></ul></li>
+    </ul>
+    <figcaption>Counts from the six rows above; they describe these six routers only. <span class="ev ev-documented">Documented</span> 2 Oct 2026.</figcaption>
+  </figure>
+
+  <figure class="jv-figure" aria-labelledby="mr-tmo-cap">
+    <p class="fig-title" id="mr-tmo-cap">How long each router waits for Jev before taking its failure path</p>
+    <ul class="jv-bars wide-labels">
+      <li class="c-doc"><span class="l">autojev (balanced; other modes 8 s)</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect class="band" x="10" width="30" height="18"/><rect width="10" height="18" rx="2"/></svg><span class="v">2–8 s</span></li>
+      <li class="c-doc"><span class="l">gargpratyush (1.5 s per attempt)</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="15" height="18" rx="2"/></svg><span class="v">3 s</span></li>
+      <li class="c-doc"><span class="l">LiteLLM</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="15" height="18" rx="2"/></svg><span class="v">3 s</span></li>
+      <li class="c-doc"><span class="l">0xNatoshi</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="20" height="18" rx="2"/></svg><span class="v">4 s</span></li>
+      <li class="c-doc"><span class="l">BillionsBobby (TypeSafe; OpenRouter 20 s)</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect class="band" x="75" width="25" height="18"/><rect width="75" height="18" rx="2"/></svg><span class="v">15–20 s</span></li>
+      <li class="c-zero"><span class="l">agent-router</span><span class="zero-mark" aria-hidden="true"></span><span class="v">not set</span></li>
+    </ul>
+    <figcaption>Scale 0–20 seconds. The lighter band shows a second default where the router has one. agent-router relies on the TypeSafe SDK's default, which is not set in its code. A timeout longer than the routed model's own latency budget delays every request during a Jev outage. <span class="ev ev-documented">Documented</span> code defaults, 2 Oct 2026.</figcaption>
+  </figure>
+
+  <h2 id="pick">Pick … if</h2>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Pick</th><th>If</th><th>Watch out for</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Pick">OpenRouter Jev Router</td><td data-l="If">You already use OpenRouter, want no code, and can accept that OpenRouter chooses the pool</td><td data-l="Watch out for">Failure, low-confidence and long-context behaviour are not documented; how the routed model is billed is not documented. Use <code>excluded_models</code> for models you must never pay for: an exclusion that empties the pool returns <code>404</code>, it does not fall back</td></tr>
+        <tr><td data-l="Pick">OpenRouter Auto</td><td data-l="If">You want a stated fallback that never fails the request, and standard per-model pricing</td><td data-l="Watch out for">No Jev involved; the default fallback set is not listed</td></tr>
+        <tr><td data-l="Pick">LiteLLM complexity router with Jev</td><td data-l="If">You run LiteLLM and want your own tier pools</td><td data-l="Watch out for">Set <code>fallback_tier</code> or <code>classifier_fallback: default_model</code> if you need a known destination on failure. Confidence is not used, so add your own gate</td></tr>
+        <tr><td data-l="Pick">A router that keeps the current model (gargpratyush)</td><td data-l="If">Your sessions start on a model you are happy to pay for</td><td data-l="Watch out for">A failure means no saving, not a surprise upgrade; a session that started on Opus stays on Opus</td></tr>
+        <tr><td data-l="Pick">A router that returns "no decision" (BillionsBobby, agent-router)</td><td data-l="If">You must never change models without knowing</td><td data-l="Watch out for">Your code must handle the empty result</td></tr>
+        <tr><td data-l="Pick">A router that falls back to its frontier tier (0xNatoshi)</td><td data-l="If">Quality matters more than cost when Jev fails</td><td data-l="Watch out for">Every Jev outage or timeout bills the frontier model. Check its timeout (4 s) and log each fallback</td></tr>
+        <tr><td data-l="Pick">A router that sends no prompt text (autojev)</td><td data-l="If">You do not want prompt text sent to TypeSafe</td><td data-l="Watch out for">Jev judges from a local complexity score and signals, not from the request itself</td></tr>
+        <tr><td data-l="Pick">Any of them, with long conversations</td><td data-l="If">Your asks can be very long</td><td data-l="Watch out for">Only 0xNatoshi clips (400 characters) and only autojev sends no text. The other four send the full ask, so a very long one can fail at Jev and take the failure path</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><small>To compare the cost of a Jev call with your current routing model, use the <a href="../../where-to-use/cost-per-decision/index.html">cost per decision worksheet</a>. Route prices, context and IDs for Jev itself are on <a href="../../where-to-use/index.html#matrix">where to use Jev</a>.</small></p>
+
+  <h2 id="rules">Seven rules for routing with Jev, and which routers follow them</h2>
+  <ol class="jv-rules">
+    <li><div><strong>Decide the failure destination before launch.</strong><p>A fixed default you can afford, "keep current", or an error to the caller. Write it in configuration, not in a code comment. The same rule for ticket queues is on <a href="../support-ticket-triage/index.html#rules">support-ticket triage</a>.</p></div><span class="who"><span class="chip ok">BillionsBobby</span><span class="chip ok">agent-router</span><span class="chip ok">gargpratyush</span><span class="chip info">LiteLLM: set it</span></span></li>
+    <li><div><strong>Never let a failure pick your top tier without a log line and a counter.</strong><p>One of the six routers read does this by design.</p></div><span class="who"><span class="chip fail">0xNatoshi: Astra on any error</span></span></li>
+    <li><div><strong>Gate on confidence.</strong><p>Set the threshold from your own traffic (<a href="../../build/confidence-thresholds/index.html#procedure">procedure</a>).</p></div><span class="who"><span class="chip ok">gargpratyush</span><span class="chip ok">BillionsBobby</span><span class="chip ok">agent-router</span><span class="chip ok">autojev</span><span class="chip fail">LiteLLM, 0xNatoshi: logged only</span></span></li>
+    <li><div><strong>Cut or summarise long prompts before Jev sees them.</strong><p>Jev reads 32k tokens for state plus the longest question (64k per request) on TypeSafe direct, and 32k on OpenRouter.</p></div><span class="who"><span class="chip ok">0xNatoshi: 400 chars</span><span class="chip ok">autojev: no text</span><span class="chip none">Four: no cut</span></span></li>
+    <li><div><strong>Keep the Jev timeout shorter than the routed call's latency budget.</strong><p>The six use 1.5 s per attempt up to 20 s. Rate limits and retry advice: <a href="../../build/errors-and-rate-limits/index.html#fallback">errors and rate limits</a>.</p></div><span class="who"><span class="chip info">1.5–20 s</span><span class="chip none">agent-router: not set</span></span></li>
+    <li><div><strong>Exclude, do not only include.</strong><p>On OpenRouter Jev Router an include list that matches nothing is ignored; an exclusion is never ignored.</p></div><span class="who"><span class="chip info">Jev Router</span></span></li>
+    <li><div><strong>Log which model answered.</strong><p>Jev Router's <code>model</code> field and router metadata, or your router's own log, so failures show up in cost reports.</p></div><span class="who"><span class="chip info">All</span></span></li>
+  </ol>
+  <p><small>What a router sends to TypeSafe is personal data if your prompts are: see <a href="../../where-to-use/data-privacy/index.html">what data leaves your system, by route</a>. The rules are a design reading of the source above, not a measured result.</small></p>
+
+  <div class="jv-box info" id="cascade">
+    <h3>A related pattern: check first, upgrade only on failure</h3>
+    <p>OpenRouter's cookbook "Cut LLM Cost with a Jev-Verified Cascade" lets a cheap model draft an answer, asks Jev whether the draft is supported (accept at confidence 0.8 or more), and calls the frontier model only when the check fails. In the example code an unknown Jev label throws and nothing catches it, so a Jev failure reaches the caller as an error rather than a silent upgrade. <span class="ev ev-documented">Documented</span> vendor example. Its 50-question result is OpenRouter's own claim. <span class="ev ev-reported">Reported</span></p>
+  </div>
+
+  <div class="jv-box info" id="evidence">
+    <h2>Is there a test of Jev as a router?</h2>
+    <ul>
+      <li><strong>B05, LiteLLM:</strong> 80 routing prompts written and labelled by the same author; grade C, with a conflict of interest because LiteLLM ships Jev as a router option. See <a href="../../benchmarks/index.html#b05">benchmarks, row B05</a>. <span class="ev ev-reported">Reported</span></li>
+      <li><strong>Speed and cost claims</strong> by MindStudio and OpenRouter are vendor claims (<span class="ev ev-reported">Reported</span>). None of them measures what happens when the router is wrong or Jev fails.</li>
+      <li><strong>Lead, not read:</strong> <code>feD0s/jev-router-bench</code> (created 1 Oct; an intent-routing experiment in Russian). <span class="ev ev-unverified">Unverified</span></li>
+    </ul>
+    <p>Routing videos, linked but not watched for this page: <a href="https://www.youtube.com/watch?v=bA8WeHYmJko&amp;t=642">Cole Medin, routing at 10:42</a>; <a href="https://www.youtube.com/watch?v=kWwgY-2rZXk&amp;t=378">Omar Kamal, 54-rule routing at 6:18</a>; <a href="https://www.youtube.com/watch?v=HHUsHkYhkcM&amp;t=1197">LangChain and TypeSafe, routing at 19:57</a>; <a href="https://www.youtube.com/watch?v=rpQqUEmRbaA">"Build a Real AI Model Router"</a>; <a href="https://www.youtube.com/watch?v=TU2pBOiC_E0">a video on OpenRouter and Jev routing</a>; <a href="https://www.youtube.com/watch?v=7w8eRWnUUA8">"Jev and Herdr … Route Models"</a>. More in the <a href="../../videos/index.html#vg-routing">routing videos group</a>.</p>
+  </div>
+
+  <div class="jv-box warn" id="names">
+    <h2>Same name, different things</h2>
+    <ul>
+      <li><strong>OpenRouter Jev Router</strong> (<code>typesafe/jev-router</code>): OpenRouter's chat endpoint that uses Jev to pick another model. It does not return Jev decisions.</li>
+      <li><strong><code>jev-router.com</code></strong>: an independent gateway for open models. It does not serve TypeSafe's Jev (checked 28 Sep).</li>
+      <li><strong>Repositories named <code>jev-router</code></strong>: unrelated projects share the name, for example <code>gargpratyush/jev-router</code>, <code>prismhq/jev-router</code>, <code>rajdhakad9826/jev-router</code>, <code>dirien/jev-router</code> and <code>ForestMars/Jev-router</code>. A repository name says nothing about OpenRouter.</li>
+    </ul>
+  </div>
+
+  <h2 id="method">How the six were chosen</h2>
+  <p>LiteLLM's complexity router was named in the research plan in advance: LiteLLM, an AI gateway, offers Jev as a classifier for this router. The other five are the model routers with the most stars in a GitHub repository search for "jev model router" on 2 Oct 2026 (313 results; an index count, not adoption): <code>gargpratyush/jev-router</code> (518 stars), <code>BillionsBobby/JevRouter</code> (343), <code>0xNatoshi/jev-codex-router</code> (276), <code>nidhi-singh02/agent-router</code> (100) and <code>thinkany-ai/autojev</code> (74). Two higher results were skipped: <code>kerpopule/hermes-jev-skills</code> (991 stars, a broader skill suite, not read for time) and <code>angel291592/Intent-Router</code> (intent compilation, not model choice). Each was pinned to one commit and read from source; nothing was installed or run and no Jev call was made. Routers found earlier and nine routing repositories created on 1–2 Oct stay leads.</p>
+
+  <div class="jv-box warn">
+    <h2>What was not verified</h2>
+    <ul>
+      <li>What OpenRouter's Jev Router does on a Jev error, timeout, malformed answer or over-long conversation, and how it bills the model that answers. Only OpenRouter can answer this.</li>
+      <li>Whether "fails rather than falls back" is true, and which models are in Jev Router's pool.</li>
+      <li>How any of the six routers behaves live: none was run.</li>
+      <li>LiteLLM's published docs page for the Jev classifier (not located; its configuration field descriptions were read instead).</li>
+      <li>agent-router's malformed-answer path.</li>
+      <li>How many people use any of these routers.</li>
+    </ul>
+  </div>
+
+  <section class="jv-sources" aria-labelledby="mr-sources">
+    <h2 id="mr-sources">Sources and check times (2 Oct 2026, UTC)</h2>
+    <ul>
+      <li>OpenRouter (05:15–05:16): <a href="https://openrouter.ai/docs/guides/routing/routers/jev-router.md">Jev Router docs</a>; <a href="https://openrouter.ai/typesafe/jev-router">model page and FAQ</a> and its <a href="https://openrouter.ai/typesafe/jev-router/llms.txt">llms.txt</a>; <a href="https://openrouter.ai/docs/guides/routing/routers/auto-router.md">Auto Router docs</a>; <a href="https://openrouter.ai/docs/guides/features/router-metadata.md">router metadata</a>; <a href="https://openrouter.ai/docs/llms-full.txt">full docs export</a> (searched, includes the cascade cookbook, 05:16); <a href="https://openrouter.ai/api/v1/models/typesafe/jev-router/endpoints">Jev Router endpoints</a> and <a href="https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints">Jev 1.13 endpoints</a> (05:14).</li>
+      <li>LiteLLM at <a href="https://github.com/BerriAI/litellm/tree/8d28e8d77622861a20da872268f9375e6d87afd4/litellm/router_strategy/complexity_router">8d28e8d</a>: <code>jev_classifier.py</code>, <code>complexity_router.py</code> L2157–2294, <code>config.py</code> (05:16).</li>
+      <li><a href="https://github.com/gargpratyush/jev-router/tree/38da6b84ea01241bfc41fbddc0928d0f40a703f0">gargpratyush/jev-router at 38da6b8</a>: <code>src/router.mjs</code>, <code>policy.mjs</code>, <code>config.mjs</code>, <code>proxy.mjs</code> (05:18).</li>
+      <li><a href="https://github.com/BillionsBobby/JevRouter/tree/e11084c808e1902d11230e7a7937e5008fec7f02">BillionsBobby/JevRouter at e11084c</a>: <code>src/router.ts</code>, <code>src/provider.ts</code> (05:18).</li>
+      <li><a href="https://github.com/0xNatoshi/jev-codex-router/tree/8701ef788aa8cb0948f299538747fb01029d32b8">0xNatoshi/jev-codex-router at 8701ef7</a>: <code>server/jev_server.py</code> L1–60, L563–578, L1892–1915; <code>server/routing_policy.py</code> (05:18).</li>
+      <li><a href="https://github.com/nidhi-singh02/agent-router/tree/fb24d06a62fb33a92c7836b4920ae9f4b1216c63">nidhi-singh02/agent-router at fb24d06</a>: <code>decision-engine.ts</code>, <code>typesafe-client.ts</code>, <code>fallback.ts</code>, <code>commands/run.ts</code> L352–375, <code>commands/effort.ts</code> L258–270 (05:18).</li>
+      <li><a href="https://github.com/thinkany-ai/autojev/tree/d5d5731668d248140e2ae88dd3dcd482065a0096">thinkany-ai/autojev at d5d5731</a>: <code>src-tauri/src/router.rs</code> L240–300, L486–511, L640–760 (05:18).</li>
+      <li>Selection: GitHub repository search "jev model router", sorted by stars (05:18). Query wording: Bing and DuckDuckGo autocomplete (05:15).</li>
+    </ul>
+  </section>
+
+  <section class="jv-related" aria-labelledby="mr-related">
+    <h2 id="mr-related">Related pages</h2>
+    <ul>
+      <li><a href="../index.html">All use cases by evidence level (hub)</a></li>
+      <li><a href="../../where-to-use/index.html">Where to use Jev: routes, prices and the Jev Router row</a></li>
+      <li><a href="../../where-to-use/cost-per-decision/index.html">Cost per decision worksheet</a></li>
+      <li><a href="../../where-to-use/data-privacy/index.html">What data leaves your system, by route</a></li>
+      <li><a href="../../build/confidence-thresholds/index.html">How to choose a confidence threshold</a></li>
+      <li><a href="../../build/errors-and-rate-limits/index.html">Errors, rate limits and fallback</a></li>
+      <li><a href="../support-ticket-triage/index.html">Support-ticket triage: routing tickets to queues</a></li>
+      <li><a href="../content-moderation/index.html">Content moderation: what projects do when Jev fails</a></li>
+      <li><a href="../../build/claude-code-mcp/index.html">Claude Code and MCP guardrails (allow and deny)</a></li>
+      <li><a href="../../benchmarks/index.html#b05">LiteLLM's routing test (B05)</a></li>
+      <li><a href="../../reports/routing-moderation/index.html">2 Oct research report</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>2 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>

@@ -187,6 +187,17 @@
       "summary": "Compared hosted Jev, Laya and Kev on the same rows: only Opper's 362-item test finds an open model (Kev-4B) within noise of Jev, and JevBench scores Laya and earlier Kev previews well below Jev. Quoted training, retention and ZDR terms for TypeSafe direct and four gateways with gateway and provider layers apart: no primary text allows training on prompts without consent; TypeSafe's MCA grants a licence in perpetuity to use Customer Data to derive telemetry and monitor for fraud and abuse; Vercel also routes Jev through DigitalOcean, marked not ZDR. Read five ticket-triage projects in source: four send unsure tickets to a person, one archives tickets on API errors. Access unchanged; rate-limit change narrowed. No pool Jev call.",
       "report_path": "/p/jev-catalog/reports/alternatives-data-handling-triage",
       "entrypoint": "reports/alternatives-data-handling-triage/index.html"
+    },
+    {
+      "run_id": "run:8cfd1805-b04a-40d8-87dd-4c6c667c0920",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-02T05:12:21Z",
+      "completed_at": "2026-10-02T06:15:00Z",
+      "title": "Model routing, the jev-mcp version check, and content moderation",
+      "summary": "Read OpenRouter's Jev Router docs (failure, long-context and routed-model billing not documented) and six self-hosted Jev routers at pinned commits: one sends every Jev failure to its frontier model, five keep the current model, pick locally or choose no model. @jkudish/jev-mcp 0.12.0 and 0.13.0 keep the audited failure path. Read six moderation projects at pinned commits: four leave the post up when Jev fails, one holds it, one returns no decision; no published moderation accuracy found. Access unchanged. No pool Jev call.",
+      "report_path": "/p/jev-catalog/reports/routing-moderation",
+      "entrypoint": "reports/routing-moderation/index.html"
     }
   ]
 }
