@@ -2,6 +2,54 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "email-and-lead-sorting-page-2026-10-03",
+      "changed_at": "2026-10-03T06:30:00Z",
+      "summary": "New page: Jev email classifier (TypeSafe AI). Of 5 email and lead sorters read in source, none touches the mailbox when Jev errors; of the 3 that can write to Gmail or IMAP, only 1 routes unsure mail to a Review label. Project table in the shared failure terms, cost per 1,000 emails (pool arithmetic beside the Reported demo figure), seven design rules, data and permissions box.",
+      "path": "/p/jev-catalog/use-cases/email-and-lead-sorting"
+    },
+    {
+      "change_id": "n8n-page-2026-10-03",
+      "changed_at": "2026-10-03T06:30:00Z",
+      "summary": "New page: Jev n8n node (TypeSafe AI). Only the scoped @typesafe-ai/n8n-nodes-typesafe-ai is TypeSafe's (npm provenance, n8n-verified); the unscoped n8n-nodes-typesafe-ai is a third party's. All 5 nodes read stop the workflow on a Jev error by default; Continue On Fail behaviour compared.",
+      "path": "/p/jev-catalog/build/n8n"
+    },
+    {
+      "change_id": "products-refresh-2026-10-03",
+      "changed_at": "2026-10-03T06:30:00Z",
+      "summary": "Products hub refreshed: 61 ledger rows (A 39, B 21, C 1); 24 new grade-A rows from the triage, routing, moderation, email and n8n audits; 0 independently verified in production. 5 of 7 published claims rechecked and unchanged; the 2 VentureBeat-relayed claims were not rechecked. LiteLLM listed under not counted as products.",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "rate-limit-80rps-2026-10-03",
+      "changed_at": "2026-10-03T06:30:00Z",
+      "summary": "TypeSafe's models page now lists 100K tokens per second and 80 requests per second (40 on 2 Oct, 05:14 UTC; changed by 3 Oct, 05:16 UTC). Home notice replaced (rate-limits-changed retired as superseded; rate-limits-changed-2026-10-03 added); access-status timeline, errors-and-rate-limits, limitations and where-to-use updated. Access status unchanged.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "omc-v560-check-2026-10-03",
+      "changed_at": "2026-10-03T06:30:00Z",
+      "summary": "Claude Code and MCP: oh-my-claudecode v5.6.0 checked at commit e74b22c. Failure path unchanged (heuristic decides; never throws); default timeout 2,000 ms from v5.6.0 (250 ms up to v5.5.0); new OMC_JEV=<point>:active lets Jev decide.",
+      "path": "/p/jev-catalog/build/claude-code-mcp"
+    },
+    {
+      "change_id": "official-vs-reseller-n8n-npm-2026-10-03",
+      "changed_at": "2026-10-03T06:30:00Z",
+      "summary": "Official vs reseller: the open npm question is answered. TypeSafe publishes its n8n node as @typesafe-ai/n8n-nodes-typesafe-ai 0.9.0 (provenance to typesafe-ai tag 0.9.0); the unscoped n8n-nodes-typesafe-ai is a third party's package.",
+      "path": "/p/jev-catalog/where-to-use/official-vs-reseller"
+    },
+    {
+      "change_id": "use-cases-jevmail-row-2026-10-03",
+      "changed_at": "2026-10-03T06:30:00Z",
+      "summary": "Use cases: Jevmail's Jev-error cell corrected from Stops to No decision (read-only Gmail access; the email stays unclassified and is retried on the next run), re-pinned at f6f20af; email row links the new email page.",
+      "path": "/p/jev-catalog/use-cases"
+    },
+    {
+      "change_id": "run6-report-2026-10-03",
+      "changed_at": "2026-10-03T06:30:00Z",
+      "summary": "Run 6 report published: email and lead sorting, oh-my-claudecode v5.6.0, Products refresh and n8n nodes, with the corrections table. Nothing was Tested.",
+      "path": "/p/jev-catalog/reports/email-products-n8n"
+    },
+    {
       "change_id": "model-routing-page-2026-10-02",
       "changed_at": "2026-10-02T06:15:00Z",
       "summary": "New page: Jev Router or your own model router? OpenRouter does not document what Jev Router does when Jev fails. Of six self-hosted Jev routers read in source, one sends every Jev failure to its frontier model; five keep, re-score or stop. Router table, timeouts, pick-if table and seven rules.",

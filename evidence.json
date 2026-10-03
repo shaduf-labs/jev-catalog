@@ -5100,6 +5100,636 @@
       "accessed_at": "2026-10-02T06:15:00Z",
       "relation": "limits",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "r6-s01",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query",
+      "title": "Run 6 source R6-S01: hn.algolia.com/api/v1/search_by_date?query",
+      "claim": "stories: jev 16, typesafe 1; comments: jev 50; email/lead/n8n queries 0; gap backfill 0 (Documented (index counts); Accessible; counts are index hits, not adoption)",
+      "accessed_at": "2026-10-03T05:15:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s02",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q",
+      "title": "Run 6 source R6-S02: api.github.com/search/repositories?q",
+      "claim": "jev 300; topic:jev 42; email/gmail/inbox/lead 1; gap 0 (Documented (index counts); Accessible; first 100 of 300 listed)",
+      "accessed_at": "2026-10-03T05:15:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s03",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?size=250&text",
+      "title": "Run 6 source R6-S03: registry.npmjs.org/-/v1/search?size=250&text",
+      "claim": "jev: 9 packages with last publish in window; typesafe: 5 (Documented (index); Accessible; last-publish time, not first publish)",
+      "accessed_at": "2026-10-03T05:15:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s04",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search",
+      "title": "Run 6 source R6-S04: huggingface.co/api/models?search",
+      "claim": "modified in window: jev 29, kev 16, laya 24 (Documented (index counts); Accessible; not inspected one by one)",
+      "accessed_at": "2026-10-03T05:15:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s05",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev&per_page=100",
+      "title": "Run 6 source R6-S05: dev.to/api/articles?tag=jev&per_page=100",
+      "claim": "2 articles in window (Documented (index); Accessible)",
+      "accessed_at": "2026-10-03T05:15:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s07",
+      "source_type": "not accessible",
+      "source_url": "https://www.reddit.com/search.json?q=jev&sort=new",
+      "title": "Run 6 source R6-S07: www.reddit.com/search.json?q=jev&sort=new",
+      "claim": "(HTTP 403: unknown)",
+      "accessed_at": "2026-10-03T05:15:29Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s08",
+      "source_type": "not accessible",
+      "source_url": "https://x.com/search?q=jev%20typesafe&f=live",
+      "title": "Run 6 source R6-S08: x.com/search?q=jev%20typesafe&f=live",
+      "claim": "307 to /i/jf/onboarding/web?...mode=login (Not available without an account: unknown)",
+      "accessed_at": "2026-10-03T05:18:11Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s11",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&q",
+      "title": "Run 6 source R6-S11: suggestqueries.google.com/complete/search?client=firefox&q",
+      "claim": "Google 'jev email' -> 'jev email classifier'; 'jev examples' on all four; Google+YouTube 'jev n8n' (Documented (suggestions as returned); Demand signals, not volumes)",
+      "accessed_at": "2026-10-03T05:22:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s11b",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search",
+      "title": "Run 6 source R6-S11b: suggestqueries.google.com/complete/search",
+      "claim": "no relevant suggestion; 'jev down' -> 'jev download' (Documented (suggestions as returned); Accessible)",
+      "accessed_at": "2026-10-03T05:30:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s20",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Run 6 source R6-S20: status.typesafe.ai/",
+      "claim": "All services are online ... TypeSafe API Availability 99.826% uptime (Documented; Unchanged; no event after 29 Sep 22:05 UTC)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Run 6 source R6-S21: docs.typesafe.ai/models.md",
+      "claim": "Rate limits | 100K tokens per second / 80 requests per second (Documented; at jev-1.13.0; CHANGED: was 40 requests per second at 2026-10-02T05:14:11Z; price $0.042/Mtok unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s22",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Run 6 source R6-S22: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "Get your API key from the dashboard (Documented; Unchanged; no waitlist or credit text)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s23",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Run 6 source R6-S23: typesafe.ai/",
+      "claim": "blog: 13 characters of text (Documented; Unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s24",
+      "source_type": "not accessible",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Run 6 source R6-S24: console.typesafe.ai/",
+      "claim": "(HTTP 403 on all three; signup not observed)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s25",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Run 6 source R6-S25: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "prompt 0.000000042, completion 0, context 32000, max completion 28800 (Documented; at typesafe/jev-1.13-20260917; Unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s26",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-router/endpoints",
+      "title": "Run 6 source R6-S26: openrouter.ai/api/v1/models/typesafe/jev-router/endpoints",
+      "claim": "endpoints: []; pricing -1/-1; context 1000000 (Documented; at typesafe/jev-router; Unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s27",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Run 6 source R6-S27: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. Just create an OpenRouter API key (Documented; Unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Run 6 source R6-S28: ai-gateway.vercel.sh/v1/models",
+      "claim": "input 0.000000042, output 0, zdr none, no_training all, context 32000 (Documented; at typesafe-ai/jev; Unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Run 6 source R6-S29: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "Zero data retention Yes ... Input (per 1M tokens) $0.042 Output (per 1M tokens) $0.00 (Documented; at typesafe/jev; Unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s30",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Run 6 source R6-S30: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "claim": "good news: ANYONE CAN SIGN UP ... we had to temporarily disable the free credits (just for new users) (Documented (executive); Still online)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s31",
+      "source_type": "not accessible",
+      "source_url": "https://aifront-page.com/",
+      "title": "Run 6 source R6-S31: aifront-page.com/",
+      "claim": "(No TypeSafe or Jev item)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s32",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query",
+      "title": "Run 6 source R6-S32: hn.algolia.com/api/v1/search_by_date?query",
+      "claim": "0 hits except 'jev credits' comments 2 (off-topic) (Documented (index); No access statement found)",
+      "accessed_at": "2026-10-03T05:15:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s33",
+      "source_type": "reported source",
+      "source_url": "https://opper.ai/typesafe/jev-1-13-0",
+      "title": "Run 6 source R6-S33: opper.ai/typesafe/jev-1-13-0",
+      "claim": "Input price $0.04 /1M Output price $0 /1M No training by default (Reported (route owner); at typesafe/jev-1.13.0; Unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s34",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json",
+      "title": "Run 6 source R6-S34: pypi.org/pypi/typesafe-sdk/json",
+      "claim": "(Documented; at 0.7.2 ; 0.0.1a3; Unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s35",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk",
+      "title": "Run 6 source R6-S35: registry.npmjs.org/@typesafe-ai/sdk",
+      "claim": "(Documented; at 0.6.0; Unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s36",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ai",
+      "title": "Run 6 source R6-S36: registry.npmjs.org/ai",
+      "claim": "(Documented; at 7.0.127; Unchanged since run 5)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s37",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "title": "Run 6 source R6-S37: registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "claim": "(Documented; at 3.0.12; Unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s38",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "title": "Run 6 source R6-S38: api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "claim": "11 repositories, none archived (Documented; at n8n tag 0.9.0 = c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; No push since 29 Sep)",
+      "accessed_at": "2026-10-03T05:15:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s39",
+      "source_type": "not accessible",
+      "source_url": "https://web.archive.org/cdx/search/cdx?url=docs.typesafe.ai/models*&from=20261001",
+      "title": "Run 6 source R6-S39: web.archive.org/cdx/search/cdx?url=docs.typesafe.ai/models*&from=20261001",
+      "claim": "CDX: []; changelog.md: Page Not Found (No capture since 1 Oct; change cannot be dated more closely)",
+      "accessed_at": "2026-10-03T05:17:30Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s40",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/terms",
+      "title": "Run 6 source R6-S40: typesafe.ai/legal/terms",
+      "claim": "Last updated Sep 23, 2026 (AUP) (Documented; All unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s45",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Run 6 source R6-S45: research.eye.security/rise-of-the-jev-clones/",
+      "claim": "You just pay up to 11.5x the official price, and your prompts pass through someone else's servers first (Reported; Report online; all three sites HTTP 200)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s46",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Run 6 source R6-S46: docs.typesafe.ai/legal.md",
+      "claim": "# Legal (Documented; 1,162 bytes, index page; unchanged)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s47",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@jkudish/jev-mcp",
+      "title": "Run 6 source R6-S47: registry.npmjs.org/@jkudish/jev-mcp",
+      "claim": "(Documented; No new release after run 5's check)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s48",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/endpoints/zdr",
+      "title": "Run 6 source R6-S48: openrouter.ai/api/v1/endpoints/zdr",
+      "claim": "TypeSafe | typesafe/jev-1.13-20260917 (Documented; On the list (927 endpoints))",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s49",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Run 6 source R6-S49: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "provider digitalocean, has_zdr false, has_no_training true, uptime 1d 99.995 (Documented; Unchanged except uptime)",
+      "accessed_at": "2026-10-03T05:16:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s50",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?per_page=40&sort=stars&q",
+      "title": "Run 6 source R6-S50: api.github.com/search/repositories?per_page=40&sort=stars&q",
+      "claim": "59 results; 8 results (Documented (index); Selection basis for S3; index counts, not adoption)",
+      "accessed_at": "2026-10-03T05:19:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s51",
+      "source_type": "documented source",
+      "source_url": "https://github.com/fazlerocks/jevmail/tree/f6f20af9c2805efd924c29cbea59547e72c558fc",
+      "title": "Run 6 source R6-S51: github.com/fazlerocks/jevmail/tree/f6f20af9c2805efd924c29cbea59547e72c558fc",
+      "claim": "Read-only Gmail access. The only Gmail scope requested is gmail.readonly. (Documented (source); at f6f20af9c2805efd924c29cbea59547e72c558fc; Read by runner)",
+      "accessed_at": "2026-10-03T05:19:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s52",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/tree/ade42bfba9b68404fba06724b149145caf074ff8",
+      "title": "Run 6 source R6-S52: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/tree/ade42bfba9b68404fba06724b1491",
+      "claim": "dryRun: options.dryRun !== false (Documented (source); at ade42bfba9b68404fba06724b149145caf074ff8; Read by helper; runner spot-checked L18-25, L2436-2438, L4595-4607 at 05:25)",
+      "accessed_at": "2026-10-03T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s53",
+      "source_type": "documented source",
+      "source_url": "https://github.com/parth-kp/jev-mail-classifier/tree/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07",
+      "title": "Run 6 source R6-S53: github.com/parth-kp/jev-mail-classifier/tree/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07",
+      "claim": "Mark processed even when nothing matched (Documented (source); at db96194723a7d057a4c7b54cc9b56d0dc3cc6d07; Read by helper; runner spot-checked cli.py at 05:25)",
+      "accessed_at": "2026-10-03T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s54",
+      "source_type": "documented source",
+      "source_url": "https://github.com/vynnlee/jev-mail/tree/61e346f9034161e4cb7ddf04907326841e01300b",
+      "title": "Run 6 source R6-S54: github.com/vynnlee/jev-mail/tree/61e346f9034161e4cb7ddf04907326841e01300b",
+      "claim": "throw new Error('TypeSafe API HTTP ' + code) (Documented (source); at 61e346f9034161e4cb7ddf04907326841e01300b; Read by helper; runner spot-checked worker.ts at 05:25)",
+      "accessed_at": "2026-10-03T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s55",
+      "source_type": "documented source",
+      "source_url": "https://github.com/automatewithuday/spam-leadgen-pipeline/tree/78a7592d5ef9ac5238638846ed18281ef679a4c0",
+      "title": "Run 6 source R6-S55: github.com/automatewithuday/spam-leadgen-pipeline/tree/78a7592d5ef9ac5238638846ed18281ef67",
+      "claim": "body: (e.body_text ?? \"\").slice(0, 4000) (Documented (source); at 78a7592d5ef9ac5238638846ed18281ef679a4c0; Read by helper; runner spot-checked classify.ts at 05:25)",
+      "accessed_at": "2026-10-03T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s56",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases?per_page=5",
+      "title": "Run 6 source R6-S56: api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases?per_page=5",
+      "claim": "(Documented; at tag object c56fc5e442a07f20335b15701b04d5ba95d9e3d2; No release after v5.6.0)",
+      "accessed_at": "2026-10-03T05:20:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s57",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/compare/v5.5.0...v5.6.0",
+      "title": "Run 6 source R6-S57: api.github.com/repos/Yeachan-Heo/oh-my-claudecode/compare/v5.5.0...v5.6.0",
+      "claim": "165 commits ahead, 217 files; 0dcd7bc6 fix(jev): send the request shape the TypeSafe API accepts (Documented; at 9fd35ece5d6de65b511bf43b55e42c499e4fc194...e74b22cd34e0a8b9dd5ded87d1bf0db6ce1a38dd; Accessible)",
+      "accessed_at": "2026-10-03T05:20:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s58",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/tree/e74b22cd34e0a8b9dd5ded87d1bf0db6ce1a38dd",
+      "title": "Run 6 source R6-S58: github.com/Yeachan-Heo/oh-my-claudecode/tree/e74b22cd34e0a8b9dd5ded87d1bf0db6ce1a38dd",
+      "claim": "const DEFAULT_TIMEOUT_MS = 2000; (Documented (source); at e74b22cd34e0a8b9dd5ded87d1bf0db6ce1a38dd; Timeout default changed; failure path unchanged)",
+      "accessed_at": "2026-10-03T05:21:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s60",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai%2fn8n-nodes-typesafe-ai",
+      "title": "Run 6 source R6-S60: registry.npmjs.org/@typesafe-ai%2fn8n-nodes-typesafe-ai",
+      "claim": "maintainers alliesafe ((a typesafe.ai address)), diogo149 ((a typesafe.ai address)) (Documented; at 0.9.0; provenance commit c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Provenance links to typesafe-ai repo tag 0.9.0; runner re-read maintainers 05:27)",
+      "accessed_at": "2026-10-03T05:20:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s61",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/n8n-nodes-typesafe-ai",
+      "title": "Run 6 source R6-S61: registry.npmjs.org/n8n-nodes-typesafe-ai",
+      "claim": "maintainer dommonte; repository DomMonte/n8n-nodes-typesafe-ai (Documented; at gitHead ff2afca0a90c8020db40e7c2dd2b13cad9514381; Third-party package, not TypeSafe's)",
+      "accessed_at": "2026-10-03T05:20:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s62",
+      "source_type": "documented source",
+      "source_url": "https://docs.n8n.io/integrations/community-nodes/installation/",
+      "title": "Run 6 source R6-S62: docs.n8n.io/integrations/community-nodes/installation/",
+      "claim": "Unverified community nodes aren't available on n8n cloud and require self-hosting n8n. (Documented (n8n docs); Accessible (helper))",
+      "accessed_at": "2026-10-03T05:23:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s63",
+      "source_type": "documented source",
+      "source_url": "https://api.n8n.io/api/community-nodes?pagination%5BpageSize%5D=2000",
+      "title": "Run 6 source R6-S63: api.n8n.io/api/community-nodes?pagination%5BpageSize%5D=2000",
+      "claim": "1765 entries; only Jev/TypeSafe entry isOfficialNode true, company Typesafe AI (Documented; at @typesafe-ai/n8n-nodes-typesafe-ai 0.9.0; Runner re-read)",
+      "accessed_at": "2026-10-03T05:27:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s64",
+      "source_type": "reported source",
+      "source_url": "https://community.n8n.io/t/316451.json",
+      "title": "Run 6 source R6-S64: community.n8n.io/t/316451.json",
+      "claim": "n8n declined verification in September 2026 because of overlap with the built-in classification node (Reported (maintainer claim); Forum search q=jev HTTP 429)",
+      "accessed_at": "2026-10-03T05:23:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s65",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b",
+      "title": "Run 6 source R6-S65: github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b",
+      "claim": "A failure is not a routing decision, so it goes to Fallback or Uncertain where one exists (Documented (source); at c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Read by helper; runner spot-checked L316-353 at 05:27)",
+      "accessed_at": "2026-10-03T05:20:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s66",
+      "source_type": "documented source",
+      "source_url": "https://github.com/DomMonte/n8n-nodes-typesafe-ai/tree/ff2afca0a90c8020db40e7c2dd2b13cad9514381",
+      "title": "Run 6 source R6-S66: github.com/DomMonte/n8n-nodes-typesafe-ai/tree/ff2afca0a90c8020db40e7c2dd2b13cad9514381",
+      "claim": "(Documented (source); at ff2afca0a90c8020db40e7c2dd2b13cad9514381; Read by helper)",
+      "accessed_at": "2026-10-03T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s67",
+      "source_type": "documented source",
+      "source_url": "https://github.com/vibe-with-me-tools/n8n-nodes-jev/tree/ddbfe850d5d15731aaf42b395960b12805c64942",
+      "title": "Run 6 source R6-S67: github.com/vibe-with-me-tools/n8n-nodes-jev/tree/ddbfe850d5d15731aaf42b395960b12805c64942",
+      "claim": "(Documented (source); at ddbfe850d5d15731aaf42b395960b12805c64942; Read by helper; repository matches npm field (05:28))",
+      "accessed_at": "2026-10-03T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s68",
+      "source_type": "documented source",
+      "source_url": "https://github.com/taifoon-io/n8n-nodes-typesafe/tree/cdcc0f3427942ea616fa19a226faac632c6ff669",
+      "title": "Run 6 source R6-S68: github.com/taifoon-io/n8n-nodes-typesafe/tree/cdcc0f3427942ea616fa19a226faac632c6ff669",
+      "claim": "(Documented (source); at cdcc0f3427942ea616fa19a226faac632c6ff669; Read by helper; repository matches npm field (05:28))",
+      "accessed_at": "2026-10-03T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s69",
+      "source_type": "documented source",
+      "source_url": "https://github.com/zampierid4p/n8n-nodes-typesafe/tree/549a5451e0b463e51fbb00582babb800f23aa527",
+      "title": "Run 6 source R6-S69: github.com/zampierid4p/n8n-nodes-typesafe/tree/549a5451e0b463e51fbb00582babb800f23aa527",
+      "claim": "(Documented (source); at 549a5451e0b463e51fbb00582babb800f23aa527; Read by helper; repository matches npm field (05:28))",
+      "accessed_at": "2026-10-03T05:23:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s70",
+      "source_type": "reported source",
+      "source_url": "https://www.brizz.ai/blog/replacing-llm-classifier-with-jev",
+      "title": "Run 6 source R6-S70: www.brizz.ai/blog/replacing-llm-classifier-with-jev",
+      "claim": "We stopped paying an LLM to answer yes/no questions: 21x cheaper with Jev (Reported (company); Online; unchanged)",
+      "accessed_at": "2026-10-03T05:23:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s71",
+      "source_type": "reported source",
+      "source_url": "https://polylane.com/blog/we-swapped-our-llms-for-jev/",
+      "title": "Run 6 source R6-S71: polylane.com/blog/we-swapped-our-llms-for-jev/",
+      "claim": "We swapped our LLMs for Jev. It's 39% cheaper. (Reported (company); Online; unchanged)",
+      "accessed_at": "2026-10-03T05:23:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s72",
+      "source_type": "reported source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/rauchg/status/2100307962262872105",
+      "title": "Run 6 source R6-S72: publish.x.com/oembed?url=https://x.com/rauchg/status/2100307962262872105",
+      "claim": "That reviewer runs on GPT Luna today. Jev is up to 18x faster (p95) *and* more accurate. (Reported (executive); Online; unchanged)",
+      "accessed_at": "2026-10-03T05:23:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s73",
+      "source_type": "reported source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/nikhilmudholkar/status/2100604560335139083",
+      "title": "Run 6 source R6-S73: publish.x.com/oembed?url=https://x.com/nikhilmudholkar/status/2100604560335139083",
+      "claim": "Jev lost to Gemini on our email classification benchmark. I'm still interested in putting it into production. (Reported; Online; unchanged)",
+      "accessed_at": "2026-10-03T05:23:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s74",
+      "source_type": "reported source",
+      "source_url": "https://fundaai.substack.com/p/deepllm-jev-users-report-10-faster",
+      "title": "Run 6 source R6-S74: fundaai.substack.com/p/deepllm-jev-users-report-10-faster",
+      "claim": "Only 3.7% in Production (Reported (analyst); Online; title unchanged)",
+      "accessed_at": "2026-10-03T05:23:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s75",
+      "source_type": "documented source",
+      "source_url": "https://github.com/",
+      "title": "Run 6 source R6-S75: github.com/",
+      "claim": "all HTTP 200; no archived banner (Documented (public page status); HTML used instead of the API to save quota)",
+      "accessed_at": "2026-10-03T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s76",
+      "source_type": "reported source",
+      "source_url": "https://jev.bevel.software/",
+      "title": "Run 6 source R6-S76: jev.bevel.software/",
+      "claim": "eu/jev runs its own model, so a Jev model ID returns HTTP 400 ... Not affiliated with TypeSafe AI. (Reported (operator's own claims); at model jeff-latest; Hosts its own model behind a Jev-compatible API; not a Jev reseller)",
+      "accessed_at": "2026-10-03T05:30:41Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-s77",
+      "source_type": "not accessible",
+      "source_url": "https://trust.typesafe.ai/",
+      "title": "Run 6 source R6-S77: trust.typesafe.ai/",
+      "claim": "Typesafe.ai Trust Center (7,103-byte JavaScript shell) (Content needs a browser; no headless browser found in the environment; not read)",
+      "accessed_at": "2026-10-03T05:30:42Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r6-report",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/reports/email-products-n8n",
+      "title": "Research report, 3 Oct 2026: email and lead sorting, oh-my-claudecode v5.6.0, Products refresh, n8n nodes",
+      "claim": "The pool made no Jev call, opened no account, connected no mailbox, installed no package and ran no third-party code; failure behaviour is read from source at pinned commits; nothing in the run is Tested.",
+      "accessed_at": "2026-10-03T06:30:00Z",
+      "relation": "limits",
+      "publication_basis": "owner-authored"
     }
   ]
 }

@@ -198,6 +198,17 @@
       "summary": "Read OpenRouter's Jev Router docs (failure, long-context and routed-model billing not documented) and six self-hosted Jev routers at pinned commits: one sends every Jev failure to its frontier model, five keep the current model, pick locally or choose no model. @jkudish/jev-mcp 0.12.0 and 0.13.0 keep the audited failure path. Read six moderation projects at pinned commits: four leave the post up when Jev fails, one holds it, one returns no decision; no published moderation accuracy found. Access unchanged. No pool Jev call.",
       "report_path": "/p/jev-catalog/reports/routing-moderation",
       "entrypoint": "reports/routing-moderation/index.html"
+    },
+    {
+      "run_id": "run:5a50a0ba-e2af-412c-9556-7e4cb232a36b",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-03T05:14:11Z",
+      "completed_at": "2026-10-03T06:30:00Z",
+      "title": "Email and lead sorting, oh-my-claudecode v5.6.0, Products refresh and n8n nodes",
+      "summary": "Read five email and lead sorters at pinned commits: none changes the mailbox when Jev errors; of the 3 that can write to the mailbox, only 1 sends unsure mail to a Review label. oh-my-claudecode v5.6.0 keeps its failure path; its default timeout is now 2,000 ms. Products ledger now 61 rows, 39 grade A, none independently verified in production. TypeSafe's own n8n node is the scoped @typesafe-ai package; all 5 nodes read stop the workflow on a Jev error by default. Listed request limit now 80 per second; access unchanged. No pool Jev call.",
+      "report_path": "/p/jev-catalog/reports/email-products-n8n",
+      "entrypoint": "reports/email-products-n8n/index.html"
     }
   ]
 }
