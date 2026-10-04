@@ -5730,6 +5730,706 @@
       "accessed_at": "2026-10-03T06:30:00Z",
       "relation": "limits",
       "publication_basis": "owner-authored"
+    },
+    {
+      "evidence_id": "r7-s01",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query=<jev|typesafe|jev trading|jev trade|jev fraud|jev payment|jev crypto|jev judge|jev eval|jevals|deepeval|jev fallback|jev outage|jev down|jev error|typesafe credit|jev signup|jev waitlist|jev production|oh-my-claudecode|n8n jev>&tags=<story|comment>&typoTolerance=false&numericFilters=created_at_i>=1791004440,created_at_i<1791090840",
+      "title": "Run 7 source R7-S01: hn.algolia.com/api/v1/search_by_date?query=<jev|typesafe|jev trading|jev trade|jev fraud|j",
+      "claim": "jev: 4 stories, 8 comments; typesafe: 0 stories, 1 comment; trading/fraud/payment/fallback/outage/credit queries: 0 (Documented (index results); accessible)",
+      "accessed_at": "2026-10-04T05:16:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s02",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=<jev|topic:jev|jev trading OR jev trade OR jev fraud OR jev payment OR jev judge OR jev eval>+created:2026-10-03T05:14:00Z..2026-10-04T05:13:59Z",
+      "title": "Run 7 source R7-S02: api.github.com/search/repositories?q=<jev|topic:jev|jev trading OR jev trade OR jev fraud ",
+      "claim": "jev 225; topic:jev 17; trading/fraud/payment/judge/eval 4; incomplete_results false (Documented (index results); accessible; 3 search calls)",
+      "accessed_at": "2026-10-04T05:16:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s03",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?size=250&text=<jev|typesafe>",
+      "title": "Run 7 source R7-S03: registry.npmjs.org/-/v1/search?size=250&text=<jev|typesafe>",
+      "claim": "jev 11, typesafe 5 packages with last publish in window (Documented (index results); accessible)",
+      "accessed_at": "2026-10-04T05:16:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s04",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=<jev|kev|laya>&sort=lastModified&direction=-1&limit=100",
+      "title": "Run 7 source R7-S04: huggingface.co/api/models?search=<jev|kev|laya>&sort=lastModified&direction=-1&limit=100",
+      "claim": "modified in window: jev 24, kev 19, laya 23 (Documented (index results); accessible)",
+      "accessed_at": "2026-10-04T05:16:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s05",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev&per_page=100",
+      "title": "Run 7 source R7-S05: dev.to/api/articles?tag=jev&per_page=100",
+      "claim": "3 articles in window (Documented (index results); accessible)",
+      "accessed_at": "2026-10-04T05:16:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s07",
+      "source_type": "not accessible",
+      "source_url": "https://www.reddit.com/search.json?q=jev&sort=new",
+      "title": "Run 7 source R7-S07: www.reddit.com/search.json?q=jev&sort=new",
+      "claim": "HTTP 403 (n/a; failed: unknown)",
+      "accessed_at": "2026-10-04T05:16:38Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s08",
+      "source_type": "not accessible",
+      "source_url": "https://x.com/search?q=jev%20typesafe&f=live",
+      "title": "Run 7 source R7-S08: x.com/search?q=jev%20typesafe&f=live",
+      "claim": "307 to /i/jf/onboarding/web?...mode=login (n/a; failed: unknown)",
+      "accessed_at": "2026-10-04T05:16:38Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s11",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&q=<q>",
+      "title": "Run 7 source R7-S11: suggestqueries.google.com/complete/search?client=firefox&q=<q>",
+      "claim": "Google: \"jev trading bot\", \"jev llm as a judge\", \"jev as a judge\", \"jev evals\", \"jev judgement model\"; failure phrases: none relevant (Documented (suggestion lists; demand signal, not volume); accessible; HTTP 200 on all 68 requests)",
+      "accessed_at": "2026-10-04T05:21:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s20",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Run 7 source R7-S20: status.typesafe.ai/",
+      "claim": "All services are online Last updated on Oct 4, 2026 at 5:15am UTC (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Run 7 source R7-S21: docs.typesafe.ai/models.md",
+      "claim": "Rate limits | 100K tokens per second / 80 requests per second (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s22",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Run 7 source R7-S22: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "unchanged: log in; get your API key from the dashboard; no waitlist or credit text (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s23",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Run 7 source R7-S23: typesafe.ai/",
+      "claim": "homepage build unchanged; blog 11 characters of text (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s24",
+      "source_type": "not accessible",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Run 7 source R7-S24: console.typesafe.ai/",
+      "claim": "HTTP 403 on all three; signup not observed (n/a; HTTP 403)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s25",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Run 7 source R7-S25: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "prompt 0.000000042, completion 0, context 32000, max completion 28800, uptime 100 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s26",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-router/endpoints",
+      "title": "Run 7 source R7-S26: openrouter.ai/api/v1/models/typesafe/jev-router/endpoints",
+      "claim": "jev-router prompt -1, completion -1, context 1000000 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s27",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Run 7 source R7-S27: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Run 7 source R7-S28: ai-gateway.vercel.sh/v1/models",
+      "claim": "\"zdr\":\"none\",\"no_training\":\"all\", input 0.000000042, context_window 32000 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Run 7 source R7-S29: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "Zero data retention Yes; Input $0.042; Output $0.00 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s30",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Run 7 source R7-S30: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "claim": "good news: ANYONE CAN SIGN UP ... we had to temporarily disable the free credits (just for new users) (Documented (executive); accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s31",
+      "source_type": "not accessible",
+      "source_url": "https://aifront-page.com/",
+      "title": "Run 7 source R7-S31: aifront-page.com/",
+      "claim": "0 mentions of TypeSafe or Jev (n/a; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s32",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date",
+      "title": "Run 7 source R7-S32: hn.algolia.com/api/v1/search_by_date",
+      "claim": "0 stories, 0 comments on every query (Documented (index results); accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s33",
+      "source_type": "documented source",
+      "source_url": "https://opper.ai/typesafe/jev-1-13-0",
+      "title": "Run 7 source R7-S33: opper.ai/typesafe/jev-1-13-0",
+      "claim": "Input price $0.04 /1M; Zero data retention Not established; No training by default (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s34",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json",
+      "title": "Run 7 source R7-S34: pypi.org/pypi/typesafe-sdk/json",
+      "claim": "typesafe-sdk 0.7.2 (2026-09-26T21:20:23Z); langchain-typesafe 0.0.1a3 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s35",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk",
+      "title": "Run 7 source R7-S35: registry.npmjs.org/@typesafe-ai/sdk",
+      "claim": "latest 0.6.0 at 2026-09-15T18:17:19Z (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s36",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ai",
+      "title": "Run 7 source R7-S36: registry.npmjs.org/ai",
+      "claim": "latest 7.0.127 at 2026-10-01T19:20:23Z (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s37",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "title": "Run 7 source R7-S37: registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "claim": "latest 3.0.12 at 2026-09-30T17:49:12Z (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s38",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "title": "Run 7 source R7-S38: api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "claim": "11 repos; latest push n8n-nodes-typesafe-ai 2026-09-29T21:11:41Z; tag 0.9.0 c12537b; npm latest 0.9.0 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s39",
+      "source_type": "not accessible",
+      "source_url": "https://web.archive.org/cdx/search/cdx?url=docs.typesafe.ai/models*&from=20261003",
+      "title": "Run 7 source R7-S39: web.archive.org/cdx/search/cdx?url=docs.typesafe.ai/models*&from=20261003",
+      "claim": "captures 20261003064912 (models), 20261003072336 (models.md); changelog HTTP 404 (n/a; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s40",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/terms",
+      "title": "Run 7 source R7-S40: typesafe.ai/legal/terms",
+      "claim": "Last updated Sep 19, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s41",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/acceptable-use-policy",
+      "title": "Run 7 source R7-S41: typesafe.ai/legal/acceptable-use-policy",
+      "claim": "Last updated Sep 23, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s42",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/mca",
+      "title": "Run 7 source R7-S42: typesafe.ai/legal/mca",
+      "claim": "Last updated Sep 23, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s43",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/data-processing",
+      "title": "Run 7 source R7-S43: typesafe.ai/legal/data-processing",
+      "claim": "Last updated Apr 24, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s44",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/privacy-policy",
+      "title": "Run 7 source R7-S44: typesafe.ai/legal/privacy-policy",
+      "claim": "Last updated Nov 19, 2025 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s45",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Run 7 source R7-S45: research.eye.security/rise-of-the-jev-clones/",
+      "claim": "all four HTTP 200; jev-agent.org \"Pricing 50% OFF\"; jevtypesafeai.com \"Independent Jev playground\" (Reported; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s46",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Run 7 source R7-S46: docs.typesafe.ai/legal.md",
+      "claim": "1,162 bytes (index page), unchanged (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s47",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@jkudish/jev-mcp",
+      "title": "Run 7 source R7-S47: registry.npmjs.org/@jkudish/jev-mcp",
+      "claim": "oh-my-claudecode v5.6.1 2026-10-03T06:44:34Z (patch, new in window); jkudish 0.13.0; others unchanged (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s48",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/endpoints/zdr",
+      "title": "Run 7 source R7-S48: openrouter.ai/api/v1/endpoints/zdr",
+      "claim": "942 endpoints; includes \"TypeSafe | typesafe/jev-1.13-20260917\" (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s49",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Run 7 source R7-S49: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "one provider: digitalocean, has_zdr false, has_no_training true, uptime 1d 99.9985 (Documented; accessible)",
+      "accessed_at": "2026-10-04T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s50",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/OpenByteInc/QuantDinger",
+      "title": "Run 7 source R7-S50: api.github.com/repos/OpenByteInc/QuantDinger",
+      "claim": "main HEAD; pushed 2026-10-02T15:36:58Z; 1,137 tree entries (Documented (source at pinned commit); read; at a5a9f4c79a263113504e882531585a9f2d3b24f9)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s51",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9/backend_api_python/app/services/ai_decision_filter.py",
+      "title": "Run 7 source R7-S51: raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9",
+      "claim": "logger.warning(\"Jev decision failed open: %s\", exc) (Documented (source at pinned commit); read; at a5a9f4c79a263113504e882531585a9f2d3b24f9)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s52",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9/backend_api_python/app/services/strategy_v2/live_execution.py",
+      "title": "Run 7 source R7-S52: raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9",
+      "claim": "if request.execution_mode == \"live\" and request.ai_decision_filter: (Documented (source at pinned commit); read; at a5a9f4c79a263113504e882531585a9f2d3b24f9)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s53",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9/backend_api_python/app/routes/quick_trade.py",
+      "title": "Run 7 source R7-S53: raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9",
+      "claim": "ai_rejection = maybe_reject_quick_trade(locals(), _record_quick_trade) (Documented (source at pinned commit); read; at a5a9f4c79a263113504e882531585a9f2d3b24f9)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s54",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9/backend_api_python/app/routes/alpaca.py",
+      "title": "Run 7 source R7-S54: raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9",
+      "claim": "return \"paper\" if str(api_key or \"\").upper().startswith(\"PK\") else \"live\" (Documented (source at pinned commit); read; at a5a9f4c79a263113504e882531585a9f2d3b24f9)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s55",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9/backend_api_python/app/services/trading_executor.py",
+      "title": "Run 7 source R7-S55: raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9",
+      "claim": "execution_mode=str(values.get(\"execution_mode\") or \"signal\"), (Documented (source at pinned commit); read; at a5a9f4c79a263113504e882531585a9f2d3b24f9)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s56",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9/backend_api_python/app/services/pending_order_worker.py",
+      "title": "Run 7 source R7-S56: raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9",
+      "claim": "- signal: fill the isolated virtual account and send notifications. (Documented (source at pinned commit); read; at a5a9f4c79a263113504e882531585a9f2d3b24f9)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s57",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9/backend_api_python/tests/test_ai_decision_filter.py",
+      "title": "Run 7 source R7-S57: raw.githubusercontent.com/OpenByteInc/QuantDinger/a5a9f4c79a263113504e882531585a9f2d3b24f9",
+      "claim": "def test_insufficient_credits_skip_provider_without_blocking_order(monkeypatch): (Documented (source at pinned commit); read; at a5a9f4c79a263113504e882531585a9f2d3b24f9)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s58",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jarrodwatts/jev-trader/b587759e459ea049590102e54a0b07800864cdc3/src/{config,model,trader,market,server}.ts",
+      "title": "Run 7 source R7-S58: raw.githubusercontent.com/jarrodwatts/jev-trader/b587759e459ea049590102e54a0b07800864cdc3/",
+      "claim": "const wanted: Side = decision.action === \"sell\" ? \"sell\" : \"buy\"; (Documented (source at pinned commit); read; at b587759e459ea049590102e54a0b07800864cdc3)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s59",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/aowang-ai/jev-trade/a3f2f834a1b97dd42fab1193814179ac2e96d7cd/src/{config,model,plan,trader,index,market,sleeves,server}.ts",
+      "title": "Run 7 source R7-S59: raw.githubusercontent.com/aowang-ai/jev-trade/a3f2f834a1b97dd42fab1193814179ac2e96d7cd/src",
+      "claim": "const hlTestnet = env(\"HL_TESTNET\", \"true\") !== \"false\"; (Documented (source at pinned commit); read; at a3f2f834a1b97dd42fab1193814179ac2e96d7cd)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s60",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/taran1610/btc-hft-jev/96f354151aa62bcbb362da2bed0409bffc5fa58d/jevloop/{client,loop,policy,battery,ladder,state,strategy,limits}.py",
+      "title": "Run 7 source R7-S60: raw.githubusercontent.com/taran1610/btc-hft-jev/96f354151aa62bcbb362da2bed0409bffc5fa58d/j",
+      "claim": "elif jev_down or answers is None: action = fallback_action(snapshot, limits) (Documented (source at pinned commit); read; at 96f354151aa62bcbb362da2bed0409bffc5fa58d)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s61",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jonny5isalive5/jev-fraud-shield/eeb4fc6ebb8435fcfda87b3544fd1f41c6c55e7f/{jev_client,decision_engine,demo}.py",
+      "title": "Run 7 source R7-S61: raw.githubusercontent.com/jonny5isalive5/jev-fraud-shield/eeb4fc6ebb8435fcfda87b3544fd1f41",
+      "claim": "FAILURE_POLICY = \"STEP_UP\" (Documented (source at pinned commit); read; at eeb4fc6ebb8435fcfda87b3544fd1f41c6c55e7f)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s62",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/frankied003/fraud-jev/aa33b971eaa11dc27c98821856fc4e331cc9b75a/src/lib/fraud.ts",
+      "title": "Run 7 source R7-S62: raw.githubusercontent.com/frankied003/fraud-jev/aa33b971eaa11dc27c98821856fc4e331cc9b75a/s",
+      "claim": "return \"ALLOW\"; (Documented (source at pinned commit); read; at aa33b971eaa11dc27c98821856fc4e331cc9b75a)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s63",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ElliotOne/nl-jev-decision-gates-expense-policy/161c33bce7dccbb1ae67f84f7d9194fb8743cfc1/src/jev_expense_gate/{cli,jev_client,policy,pipeline,config}.py",
+      "title": "Run 7 source R7-S63: raw.githubusercontent.com/ElliotOne/nl-jev-decision-gates-expense-policy/161c33bce7dccbb1a",
+      "claim": "\"provider\": \"typesafe\", (Documented (source at pinned commit); read; at 161c33bce7dccbb1ae67f84f7d9194fb8743cfc1)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s64",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=jev%20fraud",
+      "title": "Run 7 source R7-S64: api.github.com/search/repositories?q=jev%20fraud",
+      "claim": "jev fraud: total_count 15; jev payment: total_count 10 (2 search calls; helper A) (Documented (index results); read)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s65",
+      "source_type": "reported source",
+      "source_url": "https://gist.github.com/drillan/6916b16e8ea31a8ec36c8f59d6483150",
+      "title": "Run 7 source R7-S65: gist.github.com/drillan/6916b16e8ea31a8ec36c8f59d6483150",
+      "claim": "Dry-run/paper-by-default is the norm — real orders require explicitly configured keys. (Reported; read; at cb98f26f20a63017f1f8b5640a52f751bf2a8aab)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s66",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ndolinschi/cartshield/59013c33c4298b91f1ad854b00ab3f97a12403f3/src/lib/jev.ts",
+      "title": "Run 7 source R7-S66: raw.githubusercontent.com/ndolinschi/cartshield/59013c33c4298b91f1ad854b00ab3f97a12403f3/s",
+      "claim": "cartshield: heuristics when TYPESAFE_API_KEY is missing; TradeRank: no match in either list (Documented (index results); read; at see url)",
+      "accessed_at": "2026-10-04T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s70",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/confident-ai/deepeval/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/{metrics/jev_eval/*,evaluate/configs.py,evaluate/execute/_common.py,metrics/base_metric.py}",
+      "title": "Run 7 source R7-S70: raw.githubusercontent.com/confident-ai/deepeval/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/d",
+      "claim": "JevEval needs Jev in every mode; there is no LLM to fall back to. (Documented (source at pinned commit); read; at a200ecede6456f92d7cbbb350b7b3fb4d78d36b3)",
+      "accessed_at": "2026-10-04T05:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s71",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/deepeval/json",
+      "title": "Run 7 source R7-S71: pypi.org/pypi/deepeval/json",
+      "claim": "version 4.2.8, license Apache-2.0 (Documented (source at pinned commit); read; at 4.2.8)",
+      "accessed_at": "2026-10-04T05:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s72",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/openlayer-ai/jevals/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/{_runner,_gate,_eval}.py",
+      "title": "Run 7 source R7-S72: raw.githubusercontent.com/openlayer-ai/jevals/0a8f895a0428b89c865f953d5295b6b516e4018c/src",
+      "claim": "assert r.passed is True  # errors are not failures; skipped ignored (Documented (source at pinned commit); read; at 0a8f895a0428b89c865f953d5295b6b516e4018c)",
+      "accessed_at": "2026-10-04T05:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s73",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search?query=jevals",
+      "title": "Run 7 source R7-S73: hn.algolia.com/api/v1/search?query=jevals",
+      "claim": "Show HN: jevals – replacing LLM judges with typed Jev decisions (item 49780849) (Documented (index results); read)",
+      "accessed_at": "2026-10-04T05:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s74",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Kandarp-Joshi-007/did-they-answer/e0ee60cce6785c359fb4fb04653c46468bb4f434/{daily,jev,compact}.py",
+      "title": "Run 7 source R7-S74: raw.githubusercontent.com/Kandarp-Joshi-007/did-they-answer/e0ee60cce6785c359fb4fb04653c46",
+      "claim": "except Exception as e:  # picked up again on the next run (Documented (source at pinned commit); read; at e0ee60cce6785c359fb4fb04653c46468bb4f434)",
+      "accessed_at": "2026-10-04T05:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s75",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/charlesdove977/competitor-hunter/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py",
+      "title": "Run 7 source R7-S75: raw.githubusercontent.com/charlesdove977/competitor-hunter/40613ea0809e2bd05351fbb3b1bb28e",
+      "claim": "MAX_JEV_ERROR_SHARE = 0.05 (Documented (source at pinned commit); read; at 40613ea0809e2bd05351fbb3b1bb28e5c46b9e98)",
+      "accessed_at": "2026-10-04T05:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s76",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/charlesdove977/claude-x-jev/c8662b0550b2a999d1dbcfb148683615cf92636a/skill/scripts/jev.py",
+      "title": "Run 7 source R7-S76: raw.githubusercontent.com/charlesdove977/claude-x-jev/c8662b0550b2a999d1dbcfb148683615cf92",
+      "claim": "One Decisions request. Retries on 429 / 5xx / network. Raises on 4xx. (Documented (source at pinned commit); read; at c8662b0550b2a999d1dbcfb148683615cf92636a)",
+      "accessed_at": "2026-10-04T05:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s77",
+      "source_type": "reported source",
+      "source_url": "https://jevals.com/methodology",
+      "title": "Run 7 source R7-S77: jevals.com/methodology",
+      "claim": "Transport failures (HTTP errors, provider errors, a 60 s timeout, a truncated response) are retried with backoff and never scored. (Reported; read)",
+      "accessed_at": "2026-10-04T05:15:00Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s78",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/users/Jevals/repos",
+      "title": "Run 7 source R7-S78: api.github.com/users/Jevals/repos",
+      "claim": "5 repositories; Jevals/Jevals has README.md only; jevals-data has no code files (Documented (source at pinned commit); read; at see url)",
+      "accessed_at": "2026-10-04T05:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s80",
+      "source_type": "documented source",
+      "source_url": "https://trust.typesafe.ai/",
+      "title": "Run 7 source R7-S80: trust.typesafe.ai/",
+      "claim": "Nebius • Cloud provider USA Customer AI prompts are processed, but not stored, on compute nodes managed by Nebius (Documented; accessible; 6 subprocessors; SOC 2 Type II - 2026 listed (request access); at rendered with local chromium-headless-shell --dump-dom)",
+      "accessed_at": "2026-10-04T05:30:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s81",
+      "source_type": "not accessible",
+      "source_url": "https://venturebeat.com/?s=typesafe+jev",
+      "title": "Run 7 source R7-S81: venturebeat.com/?s=typesafe+jev",
+      "claim": "HTTP 429 on both (n/a; failed: unknown; both VentureBeat-relayed claims stay not rechecked)",
+      "accessed_at": "2026-10-04T05:31:12Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s82",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Run 7 source R7-S82: docs.netlify.com/build/ai-gateway/overview/",
+      "claim": "The AI Gateway does not store your prompts or model outputs (Documented; accessible; TYPESAFE_API_KEY and TYPESAFE_BASE_URL set automatically)",
+      "accessed_at": "2026-10-04T05:31:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s83",
+      "source_type": "documented source",
+      "source_url": "https://www.netlify.com/changelog/typesafe-jev-ai-gateway/",
+      "title": "Run 7 source R7-S83: www.netlify.com/changelog/typesafe-jev-ai-gateway/",
+      "claim": "TypeSafe Jev now available in AI Gateway (Documented; accessible; no data terms in the text)",
+      "accessed_at": "2026-10-04T05:31:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s84",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search?query=guardrail%20powered%20by%20Jev&tags=story",
+      "title": "Run 7 source R7-S84: hn.algolia.com/api/v1/search?query=guardrail%20powered%20by%20Jev&tags=story",
+      "claim": "if (typeof apiKey !== 'string' || !apiKey.trim()) throw new Error('TYPESAFE_API_KEY is required'); (Documented (source at pinned commit); read; at 7c7b1b5b646428e397541473de0cd176cc9fe956)",
+      "accessed_at": "2026-10-04T05:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r7-s85",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/madisonrickert/jev-permission-gate/7349bc973394905f346dfbe07934662039c496e8/hooks/{register,policy,typesafe}.ts",
+      "title": "Run 7 source R7-S85: raw.githubusercontent.com/madisonrickert/jev-permission-gate/7349bc973394905f346dfbe079346",
+      "claim": "return handOff({ skippedBecause: 'Jev error' }) (Documented (source at pinned commit); read; at 7349bc973394905f346dfbe07934662039c496e8)",
+      "accessed_at": "2026-10-04T05:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

@@ -1,0 +1,276 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Trading and fraud gates, the failure checklist and Jev as a judge · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Trading and fraud gates, the failure checklist and Jev as a judge. Read four Jev trading bots and three fraud or payment gates at pinned commits: 2 of the 4 bots can still place a new order when Jev errors, all 4 can trade without Jev, and none of the 3 gates has a payment call site. Recomputed failure behaviour across 39 implementations in 7 use cases: on a Jev error 21 stop or hold the action and 5 let it through unchecked. Read four Jev judge tools: DeepEval stops the run on a Jev error; the other 3 drop the item from the score, and openlayer jevals still reports it as passed. Products: 67 rows, 47 grade A, none independently verified. TypeSafe lists 6 subprocessors (Nebius and CoreWeave added 2 Oct). Access unchanged. No pool Jev call, trade, payment or eval.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/reports/trading-failures-judge/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Trading and fraud gates, the failure checklist and Jev as a judge · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Trading and fraud gates, the failure checklist and Jev as a judge. Read four Jev trading bots and three fraud or payment gates at pinned commits: 2 of the 4 bots can still place a new order when Jev errors, all 4 can trade without Jev, and none of the 3 gates has a payment call site. Recomputed failure behaviour across 39 implementations in 7 use cases: on a Jev error 21 stop or hold the action and 5 let it through unchecked. Read four Jev judge tools: DeepEval stops the run on a Jev error; the other 3 drop the item from the score, and openlayer jevals still reports it as passed. Products: 67 rows, 47 grade A, none independently verified. TypeSafe lists 6 subprocessors (Nebius and CoreWeave added 2 Oct). Access unchanged. No pool Jev call, trade, payment or eval.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/reports/trading-failures-judge/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Trading and fraud gates, the failure checklist and Jev as a judge","description":"Trading and fraud gates, the failure checklist and Jev as a judge. Read four Jev trading bots and three fraud or payment gates at pinned commits: 2 of the 4 bots can still place a new order when Jev errors, all 4 can trade without Jev, and none of the 3 gates has a payment call site. Recomputed failure behaviour across 39 implementations in 7 use cases: on a Jev error 21 stop or hold the action and 5 let it through unchecked. Read four Jev judge tools: DeepEval stops the run on a Jev error; the other 3 drop the item from the score, and openlayer jevals still reports it as passed. Products: 67 rows, 47 grade A, none independently verified. TypeSafe lists 6 subprocessors (Nebius and CoreWeave added 2 Oct). Access unchanged. No pool Jev call, trade, payment or eval.","dateModified":"2026-10-04T06:10:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/reports/trading-failures-judge/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="report-run:a0659f82-68c7-4d81-84ef-c1f25d543064">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a><a href="../../use-cases/support-ticket-triage/index.html" ><span aria-hidden="true">▤</span><b>Support-ticket triage with Jev</b></a><a href="../../use-cases/model-routing/index.html" ><span aria-hidden="true">⇉</span><b>Jev Router or your own router?</b></a><a href="../../use-cases/content-moderation/index.html" ><span aria-hidden="true">⚑</span><b>Content moderation with Jev</b></a><a href="../../use-cases/email-and-lead-sorting/index.html" ><span aria-hidden="true">✉</span><b>Jev email classifier</b></a><a href="../../use-cases/trading-and-fraud-gates/index.html" ><span aria-hidden="true">⇅</span><b>Jev trading bot and fraud gates</b></a><a href="../../use-cases/llm-as-judge/index.html" ><span aria-hidden="true">⚖</span><b>Jev as a judge</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../../build/index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../../build/python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../../build/typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../../build/n8n/index.html" ><span aria-hidden="true">⇶</span><b>Jev n8n node</b></a><a href="../../build/claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../../build/errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../../build/confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../../build/testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a><a href="../../build/when-jev-fails/index.html" ><span aria-hidden="true">⚠</span><b>When Jev fails</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Open-source Jev alternatives</b></a><a href="../../alternatives/jev-vs-llm-vs-classifier/index.html" ><span aria-hidden="true">⋈</span><b>Jev vs LLM vs classifier</b></a><a href="../../alternatives/laya-vs-kev/index.html" ><span aria-hidden="true">⚖</span><b>Jev vs Laya vs Kev</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/data-privacy/index.html" ><span aria-hidden="true">eye</span><b>Jev data retention and privacy</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Jev examples: products and projects</b></a><a href="../../benchmarks/index.html" ><span aria-hidden="true">▦</span><b>Jev benchmarks, graded</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv jev-page">
+  <div class="jv-kicker"><span>Research report</span><span>Run <code>run:a0659f82-68c7-4d81-84ef-c1f25d543064</code> · checks <time datetime="2026-10-04">4 October 2026</time>, 05:14–05:33 UTC</span></div>
+  <h1>Run 7 report: trading and fraud gates, the Jev failure checklist and Jev as a judge (4 Oct 2026)</h1>
+  <div class="jv-box info">
+    <p>This dated report records the evidence behind the release of 4 October 2026 (<code>regular-2026-10-04-trading-failures-judge</code>). The maintained pages built from it are: <a href="../../use-cases/trading-and-fraud-gates/index.html">trading and fraud gates</a> (new), <a href="../../build/when-jev-fails/index.html">when Jev fails</a> (new, the failure checklist across use cases), <a href="../../use-cases/llm-as-judge/index.html">Jev as a judge</a> (new), the refreshed <a href="../../products/index.html">Products hub</a>, the subprocessor finding on <a href="../../where-to-use/data-privacy/index.html#trust-portal">data privacy</a>, the drift note on <a href="../../build/claude-code-mcp/index.html">Claude Code and MCP guardrails</a>, and the refreshed <a href="../../index.html">home status</a> and <a href="../../where-to-use/access-status/index.html">access status</a>. Facts on those pages may be rechecked later; this report keeps the 4 October readings.</p>
+  </div>
+  <p><strong>Run:</strong> <code>run:a0659f82-68c7-4d81-84ef-c1f25d543064</code> (scheduled regular research run 7) · <strong>Pool:</strong> <code>pool_jev_catalog</code> · <strong>Runner:</strong> one runner plus two helper agents that read source in parallel (helper A: trading and fraud, then two guard projects; helper B: judge tools). The runner spot-checked 29 lines at the same commits (13 for helper A's trading rows, 4 for its guard rows, 12 for helper B); all 29 matched · <strong>Checks:</strong> 2026-10-04, 05:14 to 05:33 UTC; runner started 05:13:47 and finished the write-up at 05:34 UTC · <strong>Manager review:</strong> accepted at 05:38 UTC after its own spot-checks at the pinned commits and an arithmetic check of every total below.</p>
+  <p>The run's full notes and its source ledger (72 records, IDs R7-S01 to R7-S85: URL, access time, label, excerpt, outcome) are held in the pool's private record. Key sources are linked below and on the pages each finding feeds.</p>
+  <p><strong>Rules kept:</strong> no account, key, purchase, Jev API call, exchange, broker, payment or testnet call, bot run, eval run, or third-party code run. <strong>Nothing in this run is Tested.</strong> Every finding below is Documented (official docs, legal text, registry metadata, or source read at a pinned commit), Reported (a named third party's own claim) or Unverified (a lead only). No trading or investment advice, and no performance figures.</p>
+  <p><strong>Previous release:</strong> <code>regular-2026-10-03-email-products-n8n</code>; report: <a href="../email-products-n8n/index.html">email and lead sorting, oh-my-claudecode v5.6.0, Products refresh and n8n nodes</a>. All dated reports: <a href="../../research/index.html">Research</a>.</p>
+
+  <h2 id="summary">1. Summary answer, as of 4 October 2026</h2>
+  <ol>
+    <li><strong>Access is unchanged</strong> (checked <time datetime="2026-10-04T05:15:49Z">4 Oct 2026, 05:15 UTC</time>). Signups are open, but new accounts get no free credit, as since 27 Sep, 22:33 UTC. The API is operational, with no status-page event since 29 Sep, 22:05 UTC. Limits are still 100K tokens per second and 80 requests per second. No legal-date change and no TypeSafe release. All four Home notices are kept. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Trading and fraud gates: ships.</strong> Seven projects were read at pinned commits. Of 4 trading bots, 2 can still place a new order on a Jev error: QuantDinger (an LLM fallback, then allow) and btc-hft-jev (a rules-only fallback). All 4 have a path that trades without Jev. QuantDinger's order call sites are now traced; this had been open since 28 Sep. The 3 fraud or payment gates call Jev in code, but none of the 3 has a payment call site. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>When Jev fails: ships.</strong> 39 implementations in 7 domains, recomputed from the published tables. On a Jev error, 21 of 39 stop or hold the action and 5 of 39 let it through unchecked (4 content-moderation bots and 1 Claude Code hook). Of the other 13: 7 fall back, 3 only advise and 3 return no decision. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Jev as a judge: ships.</strong> Four tools were read at pinned commits. DeepEval aborts the run on a Jev error by default. The other 3 drop the failed item from the score, and openlayer jevals' report still says it passed. 1 of 4 codes an escalation for unsure verdicts (openlayer, and only if you switch it on). The Jevals harness code is still not public. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Data handling:</strong> TypeSafe's trust center lists 6 subprocessors; Nebius and CoreWeave were added on 2 Oct. Now on the Home notices and the data privacy page. <span class="ev ev-documented">Documented</span></li>
+  </ol>
+
+  <h2 id="access">2. Access recheck, home notices and the 24-hour scan</h2>
+  <h3 id="s2">Volatile fields and home status: unchanged</h3>
+  <ul>
+    <li>Rechecked 4 Oct 2026, 05:15:49 to 05:17:04 UTC (R7-S20 to R7-S49). Previous values: 3 Oct 2026, 05:15–05:18 UTC. <code>changed_since_last_run</code>: no.</li>
+    <li>Unchanged, all <span class="ev ev-documented">Documented</span>: status "All services are online" (API 90-day uptime 99.826%); model <code>jev-1.13.0</code> with both aliases; price $0.042 per million input tokens, output free; 100K tokens per second and 80 requests per second; console still HTTP 403, so signup is not observed by the pool; OpenRouter needs no separate TypeSafe account and its endpoint is on OpenRouter's ZDR list; Vercel lists one provider, DigitalOcean, with <code>has_zdr: false</code>; Cloudflare shows "Zero data retention Yes"; SDK versions; legal "Last updated" dates (Terms 19 Sep, AUP and MCA 23 Sep).</li>
+    <li>Headline unchanged: "Available to new users: signups open, but new accounts get no free credit. API operational." Shown as "checked 4 Oct 2026, 05:15 UTC".</li>
+    <li><strong>Notices: four kept, none retired.</strong> <code>new-user-credit-disabled</code> (rank 1), <code>lookalike-resellers</code> (rank 2; all three named sites still answered HTTP 200), <code>rate-limits-changed-2026-10-03</code> (rank 3; retires 10 Oct, 05:16 UTC) and <code>typesafe-workflow-evals-code</code>. No timeline additions.</li>
+    <li><strong>Manager decision, 05:38 UTC:</strong> the runner added <code>subprocessors-added-2026-10-02</code> at 05:31 UTC with <code>shown: false</code> (see <a href="#trust">section 7</a>). The manager shows it on Home at <strong>rank 4</strong>, because data handling affects every user. <code>typesafe-workflow-evals-code</code> moves to <strong>rank 5, not shown</strong>; it is still current and keeps its retire date of 6 Oct 2026, 16:25 UTC. None of the listed notice types fits the subprocessor change exactly; <code>new_official_release</code> was used and the notice's note says so.</li>
+  </ul>
+  <h3 id="s1">S1. 24-hour scan</h3>
+  <ul>
+    <li>Window: 3 Oct 2026, 05:14 UTC to 4 Oct 2026, 05:14 UTC. It starts exactly at run 6's cutoff: no gap, no overlap, no backfill needed.</li>
+    <li>Index counts (R7-S01 to R7-S05): 4 Hacker News "jev" stories and 8 comments; 225 GitHub repositories created matching "jev", 17 with the <code>jev</code> topic; 11 npm "jev" packages published in the window; 24 Hugging Face "jev" models modified; 3 DEV.to articles. These are search-index counts, not verified integrations or adoption.</li>
+    <li>No TypeSafe release, legal-date change, limits change or incident. One pinned-integration patch release (oh-my-claudecode v5.6.1; <a href="#drift">section 6</a>). Four new trading, fraud or judge repositories were found and read for the new pages.</li>
+    <li>Leads not read (<span class="ev ev-unverified">Unverified</span>): two self-run evaluations (jev-safety-eval, jev-zh-tw-eval) and one set of security experiments (system-one-security), queued for run 9.</li>
+    <li>Reddit (HTTP 403) and X (login redirect) could not be read; TikTok and YouTube were not attempted: unknown, not zero. GitHub search calls used: 5 of 10.</li>
+  </ul>
+
+  <h2 id="pages">3. Findings per page and ship verdicts</h2>
+  <h3 id="p1">3.1 <code>use-cases/trading-and-fraud-gates</code>: ships</h3>
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 4 Jev trading bots read in source, 2 can still place a new order when Jev errors; all 4 can trade without Jev. None of 3 fraud or payment gates moves money.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>source at pinned commits, checked <time datetime="2026-10-04">4 Oct 2026</time></span></p>
+  </div>
+  <ul>
+    <li>Page: <a href="../../use-cases/trading-and-fraud-gates/index.html">Jev trading bot (TypeSafe AI): does a Jev failure still place the order?</a> Title query source: Google suggested "jev trading bot"; Bing and DuckDuckGo suggested "jev trader" (05:21 UTC, R7-S11). "jev fraud" had no relevant suggestion, so "fraud" stays in the subtitle. A suggestion is a demand signal, not a volume.</li>
+    <li>Projects and pinned commits: QuantDinger <code>a5a9f4c</code>, jev-trader <code>b587759</code>, Jev Trade <code>a3f2f83</code>, btc-hft-jev <code>96f3541</code> (new, 3 Oct), jev-fraud-shield <code>eeb4fc6</code>, fraud-jev <code>aa33b97</code>, expense-policy gate <code>161c33b</code> (new, 3 Oct). Every failure cell on the page has a path and line range.</li>
+    <li>QuantDinger: <code>ai_decision_filter.py</code> was rewritten since 28 Sep (now 743 lines). A Jev error, a malformed answer, risk or execution confidence below 0.55, or a missing key all go to an LLM fallback, then allow; the timeout is 8 s. An <code>insufficient</code> answer never blocks. Exits, the grid, DCA and martingale strategies skip the gate. A failed audit write does not block the order. The filter is off by default, and strategy orders default to a virtual account. Order call sites traced: the strategy v2 execution path (the gate runs before <code>INSERT INTO pending_orders</code>), quick trade, and the Alpaca route.</li>
+    <li>Defaults: all 4 bots default to mock, paper, testnet or a virtual account. In jev-trader and Jev Trade, the mock model still sends orders when a wallet key is set: "mock" means no Jev, not no trading. jev-trader turns any answer other than "sell" into a buy. On a Jev error, jev-trader and Jev Trade place no new order, but a resting order stays on the book.</li>
+    <li>Not claimed: that Jev trading bots are unsafe, or anything about trading results. Jev Trade's creator's claims of filled orders stay <span class="ev ev-reported">Reported</span>.</li>
+  </ul>
+
+  <h3 id="p2">3.2 <code>build/when-jev-fails</code>: ships</h3>
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 39 Jev implementations read in source, 21 stop or hold the action when Jev errors and 5 let it through unchecked: 4 content-moderation bots and one Claude Code hook.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>recomputed from 7 published domain tables, checked <time datetime="2026-10-04">4 Oct 2026</time></span></p>
+  </div>
+  <ul>
+    <li>Page: <a href="../../build/when-jev-fails/index.html">When Jev fails (TypeSafe AI)</a>. The title is an internal label: six failure phrases got no relevant suggestion on any of four suggestion endpoints at 05:21 UTC (the same result as 3 Oct).</li>
+    <li>39 rows in 7 domains, 5 to 7 rows each; the official plugin is excluded from every denominator. The runner recounted every column from the map with a script, and the manager checked that each row below sums to 39. No new failure claims: every cell comes from a published page.</li>
+    <li>The action goes ahead on a Jev error in 7 of 39: the 5 fail-open rows plus the 2 trading fallbacks. Without the trading domain, the six earlier domains give 32 rows: fail-closed 16, fail-open 5, advisory 3, fallback 5, no-decision 3.</li>
+    <li>The checklist has 8 questions, each with counts and example rows. Below-threshold totals are kept apart from error totals.</li>
+  </ul>
+  <div class="table-wrap stack">
+    <table>
+      <caption>Totals across 39 implementations (n = 39 per row)</caption>
+      <thead><tr><th>Condition</th><th>Counts</th><th>Not recorded</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Condition">Jev error</td><td data-l="Counts">fail-closed 21, fail-open 5, advisory 3, fallback 7, no-decision 3</td><td data-l="Not recorded">0/39</td></tr>
+        <tr><td data-l="Condition">Malformed answer</td><td data-l="Counts">fail-closed 16, fail-open 8, advisory 3, fallback 8, no-decision 3</td><td data-l="Not recorded">1/39</td></tr>
+        <tr><td data-l="Condition">Below threshold</td><td data-l="Counts">held 10, acts-anyway 7, fallback 5, no-decision 2, advisory 4, no-threshold 6</td><td data-l="Not recorded">5/39</td></tr>
+        <tr><td data-l="Condition">No key</td><td data-l="Counts">fail-closed 13, fail-open 2, advisory 3, fallback 4</td><td data-l="Not recorded">17/39</td></tr>
+        <tr><td data-l="Condition">Bypass</td><td data-l="Counts">recorded 17</td><td data-l="Not recorded">22/39</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="p3">3.3 <code>use-cases/llm-as-judge</code>: ships</h3>
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 4 Jev judge tools read in source, DeepEval stops the run on a Jev error; the other 3 drop the item from the score, and openlayer jevals still reports it as passed.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>source at pinned commits, checked <time datetime="2026-10-04">4 Oct 2026</time></span></p>
+  </div>
+  <ul>
+    <li>Page: <a href="../../use-cases/llm-as-judge/index.html">Jev as a judge (TypeSafe AI): accept when confident, escalate when unsure</a>. Title query source: Google suggested "jev llm as a judge" and "jev as a judge"; Bing and DuckDuckGo also suggested "jev as a judge"; "jev evals" was suggested on Google, Bing and DuckDuckGo (05:21 UTC, R7-S11). The draft "Jev as an LLM judge" was replaced because it contains no suggested phrase.</li>
+    <li>Tools and pinned commits: DeepEval JevEval <code>a200ece</code> (version 4.2.8; no matching git tag), openlayer jevals <code>0a8f895</code>, did-they-answer <code>e0ee60c</code> (new, 4 Oct), competitor-hunter <code>40613ea</code> (new, 3 Oct; it loads whatever Jev caller the user has installed, so that part is not pinned). Jevals: the harness code is still not public, and the row says so.</li>
+    <li>Details: DeepEval's <code>ignore_errors</code> defaults to <code>False</code> (<code>evaluate/configs.py</code> L46), so a Jev error aborts the run. DeepEval scores a test case 1.0 when every Choice question is mostly "not applicable". openlayer's gate defaults to <code>on_error="allow"</code>.</li>
+    <li>Evidence summary: rows B02, B06 and B08 copied unchanged from <a href="../../benchmarks/index.html">benchmarks</a> (<span class="ev ev-reported">Reported</span>). The pool ran no judge benchmark. Not claimed: anything about Jev's accuracy as a judge.</li>
+  </ul>
+
+  <h2 id="corrections">4. Corrections to published pages, and how they were applied</h2>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Page</th><th>Published claim</th><th>Correction</th><th>Applied as</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Page"><code>build/claude-code-mcp</code>; run 6's checklist preparation (tally in the <a href="../email-products-n8n/index.html#spare">3 Oct report</a>)</td><td data-l="Claim">oh-my-claudecode on a Jev error: <code>fallback-heuristic</code>; tally on a Jev error: advisory 2, fallback 6</td><td data-l="Correction">At default settings oh-my-claudecode is <code>advisory</code>: shadow mode, Jev never decides. Tally: advisory 3, fallback 5</td><td data-l="Applied"><code>build/claude-code-mcp</code> wording checked: it already said "Shadow by default: Jev never decides"; the matrix row now also says the points are <strong>advisory</strong> at default settings and that its cells describe the path once Jev is asked; <a href="../../build/when-jev-fails/index.html">when-jev-fails</a> counts it as advisory. The 3 Oct report keeps its dated reading</td></tr>
+        <tr><td data-l="Page">Run 6's checklist preparation (internal)</td><td data-l="Claim">No-key cells for jev-claude and jkudish: "not mapped"</td><td data-l="Correction">Both are recorded on <code>build/claude-code-mcp</code> as advisory</td><td data-l="Applied">when-jev-fails no-key column uses the recorded cells</td></tr>
+        <tr><td data-l="Page">Below-threshold cells on the published domain pages</td><td data-l="Claim">Older local terms per page</td><td data-l="Correction">Mapped to the 4 Oct terms: CyrilBaah, LiteLLM, 0xNatoshi and Zafer-Liu → <code>no-threshold</code>; agent-router and the rows that send items to a review group or review label → <code>held</code></td><td data-l="Applied">when-jev-fails below-threshold column; relabels only, no fact changes</td></tr>
+        <tr><td data-l="Page">Bypass cells (run 6 preparation)</td><td data-l="Claim">Email re-processing guards and agent-router's refusal to send secrets counted as bypasses</td><td data-l="Correction">Neither is a bypass. Of the 5 email projects, 1 has a bypass: Jevmail's <code>/preview</code> simulator</td><td data-l="Applied">when-jev-fails bypass column (recorded 17/39)</td></tr>
+        <tr><td data-l="Page"><code>use-cases/email-and-lead-sorting</code></td><td data-l="Claim">Unsure cells: Jevmail <code>advisory</code>; spam-leadgen <code>fail-closed</code></td><td data-l="Correction">Under the 4 Oct terms: Jevmail <code>acts-anyway</code> (flagged); spam-leadgen <code>fallback-not qualified</code></td><td data-l="Applied">Both cells relabelled on the <a href="../../use-cases/email-and-lead-sorting/index.html">email page</a>; under the same rule vynnlee's "fallback: Review label" now reads "held: Review label". No fact changes</td></tr>
+        <tr><td data-l="Page"><code>use-cases/email-and-lead-sorting</code></td><td data-l="Claim">Cost range starts at "about $0.004 per 1,000 for very short emails" (question allowance left out)</td><td data-l="Correction">$0.042 per million × 600 tokens (100 email + 500 question allowance) × 1,000 = $0.0252. The table rows already include the 500-token allowance (for example vynnlee: 1,700 characters ÷ 4 + 500 = 925 tokens → $0.039), so $0.004 did not follow the table's own method</td><td data-l="Applied">Cost line now leads with "about $0.025 per 1,000 very short emails"; $0.004 dropped</td></tr>
+        <tr><td data-l="Page"><code>use-cases</code> hub, <code>build/testing-without-a-key</code>, <code>products</code></td><td data-l="Claim">QuantDinger links to <code>ai_decision_filter.py</code> lines as read on 28 Sep</td><td data-l="Correction">The file was rewritten (743 lines), so the 28 Sep line links point at the wrong code</td><td data-l="Applied">Replaced with links pinned to <code>a5a9f4c</code> on the <a href="../../use-cases/index.html">use-cases hub</a>, <a href="../../build/testing-without-a-key/index.html">testing without a key</a> and <a href="../../products/index.html">Products</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><small>No earlier fact was found false: corrections 1 and 2 are relabels under the 4 Oct vocabulary, correction 3 aligns one figure with the page's own method, and correction 4 replaces stale line links. Older report pages are dated snapshots and keep their readings.</small></p>
+
+  <h2 id="products">5. Products changes</h2>
+  <ul>
+    <li><strong>New total: 67 rows (A 47, B 19, C 1)</strong>, up from 61 (A 39, B 21, C 1), checked against the published Products page. The manager checked the arithmetic: 61 + 6 new = 67; A 39 + 2 + 6 = 47; B 21 − 2 = 19. Independently verified in production: still 0 of 67.</li>
+    <li>QuantDinger (already A): pin updated to <code>a5a9f4c</code>; failure description now "LLM fallback, then allow; order call sites traced".</li>
+    <li>jev-trader and Jev Trade: B → A, now read in source. Jev Trade's creator's claims of filled orders stay <span class="ev ev-reported">Reported</span>.</li>
+    <li>6 new A rows: btc-hft-jev, jev-fraud-shield, fraud-jev, the expense-policy gate, did-they-answer, competitor-hunter.</li>
+    <li>Not counted: DeepEval JevEval and openlayer jevals are library features, handled like LiteLLM.</li>
+    <li>The two guard rows read in spare time (gulbaki/jev-llm-guard at <code>7c7b1b5</code> and madisonrickert/jev-permission-gate at <code>7349bc9</code>) are <strong>not added this run</strong>. They are kept for the next <code>build/claude-code-mcp</code> edit, when Products would become 69 rows (A 49). They are not counted on when-jev-fails either.</li>
+  </ul>
+
+  <h2 id="drift">6. Drift</h2>
+  <ul>
+    <li>oh-my-claudecode v5.6.1 (3 Oct, 06:44 UTC) is a patch release, so it gets a drift note only on <a href="../../build/claude-code-mcp/index.html">Claude Code and MCP guardrails</a>: "failure path checked at v5.6.0". <span class="ev ev-documented">Documented</span></li>
+    <li>No other pinned integration changed, including all 5 n8n nodes (checked 05:28 UTC; official <code>@typesafe-ai/n8n-nodes-typesafe-ai</code> still 0.9.0).</li>
+  </ul>
+
+  <h2 id="trust">7. TypeSafe's trust center: subprocessors</h2>
+  <ul>
+    <li>Read 4 Oct 2026, 05:30 UTC (R7-S80). The trust center is a script-only page; it was rendered read-only with the headless browser already on the host, using a temporary profile. No form was submitted and no access was requested. <span class="ev ev-documented">Documented</span></li>
+    <li>It lists <strong>6 subprocessors</strong>, all in the USA: Amazon Web Services, Modal, Slack, Google Workspace, Nebius and CoreWeave. Its updates list shows "Nebius and CoreWeave — Published October 2, 2026 — Added subprocessors".</li>
+    <li>For Modal, Nebius and CoreWeave, TypeSafe's wording is that customer AI prompts are "processed, but not stored" on compute nodes those companies manage. For AWS it says customer information for requests is "stored and processed".</li>
+    <li>The trust center lists a "SOC 2 Type II - 2026" report behind "Request access". The pool did not see the report.</li>
+    <li>Applied: a dated line on <a href="../../where-to-use/data-privacy/index.html#trust-portal">data privacy</a> and the Home notice <code>subprocessors-added-2026-10-02</code> (rank 4). The route labels on the data privacy page (OpenRouter ZDR list, Vercel <code>has_zdr: false</code>, Cloudflare "Zero data retention Yes") do not change.</li>
+  </ul>
+
+  <h2 id="gaps">8. Evidence gaps and uncertainties</h2>
+  <ul>
+    <li>Cells not recorded across the 39 checklist rows: no key 17/39; bypass 22/39 (many on pages published before the bypass column existed); below threshold 5/39 (the n8n rows).</li>
+    <li>jev-trader's no-key path runs inside <code>@ai-sdk/typesafe-ai</code>, which was not read.</li>
+    <li>QuantDinger: the worker's upgrade of queued <code>signal</code> rows to real-account orders may be a way past the filter, but it was not traced end to end. The LLM fallback prompt was not read.</li>
+    <li>did-they-answer: the abort on a malformed answer was traced in source but not run. competitor-hunter: the user's installed Jev caller version is not pinned. openlayer jevals: the PyPI version was not checked. Jevals: harness not public; its error handling is Reported only (methodology page, R7-S77).</li>
+    <li>VentureBeat returned HTTP 429 (R7-S81), so its two relayed Products claims stay unchecked, with their 21 Sep date. The SOC 2 report was not seen.</li>
+    <li>Reddit (HTTP 403) and X (login wall) are unknown. YouTube, TikTok and GitHub code search were not attempted.</li>
+    <li>Helper-agent reads were spot-checked (29 lines), not re-read line by line. Whether any project behaves as its code reads: nothing was run.</li>
+  </ul>
+
+  <h2 id="not-done">9. Not done</h2>
+  <ul>
+    <li>Trading and payment leads not read: the Jono717, gilesknap and buberlo jev-trader repositories; caiovicentino/jev-risk-check-provider (the runner's next payment candidate); PayShield, fraud-classifier, Nutlope/jev-fraud. TradeRank was not found.</li>
+    <li>Judge leads not read: Zaious/JevTRPG, the texposit "Judge Jev" post, DeepEval's ConversationalJevEval.</li>
+    <li>New leads for run 9: jev-safety-eval, jev-zh-tw-eval, system-one-security. The run 6 carry list is unchanged.</li>
+  </ul>
+
+  <h2 id="timings">10. Timings (UTC, 4 Oct 2026)</h2>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Step</th><th>Time</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Step">Runner start</td><td data-l="Time">05:13:47</td></tr>
+        <tr><td data-l="Step">S1 cutoff</td><td data-l="Time">05:14:00</td></tr>
+        <tr><td data-l="Step">Helpers launched</td><td data-l="Time">05:14</td></tr>
+        <tr><td data-l="Step">S2 recheck</td><td data-l="Time">05:15:49</td></tr>
+        <tr><td data-l="Step">S1 scan</td><td data-l="Time">05:16:32</td></tr>
+        <tr><td data-l="Step"><code>home-status.json</code> written</td><td data-l="Time">05:17:32</td></tr>
+        <tr><td data-l="Step">QuantDinger read</td><td data-l="Time">05:17–05:20</td></tr>
+        <tr><td data-l="Step">Helper B back; spot-checks</td><td data-l="Time">about 05:19:40; 05:20–05:26</td></tr>
+        <tr><td data-l="Step">Autocomplete</td><td data-l="Time">05:21:29</td></tr>
+        <tr><td data-l="Step">Helper A back; spot-check</td><td data-l="Time">about 05:21:30; 05:21:48</td></tr>
+        <tr><td data-l="Step">Page notes</td><td data-l="Time">05:23–05:27</td></tr>
+        <tr><td data-l="Step">Source ledger</td><td data-l="Time">05:28</td></tr>
+        <tr><td data-l="Step">Scan file</td><td data-l="Time">05:29</td></tr>
+        <tr><td data-l="Step">Spare time (trust center, VentureBeat, Netlify, guard rows)</td><td data-l="Time">05:30–05:33</td></tr>
+        <tr><td data-l="Step">Write-up done</td><td data-l="Time">05:34</td></tr>
+        <tr><td data-l="Step">Manager review and decisions</td><td data-l="Time">05:38</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="rules">11. Rules followed</h2>
+  <ul>
+    <li>No account, key, purchase or Jev API call. No exchange, broker, payment or testnet call. No bot run, eval run, or third-party code run.</li>
+    <li>The host's headless browser was used read-only with a temporary profile. Scratch downloads and the browser profile were deleted; only three small read-only fetch scripts written by the runner remain. No symlinks.</li>
+    <li>No email addresses or other personal data in any note or on this page.</li>
+  </ul>
+
+  <h2 id="sources">12. Key sources</h2>
+  <div class="jv-sources">
+    <ul>
+      <li>Access and limits: <a href="https://status.typesafe.ai/">status.typesafe.ai</a> (R7-S20); <a href="https://docs.typesafe.ai/models.md">docs.typesafe.ai/models.md</a> (R7-S21); <a href="https://openrouter.ai/api/v1/endpoints/zdr">OpenRouter ZDR endpoint list</a> (R7-S48); <a href="https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints">Vercel endpoints</a> (R7-S49); <a href="https://developers.cloudflare.com/ai/models/typesafe/jev/">Cloudflare model page</a> (R7-S29). All 4 Oct, 05:15 UTC.</li>
+      <li>Trading and fraud (R7-S50 to R7-S63, 4 Oct): <a href="https://github.com/OpenByteInc/QuantDinger/tree/a5a9f4c79a263113504e882531585a9f2d3b24f9">QuantDinger <code>a5a9f4c</code></a>; <a href="https://github.com/jarrodwatts/jev-trader/tree/b587759e459ea049590102e54a0b07800864cdc3">jev-trader <code>b587759</code></a>; <a href="https://github.com/aowang-ai/jev-trade/tree/a3f2f834a1b97dd42fab1193814179ac2e96d7cd">Jev Trade <code>a3f2f83</code></a>; <a href="https://github.com/taran1610/btc-hft-jev/tree/96f354151aa62bcbb362da2bed0409bffc5fa58d">btc-hft-jev <code>96f3541</code></a>; <a href="https://github.com/jonny5isalive5/jev-fraud-shield/tree/eeb4fc6ebb8435fcfda87b3544fd1f41c6c55e7f">jev-fraud-shield <code>eeb4fc6</code></a>; <a href="https://github.com/frankied003/fraud-jev/tree/aa33b971eaa11dc27c98821856fc4e331cc9b75a">fraud-jev <code>aa33b97</code></a>; <a href="https://github.com/ElliotOne/nl-jev-decision-gates-expense-policy/tree/161c33bce7dccbb1ae67f84f7d9194fb8743cfc1">expense-policy gate <code>161c33b</code></a>. File paths and line ranges are on the <a href="../../use-cases/trading-and-fraud-gates/index.html">trading page</a>.</li>
+      <li>Judge tools (R7-S70 to R7-S78, 4 Oct): <a href="https://github.com/confident-ai/deepeval/tree/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3">DeepEval <code>a200ece</code></a>; <a href="https://github.com/openlayer-ai/jevals/tree/0a8f895a0428b89c865f953d5295b6b516e4018c">openlayer jevals <code>0a8f895</code></a>; <a href="https://github.com/Kandarp-Joshi-007/did-they-answer/tree/e0ee60cce6785c359fb4fb04653c46468bb4f434">did-they-answer <code>e0ee60c</code></a>; <a href="https://github.com/charlesdove977/competitor-hunter/tree/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98">competitor-hunter <code>40613ea</code></a>; <a href="https://jevals.com/methodology">Jevals methodology</a> (Reported).</li>
+      <li>Failure checklist: recomputed from the published domain pages; rows and links on <a href="../../build/when-jev-fails/index.html">when Jev fails</a>.</li>
+      <li>Guard rows for the next edit (R7-S84, R7-S85): <a href="https://github.com/gulbaki/jev-llm-guard/tree/7c7b1b5b646428e397541473de0cd176cc9fe956">jev-llm-guard <code>7c7b1b5</code></a>; <a href="https://github.com/madisonrickert/jev-permission-gate/tree/7349bc973394905f346dfbe07934662039c496e8">jev-permission-gate <code>7349bc9</code></a>.</li>
+      <li>Drift: <a href="https://github.com/Yeachan-Heo/oh-my-claudecode/releases">oh-my-claudecode releases</a> (R7-S47, 05:15 UTC).</li>
+      <li>Trust center (R7-S80, 05:30 UTC): <a href="https://trust.typesafe.ai/subprocessors">trust.typesafe.ai/subprocessors</a>; <a href="https://trust.typesafe.ai/updates">trust.typesafe.ai/updates</a>.</li>
+    </ul>
+  </div>
+  <p><small>All dated reports: <a href="../../research/index.html">Research</a>. Previous report: <a href="../email-products-n8n/index.html">3 Oct 2026, email and lead sorting, Products and n8n</a>.</small></p>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>4 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>
