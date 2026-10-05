@@ -220,6 +220,17 @@
       "summary": "Read four Jev trading bots and three fraud or payment gates at pinned commits: 2 of the 4 bots can still place a new order when Jev errors, all 4 can trade without Jev, and none of the 3 gates has a payment call site. Recomputed failure behaviour across 39 implementations in 7 use cases: on a Jev error 21 stop or hold the action and 5 let it through unchecked. Read four Jev judge tools: DeepEval stops the run on a Jev error; the other 3 drop the item from the score, and openlayer jevals still reports it as passed. Products: 67 rows, 47 grade A, none independently verified. TypeSafe lists 6 subprocessors (Nebius and CoreWeave added 2 Oct). Access unchanged. No pool Jev call, trade, payment or eval.",
       "report_path": "/p/jev-catalog/reports/trading-failures-judge",
       "entrypoint": "reports/trading-failures-judge/index.html"
+    },
+    {
+      "run_id": "run:b26864e3-2a62-4080-b445-28fe3dbadc7e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-05T05:11:41Z",
+      "completed_at": "2026-10-05T06:10:00Z",
+      "title": "Browser and computer use, framework integrations, and Jev on Bedrock or Azure",
+      "summary": "Read 7 Jev browser and computer-use agents at pinned commits: none clicks or types when Jev errors, but 5 act on low-confidence answers and only 1 asks a person before send, buy or delete. Read 6 Jev framework packages: 4 are pre-1.0 and none comes from TypeSafe; 4 raise Jev errors to the caller, while the community Spring AI filter and the LlamaIndex reranker fail open. Jev is not listed in the Amazon Bedrock or Azure AI Foundry model catalogs (5 Oct, 05:18–05:19 UTC). Failure checklist: 51 implementations in 9 use cases; 30 stop or hold the action on a Jev error and 6 let it through unchecked. Products: 72 rows, 55 grade A, none independently verified. Access unchanged. No pool Jev call, agent run or install.",
+      "report_path": "/p/jev-catalog/reports/browser-frameworks",
+      "entrypoint": "reports/browser-frameworks/index.html"
     }
   ]
 }

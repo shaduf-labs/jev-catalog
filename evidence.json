@@ -6430,6 +6430,846 @@
       "accessed_at": "2026-10-04T05:30:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s01",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query=<36 queries: jev|typesafe|jev browser|jev computer use|jev android|jev cua|...|jev zapier|jev eu>&tags=<story|comment>&typoTolerance=false&numericFilters=created_at_i>=1791090840,created_at_i<1791177240",
+      "title": "Run 8 source R8-S01: hn.algolia.com/api/v1/search_by_date?query=<36 queries: jev|typesafe|jev browser",
+      "claim": "jev: 7 stories, 4 comments; typesafe: 1 story, 2 comments; all other queries 0 except 'jev down' 1 (Show HN title) (Documented (index results); accessible)",
+      "accessed_at": "2026-10-05T05:14:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s02",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=<jev|topic:jev>+created:2026-10-04T05:14:00Z..2026-10-05T05:13:59Z",
+      "title": "Run 8 source R8-S02: api.github.com/search/repositories?q=<jev|topic:jev>+created:2026-10-04T05:14:00",
+      "claim": "jev 250 (incomplete_results false); topic:jev 54 (Documented (index results); accessible; 2 search calls)",
+      "accessed_at": "2026-10-05T05:14:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s03",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?size=250&text=<jev|typesafe>",
+      "title": "Run 8 source R8-S03: registry.npmjs.org/-/v1/search?size=250&text=<jev|typesafe>",
+      "claim": "jev 12, typesafe 4 packages with last publish in window (Documented (index results); accessible)",
+      "accessed_at": "2026-10-05T05:14:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s04",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=jev&sort=lastModified&direction=-1&limit=100",
+      "title": "Run 8 source R8-S04: huggingface.co/api/models?search=jev&sort=lastModified&direction=-1&limit=100",
+      "claim": "18 models modified in window (Documented (index results); accessible)",
+      "accessed_at": "2026-10-05T05:14:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s05",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev&per_page=100",
+      "title": "Run 8 source R8-S05: dev.to/api/articles?tag=jev&per_page=100",
+      "claim": "0 articles in window (Documented (index results); accessible)",
+      "accessed_at": "2026-10-05T05:14:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s07",
+      "source_type": "not accessible",
+      "source_url": "https://www.reddit.com/search.json?q=jev&sort=new",
+      "title": "Run 8 source R8-S07: www.reddit.com/search.json?q=jev&sort=new",
+      "claim": "HTTP 403 (Unverified; failed; unknown)",
+      "accessed_at": "2026-10-05T05:14:58Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s08",
+      "source_type": "not accessible",
+      "source_url": "https://x.com/search?q=jev%20typesafe&f=live",
+      "title": "Run 8 source R8-S08: x.com/search?q=jev%20typesafe&f=live",
+      "claim": "redirect to /i/jf/onboarding/web?...mode=login (Unverified; failed; unknown)",
+      "accessed_at": "2026-10-05T05:14:58Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s11",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&q=<q> ; https://api.bing.com/osjson.aspx?query=<q> ; https://duckduckgo.com/ac/?q=<q>&type=list (23 queries)",
+      "title": "Run 8 source R8-S11: suggestqueries.google.com/complete/search?client=firefox&q=<q> ; https://api.bin",
+      "claim": "'jev browser use', 'jev computer use', 'jev langchain', 'jev azure foundry', 'where to use jev' on all three endpoints; 'jev on bedrock' Google (Documented (demand signal, not volume); accessible; all HTTP 200 05:14:54-05:15:03Z)",
+      "accessed_at": "2026-10-05T05:14:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s12",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=jev-omni&full=true ; https://huggingface.co/akhilaaa3/Jev-Omni/raw/main/README.md ; https://registry.npmjs.org/@ai-ecoverse/jev-omni.js ; https://hn.algolia.com/api/v1/search?query=jev%20omni|jev%20vision",
+      "title": "Run 8 source R8-S12: huggingface.co/api/models?search=jev-omni&full=true ; https://huggingface.co/akh",
+      "claim": "A multimodal decision classifier for text, images, audio and video ... Built on Gemma 4 12B IT (Documented (repo facts); Reported (benchmarks); accessible; 'jev omni' explained (community model); 'jev vision' unexplained)",
+      "accessed_at": "2026-10-05T05:16:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s20",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Run 8 source R8-S20: status.typesafe.ai/",
+      "claim": "All services are online ... 99.829% uptime (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Run 8 source R8-S21: docs.typesafe.ai/models.md",
+      "claim": "Rate limits | 100K tokens per second / 80 requests per second (Documented; accessible; at jev-1.13.0)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s22",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Run 8 source R8-S22: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "Open the Playground and log in ... Get your API key from the dashboard (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s23",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/ ; https://typesafe.ai/blog",
+      "title": "Run 8 source R8-S23: typesafe.ai/ ; https://typesafe.ai/blog",
+      "claim": "page build 'Published Sep 28, 2026, 7:32 PM UTC'; blog 13 characters (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s24",
+      "source_type": "unverified lead",
+      "source_url": "https://console.typesafe.ai/ ; /signup ; /login",
+      "title": "Run 8 source R8-S24: console.typesafe.ai/ ; /signup ; /login",
+      "claim": "HTTP 403 on all three (Unverified; signup not observed)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s25",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Run 8 source R8-S25: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "\"pricing\":{\"prompt\":\"0.000000042\",\"completion\":\"0\"}; context_length 32000 (Documented; accessible; at typesafe/jev-1.13-20260917)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s26",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-router/endpoints ; https://openrouter.ai/api/v1/models",
+      "title": "Run 8 source R8-S26: openrouter.ai/api/v1/models/typesafe/jev-router/endpoints ; https://openrouter.a",
+      "claim": "jev-router prompt -1, context 1000000; endpoints [] (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s27",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Run 8 source R8-S27: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. Just create an OpenRouter API key (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Run 8 source R8-S28: ai-gateway.vercel.sh/v1/models",
+      "claim": "\"zdr\":\"none\",\"no_training\":\"all\" (Documented; accessible; at typesafe-ai/jev)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Run 8 source R8-S29: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "Zero data retention Yes Pricing Input (per 1M tokens) $0.042 (Documented; accessible; at typesafe/jev)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s30",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Run 8 source R8-S30: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/210433864999962639",
+      "claim": "good news: ANYONE CAN SIGN UP ... we had to temporarily disable the free credits (just for new users) (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s31",
+      "source_type": "documented source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Run 8 source R8-S31: aifront-page.com/",
+      "claim": "0 mentions of TypeSafe or Jev (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s33",
+      "source_type": "documented source",
+      "source_url": "https://opper.ai/typesafe/jev-1-13-0",
+      "title": "Run 8 source R8-S33: opper.ai/typesafe/jev-1-13-0",
+      "claim": "TypeSafe AI — United States ... Zero data retention Not established ... Transfer mechanism unknown (Documented; accessible; at jev-1.13.0)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s34",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json ; https://pypi.org/pypi/langchain-typesafe/json",
+      "title": "Run 8 source R8-S34: pypi.org/pypi/typesafe-sdk/json ; https://pypi.org/pypi/langchain-typesafe/json",
+      "claim": "typesafe-sdk 0.7.2; langchain-typesafe 0.0.1a3 (Documented; accessible; at 0.7.2 / 0.0.1a3)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s35",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk",
+      "title": "Run 8 source R8-S35: registry.npmjs.org/@typesafe-ai/sdk",
+      "claim": "latest 0.6.0 (Documented; accessible; at 0.6.0)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s36",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ai",
+      "title": "Run 8 source R8-S36: registry.npmjs.org/ai",
+      "claim": "latest 7.0.127 (Documented; accessible; at 7.0.127)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s37",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "title": "Run 8 source R8-S37: registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "claim": "latest 3.0.12 (Documented; accessible; at 3.0.12)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s38",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "title": "Run 8 source R8-S38: api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "claim": "11 repositories, none archived (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s39",
+      "source_type": "documented source",
+      "source_url": "https://web.archive.org/cdx/search/cdx?url=docs.typesafe.ai/models*&from=20261004 ; https://docs.typesafe.ai/changelog.md",
+      "title": "Run 8 source R8-S39: web.archive.org/cdx/search/cdx?url=docs.typesafe.ai/models*&from=20261004 ; http",
+      "claim": "3 captures on 4 Oct; changelog.md HTTP 404 (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s40",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/terms",
+      "title": "Run 8 source R8-S40: typesafe.ai/legal/terms",
+      "claim": "Last updated Sep 19, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s41",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/acceptable-use-policy",
+      "title": "Run 8 source R8-S41: typesafe.ai/legal/acceptable-use-policy",
+      "claim": "Last updated Sep 23, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s42",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/mca",
+      "title": "Run 8 source R8-S42: typesafe.ai/legal/mca",
+      "claim": "Last updated Sep 23, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s43",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/data-processing",
+      "title": "Run 8 source R8-S43: typesafe.ai/legal/data-processing",
+      "claim": "Last updated Apr 24, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s44",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/privacy-policy",
+      "title": "Run 8 source R8-S44: typesafe.ai/legal/privacy-policy",
+      "claim": "Last updated Nov 19, 2025 (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s45",
+      "source_type": "documented source",
+      "source_url": "https://trust.typesafe.ai/ ; /subprocessors ; /updates (chromium-headless-shell --dump-dom, temporary profile)",
+      "title": "Run 8 source R8-S45: trust.typesafe.ai/ ; /subprocessors ; /updates (chromium-headless-shell --dump-d",
+      "claim": "Customer AI prompts are processed, but not stored, on compute nodes managed by Nebius (Documented; accessible (rendered); 6 subprocessors, all USA)",
+      "accessed_at": "2026-10-05T05:14:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s46",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Run 8 source R8-S46: docs.typesafe.ai/legal.md",
+      "claim": "1,162 bytes, unchanged (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s47",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@jkudish/jev-mcp ; https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases?per_page=3 ; https://api.github.com/repos/{danna-zhou/jev-mcp,brunopivetta88/jev-claude,typesafe-ai/skills} ; https://registry.npmjs.org/{@typesafe-ai/n8n-nodes-typesafe-ai,n8n-nodes-typesafe-ai,n8n-nodes-jev,@taifoon/n8n-nodes-typesafe,n8n-nodes-typesafe}",
+      "title": "Run 8 source R8-S47: registry.npmjs.org/@jkudish/jev-mcp ; https://api.github.com/repos/Yeachan-Heo/o",
+      "claim": "all pinned integrations unchanged since run 7 (Documented; accessible; at 0.13.0; v5.6.1; 0.9.0; 0.1.1; 0.2.3; 2.0.5; 0.3.3)",
+      "accessed_at": "2026-10-05T05:13:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s48",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/endpoints/zdr",
+      "title": "Run 8 source R8-S48: openrouter.ai/api/v1/endpoints/zdr",
+      "claim": "TypeSafe | typesafe/jev-1.13-20260917 (930 endpoints listed) (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s49",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Run 8 source R8-S49: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "\"provider_name\":\"digitalocean\",\"has_zdr\":false,\"has_no_training\":true (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:13:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s50",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/ ; https://jev-agent.org/ ; https://jev-ai.pro/ ; https://jevtypesafeai.com/",
+      "title": "Run 8 source R8-S50: research.eye.security/rise-of-the-jev-clones/ ; https://jev-agent.org/ ; https:/",
+      "claim": "all four HTTP 200; report names jevtypesafeai.com (9 mentions), jev-agent.org, jev-ai.pro (Reported; accessible)",
+      "accessed_at": "2026-10-05T05:13:32Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s60",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/{model,agent,browser,snapshot.js,questions}.py ; tests/test_agent.py",
+      "title": "Run 8 source R8-S60: raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef16",
+      "claim": "raise RuntimeError(\"Model connection failed; no action executed.\") from None (Documented; accessible; at 1231850a0bf1a0c0341fe408ef1668dbbfdfac46)",
+      "accessed_at": "2026-10-05T05:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s61",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ironbee-ai/ironbee-express/05079b44d09d76ff35dfb550716fb2c29875c5f2/src/{engine/systemone.ts,engine/jev.ts,agent/policy.ts,agent/agent.ts,run/runner.ts,config/config.ts,profile/profiles.ts,text/mask.ts}",
+      "title": "Run 8 source R8-S61: raw.githubusercontent.com/ironbee-ai/ironbee-express/05079b44d09d76ff35dfb550716",
+      "claim": "// Without the engine a replay still runs; nothing judges it. (Documented; accessible; at 05079b44d09d76ff35dfb550716fb2c29875c5f2)",
+      "accessed_at": "2026-10-05T05:13:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s62",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/forvela/jev-agent-browser/eb35251a13770419da5a2e3b78709d24d76acdb3/src/{decision,loop,browser,cli,classifier}.js ; https://registry.npmjs.org/jev-agent-browser",
+      "title": "Run 8 source R8-S62: raw.githubusercontent.com/forvela/jev-agent-browser/eb35251a13770419da5a2e3b7870",
+      "claim": "if (!apiKey) throw new Error('Decision API key is required'); (Documented; accessible; at eb35251a13770419da5a2e3b78709d24d76acdb3)",
+      "accessed_at": "2026-10-05T05:14:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s63",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/dougsong/jev-android/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/{core/.../JevAgent.kt,core/.../Models.kt,sdk/.../JevProvider.kt,sdk/.../ProviderTransport.kt,sdk/.../AccessibilityRuntime.kt}",
+      "title": "Run 8 source R8-S63: raw.githubusercontent.com/dougsong/jev-android/be8364ad1a7596172f8cd79c70d2462f4",
+      "claim": "private val gate: ActionGate = ActionGate { _, _, _ -> true }, (Documented; accessible; at be8364ad1a7596172f8cd79c70d2462f4dd0f4dc)",
+      "accessed_at": "2026-10-05T05:15:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s64",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/paulsmith/computer-use-jev/ff0ad8ba8e25755d37fb8d93718144c4568a596b/{decide/decide.go,typesafe/client.go,cmd/computer-use-jev/main.go,computeruse/computeruse.go}",
+      "title": "Run 8 source R8-S64: raw.githubusercontent.com/paulsmith/computer-use-jev/ff0ad8ba8e25755d37fb8d93718",
+      "claim": "step.Output = \"not executed: confidence below threshold\" (Documented; accessible; at ff0ad8ba8e25755d37fb8d93718144c4568a596b)",
+      "accessed_at": "2026-10-05T05:16:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s65",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/chy4pro/jev-for-chrome/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/{background/agent.ts,shared/providers/http.ts,shared/providers/typesafe.ts,content/snapshot.ts}",
+      "title": "Run 8 source R8-S65: raw.githubusercontent.com/chy4pro/jev-for-chrome/d5c24de556ade0f0a9c7a4c6ebb9dab",
+      "claim": "this.finish('error', `Jev decision failed: ${err?.message || String(err)}`); (Documented; accessible; at d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e)",
+      "accessed_at": "2026-10-05T05:17:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s66",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/razaanstha/ulka/bb04433dcebb75b1a93eb5a6dc7d25909930cc65/apps/extension/src/{agent/approvals.ts,agent/agent-runner.ts,agent/vercel-jev.ts,agent/observer.ts,background.ts}",
+      "title": "Run 8 source R8-S66: raw.githubusercontent.com/razaanstha/ulka/bb04433dcebb75b1a93eb5a6dc7d25909930cc",
+      "claim": "if (risk === \"confirm\" && !(await this.options.approve?.(decision, snapshot, text))) return this.blocked(\"Action requires approval.\"); (Documented; accessible; at bb04433dcebb75b1a93eb5a6dc7d25909930cc65)",
+      "accessed_at": "2026-10-05T05:15:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s67",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/KaushikSiva/second-look/0c05d16958b532e2603c40551c224a4ba41b8beb/{backend/app/jev.py,backend/app/research.py,extension/manifest.json,extension/content.js,extension/sidepanel.js}",
+      "title": "Run 8 source R8-S67: raw.githubusercontent.com/KaushikSiva/second-look/0c05d16958b532e2603c40551c224a",
+      "claim": "v = {\"verdict\": \"WAIT\" if pr and pr[\"fake_discount\"] else \"BUY_NOW\", \"confidence\": None (Documented; accessible; at 0c05d16958b532e2603c40551c224a4ba41b8beb)",
+      "accessed_at": "2026-10-05T05:17:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s68",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/trycua/cua/ba0033a661101669c60ce05f1fe5753bf8bad748/libs/cua-driver/examples/jev-use/python/{run.py,jev_adapter.py}",
+      "title": "Run 8 source R8-S68: raw.githubusercontent.com/trycua/cua/ba0033a661101669c60ce05f1fe5753bf8bad748/li",
+      "claim": "parser.add_argument(\"--provider\", choices=(\"mock\", \"live\"), default=\"mock\") (Documented; accessible; mock by default, not counted; at ba0033a661101669c60ce05f1fe5753bf8bad748)",
+      "accessed_at": "2026-10-05T05:17:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s69",
+      "source_type": "reported source",
+      "source_url": "https://arxiv.org/abs/2609.30186",
+      "title": "Run 8 source R8-S69: arxiv.org/abs/2609.30186",
+      "claim": "Jev-Mobile: Jev as an Executor for Mobile GUI Agents (AndroidWorld figure is the author's claim) (Reported; accessible)",
+      "accessed_at": "2026-10-05T05:17:11Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s70",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49849950 ; https://hn.algolia.com/api/v1/search?query=browser%20agent%20jev&tags=story",
+      "title": "Run 8 source R8-S70: hn.algolia.com/api/v1/items/49849950 ; https://hn.algolia.com/api/v1/search?quer",
+      "claim": "item links a tweet only; no repository (Reported; accessible; excluded)",
+      "accessed_at": "2026-10-05T05:12:37Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s71",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=jev+android ; ?q=jev+computer+use ; ?q=jev+cua",
+      "title": "Run 8 source R8-S71: api.github.com/search/repositories?q=jev+android ; ?q=jev+computer+use ; ?q=jev+",
+      "claim": "exact-name matches read; others listed as unread leads (Documented (index results); accessible; 3 search calls)",
+      "accessed_at": "2026-10-05T05:15:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s80",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/langchain-typesafe/json ; https://api.github.com/repos/langchain-ai/langchain/git/ref/tags/langchain-typesafe%3D%3D0.0.1a3 ; raw .../4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/{classifier.py,experimental/middleware/auto_mode.py,experimental/middleware/model_router.py}",
+      "title": "Run 8 source R8-S80: pypi.org/pypi/langchain-typesafe/json ; https://api.github.com/repos/langchain-a",
+      "claim": "Classification failures propagate and the tool handler is not called, so failures are fail-closed. (Documented; accessible; at 0.0.1a3 = 4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9)",
+      "accessed_at": "2026-10-05T05:13:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s81",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@langchain%2ftypesafe ; raw .../langchainjs/417ddcf506790e1f50050609d5cf9b252c38f3e3/libs/providers/langchain-typesafe/src/{classifier.ts,middleware/autoMode.ts}",
+      "title": "Run 8 source R8-S81: registry.npmjs.org/@langchain%2ftypesafe ; raw .../langchainjs/417ddcf506790e1f5",
+      "claim": "maxRetries: fields.maxRetries ?? 2, (Documented; accessible; at 0.0.2 = 417ddcf506790e1f50050609d5cf9b252c38f3e3)",
+      "accessed_at": "2026-10-05T05:13:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s82",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/pydantic-ai-slim/json ; raw .../pydantic-ai/66951321b89587235f432281eba909a30a585ffd/pydantic_ai_slim/pydantic_ai/{models/typesafe.py,models/decision.py,providers/typesafe.py}",
+      "title": "Run 8 source R8-S82: pypi.org/pypi/pydantic-ai-slim/json ; raw .../pydantic-ai/66951321b89587235f4322",
+      "claim": "_DEFAULT_BOOLEAN_THRESHOLD = 0.5 (Documented; accessible; at v2.54.0 = 66951321b89587235f432281eba909a30a585ffd)",
+      "accessed_at": "2026-10-05T05:14:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s83",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@effect%2fai-typesafe ; raw .../Effect-TS/effect/460272d30457f4697d8b8c52cad41caccbcace08/packages/ai/typesafe/src/TypeSafeClient.ts",
+      "title": "Run 8 source R8-S83: registry.npmjs.org/@effect%2fai-typesafe ; raw .../Effect-TS/effect/460272d30457",
+      "claim": "apiKey: yield* (options?.apiKey ?? Config.Redacted(\"TYPESAFE_API_KEY\")), (Documented; accessible; at 4.0.1 = 460272d30457f4697d8b8c52cad41caccbcace08)",
+      "accessed_at": "2026-10-05T05:13:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s84",
+      "source_type": "documented source",
+      "source_url": "https://repo1.maven.org/maven2/org/springaicommunity/typesafe-spring-ai/0.4.0/ ; raw .../spring-ai-community/spring-ai-typesafe/51993bb28a0f52a88bf3280d609b000076122582/typesafe-spring-ai/src/main/java/org/springaicommunity/typesafe/rag/JevDocumentFilter.java",
+      "title": "Run 8 source R8-S84: repo1.maven.org/maven2/org/springaicommunity/typesafe-spring-ai/0.4.0/ ; raw ...",
+      "claim": "// Fail open on anything that stops this passage being screened (Documented; accessible; at v0.4.0 = 51993bb28a0f52a88bf3280d609b000076122582)",
+      "accessed_at": "2026-10-05T05:17:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s85",
+      "source_type": "reported source",
+      "source_url": "https://spring.io/blog/2026/10/02/spring-ai-modular-rag-typesafe-jev/",
+      "title": "Run 8 source R8-S85: spring.io/blog/2026/10/02/spring-ai-modular-rag-typesafe-jev/",
+      "claim": "Spring AI Modular RAG with TypeSafe Jev (web search snippet) (Reported; accessible via search; at cites 0.3.0)",
+      "accessed_at": "2026-10-05T05:16:50Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s86",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/WiktorB2004/llama-index-jev/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/{base.py,utils.py} ; https://pypi.org/pypi/llama-index-postprocessor-jev/json",
+      "title": "Run 8 source R8-S86: raw.githubusercontent.com/WiktorB2004/llama-index-jev/421afdafe16b832173874f1f64",
+      "claim": "description=\"If True, rerank errors raise. If False, fail open.\", (Documented; accessible; at 421afdafe16b832173874f1f642a731e23b8f374)",
+      "accessed_at": "2026-10-05T05:24:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s87",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/<llama-index-llms-typesafe|llama-index-typesafe|llama-index-postprocessor-typesafe|...>/json ; https://pypi.org/simple/ ; https://registry.npmjs.org/@llamaindex%2ftypesafe ; https://api.github.com/repos/run-llama/llama_index/contents/llama-index-integrations/{llms,postprocessor,selectors}",
+      "title": "Run 8 source R8-S87: pypi.org/pypi/<llama-index-llms-typesafe|llama-index-typesafe|llama-index-postpr",
+      "claim": "official names 404; only the two community packages found (Documented (absence within boundary); accessible)",
+      "accessed_at": "2026-10-05T05:18:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s88",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/litellm/json",
+      "title": "Run 8 source R8-S88: pypi.org/pypi/litellm/json",
+      "claim": "jev_classifier.py still present; typesafe guardrail hook present (not audited) (Documented; accessible; at 1.104.0)",
+      "accessed_at": "2026-10-05T05:15:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s89",
+      "source_type": "documented source",
+      "source_url": "https://pydantic.dev/docs/ai/overview/gateway/",
+      "title": "Run 8 source R8-S89: pydantic.dev/docs/ai/overview/gateway/",
+      "claim": "OpenAI, Anthropic, Google Vertex, Groq and Bedrock ... More providers coming soon (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s90",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/issues?q=<typesafe|jev>+is:issue+is:open+repo:<8 repos>",
+      "title": "Run 8 source R8-S90: api.github.com/search/issues?q=<typesafe|jev>+is:issue+is:open+repo:<8 repos>",
+      "claim": "raw totals 118 and 38; title matches counted per repo (Documented (index results); accessible; 2 search calls)",
+      "accessed_at": "2026-10-05T05:17:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s91",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?text=<typesafe jev|typesafe-ai|typesafe langchain|typesafe mastra> ; PyPI JSON for other framework packages",
+      "title": "Run 8 source R8-S91: registry.npmjs.org/-/v1/search?text=<typesafe jev|typesafe-ai|typesafe langchain",
+      "claim": "@mastra/typesafe 404; package list in frameworks.md (Documented (index results); accessible)",
+      "accessed_at": "2026-10-05T05:16:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s100",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html ; https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html",
+      "title": "Run 8 source R8-S100: docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html ; https://doc",
+      "claim": "Information previously on this page ... has moved to models at a glance (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:17:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s101",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.md ; model-cards.html",
+      "title": "Run 8 source R8-S101: docs.aws.amazon.com/bedrock/latest/userguide/model-cards.md ; model-cards.html",
+      "claim": "19 providers: AI21 Labs ... xAI, Z.AI; no TypeSafe or Jev (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:18:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s102",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-marketplace-model-reference.html",
+      "title": "Run 8 source R8-S102: docs.aws.amazon.com/bedrock/latest/userguide/bedrock-marketplace-model-reference",
+      "claim": "Bedrock Marketplace model table; no TypeSafe or Jev (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:17:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s103",
+      "source_type": "documented source",
+      "source_url": "https://aws.amazon.com/bedrock/model-choice/",
+      "title": "Run 8 source R8-S103: aws.amazon.com/bedrock/model-choice/",
+      "claim": "no TypeSafe or Jev (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:17:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s104",
+      "source_type": "documented source",
+      "source_url": "https://aws.amazon.com/marketplace/search/results?searchTerms=TypeSafe (chromium-headless-shell)",
+      "title": "Run 8 source R8-S104: aws.amazon.com/marketplace/search/results?searchTerms=TypeSafe (chromium-headles",
+      "claim": "900 results (showing 1 - 21); no TypeSafe AI listing on page 1 (Documented (first page only); accessible (rendered))",
+      "accessed_at": "2026-10-05T05:18:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s105",
+      "source_type": "documented source",
+      "source_url": "https://aws.amazon.com/marketplace/search/results?searchTerms=Jev (chromium-headless-shell)",
+      "title": "Run 8 source R8-S105: aws.amazon.com/marketplace/search/results?searchTerms=Jev (chromium-headless-she",
+      "claim": "132 results; OpenJev 27B By Salient Engineering; openjevx Server By Deemwar (third-party) (Documented (first page only); accessible (rendered))",
+      "accessed_at": "2026-10-05T05:19:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s106",
+      "source_type": "not accessible",
+      "source_url": "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "title": "Run 8 source R8-S106: learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-d",
+      "claim": "no TypeSafe or Jev (Documented; accessible (redirect to /azure/foundry/))",
+      "accessed_at": "2026-10-05T05:17:54Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s107",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-from-partners",
+      "title": "Run 8 source R8-S107: learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-from-p",
+      "claim": "no TypeSafe or Jev (Documented; accessible (redirect))",
+      "accessed_at": "2026-10-05T05:17:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s108",
+      "source_type": "documented source",
+      "source_url": "https://ai.azure.com/catalog/models?search=typesafe ; ?search=jev ; control ?search=deepseek (chromium-headless-shell)",
+      "title": "Run 8 source R8-S108: ai.azure.com/catalog/models?search=typesafe ; ?search=jev ; control ?search=deep",
+      "claim": "0 models No Data Available (typesafe, jev); 98 models (deepseek control) (Documented; accessible (rendered))",
+      "accessed_at": "2026-10-05T05:19:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s109",
+      "source_type": "not accessible",
+      "source_url": "https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=TypeSafe ; ?search=Jev",
+      "title": "Run 8 source R8-S109: azuremarketplace.microsoft.com/en-us/marketplace/apps?search=TypeSafe ; ?search=",
+      "claim": "one third-party app EBITDAI: NEW: Try the AskJev function, which leverages TypeSafe AI's deterministic AI models (Documented; accessible (redirect to marketplace.microsoft.com))",
+      "accessed_at": "2026-10-05T05:17:54Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s110",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms-full.txt ; https://docs.typesafe.ai/llms.txt",
+      "title": "Run 8 source R8-S110: docs.typesafe.ai/llms-full.txt ; https://docs.typesafe.ai/llms.txt",
+      "claim": "bedrock 0, azure 0, aws marketplace 0, foundry 0, data residency 0 (Documented (absence within boundary); accessible)",
+      "accessed_at": "2026-10-05T05:17:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s111",
+      "source_type": "reported source",
+      "source_url": "https://www.factualminds.com/blog/jev-typesafe-ai-aws-guide-2026/",
+      "title": "Run 8 source R8-S111: www.factualminds.com/blog/jev-typesafe-ai-aws-guide-2026/",
+      "claim": "Jev is not an Amazon Bedrock model. There is no inference profile, no VPC endpoint, and no Guardrails hop. (Reported; accessible)",
+      "accessed_at": "2026-10-05T05:20:20Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s112",
+      "source_type": "reported source",
+      "source_url": "https://techcommunity.microsoft.com/blog/azuredevcommunityblog/using-jev-with-agents-in-microsoft-foundry-for-model-evaluation/4559851",
+      "title": "Run 8 source R8-S112: techcommunity.microsoft.com/blog/azuredevcommunityblog/using-jev-with-agents-in-",
+      "claim": "\"servers\": [ { \"url\": \"https://api.typesafe.ai\" } ] ... \"operationId\": \"evaluate_with_jev\" (Reported; accessible)",
+      "accessed_at": "2026-10-05T05:20:17Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s120",
+      "source_type": "documented source",
+      "source_url": "https://zapier.com/apps/typesafe-jev/integrations",
+      "title": "Run 8 source R8-S120: zapier.com/apps/typesafe-jev/integrations",
+      "claim": "Ask Questions Asks yes or no, pick one, or scale questions about some text, and returns each answer with a confidence score (Documented; accessible)",
+      "accessed_at": "2026-10-05T05:21:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s121",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49907998",
+      "title": "Run 8 source R8-S121: hn.algolia.com/api/v1/items/49907998",
+      "claim": "there is only US hosting and I specifically need EU hosting (Reported; accessible)",
+      "accessed_at": "2026-10-05T05:21:28Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s122",
+      "source_type": "documented source",
+      "source_url": "https://github.com/strands-labs/strands-decider (api repo, commits/HEAD, README at 75c9fd32e664954cdc18481434018aa507eee8fb)",
+      "title": "Run 8 source R8-S122: github.com/strands-labs/strands-decider (api repo, commits/HEAD, README at 75c9f",
+      "claim": "JevBench v1 public set, 231 tasks, accuracy | 0.723 (167 of 231) (Documented (repo); Reported (benchmarks); accessible; at 75c9fd32e664954cdc18481434018aa507eee8fb)",
+      "accessed_at": "2026-10-05T05:21:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s123",
+      "source_type": "reported source",
+      "source_url": "https://thenewstack.io/aws-strands-decider-model/",
+      "title": "Run 8 source R8-S123: thenewstack.io/aws-strands-decider-model/",
+      "claim": "AWS on Thursday launched Strands Decider 2B, its take on decision models like Jev (Reported; accessible)",
+      "accessed_at": "2026-10-05T05:20:20Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s130",
+      "source_type": "documented source",
+      "source_url": "https://hermes-agent.nousresearch.com/docs/plugins/<jev-typesafe|jev|jev-judge|typesafe-skill-router|jev-skill-router-mcp|jev-approvals|jev-curator> ; https://api.github.com/repos/<repo>/commits/HEAD",
+      "title": "Run 8 source R8-S130: hermes-agent.nousresearch.com/docs/plugins/<jev-typesafe|jev|jev-judge|typesafe-",
+      "claim": "every tool call sends the model-supplied question/state together with your TYPESAFE_API_KEY (Documented; accessible; all Community; at see spare-time.md)",
+      "accessed_at": "2026-10-05T05:34:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s131",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=pg-jev OR sqlite-jev OR sqlite3-jev OR docjev OR pg_redact",
+      "title": "Run 8 source R8-S131: api.github.com/search/repositories?q=pg-jev OR sqlite-jev OR sqlite3-jev OR docj",
+      "claim": "48 results; the five named projects found (Documented (index results); accessible; 1 search call (8 of 10 used))",
+      "accessed_at": "2026-10-05T05:33:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s132",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/<realZachi/pg-jev@8d9598d|mattn/sqlite3-jev@2172600|mgaitan/sqlite-jev@1ac946c|rishi-raj-jain/pg-redact@ee903ef|jerryjliu/docjev@c7abe27>/...",
+      "title": "Run 8 source R8-S132: raw.githubusercontent.com/<realZachi/pg-jev@8d9598d|mattn/sqlite3-jev@2172600|mg",
+      "claim": "#define JEV_DEFAULT_URL \"https://api.typesafe.ai/v1/systemone\" (Documented; accessible; 5 of 5 real call paths; at full SHAs in spare-time.md)",
+      "accessed_at": "2026-10-05T05:33:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r8-s133",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/caiovicentino/jev-risk-check-provider/fa5e49771020601e6d33c6c94ea28ecebd2bd1b8/deploy/{protected,credits,worker}.ts",
+      "title": "Run 8 source R8-S133: raw.githubusercontent.com/caiovicentino/jev-risk-check-provider/fa5e49771020601e",
+      "claim": "refund when no verdict was produced (the same rule as a paid call (Documented; accessible; no payment call site in 60 of 361 files; at fa5e49771020601e6d33c6c94ea28ecebd2bd1b8)",
+      "accessed_at": "2026-10-05T05:33:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

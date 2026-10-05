@@ -2,6 +2,54 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "browser-and-computer-use-page-2026-10-05",
+      "changed_at": "2026-10-05T06:10:00Z",
+      "summary": "New page: Jev browser use and computer use (TypeSafe AI). Of 7 Jev browser and computer-use agents read in source, none clicks or types when Jev errors, but 5 act on low-confidence answers, and only 1 asks a person before send, buy or delete.",
+      "path": "/p/jev-catalog/use-cases/browser-and-computer-use"
+    },
+    {
+      "change_id": "frameworks-page-2026-10-05",
+      "changed_at": "2026-10-05T06:10:00Z",
+      "summary": "New page: Jev LangChain and other framework integrations (TypeSafe AI). Of 6 Jev framework packages read in source, 4 are pre-1.0 and none comes from TypeSafe; 4 raise Jev errors to your code, while the community Spring AI filter passes passages through unscreened.",
+      "path": "/p/jev-catalog/build/frameworks"
+    },
+    {
+      "change_id": "bedrock-azure-section-2026-10-05",
+      "changed_at": "2026-10-05T06:10:00Z",
+      "summary": "New section on Where to use: Jev is not listed in the Amazon Bedrock model catalog or the Azure AI Foundry model catalog (checked 5 Oct 2026, 05:18–05:19 UTC), and TypeSafe's docs do not mention either. Call TypeSafe's API or a gateway.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "when-jev-fails-recount-2026-10-05",
+      "changed_at": "2026-10-05T06:10:00Z",
+      "summary": "When Jev fails updated: of 51 Jev implementations in 9 use cases read in source, 30 stop or hold the action when Jev errors and 6 let it through unchecked: 4 content-moderation bots, one Claude Code hook and one Spring AI passage filter. Adds 8 browser and 4 framework rows and a copyable checklist.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "products-refresh-2026-10-05",
+      "changed_at": "2026-10-05T06:10:00Z",
+      "summary": "Products refreshed: 72 rows (A 55, B 16, C 1); Jev for Chrome, computer-use-jev and jev-android upgraded from B to A; 5 new grade-A browser rows; six framework packages listed as not counted. 0 independently verified in production.",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "small-additions-2026-10-05",
+      "changed_at": "2026-10-05T06:10:00Z",
+      "summary": "Small additions: Strands Decider 2B on Alternatives (benchmark and AWS attribution Reported), a Zapier note on the n8n page, an EU-hosting line on data privacy, and tool-documentation links on Jev as a judge. Rate-limit check dates moved to 5 Oct.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "framework-corrections-2026-10-05",
+      "changed_at": "2026-10-05T06:10:00Z",
+      "summary": "Corrections: langchain-typesafe 0.0.1a3 was uploaded on 20 Sep 2026, not 4 Oct; @effect/ai-typesafe is 4.0.1; the Spring AI integration is a community package; the AndroidWorld paper (arXiv 2609.30186) was submitted on 24 Sep. The Python page notes that the Pydantic AI Gateway did not list TypeSafe on 5 Oct.",
+      "path": "/p/jev-catalog/build/frameworks"
+    },
+    {
+      "change_id": "access-recheck-2026-10-05",
+      "changed_at": "2026-10-05T06:10:00Z",
+      "summary": "Access status rechecked 5 Oct 2026, 05:13 UTC: unchanged (signups open, no new-user credit, API operational). Price, limits and the subprocessor list unchanged; the API's 90-day uptime moved from 99.826% to 99.829%. Check dates updated on Home, access status and the cost worksheet.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
       "change_id": "trading-and-fraud-gates-page-2026-10-04",
       "changed_at": "2026-10-04T06:10:00Z",
       "summary": "New page: Jev trading bot and fraud gates (TypeSafe AI). Of 4 Jev trading bots read in source, 2 can still place a new order when Jev errors; all 4 can trade without Jev. None of 3 fraud or payment gates moves money. In two bots \"mock\" means no Jev, not no trading. No advice and no performance figures.",

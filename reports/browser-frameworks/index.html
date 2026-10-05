@@ -1,0 +1,405 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Browser and computer use, framework integrations, and Jev on Bedrock or Azure · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Browser and computer use, framework integrations, and Jev on Bedrock or Azure. Read 7 Jev browser and computer-use agents at pinned commits: none clicks or types when Jev errors, but 5 act on low-confidence answers and only 1 asks a person before send, buy or delete. Read 6 Jev framework packages: 4 are pre-1.0 and none comes from TypeSafe; 4 raise Jev errors to the caller, while the community Spring AI filter and the LlamaIndex reranker fail open. Jev is not listed in the Amazon Bedrock or Azure AI Foundry model catalogs (5 Oct, 05:18–05:19 UTC). Failure checklist: 51 implementations in 9 use cases; 30 stop or hold the action on a Jev error and 6 let it through unchecked. Products: 72 rows, 55 grade A, none independently verified. Access unchanged. No pool Jev call, agent run or install.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/reports/browser-frameworks/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Browser and computer use, framework integrations, and Jev on Bedrock or Azure · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Browser and computer use, framework integrations, and Jev on Bedrock or Azure. Read 7 Jev browser and computer-use agents at pinned commits: none clicks or types when Jev errors, but 5 act on low-confidence answers and only 1 asks a person before send, buy or delete. Read 6 Jev framework packages: 4 are pre-1.0 and none comes from TypeSafe; 4 raise Jev errors to the caller, while the community Spring AI filter and the LlamaIndex reranker fail open. Jev is not listed in the Amazon Bedrock or Azure AI Foundry model catalogs (5 Oct, 05:18–05:19 UTC). Failure checklist: 51 implementations in 9 use cases; 30 stop or hold the action on a Jev error and 6 let it through unchecked. Products: 72 rows, 55 grade A, none independently verified. Access unchanged. No pool Jev call, agent run or install.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/reports/browser-frameworks/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Browser and computer use, framework integrations, and Jev on Bedrock or Azure","description":"Browser and computer use, framework integrations, and Jev on Bedrock or Azure. Read 7 Jev browser and computer-use agents at pinned commits: none clicks or types when Jev errors, but 5 act on low-confidence answers and only 1 asks a person before send, buy or delete. Read 6 Jev framework packages: 4 are pre-1.0 and none comes from TypeSafe; 4 raise Jev errors to the caller, while the community Spring AI filter and the LlamaIndex reranker fail open. Jev is not listed in the Amazon Bedrock or Azure AI Foundry model catalogs (5 Oct, 05:18–05:19 UTC). Failure checklist: 51 implementations in 9 use cases; 30 stop or hold the action on a Jev error and 6 let it through unchecked. Products: 72 rows, 55 grade A, none independently verified. Access unchanged. No pool Jev call, agent run or install.","dateModified":"2026-10-05T06:10:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/reports/browser-frameworks/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="report-run:b26864e3-2a62-4080-b445-28fe3dbadc7e">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a><a href="../../use-cases/support-ticket-triage/index.html" ><span aria-hidden="true">▤</span><b>Support-ticket triage with Jev</b></a><a href="../../use-cases/model-routing/index.html" ><span aria-hidden="true">⇉</span><b>Jev Router or your own router?</b></a><a href="../../use-cases/content-moderation/index.html" ><span aria-hidden="true">⚑</span><b>Content moderation with Jev</b></a><a href="../../use-cases/email-and-lead-sorting/index.html" ><span aria-hidden="true">✉</span><b>Jev email classifier</b></a><a href="../../use-cases/trading-and-fraud-gates/index.html" ><span aria-hidden="true">⇅</span><b>Jev trading bot and fraud gates</b></a><a href="../../use-cases/llm-as-judge/index.html" ><span aria-hidden="true">⚖</span><b>Jev as a judge</b></a><a href="../../use-cases/browser-and-computer-use/index.html" ><span aria-hidden="true">⌖</span><b>Jev browser and computer use</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../../build/index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../../build/python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../../build/typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../../build/frameworks/index.html" ><span aria-hidden="true">⧉</span><b>Jev LangChain and frameworks</b></a><a href="../../build/n8n/index.html" ><span aria-hidden="true">⇶</span><b>Jev n8n node</b></a><a href="../../build/claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../../build/errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../../build/confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../../build/testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a><a href="../../build/when-jev-fails/index.html" ><span aria-hidden="true">⚠</span><b>When Jev fails</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Open-source Jev alternatives</b></a><a href="../../alternatives/jev-vs-llm-vs-classifier/index.html" ><span aria-hidden="true">⋈</span><b>Jev vs LLM vs classifier</b></a><a href="../../alternatives/laya-vs-kev/index.html" ><span aria-hidden="true">⚖</span><b>Jev vs Laya vs Kev</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/data-privacy/index.html" ><span aria-hidden="true">eye</span><b>Jev data retention and privacy</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Jev examples: products and projects</b></a><a href="../../benchmarks/index.html" ><span aria-hidden="true">▦</span><b>Jev benchmarks, graded</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv jev-page">
+  <div class="jv-kicker"><span>Research report</span><span>Run <code>run:b26864e3-2a62-4080-b445-28fe3dbadc7e</code> · checks <time datetime="2026-10-05">5 October 2026</time>, 05:12–05:36 UTC</span></div>
+  <h1>Run 8 report: browser and computer use, framework integrations, Jev on Bedrock or Azure (TypeSafe AI, 5 Oct 2026)</h1>
+  <p class="jv-lede">This dated report records the evidence behind the release of 5 October 2026 (<code>regular-2026-10-05-browser-frameworks</code>). It covers 7 Jev agents that click, type or tap; 6 Jev framework packages; whether Jev is listed in the Amazon Bedrock and Azure AI Foundry catalogs; and the failure checklist, which grows from 39 to 51 rows. The title is an internal label for the run; the page titles it feeds use phrases that search suggestions offered on 5 Oct 2026, 05:14–05:15 UTC (a demand signal, not a volume). The pool ran nothing: no browser or computer-use agent, no framework code, and no Jev call.</p>
+
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 51 Jev implementations read in source, 30 stop or hold the action when Jev errors and 6 let it through unchecked: 4 content-moderation bots, one Claude Code hook and one Spring AI passage filter.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>recomputed from 9 domain tables (39 published rows plus 12 new rows read at pinned commits), checked <time datetime="2026-10-05">5 Oct 2026</time></span></p>
+    <p>Rows picked by the runner from the projects it found and read in source this run (the selection is described in the research notes); not a survey. The pool ran no agent and made no Jev call.</p>
+  </div>
+
+  <figure class="jv-figure" id="jv-r8-glance" aria-labelledby="jv-r8-glance-t">
+    <h3 id="jv-r8-glance-t">Run 8 at a glance (counts with their denominators)</h3>
+    <div class="jv-bargroup">
+      <p>Browser and computer use (n = 7 acting agents)</p>
+      <ul class="jv-bars">
+        <li class="c-doc"><span class="l">A UI action still happens on a Jev error</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="0" height="18" rx="2"/></svg><span class="v">0/7</span></li>
+        <li class="c-doc"><span class="l">Acts on low-confidence answers (no threshold)</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="71.4" height="18" rx="2"/></svg><span class="v">5/7</span></li>
+        <li class="c-doc"><span class="l">Asks a person before send, buy or delete</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="14.3" height="18" rx="2"/></svg><span class="v">1/7</span></li>
+        <li class="c-doc"><span class="l">Runs in the user's own session by default</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="71.4" height="18" rx="2"/></svg><span class="v">5/7</span></li>
+      </ul>
+    </div>
+    <div class="jv-bargroup">
+      <p>Framework packages (n = 6)</p>
+      <ul class="jv-bars">
+        <li class="c-doc"><span class="l">Pre-1.0 version</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="66.7" height="18" rx="2"/></svg><span class="v">4/6</span></li>
+        <li class="c-doc"><span class="l">Published by TypeSafe</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="0" height="18" rx="2"/></svg><span class="v">0/6</span></li>
+        <li class="c-doc"><span class="l">Raise Jev errors to the caller</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="66.7" height="18" rx="2"/></svg><span class="v">4/6</span></li>
+      </ul>
+    </div>
+    <div class="jv-bargroup">
+      <p>When Jev fails: 39 → 51 rows, 7 → 9 domains (n = 51)</p>
+      <ul class="jv-bars">
+        <li class="c-doc"><span class="l">Stop or hold the action on a Jev error</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="58.8" height="18" rx="2"/></svg><span class="v">30/51</span></li>
+        <li class="c-doc"><span class="l">Let it through unchecked (fail-open)</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="11.8" height="18" rx="2"/></svg><span class="v">6/51</span></li>
+        <li class="c-doc"><span class="l">Action goes ahead on a Jev error (fail-open plus fallbacks that act)</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="15.7" height="18" rx="2"/></svg><span class="v">8/51</span></li>
+      </ul>
+    </div>
+    <div class="jv-bargroup">
+      <p>Products: 67 → 72 rows (n = 72)</p>
+      <ul class="jv-bars">
+        <li class="c-doc"><span class="l">A: Jev call path read in source</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="76.4" height="18" rx="2"/></svg><span class="v">55/72</span></li>
+        <li class="c-doc"><span class="l">B</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="22.2" height="18" rx="2"/></svg><span class="v">16/72</span></li>
+        <li class="c-doc"><span class="l">C</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="1.4" height="18" rx="2"/></svg><span class="v">1/72</span></li>
+        <li class="c-doc"><span class="l">Independently verified in production</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="0" height="18" rx="2"/></svg><span class="v">0/72</span></li>
+      </ul>
+    </div>
+    <p class="fig-note">All counts are <span class="ev ev-documented">Documented</span> from source read at pinned commits or from the published pages, 5 Oct 2026. Nothing was run. Bar length is the share of the group's n.</p>
+  </figure>
+
+  <p><strong>Run:</strong> <code>run:b26864e3-2a62-4080-b445-28fe3dbadc7e</code> (scheduled regular research run 8) · <strong>Pool:</strong> <code>pool_jev_catalog</code> · <strong>Runner:</strong> one runner plus two helper agents that read source in parallel. The runner spot-checked 15 + 26 helper lines at the same commits (1 line-number correction) · <strong>Checks:</strong> 5 Oct 2026; runner started 05:11:41 UTC and returned at about 05:36 UTC (about 25 minutes).</p>
+  <p>The run's research notes and its source ledger (88 records, IDs R8-S01 to R8-S133: URL, access time, label, excerpt, outcome) are held in the pool's private record. Key sources are linked below and on the pages each finding feeds.</p>
+  <p><strong>Rules kept:</strong> no browser or computer-use agent was run; no cloud login, no key, no install and no Jev API call. Failure cells come only from source at pinned commits. Analytics were unavailable for this run. <strong>Nothing in this run is Tested.</strong> Every finding below is Documented, Reported (a named third party's own claim) or Unverified (a lead only).</p>
+  <p><strong>Previous release:</strong> <code>regular-2026-10-04-trading-failures-judge</code>; report: <a href="../trading-failures-judge/index.html">trading and fraud gates, the Jev failure checklist and Jev as a judge</a>. All dated reports: <a href="../../research/index.html">Research</a>.</p>
+
+  <h2 id="summary">1. Summary answer, as of 5 October 2026</h2>
+  <ol>
+    <li><strong>Access is unchanged since 4 Oct.</strong> State <code>open_with_conditions</code> (no new-user credit) since 27 Sep, 22:33:25 UTC. API <code>operational</code> since 29 Sep, 22:05 UTC. Limits 100K tokens per second and 80 requests per second; price $0.042 per million input tokens. All five notices kept (four shown); nothing retired; no new notice. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Browser and computer use:</strong> of 7 Jev agents that click, type or tap, none (0/7) acts when Jev errors. 5/7 act on low-confidence answers (no threshold), and only 1/7 asks a person before send, buy or delete. 5/7 run in the user's own browser, phone or desktop session by default. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Frameworks:</strong> of 6 framework packages, 4/6 are pre-1.0 and none (0/6) is from TypeSafe. 4/6 raise Jev errors to the caller. The community Spring AI passage filter and the LlamaIndex reranker fail open. The LangChain middlewares fail closed. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Bedrock and Azure:</strong> Jev is not listed in the <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html">Amazon Bedrock model cards</a> at 5 Oct 2026, 05:18 UTC (19 providers). Jev is not listed in the <a href="https://ai.azure.com/catalog/models?search=typesafe">Azure AI Foundry model catalog</a> at 5 Oct 2026, 05:19 UTC (0 models for "typesafe" and for "jev"). TypeSafe's docs never mention Bedrock, Azure or Foundry. Teams call TypeSafe's API or a gateway, and the data leaves the cloud's model boundary. <span class="ev ev-documented">Documented</span></li>
+    <li><strong><code>when-jev-fails</code> grows from 39 to 51 rows in 9 domains.</strong> 30/51 stop or hold the action on a Jev error; 6/51 let it through unchecked. <span class="ev ev-documented">Documented</span></li>
+  </ol>
+
+  <h2 id="publication">2. Publication</h2>
+  <p>Release <code>regular-2026-10-05-browser-frameworks</code> shipped all three planned page items and the follow-on edits:</p>
+  <ul>
+    <li><a href="../../use-cases/browser-and-computer-use/index.html">Browser use and computer use</a> (new page).</li>
+    <li><a href="../../build/frameworks/index.html">LangChain and other framework integrations</a> (new page).</li>
+    <li><a href="../../where-to-use/index.html#bedrock-azure">Is Jev on Amazon Bedrock or Azure AI Foundry?</a> (new section on the where-to-use hub).</li>
+    <li><a href="../../build/when-jev-fails/index.html">When Jev fails</a>: 12 new checklist rows (39 → 51), the recount, and the <a href="../../build/when-jev-fails/index.html#wf-copy">copy block</a>.</li>
+    <li><a href="../../products/index.html">Products</a> refresh: 72 rows (A 55, B 16, C 1).</li>
+    <li>Small additions: EU hosting on <a href="../../where-to-use/data-privacy/index.html">data privacy</a>; Strands Decider 2B on <a href="../../alternatives/index.html">alternatives</a>; the Zapier app on <a href="../../build/n8n/index.html">n8n</a>; links to the Langfuse, LangSmith Evals and DeepEval documentation on <a href="../../use-cases/llm-as-judge/index.html">Jev as a judge</a>; rate-limit check dates moved to 5 Oct on errors and rate limits and limitations; the status refresh on <a href="../../where-to-use/access-status/index.html">access status</a> and <a href="../../index.html">Home</a>.</li>
+  </ul>
+  <p>The publisher's tool test result for this release is recorded on the <a href="../../research/index.html">Research</a> page.</p>
+
+  <h2 id="corrections">3. Corrections to plan facts and pool pages</h2>
+  <ol>
+    <li><code>langchain-typesafe</code> 0.0.1a3 was uploaded <strong>20 Sep 2026</strong> (18:54:39Z), not 4 Oct (PyPI). <span class="ev ev-documented">Documented</span></li>
+    <li><code>@effect/ai-typesafe</code> is now <strong>4.0.1</strong> (4 Oct, 21:51Z), not 4.0.0. <span class="ev ev-documented">Documented</span></li>
+    <li>The Spring AI integration is <strong>community</strong> (<code>org.springaicommunity:typesafe-spring-ai</code> 0.4.0), not part of spring-projects/spring-ai. <span class="ev ev-documented">Documented</span></li>
+    <li>AutoModeMiddleware is inside <code>langchain-typesafe</code> (experimental module). A JS version ships in <code>@langchain/typesafe</code> 0.0.2. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>LlamaIndex has a community integration</strong> (<code>llama-index-postprocessor-jev</code> / <code>-selectors-jev</code> 0.1.1). Nothing official exists, within the boundary stated in the research notes. <span class="ev ev-documented">Documented</span></li>
+    <li>The "Fast browser agent (using Jev)" lead is browser-use/jev-ultrafast. HN item 49849950 links only a tweet, with no source.</li>
+    <li>The AndroidWorld claim comes from arXiv 2609.30186 ("Jev-Mobile …", single author), submitted <strong>24 Sep</strong> per arXiv, not 25 Sep. <span class="ev ev-reported">Reported</span></li>
+    <li><code>products</code>: Jev for Chrome, computer-use-jev and jev-android were B rows. Their call paths were read in source this run, so they become A.</li>
+  </ol>
+
+  <h2 id="access">4. Access status, home notices and timeline</h2>
+  <ul>
+    <li>Rechecked 5 Oct 2026, 05:13:31 to 05:15:03 UTC (R8-S20 to R8-S50). Values unchanged since 4 Oct (see <a href="#summary">item 1</a>). <span class="ev ev-documented">Documented</span></li>
+    <li>The home status record was written at about 05:16 UTC (minute 4), validated, and sent to the manager. It did not change after minute 15.</li>
+    <li><strong>Retire pass:</strong> <code>new-user-credit-disabled</code> kept (rank 1); <code>lookalike-resellers</code> kept (rank 2; jevtypesafeai.com is one of the three sites the Eye Security report names, not a new site); <code>rate-limits-changed-2026-10-03</code> kept (rank 3); <code>subprocessors-added-2026-10-02</code> kept (rank 4; list unchanged); <code>typesafe-workflow-evals-code</code> kept with <code>shown: false</code> (rank 5; retires at the 7 Oct run). Retired: none. New: none.</li>
+    <li><strong>Timeline:</strong> the 28 Sep and 29 Sep incidents are already on <a href="../../where-to-use/access-status/index.html">access status</a>. No additions.</li>
+  </ul>
+
+  <h2 id="pages">5. Findings per page and ship verdicts</h2>
+
+  <h3 id="p1">5.1 <code>use-cases/browser-and-computer-use</code> (new): ships</h3>
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 7 Jev browser and computer-use agents read in source, none clicks or types when Jev errors, but 5 act on low-confidence answers, and only 1 asks a person before send, buy or delete.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>source at pinned commits, checked <time datetime="2026-10-05">5 Oct 2026</time></span></p>
+  </div>
+  <ul>
+    <li>Page: <a href="../../use-cases/browser-and-computer-use/index.html">Jev browser use and computer use (TypeSafe AI): what agents do when Jev fails or is unsure</a>. Not claimed: that Jev browser agents are safe, or any general rate.</li>
+    <li>Title query source: "jev browser use" and "jev computer use" are suggested on Google (<code>client=firefox</code>), Bing (<code>osjson</code>) and DuckDuckGo (<code>ac</code>) at 5 Oct 2026, 05:14:58 UTC, confirming the 4 Oct audience row. A suggestion is a demand signal, not a volume.</li>
+    <li>Projects and pinned commits: browser-use/jev-ultrafast <code>1231850</code>, ironbee-ai/ironbee-express <code>05079b4</code>, forvela/jev-agent-browser <code>eb35251</code>, dougsong/jev-android <code>be8364a</code>, paulsmith/computer-use-jev <code>ff0ad8b</code>, chy4pro/jev-for-chrome <code>d5c24de</code>, razaanstha/ulka <code>bb04433</code>; KaushikSiva/second-look <code>0c05d16</code> (recommendation-only; the runner's own read). trycua/cua jev-use <code>ba0033a</code> is listed but not counted (mock provider by default).</li>
+    <li>Counts (n = 7 acting agents):
+      <ul>
+        <li>on a Jev error, a UI action still happens in 0/7;</li>
+        <li>malformed answer: 0/7 act directly; 1/7 (jev-agent-browser) can click a fallback target picked by word overlap;</li>
+        <li>unsure: 5/7 have no threshold; 2/7 block below 0.65 or 0.5;</li>
+        <li>no key: 6/7 refuse; ironbee-express replays a cached recording unjudged;</li>
+        <li>bypass recorded: 4/7;</li>
+        <li>user's own session by default: 5/7;</li>
+        <li>human gate before irreversible actions: 1/7 (Ulka); Jev confidence gate on mutating actions: 1/7 (computer-use-jev, 0.5); none found: 4/7.</li>
+      </ul>
+    </li>
+    <li>second-look: on a Jev error or no key, it shows a heuristic "Good deal — buy it" verdict with confidence None.</li>
+    <li>Risk box on the page: logged-in sessions; page text and field values leaving the machine (6,000 to 18,000 characters; all 7 exclude passwords); unsure is not the same as failed; irreversible actions; speed claims <span class="ev ev-reported">Reported</span>.</li>
+    <li>Ship rule: 3 or more projects with columns 1, 3, 4, 6, 7 and 9. Met by 7.</li>
+  </ul>
+
+  <h3 id="p2">5.2 <code>build/frameworks</code> (new): ships</h3>
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 6 Jev framework packages read in source, 4 are pre-1.0 and none comes from TypeSafe; 4 raise Jev errors to your code, while the community Spring AI filter passes passages through unscreened.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>pinned tags, checked <time datetime="2026-10-05">5 Oct 2026</time></span></p>
+  </div>
+  <ul>
+    <li>Page: <a href="../../build/frameworks/index.html">Jev LangChain and other framework integrations (TypeSafe AI): which is mature enough, and what happens when Jev fails?</a> Not claimed: that framework integrations are unsafe, or that LangChain's integration is production-ready.</li>
+    <li>Title query source: "jev langchain" is suggested on all three endpoints at 05:14:59 UTC. "jev pydantic", "jev spring ai" and "jev llamaindex" have no suggestions. "jev hermes" appears on all three endpoints; it is material for run 9.</li>
+    <li>Pins: langchain <code>4af7ab8</code> (0.0.1a3); langchainjs <code>417ddcf</code> (0.0.2); pydantic-ai <code>6695132</code> (v2.54.0); effect <code>460272d</code> (4.0.1); spring-ai-typesafe <code>51993bb</code> (v0.4.0); llama-index-jev <code>421afda</code>.</li>
+    <li>Version rechecks: LiteLLM 1.104.0 adds a new lead, a TypeSafe proxy guardrail hook (not audited); Vercel 3.0.12, unchanged; the Pydantic AI Gateway does not route Jev; no Mastra package found.</li>
+    <li>Coding-agent pointer (leads only, <span class="ev ev-unverified">Unverified</span>, from web-search snippets): the Hermes catalog lists community Jev plugins (pinned in spare time, <a href="#spare">section 11</a>); Codex, OpenCode and Cursor have only community MCP servers or guides; no vendor plugin was found for any of them.</li>
+    <li>Ship rule: 4 or more integrations with columns 1, 2, 4, 7 and 8. Met by 7.</li>
+  </ul>
+
+  <h3 id="p3">5.3 <code>where-to-use</code> section "Is Jev on Amazon Bedrock or Azure AI Foundry?": ships</h3>
+  <div class="jv-answer key">
+    <strong>Short answer</strong>
+    <p class="kf">Jev is not listed in the Amazon Bedrock model catalog or the Azure AI Foundry model catalog (checked 5 Oct 2026, 05:18–05:19 UTC), and TypeSafe's docs do not mention either. Call TypeSafe's API or a gateway.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>catalogs read directly, checked <time datetime="2026-10-05T05:19:17Z">5 Oct 2026</time></span></p>
+  </div>
+  <ul>
+    <li>Section: <a href="../../where-to-use/index.html#bedrock-azure">Is Jev on Amazon Bedrock or Azure AI Foundry?</a></li>
+    <li>Checks, all <span class="ev ev-documented">Documented</span>:
+      <ul>
+        <li>Jev is not listed in the <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html">Amazon Bedrock model cards</a> at 5 Oct 2026, 05:18 UTC (19 providers, no TypeSafe).</li>
+        <li>Jev is not listed in the <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-marketplace-model-reference.html">Bedrock Marketplace model table</a> or on the <a href="https://aws.amazon.com/bedrock/model-choice/">Bedrock model-choice page</a> at 5 Oct 2026, 05:17 UTC.</li>
+        <li><a href="https://aws.amazon.com/marketplace/search/results?searchTerms=TypeSafe">AWS Marketplace</a>, first page of results only, 05:18–05:19 UTC: "TypeSafe" returns 900 results with no TypeSafe AI listing. "Jev" returns 132 results; the first two are third-party self-hosted look-alike servers, "OpenJev 27B" by Salient Engineering and "openjevx Server" by Deemwar.</li>
+        <li>Jev is not listed in the Microsoft Learn Foundry lists (<a href="https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure">models sold directly by Azure</a>, <a href="https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-from-partners">models from partners</a>) at 5 Oct 2026, 05:17 UTC.</li>
+        <li>Jev is not listed in the <a href="https://ai.azure.com/catalog/models?search=typesafe">Azure AI Foundry model catalog</a> at 5 Oct 2026, 05:19 UTC: 0 models for "typesafe" and for "jev"; the control search "deepseek" returns 98.</li>
+        <li><a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=TypeSafe">Azure Marketplace</a> (05:17 UTC): one third-party Excel add-in, EBITDAI, with an "AskJev" function.</li>
+        <li>TypeSafe <a href="https://docs.typesafe.ai/llms-full.txt"><code>llms-full.txt</code></a>: 0 mentions of Bedrock, Azure, Foundry or AWS Marketplace.</li>
+      </ul>
+    </li>
+    <li>Secondary (<span class="ev ev-reported">Reported</span>): FactualMinds writes "Jev is not an Amazon Bedrock model". The Microsoft Tech Community post builds a Foundry agent with an OpenAPI tool that calls <code>https://api.typesafe.ai/v1/systemone</code>. jevtypesafeai.com's "Jev on AWS Bedrock" page is a lookalike-reseller fact, not a source.</li>
+    <li>Route-matrix row "Jev on Bedrock / Azure AI Foundry", with how-to lines and the data path, is on the where-to-use hub.</li>
+    <li>Title query source: "jev on bedrock" on Google; Bing and DuckDuckGo give "jev bedrock" for the same prefix. "jev azure foundry" and "where to use jev" appear on all three endpoints.</li>
+    <li>Ship rule: both catalogs read directly at recorded times, plus TypeSafe's absence within a stated boundary. Met.</li>
+  </ul>
+
+  <h3 id="p4">5.4 <code>build/when-jev-fails</code>: rows and recount</h3>
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 51 Jev implementations read in source, 30 stop or hold the action when Jev errors and 6 let it through unchecked: 4 content-moderation bots, one Claude Code hook and one Spring AI passage filter.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>recomputed from published tables plus new rows, checked <time datetime="2026-10-05">5 Oct 2026</time></span></p>
+  </div>
+  <ul>
+    <li>12 new rows: 8 browser and 4 frameworks (Spring JevDocumentFilter, LlamaIndex JevRerank, LangChain ModelRouterMiddleware in Python, LangChain autoModeMiddleware in JS). No existing row changes.</li>
+    <li>Totals were recomputed by script from the published 39-row tables plus the new rows. Every row sums to n = 51. Below-threshold totals are kept apart from error totals.</li>
+    <li>New page meta: "51 Jev implementations in 9 use cases …". The checklist and copy-block counts are on the page (<a href="../../build/when-jev-fails/index.html#wf-copy">copy block</a>).</li>
+    <li>Browser-only figures (n = 47, without the 4 framework rows): 28 stop or hold; 5 let it through.</li>
+  </ul>
+  <div class="table-wrap stack">
+    <table>
+      <caption>Totals across 51 implementations in 9 domains (n = 51 per row)</caption>
+      <thead><tr><th>Condition</th><th>Counts</th><th>Not recorded</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Condition">Jev error / timeout</td><td data-l="Counts">fail-closed 30, fail-open 6, advisory 3, fallback 9, no-decision 3</td><td data-l="Not recorded">0/51</td></tr>
+        <tr><td data-l="Condition">Malformed answer</td><td data-l="Counts">fail-closed 24, fail-open 9, advisory 3, fallback 11, no-decision 3</td><td data-l="Not recorded">1/51</td></tr>
+        <tr><td data-l="Condition">Below threshold (separate)</td><td data-l="Counts">held 10, acts-anyway 9, fallback 5, no-decision 4, advisory 4, no-threshold 14</td><td data-l="Not recorded">5/51</td></tr>
+        <tr><td data-l="Condition">No key</td><td data-l="Counts">fail-closed 23, fail-open 3, advisory 3, fallback 5, no-decision 0</td><td data-l="Not recorded">17/51</td></tr>
+        <tr><td data-l="Condition">Bypass</td><td data-l="Counts">recorded 22</td><td data-l="Not recorded">29/51</td></tr>
+        <tr><td data-l="Condition">Action goes ahead on a Jev error</td><td data-l="Counts">8/51 (was 7/39; adds the Spring filter)</td><td data-l="Not recorded">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="counting">6. Counting judgements (kept visible)</h2>
+  <ul>
+    <li>second-look is counted as a browser-domain row even though it never acts.</li>
+    <li>The JS autoModeMiddleware is counted separately from the Python one already on <a href="../../build/claude-code-mcp/index.html">Claude Code and MCP guardrails</a>.</li>
+    <li>Pydantic AI is not counted as a decision row: it raises to the agent the builder writes.</li>
+    <li>ironbee-express's no-key cell is counted as fail-open (conditional), following run 7's convention.</li>
+  </ul>
+
+  <h2 id="scan">7. Scan (S1) highlights</h2>
+  <ul>
+    <li>Window: 4 Oct 2026, 05:14 UTC to 5 Oct 2026, 05:14 UTC. Gap 0, overlap 0.</li>
+    <li>Window counts (R8-S01 to R8-S05): Hacker News "jev" 7 stories and 4 comments; 250 GitHub repositories created; 12 npm packages; 18 Hugging Face models. These are search-index counts, not verified integrations or adoption. Reddit and X are unknown, not zero.</li>
+    <li>No TypeSafe release, legal, limits, subprocessor or incident change.</li>
+    <li>"jev omni": explained as a community open-weights model, akhilaaa3/Jev-Omni (Gemma 4 12B base, Apache-2.0, 20 Sep), plus its copies. It is not TypeSafe's.</li>
+    <li>"jev vision": unexplained (candidates listed in the research notes). TypeSafe docs say Jev's input is text only.</li>
+    <li>Leads (<span class="ev ev-unverified">Unverified</span>): obekt-terminal, an AI agent said to trade crypto with real funds unattended (<span class="ev ev-reported">Reported</span>; not read; no trading or investment advice); DoubtBench (for <a href="../../benchmarks/index.html">benchmarks</a>); a WSJ story on copycats (paywalled; not read); local System One runtimes (for alternatives).</li>
+  </ul>
+
+  <h2 id="drift">8. Drift</h2>
+  <ul>
+    <li>All pinned SDKs, Claude Code and MCP integrations and the five n8n nodes are unchanged. <span class="ev ev-documented">Documented</span></li>
+    <li>LiteLLM 1.104.0 is a minor release of an integration whose routing disposition is published. A targeted diff is due next run.</li>
+    <li><code>@effect/ai-typesafe</code> 4.0.1 is already the pin on the new frameworks page.</li>
+    <li>With <a href="../../build/frameworks/index.html">build/frameworks</a> published, its six pins are due to join the drift list.</li>
+  </ul>
+
+  <h2 id="products">9. Products row changes</h2>
+  <ul>
+    <li>Checked against the published page: 67 rows (A 47, B 19, C 1).</li>
+    <li>jev-ultrafast stays A (pin refreshed to <code>1231850</code>).</li>
+    <li>B → A: Jev for Chrome, computer-use-jev, jev-android.</li>
+    <li>New A: ironbee-express, jev-agent-browser, Ulka, second-look, trycua/cua jev-use (mock by default).</li>
+    <li><strong>New total: 72 rows (A 55, B 16, C 1)</strong>; 0/72 independently verified in production. Arithmetic: 67 + 5 new = 72; A 47 + 3 + 5 = 55; B 19 − 3 = 16.</li>
+    <li>Framework packages go under "not counted as products": langchain-typesafe, @langchain/typesafe, Pydantic AI TypeSafeModel, @effect/ai-typesafe, typesafe-spring-ai, llama-index-postprocessor-jev.</li>
+  </ul>
+
+  <h2 id="small">10. Small checks (S6)</h2>
+  <ul>
+    <li><strong>Zapier:</strong> the "TypeSafe Jev" app has one action ("Ask Questions") and no "built by" field. Failure behaviour is not readable in source. Not counted. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>EU hosting:</strong> no TypeSafe EU region found within the stated boundary; all 6 subprocessors are in the USA. Opper is EU-hosted but routes to "TypeSafe AI — United States". The HN request for EU hosting is <span class="ev ev-reported">Reported</span> context.</li>
+    <li><strong>Strands Decider 2B:</strong> primary source strands-labs/strands-decider <code>75c9fd3</code> (Apache-2.0; Qwen3.5-2B base; runs locally behind <code>/v1/systemone</code>). It is a model, interface and runtime substitute. Its JevBench 0.723 (167 of 231) is the authors' own (<span class="ev ev-reported">Reported</span>). The AWS attribution is via The New Stack (<span class="ev ev-reported">Reported</span>).</li>
+  </ul>
+
+  <h2 id="spare">11. Spare time</h2>
+  <ol>
+    <li><strong>Hermes catalog:</strong> 6 plugin repositories pinned: jev-typesafe <code>b3d29f7</code>, jev <code>cdf59e4</code>, jev-judge <code>5dddbea</code>, typesafe-skill-router <code>94fe114</code>, jev-skill-router <code>76ee09e</code>, hermes-jev-approvals <code>530fdb0</code>. All 6/6 are listed as Community. Their behaviour was not read.</li>
+    <li><strong><code>databases-and-documents</code>:</strong> 5/5 projects (pg-jev, sqlite3-jev, sqlite-jev, pg-redact, docjev) have a real Jev call path at pinned commits. The count part of the release-4 condition is met; their error behaviour was not read.</li>
+    <li><strong>jev-risk-check-provider</strong> <code>fa5e497</code>: no payment call site in the 60 of 361 files scanned. Its credits module bills its own calls. Not a payment-gate candidate on this evidence.</li>
+  </ol>
+
+  <h2 id="gaps">12. Evidence gaps and uncertainties</h2>
+  <ul>
+    <li>No agent or integration was run. Every disposition is read from code; behaviour when run may differ (for example, SDK defaults not read: the @langchain/core backoff, and the typesafe-sdk timeout used by Pydantic AI).</li>
+    <li>Test contents were read for only a few projects. jev-agent-browser's npm tarball was not compared to the repository.</li>
+    <li>Unknown cells: whether computer-use-jev sends <code>[secure]</code> field values; second-look's fallback card wording; trycua/cua no-key behaviour; the Spring AutoConfig lines (helper-read, not spot-checked).</li>
+    <li><strong>Marketplace and catalog boundaries:</strong> AWS and Azure Marketplace results were read on the first page only. Private offers and signed-in listings were not checked.</li>
+    <li>The coding-agent pointer facts are web-search snippets: <span class="ev ev-unverified">Unverified</span> until run 9 reads them.</li>
+    <li>The counting judgements in <a href="#counting">section 6</a> change totals if read differently.</li>
+  </ul>
+
+  <h2 id="not-done">13. Not done</h2>
+  <ul>
+    <li>LiteLLM targeted diff (next run).</li>
+    <li>The LiteLLM guardrail hook.</li>
+    <li>The unread same-name browser and computer-use repositories (listed in the research notes).</li>
+    <li>The <code>databases-and-documents</code> error behaviour.</li>
+    <li>The WSJ story (paywalled).</li>
+    <li>obekt-terminal.</li>
+  </ul>
+  <p>Nothing from the planned page items slipped.</p>
+
+  <h2 id="timings">14. Timings (UTC, 5 Oct 2026)</h2>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Time (minute)</th><th>Step</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Time">05:11:41 (0)</td><td data-l="Step">Start</td></tr>
+        <tr><td data-l="Time">05:12–05:13 (1–2)</td><td data-l="Step">Helpers launched</td></tr>
+        <tr><td data-l="Time">05:13:31–05:15:03</td><td data-l="Step">S2 and S1 fetches</td></tr>
+        <tr><td data-l="Time">about 05:16 (4)</td><td data-l="Step">Home status record written and manager told</td></tr>
+        <tr><td data-l="Time">05:17–05:22</td><td data-l="Step">S3 own read (second-look); S5 and S6 checks while the helpers ran</td></tr>
+        <tr><td data-l="Time">about 05:20</td><td data-l="Step">Helper A returned</td></tr>
+        <tr><td data-l="Time">about 05:22</td><td data-l="Step">Helper B returned</td></tr>
+        <tr><td data-l="Time">05:20–05:25</td><td data-l="Step">Spot-checks: 15 + 26 lines (1 line-number correction); LlamaIndex pin</td></tr>
+        <tr><td data-l="Time">05:25–05:33</td><td data-l="Step">Notes written</td></tr>
+        <tr><td data-l="Time">05:33–05:35 (22–23)</td><td data-l="Step">Spare-time queue</td></tr>
+        <tr><td data-l="Time">05:35–05:36</td><td data-l="Step">Cleanup and return</td></tr>
+        <tr><td data-l="Time">—</td><td data-l="Step">GitHub search calls: 8 of 10</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="jv-box warn" id="jv-r8-unverified">
+    <h2>What was not verified</h2>
+    <ul>
+      <li>How any agent or integration behaves when run: nothing was run, and no Jev call was made.</li>
+      <li>SDK defaults that were not read (the @langchain/core backoff; the typesafe-sdk timeout used by Pydantic AI).</li>
+      <li>Whether computer-use-jev sends <code>[secure]</code> field values; second-look's fallback card wording; trycua/cua no-key behaviour; the Spring AutoConfig lines.</li>
+      <li>jev-agent-browser's npm tarball against its repository.</li>
+      <li>AWS and Azure Marketplace results beyond the first page, private offers and signed-in listings.</li>
+      <li>The coding-agent pointer facts (Hermes, Codex, OpenCode, Cursor): web-search snippets, <span class="ev ev-unverified">Unverified</span>.</li>
+      <li>Speed claims, the AndroidWorld result, Strands Decider's JevBench score and the AWS attribution: <span class="ev ev-reported">Reported</span> only.</li>
+      <li>Reddit and X activity in the scan window: unknown.</li>
+    </ul>
+  </div>
+
+  <section class="jv-sources" aria-labelledby="jv-r8-sources">
+    <h2 id="jv-r8-sources">Key sources and check times (5 Oct 2026, UTC)</h2>
+    <ul>
+      <li>Access (R8-S20 to R8-S50, 05:13–05:15): <a href="https://status.typesafe.ai/">status.typesafe.ai</a>; <a href="https://docs.typesafe.ai/models.md">docs.typesafe.ai/models.md</a>; <a href="https://trust.typesafe.ai/subprocessors">trust.typesafe.ai/subprocessors</a>.</li>
+      <li>Browser and computer use (R8-S60 to R8-S68, 05:13–05:18): <a href="https://github.com/browser-use/jev-ultrafast/tree/1231850a0bf1a0c0341fe408ef1668dbbfdfac46">jev-ultrafast <code>1231850</code></a>; <a href="https://github.com/ironbee-ai/ironbee-express/tree/05079b44d09d76ff35dfb550716fb2c29875c5f2">ironbee-express <code>05079b4</code></a>; <a href="https://github.com/forvela/jev-agent-browser/tree/eb35251a13770419da5a2e3b78709d24d76acdb3">jev-agent-browser <code>eb35251</code></a>; <a href="https://github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc">jev-android <code>be8364a</code></a>; <a href="https://github.com/paulsmith/computer-use-jev/tree/ff0ad8ba8e25755d37fb8d93718144c4568a596b">computer-use-jev <code>ff0ad8b</code></a>; <a href="https://github.com/chy4pro/jev-for-chrome/tree/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e">jev-for-chrome <code>d5c24de</code></a>; <a href="https://github.com/razaanstha/ulka/tree/bb04433dcebb75b1a93eb5a6dc7d25909930cc65">ulka <code>bb04433</code></a>; <a href="https://github.com/KaushikSiva/second-look/tree/0c05d16958b532e2603c40551c224a4ba41b8beb">second-look <code>0c05d16</code></a>; <a href="https://github.com/trycua/cua/tree/ba0033a661101669c60ce05f1fe5753bf8bad748">trycua/cua <code>ba0033a</code></a>. File paths per cell are on the <a href="../../use-cases/browser-and-computer-use/index.html">browser and computer use</a> page. <a href="https://arxiv.org/abs/2609.30186">arXiv 2609.30186</a> (R8-S69, <span class="ev ev-reported">Reported</span>).</li>
+      <li>Frameworks (R8-S80 to R8-S86, 05:13–05:17): <a href="https://github.com/langchain-ai/langchain/tree/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9">langchain <code>4af7ab8</code></a> (0.0.1a3); <a href="https://github.com/langchain-ai/langchainjs/tree/417ddcf506790e1f50050609d5cf9b252c38f3e3">langchainjs <code>417ddcf</code></a> (0.0.2); <a href="https://github.com/pydantic/pydantic-ai/tree/66951321b89587235f432281eba909a30a585ffd">pydantic-ai <code>6695132</code></a> (v2.54.0); <a href="https://github.com/Effect-TS/effect/tree/460272d30457f4697d8b8c52cad41caccbcace08">effect <code>460272d</code></a> (4.0.1); <a href="https://github.com/spring-ai-community/spring-ai-typesafe/tree/51993bb28a0f52a88bf3280d609b000076122582">spring-ai-typesafe <code>51993bb</code></a> (v0.4.0); <a href="https://github.com/WiktorB2004/llama-index-jev/tree/421afdafe16b832173874f1f642a731e23b8f374">llama-index-jev <code>421afda</code></a>. File paths per cell are on the <a href="../../build/frameworks/index.html">frameworks</a> page. <a href="https://spring.io/blog/2026/10/02/spring-ai-modular-rag-typesafe-jev/">Spring blog, 2 Oct 2026</a> (R8-S85, <span class="ev ev-reported">Reported</span>).</li>
+      <li>Bedrock and Azure (R8-S100 to R8-S112, 05:17–05:20): <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html">Bedrock model cards</a> (05:18); <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html">Bedrock supported models</a>; <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-marketplace-model-reference.html">Bedrock Marketplace model reference</a>; <a href="https://aws.amazon.com/bedrock/model-choice/">Bedrock model choice</a>; <a href="https://aws.amazon.com/marketplace/search/results?searchTerms=TypeSafe">AWS Marketplace "TypeSafe"</a> and <a href="https://aws.amazon.com/marketplace/search/results?searchTerms=Jev">"Jev"</a> (first page only); <a href="https://ai.azure.com/catalog/models?search=typesafe">Azure AI Foundry catalog "typesafe"</a> and <a href="https://ai.azure.com/catalog/models?search=jev">"jev"</a> (05:19); <a href="https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=TypeSafe">Azure Marketplace</a>; <a href="https://docs.typesafe.ai/llms-full.txt">docs.typesafe.ai/llms-full.txt</a>; <a href="https://www.factualminds.com/blog/jev-typesafe-ai-aws-guide-2026/">FactualMinds</a> and <a href="https://techcommunity.microsoft.com/blog/azuredevcommunityblog/using-jev-with-agents-in-microsoft-foundry-for-model-evaluation/4559851">Microsoft Tech Community</a> (<span class="ev ev-reported">Reported</span>).</li>
+      <li>Small checks (R8-S120 to R8-S123, 05:20–05:21): <a href="https://zapier.com/apps/typesafe-jev/integrations">Zapier TypeSafe Jev app</a>; <a href="https://github.com/strands-labs/strands-decider/tree/75c9fd32e664954cdc18481434018aa507eee8fb">strands-decider <code>75c9fd3</code></a>; <a href="https://thenewstack.io/aws-strands-decider-model/">The New Stack</a> (<span class="ev ev-reported">Reported</span>).</li>
+      <li>Spare time (R8-S130 to R8-S133, 05:33–05:34): <a href="https://github.com/ajensenwaud/hermes-jev-plugin/tree/b3d29f71770a3447ad0b3db00658f64a8edc7dd3">jev-typesafe <code>b3d29f7</code></a>; <a href="https://github.com/ourines/hermes-jev/tree/cdf59e46270d3b33618d3b275c5c2fb76f594a19">jev <code>cdf59e4</code></a>; <a href="https://github.com/DoGMaTiiC/hermes-jev/tree/5dddbeaac5be08281e6c3b372eeaba3639971f0a">jev-judge <code>5dddbea</code></a>; <a href="https://github.com/DECRUX9812/typesafe-skill-router/tree/94fe114b3c53b3d6b81ba72890eb6db596cbaa12">typesafe-skill-router <code>94fe114</code></a>; <a href="https://github.com/ydmw74/jev-skill-router/tree/76ee09e049dbc10c76f98cfefc6ca16b42cfad38">jev-skill-router <code>76ee09e</code></a>; <a href="https://github.com/anpicasso/hermes-jev-approvals/tree/530fdb006f1637f9771ccf24049bf6588485c871">hermes-jev-approvals <code>530fdb0</code></a>; <a href="https://github.com/caiovicentino/jev-risk-check-provider/tree/fa5e49771020601e6d33c6c94ea28ecebd2bd1b8">jev-risk-check-provider <code>fa5e497</code></a>.</li>
+      <li>Search suggestions (R8-S11, 05:14:54–05:14:59): Google (<code>client=firefox</code>), Bing (<code>osjson</code>), DuckDuckGo (<code>ac</code>); 23 queries.</li>
+      <li>Failure checklist: recomputed from the published domain pages plus the 12 new rows; rows and links on <a href="../../build/when-jev-fails/index.html">when Jev fails</a>.</li>
+    </ul>
+  </section>
+
+  <section class="jv-related" aria-labelledby="jv-r8-related">
+    <h2 id="jv-r8-related">Related pages</h2>
+    <ul>
+      <li><a href="../../research/index.html">Research: all dated reports (hub)</a></li>
+      <li><a href="../../use-cases/browser-and-computer-use/index.html">Jev browser use and computer use</a></li>
+      <li><a href="../../build/frameworks/index.html">Jev LangChain and other framework integrations</a></li>
+      <li><a href="../../where-to-use/index.html#bedrock-azure">Is Jev on Amazon Bedrock or Azure AI Foundry?</a></li>
+      <li><a href="../../build/when-jev-fails/index.html">When Jev fails: what implementations do on errors</a></li>
+      <li><a href="../../products/index.html">Products built on Jev</a></li>
+      <li><a href="../../build/claude-code-mcp/index.html">Claude Code and MCP guardrails</a></li>
+      <li><a href="../../benchmarks/index.html">Is Jev accurate? Graded benchmarks ledger</a></li>
+      <li><a href="../trading-failures-judge/index.html">4 Oct research report</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>5 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>
