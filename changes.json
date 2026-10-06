@@ -2,6 +2,60 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "coding-agents-page-2026-10-06",
+      "changed_at": "2026-10-06T06:30:00Z",
+      "summary": "New page: How to use Jev with Codex, OpenCode, Cursor and Hermes Agent (TypeSafe AI). Of 18 Jev coding-agent integrations read in source, 1 is vendor-published (OpenClaw) and none comes from TypeSafe; 6 act on Jev's answer, and 4 of those let the tool call run when Jev errors.",
+      "path": "/p/jev-catalog/build/coding-agents"
+    },
+    {
+      "change_id": "versions-and-aliases-page-2026-10-06",
+      "changed_at": "2026-10-06T06:30:00Z",
+      "summary": "New page: Jev 1.13 and jev-latest (TypeSafe AI): model IDs and aliases by route. On 4 of 6 routes read on 6 Oct 2026 you can write a versioned Jev ID; Vercel and Cloudflare take only an unversioned one. jev-latest points to jev-1.13.0 on TypeSafe's models page.",
+      "path": "/p/jev-catalog/where-to-use/versions-and-aliases"
+    },
+    {
+      "change_id": "when-jev-fails-recount-2026-10-06",
+      "changed_at": "2026-10-06T06:30:00Z",
+      "summary": "When Jev fails updated: of 58 Jev implementations read in source, 32 stop or hold the action when Jev errors and 7 let it through unchecked: 4 content-moderation bots, 2 agent hooks and one Spring AI passage filter. New Coding agents domain (10 use cases); copyable checklist regenerated.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "claude-code-mcp-guards-2026-10-06",
+      "changed_at": "2026-10-06T06:30:00Z",
+      "summary": "Claude Code and MCP: two guard rows added. jev-permission-gate falls back to Claude Code's built-in classifier when Jev fails; jev-llm-guard only returns a verdict (its CLI exits 0 whatever the verdict). Both are at the commits read on 4 Oct.",
+      "path": "/p/jev-catalog/build/claude-code-mcp"
+    },
+    {
+      "change_id": "products-refresh-2026-10-06",
+      "changed_at": "2026-10-06T06:30:00Z",
+      "summary": "Products recounted on 6 Oct 2026: 92 rows (A 75, B 16, C 1), with 20 coding-agent and guard rows added; none independently verified in production.",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "vercel-providers-2026-10-06",
+      "changed_at": "2026-10-06T06:30:00Z",
+      "summary": "Vercel AI Gateway lists two providers for Jev (checked 6 Oct 2026, 05:15 UTC): TypeSafe AI (zero data retention) and DigitalOcean (no zero data retention). Vercel picks a provider by uptime and latency unless you set the provider order.",
+      "path": "/p/jev-catalog/where-to-use/data-privacy"
+    },
+    {
+      "change_id": "drift-notes-2026-10-06",
+      "changed_at": "2026-10-06T06:30:00Z",
+      "summary": "Drift notes: LiteLLM 1.104.0 keeps the Jev classifier's failure path unchanged from 8d28e8d; no new release of the six framework packages; ai 7.0.128 and @ai-sdk/typesafe-ai 3.0.13 are patch releases, not re-audited.",
+      "path": "/p/jev-catalog/use-cases/model-routing"
+    },
+    {
+      "change_id": "access-recheck-2026-10-06",
+      "changed_at": "2026-10-06T06:30:00Z",
+      "summary": "Access status rechecked 6 Oct 2026, 05:15 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases (jev-latest and jev-preview point to jev-1.13.0) and the subprocessor list unchanged; the API's 90-day uptime moved from 99.829% to 99.826% with no new incident listed.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "failure-legend-consistency-2026-10-06",
+      "changed_at": "2026-10-06T06:30:00Z",
+      "summary": "Failure colours made the same on every page that shows a failure verdict: green fail-closed or held, red fail-open or acts-anyway, blue fallback, amber advisory, gray no-decision, white not recorded or no threshold. Recoloured: Claude Code and MCP, support-ticket triage, model routing, content moderation, email sorting, trading and fraud gates, browser and computer use, n8n, Products, the Use cases hub and the errors page. AutoModeMiddleware now links its pinned commit 4af7ab8 instead of PyPI.",
+      "path": "/p/jev-catalog/build/claude-code-mcp"
+    },
+    {
       "change_id": "browser-and-computer-use-page-2026-10-05",
       "changed_at": "2026-10-05T06:10:00Z",
       "summary": "New page: Jev browser use and computer use (TypeSafe AI). Of 7 Jev browser and computer-use agents read in source, none clicks or types when Jev errors, but 5 act on low-confidence answers, and only 1 asks a person before send, buy or delete.",

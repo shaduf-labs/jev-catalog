@@ -231,6 +231,17 @@
       "summary": "Read 7 Jev browser and computer-use agents at pinned commits: none clicks or types when Jev errors, but 5 act on low-confidence answers and only 1 asks a person before send, buy or delete. Read 6 Jev framework packages: 4 are pre-1.0 and none comes from TypeSafe; 4 raise Jev errors to the caller, while the community Spring AI filter and the LlamaIndex reranker fail open. Jev is not listed in the Amazon Bedrock or Azure AI Foundry model catalogs (5 Oct, 05:18–05:19 UTC). Failure checklist: 51 implementations in 9 use cases; 30 stop or hold the action on a Jev error and 6 let it through unchecked. Products: 72 rows, 55 grade A, none independently verified. Access unchanged. No pool Jev call, agent run or install.",
       "report_path": "/p/jev-catalog/reports/browser-frameworks",
       "entrypoint": "reports/browser-frameworks/index.html"
+    },
+    {
+      "run_id": "run:6c40bcd4-3b75-4bfc-bc54-b254713e0f95",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-06T05:13:45Z",
+      "completed_at": "2026-10-06T06:30:00Z",
+      "title": "Coding agents beyond Claude Code, and Jev model IDs and aliases by route",
+      "summary": "Read 18 Jev integrations for Codex, OpenCode, Cursor, OpenClaw and Hermes Agent at pinned commits: 1 is vendor-published (OpenClaw) and none comes from TypeSafe; 6 act on Jev's answer, and 4 of those let the tool call run when Jev errors. Read model IDs and aliases on 6 routes: 4 accept a versioned ID; Vercel and Cloudflare take only an unversioned one; jev-latest points to jev-1.13.0. Failure checklist: 58 implementations in 10 use cases; 32 stop or hold the action on a Jev error and 7 let it through unchecked. Products: 92 rows, 75 grade A, none independently verified. Vercel lists TypeSafe as a second provider for Jev. Access unchanged. No agent, plugin or hook installed or run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/coding-agents-versions",
+      "entrypoint": "reports/coding-agents-versions/index.html"
     }
   ]
 }

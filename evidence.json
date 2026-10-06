@@ -7270,6 +7270,796 @@
       "accessed_at": "2026-10-05T05:33:45Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s01",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query=<41 queries>&tags=<story|comment>&typoTolerance=false&numericFilters=created_at_i>=1791177240,created_at_i<1791263640",
+      "title": "Run 9 source R9-S01: hn.algolia.com/api/v1/search_by_date?query=<41 queries>&tags=<story|co",
+      "claim": "jev: 11 stories, 33 comments; typesafe: 3 stories, 5 comments; jev vision, jev outage, jev signup, jev-latest: 0 (Documented (index results); accessible)",
+      "accessed_at": "2026-10-06T05:19:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s02",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=<jev|topic:jev>+created:2026-10-05T05:14:00Z..2026-10-06T05:13:59Z",
+      "title": "Run 9 source R9-S02: api.github.com/search/repositories?q=<jev|topic:jev>+created:2026-10-0",
+      "claim": "jev: total_count 192, incomplete_results false; topic:jev: 9 (Documented (index results); accessible)",
+      "accessed_at": "2026-10-06T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s03",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?size=250&text=<jev|typesafe>",
+      "title": "Run 9 source R9-S03: registry.npmjs.org/-/v1/search?size=250&text=<jev|typesafe>",
+      "claim": "14 jev and 7 typesafe packages with last publish in window (Documented (index results); accessible)",
+      "accessed_at": "2026-10-06T05:19:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s04",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=jev&sort=lastModified&direction=-1&limit=100",
+      "title": "Run 9 source R9-S04: huggingface.co/api/models?search=jev&sort=lastModified&direction=-1&li",
+      "claim": "22 models modified in window; jev-vision search: SeanLiu/Jev-Vision, argos1111 mmproj (both 21 Sep) (Documented (index results); accessible)",
+      "accessed_at": "2026-10-06T05:19:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s05",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev&per_page=100",
+      "title": "Run 9 source R9-S05: dev.to/api/articles?tag=jev&per_page=100",
+      "claim": "1 article: How to use Jev's Choice API with a model that doesn't generate text (2026-10-05T20:07:36Z) (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:19:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s07",
+      "source_type": "not accessible",
+      "source_url": "https://www.reddit.com/search.json?q=jev&sort=new",
+      "title": "Run 9 source R9-S07: www.reddit.com/search.json?q=jev&sort=new",
+      "claim": "HTTP 403 (Unverified; failed (unknown))",
+      "accessed_at": "2026-10-06T05:19:23Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s08",
+      "source_type": "not accessible",
+      "source_url": "https://x.com/search?q=jev%20typesafe&f=live",
+      "title": "Run 9 source R9-S08: x.com/search?q=jev%20typesafe&f=live",
+      "claim": "HTTP 200 application shell; no results without login (Unverified; failed (unknown))",
+      "accessed_at": "2026-10-06T05:19:23Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s11",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&q=<q> ; https://api.bing.com/osjson.aspx?query=<q> ; https://duckduckgo.com/ac/?q=<q>&type=list (23 queries)",
+      "title": "Run 9 source R9-S11: suggestqueries.google.com/complete/search?client=firefox&q=<q> ; https",
+      "claim": "Google: 'how to use jev with codex', 'jev hermes', 'jev 1.13', 'jev-latest'; Bing/DDG: 'jev codex', 'jev hermes', 'jev 1.13', 'jev-latest' (Documented (demand signal, not volume); accessible)",
+      "accessed_at": "2026-10-06T05:19:23Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s20",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Run 9 source R9-S20: status.typesafe.ai/",
+      "claim": "All services are online ... 99.826% uptime ... Previous incidents Sep 29, 2026 Console is unavailable. Resolved (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Run 9 source R9-S21: docs.typesafe.ai/models.md",
+      "claim": "`jev-preview` currently points to the same model as `jev-latest`. There is no preview build available right now. (Documented; accessible; at jev-1.13.0)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s22",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Run 9 source R9-S22: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "No credit, waitlist or sign-up text found (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s23",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/ ; https://typesafe.ai/blog",
+      "title": "Run 9 source R9-S23: typesafe.ai/ ; https://typesafe.ai/blog",
+      "claim": "Blog text: 'TypeSafe AI' (13 characters) (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s24",
+      "source_type": "not accessible",
+      "source_url": "https://console.typesafe.ai/ ; /signup ; /login",
+      "title": "Run 9 source R9-S24: console.typesafe.ai/ ; /signup ; /login",
+      "claim": "HTTP 403 on all three (login at 05:17:36Z) (Unverified; refused (signup not observed))",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s25",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Run 9 source R9-S25: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "\"pricing\":{\"prompt\":\"0.000000042\",\"completion\":\"0\"}; context_length 32000 (Documented; accessible; at typesafe/jev-1.13-20260917)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s26",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-router/endpoints ; https://openrouter.ai/api/v1/models",
+      "title": "Run 9 source R9-S26: openrouter.ai/api/v1/models/typesafe/jev-router/endpoints ; https://op",
+      "claim": "jev-router prompt -1, context 1,000,000; typesafe/jev-1.13 not in the public list (Documented; accessible; at typesafe/jev-router)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s27",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Run 9 source R9-S27: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. ... typesafe/jev-1.13 (or the ~typesafe/jev-latest alias) (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Run 9 source R9-S28: ai-gateway.vercel.sh/v1/models",
+      "claim": "\"zdr\":\"some\",\"no_training\":\"all\" (Documented; accessible; at typesafe-ai/jev)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Run 9 source R9-S29: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "Zero data retention Yes Pricing Input (per 1M tokens) $0.042; example response \"model\" : \"jev-1.13.0\" (Documented; accessible; at typesafe/jev)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s30",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Run 9 source R9-S30: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/21043386",
+      "claim": "good news: ANYONE CAN SIGN UP ... we had to temporarily disable the free credits (just for new users) (Documented (executive); accessible)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s31",
+      "source_type": "documented source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Run 9 source R9-S31: aifront-page.com/",
+      "claim": "0 Jev or TypeSafe mentions (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s33",
+      "source_type": "documented source",
+      "source_url": "https://opper.ai/typesafe/jev-1-13-0",
+      "title": "Run 9 source R9-S33: opper.ai/typesafe/jev-1-13-0",
+      "claim": "Input price $0.04 /1M ... Zero data retention posture is not established for this route (Documented; accessible; at jev-1.13.0)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s34",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json ; https://pypi.org/pypi/langchain-typesafe/json",
+      "title": "Run 9 source R9-S34: pypi.org/pypi/typesafe-sdk/json ; https://pypi.org/pypi/langchain-type",
+      "claim": "unchanged (Documented; accessible; at typesafe-sdk 0.7.2; langchain-typesafe 0.0.1a3)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s35",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk",
+      "title": "Run 9 source R9-S35: registry.npmjs.org/@typesafe-ai/sdk",
+      "claim": "unchanged (Documented; accessible; at 0.6.0)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s36",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ai",
+      "title": "Run 9 source R9-S36: registry.npmjs.org/ai",
+      "claim": "latest 7.0.128 (was 7.0.127) (Documented; accessible; at 7.0.128)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s37",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "title": "Run 9 source R9-S37: registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "claim": "latest 3.0.13 (was 3.0.12) (Documented; accessible; at 3.0.13)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s38",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "title": "Run 9 source R9-S38: api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "claim": "12 repositories, none archived; typesafe-public-examples created 2026-10-05T19:37:48Z; daggerverse pushed 2026-10-06T00:23:03Z (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s39",
+      "source_type": "not accessible",
+      "source_url": "https://web.archive.org/cdx/search/cdx?url=docs.typesafe.ai/models*&from=20261005 ; https://docs.typesafe.ai/changelog.md",
+      "title": "Run 9 source R9-S39: web.archive.org/cdx/search/cdx?url=docs.typesafe.ai/models*&from=20261",
+      "claim": "CDX: connection error; changelog.md: HTTP 404 (Unverified; failed / 404)",
+      "accessed_at": "2026-10-06T05:15:35Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s40",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/terms",
+      "title": "Run 9 source R9-S40: typesafe.ai/legal/terms",
+      "claim": "Last updated Sep 19, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s41",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/acceptable-use-policy",
+      "title": "Run 9 source R9-S41: typesafe.ai/legal/acceptable-use-policy",
+      "claim": "Last updated Sep 23, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s42",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/mca",
+      "title": "Run 9 source R9-S42: typesafe.ai/legal/mca",
+      "claim": "Last updated Sep 23, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s43",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/data-processing",
+      "title": "Run 9 source R9-S43: typesafe.ai/legal/data-processing",
+      "claim": "Last updated Apr 24, 2026 (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s44",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/privacy-policy",
+      "title": "Run 9 source R9-S44: typesafe.ai/legal/privacy-policy",
+      "claim": "Last updated Nov 19, 2025 (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s45",
+      "source_type": "documented source",
+      "source_url": "https://trust.typesafe.ai/subprocessors ; /updates (chromium-headless-shell --dump-dom, temporary profile)",
+      "title": "Run 9 source R9-S45: trust.typesafe.ai/subprocessors ; /updates (chromium-headless-shell --",
+      "claim": "Nebius ... Customer AI prompts are processed, but not stored, on compute nodes managed by Nebius ... 1-6 of 6 results (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:17:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s46",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Run 9 source R9-S46: docs.typesafe.ai/legal.md",
+      "claim": "1,168 bytes (1,162 on 5 Oct; not diffed) (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s47",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/{@langchain/typesafe,@effect/ai-typesafe,@jkudish/jev-mcp,5 n8n nodes} ; https://pypi.org/pypi/{pydantic-ai-slim,llama-index-postprocessor-jev,litellm}/json ; https://repo1.maven.org/maven2/org/springaicommunity/typesafe-spring-ai/maven-metadata.xml",
+      "title": "Run 9 source R9-S47: registry.npmjs.org/{@langchain/typesafe,@effect/ai-typesafe,@jkudish/j",
+      "claim": "no new release of the six framework pins; litellm 1.104.0 (2026-10-03T22:42:59Z) (Documented; accessible; at see drift-litellm.md)",
+      "accessed_at": "2026-10-06T05:20:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s48",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/endpoints/zdr",
+      "title": "Run 9 source R9-S48: openrouter.ai/api/v1/endpoints/zdr",
+      "claim": "TypeSafe | typesafe/jev-1.13-20260917 (937 endpoints listed) (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s49",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Run 9 source R9-S49: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "\"provider_name\":\"typesafe-ai\",\"has_zdr\":true ... \"provider_name\":\"digitalocean\",\"has_zdr\":false (Documented; accessible; at typesafe-ai/jev)",
+      "accessed_at": "2026-10-06T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s50",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/ ; https://jev-agent.org/ ; https://jev-ai.pro/ ; https://jevtypesafeai.com/",
+      "title": "Run 9 source R9-S50: research.eye.security/rise-of-the-jev-clones/ ; https://jev-agent.org/",
+      "claim": "All three sites HTTP 200; report online and names jev-agent.org, jev-ai.pro, jevtypesafeai.com (Reported; accessible)",
+      "accessed_at": "2026-10-06T05:17:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s51",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Run 9 source R9-S51: docs.netlify.com/build/ai-gateway/overview/",
+      "claim": "TypeSafe jev-1.13.0 TypeSafe jev-latest TypeSafe jev-preview ... systemOne uses jev-latest by default (Documented; accessible; at jev-1.13.0, jev-latest, jev-preview)",
+      "accessed_at": "2026-10-06T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s52",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Run 9 source R9-S52: docs.typesafe.ai/llms.txt",
+      "claim": "16,132 bytes; no new model page found (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s53",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/typesafe-ai/typesafe-public-examples ; raw README.md",
+      "title": "Run 9 source R9-S53: api.github.com/repos/typesafe-ai/typesafe-public-examples ; raw README",
+      "claim": "Content used as part of documentation, demos, and cookbooks (Documented; accessible; at HEAD)",
+      "accessed_at": "2026-10-06T05:17:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s60",
+      "source_type": "documented source",
+      "source_url": "https://github.com/<6 Hermes plugin repos> HEAD",
+      "title": "Run 9 source R9-S60: github.com/<6 Hermes plugin repos> HEAD",
+      "claim": "HEAD equals run-8 pins; catalog installs 28a4ea3, e6cdac2, 28be98a for three entries (Documented; accessible; at b3d29f7, cdf59e4, 5dddbea, 94fe114, 76ee09e, 530fdb0 (HEAD unchanged from run 8))",
+      "accessed_at": "2026-10-06T05:14:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s61",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28be98a19539b29768398fb400f4c62f41337c26/plugin/__init__.py ; plugin/jev_policy.py",
+      "title": "Run 9 source R9-S61: raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28be98a19539b",
+      "claim": "APPROVE / DENY / ESCALATE; raises on missing key, HTTP error, malformed answer (Documented (helper read); accessible; at 28be98a19539b29768398fb400f4c62f41337c26)",
+      "accessed_at": "2026-10-06T05:15:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s62",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/{guard,engine,transport}.py",
+      "title": "Run 9 source R9-S62: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9c",
+      "claim": "The guard performs no network call. (Documented (helper read, partial); accessible; at 4e8626c7d394a9cbef8594993ec4b208ffb3395f)",
+      "accessed_at": "2026-10-06T05:18:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s63",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/DoGMaTiiC/hermes-jev/5dddbeaac5be08281e6c3b372eeaba3639971f0a/plugins/jev-judge/{__init__,jev,gate}.py",
+      "title": "Run 9 source R9-S63: raw.githubusercontent.com/DoGMaTiiC/hermes-jev/5dddbeaac5be08281e6c3b3",
+      "claim": "except Exception as exc:  # timeout, 5xx, network, parse — always fail-open (Documented (spot-checked); accessible; at 5dddbeaac5be08281e6c3b372eeaba3639971f0a)",
+      "accessed_at": "2026-10-06T05:23:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s64",
+      "source_type": "documented source",
+      "source_url": "https://hermes-agent.nousresearch.com/docs/plugins/<slug> (7 pages) ; index rendered with chromium-headless-shell",
+      "title": "Run 9 source R9-S64: hermes-agent.nousresearch.com/docs/plugins/<slug> (7 pages) ; index re",
+      "claim": "Every entry installs exactly the commit above. ... Community (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:17:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s65",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/DECRUX9812/typesafe-skill-router/e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3/{__init__.py,typesafe_router/client.py,router.py}",
+      "title": "Run 9 source R9-S65: raw.githubusercontent.com/DECRUX9812/typesafe-skill-router/e6cdac26f9e",
+      "claim": "enabled: False; gate 0.30, fits 0.40 (Documented (helper read); accessible; at e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3)",
+      "accessed_at": "2026-10-06T05:18:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s66",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ourines/hermes-jev/28a4ea390f80d97fcdc8c20d6b630dfe2de645de/{__init__,service,client}.py (and HEAD cdf59e4)",
+      "title": "Run 9 source R9-S66: raw.githubusercontent.com/ourines/hermes-jev/28a4ea390f80d97fcdc8c20d6",
+      "claim": "advisory judgments, no automatic tool gating (Documented (helper read); accessible; at 28a4ea390f80d97fcdc8c20d6b630dfe2de645de)",
+      "accessed_at": "2026-10-06T05:18:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s67",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ajensenwaud/hermes-jev-plugin/b3d29f71770a3447ad0b3db00658f64a8edc7dd3/{client,tools}.py",
+      "title": "Run 9 source R9-S67: raw.githubusercontent.com/ajensenwaud/hermes-jev-plugin/b3d29f71770a34",
+      "claim": "tool errors returned as JSON to the agent; timeout 30 s (Documented (helper read); accessible; at b3d29f71770a3447ad0b3db00658f64a8edc7dd3)",
+      "accessed_at": "2026-10-06T05:15:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s68",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ydmw74/jev-skill-router/76ee09e049dbc10c76f98cfefc6ca16b42cfad38/src/jev_skill_router/mcp_server.py",
+      "title": "Run 9 source R9-S68: raw.githubusercontent.com/ydmw74/jev-skill-router/76ee09e049dbc10c76f9",
+      "claim": "MCP loop returns {\"error\"} to the agent; timeout 60 s (Documented (helper read); accessible; at 76ee09e049dbc10c76f98cfefc6ca16b42cfad38)",
+      "accessed_at": "2026-10-06T05:15:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s69",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@openclaw%2ftypesafe ; npm attestations ; tarball typesafe-2026.9.8.tgz ; https://raw.githubusercontent.com/openclaw/openclaw/aa6008ad198ef99c43f9d89dbd01694708712974/extensions/typesafe/src/decisions.ts",
+      "title": "Run 9 source R9-S69: registry.npmjs.org/@openclaw%2ftypesafe ; npm attestations ; tarball t",
+      "claim": "maintainers steipete, vincentkoc; SLSA provenance workflow openclaw/openclaw plugin-npm-release.yml; LICENSE MIT OpenClaw Foundation (Documented; accessible; at 2026.9.8; provenance commit aa6008ad198ef99c43f9d89dbd01694708712974)",
+      "accessed_at": "2026-10-06T05:19:23Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s70",
+      "source_type": "documented source",
+      "source_url": "https://github.com/{gulbaki/jev-llm-guard,madisonrickert/jev-permission-gate} HEAD",
+      "title": "Run 9 source R9-S70: github.com/{gulbaki/jev-llm-guard,madisonrickert/jev-permission-gate} ",
+      "claim": "both HEADs equal the run-7 pins (Documented; accessible; at 7c7b1b5b646428e397541473de0cd176cc9fe956 ; 7349bc973394905f346dfbe07934662039c496e8)",
+      "accessed_at": "2026-10-06T05:20:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s71",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gulbaki/jev-llm-guard/7c7b1b5b646428e397541473de0cd176cc9fe956/{src/cli.js,src/web-server.js,bin/jev-guard.js}",
+      "title": "Run 9 source R9-S71: raw.githubusercontent.com/gulbaki/jev-llm-guard/7c7b1b5b646428e3975414",
+      "claim": "stdout.write(`Decision: ${result.action.toUpperCase()}`) ... return 0; ... catch (error) { ... return 1; } (Documented; accessible; at 7c7b1b5b646428e397541473de0cd176cc9fe956)",
+      "accessed_at": "2026-10-06T05:24:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s72",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/keiffff/jev-kit/3d74b05f85c1344ce4ae4b3f07b2eaaa6f957b07/{packages/*/src/*.ts,examples/*}",
+      "title": "Run 9 source R9-S72: raw.githubusercontent.com/keiffff/jev-kit/3d74b05f85c1344ce4ae4b3f07b2",
+      "claim": "if (result.outcome !== \"allow\") return undefined; ... decision: { behavior: \"allow\" } (Documented; accessible; at 3d74b05f85c1344ce4ae4b3f07b2eaaa6f957b07)",
+      "accessed_at": "2026-10-06T05:20:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s73",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/{@jev-kit/cli,@jev-kit/agent-review,@jev-kit/hook-adapters,omo-jev-plugin}",
+      "title": "Run 9 source R9-S73: registry.npmjs.org/{@jev-kit/cli,@jev-kit/agent-review,@jev-kit/hook-a",
+      "claim": "repository keiffff/jev-kit; maintainer keiffff (Documented; accessible; at 0.3.1; 0.3.0; 0.2.0)",
+      "accessed_at": "2026-10-06T05:20:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s74",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/justmytwospence/opencode-tool-gate/bdf1ef8d132a16db73814e94b23f8396b3976cac/{src/jev.ts,src/index.ts,src/judge.ts,README.md,package.json}",
+      "title": "Run 9 source R9-S74: raw.githubusercontent.com/justmytwospence/opencode-tool-gate/bdf1ef8d1",
+      "claim": "why: `Jev unavailable (${outcome.reason}); opencode's own permission rules apply` (Documented; accessible; at bdf1ef8d132a16db73814e94b23f8396b3976cac)",
+      "accessed_at": "2026-10-06T05:20:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s75",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk/0.6.0 (tarball dist/index.mjs)",
+      "title": "Run 9 source R9-S75: registry.npmjs.org/@typesafe-ai/sdk/0.6.0 (tarball dist/index.mjs)",
+      "claim": "@throws {TypeSafeError} The API key is missing, configuration is invalid, or the runtime is unsupported. (Documented; accessible; at 0.6.0)",
+      "accessed_at": "2026-10-06T05:24:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s76",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NiazMorshed2007/jev-review/57690af54ef7d862c2483342c1e61c14dffcf727/src/...",
+      "title": "Run 9 source R9-S76: raw.githubusercontent.com/NiazMorshed2007/jev-review/57690af54ef7d862c",
+      "claim": "Jev supplies metric scores, confidence, and score movement (Documented (helper read); accessible; at 57690af54ef7d862c2483342c1e61c14dffcf727)",
+      "accessed_at": "2026-10-06T05:15:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s77",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/burnigtm/jev-mcp/9448f6120015f2f6c6dad7137c7f234545209918/src/...",
+      "title": "Run 9 source R9-S77: raw.githubusercontent.com/burnigtm/jev-mcp/9448f6120015f2f6c6dad7137c7",
+      "claim": "gate returns action auto|review|escalate; CLI non-zero exit only on errors (Documented (helper read); accessible; at 9448f6120015f2f6c6dad7137c7f234545209918)",
+      "accessed_at": "2026-10-06T05:15:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s78",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/minhgv/jev-mcp/1a1f0a5b599e3c9f00a126bb247536a624aa265e/src/...",
+      "title": "Run 9 source R9-S78: raw.githubusercontent.com/minhgv/jev-mcp/1a1f0a5b599e3c9f00a126bb24753",
+      "claim": "ci-shadow prints would_block but always exits 0 (Documented (helper read); accessible; at 1a1f0a5b599e3c9f00a126bb247536a624aa265e)",
+      "accessed_at": "2026-10-06T05:15:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s79",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/pedroknigge/mcp_jev/32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d/src/...",
+      "title": "Run 9 source R9-S79: raw.githubusercontent.com/pedroknigge/mcp_jev/32377f8e4d5a63a76d4efbe9",
+      "claim": "The MCP returns signals only — harness allowlist and sandbox still required (Documented (helper read); accessible; at 32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d)",
+      "accessed_at": "2026-10-06T05:15:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s80",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@osuki-dev/opencode-osuki-agent ; tarball 0.2.7",
+      "title": "Run 9 source R9-S80: registry.npmjs.org/@osuki-dev/opencode-osuki-agent ; tarball 0.2.7",
+      "claim": "event.input = { ...input, agent: route.agent }; (Documented (helper read); accessible; at 0.2.7 (tag v0.2.7 c96ce03c1c7dfc5c6fdf9d966691549101c68080))",
+      "accessed_at": "2026-10-06T05:16:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s81",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/bloudhood/codex-jev-approval-hook/b6242c9802724550b54eb346d1df40adf997253d/hook.ps1",
+      "title": "Run 9 source R9-S81: raw.githubusercontent.com/bloudhood/codex-jev-approval-hook/b6242c9802",
+      "claim": "No decision delegates to Codex's native user approval; a nonzero exit would surface as a hook failure. (Documented (spot-checked); accessible; at b6242c9802724550b54eb346d1df40adf997253d)",
+      "accessed_at": "2026-10-06T05:22:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s82",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/24601/rh-guard/c2e682ef0e838cc0538a7c2062e8a96d262dbd14/src/lib/risk/{score,jev,hooks,hosts}.ts",
+      "title": "Run 9 source R9-S82: raw.githubusercontent.com/24601/rh-guard/c2e682ef0e838cc0538a7c2062e8a",
+      "claim": "if (!process.env.TYPESAFE_API_KEY) { return lexicalNeural(haystack); (Documented (spot-checked); accessible; at c2e682ef0e838cc0538a7c2062e8a96d262dbd14)",
+      "accessed_at": "2026-10-06T05:22:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s83",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/wellkilo/codex-jev-preflight/633ddefe6596aa5d7c6b00767c08d07edea61096/jev_user_prompt_hook.py",
+      "title": "Run 9 source R9-S83: raw.githubusercontent.com/wellkilo/codex-jev-preflight/633ddefe6596aa5",
+      "claim": "any error emits an unavailable context and returns 0 (Documented (helper read, partial); accessible; at 633ddefe6596aa5d7c6b00767c08d07edea61096)",
+      "accessed_at": "2026-10-06T05:18:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s84",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=<jev codex hook | typesafe cursor hooks | jev codex router>",
+      "title": "Run 9 source R9-S84: api.github.com/search/repositories?q=<jev codex hook | typesafe cursor",
+      "claim": "totals 26, 1, 96; jev codex router: 0xNatoshi/jev-codex-router 'Per-turn model & reasoning routing for Codex, driven by Jev' (Documented (index results); accessible)",
+      "accessed_at": "2026-10-06T05:17:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s85",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/{justmytwospence/opencode-tool-gate,keiffff/jev-kit}/commits/<sha>",
+      "title": "Run 9 source R9-S85: api.github.com/repos/{justmytwospence/opencode-tool-gate,keiffff/jev-k",
+      "claim": "commit dates (Documented; accessible; at bdf1ef8 ; 3d74b05)",
+      "accessed_at": "2026-10-06T05:21:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s86",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/keiffff/jev-kit/3d74b05f85c1344ce4ae4b3f07b2eaaa6f957b07/LICENSE",
+      "title": "Run 9 source R9-S86: raw.githubusercontent.com/keiffff/jev-kit/3d74b05f85c1344ce4ae4b3f07b2",
+      "claim": "MIT License (Documented; accessible; at 3d74b05)",
+      "accessed_at": "2026-10-06T05:21:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s100",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/{8d28e8d77622861a20da872268f9375e6d87afd4,79645770fedc7ec2627e6468d31062f20f82aecc}/litellm/router_strategy/complexity_router/{jev_classifier,complexity_router}.py",
+      "title": "Run 9 source R9-S100: raw.githubusercontent.com/BerriAI/litellm/{8d28e8d77622861a20da872268f",
+      "claim": "except Exception as e:  # noqa: BLE001 -- external Jev call can fail in many distinct ways (Documented (spot-checked); accessible; at 8d28e8d77622861a20da872268f9375e6d87afd4 ; v1.104.0 = 79645770fedc7ec2627e6468d31062f20f82aecc)",
+      "accessed_at": "2026-10-06T05:29:23Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s101",
+      "source_type": "documented source",
+      "source_url": "https://github.com/BerriAI/litellm refs/tags/v1.104.0",
+      "title": "Run 9 source R9-S101: github.com/BerriAI/litellm refs/tags/v1.104.0",
+      "claim": "lightweight tag (Documented; accessible; at 79645770fedc7ec2627e6468d31062f20f82aecc)",
+      "accessed_at": "2026-10-06T05:19:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s102",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/BerriAI/litellm/contents/litellm/proxy/guardrails/guardrail_hooks/typesafe?ref=<8d28e8d|v1.104.0>",
+      "title": "Run 9 source R9-S102: api.github.com/repos/BerriAI/litellm/contents/litellm/proxy/guardrails",
+      "claim": "__init__.py 2477 / 2679 bytes; typesafe.py 17570 / 18224 bytes (Documented; accessible; at 8d28e8d ; 79645770)",
+      "accessed_at": "2026-10-06T05:19:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s105",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode ; https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases?per_page=2",
+      "title": "Run 9 source R9-S105: github.com/Yeachan-Heo/oh-my-claudecode ; https://api.github.com/repos",
+      "claim": "latest release v5.6.1; tag v5.6.2 present (Documented; accessible; at tag v5.6.2 (no release))",
+      "accessed_at": "2026-10-06T05:20:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s106",
+      "source_type": "documented source",
+      "source_url": "https://github.com/{spring-ai-community/spring-ai-typesafe,WiktorB2004/llama-index-jev,danna-zhou/jev-mcp,brunopivetta88/jev-claude,typesafe-ai/skills}",
+      "title": "Run 9 source R9-S106: github.com/{spring-ai-community/spring-ai-typesafe,WiktorB2004/llama-i",
+      "claim": "Spring tag v0.4.0 unchanged; LlamaIndex HEAD unchanged (Documented; accessible; at v0.4.0 = 51993bb; HEAD 2c30a58; 421afda; 436469a; 7d7e876; 65a39f3)",
+      "accessed_at": "2026-10-06T05:20:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s110",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/~typesafe/jev-latest/endpoints",
+      "title": "Run 9 source R9-S110: openrouter.ai/api/v1/models/~typesafe/jev-latest/endpoints",
+      "claim": "This model always redirects to the latest model in the Jev family. (Documented; accessible; at ~typesafe/jev-latest)",
+      "accessed_at": "2026-10-06T05:22:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s111",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/typesafe/jev-1.13 ; https://openrouter.ai/~typesafe/jev-latest",
+      "title": "Run 9 source R9-S111: openrouter.ai/typesafe/jev-1.13 ; https://openrouter.ai/~typesafe/jev-",
+      "claim": "TypeSafe: Jev Latest Latest Jev 1.13 ~typesafe / jev-latest (Documented; accessible; at typesafe/jev-1.13)",
+      "accessed_at": "2026-10-06T05:22:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s112",
+      "source_type": "documented source",
+      "source_url": "https://vercel.com/docs/ai-gateway/provider-options",
+      "title": "Run 9 source R9-S112: vercel.com/docs/ai-gateway/provider-options",
+      "claim": "By default, Vercel AI Gateway dynamically chooses the default providers ... based on a combination of recent uptime and latency. (Documented; accessible)",
+      "accessed_at": "2026-10-06T05:24:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s113",
+      "source_type": "documented source",
+      "source_url": "https://vercel.com/ai-gateway/models/jev",
+      "title": "Run 9 source R9-S113: vercel.com/ai-gateway/models/jev",
+      "claim": "TypeSafe AI ... 32K $0.04 /M 09 / 15 / 2026 DigitalOcean (Documented; accessible; at typesafe-ai/jev)",
+      "accessed_at": "2026-10-06T05:24:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s114",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Run 9 source R9-S114: api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "claim": "\"aliases\":[\"typesafe/jev-latest\",\"typesafe/jev-preview\"] (Documented; accessible; at typesafe/jev-1.13.0)",
+      "accessed_at": "2026-10-06T05:22:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r9-s120",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/79645770fedc7ec2627e6468d31062f20f82aecc/litellm/proxy/guardrails/guardrail_hooks/typesafe/typesafe.py",
+      "title": "Run 9 source R9-S120: raw.githubusercontent.com/BerriAI/litellm/79645770fedc7ec2627e6468d310",
+      "claim": "fail_open logs and returns; fail_closed raises a generic 502 (upstream bodies stay in server logs) (Documented; accessible; at 79645770fedc7ec2627e6468d31062f20f82aecc)",
+      "accessed_at": "2026-10-06T05:32:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

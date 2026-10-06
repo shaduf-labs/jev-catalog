@@ -1,0 +1,406 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Coding agents beyond Claude Code, and Jev model IDs and aliases by route · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Coding agents beyond Claude Code, and Jev model IDs and aliases by route. Read 18 Jev integrations for Codex, OpenCode, Cursor, OpenClaw and Hermes Agent at pinned commits: 1 is vendor-published (OpenClaw) and none comes from TypeSafe; 6 act on Jev&#039;s answer, and 4 of those let the tool call run when Jev errors. Read model IDs and aliases on 6 routes: 4 accept a versioned ID; Vercel and Cloudflare take only an unversioned one; jev-latest points to jev-1.13.0. Failure checklist: 58 implementations in 10 use cases; 32 stop or hold the action on a Jev error and 7 let it through unchecked. Products: 92 rows, 75 grade A, none independently verified. Vercel lists TypeSafe as a second provider for Jev. Access unchanged. No agent, plugin or hook installed or run; no Jev call.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/reports/coding-agents-versions/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Coding agents beyond Claude Code, and Jev model IDs and aliases by route · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Coding agents beyond Claude Code, and Jev model IDs and aliases by route. Read 18 Jev integrations for Codex, OpenCode, Cursor, OpenClaw and Hermes Agent at pinned commits: 1 is vendor-published (OpenClaw) and none comes from TypeSafe; 6 act on Jev&#039;s answer, and 4 of those let the tool call run when Jev errors. Read model IDs and aliases on 6 routes: 4 accept a versioned ID; Vercel and Cloudflare take only an unversioned one; jev-latest points to jev-1.13.0. Failure checklist: 58 implementations in 10 use cases; 32 stop or hold the action on a Jev error and 7 let it through unchecked. Products: 92 rows, 75 grade A, none independently verified. Vercel lists TypeSafe as a second provider for Jev. Access unchanged. No agent, plugin or hook installed or run; no Jev call.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/reports/coding-agents-versions/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Coding agents beyond Claude Code, and Jev model IDs and aliases by route","description":"Coding agents beyond Claude Code, and Jev model IDs and aliases by route. Read 18 Jev integrations for Codex, OpenCode, Cursor, OpenClaw and Hermes Agent at pinned commits: 1 is vendor-published (OpenClaw) and none comes from TypeSafe; 6 act on Jev's answer, and 4 of those let the tool call run when Jev errors. Read model IDs and aliases on 6 routes: 4 accept a versioned ID; Vercel and Cloudflare take only an unversioned one; jev-latest points to jev-1.13.0. Failure checklist: 58 implementations in 10 use cases; 32 stop or hold the action on a Jev error and 7 let it through unchecked. Products: 92 rows, 75 grade A, none independently verified. Vercel lists TypeSafe as a second provider for Jev. Access unchanged. No agent, plugin or hook installed or run; no Jev call.","dateModified":"2026-10-06T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/reports/coding-agents-versions/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="report-run:6c40bcd4-3b75-4bfc-bc54-b254713e0f95">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a><a href="../../use-cases/support-ticket-triage/index.html" ><span aria-hidden="true">▤</span><b>Support-ticket triage with Jev</b></a><a href="../../use-cases/model-routing/index.html" ><span aria-hidden="true">⇉</span><b>Jev Router or your own router?</b></a><a href="../../use-cases/content-moderation/index.html" ><span aria-hidden="true">⚑</span><b>Content moderation with Jev</b></a><a href="../../use-cases/email-and-lead-sorting/index.html" ><span aria-hidden="true">✉</span><b>Jev email classifier</b></a><a href="../../use-cases/trading-and-fraud-gates/index.html" ><span aria-hidden="true">⇅</span><b>Jev trading bot and fraud gates</b></a><a href="../../use-cases/llm-as-judge/index.html" ><span aria-hidden="true">⚖</span><b>Jev as a judge</b></a><a href="../../use-cases/browser-and-computer-use/index.html" ><span aria-hidden="true">⌖</span><b>Jev browser and computer use</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../../build/index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../../build/python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../../build/typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../../build/frameworks/index.html" ><span aria-hidden="true">⧉</span><b>Jev LangChain and frameworks</b></a><a href="../../build/n8n/index.html" ><span aria-hidden="true">⇶</span><b>Jev n8n node</b></a><a href="../../build/claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../../build/coding-agents/index.html" ><span aria-hidden="true">⌨</span><b>Jev with coding agents</b></a><a href="../../build/errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../../build/confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../../build/testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a><a href="../../build/when-jev-fails/index.html" ><span aria-hidden="true">⚠</span><b>When Jev fails</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Open-source Jev alternatives</b></a><a href="../../alternatives/jev-vs-llm-vs-classifier/index.html" ><span aria-hidden="true">⋈</span><b>Jev vs LLM vs classifier</b></a><a href="../../alternatives/laya-vs-kev/index.html" ><span aria-hidden="true">⚖</span><b>Jev vs Laya vs Kev</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/data-privacy/index.html" ><span aria-hidden="true">eye</span><b>Jev data retention and privacy</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/versions-and-aliases/index.html" ><span aria-hidden="true">#</span><b>Jev model IDs and aliases</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Jev examples: products and projects</b></a><a href="../../benchmarks/index.html" ><span aria-hidden="true">▦</span><b>Jev benchmarks, graded</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv jev-page">
+  <div class="jv-kicker"><span>Research report</span><span>Run <code>run:6c40bcd4-3b75-4bfc-bc54-b254713e0f95</code> · checks <time datetime="2026-10-06">6 October 2026</time>, 05:13–05:36 UTC</span></div>
+  <h1>Run 9 research report: coding agents beyond Claude Code, and Jev versions and aliases (6 Oct 2026)</h1>
+  <p class="jv-lede">This dated report records the evidence behind release <code>regular-2026-10-06-coding-agents-versions</code> of 6 October 2026. It covers 18 Jev integrations for coding agents (Codex, OpenCode, Cursor, OpenClaw and Hermes Agent), the Jev model IDs and aliases on 6 routes, a new provider for Jev on Vercel, and the failure checklist, which grows from 51 to 58 rows. The page titles it feeds use phrases that search suggestions offered on 6 Oct 2026, 05:19 UTC (a demand signal, not a volume). The pool ran nothing: no agent, hook, plugin or MCP server was installed or run, and no account, key or Jev call was used.</p>
+
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 18 Jev coding-agent integrations read in source, 1 is vendor-published (OpenClaw) and none comes from TypeSafe; 6 act on Jev's answer, and 4 of those let the tool call run when Jev errors.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>source at pinned commits, checked <time datetime="2026-10-06">6 Oct 2026</time></span></p>
+    <p>Rows picked by the runner from the projects it found and read in source this run (the selection is described in the research notes); not a survey. The pool ran no agent and made no Jev call.</p>
+  </div>
+
+  <figure class="jv-figure" id="jv-r9-glance" aria-labelledby="jv-r9-glance-t">
+    <h3 id="jv-r9-glance-t">Run 9 at a glance (counts with their denominators)</h3>
+    <div class="jv-bargroup">
+      <p>Coding-agent integrations (n = 18)</p>
+      <ul class="jv-bars">
+        <li class="c-doc"><span class="l">Act on Jev's answer</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="33.3" height="18" rx="2"/></svg><span class="v">6/18</span></li>
+        <li class="c-doc"><span class="l">Published by the host vendor (OpenClaw)</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="5.6" height="18" rx="2"/></svg><span class="v">1/18</span></li>
+        <li class="c-doc"><span class="l">Published by TypeSafe</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="0" height="18" rx="2"/></svg><span class="v">0/18</span></li>
+      </ul>
+    </div>
+    <div class="jv-bargroup">
+      <p>Integrations that act on Jev's answer (n = 6)</p>
+      <ul class="jv-bars">
+        <li class="c-doc"><span class="l">Tool call still runs when Jev errors</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="66.7" height="18" rx="2"/></svg><span class="v">4/6</span></li>
+        <li class="c-doc"><span class="l">Tool call held for the user when Jev errors</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="33.3" height="18" rx="2"/></svg><span class="v">2/6</span></li>
+      </ul>
+    </div>
+    <div class="jv-bargroup">
+      <p>Versions and aliases (n = 6 routes)</p>
+      <ul class="jv-bars">
+        <li class="c-doc"><span class="l">You can write a versioned Jev ID</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="66.7" height="18" rx="2"/></svg><span class="v">4/6</span></li>
+      </ul>
+    </div>
+    <div class="jv-bargroup">
+      <p>When Jev fails: 51 → 58 rows, 9 → 10 domains (n = 58)</p>
+      <ul class="jv-bars">
+        <li class="c-doc"><span class="l">Stop or hold the action on a Jev error</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="55.2" height="18" rx="2"/></svg><span class="v">32/58</span></li>
+        <li class="c-doc"><span class="l">Let it through unchecked (fail-open)</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="12.1" height="18" rx="2"/></svg><span class="v">7/58</span></li>
+        <li class="c-doc"><span class="l">Action goes ahead on a Jev error (fail-open plus fallbacks that act)</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="20.7" height="18" rx="2"/></svg><span class="v">12/58</span></li>
+      </ul>
+    </div>
+    <div class="jv-bargroup">
+      <p>Products: 72 → 92 rows (n = 92)</p>
+      <ul class="jv-bars">
+        <li class="c-doc"><span class="l">A: Jev call path read in source</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="81.5" height="18" rx="2"/></svg><span class="v">75/92</span></li>
+        <li class="c-doc"><span class="l">B</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="17.4" height="18" rx="2"/></svg><span class="v">16/92</span></li>
+        <li class="c-doc"><span class="l">C</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="1.1" height="18" rx="2"/></svg><span class="v">1/92</span></li>
+        <li class="c-doc"><span class="l">Independently verified in production</span><svg viewBox="0 0 100 18" preserveAspectRatio="none" aria-hidden="true"><rect width="0" height="18" rx="2"/></svg><span class="v">0/92</span></li>
+      </ul>
+    </div>
+    <p class="fig-note">All counts are <span class="ev ev-documented">Documented</span> from source read at pinned commits, from route pages, or from the published pages, 6 Oct 2026. Nothing was run. Bar length is the share of the group's n.</p>
+  </figure>
+
+  <p><strong>Run:</strong> <code>run:6c40bcd4-3b75-4bfc-bc54-b254713e0f95</code> (scheduled regular research run 9, on the v0.2 harness) · <strong>Pool:</strong> <code>pool_jev_catalog</code> · <strong>Runner:</strong> one runner plus two helper agents (A: the Hermes Agent catalog and OpenClaw; B: Codex, OpenCode and Cursor, then the LiteLLM diff). GitHub search calls: 5 of 10 · <strong>Checks:</strong> 6 Oct 2026; runner started 05:13:45 UTC; home status written 05:18:34 UTC (minute 5); research notes finished about 05:36 UTC (minute 23).</p>
+  <p>The run's research notes and its source ledger (80 records, IDs R9-S01 to R9-S120) are held in the pool's private record. Key sources are linked below and on the pages each finding feeds.</p>
+  <p><strong>Rules kept:</strong> nothing was installed or run. No agent, hook, plugin or MCP server was installed or run, and no account, key or inference request was used, so no Jev call was made. Failure cells come only from source at pinned commits. <strong>Nothing in this run is Tested.</strong> Every finding below is Documented, Reported (a named third party's own claim) or Unverified (a lead only).</p>
+  <p><strong>Previous report:</strong> <a href="../browser-frameworks/index.html">browser and computer use, framework integrations, Jev on Bedrock or Azure (5 Oct)</a>. All dated reports: <a href="../../research/index.html">Research</a>.</p>
+
+  <h2 id="summary">1. Summary answer, as of 6 October 2026</h2>
+  <ol>
+    <li><strong>Access is unchanged</strong> (checked 6 Oct 2026, 05:15 UTC). Signups are open with no new-user credit since 27 Sep, 22:33:25 UTC. The API has been operational since 29 Sep, 22:05 UTC (90-day uptime 99.826%). Limits are 100K tokens per second and 80 requests per second; the price is $0.042 per million input tokens. <code>jev-latest</code> and <code>jev-preview</code> both point to <code>jev-1.13.0</code>. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>One route change:</strong> Vercel AI Gateway now lists TypeSafe itself (zero data retention) as a second provider for <code>typesafe-ai/jev</code>, beside DigitalOcean (no zero data retention). Vercel picks between them by uptime and latency unless the caller sets the order. <span class="ev ev-documented">Documented</span></li>
+    <li><strong><code>build/coding-agents</code> ships.</strong> 18 integrations were read at pinned commits. 6/18 act on Jev's answer, covering Codex, Cursor, OpenCode and Hermes Agent. When Jev errors or there is no key, 4/6 let the tool call run and 2/6 hold it for the user. 1/18 is vendor-published: OpenClaw's own <code>@openclaw/typesafe</code>, which only returns Jev's answer to the agent. 0/18 come from TypeSafe. <span class="ev ev-documented">Documented</span></li>
+    <li><strong><code>where-to-use/versions-and-aliases</code> ships.</strong> 6/6 routes were read with dates. 4/6 accept a versioned ID: TypeSafe, Netlify and Opper take <code>jev-1.13.0</code>; OpenRouter takes <code>typesafe/jev-1.13</code>. Vercel and Cloudflare accept only an unversioned ID. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Guard rows:</strong> both are still at their run-7 pins. jev-permission-gate counts on <code>when-jev-fails</code>. jev-llm-guard does not count: its command-line tool exits 0 whatever the verdict. <span class="ev ev-documented">Documented</span></li>
+    <li><strong><code>when-jev-fails</code>: n = 58 in 10 domains</strong> (adds a new "Coding agents" domain). 32/58 stop or hold the action on a Jev error; 7/58 let it through unchecked. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Products: 92 rows</strong> (A 75, B 16, C 1); 0/92 independently verified in production.</li>
+    <li><strong>Drift:</strong> the LiteLLM 1.104.0 failure path is unchanged. No new release of the six framework pins. <code>ai</code> 7.0.128 and <code>@ai-sdk/typesafe-ai</code> 3.0.13 are patches (drift note only).</li>
+  </ol>
+
+  <h2 id="publication">2. Publication</h2>
+  <p>This release shipped both planned pages and the follow-on edits:</p>
+  <ul>
+    <li><a href="../../build/coding-agents/index.html">How to use Jev with Codex, OpenCode, Cursor and Hermes Agent</a> (new page).</li>
+    <li><a href="../../where-to-use/versions-and-aliases/index.html">Jev 1.13 and jev-latest: model IDs and aliases by route</a> (new page).</li>
+    <li>Refreshed: <a href="../../build/claude-code-mcp/index.html">Claude Code and MCP guardrails</a> (the two guard rows); <a href="../../build/when-jev-fails/index.html">When Jev fails</a> (51 → 58 rows, new "Coding agents" domain); <a href="../../products/index.html">Products</a> (92 rows).</li>
+    <li>Refreshed: <a href="../../where-to-use/index.html#vercel-providers">where to use, Vercel two-provider note</a>; <a href="../../where-to-use/data-privacy/index.html">data privacy</a>; <a href="../../use-cases/model-routing/index.html">model routing</a> (LiteLLM 1.104.0 check); <a href="../../build/frameworks/index.html">frameworks</a> (recheck line); <a href="../../build/typescript/index.html">TypeScript</a> (drift note).</li>
+    <li>Status refresh on <a href="../../index.html">Home</a> and <a href="../../where-to-use/access-status/index.html">access status</a>.</li>
+    <li>Release 3: 9 of 9 (closed). Release 4: 1 of 4.</li>
+    <li>Failure colours aligned across pages (see <a href="../../research/index.html">Research</a> for the list).</li>
+  </ul>
+
+  <h2 id="corrections">3. Corrections to plan facts and pool pages</h2>
+  <ol>
+    <li><strong>Run 8 spare-time table:</strong> <code>jev-curator</code> is in its own repository (anpicasso/hermes-jev-curator, <code>4e8626c</code>), not in anpicasso/hermes-jev-approvals. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Hermes catalog pins:</strong> three catalog entries install a commit other than the run-8 HEAD pin: <code>jev</code> (<code>28a4ea3</code>), <code>typesafe-skill-router</code> (<code>e6cdac2</code>) and <code>jev-approvals</code> (<code>28be98a</code>). The catalog says "Every entry installs exactly the commit above". The page cites the catalog-installed commits. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Vercel row on <code>where-to-use</code>:</strong> "DigitalOcean only (5 Oct)" is no longer current (see <a href="#access">section 4</a>).</li>
+  </ol>
+  <div class="jv-box info">
+    <p><strong>Editorial correction to the runner's draft.</strong> The runner's draft key finding said "12 only advise the agent". That is not accurate for all 12 rows that are not counted. Of the 12: 8 return Jev's answer to the agent, 2 give advisory hints, and 2 are not settled (one sends its verdict to Hermes core, which was not read; one was only partly read). The published key finding was rewritten to say what the 6 counted rows do.</p>
+  </div>
+
+  <h2 id="access">4. Access status and home notices</h2>
+  <ul>
+    <li>Checked 6 Oct 2026, 05:15:34 UTC. Signups <code>open_with_conditions</code>; service <code>operational</code>. The headline is unchanged: "Available to new users: signups open, but new accounts get no free credit. API operational." Changed since the last run: no. <span class="ev ev-documented">Documented</span></li>
+    <li>New field in the home status record: the alias read. <code>jev-latest</code> and <code>jev-preview</code> both point to <code>jev-1.13.0</code>; TypeSafe's models page is undated (read 05:15:34 UTC).</li>
+    <li><strong>Notices shown, unchanged:</strong> <code>new-user-credit-disabled</code> (rank 1); <code>lookalike-resellers</code> (rank 2; all three sites return HTTP 200, and the Eye Security report is online); <code>rate-limits-changed-2026-10-03</code> (rank 3); <code>subprocessors-added-2026-10-02</code> (rank 4).</li>
+    <li><strong>New notice, hidden at rank 5 by manager decision:</strong> <code>vercel-typesafe-provider-added-2026-10-06</code> (route change, <span class="ev ev-documented">Documented</span>). It is not shown on Home. It retires on 13 Oct 2026, 05:15 UTC, or earlier if superseded.</li>
+    <li><code>typesafe-workflow-evals-code</code> stays hidden, now at rank 6. It retires at the 7 Oct run. Retired: none. Timeline additions: none.</li>
+    <li><strong>Vercel note for <code>where-to-use</code> and <code>data-privacy</code>:</strong> "Vercel lists two providers for Jev (checked 6 Oct 2026, 05:15 UTC): TypeSafe AI (zero data retention) and DigitalOcean (no zero data retention). Vercel picks a provider by uptime and latency unless you set the provider order." Vercel's docs say that by default it "dynamically chooses the default providers … based on a combination of recent uptime and latency". So zero data retention on one provider does not say where a given request goes.</li>
+    <li>The <code>typesafe-ai</code> GitHub organisation has 12 repositories. The new one, <code>typesafe-public-examples</code>, holds only a README, so it is not a release.</li>
+    <li>TypeSafe's docs file <code>legal.md</code> is 6 bytes larger; the legal "Last updated" dates are unchanged. Not compared line by line; recheck next run.</li>
+  </ul>
+
+  <h2 id="scan">5. Scan (S1) highlights</h2>
+  <ul>
+    <li>Window: 5 Oct 2026, 05:14 UTC to 6 Oct 2026, 05:14 UTC. Gap 0, overlap 0.</li>
+    <li>Window counts: Hacker News "jev" 11 stories and 33 comments; 192 new GitHub "jev" repositories (9 with the topic); npm 14 "jev" and 7 "typesafe" packages published; 22 Hugging Face models modified; 1 DEV.to article. These are search-index counts, not verified integrations or adoption.</li>
+    <li>Not readable: Reddit (HTTP 403) and X (login wall). Both are unknown, not zero.</li>
+    <li>"jev vision" stays unexplained. It is suggested on all three endpoints. There is no Hacker News hit, no npm package and no TypeSafe vision model (TypeSafe docs say "Text only"). Bing and DuckDuckGo also suggest "jev vlm" and "jev vla".</li>
+    <li>Coding-agent leads found and read this run: opencode-tool-gate (created 6 Oct, 03:14 UTC) and jev-kit (npm releases 5 Oct, 19:02 UTC).</li>
+    <li>Leads not read (<span class="ev ev-unverified">Unverified</span>): abaljeu/jev-mcp ("for thejevai.com"; not a TypeSafe domain, so a possible lookalike watch item); Dotpals (Hacker News); jev-browser-wingman (Hacker News; browser page); n8n-nodes-system-one (n8n); kfchow-llm-value-router (routing); "Pseudo-Relevances with Jev" (reranking).</li>
+    <li>No candidate home notice besides the Vercel change.</li>
+  </ul>
+
+  <h2 id="pages">6. Findings per page and ship verdicts</h2>
+
+  <h3 id="p1">6.1 <code>build/coding-agents</code> (new; closes release 3): ships</h3>
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 18 Jev coding-agent integrations read in source, 1 is vendor-published (OpenClaw) and none comes from TypeSafe; 6 act on Jev's answer, and 4 of those let the tool call run when Jev errors.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>source at pinned commits, checked <time datetime="2026-10-06">6 Oct 2026</time></span></p>
+  </div>
+  <ul>
+    <li>Page: <a href="../../build/coding-agents/index.html">How to use Jev with Codex, OpenCode, Cursor and Hermes Agent (TypeSafe AI)</a>. Not claimed: that coding-agent plugins are unsafe, or anything about hosts or plugins that have no row. Short form: "Of 6 Jev coding-agent integrations that act on Jev's answer, 4 let the tool call run when Jev errors and 2 hold it for you."</li>
+    <li>Editorial correction: the runner's draft said "12 only advise the agent". Of the 12 not counted, 8 return Jev's answer to the agent, 2 give advisory hints and 2 are not settled.</li>
+    <li>Title query source: search suggestions checked 6 Oct 2026, 05:19:23–05:19:30 UTC. Google (<code>client=firefox</code>) suggests "how to use jev with codex" and "how to use jev with opencode" exactly, plus "jev in cursor" and "jev openclaw". "jev hermes" and "jev codex" appear on Google, Bing and DuckDuckGo. Every host named in the title has a counted row.</li>
+    <li>Ship rule: 4 or more implementations at pinned commits, covering at least 3 of 5 hosts, with the required columns from source. Met: 18 implementations; the 6 counted rows cover 4 hosts.</li>
+    <li>Spot-checks: 4 rows checked against the raw files (the failure cell and the "still runs" cell): bloudhood and rh-guard (helper B), jev-judge and OpenClaw (helper A). All matched.</li>
+  </ul>
+  <div class="table-wrap stack stack-md">
+    <table>
+      <caption>Counted rows: integrations that act on Jev's answer (n = 6)</caption>
+      <thead><tr><th>Row</th><th>Hosts</th><th>Mode</th><th>Jev error or timeout</th><th>No key</th><th>Low confidence</th><th>Tool call still runs?</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Row">keiffff/jev-kit <code>jev-agent-review</code> (<code>3d74b05</code>)</td><td data-l="Hosts">Codex, Claude Code</td><td data-l="Mode">approve-only <code>PermissionRequest</code> hook</td><td data-l="Jev error">fail-closed (held for the host prompt; SDK 10 s, no retry)</td><td data-l="No key">fail-closed (held)</td><td data-l="Low confidence">held (0.7 / 0.7 / 0.15)</td><td data-l="Still runs?"><strong>No</strong></td></tr>
+        <tr><td data-l="Row">bloudhood/codex-jev-approval-hook (<code>b6242c9</code>)</td><td data-l="Hosts">Codex</td><td data-l="Mode"><code>PermissionRequest</code> hook</td><td data-l="Jev error">fail-closed (held for Codex approval; 5 s)</td><td data-l="No key">fail-closed (held)</td><td data-l="Low confidence">held (allow at 0.98 or more, deny at 0.80 or more)</td><td data-l="Still runs?"><strong>No</strong></td></tr>
+        <tr><td data-l="Row">24601/rh-guard (<code>c2e682e</code>)</td><td data-l="Hosts">Codex, Cursor</td><td data-l="Mode">pre-tool hook</td><td data-l="Jev error">fallback-lexical detectors (1.2 s)</td><td data-l="No key">fallback-lexical detectors</td><td data-l="Low confidence">acts-anyway (steer)</td><td data-l="Still runs?"><strong>Conditional</strong></td></tr>
+        <tr><td data-l="Row">justmytwospence/opencode-tool-gate (<code>bdf1ef8</code>)</td><td data-l="Hosts">OpenCode</td><td data-l="Mode"><code>tool.execute.before</code>, enforcing</td><td data-l="Jev error">fallback-OpenCode permission rules (3 s)</td><td data-l="No key">same</td><td data-l="Low confidence">acts-anyway</td><td data-l="Still runs?"><strong>Yes</strong> (unless OpenCode's own rules hold it)</td></tr>
+        <tr><td data-l="Row"><code>@osuki-dev/opencode-osuki-agent</code> 0.2.7 (tag <code>c96ce03</code>)</td><td data-l="Hosts">OpenCode</td><td data-l="Mode">router (subagent and tool pruning)</td><td data-l="Jev error">fallback-default tier (10 s)</td><td data-l="No key">same</td><td data-l="Low confidence">fallback-default tier</td><td data-l="Still runs?"><strong>Yes</strong></td></tr>
+        <tr><td data-l="Row">DoGMaTiiC/hermes-jev <code>jev-judge</code> (<code>5dddbea</code>)</td><td data-l="Hosts">Hermes Agent</td><td data-l="Mode"><code>pre_tool_call</code>; shadow mode by default</td><td data-l="Jev error">fail-open (3 s)</td><td data-l="No key">fail-open</td><td data-l="Low confidence">acts-anyway</td><td data-l="Still runs?"><strong>Yes</strong> (in enforce mode)</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><strong>Not counted (12 of 18):</strong></p>
+  <ul>
+    <li><strong>Return Jev's answer to the agent (8):</strong> <code>@openclaw/typesafe</code> (vendor-published), jev-typesafe, jev-skill-router-mcp, ourines <code>jev</code> v0.1.2, NiazMorshed2007/jev-review, burnigtm/jev-mcp, minhgv/jev-mcp and pedroknigge/mcp_jev.</li>
+    <li><strong>Advisory hints (2):</strong> typesafe-skill-router and wellkilo/codex-jev-preflight.</li>
+    <li><strong>Not settled (2):</strong> jev-approvals sends its verdict to Hermes core, which was not read; jev-curator was only partly read, so counting is deferred.</li>
+  </ul>
+
+  <h3 id="p-guards">6.2 Guard rows and <code>build/claude-code-mcp</code></h3>
+  <ul>
+    <li><strong>gulbaki/jev-llm-guard:</strong> HEAD <code>7c7b1b5</code> on 6 Oct; failure files unchanged. <strong>Not counted.</strong> Its <code>jev-guard</code> command-line tool returns 0 for allow, review and block (<code>src/cli.js</code> L31–40) and exits 1 only on errors (L41). The demo server only displays the result. Written as "returns verdict; not a decision". <span class="ev ev-documented">Documented</span></li>
+    <li><strong>madisonrickert/jev-permission-gate:</strong> HEAD <code>7349bc9</code> on 6 Oct; failure files unchanged. <strong>Counted</strong> in "Claude Code / MCP guards" with fallback-built-in classifier on error, malformed answer, below threshold and no key; bypass recorded. <span class="ev ev-documented">Documented</span></li>
+    <li>Both rows go on <a href="../../build/claude-code-mcp/index.html">Claude Code and MCP guardrails</a>, using the run-7 cells. If the page counts the guardrails it read, the count sentence ("We read five Jev guardrails …") becomes seven.</li>
+    <li>A one-line pointer on that page leads to <a href="../../build/coding-agents/index.html">coding agents</a> for jev-kit, jev-review and mcp_jev, which also target Claude Code.</li>
+  </ul>
+
+  <h3 id="p-wf">6.3 <code>build/when-jev-fails</code>: recount (n = 58, 10 domains, each with 3 or more rows)</h3>
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 58 Jev implementations read in source, 32 stop or hold the action when Jev errors and 7 let it through unchecked: 4 content-moderation bots, 2 agent hooks and one Spring AI passage filter.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>recomputed from the published 51-row map plus 7 new rows, checked <time datetime="2026-10-06">6 Oct 2026</time></span></p>
+  </div>
+  <ul>
+    <li>The base is the published 51-row map, read at 05:25:44 UTC. This run adds 1 guard row and 6 coding-agent rows. No existing row changes. Totals were recomputed by a script that checks every row and that each total sums to n = 58. Below-threshold totals are kept apart from error totals.</li>
+    <li>New page meta: "58 Jev implementations in 10 use cases, read in source: what each does on a Jev error, a bad answer, an unsure answer, a missing key or a bypass."</li>
+  </ul>
+  <div class="table-wrap stack stack-md">
+    <table>
+      <caption>Totals across 58 implementations in 10 domains (n = 58 per row)</caption>
+      <thead><tr><th>Condition</th><th>fail-closed</th><th>fail-open</th><th>advisory</th><th>fallback</th><th>no-decision</th><th>not recorded</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Condition">Jev error or timeout</td><td data-l="fail-closed">32/58</td><td data-l="fail-open">7/58</td><td data-l="advisory">3/58</td><td data-l="fallback">13/58</td><td data-l="no-decision">3/58</td><td data-l="not recorded">0/58</td></tr>
+        <tr><td data-l="Condition">Malformed answer</td><td data-l="fail-closed">26/58</td><td data-l="fail-open">10/58</td><td data-l="advisory">3/58</td><td data-l="fallback">15/58</td><td data-l="no-decision">3/58</td><td data-l="not recorded">1/58</td></tr>
+        <tr><td data-l="Condition">No key</td><td data-l="fail-closed">25/58</td><td data-l="fail-open">4/58</td><td data-l="advisory">3/58</td><td data-l="fallback">9/58</td><td data-l="no-decision">0/58</td><td data-l="not recorded">17/58</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="table-wrap stack">
+    <table>
+      <caption>Below threshold, bypass and actions on a Jev error (n = 58; kept apart from the error totals)</caption>
+      <thead><tr><th>Condition</th><th>Counts</th><th>Not recorded</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Condition">Below threshold (separate)</td><td data-l="Counts">held 12, acts-anyway 12, fallback 7, no-decision 4, advisory 4, no-threshold 14</td><td data-l="Not recorded">5/58</td></tr>
+        <tr><td data-l="Condition">Bypass</td><td data-l="Counts">recorded 29</td><td data-l="Not recorded">29/58</td></tr>
+        <tr><td data-l="Condition">Action goes ahead on a Jev error</td><td data-l="Counts">12/58 (was 8/51); adds jev-judge, jev-permission-gate, rh-guard and opencode-tool-gate. osuki is excluded under the routing-fallback convention.</td><td data-l="Not recorded">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 id="p-products">6.4 <code>products</code>: row changes</h3>
+  <ul>
+    <li>20 new A rows: the 2 guard rows and 18 coding-agent projects.</li>
+    <li>The existing B rows "jev-review" (devagrawal09) and "openclaw-typesafe-ai" (Olli0103) are different projects from the new rows, so both stay.</li>
+    <li><strong>New total: 92 rows (A 75/92, B 16/92, C 1/92)</strong>, was 72 rows (A 55/72, B 16/72, C 1/72). Independently verified in production: 0/92.</li>
+  </ul>
+
+  <h3 id="p2">6.5 <code>where-to-use/versions-and-aliases</code> (new; first release-4 page): ships</h3>
+  <div class="jv-answer key">
+    <strong>Key finding</strong>
+    <p class="kf">On 4 of 6 routes read on 6 Oct 2026 you can write a versioned Jev ID; Vercel and Cloudflare take only an unversioned one. jev-latest points to jev-1.13.0 on TypeSafe's models page.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>route pages read 05:15–05:24 UTC, checked <time datetime="2026-10-06">6 Oct 2026</time></span></p>
+  </div>
+  <ul>
+    <li>Page: <a href="../../where-to-use/versions-and-aliases/index.html">Jev 1.13 and jev-latest (TypeSafe AI): model IDs and aliases by route</a>. Not claimed: that <code>jev-latest</code> is safe, or anything about the next version.</li>
+    <li>Title query source: "jev 1.13" and "jev-latest" appear on all three endpoints (checked 05:19:23–05:19:30 UTC); Google now suggests "jev-latest" too. "jev 1.14", "jev versions" and "jev model version" got no supporting suggestion.</li>
+    <li>Ship rule: at least 4 routes with IDs, aliases and dates read this run, plus TypeSafe's own alias statement. Met: 6/6 routes read 05:15–05:24 UTC. 4/6 show a date of their own; TypeSafe's page and Cloudflare are marked "undated; read at …".</li>
+  </ul>
+  <div class="table-wrap stack">
+    <table>
+      <caption>Jev model IDs and aliases on 6 routes (read 6 Oct 2026, 05:15–05:24 UTC)</caption>
+      <thead><tr><th>Route</th><th>IDs</th><th>Aliases (target)</th><th>Pin a version?</th><th>Date</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Route">TypeSafe direct</td><td data-l="IDs"><code>jev-1.13.0</code></td><td data-l="Aliases"><code>jev-latest</code> and <code>jev-preview</code> both → <code>jev-1.13.0</code></td><td data-l="Pin?">Yes</td><td data-l="Date">undated; read 05:15:34 UTC</td></tr>
+        <tr><td data-l="Route">OpenRouter</td><td data-l="IDs"><code>typesafe/jev-1.13</code></td><td data-l="Aliases"><code>~typesafe/jev-latest</code> ("always redirects to the latest model in the Jev family"; page shows "Latest Jev 1.13")</td><td data-l="Pin?">Yes, minor version only</td><td data-l="Date">Released Sep 18, 2026</td></tr>
+        <tr><td data-l="Route">Vercel</td><td data-l="IDs"><code>typesafe-ai/jev</code></td><td data-l="Aliases">none; version not stated</td><td data-l="Pin?">No</td><td data-l="Date">Release date 09/15/2026</td></tr>
+        <tr><td data-l="Route">Cloudflare</td><td data-l="IDs"><code>typesafe/jev</code></td><td data-l="Aliases">none; example response shows <code>jev-1.13.0</code></td><td data-l="Pin?">No</td><td data-l="Date">undated; read 05:15:34 UTC</td></tr>
+        <tr><td data-l="Route">Netlify</td><td data-l="IDs"><code>jev-1.13.0</code>, <code>jev-latest</code>, <code>jev-preview</code></td><td data-l="Aliases">targets not stated by Netlify</td><td data-l="Pin?">Yes</td><td data-l="Date">Last updated Sep 17, 2026</td></tr>
+        <tr><td data-l="Route">Opper</td><td data-l="IDs"><code>typesafe/jev-1.13.0</code></td><td data-l="Aliases"><code>typesafe/jev-latest</code> and <code>typesafe/jev-preview</code> → it</td><td data-l="Pin?">Yes</td><td data-l="Date">Verified by Opper 2026-09-18</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="drift">7. Drift (S5)</h2>
+  <ul>
+    <li><strong>LiteLLM</strong> 1.104.0 (tag commit <code>79645770fedc7ec2627e6468d31062f20f82aecc</code>): the Jev classifier's failure path is unchanged from <code>8d28e8d</code>. The runner compared the whole caller block by script and found it identical. Line for <a href="../../use-cases/model-routing/index.html">model routing</a>: "Checked at LiteLLM 1.104.0 (tag commit <code>7964577</code>, 6 Oct 2026): the Jev classifier's failure path is unchanged from <code>8d28e8d</code>." Caveat: the tag may predate <code>8d28e8d</code>; their order was not verified. <span class="ev ev-documented">Documented</span></li>
+    <li><strong>Framework pins:</strong> no new release of any of the six. Line for <a href="../../build/frameworks/index.html">frameworks</a>: "Rechecked 6 Oct 2026, 05:20 UTC: no new release of any of the six packages; LiteLLM 1.104.0 failure path unchanged."</li>
+    <li><strong>Drift notes only:</strong> <code>ai</code> 7.0.128 and <code>@ai-sdk/typesafe-ai</code> 3.0.13 (<a href="../../build/typescript/index.html">TypeScript</a>), and the oh-my-claudecode tag v5.6.2 (no release; <a href="../../build/claude-code-mcp/index.html">Claude Code and MCP guardrails</a>).</li>
+    <li><strong>New this run:</strong> <code>@osuki-dev/opencode-osuki-agent</code> 0.2.8 is already out (the row is pinned at 0.2.7). Its page note says "0.2.8 not read".</li>
+  </ul>
+
+  <h2 id="spare">8. Spare time</h2>
+  <ol>
+    <li><strong>The LiteLLM TypeSafe proxy guardrail at v1.104.0</strong> is a context-compaction guardrail, not a safety block. It blanks tool results that Jev judges no longer relevant (below 0.2). Its default model is <code>jev-latest</code>. On a Jev error it forwards the request uncompacted by default; it can be set to return HTTP 502 instead. With no key it fails at start-up. It is a candidate decision row for the next frameworks or routing refresh. <span class="ev ev-documented">Documented</span></li>
+    <li>Item 2 (reranking studies) and item 3 (database error behaviour) were not reached.</li>
+  </ol>
+
+  <h2 id="gaps">9. Evidence gaps and uncertainties</h2>
+  <ul>
+    <li>Host behaviour after a hook decision: Codex, Cursor, Hermes core and OpenClaw core were not read.</li>
+    <li>OpenCode's default permission configuration.</li>
+    <li>rh-guard's default mode and its thresholds.</li>
+    <li>osuki 0.2.8, and whether the 0.2.7 package matches its tag.</li>
+    <li>How jev-approvals errors are handled in Hermes core.</li>
+    <li>jev-curator's plan path.</li>
+    <li>The contents of all test files.</li>
+    <li>Commit dates for 4 MCP repositories.</li>
+    <li>What each route actually serves (no request was sent).</li>
+    <li>Whether OpenRouter accepts patch-level IDs.</li>
+    <li>Route changelogs: only TypeSafe's was checked, and it returns 404.</li>
+    <li>SDK default models beyond TypeSafe's statement.</li>
+    <li>The <code>legal.md</code> size change.</li>
+    <li>The Internet Archive (connection error).</li>
+    <li>Reddit and X (unknown).</li>
+  </ul>
+
+  <h2 id="not-done">10. Not done (for run 10)</h2>
+  <ul>
+    <li>The <code>reranking-rag</code> condition check (spare item 2). It decides run 10's page.</li>
+    <li>The <code>databases-and-documents</code> error behaviour (spare item 3).</li>
+    <li>Unread coding-agent leads: about 20, listed in the research notes, including the 7 further Hermes catalog <code>jev-*</code> plugins and 0xNatoshi/jev-codex-router.</li>
+    <li>The per-SDK default-model check.</li>
+    <li>The <code>legal.md</code> comparison.</li>
+    <li>Drift-list additions from run 10: <code>@openclaw/typesafe</code>, <code>@osuki-dev/opencode-osuki-agent</code> and the three <code>@jev-kit</code> packages.</li>
+  </ul>
+
+  <h2 id="timings">11. Timings (UTC, 6 Oct 2026)</h2>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Time (minute)</th><th>Step</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Time">05:13:45–05:16 (0–2)</td><td data-l="Step">Start; helpers launched</td></tr>
+        <tr><td data-l="Time">05:15:34–05:18:34 (2–5)</td><td data-l="Step">S2 fetch and home status record</td></tr>
+        <tr><td data-l="Time">05:19–05:20 (5–7)</td><td data-l="Step">S1 scan and S5b registry check</td></tr>
+        <tr><td data-l="Time">05:20–05:25 (7–11)</td><td data-l="Step">S3 own reads (tool-gate, jev-kit, guard rows)</td></tr>
+        <tr><td data-l="Time">05:21 and 05:22 (8–9)</td><td data-l="Step">Helpers returned (B, then A)</td></tr>
+        <tr><td data-l="Time">05:22–05:29 (9–15)</td><td data-l="Step">Spot-checks, recount, coding-agent notes</td></tr>
+        <tr><td data-l="Time">05:22–05:31 (9–17)</td><td data-l="Step">S4 reads and notes, LiteLLM spot-check, drift note</td></tr>
+        <tr><td data-l="Time">05:31–05:35 (17–21)</td><td data-l="Step">Spare item 1, scan note, sources</td></tr>
+        <tr><td data-l="Time">05:35–05:36 (21–23)</td><td data-l="Step">Report</td></tr>
+        <tr><td data-l="Time">—</td><td data-l="Step">GitHub search calls: 5 of 10</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="jv-box warn" id="jv-r9-unverified">
+    <h2>What was not verified</h2>
+    <ul>
+      <li>How any agent, hook, plugin or MCP server behaves when run: nothing was installed or run, and no Jev call was made.</li>
+      <li>What the host does after a hook decision (Codex, Cursor, Hermes core, OpenClaw core); OpenCode's default permissions; rh-guard's default mode and thresholds.</li>
+      <li>osuki 0.2.8, and whether the 0.2.7 package matches its tag; jev-approvals error handling in Hermes core; jev-curator's plan path.</li>
+      <li>What each route actually serves (no request was sent), and whether OpenRouter accepts patch-level IDs.</li>
+      <li>The <code>legal.md</code> size change; the Internet Archive (connection error).</li>
+      <li>README claims (such as "Official external plugin"): <span class="ev ev-reported">Reported</span> only.</li>
+      <li>Reddit and X activity in the scan window: unknown.</li>
+    </ul>
+  </div>
+
+  <section class="jv-sources" aria-labelledby="jv-r9-sources">
+    <h2 id="jv-r9-sources">Key sources and check times (6 Oct 2026, UTC)</h2>
+    <ul>
+      <li>Counted coding-agent rows (05:20–05:29): <a href="https://github.com/keiffff/jev-kit/tree/3d74b05f85c1344ce4ae4b3f07b2eaaa6f957b07">jev-kit <code>3d74b05</code></a>; <a href="https://github.com/bloudhood/codex-jev-approval-hook/tree/b6242c9802724550b54eb346d1df40adf997253d">codex-jev-approval-hook <code>b6242c9</code></a>; <a href="https://github.com/24601/rh-guard/tree/c2e682ef0e838cc0538a7c2062e8a96d262dbd14">rh-guard <code>c2e682e</code></a>; <a href="https://github.com/justmytwospence/opencode-tool-gate/tree/bdf1ef8d132a16db73814e94b23f8396b3976cac">opencode-tool-gate <code>bdf1ef8</code></a>; <a href="https://www.npmjs.com/package/@osuki-dev/opencode-osuki-agent/v/0.2.7">@osuki-dev/opencode-osuki-agent 0.2.7</a> (tag commit <code>c96ce03c1c7dfc5c6fdf9d966691549101c68080</code>); <a href="https://github.com/DoGMaTiiC/hermes-jev/tree/5dddbeaac5be08281e6c3b372eeaba3639971f0a">hermes-jev <code>5dddbea</code></a>. File paths per cell are on the <a href="../../build/coding-agents/index.html">coding agents</a> page.</li>
+      <li>Not-counted rows: <a href="https://www.npmjs.com/package/@openclaw/typesafe/v/2026.9.8">@openclaw/typesafe 2026.9.8</a> (provenance commit <code>aa6008ad198ef99c43f9d89dbd01694708712974</code>); <a href="https://github.com/ajensenwaud/hermes-jev-plugin/tree/b3d29f71770a3447ad0b3db00658f64a8edc7dd3">jev-typesafe <code>b3d29f7</code></a>; <a href="https://github.com/ydmw74/jev-skill-router/tree/76ee09e049dbc10c76f98cfefc6ca16b42cfad38">jev-skill-router-mcp <code>76ee09e</code></a>; <a href="https://github.com/ourines/hermes-jev/tree/28a4ea390f80d97fcdc8c20d6b630dfe2de645de">ourines jev <code>28a4ea3</code></a>; <a href="https://github.com/NiazMorshed2007/jev-review/tree/57690af54ef7d862c2483342c1e61c14dffcf727">jev-review <code>57690af</code></a>; <a href="https://github.com/burnigtm/jev-mcp/tree/9448f6120015f2f6c6dad7137c7f234545209918">burnigtm/jev-mcp <code>9448f61</code></a>; <a href="https://github.com/minhgv/jev-mcp/tree/1a1f0a5b599e3c9f00a126bb247536a624aa265e">minhgv/jev-mcp <code>1a1f0a5</code></a>; <a href="https://github.com/pedroknigge/mcp_jev/tree/32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d">mcp_jev <code>32377f8</code></a>; <a href="https://github.com/DECRUX9812/typesafe-skill-router/tree/e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3">typesafe-skill-router <code>e6cdac2</code></a>; <a href="https://github.com/wellkilo/codex-jev-preflight/tree/633ddefe6596aa5d7c6b00767c08d07edea61096">codex-jev-preflight <code>633ddef</code></a>; <a href="https://github.com/anpicasso/hermes-jev-approvals/tree/28be98a19539b29768398fb400f4c62f41337c26">jev-approvals <code>28be98a</code></a>; <a href="https://github.com/anpicasso/hermes-jev-curator/tree/4e8626c7d394a9cbef8594993ec4b208ffb3395f">jev-curator <code>4e8626c</code></a>.</li>
+      <li>Guard rows: <a href="https://github.com/gulbaki/jev-llm-guard/tree/7c7b1b5b646428e397541473de0cd176cc9fe956">jev-llm-guard <code>7c7b1b5</code></a>; <a href="https://github.com/madisonrickert/jev-permission-gate/tree/7349bc973394905f346dfbe07934662039c496e8">jev-permission-gate <code>7349bc9</code></a>.</li>
+      <li>Access and aliases (05:15:34): <a href="https://status.typesafe.ai/">status.typesafe.ai</a>; <a href="https://docs.typesafe.ai/models.md">docs.typesafe.ai/models.md</a>. Route pages for OpenRouter, Vercel, Cloudflare, Netlify and Opper (05:15–05:24) are linked on the <a href="../../where-to-use/versions-and-aliases/index.html">versions and aliases</a> page.</li>
+      <li>LiteLLM: <a href="https://github.com/BerriAI/litellm/tree/79645770fedc7ec2627e6468d31062f20f82aecc">v1.104.0 tag commit <code>7964577</code></a>.</li>
+      <li>Search suggestions (R9-S11, 05:19:23–05:19:30): Google (<code>client=firefox</code>), Bing (<code>osjson</code>), DuckDuckGo (<code>ac</code>).</li>
+      <li>Failure checklist: recomputed from the published 51-row map plus the 7 new rows; rows and links on <a href="../../build/when-jev-fails/index.html">when Jev fails</a>.</li>
+    </ul>
+  </section>
+
+  <section class="jv-related" aria-labelledby="jv-r9-related">
+    <h2 id="jv-r9-related">Related pages</h2>
+    <ul>
+      <li><a href="../../research/index.html">Research: all dated reports (hub)</a></li>
+      <li><a href="../../build/coding-agents/index.html">How to use Jev with Codex, OpenCode, Cursor and Hermes Agent</a></li>
+      <li><a href="../../where-to-use/versions-and-aliases/index.html">Jev 1.13 and jev-latest: model IDs and aliases by route</a></li>
+      <li><a href="../../build/when-jev-fails/index.html">When Jev fails: what implementations do on errors</a></li>
+      <li><a href="../../build/claude-code-mcp/index.html">Claude Code and MCP guardrails</a></li>
+      <li><a href="../../products/index.html">Products built on Jev</a></li>
+      <li><a href="../browser-frameworks/index.html">5 Oct research report</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>6 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>
