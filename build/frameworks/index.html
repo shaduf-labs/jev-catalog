@@ -16,7 +16,7 @@
     <meta property="og:description" content="LangChain, Pydantic AI, Effect, Spring AI and LlamaIndex Jev integrations read in source: who publishes them, how young they are, what they do on errors.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/build/frameworks/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev LangChain and frameworks","description":"LangChain, Pydantic AI, Effect, Spring AI and LlamaIndex Jev integrations read in source: who publishes them, how young they are, what they do on errors.","dateModified":"2026-10-06T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/frameworks/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev LangChain and frameworks","description":"LangChain, Pydantic AI, Effect, Spring AI and LlamaIndex Jev integrations read in source: who publishes them, how young they are, what they do on errors.","dateModified":"2026-10-07T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/frameworks/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="build-frameworks">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -48,7 +48,7 @@
     <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv">
-  <div class="jv-kicker"><span>Build</span><span>Read in source <time datetime="2026-10-05">5 October 2026</time> · 6 framework packages at pinned tags or commits, 05:12–05:27 UTC · versions rechecked <time datetime="2026-10-06T05:20:00Z">6 October 2026, 05:20 UTC</time></span></div>
+  <div class="jv-kicker"><span>Build</span><span>Read in source <time datetime="2026-10-05">5 October 2026</time> · 6 framework packages at pinned tags or commits, 05:12–05:27 UTC · versions rechecked <time datetime="2026-10-07T05:21:48Z">7 October 2026, 05:21 UTC</time></span></div>
   <h1>Jev LangChain and other framework integrations (TypeSafe AI)</h1>
   <p class="jv-lede">When the pool checked search suggestions on <time datetime="2026-10-05T05:14:59Z">5 Oct 2026, 05:14 UTC</time>, Google, Bing and DuckDuckGo all offered "jev langchain". "jev pydantic", "jev spring ai" and "jev llamaindex" had no suggestions on any of the three. A suggestion shows that people search for a phrase, not how many do. This page reads six framework packages for Jev in source: LangChain for Python and for JavaScript, Pydantic AI, Effect, Spring AI and LlamaIndex. It shows who publishes each one, how young it is, and what it does to your code when the Jev call fails.</p>
 
@@ -140,10 +140,11 @@
 
   <div class="jv-box info" id="fw-rechecks">
     <h3>Version rechecks (not audited on this page)</h3>
-    <p><strong>Rechecked 6 Oct 2026, 05:20 UTC: no new release of any of the six packages; LiteLLM 1.104.0 failure path unchanged.</strong> The Spring AI repository HEAD has moved to <code>2c30a58</code>, but tag <code>v0.4.0</code> is still <code>51993bb</code>; the LlamaIndex repository HEAD is still <code>421afda</code>. <span class="ev ev-documented">Documented</span> <small>(package registries and <code>git ls-remote</code>)</small></p>
+    <p><strong>Rechecked 7 Oct 2026, 05:21 UTC: no new release of any of the six packages; LiteLLM still 1.104.0.</strong> <span class="ev ev-documented">Documented</span> <small>(package registries, R10-S48)</small></p>
+    <p>Rechecked 6 Oct 2026, 05:20 UTC: no new release of any of the six packages; LiteLLM 1.104.0 failure path unchanged. The Spring AI repository HEAD has moved to <code>2c30a58</code>, but tag <code>v0.4.0</code> is still <code>51993bb</code>; the LlamaIndex repository HEAD is still <code>421afda</code>. <span class="ev ev-documented">Documented</span> <small>(package registries and <code>git ls-remote</code>)</small></p>
     <ul>
       <li><strong>LiteLLM 1.104.0</strong> (PyPI, 3 Oct 2026, 22:42 UTC). Checked on 6 Oct 2026 at tag commit <a href="https://github.com/BerriAI/litellm/tree/79645770fedc7ec2627e6468d31062f20f82aecc"><code>7964577</code></a>: the Jev classifier's failure path is unchanged from <code>8d28e8d</code> (the caller block is byte-identical; the classifier file differs only in comments). The tag may predate <code>8d28e8d</code>; their order was not verified. Routing cells stay on <a href="../../use-cases/model-routing/index.html#r-litellm">model routing</a>. The TypeSafe proxy guardrail hook (<code>proxy/guardrails/guardrail_hooks/typesafe/typesafe.py</code>) exists at both commits. Read at the tag in spare time on 6 Oct: it is a context-compaction guardrail, not a safety block (it removes tool results Jev judges no longer relevant, below 0.2); on a Jev error it forwards the request uncompacted by default; with no key it fails at start-up. It is not a row on this page yet.</li>
-      <li><strong>Vercel <code>@ai-sdk/typesafe-ai</code></strong> 3.0.13 (5 Oct 2026, 18:26 UTC), a patch release after 3.0.12; not re-audited. See <a href="../typescript/index.html">TypeScript</a>.</li>
+      <li><strong>Vercel <code>@ai-sdk/typesafe-ai</code></strong> 3.0.15 (7 Oct 2026, 01:41 UTC), after 3.0.14 (6 Oct, 22:20 UTC) and 3.0.13 (5 Oct, 18:26 UTC); patch releases, not re-audited (R10-S35). See <a href="../typescript/index.html">TypeScript</a>.</li>
       <li><strong>Pydantic AI Gateway</strong> does not route Jev. Its documented providers are OpenAI, Anthropic, Google Vertex, Groq and Bedrock ("More providers coming soon"), and <code>providers/gateway.py</code> at v2.54.0 has no TypeSafe entry (docs and source search, 05:19 UTC).</li>
       <li><strong>Mastra:</strong> no package found. <code>@mastra/typesafe</code> returns 404, and no Mastra-published package appeared in the npm search (05:16 UTC).</li>
     </ul>
@@ -223,6 +224,7 @@
       <li><a href="../../use-cases/model-routing/index.html">Model routing</a></li>
       <li><a href="../../use-cases/llm-as-judge/index.html">Jev as a judge</a></li>
       <li><a href="../coding-agents/index.html">Jev with coding agents (Codex, OpenCode, Cursor, Hermes Agent)</a></li>
+      <li><a href="../../reports/judge-rows-benchmarks/index.html">7 Oct research report (version rechecks)</a></li>
       <li><a href="../../reports/coding-agents-versions/index.html">6 Oct research report (version rechecks)</a></li>
       <li><a href="../../reports/browser-frameworks/index.html">5 Oct research report</a></li>
     </ul>
@@ -243,7 +245,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>6 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>7 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
     </div>

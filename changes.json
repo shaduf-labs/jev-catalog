@@ -2,6 +2,54 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "when-jev-fails-judges-2026-10-07",
+      "changed_at": "2026-10-07T06:30:00Z",
+      "summary": "When Jev fails updated: of 64 Jev implementations read in source, on a Jev error 35 stop or hold the action, 13 fall back to another model, rule or default, 8 are advisory or return no decision, and 8 let it through: 4 moderation bots, 2 agent hooks, a passage filter and an eval tool. New \"LLM as a judge\" domain (11 use cases); copyable checklist regenerated.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "llm-as-judge-counted-2026-10-07",
+      "changed_at": "2026-10-07T06:30:00Z",
+      "summary": "Jev as a judge: the four judge tools read in source are counted on When Jev fails from 7 Oct 2026; the Jevals harness is not, because its code is not public. Three conditional cells now show the counted term with the condition in the note.",
+      "path": "/p/jev-catalog/use-cases/llm-as-judge"
+    },
+    {
+      "change_id": "coding-agents-settled-2026-10-07",
+      "changed_at": "2026-10-07T06:30:00Z",
+      "summary": "Coding agents: all 5 open cells settled. Of 18 Jev coding-agent integrations read in source, 1 is vendor-published and none comes from TypeSafe; 8 act on Jev's answer, and 4 of those let the tool call run when Jev errors. 2 of the 8 do nothing until switched on.",
+      "path": "/p/jev-catalog/build/coding-agents"
+    },
+    {
+      "change_id": "benchmarks-refresh-2026-10-07",
+      "changed_at": "2026-10-07T06:30:00Z",
+      "summary": "Benchmarks retitled \"Jev benchmarks (TypeSafe AI): is Jev accurate?\" (URL unchanged): 9 new studies graded (33 graded rows: A 6, B 12, C 8, D 7) and Elastic regraded to B. Against trained classifiers the evidence is now mixed (one Red Hat study, grade B); TypeSafe's legal texts still have no clause about publishing benchmarks.",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "products-coding-rows-2026-10-07",
+      "changed_at": "2026-10-07T06:30:00Z",
+      "summary": "Products: the two Hermes Agent plugins move to the coding-agent rows that act on Jev's answer (8 act, 10 not counted); osuki checked at 0.2.8; row and grade counts unchanged (92 rows).",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "reseller-thejevai-2026-10-07",
+      "changed_at": "2026-10-07T06:30:00Z",
+      "summary": "Official vs reseller: thejevai.com added as a lookalike candidate (homepage read 7 Oct 2026; its footer says it is not affiliated with TypeSafe; no price observed).",
+      "path": "/p/jev-catalog/where-to-use/official-vs-reseller"
+    },
+    {
+      "change_id": "drift-notes-2026-10-07",
+      "changed_at": "2026-10-07T06:30:00Z",
+      "summary": "Drift: ai 7.0.130 and @ai-sdk/typesafe-ai 3.0.15 noted (not re-audited); oh-my-claudecode v5.6.2 and @jkudish/jev-mcp 0.14.1 noted as not yet read; six framework packages, LiteLLM 1.104.0 and the six route IDs unchanged on 7 Oct 2026.",
+      "path": "/p/jev-catalog/build/claude-code-mcp"
+    },
+    {
+      "change_id": "access-recheck-2026-10-07",
+      "changed_at": "2026-10-07T06:30:00Z",
+      "summary": "Access status rechecked 7 Oct 2026, 05:19 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases (jev-latest and jev-preview point to jev-1.13.0), the model IDs on all six routes and the subprocessor list unchanged; the API's 90-day uptime moved from 99.826% to 99.828% with no new incident listed. Four notices shown as on 6 Oct. The TypeSafe WorkflowEvals notice, hidden since 4 Oct, was retired at the end of its shelf life (6 Oct, 16:25 UTC); the release stays on the benchmarks ledger as row B01.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
       "change_id": "coding-agents-page-2026-10-06",
       "changed_at": "2026-10-06T06:30:00Z",
       "summary": "New page: How to use Jev with Codex, OpenCode, Cursor and Hermes Agent (TypeSafe AI). Of 18 Jev coding-agent integrations read in source, 1 is vendor-published (OpenClaw) and none comes from TypeSafe; 6 act on Jev's answer, and 4 of those let the tool call run when Jev errors.",

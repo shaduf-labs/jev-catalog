@@ -8060,6 +8060,1036 @@
       "accessed_at": "2026-10-06T05:32:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s01",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query=<41",
+      "title": "Run 10 source R10-S01: hn.algolia.com/api/v1/search_by_date?query=<41",
+      "claim": "jev: 13 stories, 42 comments; gap backfill 0 items (Documented (index results))",
+      "accessed_at": "2026-10-07T05:18:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s02",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=<jev|topic:jev>+created:2026-10-06T05:17:00Z..2026-10-07T05:16:59Z",
+      "title": "Run 10 source R10-S02: api.github.com/search/repositories?q=<jev|topic:jev>+created",
+      "claim": "total_count 249 (jev), 39 (topic:jev), 0 (gap); incomplete_results false (Documented (index results))",
+      "accessed_at": "2026-10-07T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s03",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?size=250&text=<jev|typesafe>",
+      "title": "Run 10 source R10-S03: registry.npmjs.org/-/v1/search?size=250&text=<jev|typesafe>",
+      "claim": "17 distinct packages with last publish in window (Documented (index results))",
+      "accessed_at": "2026-10-07T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s04",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=jev&sort=lastModified&direction=-1&limit=100",
+      "title": "Run 10 source R10-S04: huggingface.co/api/models?search=jev&sort=lastModified&direc",
+      "claim": "17 models modified in window (Documented (index results))",
+      "accessed_at": "2026-10-07T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s05",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev&per_page=100",
+      "title": "Run 10 source R10-S05: dev.to/api/articles?tag=jev&per_page=100",
+      "claim": "0 articles in window (Documented)",
+      "accessed_at": "2026-10-07T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s07",
+      "source_type": "reported source",
+      "source_url": "https://www.reddit.com/search.json?q=jev&sort=new",
+      "title": "Run 10 source R10-S07: www.reddit.com/search.json?q=jev&sort=new",
+      "claim": "HTTP 403 (n/a)",
+      "accessed_at": "2026-10-07T05:18:00Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s11",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&q=<q>",
+      "title": "Run 10 source R10-S11: suggestqueries.google.com/complete/search?client=firefox&q=<",
+      "claim": "Bing/DDG \"jev b\" -> \"jev benchmark\"; Google \"jev 1.13\" -> \"jev 1.13 benchmarks\" (Documented (demand signal, not volume))",
+      "accessed_at": "2026-10-07T05:18:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s20",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Run 10 source R10-S20: status.typesafe.ai/",
+      "claim": "All services are online (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Run 10 source R10-S21: docs.typesafe.ai/models.md",
+      "claim": "`jev-preview` currently points to the same model as `jev-latest`. There is no preview build available right now. (Documented)",
+      "accessed_at": "2026-10-07T05:19:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s22",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Run 10 source R10-S22: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "no credit, waitlist or pause text (Documented)",
+      "accessed_at": "2026-10-07T05:19:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s23",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Run 10 source R10-S23: typesafe.ai/",
+      "claim": "homepage build unchanged; blog near-empty (Documented)",
+      "accessed_at": "2026-10-07T05:19:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s24",
+      "source_type": "reported source",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Run 10 source R10-S24: console.typesafe.ai/",
+      "claim": "HTTP 403 (n/a)",
+      "accessed_at": "2026-10-07T05:19:14Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s25",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Run 10 source R10-S25: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "\"context_length\":32000, prompt 0.000000042, completion 0 (Documented)",
+      "accessed_at": "2026-10-07T05:19:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s26",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-router/endpoints",
+      "title": "Run 10 source R10-S26: openrouter.ai/api/v1/models/typesafe/jev-router/endpoints",
+      "claim": "jev-router prompt -1, context 1,000,000; endpoints empty (Documented)",
+      "accessed_at": "2026-10-07T05:19:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s27",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Run 10 source R10-S27: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. (Documented)",
+      "accessed_at": "2026-10-07T05:19:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Run 10 source R10-S28: ai-gateway.vercel.sh/v1/models",
+      "claim": "\"zdr\":\"some\",\"no_training\":\"all\" (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Run 10 source R10-S29: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "Zero data retention Yes; Input $0.042 (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s33",
+      "source_type": "documented source",
+      "source_url": "https://opper.ai/typesafe/jev-1-13-0",
+      "title": "Run 10 source R10-S33: opper.ai/typesafe/jev-1-13-0",
+      "claim": "\"aliases\":[\"typesafe/jev-latest\",\"typesafe/jev-preview\"] (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s34",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json",
+      "title": "Run 10 source R10-S34: pypi.org/pypi/typesafe-sdk/json",
+      "claim": "latest 0.7.2 (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s35",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/{@typesafe-ai/sdk",
+      "title": "Run 10 source R10-S35: registry.npmjs.org/{@typesafe-ai/sdk",
+      "claim": "ai 7.0.130, @ai-sdk/typesafe-ai 3.0.15 (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s36",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "title": "Run 10 source R10-S36: api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "claim": "WorkflowEvals last push 2026-09-29T16:25:18Z (Documented)",
+      "accessed_at": "2026-10-07T05:18:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s37",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/{terms",
+      "title": "Run 10 source R10-S37: typesafe.ai/legal/{terms",
+      "claim": "Last updated Sep 23, 2026 (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s38",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Run 10 source R10-S38: docs.typesafe.ai/legal.md",
+      "claim": "We also offer zero data retention (ZDR) for enterprise customers. (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s39",
+      "source_type": "documented source",
+      "source_url": "https://trust.typesafe.ai/subprocessors",
+      "title": "Run 10 source R10-S39: trust.typesafe.ai/subprocessors",
+      "claim": "Customer AI prompts are processed, but not stored, on compute nodes managed by Modal (Documented)",
+      "accessed_at": "2026-10-07T05:20:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s40",
+      "source_type": "reported source",
+      "source_url": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
+      "title": "Run 10 source R10-S40: developers.redhat.com/articles/2026/10/02/benchmarking-ai-de",
+      "claim": "Jev Jev-style 86.35% 4th ... Jev Jev-style 86.20% 1st (Reported)",
+      "accessed_at": "2026-10-07T05:26:40Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s41",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28be98a19539b29768398fb400f4c62f41337c26/plugin/jev_policy.py",
+      "title": "Run 10 source R10-S41: raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28b",
+      "claim": "confidence: float = 0.55 ... verdict = \"ESCALATE\" (Documented)",
+      "accessed_at": "2026-10-07T05:25:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s42",
+      "source_type": "documented source",
+      "source_url": "https://thejevai.com/",
+      "title": "Run 10 source R10-S42: thejevai.com/",
+      "claim": "Jev AI is an independently operated product and is not affiliated with, operated by, or endorsed by TypeSafe. (Documented)",
+      "accessed_at": "2026-10-07T05:19:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s43",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Run 10 source R10-S43: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/statu",
+      "claim": "good news: ANYONE CAN SIGN UP (Documented (executive))",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s44",
+      "source_type": "documented source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Run 10 source R10-S44: aifront-page.com/",
+      "claim": "0 Jev or TypeSafe mentions (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s45",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/endpoints/zdr",
+      "title": "Run 10 source R10-S45: openrouter.ai/api/v1/endpoints/zdr",
+      "claim": "TypeSafe | typesafe/jev-1.13-20260917 (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s46",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Run 10 source R10-S46: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "\"provider_name\":\"typesafe-ai\",\"has_zdr\":true (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s47",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Run 10 source R10-S47: docs.netlify.com/build/ai-gateway/overview/",
+      "claim": "systemOne uses jev-latest by default (Documented)",
+      "accessed_at": "2026-10-07T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s48",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/<17",
+      "title": "Run 10 source R10-S48: registry.npmjs.org/<17",
+      "claim": "@jkudish/jev-mcp 0.14.1; ai 7.0.130; others unchanged (Documented)",
+      "accessed_at": "2026-10-07T05:21:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s49",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "title": "Run 10 source R10-S49: github.com/Yeachan-Heo/oh-my-claudecode",
+      "claim": "v5.6.2 2026-10-06T06:15:10Z (Documented)",
+      "accessed_at": "2026-10-07T05:21:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s50",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/~typesafe/jev-latest/endpoints",
+      "title": "Run 10 source R10-S50: openrouter.ai/api/v1/models/~typesafe/jev-latest/endpoints",
+      "claim": "This model always redirects to the latest model in the Jev family. (Documented)",
+      "accessed_at": "2026-10-07T05:19:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s51",
+      "source_type": "reported source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Run 10 source R10-S51: docs.typesafe.ai/changelog.md",
+      "claim": "HTTP 404 (n/a)",
+      "accessed_at": "2026-10-07T05:19:16Z",
+      "relation": "unresolved",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s101",
+      "source_type": "documented source",
+      "source_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.24",
+      "title": "Run 10 source R10-S101: github.com/NousResearch/hermes-agent/releases/tag/v2026.9.24",
+      "claim": "Latest release tag v2026.9.24, published 2026-09-24T10:09:38Z; tag commit f97608f. (Documented (registry/API))",
+      "accessed_at": "2026-10-07T05:18:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s102",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/tools/approval_smart.py",
+      "title": "Run 10 source R10-S102: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "return _VERDICTS.get(answer, \"escalate\") ... except Exception ... escalating; return \"escalate\" (Documented from source)",
+      "accessed_at": "2026-10-07T05:18:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s103",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/tools/approval.py",
+      "title": "Run 10 source R10-S103: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "if verdict == \"approve\": ... return {\"approved\": True, ... \"smart_approved\": True (Documented from source)",
+      "accessed_at": "2026-10-07T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s104",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/agent/auxiliary_client.py",
+      "title": "Run 10 source R10-S104: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "_DEFAULT_AUX_TIMEOUT = 30.0 ... auxiliary.<task>.timeout from config, else default (Documented from source)",
+      "accessed_at": "2026-10-07T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s105",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/tools/approval_context.py",
+      "title": "Run 10 source R10-S105: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "_get_approval_config().get(\"mode\", \"manual\") (Documented from source)",
+      "accessed_at": "2026-10-07T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s106",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/service.py",
+      "title": "Run 10 source R10-S106: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e862",
+      "claim": "if self.settings.mode in {\"guard\", \"apply\"}: ... installed = replace_authorized_plans(plans) (Documented from source)",
+      "accessed_at": "2026-10-07T05:19:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s107",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/guard.py",
+      "title": "Run 10 source R10-S107: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e862",
+      "claim": "Decide one pre_tool_call event: a block directive, or None to let the call through. (Documented from source)",
+      "accessed_at": "2026-10-07T05:19:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s108",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/debounce.py",
+      "title": "Run 10 source R10-S108: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e862",
+      "claim": "result = service.run(apply=False) (Documented from source)",
+      "accessed_at": "2026-10-07T05:20:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s109",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/engine.py",
+      "title": "Run 10 source R10-S109: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e862",
+      "claim": "except Exception as exc: errors.append({\"pair\": pair.key, ... continue (Documented from source)",
+      "accessed_at": "2026-10-07T05:19:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s110",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/commands.py",
+      "title": "Run 10 source R10-S110: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e862",
+      "claim": "--apply is refused from chat. Run hermes jev-curator run --apply in a terminal with mode=apply. (Documented from source)",
+      "accessed_at": "2026-10-07T05:19:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s111",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/plugin.yaml",
+      "title": "Run 10 source R10-S111: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e862",
+      "claim": "mode ... default: observe ... off | observe | guard | apply (Documented from source)",
+      "accessed_at": "2026-10-07T05:19:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s112",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@osuki-dev/opencode-osuki-agent",
+      "title": "Run 10 source R10-S112: registry.npmjs.org/@osuki-dev/opencode-osuki-agent",
+      "claim": "dist-tags latest 0.2.8; no later version (Documented (registry))",
+      "accessed_at": "2026-10-07T05:17:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s113",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@osuki-dev/opencode-osuki-agent/-/opencode-osuki-agent-0.2.8.tgz",
+      "title": "Run 10 source R10-S113: registry.npmjs.org/@osuki-dev/opencode-osuki-agent/-/opencod",
+      "claim": "timeoutMs: options.jev?.timeoutMs ?? 1e4 (Documented from source)",
+      "accessed_at": "2026-10-07T05:17:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s114",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/anomalyco/opencode/releases/latest",
+      "title": "Run 10 source R10-S114: api.github.com/repos/anomalyco/opencode/releases/latest",
+      "claim": "tag_name v1.18.35, published 2026-10-06T20:18:39Z (Documented (API))",
+      "accessed_at": "2026-10-07T05:17:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s115",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anomalyco/opencode/53d1eabb61e21162157817bf677da0a4ad3332e3/packages/opencode/src/agent/agent.ts",
+      "title": "Run 10 source R10-S115: raw.githubusercontent.com/anomalyco/opencode/53d1eabb61e2116",
+      "claim": "const defaults = Permission.fromConfig({ \"*\": \"allow\", doom_loop: \"ask\", (Documented from source)",
+      "accessed_at": "2026-10-07T05:20:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s116",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anomalyco/opencode/53d1eabb61e21162157817bf677da0a4ad3332e3/packages/opencode/src/permission/index.ts",
+      "title": "Run 10 source R10-S116: raw.githubusercontent.com/anomalyco/opencode/53d1eabb61e2116",
+      "claim": "findLast((rule) => Wildcard.match(permission, rule.permission) ... ?? { action: \"ask\" (Documented from source)",
+      "accessed_at": "2026-10-07T05:20:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s117",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/24601/rh-guard/c2e682ef0e838cc0538a7c2062e8a96d262dbd14/src/lib/risk/kinds.ts",
+      "title": "Run 10 source R10-S117: raw.githubusercontent.com/24601/rh-guard/c2e682ef0e838cc0538",
+      "claim": "case undefined: case \"\": return \"enforce\"; default: return \"enforce\"; (Documented from source)",
+      "accessed_at": "2026-10-07T05:20:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s118",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/24601/rh-guard/c2e682ef0e838cc0538a7c2062e8a96d262dbd14/src/lib/risk/score.ts",
+      "title": "Run 10 source R10-S118: raw.githubusercontent.com/24601/rh-guard/c2e682ef0e838cc0538",
+      "claim": "if (semanticFailed && mutatingStage(input.stage)) { return \"steer\"; (Documented from source)",
+      "accessed_at": "2026-10-07T05:20:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s201",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49933476",
+      "title": "Run 10 source R10-S201: hn.algolia.com/api/v1/items/49933476",
+      "claim": "Decision models like Jev don't beat LLM-as-a-judge or traditional classifiers (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:18:28Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s202",
+      "source_type": "reported source",
+      "source_url": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
+      "title": "Run 10 source R10-S202: developers.redhat.com/articles/2026/10/02/benchmarking-ai-de",
+      "claim": "decision models like Jev do not reliably outperform LLM-as-a-judge, pre-trained predictive models, or open source decision models in speed or accuracy (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:18:45Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s203",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49933643",
+      "title": "Run 10 source R10-S203: hn.algolia.com/api/v1/items/49933643",
+      "claim": "Can Jev be trusted when it is confident? Half a million API calls say not always (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:18:28Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s204",
+      "source_type": "reported source",
+      "source_url": "https://www.synthpop.ai/resources/does-a-decision-model-know-when-it-is-guessing-post-1",
+      "title": "Run 10 source R10-S204: www.synthpop.ai/resources/does-a-decision-model-know-when-it",
+      "claim": "Keep only the answers Jev was at least 90% sure of, and you keep 82% of the questions, with 99.75% of those answers right. (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:18:39Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s205",
+      "source_type": "reported source",
+      "source_url": "https://github.com/Syntheme/beyond-answer-confidence",
+      "title": "Run 10 source R10-S205: github.com/Syntheme/beyond-answer-confidence",
+      "claim": "Request caches contain the full prompts, i.e. dataset text: keep them out of version control and do not redistribute them. (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:20:05Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s206",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49934399",
+      "title": "Run 10 source R10-S206: hn.algolia.com/api/v1/items/49934399",
+      "claim": "How accurately calibrated is Jev? (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:18:28Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s207",
+      "source_type": "reported source",
+      "source_url": "https://maximumeffort.substack.com/p/jev-is-poorly-calibrated",
+      "title": "Run 10 source R10-S207: maximumeffort.substack.com/p/jev-is-poorly-calibrated",
+      "claim": "If Jev were to completely punt on the answer ... it would score a mean TV of 0.546. But Jev scores 0.518. (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:18:39Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s208",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49958040",
+      "title": "Run 10 source R10-S208: hn.algolia.com/api/v1/items/49958040",
+      "claim": "Show HN: DoubtBench – does Jev know when humans disagree? (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:18:28Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s209",
+      "source_type": "reported source",
+      "source_url": "https://github.com/deeplearningguy/doubtbench",
+      "title": "Run 10 source R10-S209: github.com/deeplearningguy/doubtbench",
+      "claim": "| 2 | Jev 1.13 | closed | undisclosed | **67.8** | 48.2% | 12.80× | 0.284 | 0.14 | $0.0134 | 98 ms (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:19:22Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s210",
+      "source_type": "reported source",
+      "source_url": "https://github.com/jhaveri-bhavya/jev-safety-eval",
+      "title": "Run 10 source R10-S210: github.com/jhaveri-bhavya/jev-safety-eval",
+      "claim": "Work in progress: setup and API smoke tests are done (scripts/smoke_*.py). Results will follow. (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:19:09Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s211",
+      "source_type": "reported source",
+      "source_url": "https://github.com/wuchengwei1996/jev-zh-tw-eval",
+      "title": "Run 10 source R10-S211: github.com/wuchengwei1996/jev-zh-tw-eval",
+      "claim": "tests crh225/plumb-4b via Ollama /v1/systemone (README, translated); not an official TypeSafe, Plumb or JevBench evaluation (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:20:25Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s212",
+      "source_type": "reported source",
+      "source_url": "https://github.com/ankushchadha/system-one-security",
+      "title": "Run 10 source R10-S212: github.com/ankushchadha/system-one-security",
+      "claim": "02: 0 of 12 on every injection (invert, swap, authority, errata, decided), placement, run and model. (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:20:25Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s213",
+      "source_type": "reported source",
+      "source_url": "https://www.elastic.co/search-labs/blog/ecommerce-search-reranking-llm-alternative-jev",
+      "title": "Run 10 source R10-S213: www.elastic.co/search-labs/blog/ecommerce-search-reranking-l",
+      "claim": "taking nDCG@10 from 0.9351 to 0.9565 on 250 Amazon Shopping Queries, and the code is all here. (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:18:40Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s214",
+      "source_type": "reported source",
+      "source_url": "https://github.com/elastic/elasticsearch-labs/tree/3e3d6885f7eb31ed38dc3f6bcfffcfec83e977f1/supporting-blog-content/ecommerce-search-reranking-llm-alternative-jev",
+      "title": "Run 10 source R10-S214: github.com/elastic/elasticsearch-labs/tree/3e3d6885f7eb31ed3",
+      "claim": "Ten queries is far too few to separate these systems reliably ... go to the article for the 250-query results (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:21:25Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s215",
+      "source_type": "reported source",
+      "source_url": "https://iwhalen.com/jev-pseudo-relevance/",
+      "title": "Run 10 source R10-S215: iwhalen.com/jev-pseudo-relevance/",
+      "claim": "Cohen's kappa : 0.1907 (Jev) ... Cohen's kappa : 0.2391 (GPT-6-luna) (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:18:39Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s216",
+      "source_type": "reported source",
+      "source_url": "https://github.com/iwhalen/jev-pseudo-relevance",
+      "title": "Run 10 source R10-S216: github.com/iwhalen/jev-pseudo-relevance",
+      "claim": "DEFAULT_MODELS = {\"jev\": \"jev-latest\", \"openai\": \"gpt-6-luna\"}; from scipy.stats import kendalltau (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:21:38Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s217",
+      "source_type": "reported source",
+      "source_url": "https://huggingface.co/blog/hotchpotch/introducing-jev-reranker",
+      "title": "Run 10 source R10-S217: huggingface.co/blog/hotchpotch/introducing-jev-reranker",
+      "claim": "relevance_rerank |0.2 | 0.975 |7.62 | 92.38% (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:22:04Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s218",
+      "source_type": "reported source",
+      "source_url": "https://github.com/hotchpotch/jev-reranker",
+      "title": "Run 10 source R10-S218: github.com/hotchpotch/jev-reranker",
+      "claim": "evaluates rerankers on compatible HAKARI-Bench Nano-set benchmarks and reports mean nDCG@10. NanoBEIR-en / NanoHotpotQA is the default (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:22:24Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s219",
+      "source_type": "reported source",
+      "source_url": "https://www.lancedb.com/blog/how-jev-compares-to-other-rerankers",
+      "title": "Run 10 source R10-S219: www.lancedb.com/blog/how-jev-compares-to-other-rerankers",
+      "claim": "a benchmark of 19 reranker configurations across five datasets, covering accuracy, latency, and prompt-driven relevance (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:22:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s220",
+      "source_type": "reported source",
+      "source_url": "https://github.com/lancedb/research/blob/4616259eb0c5a266c9c03bc133ff3600e05c19a3/reranking/benchmark/results/README.md",
+      "title": "Run 10 source R10-S220: github.com/lancedb/research/blob/4616259eb0c5a266c9c03bc133f",
+      "claim": "| jev-relevance | 88.14 | 92.60 | 74.98 | 77.36 | 88.01 | 92.59 | 169 | (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:22:14Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s221",
+      "source_type": "reported source",
+      "source_url": "https://spring.io/blog/2026/10/02/spring-ai-modular-rag-typesafe-jev/",
+      "title": "Run 10 source R10-S221: spring.io/blog/2026/10/02/spring-ai-modular-rag-typesafe-jev",
+      "claim": "[jev-reranked] 0.97 Hurricane Milton ... (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:22:03Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s222",
+      "source_type": "reported source",
+      "source_url": "https://www.refix.ai/news/jev-rag-reranking-citation-checks/",
+      "title": "Run 10 source R10-S222: www.refix.ai/news/jev-rag-reranking-citation-checks/",
+      "claim": "First-party cookbook results are examples to reproduce, not universal benchmarks. (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:22:04Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s223",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49973267",
+      "title": "Run 10 source R10-S223: hn.algolia.com/api/v1/items/49973267",
+      "claim": "Pseudo-Relevances with Jev (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:18:28Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s224",
+      "source_type": "reported source",
+      "source_url": "https://www.vals.ai/blogs/independent-evaluation-of-jev",
+      "title": "Run 10 source R10-S224: www.vals.ai/blogs/independent-evaluation-of-jev",
+      "claim": "Jev, the cheapest model by far, scores 0.975 at $0.02 per 1,000 cases and ties with GPT-6 Astra, GPT-6.1 Sol, and GPT-6 Luna (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:25:16Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s225",
+      "source_type": "reported source",
+      "source_url": "https://deeplearningguy.github.io/blog/jev-vs-claude-judge/",
+      "title": "Run 10 source R10-S225: deeplearningguy.github.io/blog/jev-vs-claude-judge/",
+      "claim": "Jev does win on raw accuracy, by a few points against every Claude model (paired McNemar test, p < 0.001). (Reported study or lead)",
+      "accessed_at": "2026-10-07T05:25:16Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s301",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/realZachi/pg-jev/8d9598d87d5ff460998d91ec070226176024a841/sql/jev--0.2.1.sql",
+      "title": "Run 10 source R10-S301: raw.githubusercontent.com/realZachi/pg-jev/8d9598d87d5ff4609",
+      "claim": "raise RuntimeError(\"jev: TypeSafe API unreachable after retries: \" + str(last)) (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:47Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s302",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mattn/sqlite3-jev/2172600da148182703f8f221089d9304d0fb97f9/jev.c",
+      "title": "Run 10 source R10-S302: raw.githubusercontent.com/mattn/sqlite3-jev/2172600da1481827",
+      "claim": "*perr = sqlite3_mprintf(\"jev: %s\", curl_easy_strerror(rc)); (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s303",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mgaitan/sqlite-jev/1ac946cdc0d80fd2d77ba0b64deafb456521fdd4/src/jev.c",
+      "title": "Run 10 source R10-S303: raw.githubusercontent.com/mgaitan/sqlite-jev/1ac946cdc0d80fd",
+      "claim": "*error = sqlite3_mprintf(\"jev: TypeSafe request failed: %s\", s->curl.easy_strerror(rc)); (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s304",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/rishi-raj-jain/pg-redact/ee903ef40b3053af150e28bbf37cfe03e4409785/src/lib/jev.ts",
+      "title": "Run 10 source R10-S304: raw.githubusercontent.com/rishi-raj-jain/pg-redact/ee903ef40",
+      "claim": "if (!a || a.choice === 'none') return (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s305",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/rishi-raj-jain/pg-redact/ee903ef40b3053af150e28bbf37cfe03e4409785/src/app/api/classify/route.ts",
+      "title": "Run 10 source R10-S305: raw.githubusercontent.com/rishi-raj-jain/pg-redact/ee903ef40",
+      "claim": "return Response.json({ error: err instanceof Error ? err.message : 'Jev request failed' }, { status: 502 }) (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s306",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jerryjliu/docjev/c7abe276a970605feb9cb8b27513365b6c10726e/src/jev_docs/engines/jev.py",
+      "title": "Run 10 source R10-S306: raw.githubusercontent.com/jerryjliu/docjev/c7abe276a970605fe",
+      "claim": "raise ProviderError(\"Jev returned an incomplete answer set.\", requests=records) (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s307",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jerryjliu/docjev/c7abe276a970605feb9cb8b27513365b6c10726e/src/jev_docs/classify.py",
+      "title": "Run 10 source R10-S307: raw.githubusercontent.com/jerryjliu/docjev/c7abe276a970605fe",
+      "claim": "raise ProviderError(\n            \"The engine returned a category outside the configured rules.\" (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:28:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s308",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jerryjliu/docjev/c7abe276a970605feb9cb8b27513365b6c10726e/src/jev_docs/split.py",
+      "title": "Run 10 source R10-S308: raw.githubusercontent.com/jerryjliu/docjev/c7abe276a970605fe",
+      "claim": "except ProviderError as exc:\n        raise ProviderError(str(exc), requests=requests) from None (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:28:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s309",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/realZachi/pg-jev/git/trees/8d9598d87d5ff460998d91ec070226176024a841?recursive=1",
+      "title": "Run 10 source R10-S309: api.github.com/repos/realZachi/pg-jev/git/trees/8d9598d87d5f",
+      "claim": "recursive tree listing (truncated: false) (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s310",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/mattn/sqlite3-jev/git/trees/2172600da148182703f8f221089d9304d0fb97f9?recursive=1",
+      "title": "Run 10 source R10-S310: api.github.com/repos/mattn/sqlite3-jev/git/trees/2172600da14",
+      "claim": "recursive tree listing (truncated: false) (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s311",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/mgaitan/sqlite-jev/git/trees/1ac946cdc0d80fd2d77ba0b64deafb456521fdd4?recursive=1",
+      "title": "Run 10 source R10-S311: api.github.com/repos/mgaitan/sqlite-jev/git/trees/1ac946cdc0",
+      "claim": "recursive tree listing (truncated: false) (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s312",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/rishi-raj-jain/pg-redact/git/trees/ee903ef40b3053af150e28bbf37cfe03e4409785?recursive=1",
+      "title": "Run 10 source R10-S312: api.github.com/repos/rishi-raj-jain/pg-redact/git/trees/ee90",
+      "claim": "recursive tree listing (truncated: false) (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s313",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/jerryjliu/docjev/git/trees/c7abe276a970605feb9cb8b27513365b6c10726e?recursive=1",
+      "title": "Run 10 source R10-S313: api.github.com/repos/jerryjliu/docjev/git/trees/c7abe276a970",
+      "claim": "recursive tree listing (truncated: false) (Documented (source at pin))",
+      "accessed_at": "2026-10-07T05:27:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s401",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49982760",
+      "title": "Run 10 source R10-S401: hn.algolia.com/api/v1/items/49982760",
+      "claim": "Hands-on comparison of Jev with Haiku 4.5, GPT-5.4-mini, and Gemini 3.5 Flash (Lead locator (HN via Algolia API))",
+      "accessed_at": "2026-10-07T05:28:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s402",
+      "source_type": "reported source",
+      "source_url": "https://blog.oodle.ai/is-jev-the-right-model-for-your-use-case-a-walkthrough-comparing-haiku-4-5-gpt-5-4-mini-and-gemini-3-5-flash/",
+      "title": "Run 10 source R10-S402: blog.oodle.ai/is-jev-the-right-model-for-your-use-case-a-wal",
+      "claim": "GPT-5.4-mini 84.5% 69% 435 / 576 $0.044 $0.24 Jev 69.5% 39% 163 / 264 $0.007 $0.24 (Reported (operator's own measurement))",
+      "accessed_at": "2026-10-07T05:28:06Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s403",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49980496",
+      "title": "Run 10 source R10-S403: hn.algolia.com/api/v1/items/49980496",
+      "claim": "Your Language Model Is Not-So-Secretly a System 1 Model (Lead locator (HN via Algolia API))",
+      "accessed_at": "2026-10-07T05:28:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s404",
+      "source_type": "reported source",
+      "source_url": "https://ivnle.github.io/blog/2026/jev-vs-open-models/",
+      "title": "Run 10 source R10-S404: ivnle.github.io/blog/2026/jev-vs-open-models/",
+      "claim": "Seven of the 23 open models we ranked match Jev at picking the right option on 19,505 decisions (Reported (operator's own measurement))",
+      "accessed_at": "2026-10-07T05:28:06Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s405",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49986583",
+      "title": "Run 10 source R10-S405: hn.algolia.com/api/v1/items/49986583",
+      "claim": "Jev-as-a-Judge for Agent Evaluations (Lead locator (HN via Algolia API))",
+      "accessed_at": "2026-10-07T05:28:01Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s406",
+      "source_type": "reported source",
+      "source_url": "https://academy.dair.ai/resources/jev-as-a-judge",
+      "title": "Run 10 source R10-S406: academy.dair.ai/resources/jev-as-a-judge",
+      "claim": "This guide walks through the idea with one refund example and a live playground. The full lab builds the complete evaluation workflow. (Tutorial (not a study))",
+      "accessed_at": "2026-10-07T05:28:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s407",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/49986765",
+      "title": "Run 10 source R10-S407: hn.algolia.com/api/v1/items/49986765",
+      "claim": "Jev-Driven SRE Diagnosis: What Worked and What Failed (Lead locator (HN via Algolia API))",
+      "accessed_at": "2026-10-07T05:28:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s408",
+      "source_type": "reported source",
+      "source_url": "https://www.sregym.com/blog/jev-driven-sre-diagnosis",
+      "title": "Run 10 source R10-S408: www.sregym.com/blog/jev-driven-sre-diagnosis",
+      "claim": "Across 21 SREGym-Lite faults, the Jev-driven pipeline passes 80 of 105 diagnoses (76.2%), with a median diagnosis time of 14.6 seconds. (Reported (operator's own measurement))",
+      "accessed_at": "2026-10-07T05:28:07Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s409",
+      "source_type": "documented source",
+      "source_url": "https://github.com/SREGym/SREGym",
+      "title": "Run 10 source R10-S409: github.com/SREGym/SREGym",
+      "claim": "28db97289323d888f6c75b0f273c3d8406cd129c HEAD; 28db97289323d888f6c75b0f273c3d8406cd129c refs/heads/main (Documented (repository refs))",
+      "accessed_at": "2026-10-07T05:28:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s410",
+      "source_type": "documented source",
+      "source_url": "https://github.com/SREGym/SREGym/tree/1a668ee5aab5c5622ae748fe92c51d9f80458021/clients/jev_diag",
+      "title": "Run 10 source R10-S410: github.com/SREGym/SREGym/tree/1a668ee5aab5c5622ae748fe92c51d",
+      "claim": "AGENT_NAME = \"jev_diag\" DEFAULT_MODEL = \"jev-latest\" ... the judge needs its own ``--judge-model``. (Documented (code at pinned commit))",
+      "accessed_at": "2026-10-07T05:28:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r10-s411",
+      "source_type": "documented source",
+      "source_url": "https://github.com/SREGym/SREGym/blob/1a668ee5aab5c5622ae748fe92c51d9f80458021/sregym/conductor/oracles/llm_as_a_judge/llm_as_a_judge_oracle.py",
+      "title": "Run 10 source R10-S411: github.com/SREGym/SREGym/blob/1a668ee5aab5c5622ae748fe92c51d",
+      "claim": "Get detailed judgment from DiagnosisJudge using root-cause-only ground truth ... Use composite score (0.0-1.0) scaled to 0-100 (Documented (evaluation code at pinned commit))",
+      "accessed_at": "2026-10-07T05:29:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

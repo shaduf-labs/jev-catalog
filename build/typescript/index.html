@@ -16,7 +16,7 @@
     <meta property="og:description" content="Jev (TypeSafe AI) from TypeScript: @typesafe-ai/sdk vs AI SDK experimental_evaluate vs fetch vs Workers, with versions, minimal calls and 12 gotchas.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/build/typescript/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Call Jev from TypeScript","description":"Jev (TypeSafe AI) from TypeScript: @typesafe-ai/sdk vs AI SDK experimental_evaluate vs fetch vs Workers, with versions, minimal calls and 12 gotchas.","dateModified":"2026-10-06T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/typescript/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Call Jev from TypeScript","description":"Jev (TypeSafe AI) from TypeScript: @typesafe-ai/sdk vs AI SDK experimental_evaluate vs fetch vs Workers, with versions, minimal calls and 12 gotchas.","dateModified":"2026-10-07T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/typescript/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="build-typescript">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -58,9 +58,10 @@
   </div>
 
   <div class="jv-box warn" id="version-drift">
-    <h2>Version drift, 2 Oct 2026 (updated 6 Oct)</h2>
+    <h2>Version drift, 2 Oct 2026 (updated 7 Oct)</h2>
     <p>Newer releases appeared after this page's audit: <code>ai</code> 7.0.123 to 7.0.126 (30 Sep) and now <strong>7.0.127</strong> (1 Oct, 19:20 UTC), and <code>@ai-sdk/typesafe-ai</code> 3.0.11 and <strong>3.0.12</strong> (30 Sep, 02:20 and 17:49 UTC) (<a href="https://registry.npmjs.org/ai">npm: ai</a>, <a href="https://registry.npmjs.org/@ai-sdk/typesafe-ai">npm: @ai-sdk/typesafe-ai</a>, checked 2 Oct 2026, 05:14 UTC). This page's audit used <code>ai</code> 7.0.122 and <code>@ai-sdk/typesafe-ai</code> 3.0.10. The new releases were <strong>not re-audited</strong>: the defaults, field names and gotchas below apply to the audited versions. <code>@typesafe-ai/sdk</code> is unchanged at 0.6.0 and <code>@ai-sdk/typesafe-ai</code> at 3.0.12 (checked 2 Oct 2026, 05:14 UTC). <span class="ev ev-documented">Documented</span></p>
     <p><strong>6 Oct 2026, 05:15 UTC:</strong> newer patch releases: <code>ai</code> 7.0.128 and <code>@ai-sdk/typesafe-ai</code> 3.0.13, 5 Oct 2026 (18:25 and 18:26 UTC; were 7.0.127 and 3.0.12); not re-audited. <code>@typesafe-ai/sdk</code> is still 0.6.0. <span class="ev ev-documented">Documented</span> <small>(<a href="https://registry.npmjs.org/ai">npm: ai</a>, R9-S36; <a href="https://registry.npmjs.org/@ai-sdk/typesafe-ai">npm: @ai-sdk/typesafe-ai</a>, R9-S37; <a href="https://registry.npmjs.org/@typesafe-ai/sdk">npm: @typesafe-ai/sdk</a>, R9-S35)</small></p>
+    <p><strong>7 Oct 2026, 05:19 UTC:</strong> newer patch releases: <code>ai</code> 7.0.130 and <code>@ai-sdk/typesafe-ai</code> 3.0.15, 7 Oct 2026 (01:47 and 01:41 UTC; 7.0.129 and 3.0.14 came out on 6 Oct, 22:23 and 22:20 UTC; were 7.0.128 and 3.0.13); not re-audited. <code>@typesafe-ai/sdk</code> is still 0.6.0. <span class="ev ev-documented">Documented</span> <small>(<a href="https://registry.npmjs.org/ai">npm: ai</a>, <a href="https://registry.npmjs.org/@ai-sdk/typesafe-ai">npm: @ai-sdk/typesafe-ai</a> and <a href="https://registry.npmjs.org/@typesafe-ai/sdk">npm: @typesafe-ai/sdk</a>, R10-S35)</small></p>
   </div>
 
   <dl class="jv-facts">
@@ -282,6 +283,7 @@ console.log(body.answers.category.choice, body.answers.category.confidence);</co
       <li><a href="../../where-to-use/index.html">Routes, model IDs and prices</a></li>
       <li><a href="../../where-to-use/versions-and-aliases/index.html">Jev 1.13 and jev-latest: which model ID to pin on each route</a></li>
       <li><a href="../../videos/index.html#vg-typescript">TypeScript demo videos</a></li>
+      <li><a href="../../reports/judge-rows-benchmarks/index.html">7 Oct research report (version drift)</a></li>
     </ul>
   </section>
 </article>
@@ -300,7 +302,7 @@ console.log(body.answers.category.choice, body.answers.category.confidence);</co
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>6 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>7 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
     </div>

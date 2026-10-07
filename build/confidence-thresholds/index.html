@@ -16,7 +16,7 @@
     <meta property="og:description" content="What Jev (TypeSafe AI) probability and confidence fields mean for Choice, Score and Noul, and a procedure to pick a cutoff on your own data.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/build/confidence-thresholds/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev confidence thresholds","description":"What Jev (TypeSafe AI) probability and confidence fields mean for Choice, Score and Noul, and a procedure to pick a cutoff on your own data.","dateModified":"2026-10-06T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/confidence-thresholds/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev confidence thresholds","description":"What Jev (TypeSafe AI) probability and confidence fields mean for Choice, Score and Noul, and a procedure to pick a cutoff on your own data.","dateModified":"2026-10-07T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/confidence-thresholds/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="build-confidence">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -121,7 +121,7 @@
   </div>
 
   <h2 id="procedure">Seven steps to choose a cutoff</h2>
-  <p><small>What real implementations do with answers below their cutoff (held, acts anyway, fallback and others, counted across 58 implementations) is on <a href="../when-jev-fails/index.html">when Jev fails</a>. How to escalate unsure verdicts when Jev is used as an eval judge is on <a href="../../use-cases/llm-as-judge/index.html#lj-procedure">Jev as a judge</a>.</small></p>
+  <p><small>What real implementations do with answers below their cutoff (held, acts anyway, fallback and others, counted across 64 implementations) is on <a href="../when-jev-fails/index.html">when Jev fails</a>. How to escalate unsure verdicts when Jev is used as an eval judge is on <a href="../../use-cases/llm-as-judge/index.html#lj-procedure">Jev as a judge</a>.</small></p>
   <ol class="steps">
     <li><strong>Freeze the question.</strong> Fix the question text, criteria, <code>model="jev-1.13.0"</code> (never an alias) and how you serialise the request.</li>
     <li><strong>Label real cases.</strong> Collect a few hundred per question, including out-of-scope, ambiguous and high-impact cases. Split them into development and held-out test sets that share no source conversation.</li>
@@ -164,6 +164,7 @@
   <p><span class="ev ev-reported">Reported</span> <small>Each result comes from one dataset and one model version, measured by its author. The pool did not rerun them. Repositories without a licence cannot be reused freely.</small></p>
   <div class="jv-box info" id="calibration-ledger">
     <p><strong>Calibration results in larger studies (added 30 Sep 2026).</strong> The <a href="../../benchmarks/index.html">graded benchmarks ledger</a> has more calibration rows, each with operator, task, n and grade. <a href="../../benchmarks/index.html#b06">B06 Jevals</a> reports an expected calibration error of 5.0 points on PubMedQA (the pool recomputed 5.10 from the published log). <a href="../../benchmarks/index.html#b13">B13 (NYU Abu Dhabi)</a> finds Jev's confidence better calibrated than the stated confidence of 16 of 19 LLMs, but reports one task with high confidence at near-chance accuracy. <a href="../../benchmarks/index.html#tier2">B15 (punk2898)</a> finds yes/no calibration level with GPT-5.6 Sol and multiple-choice overconfidence. <a href="../../benchmarks/index.html#tier2">B17 (AnthusAI)</a> is the recalibration study in the table above. All <span class="ev ev-reported">Reported</span>. The procedure on this page stays the same: choose the cutoff on your own labelled data.</p>
+    <p><small>Added 7 Oct 2026: new calibration rows on the ledger, <a href="../../benchmarks/index.html#b29">B29 Synthpop</a> (grade A), <a href="../../benchmarks/index.html#b30">B30</a> (grade C) and <a href="../../benchmarks/index.html#b31">B31 DoubtBench</a> (grade A), each Reported by its operator.</small></p>
   </div>
 
   <div class="jv-box warn">
@@ -211,7 +212,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>6 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>7 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
     </div>

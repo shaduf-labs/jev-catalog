@@ -242,6 +242,17 @@
       "summary": "Read 18 Jev integrations for Codex, OpenCode, Cursor, OpenClaw and Hermes Agent at pinned commits: 1 is vendor-published (OpenClaw) and none comes from TypeSafe; 6 act on Jev's answer, and 4 of those let the tool call run when Jev errors. Read model IDs and aliases on 6 routes: 4 accept a versioned ID; Vercel and Cloudflare take only an unversioned one; jev-latest points to jev-1.13.0. Failure checklist: 58 implementations in 10 use cases; 32 stop or hold the action on a Jev error and 7 let it through unchecked. Products: 92 rows, 75 grade A, none independently verified. Vercel lists TypeSafe as a second provider for Jev. Access unchanged. No agent, plugin or hook installed or run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/coding-agents-versions",
       "entrypoint": "reports/coding-agents-versions/index.html"
+    },
+    {
+      "run_id": "run:0c869900-dcb8-4610-9e16-932d96992193",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-07T05:16:57Z",
+      "completed_at": "2026-10-07T06:30:00Z",
+      "title": "Judge tools counted when Jev fails, coding-agent cells settled, and new Jev benchmarks graded",
+      "summary": "Failure checklist: 64 implementations in 11 use cases, now including 4 eval-judge tools and 2 Hermes Agent plugins; on a Jev error 35 stop or hold the action, 13 fall back, 8 are advisory or return no decision and 8 let it through (one is openlayer jevals, whose report counts an errored eval as passed). Coding agents: all 5 open cells settled; of 18 read, 8 act on Jev's answer and 4 of those let the tool call run when Jev errors. Benchmarks: 9 new studies graded (33 graded rows), Elastic regraded to B, two short-answer clauses changed; reranking condition met for the next run. Access unchanged; WorkflowEvals notice retired. Nothing installed or run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/judge-rows-benchmarks",
+      "entrypoint": "reports/judge-rows-benchmarks/index.html"
     }
   ]
 }
