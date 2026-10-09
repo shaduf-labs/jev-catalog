@@ -253,6 +253,17 @@
       "summary": "Failure checklist: 64 implementations in 11 use cases, now including 4 eval-judge tools and 2 Hermes Agent plugins; on a Jev error 35 stop or hold the action, 13 fall back, 8 are advisory or return no decision and 8 let it through (one is openlayer jevals, whose report counts an errored eval as passed). Coding agents: all 5 open cells settled; of 18 read, 8 act on Jev's answer and 4 of those let the tool call run when Jev errors. Benchmarks: 9 new studies graded (33 graded rows), Elastic regraded to B, two short-answer clauses changed; reranking condition met for the next run. Access unchanged; WorkflowEvals notice retired. Nothing installed or run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/judge-rows-benchmarks",
       "entrypoint": "reports/judge-rows-benchmarks/index.html"
+    },
+    {
+      "run_id": "run:61ac0fbc-a501-4f48-b1e5-503fd921a06e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-08T05:12:04Z",
+      "completed_at": "2026-10-08T06:10:00Z",
+      "title": "Jev reranker and RAG, and Jev inside SQL and document pipelines",
+      "summary": "Two new use-case pages: reranking studies by study type and five reranking and passage-filter implementations at pinned commits; five SQL and document-pipeline projects with their failure cells and the data they send. When Jev fails recounted at 69 implementations; the jev-approvals Jev-error cell corrected. Access unchanged. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/reranking-databases",
+      "entrypoint": "reports/reranking-databases/index.html"
     }
   ]
 }

@@ -9090,6 +9090,916 @@
       "accessed_at": "2026-10-07T05:29:20Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s01",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query=<33 queries>&tags=<story|comment>&typoTolerance=false&numericFilters=created_at_i>=1791349920,created_at_i<1791436320",
+      "title": "Run 11 source R11-S01: hn.algolia.com/api/v1/search_by_date?query=<33 queries>&tags",
+      "claim": "'jev': 6 stories, 61 comments; 'jev rerank', 'jev reranker', 'jev sql', 'jev postgres', 'jev vision': 0 stories, 0 comments (Hacker News Algolia, S1 window)",
+      "accessed_at": "2026-10-08T05:16:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s02",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=<jev|topic:jev>+created:2026-10-07T05:12:00Z..2026-10-08T05:11:59Z",
+      "title": "Run 11 source R11-S02: api.github.com/search/repositories?q=<jev|topic:jev>+created",
+      "claim": "jev: total_count 211, incomplete_results false; topic:jev: 29 (GitHub repository search (2 calls))",
+      "accessed_at": "2026-10-08T05:16:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s03",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?size=250&text=<jev|typesafe|jev rerank|jev sql>",
+      "title": "Run 11 source R11-S03: registry.npmjs.org/-/v1/search?size=250&text=<jev|typesafe|j",
+      "claim": "10 'jev' packages and 4 'typesafe' packages with a last publish in the window (npm search)",
+      "accessed_at": "2026-10-08T05:16:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s04",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=<jev|jev-vl>&sort=lastModified&direction=-1",
+      "title": "Run 11 source R11-S04: huggingface.co/api/models?search=<jev|jev-vl>&sort=lastModif",
+      "claim": "22 'jev' models modified in window; 7 'jev-vl' incl. autotrust/JEV-27B-VL; none from TypeSafe (Hugging Face models)",
+      "accessed_at": "2026-10-08T05:16:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s05",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev&per_page=100",
+      "title": "Run 11 source R11-S05: dev.to/api/articles?tag=jev&per_page=100",
+      "claim": "Structured AI Decisions in Quote-to-Cash: Using TypeSafe's Jev Model (DEV.to tag jev)",
+      "accessed_at": "2026-10-08T05:16:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s07",
+      "source_type": "documented source",
+      "source_url": "https://www.reddit.com/search.json?q=jev&sort=new",
+      "title": "Run 11 source R11-S07: www.reddit.com/search.json?q=jev&sort=new",
+      "claim": "HTTP 403 (Reddit search)",
+      "accessed_at": "2026-10-08T05:16:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s11",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&q=<q> ; https://api.bing.com/osjson.aspx?query=<q> ; https://duckduckgo.com/ac/?type=list&q=<q> (16 queries + 7 shorter prefixes)",
+      "title": "Run 11 source R11-S11: suggestqueries.google.com/complete/search?client=firefox&q=<",
+      "claim": "Bing and DuckDuckGo 'jev rer' -> 'jev reranker'; Google 'jev for r' -> 'jev for rag'; Google only 'jev post' -> 'jev postgres' (Autocomplete, three web endpoints)",
+      "accessed_at": "2026-10-08T05:16:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s20",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Run 11 source R11-S20: status.typesafe.ai/",
+      "claim": "All services are online Last updated on Oct 8, 2026 at 5:14am UTC (TypeSafe status page)",
+      "accessed_at": "2026-10-08T05:14:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Run 11 source R11-S21: docs.typesafe.ai/models.md",
+      "claim": "Rate limits | 100K tokens per second / 80 requests per second (TypeSafe models page (alias read))",
+      "accessed_at": "2026-10-08T05:14:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s22",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Run 11 source R11-S22: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "no 'credit' or 'waitlist' string (TypeSafe docs quickstart)",
+      "accessed_at": "2026-10-08T05:14:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s23",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/ ; https://typesafe.ai/blog",
+      "title": "Run 11 source R11-S23: typesafe.ai/ ; https://typesafe.ai/blog",
+      "claim": "Jack & Jill & Jev: Cutting candidate screening costs by 88% (TypeSafe homepage and blog index)",
+      "accessed_at": "2026-10-08T05:14:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s24",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/ ; /signup",
+      "title": "Run 11 source R11-S24: console.typesafe.ai/ ; /signup",
+      "claim": "HTTP 403 (TypeSafe console)",
+      "accessed_at": "2026-10-08T05:14:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s25",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Run 11 source R11-S25: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "\"name\":\"TypeSafe | typesafe/jev-1.13-20260917\" (OpenRouter jev-1.13 endpoints)",
+      "accessed_at": "2026-10-08T05:14:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s26",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-router/endpoints ; https://openrouter.ai/api/v1/models",
+      "title": "Run 11 source R11-S26: openrouter.ai/api/v1/models/typesafe/jev-router/endpoints ; ",
+      "claim": "typesafe/jev-router prompt -1, context_length 1000000 (OpenRouter jev-router and models list)",
+      "accessed_at": "2026-10-08T05:14:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s27",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Run 11 source R11-S27: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. Just create an OpenRouter API key (OpenRouter Jev guide)",
+      "accessed_at": "2026-10-08T05:14:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Run 11 source R11-S28: ai-gateway.vercel.sh/v1/models",
+      "claim": "\"id\": \"typesafe-ai/jev\" ... \"zdr\": \"some\", \"no_training\": \"all\" (Vercel AI Gateway models)",
+      "accessed_at": "2026-10-08T05:14:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Run 11 source R11-S29: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "Zero data retention Yes Pricing Input (per 1M tokens) $0.042 (Cloudflare Workers AI typesafe/jev)",
+      "accessed_at": "2026-10-08T05:14:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s33",
+      "source_type": "documented source",
+      "source_url": "https://opper.ai/typesafe/jev-1-13-0 ; https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Run 11 source R11-S33: opper.ai/typesafe/jev-1-13-0 ; https://api.opper.ai/v3/model",
+      "claim": "\"aliases\":[\"typesafe/jev-latest\",\"typesafe/jev-preview\"] (Opper Jev 1.13)",
+      "accessed_at": "2026-10-08T05:14:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s34",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json",
+      "title": "Run 11 source R11-S34: pypi.org/pypi/typesafe-sdk/json",
+      "claim": "version 0.7.2 (PyPI typesafe-sdk)",
+      "accessed_at": "2026-10-08T05:14:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s35",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/{@typesafe-ai/sdk,ai,@ai-sdk/typesafe-ai}",
+      "title": "Run 11 source R11-S35: registry.npmjs.org/{@typesafe-ai/sdk,ai,@ai-sdk/typesafe-ai}",
+      "claim": "ai 7.0.133 2026-10-08T00:30:36Z; @ai-sdk/typesafe-ai 3.0.16 2026-10-08T00:32:18Z (npm SDK packages)",
+      "accessed_at": "2026-10-08T05:14:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s36",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "title": "Run 11 source R11-S36: api.github.com/orgs/typesafe-ai/repos?per_page=100",
+      "claim": "typesafe-public-examples pushed 2026-10-07T14:21:36Z; WorkflowEvals pushed 2026-09-29T16:25:18Z (TypeSafe GitHub organisation)",
+      "accessed_at": "2026-10-08T05:14:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s37",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/{terms,acceptable-use-policy,mca,data-processing,privacy-policy}",
+      "title": "Run 11 source R11-S37: typesafe.ai/legal/{terms,acceptable-use-policy,mca,data-proc",
+      "claim": "Last updated Sep 23, 2026 (TypeSafe legal pages)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s38",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Run 11 source R11-S38: docs.typesafe.ai/legal.md",
+      "claim": "1,168 bytes (TypeSafe docs legal index)",
+      "accessed_at": "2026-10-08T05:14:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s39",
+      "source_type": "documented source",
+      "source_url": "https://trust.typesafe.ai/subprocessors ; /updates (chromium-headless-shell --dump-dom, temporary profile)",
+      "title": "Run 11 source R11-S39: trust.typesafe.ai/subprocessors ; /updates (chromium-headles",
+      "claim": "Customer AI prompts are processed, but not stored, on compute nodes managed by Nebius (TypeSafe trust center)",
+      "accessed_at": "2026-10-08T05:15:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s42",
+      "source_type": "documented source",
+      "source_url": "https://thejevai.com/ (homepage only)",
+      "title": "Run 11 source R11-S42: thejevai.com/ (homepage only)",
+      "claim": "Jev AI — Jev Model Online, Free, No Waitlist (Lookalike watch: thejevai.com)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s43",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Run 11 source R11-S43: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/statu",
+      "claim": "good news: ANYONE CAN SIGN UP ... we had to temporarily disable the free credits (just for new users) (TypeSafe CEO post via X oEmbed)",
+      "accessed_at": "2026-10-08T05:14:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s44",
+      "source_type": "documented source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Run 11 source R11-S44: aifront-page.com/",
+      "claim": "0 matches for jev or typesafe (AI FrontPage homepage)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s45",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/endpoints/zdr",
+      "title": "Run 11 source R11-S45: openrouter.ai/api/v1/endpoints/zdr",
+      "claim": "TypeSafe | typesafe/jev-1.13-20260917 (OpenRouter ZDR endpoint list)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s46",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Run 11 source R11-S46: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "\"provider_name\":\"digitalocean\",\"has_zdr\":false (Vercel endpoints for typesafe-ai/jev)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s47",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Run 11 source R11-S47: docs.netlify.com/build/ai-gateway/overview/",
+      "claim": "systemOne uses jev-latest by default (Netlify AI Gateway overview)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s48",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/<17 pinned packages> ; https://pypi.org/pypi/<9 packages>/json ; https://repo1.maven.org/maven2/org/springaicommunity/typesafe-spring-ai/maven-metadata.xml",
+      "title": "Run 11 source R11-S48: registry.npmjs.org/<17 pinned packages> ; https://pypi.org/p",
+      "claim": "@effect/ai-typesafe 4.0.2 2026-10-07T17:29:25Z; litellm 1.104.1 2026-10-07T20:12:39Z; lancedb 0.40.0 2026-10-07T10:35:02Z (Drift registry)",
+      "accessed_at": "2026-10-08T05:18:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s49",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/{Yeachan-Heo/oh-my-claudecode,lancedb/lancedb}/releases?per_page=3 ; https://api.github.com/repos/hotchpotch/jev-reranker/tags",
+      "title": "Run 11 source R11-S49: api.github.com/repos/{Yeachan-Heo/oh-my-claudecode,lancedb/l",
+      "claim": "jev-reranker v0.1.2 -> d58594b393b29b7ee6398cc9337dc5e9d6c6691e; lancedb v0.40.0 published 2026-10-07T09:17:29Z (GitHub releases and tags)",
+      "accessed_at": "2026-10-08T05:18:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s50",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/~typesafe/jev-latest/endpoints",
+      "title": "Run 11 source R11-S50: openrouter.ai/api/v1/models/~typesafe/jev-latest/endpoints",
+      "claim": "This model always redirects to the latest model in the Jev family. (OpenRouter ~typesafe/jev-latest)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s51",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Run 11 source R11-S51: docs.typesafe.ai/changelog.md",
+      "claim": "HTTP 404 (TypeSafe docs changelog)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s52",
+      "source_type": "documented source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Run 11 source R11-S52: research.eye.security/rise-of-the-jev-clones/",
+      "claim": "names jev-agent.org, jev-ai.pro, jevtypesafeai.com (Eye Security lookalike report)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s53",
+      "source_type": "documented source",
+      "source_url": "https://jev-agent.org/ (homepage only)",
+      "title": "Run 11 source R11-S53: jev-agent.org/ (homepage only)",
+      "claim": "Jev: Fast System One Decisions for AI Agents | Jev Agent (Lookalike reseller jev-agent.org)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s54",
+      "source_type": "documented source",
+      "source_url": "https://jev-ai.pro/ (homepage only)",
+      "title": "Run 11 source R11-S54: jev-ai.pro/ (homepage only)",
+      "claim": "Jev AI — Try the Jev Model by TypeSafe: Playground & API (Lookalike reseller jev-ai.pro)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s55",
+      "source_type": "documented source",
+      "source_url": "https://jevtypesafeai.com/ (homepage only; never a content source)",
+      "title": "Run 11 source R11-S55: jevtypesafeai.com/ (homepage only; never a content source)",
+      "claim": "Jev by TypeSafe AI — Try the System One model & API (Lookalike reseller jevtypesafeai.com)",
+      "accessed_at": "2026-10-08T05:14:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s56",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jack-jill-jev-case-study",
+      "title": "Run 11 source R11-S56: typesafe.ai/blog/jack-jill-jev-case-study",
+      "claim": "Jev maintained the same level of accuracy, with 88% lower cost and roughly 50% faster task completion time (TypeSafe vendor case study (Jack & Jill))",
+      "accessed_at": "2026-10-08T05:14:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s100",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/tags/v5.6.2",
+      "title": "Run 11 source R11-S100: api.github.com/repos/Yeachan-Heo/oh-my-claudecode/releases/t",
+      "claim": "'draft': False, 'prerelease': False, 'created_at': '2026-10-06T05:54:53Z', 'published_at': '2026-10-06T06:15:10Z' (Documented)",
+      "accessed_at": "2026-10-08T05:12:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s101",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/454bae017356ed1d056182cd929b6eb6cf6143ad/src/hooks/jev/resolver.ts",
+      "title": "Run 11 source R11-S101: raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/454ba",
+      "claim": "Degrade paths (timeout, HTTP error, invalid response) return the twin and log mode:\"degraded\". The resolver never throws (Documented)",
+      "accessed_at": "2026-10-08T05:13:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s102",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/454bae017356ed1d056182cd929b6eb6cf6143ad/src/hooks/jev/config.ts",
+      "title": "Run 11 source R11-S102: raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/454ba",
+      "claim": "const DEFAULT_TIMEOUT_MS = 2000; (Documented)",
+      "accessed_at": "2026-10-08T05:13:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s103",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@jkudish%2fjev-mcp",
+      "title": "Run 11 source R11-S103: registry.npmjs.org/@jkudish%2fjev-mcp",
+      "claim": "'0.13.0': '2026-10-02T03:50:18.978Z', '0.14.0': '2026-10-06T20:54:49.420Z', '0.14.1': '2026-10-06T21:41:43.862Z' (Documented)",
+      "accessed_at": "2026-10-08T05:13:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s104",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@jkudish/jev-mcp/-/jev-mcp-0.14.1.tgz",
+      "title": "Run 11 source R11-S104: registry.npmjs.org/@jkudish/jev-mcp/-/jev-mcp-0.14.1.tgz",
+      "claim": "const REQUEST_TIMEOUT_MS = positiveIntFromEnv(\"JEV_MCP_REQUEST_TIMEOUT_MS\", 60_000); (Documented)",
+      "accessed_at": "2026-10-08T05:13:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s105",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@jkudish/jev-agent-tools/-/jev-agent-tools-0.2.0.tgz",
+      "title": "Run 11 source R11-S105: registry.npmjs.org/@jkudish/jev-agent-tools/-/jev-agent-tool",
+      "claim": "Multi-provider Jev transport with fail-closed validation, used by Jev Browser and Jev MCP. (Reported)",
+      "accessed_at": "2026-10-08T05:13:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s106",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/24601/rh-guard/c2e682ef0e838cc0538a7c2062e8a96d262dbd14/src/lib/risk/score.ts",
+      "title": "Run 11 source R11-S106: raw.githubusercontent.com/24601/rh-guard/c2e682ef0e838cc0538",
+      "claim": "mutatingStage(input.stage) && choiceConfidence !== null && choiceConfidence < 0.5 (Documented)",
+      "accessed_at": "2026-10-08T05:14:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s107",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/openlayer-ai/jevals/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/__init__.py",
+      "title": "Run 11 source R11-S107: raw.githubusercontent.com/openlayer-ai/jevals/0a8f895a0428b8",
+      "claim": "No backend configured. Set one of TYPESAFE_API_KEY, AI_GATEWAY_API_KEY, KEV_BASE_URL, EIKOS_BASE_URL, (Documented)",
+      "accessed_at": "2026-10-08T05:14:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s108",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/transport.py",
+      "title": "Run 11 source R11-S108: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e862",
+      "claim": "No credential is configured for Jev provider {route.credential_provider!r}; (Documented)",
+      "accessed_at": "2026-10-08T05:15:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s109",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/graph.py",
+      "title": "Run 11 source R11-S109: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e862",
+      "claim": "MIN_CONFIDENCE = 0.85      # confidence in the absorbing relation choice (Documented)",
+      "accessed_at": "2026-10-08T05:15:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s110",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/tools/approval_smart.py",
+      "title": "Run 11 source R11-S110: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "task=\"approval\", temperature=0, max_tokens=16, timeout=smart_timeout, (Documented)",
+      "accessed_at": "2026-10-08T05:15:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s111",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/agent/auxiliary_client.py",
+      "title": "Run 11 source R11-S111: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "fb_client, fb_model, fb_label = _try_main_agent_model_fallback( (Documented)",
+      "accessed_at": "2026-10-08T05:16:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s112",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28be98a19539b29768398fb400f4c62f41337c26/plugin/__init__.py",
+      "title": "Run 11 source R11-S112: raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28b",
+      "claim": "last = RuntimeError(f\"{PROVIDER_NAME}: {type(exc).__name__}: {exc}\") (Documented)",
+      "accessed_at": "2026-10-08T05:16:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s200",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/hotchpotch/jev-reranker/d58594b393b29b7ee6398cc9337dc5e9d6c6691e/src/jev_reranker/_client.py",
+      "title": "Run 11 source R11-S200: raw.githubusercontent.com/hotchpotch/jev-reranker/d58594b393",
+      "claim": "raise ResponseValidationError(\"TypeSafe returned invalid JSON.\") (Documented)",
+      "accessed_at": "2026-10-08T05:13:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s201",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/hotchpotch/jev-reranker/d58594b393b29b7ee6398cc9337dc5e9d6c6691e/src/jev_reranker/reranker.py",
+      "title": "Run 11 source R11-S201: raw.githubusercontent.com/hotchpotch/jev-reranker/d58594b393",
+      "claim": "for i in sorted(range(len(scores)), key=lambda i: -scores[i]) if scores[i] >= threshold (Documented)",
+      "accessed_at": "2026-10-08T05:13:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s202",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/hotchpotch/jev-reranker/d58594b393b29b7ee6398cc9337dc5e9d6c6691e/src/jev_reranker/_ranking.py",
+      "title": "Run 11 source R11-S202: raw.githubusercontent.com/hotchpotch/jev-reranker/d58594b393",
+      "claim": "except ContextLimitError: await split(indices, depth, max(1, sb // 2), max(1, rb // 2), \"max_tokens_exceeded\") (Documented)",
+      "accessed_at": "2026-10-08T05:13:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s203",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/jev-reranker/json",
+      "title": "Run 11 source R11-S203: pypi.org/pypi/jev-reranker/json",
+      "claim": "0.1.2 (Documented)",
+      "accessed_at": "2026-10-08T05:13:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s204",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/lancedb/lancedb/b1b080b97c3edd2fd9f2aae8a3b71ff19487b1f8/python/python/lancedb/rerankers/typesafe.py",
+      "title": "Run 11 source R11-S204: raw.githubusercontent.com/lancedb/lancedb/b1b080b97c3edd2fd9",
+      "claim": "Null documents keep a score of zero without an API request; empty strings are scored normally. API and response-validation errors propagate. (Documented)",
+      "accessed_at": "2026-10-08T05:13:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s205",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/lancedb/lancedb/git/refs/tags/v0.40.0",
+      "title": "Run 11 source R11-S205: api.github.com/repos/lancedb/lancedb/git/refs/tags/v0.40.0",
+      "claim": "\"type\": \"tag\" (Documented)",
+      "accessed_at": "2026-10-08T05:13:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s206",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/lancedb/research/4616259eb0c5a266c9c03bc133ff3600e05c19a3/reranking/benchmark/bench.py",
+      "title": "Run 11 source R11-S206: raw.githubusercontent.com/lancedb/research/4616259eb0c5a266c",
+      "claim": "\"jev\": {}, (Documented)",
+      "accessed_at": "2026-10-08T05:13:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s207",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/lancedb/research/4616259eb0c5a266c9c03bc133ff3600e05c19a3/reranking/benchmark/README.md",
+      "title": "Run 11 source R11-S207: raw.githubusercontent.com/lancedb/research/4616259eb0c5a266c",
+      "claim": "Jev drops below no reranker on HotpotQA (hybrid 92.67 vs 96.19) (Reported)",
+      "accessed_at": "2026-10-08T05:13:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s208",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/lancedb/research/4616259eb0c5a266c9c03bc133ff3600e05c19a3/reranking/benchmark/results/README.md",
+      "title": "Run 11 source R11-S208: raw.githubusercontent.com/lancedb/research/4616259eb0c5a266c",
+      "claim": "| jev | 87.72 | 90.87 | 89.45 | 92.68 | 89.18 | 92.67 | 190 | (Reported)",
+      "accessed_at": "2026-10-08T05:13:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s209",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mugunthank7/jev-pulse/a1e796f834b37a81e42e7135db8be852c87e9646/README.md",
+      "title": "Run 11 source R11-S209: raw.githubusercontent.com/mugunthank7/jev-pulse/a1e796f834b3",
+      "claim": "| nDCG@10 | 0.660 | **0.772** (+0.112, standard error ~0.037) | (Reported)",
+      "accessed_at": "2026-10-08T05:14:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s210",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mugunthank7/jev-pulse/a1e796f834b37a81e42e7135db8be852c87e9646/apps/api/src/rerank/metrics.ts",
+      "title": "Run 11 source R11-S210: raw.githubusercontent.com/mugunthank7/jev-pulse/a1e796f834b3",
+      "claim": "/** nDCG@k with ESCI gains. `order` is a list of candidate indexes, best first. */ (Documented)",
+      "accessed_at": "2026-10-08T05:14:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s211",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anweat/jev-websearch-eval/38dde1613bc22cc45c7d3de3a2018cff0bd8ce17/README.md",
+      "title": "Run 11 source R11-S211: raw.githubusercontent.com/anweat/jev-websearch-eval/38dde161",
+      "claim": "whether the hosted **Bocha Jev** decision model (`bocha-jev-v1`) is worth using inside a web-search *evidence pipeline* (Reported)",
+      "accessed_at": "2026-10-08T05:14:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s213",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecba75a443c580a8979ce2587e2d452d4d8e511/README.md",
+      "title": "Run 11 source R11-S213: raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecb",
+      "claim": "Equal-dataset nDCG@10: Jev rubric 0.692, Cohere Pro 0.691, ZeroEntropy zerank-2 0.682. (Reported)",
+      "accessed_at": "2026-10-08T05:14:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s214",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/cookbooks/rerank_typesafe",
+      "title": "Run 11 source R11-S214: docs.typesafe.ai/cookbooks/rerank_typesafe",
+      "claim": "top-1 accuracy from 5% to 18% (Reported)",
+      "accessed_at": "2026-10-08T05:14:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s215",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/cookbooks/classifying_rag_passages",
+      "title": "Run 11 source R11-S215: docs.typesafe.ai/cookbooks/classifying_rag_passages",
+      "claim": "Between retrieval and generation, add a second stage that classifies each retrieved passage (Documented)",
+      "accessed_at": "2026-10-08T05:14:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s216",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/cookbooks",
+      "title": "Run 11 source R11-S216: docs.typesafe.ai/cookbooks",
+      "claim": "Classifying RAG passages (Documented)",
+      "accessed_at": "2026-10-08T05:14:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s217",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/realZachi/pg-jev/8d9598d87d5ff460998d91ec070226176024a841/sql/jev--0.2.1.sql",
+      "title": "Run 11 source R11-S217: raw.githubusercontent.com/realZachi/pg-jev/8d9598d87d5ff4609",
+      "claim": "Answers are cached per row content and question for the backend session (Documented)",
+      "accessed_at": "2026-10-08T05:15:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s218",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mattn/sqlite3-jev/2172600da148182703f8f221089d9304d0fb97f9/jev.c",
+      "title": "Run 11 source R11-S218: raw.githubusercontent.com/mattn/sqlite3-jev/2172600da1481827",
+      "claim": "jev_noul(state, instructions [, true_desc, false_desc]) -> REAL (0..1) (Documented)",
+      "accessed_at": "2026-10-08T05:15:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s219",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mgaitan/sqlite-jev/1ac946cdc0d80fd2d77ba0b64deafb456521fdd4/src/jev.c",
+      "title": "Run 11 source R11-S219: raw.githubusercontent.com/mgaitan/sqlite-jev/1ac946cdc0d80fd",
+      "claim": "sqlite3_result_int(ctx, value >= threshold); (Documented)",
+      "accessed_at": "2026-10-08T05:15:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s220",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/rishi-raj-jain/pg-redact/ee903ef40b3053af150e28bbf37cfe03e4409785/src/lib/jev.ts",
+      "title": "Run 11 source R11-S220: raw.githubusercontent.com/rishi-raj-jain/pg-redact/ee903ef40",
+      "claim": "if (conf < CONF_THRESHOLD) return (Documented)",
+      "accessed_at": "2026-10-08T05:16:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s221",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/rishi-raj-jain/pg-redact/ee903ef40b3053af150e28bbf37cfe03e4409785/src/app/api/classify/route.ts",
+      "title": "Run 11 source R11-S221: raw.githubusercontent.com/rishi-raj-jain/pg-redact/ee903ef40",
+      "claim": "insert into messages (source, body, spans) (Documented)",
+      "accessed_at": "2026-10-08T05:16:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s222",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jerryjliu/docjev/c7abe276a970605feb9cb8b27513365b6c10726e/src/jev_docs/engines/jev.py",
+      "title": "Run 11 source R11-S222: raw.githubusercontent.com/jerryjliu/docjev/c7abe276a970605fe",
+      "claim": "starts_document=probability >= boundary_threshold, (Documented)",
+      "accessed_at": "2026-10-08T05:16:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s223",
+      "source_type": "documented source",
+      "source_url": "https://github.com/judoaseeta/duckdb-jev/tree/58e548463b0bfb25d86bc68b11515a1daaf87ab3",
+      "title": "Run 11 source R11-S223: github.com/judoaseeta/duckdb-jev/tree/58e548463b0bfb25d86bc6",
+      "claim": "FlatVector::GetData<bool>(result)[row] = number >= threshold; (Documented)",
+      "accessed_at": "2026-10-08T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s224",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Sheltercosmo/jev4pg/tree/511432a94be59423ebc834a1a890d50064ccb538",
+      "title": "Run 11 source R11-S224: github.com/Sheltercosmo/jev4pg/tree/511432a94be59423ebc834a1",
+      "claim": "os.getenv(\"TYPESAFE_API_KEY\") (Documented)",
+      "accessed_at": "2026-10-08T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s225",
+      "source_type": "documented source",
+      "source_url": "https://github.com/wuxianliang/pg_typesafe/tree/11d9358b7f82e3af026e8f706177fa3fda1e6bb5",
+      "title": "Run 11 source R11-S225: github.com/wuxianliang/pg_typesafe/tree/11d9358b7f82e3af026e",
+      "claim": "env = getenv(\"TYPESAFE_API_KEY\"); (Documented)",
+      "accessed_at": "2026-10-08T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s226",
+      "source_type": "documented source",
+      "source_url": "https://github.com/sashimikun/sql-jev/tree/f8a6937b6bd21b0062d61eb6556ecec74f1be3f4",
+      "title": "Run 11 source R11-S226: github.com/sashimikun/sql-jev/tree/f8a6937b6bd21b0062d61eb65",
+      "claim": "const response = await fetch(config.apiUrl, { (Documented)",
+      "accessed_at": "2026-10-08T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s227",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Peterrallojay/sqlite-utils-jev/tree/8ddfaeb7e6ce8f62c54bbdfaa040478aef7fc389",
+      "title": "Run 11 source R11-S227: github.com/Peterrallojay/sqlite-utils-jev/tree/8ddfaeb7e6ce8",
+      "claim": "raise JevError(\"Set TYPESAFE_API_KEY before making a new request\") (Documented)",
+      "accessed_at": "2026-10-08T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s228",
+      "source_type": "documented source",
+      "source_url": "https://github.com/qsliu2017/pg_jevplanner/tree/5e888343e7b3d3730d13b0d473c8dea9af542377",
+      "title": "Run 11 source R11-S228: github.com/qsliu2017/pg_jevplanner/tree/5e888343e7b3d3730d13",
+      "claim": "planner_hook = jev_planner; (Documented)",
+      "accessed_at": "2026-10-08T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s300",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions",
+      "title": "Run 11 source R11-S300: developers.openai.com/api/docs/guides/decisions",
+      "claim": "Evaluates text, images, or both and returns typed answers about 10x faster than the Responses API. (Documented (vendor docs))",
+      "accessed_at": "2026-10-08T05:31:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s301",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/NousResearch/hermes-agent/git/trees/f97608f178d1ffeca59860195ab7da295f7c8e5f?recursive=1",
+      "title": "Run 11 source R11-S301: api.github.com/repos/NousResearch/hermes-agent/git/trees/f97",
+      "claim": "plugin-catalog/jev-agent-router.yaml ... plugin-catalog/jev.yaml (Reported (catalog listing))",
+      "accessed_at": "2026-10-08T05:31:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s302",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/plugin-catalog/jev-judge.yaml",
+      "title": "Run 11 source R11-S302: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "a pre-tool gate (shadow by default, enforce escalates) on terminal, write_file and patch asking destructive / exfiltration / impact (Reported)",
+      "accessed_at": "2026-10-08T05:32:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s303",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/DoGMaTiiC/hermes-jev/5dddbeaac5be08281e6c3b372eeaba3639971f0a/plugins/jev-judge/README.md",
+      "title": "Run 11 source R11-S303: raw.githubusercontent.com/DoGMaTiiC/hermes-jev/5dddbeaac5be0",
+      "claim": "Jev answers typed questions (boolean / choice / score) with probabilities — no prose, no parsing. (Reported (README))",
+      "accessed_at": "2026-10-08T05:32:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s304",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/plugin-catalog/jev-effort-router.yaml",
+      "title": "Run 11 source R11-S304: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "Per-turn model AND reasoning-effort routing, decided by TypeSafe Jev, which rewrites the outgoing Ollama:Cloud provider request itself (Reported)",
+      "accessed_at": "2026-10-08T05:32:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s305",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/AlphaPerseii3000/jev-effort-router/562dc2a27aa22977e0795809a17fbbbb1819f0ab/README.md",
+      "title": "Run 11 source R11-S305: raw.githubusercontent.com/AlphaPerseii3000/jev-effort-router",
+      "claim": "Jev reads the task, picks the model and the effort for that turn, and the request goes out rewritten. (Reported (README))",
+      "accessed_at": "2026-10-08T05:32:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s306",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/DoGMaTiiC/hermes-jev/5dddbeaac5be08281e6c3b372eeaba3639971f0a/plugins/jev-skill-router/README.md",
+      "title": "Run 11 source R11-S306: raw.githubusercontent.com/DoGMaTiiC/hermes-jev/5dddbeaac5be0",
+      "claim": "Jev names at most one skill from the live roster for the current turn, and the plugin injects a single <skill_relevance> line (Reported (README))",
+      "accessed_at": "2026-10-08T05:32:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s307",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ajensenwaud/hermes-jev-plugin/b3d29f71770a3447ad0b3db00658f64a8edc7dd3/README.md",
+      "title": "Run 11 source R11-S307: raw.githubusercontent.com/ajensenwaud/hermes-jev-plugin/b3d2",
+      "claim": "This plugin exposes it to Hermes Agent as four tools, focused on coding-agent workflows. (Reported (README))",
+      "accessed_at": "2026-10-08T05:32:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s308",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ourines/hermes-jev/cdf59e46270d3b33618d3b275c5c2fb76f594a19/README.md",
+      "title": "Run 11 source R11-S308: raw.githubusercontent.com/ourines/hermes-jev/cdf59e46270d3b3",
+      "claim": "Jev supplies bounded semantic judgments and an explicit model recommendation; the main Hermes agent keeps planning, generation, tool execution and responsibility for approvals. (Reported (README))",
+      "accessed_at": "2026-10-08T05:32:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s309",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/plugin-catalog/jev-model-router.yaml",
+      "title": "Run 11 source R11-S309: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "one skill plus one stdio MCP server (model_route) started with uv run from the checkout. ... Registers no Hermes tools or hooks (Reported)",
+      "accessed_at": "2026-10-08T05:32:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r11-s310",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Pinutss/jev-model-router/b977dc3ef07738aab005c433d08c1da3fa949e8d/README.md",
+      "title": "Run 11 source R11-S310: raw.githubusercontent.com/Pinutss/jev-model-router/b977dc3ef",
+      "claim": "Routes an LLM under quality, cost, and latency constraints. (Reported (README))",
+      "accessed_at": "2026-10-08T05:32:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

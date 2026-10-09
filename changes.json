@@ -2,6 +2,54 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "access-recheck-2026-10-08",
+      "changed_at": "2026-10-08T06:10:00Z",
+      "summary": "Access status rechecked 8 Oct 2026, 05:14 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases (jev-latest and jev-preview point to jev-1.13.0), the model IDs on all six routes and the subprocessor list unchanged; the API's 90-day uptime moved from 99.828% to 99.831% with no new incident listed. Four notices shown as on 7 Oct; none retired.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "reranking-rag-2026-10-08",
+      "changed_at": "2026-10-08T06:10:00Z",
+      "summary": "New page: Jev reranker and Jev for RAG. The grade-A study measures relevance judgments, not reranking; both rerunnable graded pipeline studies come from parties with a stake. On a Jev error, of 5 implementations, 2 stop, 2 fall back, 1 passes unscreened passages.",
+      "path": "/p/jev-catalog/use-cases/reranking-rag"
+    },
+    {
+      "change_id": "databases-and-documents-2026-10-08",
+      "changed_at": "2026-10-08T06:10:00Z",
+      "summary": "New page: Jev inside SQL and document pipelines (pg-jev, sqlite-jev, sqlite3-jev, pg-redact, DocJev). On a Jev error, all 5 stop the query or request; pg-redact also stores text unredacted when a span's answer is missing or below 0.5. All 5 send row or document text out.",
+      "path": "/p/jev-catalog/use-cases/databases-and-documents"
+    },
+    {
+      "change_id": "when-jev-fails-recount-2026-10-08",
+      "changed_at": "2026-10-08T06:10:00Z",
+      "summary": "When Jev fails recounted: of 69 Jev implementations read in source, on a Jev error 38 stop or hold the action, 15 fall back, 8 let it through, 5 return no decision and 3 are advisory; the action goes ahead in 14 of 69. Five rows added under the nearest domains; the three SQL extensions are listed but not counted.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "coding-agents-correction-2026-10-08",
+      "changed_at": "2026-10-08T06:10:00Z",
+      "summary": "Coding agents corrected: on a timeout, connection error, 429 or 402, Hermes core hands jev-approvals' question to the main agent model, which can approve the command; other HTTP errors still go to a person. jev-curator's three open cells filled. Of 8 that act on Jev's answer, 3 hold the call, 1 may ask the main agent model and 4 let it run.",
+      "path": "/p/jev-catalog/build/coding-agents"
+    },
+    {
+      "change_id": "benchmarks-hygiene-2026-10-08",
+      "changed_at": "2026-10-08T06:10:00Z",
+      "summary": "Benchmarks: personal names replaced by organisations or blog domains; LanceDB's grade B no longer provisional; reranking studies labelled by study type; leads added for jev-pulse, anessbelbati/jev-rerank-bench and a TypeSafe customer case study (Reported, no code or data). Grade totals unchanged (33: A 6, B 12, C 8, D 7).",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "products-2026-10-08",
+      "changed_at": "2026-10-08T06:10:00Z",
+      "summary": "Products: 94 rows (81 grade A): LanceDB TypeSafeReranker and pg-redact added; jev-reranker, pg-jev, sqlite-jev and DocJev regraded B to A (call paths read at pinned commits); Hermes jev-approvals cell corrected; none independently verified in production.",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "small-edits-2026-10-08",
+      "changed_at": "2026-10-08T06:10:00Z",
+      "summary": "Claude Code and MCP: oh-my-claudecode v5.6.2 and jkudish/jev-mcp 0.14.1 failure paths unchanged. Jev as a judge: openlayer's no-key cell filled (another configured backend, else fail-closed). Reseller sites, model IDs on six routes, route data labels and drift lines rechecked 8 Oct.",
+      "path": "/p/jev-catalog/research"
+    },
+    {
       "change_id": "when-jev-fails-judges-2026-10-07",
       "changed_at": "2026-10-07T06:30:00Z",
       "summary": "When Jev fails updated: of 64 Jev implementations read in source, on a Jev error 35 stop or hold the action, 13 fall back to another model, rule or default, 8 are advisory or return no decision, and 8 let it through: 4 moderation bots, 2 agent hooks, a passage filter and an eval tool. New \"LLM as a judge\" domain (11 use cases); copyable checklist regenerated.",

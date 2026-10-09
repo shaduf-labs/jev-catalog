@@ -268,7 +268,7 @@
 [data-agent-document] .jv-tree li.last .q { background: #fff; border-style: dashed; }
 
 /* Timeline (Research) */
-[data-agent-document] .jv-tl { display: grid; grid-template-columns: minmax(0, 10em) repeat(18, minmax(0, 1fr)); align-items: center; row-gap: 0; }
+[data-agent-document] .jv-tl { display: grid; grid-template-columns: minmax(0, 10em) repeat(19, minmax(0, 1fr)); align-items: center; row-gap: 0; }
 [data-agent-document] .jv-tl > span { padding: 7px 2px; border-bottom: 1px solid var(--jv-line); font-size: 12px; }
 [data-agent-document] .jv-tl > .day { color: var(--jv-muted); text-align: center; border-bottom-color: var(--jv-line-strong); overflow-wrap: anywhere; }
 [data-agent-document] .jv-tl > .lane { font-size: 13px; font-weight: 600; }
@@ -492,7 +492,7 @@
 [data-agent-document] .jv-strip .s-open, [data-agent-document] .jv-strip-key .s-open::before { background: var(--jv-green); }
 [data-agent-document] .jv-strip .s-pause, [data-agent-document] .jv-strip-key .s-pause::before { background: var(--jv-red); }
 [data-agent-document] .jv-strip .s-cond, [data-agent-document] .jv-strip-key .s-cond::before { background: #7fb596; }
-[data-agent-document] .jv-strip .w-wait { flex: 5.13 1 0; } [data-agent-document] .jv-strip .w-open { flex: 1.36 1 0; } [data-agent-document] .jv-strip .w-pause { flex: 5.68 1 0; } [data-agent-document] .jv-strip .w-cond { flex: 9.28 1 0; }
+[data-agent-document] .jv-strip .w-wait { flex: 5.13 1 0; } [data-agent-document] .jv-strip .w-open { flex: 1.36 1 0; } [data-agent-document] .jv-strip .w-pause { flex: 5.68 1 0; } [data-agent-document] .jv-strip .w-cond { flex: 10.28 1 0; }
 [data-agent-document] .jv-strip-scale { display: flex; justify-content: space-between; gap: 8px; color: var(--jv-muted); font-size: 11.5px; }
 [data-agent-document] .jv-strip-key { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 8px 0 0; padding: 0; list-style: none; font-size: 12.5px; line-height: 1.45; color: var(--jv-text); }
 [data-agent-document] .jv-strip-key li { min-width: 0; }
@@ -707,7 +707,7 @@
 
 /* Exclusive accordions (native details with a shared name; every summary is Tab-reachable) */
 [data-agent-document] .jv-acc { margin: 12px 0 18px; display: grid; gap: 6px; }
-[data-agent-document] .jv .jv-acc details { margin: 0; border: 1px solid var(--jv-line-strong); border-radius: 8px; background: #fff; }
+[data-agent-document] .jv .jv-acc details { margin: 0; min-width: 0; border: 1px solid var(--jv-line-strong); border-radius: 8px; background: #fff; }
 [data-agent-document] .jv .jv-acc details[open] { border-color: var(--jv-blue); }
 [data-agent-document] .jv .jv-acc details > summary { display: flex; flex-wrap: wrap; gap: 2px 12px; align-items: baseline; padding: 10px 14px; font-weight: 400; }
 [data-agent-document] .jv .jv-acc details[open] > summary { margin-bottom: 0; background: var(--jv-blue-bg); border-radius: 7px 7px 0 0; }

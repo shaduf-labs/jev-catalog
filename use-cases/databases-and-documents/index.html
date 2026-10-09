@@ -1,0 +1,204 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Jev in SQL and document pipelines · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="What pg-jev, sqlite-jev, sqlite3-jev, pg-redact and DocJev do when a Jev call fails, is unsure or has no key, and what text they send. 8 Oct 2026.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/use-cases/databases-and-documents/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Jev in SQL and document pipelines · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="What pg-jev, sqlite-jev, sqlite3-jev, pg-redact and DocJev do when a Jev call fails, is unsure or has no key, and what text they send. 8 Oct 2026.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/use-cases/databases-and-documents/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev in SQL and document pipelines","description":"What pg-jev, sqlite-jev, sqlite3-jev, pg-redact and DocJev do when a Jev call fails, is unsure or has no key, and what text they send. 8 Oct 2026.","dateModified":"2026-10-08T06:10:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/databases-and-documents/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="databases-and-documents">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a><a href="../support-ticket-triage/index.html" ><span aria-hidden="true">▤</span><b>Support-ticket triage with Jev</b></a><a href="../model-routing/index.html" ><span aria-hidden="true">⇉</span><b>Jev Router or your own router?</b></a><a href="../content-moderation/index.html" ><span aria-hidden="true">⚑</span><b>Content moderation with Jev</b></a><a href="../email-and-lead-sorting/index.html" ><span aria-hidden="true">✉</span><b>Jev email classifier</b></a><a href="../trading-and-fraud-gates/index.html" ><span aria-hidden="true">⇅</span><b>Jev trading bot and fraud gates</b></a><a href="../llm-as-judge/index.html" ><span aria-hidden="true">⚖</span><b>Jev as a judge</b></a><a href="../browser-and-computer-use/index.html" ><span aria-hidden="true">⌖</span><b>Jev browser and computer use</b></a><a href="../reranking-rag/index.html" ><span aria-hidden="true">⇅</span><b>Jev reranker and RAG</b></a><a href="index.html" aria-current="page"><span aria-hidden="true">▤</span><b>Jev in SQL and document pipelines</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../../build/index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../../build/python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../../build/typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../../build/frameworks/index.html" ><span aria-hidden="true">⧉</span><b>Jev LangChain and frameworks</b></a><a href="../../build/n8n/index.html" ><span aria-hidden="true">⇶</span><b>Jev n8n node</b></a><a href="../../build/claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../../build/coding-agents/index.html" ><span aria-hidden="true">⌨</span><b>Jev with coding agents</b></a><a href="../../build/errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../../build/confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../../build/testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a><a href="../../build/when-jev-fails/index.html" ><span aria-hidden="true">⚠</span><b>When Jev fails</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Open-source Jev alternatives</b></a><a href="../../alternatives/jev-vs-llm-vs-classifier/index.html" ><span aria-hidden="true">⋈</span><b>Jev vs LLM vs classifier</b></a><a href="../../alternatives/laya-vs-kev/index.html" ><span aria-hidden="true">⚖</span><b>Jev vs Laya vs Kev</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/data-privacy/index.html" ><span aria-hidden="true">eye</span><b>Jev data retention and privacy</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/versions-and-aliases/index.html" ><span aria-hidden="true">#</span><b>Jev model IDs and aliases</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Jev examples: products and projects</b></a><a href="../../benchmarks/index.html" ><span aria-hidden="true">▦</span><b>Jev benchmarks, graded</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv">
+  <div class="jv-kicker"><span>Use cases</span><span>Five projects read at pinned commits (cells read 7 Oct and <time datetime="2026-10-08T05:15:30Z">8 Oct 2026, 05:15–05:16 UTC</time>) · search suggestions checked 05:16–05:17 UTC</span></div>
+  <h1>Jev (TypeSafe AI) inside SQL and document pipelines: pg-jev, sqlite-jev, DocJev</h1>
+  <p class="jv-lede">What pg-jev, sqlite-jev, sqlite3-jev, pg-redact and DocJev do when a Jev call fails, is unsure or has no key, and what text they send. 8 Oct 2026. The title is the pool's own label. When the pool checked search suggestions on <time datetime="2026-10-08T05:16:55Z">8 Oct 2026, 05:16–05:17 UTC</time>, no phrase about Jev in databases was offered by two of the three endpoints: Google offered "jev postgres", Bing and DuckDuckGo offered nothing for it, and "jev sql", "jev sqlite", "jev database" and "jev pdf" had no matching suggestion on any of the three. A suggestion shows that people search for something; it does not show how many.</p>
+
+  <div class="jv-answer key" id="db-key">
+    <strong>Key finding</strong>
+    <p class="kf">On a Jev error, all 5 stop the query or request; pg-redact also stores text unredacted when a span's answer is missing or below 0.5. All 5 send row or document text out.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>source at pinned commits, checked <time datetime="2026-10-08">8 Oct 2026</time></span></p>
+    <p>Every project the pool found that calls Jev from inside a SQL statement or a document pipeline and that was read at a pinned commit (5 on 8 Oct 2026); not a survey. Six further SQL candidates are listed but not audited (<a href="#db-candidates">below</a>). The pool installed and ran none of them and made no Jev call.</p>
+  </div>
+
+  <h2 id="db-choose">Before you call Jev from a query or a pipeline</h2>
+  <ol class="jv-rules">
+    <li><div><strong>Expect a Jev error to stop the statement or the request.</strong><p>All 5 raise on a Jev error or timeout (5 of 5 <code>fail-closed</code>). In SQL that aborts the statement; it does not return partial rows. Timeouts and retries per project are in the table; general advice is on <a href="../../build/errors-and-rate-limits/index.html">errors and rate limits</a>.</p></div><span class="who"><span class="chip ok">fail-closed 5 of 5</span></span></li>
+    <li><div><strong>Know what "unsure" becomes.</strong><p>Below threshold, 2 of 5 return false or 0 to your query (pg-jev, sqlite-jev, threshold 0.5), 1 of 5 has no threshold and returns the raw value (sqlite3-jev), and 2 of 5 act anyway (pg-redact stores the span unredacted; DocJev joins the page to the current document).</p></div><span class="who"><span class="chip none">returns to the query 2</span><span class="chip none">no-threshold 1</span><span class="chip fail">acts-anyway 2</span></span></li>
+    <li><div><strong>Do not use a Jev predicate as an access-control <code>WHERE</code> clause.</strong><p>Below the threshold <code>jev()</code> returns false; answers are cached per session (pg-jev) or per process (sqlite-jev), so a changed policy may not be asked again.</p></div><span class="who"><span class="chip warn">pg-jev, sqlite-jev: answer cache</span></span></li>
+    <li><div><strong>Assume the whole row or page leaves the database.</strong><p>pg-jev sends each whole row as JSON, not only the columns in the predicate. See <a href="#db-data">what each project sends</a>.</p></div><span class="who"><span class="chip warn">5 of 5 send text out</span></span></li>
+    <li><div><strong>Set a spend guard.</strong><p>pg-jev sends one request per 20 rows; sqlite-jev's <code>jev_rows</code> table sends up to 500 rows per query in batches of 40.</p></div><span class="who"><span class="chip info">calls per row in the table</span></span></li>
+  </ol>
+
+  <h2 id="db-table">What each project does when Jev fails, is unsure or has no key</h2>
+  <p><span class="ev ev-documented">Documented</span> <small>Source at the pins below. Error, malformed and no-key cells and timeouts were read on 7 Oct 2026 and reused; what Jev decides, below threshold, bypass, data sent and calls were read on 8 Oct 2026, 05:15–05:16 UTC, at the same pins. Colour marks the verdict cells only (error, malformed, below threshold, no key).</small></p>
+  <ul class="jv-keys">
+    <li class="k-go">fail-closed or held (the item does not go ahead; a person, the host's prompt or, for two passage filters, the code's own cut decides)</li>
+    <li class="k-stop">fail-open or acts-anyway; a "conditional" cell that can act is counted fail-open</li>
+    <li class="k-fb">fallback-&lt;what&gt; (named in the cell)</li>
+    <li class="k-flag">no-decision (nothing returned; caller must handle)</li>
+    <li class="k-hold">advisory (Jev never decides), or conditional where the page has no count</li>
+    <li class="k-na">not recorded, not applicable or no-threshold (the cell says which)</li>
+  </ul>
+  <div class="table-wrap stack stack-md">
+    <table class="jv-heat">
+      <thead><tr><th>Project (commit)</th><th>What Jev decides</th><th class="c-err">Jev error or timeout</th><th class="c-mal">Malformed answer</th><th class="c-uns">Below threshold</th><th class="c-key">No key</th><th>Bypass</th><th>What leaves the database</th><th>Calls</th><th>Counted on When Jev fails?</th></tr></thead>
+      <tbody>
+        <tr id="db-r-pg-jev"><td data-l="Project"><a href="https://github.com/realZachi/pg-jev/tree/8d9598d87d5ff460998d91ec070226176024a841">realZachi/pg-jev</a> (<code>8d9598d</code>)<small>PostgreSQL extension (PL/Python)</small></td><td data-l="What Jev decides">Noul, score or choice per row; <code>jev()</code> returns a boolean</td><td data-l="Jev error" class="k k-go"><strong>fail-closed</strong>Connection errors and 408, 429, 529 and 5xx retried up to 7 attempts, then the statement errors; other HTTP errors raise at once. Timeout <code>jev.timeout</code> 30 s per connection; <code>statement_timeout</code> and cancel still work</td><td data-l="Malformed" class="k k-go"><strong>fail-closed</strong>Missing answers in a batch raise an error. A non-JSON body raises an uncaught <code>ValueError</code>, not retried; what PostgreSQL returns then was not read</td><td data-l="Below threshold" class="k k-na"><strong>not applicable: returns false to the query</strong><code>prob &gt;= coalesce(arg, jev.threshold, 0.5)</code></td><td data-l="No key" class="k k-go"><strong>fail-closed</strong>for a typesafe.ai host ("jev: no API key"); another host gets the request without Authorization</td><td data-l="Bypass">Recorded: answer cache per backend session, keyed on row hash and question</td><td data-l="Data sent">The whole row as JSON (<code>to_json</code>), every column</td><td data-l="Calls">One request per batch of 20 rows</td><td data-l="Counted">No: returns to the query</td></tr>
+        <tr id="db-r-sqlite3-jev"><td data-l="Project"><a href="https://github.com/mattn/sqlite3-jev/tree/2172600da148182703f8f221089d9304d0fb97f9">mattn/sqlite3-jev</a> (<code>2172600</code>)<small>SQLite C extension (libcurl)</small></td><td data-l="What Jev decides">Noul (REAL 0..1), choice or score per call</td><td data-l="Jev error" class="k k-go"><strong>fail-closed</strong>A curl error or timeout returns an SQL error, no retry; 429 and 529 retried 3 times, then an error. Timeout 60 s by default, can be changed</td><td data-l="Malformed" class="k k-go"><strong>fail-closed</strong>"jev: unexpected response" when the body cannot be parsed. A JSON body without the expected path would give SQL NULL through <code>json_extract</code>: engine behaviour, not read, not counted</td><td data-l="Below threshold" class="k k-na"><strong>no-threshold</strong>Returns the REAL or TEXT value to the query</td><td data-l="No key" class="k k-hold"><strong>conditional: sent without a key</strong>No early error; the request goes out without Authorization ("no key means an open server"); a non-2xx answer is then fail-closed</td><td data-l="Bypass">None found (no cache)</td><td data-l="Data sent">Whatever <code>state</code> argument the SQL passes</td><td data-l="Calls">One HTTP call per function call</td><td data-l="Counted">No: returns to the query</td></tr>
+        <tr id="db-r-sqlite-jev"><td data-l="Project"><a href="https://github.com/mgaitan/sqlite-jev/tree/1ac946cdc0d80fd2d77ba0b64deafb456521fdd4">mgaitan/sqlite-jev</a> (<code>1ac946c</code>)<small>SQLite extension with a <code>jev_rows</code> virtual table</small></td><td data-l="What Jev decides">Noul, choice or score per row</td><td data-l="Jev error" class="k k-go"><strong>fail-closed</strong>"jev: TypeSafe request failed", no retry on transport errors; 429, 529 and 5xx get 4 attempts, then an error. Timeout 90 s, can be changed</td><td data-l="Malformed" class="k k-go"><strong>fail-closed</strong>Invalid JSON, a missing answer, a malformed noul or a missing batch answer raise an error. In <code>jev_rows</code>, an answer that lacks a field gives a NULL column (no-decision)</td><td data-l="Below threshold" class="k k-na"><strong>not applicable: returns 0 (false) to the query</strong><code>jev()</code> threshold 0.5</td><td data-l="No key" class="k k-go"><strong>fail-closed</strong>"jev: no API key; export TYPESAFE_API_KEY"</td><td data-l="Bypass">Recorded: answer cache</td><td data-l="Data sent">The state argument; <code>jev_rows</code> sends every non-hidden column</td><td data-l="Calls">One per call, or batches of 40 rows in <code>jev_rows</code>; <code>max_rows</code> 500</td><td data-l="Counted">No: returns to the query</td></tr>
+        <tr id="db-r-pg-redact"><td data-l="Project"><a href="https://github.com/rishi-raj-jain/pg-redact/tree/ee903ef40b3053af150e28bbf37cfe03e4409785">rishi-raj-jain/pg-redact</a> (<code>ee903ef</code>)<small>Next.js demo app that redacts personal data, then writes to Postgres</small></td><td data-l="What Jev decides">Choice per candidate span: PII type or "none"</td><td data-l="Jev error" class="k k-go"><strong>fail-closed</strong>502, no insert. No timeout set on <code>fetch</code> (the route's <code>maxDuration = 300</code> is a platform limit)</td><td data-l="Malformed" class="k k-stop"><strong>fail-open</strong>A missing span answer: the span is skipped and the message is stored with it unredacted; a broken body gives 502</td><td data-l="Below threshold" class="k k-stop"><strong>acts-anyway</strong>A span below 0.5 is stored unredacted (<code>CONF_THRESHOLD = 0.5</code>)</td><td data-l="No key" class="k k-go"><strong>fail-closed</strong>"TYPESAFE_API_KEY is not set", 502</td><td data-l="Bypass">Recorded: a message with no candidate spans is stored without a Jev call; the IP rate limit rejects before the call</td><td data-l="Data sent">The whole pasted message, sent before it is stored</td><td data-l="Calls">One request per message</td><td data-l="Counted">Yes: its code decides which spans are redacted before the write</td></tr>
+        <tr id="db-r-docjev"><td data-l="Project"><a href="https://github.com/jerryjliu/docjev/tree/c7abe276a970605feb9cb8b27513365b6c10726e">jerryjliu/docjev</a> (<code>c7abe27</code>)<small>Document pipeline: classify and split</small></td><td data-l="What Jev decides">Category choice per document; per page, a category choice and a boundary noul</td><td data-l="Jev error" class="k k-go"><strong>fail-closed</strong>2 attempts, then <code>ProviderError</code>; SDK retries set to 0. A context-size rejection halves the page window in split. Timeout 30 (unit set by the SDK, not stated)</td><td data-l="Malformed" class="k k-go"><strong>fail-closed</strong>"Jev returned an incomplete answer set."; an invalid category or page decision also raises</td><td data-l="Below threshold" class="k k-stop"><strong>acts-anyway</strong>A page below 0.5 joins the current document (<code>boundary_threshold = 0.5</code>). Category choice: no threshold recorded</td><td data-l="No key" class="k k-go"><strong>fail-closed</strong><code>ProviderError("Set TYPESAFE_API_KEY to use Jev...")</code> when the engine is built</td><td data-l="Bypass">Recorded: blank pages are set to "other" without a call; an all-blank document raises before any call</td><td data-l="Data sent">Page text</td><td data-l="Calls">One per document (classify) or per page window (split)</td><td data-l="Counted">Yes: its code builds the page groups from Jev's answers</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul class="jv-tally" aria-label="Totals across the 5 projects">
+    <li><span class="t-q">Jev error or timeout<small>of 5</small></span><ul class="t-cells"><li class="t-green"><b>fail-closed</b>5 of 5</li></ul></li>
+    <li><span class="t-q">Malformed answer<small>of 5</small></span><ul class="t-cells"><li class="t-green"><b>fail-closed</b>4 (pg-jev, sqlite3-jev, sqlite-jev, DocJev)</li><li class="t-red"><b>fail-open</b>1 (pg-redact)</li></ul></li>
+    <li><span class="t-q">Below threshold<small>of 5</small></span><ul class="t-cells"><li><b>returns false or 0 to the query</b>2 (pg-jev, sqlite-jev)</li><li><b>no-threshold</b>1 (sqlite3-jev)</li><li class="t-red"><b>acts-anyway</b>2 (pg-redact, DocJev)</li></ul></li>
+    <li><span class="t-q">No key<small>of 5</small></span><ul class="t-cells"><li class="t-green"><b>fail-closed</b>4</li><li><b>sent without a key</b>1 (sqlite3-jev)</li></ul></li>
+    <li><span class="t-q">Bypass<small>of 5</small></span><ul class="t-cells"><li><b>recorded</b>4</li><li><b>none found</b>1 (sqlite3-jev)</li></ul></li>
+  </ul>
+  <p><small>sqlite-jev's malformed cell is counted fail-closed; its <code>jev_rows</code> NULL-column path is a no-decision detail inside that cell. pg-redact's malformed cell is counted fail-open because a missing span answer stores text unredacted; a broken body gives 502.</small></p>
+
+  <h2 id="db-counting">Which of the 5 are counted on When Jev fails</h2>
+  <p>Counted 2 of 5; returns to the query 3 of 5.</p>
+  <ul>
+    <li><strong>Not counted (3): pg-jev, sqlite3-jev and sqlite-jev.</strong> These three SQL extensions return Jev's value into your query. Your query, not the extension, decides what to do with that value, so they are listed but not counted on <a href="../../build/when-jev-fails/index.html#wf-sql-excluded">When Jev fails</a>. This follows the pool's counting rule from 8 Oct 2026. A Jev error still aborts the statement, as the table above shows.</li>
+    <li><strong>Counted (2): pg-redact and DocJev.</strong> Their own code acts on Jev's answer: pg-redact decides which spans are redacted before it writes the message; DocJev builds the page groups. Two rows are too few for a domain of their own, so they sit in the nearest existing domains on <a href="../../build/when-jev-fails/index.html#wf-domains">When Jev fails by domain</a>: pg-redact under Content moderation (PII redaction before storage) and DocJev under Email and lead (document splitting).</li>
+  </ul>
+  <div class="jv-box info" id="db-engine">
+    <h2>Engine behaviour that was not read</h2>
+    <p>Two outcomes depend on the database engine, not on the extension's code. The pool did not read them and does not count them as cells.</p>
+    <ul>
+      <li><strong>PostgreSQL after pg-jev's uncaught <code>ValueError</code>.</strong> A non-JSON 200 body raises <code>ValueError</code> at <code>json.loads</code>; pg-jev's <code>answer()</code> catches only <code>RuntimeError</code>, so the error escapes. What PostgreSQL then returns to the client was not read.</li>
+      <li><strong>SQLite <code>json_extract</code> on a missing path in sqlite3-jev.</strong> A JSON body without the expected path would give SQL NULL instead of an error. This path was not read or tested.</li>
+    </ul>
+  </div>
+
+  <h2 id="db-data">What text leaves the database</h2>
+  <p><span class="ev ev-documented">Documented</span> <small>From source at the pins above, read 8 Oct 2026.</small></p>
+  <p>pg-jev sends each whole row as JSON (every column), 20 rows per request. The SQLite extensions send what the SQL passes; sqlite-jev's <code>jev_rows</code> sends every non-hidden column. pg-redact sends the whole message before it stores it. DocJev sends page text. How long that text is kept depends on the route you call Jev through: see <a href="../../where-to-use/data-privacy/index.html">What data leaves your system when you use Jev</a>. Timeouts and retries in general: <a href="../../build/errors-and-rate-limits/index.html">Jev errors and rate limits</a>.</p>
+  <p>No project publishes a price or token count per row, so this page gives no cost per row; calls per row or batch are in the table.</p>
+
+  <h2 id="db-candidates">Six further SQL candidates (not audited, not counted)</h2>
+  <p><small>Found on 8 Oct 2026 and read for one line each at the commit shown (HEAD on 8 Oct, 05:16 UTC). <span class="ev ev-documented">Documented</span> for the line quoted; nothing else was read.</small></p>
+  <ul>
+    <li><a href="https://github.com/judoaseeta/duckdb-jev/tree/58e548463b0bfb25d86bc68b11515a1daaf87ab3">judoaseeta/duckdb-jev</a> (<code>58e5484</code>): calls api.typesafe.ai; its boolean <code>number &gt;= threshold</code> returns to the query.</li>
+    <li><a href="https://github.com/Sheltercosmo/jev4pg/tree/511432a94be59423ebc834a1a890d50064ccb538">Sheltercosmo/jev4pg</a> (<code>511432a</code>): a <code>TYPESAFE_API_KEY</code> read was found; the call path was not recorded.</li>
+    <li><a href="https://github.com/wuxianliang/pg_typesafe/tree/11d9358b7f82e3af026e8f706177fa3fda1e6bb5">wuxianliang/pg_typesafe</a> (<code>11d9358</code>): reads the key from <code>TYPESAFE_API_KEY</code>; the endpoint was not located.</li>
+    <li><a href="https://github.com/sashimikun/sql-jev/tree/f8a6937b6bd21b0062d61eb6556ecec74f1be3f4">sashimikun/sql-jev</a> (<code>f8a6937</code>): <code>fetch(config.apiUrl)</code>; default URL not read; predicates return to the query.</li>
+    <li><a href="https://github.com/Peterrallojay/sqlite-utils-jev/tree/8ddfaeb7e6ce8f62c54bbdfaa040478aef7fc389">Peterrallojay/sqlite-utils-jev</a> (<code>8ddfaeb</code>): calls the TypeSafe endpoint and raises with no key. Its README says it saves results (<span class="ev ev-reported">Reported</span>); the write was not located.</li>
+    <li><a href="https://github.com/qsliu2017/pg_jevplanner/tree/5e888343e7b3d3730d13b0d473c8dea9af542377">qsliu2017/pg_jevplanner</a> (<code>5e88834</code>): a PostgreSQL <code>planner_hook</code> that falls back to <code>standard_planner</code>. Its own code acts on Jev's answer (query planning), so it could be counted on When Jev fails after a full read.</li>
+  </ul>
+
+  <div class="jv-box warn" id="db-unverified">
+    <h2>What was not verified</h2>
+    <ul>
+      <li>What PostgreSQL returns after pg-jev's uncaught <code>ValueError</code> (engine behaviour).</li>
+      <li>The SQLite <code>json_extract</code> NULL path in sqlite3-jev (engine behaviour).</li>
+      <li>pg-redact's timeout: none is set in its code; only a platform limit applies.</li>
+      <li>DocJev's timeout unit (set by the SDK) and its OCR path. The README says unreadable OCR fails and optional cloud OCR changes where data goes (<span class="ev ev-reported">Reported</span>, not rechecked).</li>
+      <li>Cache lifetimes: pg-jev's is per session according to its own code comment; sqlite-jev's was not read.</li>
+      <li>The six further candidates beyond one line each.</li>
+      <li>No project was installed or run, no query was run and no Jev call was made. Whether anyone uses these projects in production was not checked.</li>
+    </ul>
+  </div>
+
+  <section class="jv-sources" aria-labelledby="db-sources">
+    <h2 id="db-sources">Sources and check times (UTC)</h2>
+    <details>
+      <summary>Sources (R11 and R10 IDs, pinned commits, paths)</summary>
+      <ul>
+        <li>R11-S11: search suggestions from Google (<code>client=firefox</code>), Bing (<code>osjson</code>) and DuckDuckGo (<code>ac</code>), 8 Oct 2026, 05:16:53–05:17:21. "jev postgres" completed by Google only, from "jev post" and "jev postg"; "pg-jev" returned by Google among unrelated completions.</li>
+        <li>R11-S217 (8 Oct, 05:15:30) and R10-S301 to R10-S313 (7 Oct reads, same pins): pg-jev at <a href="https://github.com/realZachi/pg-jev/tree/8d9598d87d5ff460998d91ec070226176024a841">8d9598d</a>, <code>sql/jev--0.2.1.sql</code> L10–17, L23–24, L90–100, L93–94, L97, L111–124, L210, L222, L238–242, L293, L381–386, L426–429, L439–446, L497–499, L503.</li>
+        <li>R11-S218 (05:15:40): sqlite3-jev at <a href="https://github.com/mattn/sqlite3-jev/tree/2172600da148182703f8f221089d9304d0fb97f9">2172600</a>, <code>jev.c</code> L4–16, L36–37, L229–234, L274–278, L391.</li>
+        <li>R11-S219 (05:15:50): sqlite-jev at <a href="https://github.com/mgaitan/sqlite-jev/tree/1ac946cdc0d80fd2d77ba0b64deafb456521fdd4">1ac946c</a>, <code>src/jev.c</code> L25–27, L373–375, L430, L517–522, L528–533, L540, L584–597, L604, L614, L879, L982–983, L1063–1065, L1241–1246.</li>
+        <li>R11-S220, R11-S221 (05:16:00): pg-redact at <a href="https://github.com/rishi-raj-jain/pg-redact/tree/ee903ef40b3053af150e28bbf37cfe03e4409785">ee903ef</a>, <code>src/lib/jev.ts</code> L5, L34–46, L55, L64–75; <code>src/app/api/classify/route.ts</code> L29–58. PyPI <code>pg-redact</code>: 404 (no package).</li>
+        <li>R11-S222 (05:16:10): docjev at <a href="https://github.com/jerryjliu/docjev/tree/c7abe276a970605feb9cb8b27513365b6c10726e">c7abe27</a>, <code>src/jev_docs/engines/jev.py</code> L118–119, L124–166, L209–210, L224, L231–238, L240–257, L260–276, L285.</li>
+        <li>R11-S223 to R11-S228 (05:16:40): the six candidates at the commits linked above; duckdb-jev <code>src/jev_config.cpp</code> L21, <code>jev_functions.cpp</code> L257; jev4pg <code>deploy/configure.py</code> L26; pg_typesafe <code>typesafe.c</code> L322; sql-jev <code>src/api.ts</code> L107; sqlite-utils-jev <code>client.py</code> L19, L352; pg_jevplanner <code>src/pg_jevplanner.c</code> L129–131, L151, L199–201.</li>
+        <li>Research notes: <code>runs/2026/10/61ac0fbc-a501-4f48-b1e5-503fd921a06e/research/databases-and-documents.md</code> and <code>when-jev-fails-recount.md</code>; source list <code>sources.jsonl</code> in the same directory.</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="jv-related" aria-labelledby="db-related">
+    <h2 id="db-related">Related pages</h2>
+    <ul>
+      <li><a href="../index.html">All use cases by evidence level (hub)</a></li>
+      <li><a href="../../build/when-jev-fails/index.html">When Jev fails: what each implementation does</a></li>
+      <li><a href="../../where-to-use/data-privacy/index.html">What data leaves your system when you use Jev</a></li>
+      <li><a href="../../build/errors-and-rate-limits/index.html">Jev errors and rate limits</a></li>
+      <li><a href="../reranking-rag/index.html">Jev for reranking and RAG</a></li>
+      <li><a href="../../products/index.html">Products and projects built with Jev</a></li>
+      <li><a href="../../reports/reranking-databases/index.html">8 Oct research report</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>8 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>
