@@ -264,6 +264,17 @@
       "summary": "Two new use-case pages: reranking studies by study type and five reranking and passage-filter implementations at pinned commits; five SQL and document-pipeline projects with their failure cells and the data they send. When Jev fails recounted at 69 implementations; the jev-approvals Jev-error cell corrected. Access unchanged. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/reranking-databases",
       "entrypoint": "reports/reranking-databases/index.html"
+    },
+    {
+      "run_id": "run:10226f0c-5933-40d3-9e79-972dee102672",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-10T05:10:52Z",
+      "completed_at": "2026-10-10T06:10:00Z",
+      "title": "Jev alternatives by layer, and coding-agent integrations",
+      "summary": "Alternatives sorted into five layers, with OpenAI's hosted Decisions API, Jiwo 0.8B and TOD added; TypeSafe-published Jev weights not found on the surfaces searched (10 Oct). Coding agents: of 22 integrations read in source, 10 act on Jev's answer. When Jev fails recounted at 71 implementations. jev-pulse graded. Access unchanged; two notices retired. No run on 9 Oct. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/alternatives-coding-agents",
+      "entrypoint": "reports/alternatives-coding-agents/index.html"
     }
   ]
 }

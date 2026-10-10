@@ -2,6 +2,54 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "access-recheck-2026-10-10",
+      "changed_at": "2026-10-10T06:10:00Z",
+      "summary": "Access status rechecked 10 Oct 2026, 05:12 UTC (no run took place on 9 Oct): unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime 99.831% to 99.835% with no new incident listed. Two notices shown: the subprocessor notice (2 Oct) and the rate-limit notice (3 Oct) were retired when their seven-day shelf life ended; both facts are unchanged and stay on data privacy and access status.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "alternatives-2026-10-10",
+      "changed_at": "2026-10-10T06:10:00Z",
+      "summary": "Jev alternatives retitled and sorted into five layers: Jev weights: not found on TypeSafe's site, docs, GitHub or Hugging Face (10 Oct). Of 30 listed substitutes: 12 model weights, 11 local runtimes, 4 request adapters, 2 classifier/LLM approaches, 1 OpenAI hosted API. OpenAI's Decisions API added as a hosted API from another provider; Jiwo 0.8B and TOD added; Strands Decider corrected; Jev-named models from other accounts in a separate box.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "coding-agents-2026-10-10",
+      "changed_at": "2026-10-10T06:10:00Z",
+      "summary": "Coding agents updated: Of 22 integrations read in source, 10 act on Jev's answer, 10 do not and 2 are unsettled. On a Jev error the 10: 3 hold, 1 may ask the main model, 5 let the call run, 1 keeps its configured model.",
+      "path": "/p/jev-catalog/build/coding-agents"
+    },
+    {
+      "change_id": "when-jev-fails-2026-10-10",
+      "changed_at": "2026-10-10T06:10:00Z",
+      "summary": "When Jev fails recounted at 71 implementations: on a Jev error 38 stop or hold the action, 17 fall back, 8 let it through, 5 return no decision and 3 are advisory. The action goes ahead in 15 of 71.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "benchmarks-2026-10-10",
+      "changed_at": "2026-10-10T06:10:00Z",
+      "summary": "Benchmarks: jev-pulse graded A (small sample, BM25-only baseline); three comparisons with code and data at a pinned commit listed as leads, not graded, because their metric code was not yet opened; 34 graded rows.",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "reranking-rag-2026-10-10",
+      "changed_at": "2026-10-10T06:10:00Z",
+      "summary": "Jev reranker and Jev for RAG: key finding updated after jev-pulse was graded A. Of 3 rerunnable graded reranking-pipeline studies, 2 come from parties with a stake and 1 (jev-pulse: 40 queries, BM25-only baseline) states none; the other grade-A study measures relevance judgments. On a Jev error, of 5 implementations, 2 stop, 2 fall back, 1 passes unscreened passages.",
+      "path": "/p/jev-catalog/use-cases/reranking-rag"
+    },
+    {
+      "change_id": "products-2026-10-10",
+      "changed_at": "2026-10-10T06:10:00Z",
+      "summary": "Products: 96 rows (A 83, B 12, C 1) with jev-effort-router and jev-gateway added; none independently verified in production.",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "report-2026-10-10",
+      "changed_at": "2026-10-10T06:10:00Z",
+      "summary": "10 Oct research report: alternatives by layer, coding-agent integrations, the failure-checklist recount and benchmark leads. No run took place on 9 Oct.",
+      "path": "/p/jev-catalog/reports/alternatives-coding-agents"
+    },
+    {
       "change_id": "access-recheck-2026-10-08",
       "changed_at": "2026-10-08T06:10:00Z",
       "summary": "Access status rechecked 8 Oct 2026, 05:14 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases (jev-latest and jev-preview point to jev-1.13.0), the model IDs on all six routes and the subprocessor list unchanged; the API's 90-day uptime moved from 99.828% to 99.831% with no new incident listed. Four notices shown as on 7 Oct; none retired.",
