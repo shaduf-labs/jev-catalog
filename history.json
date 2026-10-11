@@ -275,6 +275,17 @@
       "summary": "Alternatives sorted into five layers, with OpenAI's hosted Decisions API, Jiwo 0.8B and TOD added; TypeSafe-published Jev weights not found on the surfaces searched (10 Oct). Coding agents: of 22 integrations read in source, 10 act on Jev's answer. When Jev fails recounted at 71 implementations. jev-pulse graded. Access unchanged; two notices retired. No run on 9 Oct. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/alternatives-coding-agents",
       "entrypoint": "reports/alternatives-coding-agents/index.html"
+    },
+    {
+      "run_id": "run:4804d142-c2f9-40b1-8aa1-418259bd9a1a",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-11T05:15:58Z",
+      "completed_at": "2026-10-11T06:10:00Z",
+      "title": "Jev benchmark grades and coding-agent settlement",
+      "summary": "Three comparisons of Jev with a substitute graded A from files opened at pinned commits (B38–B40; 37 graded rows): the Decisions API ahead on RPG move choices, Jev ahead on exact judge score in Portuguese. Microsoft-Decision-1 added to alternatives (31). Coding agents: of 24 integrations read in source, 13 act on Jev's answer. When Jev fails recounted at 74 implementations. Real-time-control condition met for run 14 (research only). Access unchanged. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/benchmark-grades-coding-agents",
+      "entrypoint": "reports/benchmark-grades-coding-agents/index.html"
     }
   ]
 }

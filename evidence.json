@@ -11540,6 +11540,1546 @@
       "accessed_at": "2026-10-10T05:14:50Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Run 13 source R13-S01: console.typesafe.ai/",
+      "claim": "Just a moment... (Documented)",
+      "accessed_at": "2026-10-11T05:17:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s02",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/rate_limit",
+      "title": "Run 13 source R13-S02: api.github.com/rate_limit",
+      "claim": "core remaining 60 of 60; search remaining 10 of 10 (Documented)",
+      "accessed_at": "2026-10-11T05:16:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s03",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Run 13 source R13-S03: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/statu",
+      "claim": "good news: ANYONE CAN SIGN UP ... we had to temporarily disable the free credits (just for new users) (Documented)",
+      "accessed_at": "2026-10-11T05:17:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s04",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Run 13 source R13-S04: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "https://api.typesafe.ai/v1/systemone (Documented)",
+      "accessed_at": "2026-10-11T05:17:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s05",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Run 13 source R13-S05: status.typesafe.ai/",
+      "claim": "API status by geography Operational api.us.typesafe.ai TypeSafe API served from the closest US region 100% uptime (Documented)",
+      "accessed_at": "2026-10-11T05:17:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Run 13 source R13-S06: docs.typesafe.ai/models.md",
+      "claim": "100K tokens per second / 80 requests per second (Documented)",
+      "accessed_at": "2026-10-11T05:17:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s07",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Run 13 source R13-S07: docs.typesafe.ai/llms.txt",
+      "claim": "Guardrails for LLMs ... Screen every message going into and out of an LLM app with one TypeSafe request (Documented)",
+      "accessed_at": "2026-10-11T05:17:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Run 13 source R13-S08: typesafe.ai/",
+      "claim": "Published Oct 11, 2026, 4:02 AM UTC (Documented)",
+      "accessed_at": "2026-10-11T05:17:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Run 13 source R13-S09: typesafe.ai/blog",
+      "claim": "TypeSafe A raises Series AI (Documented)",
+      "accessed_at": "2026-10-11T05:17:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Run 13 source R13-S10: typesafe.ai/enterprise",
+      "claim": "Can we run Jev in our own VPC or on-premises? (Documented)",
+      "accessed_at": "2026-10-11T05:17:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s11",
+      "source_type": "documented source",
+      "source_url": "https://trust.typesafe.ai/subprocessors",
+      "title": "Run 13 source R13-S11: trust.typesafe.ai/subprocessors",
+      "claim": "Nebius and CoreWeave Published October 2, 2026 Added subprocessors (Documented)",
+      "accessed_at": "2026-10-11T05:18:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s12",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Run 13 source R13-S12: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "\"provider_name\":\"typesafe-ai\",\"has_zdr\":true (Documented)",
+      "accessed_at": "2026-10-11T05:17:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s13",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Run 13 source R13-S13: docs.typesafe.ai/legal.md",
+      "claim": "1,168 bytes (Documented)",
+      "accessed_at": "2026-10-11T05:17:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s14",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Run 13 source R13-S14: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. Just create an OpenRouter API key (Documented)",
+      "accessed_at": "2026-10-11T05:17:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s15",
+      "source_type": "documented source",
+      "source_url": "https://jev-agent.org/",
+      "title": "Run 13 source R13-S15: jev-agent.org/",
+      "claim": "Jev: Fast System One Decisions for AI Agents | Jev Agent (Reported)",
+      "accessed_at": "2026-10-11T05:17:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s16",
+      "source_type": "documented source",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Run 13 source R13-S16: jev-ai.pro/",
+      "claim": "Jev AI — Try the Jev Model by TypeSafe: Playground & API (Reported)",
+      "accessed_at": "2026-10-11T05:17:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s17",
+      "source_type": "documented source",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Run 13 source R13-S17: jevtypesafeai.com/",
+      "claim": "Jev by TypeSafe AI — Try the System One model & API (Reported)",
+      "accessed_at": "2026-10-11T05:17:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s18",
+      "source_type": "documented source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Run 13 source R13-S18: research.eye.security/rise-of-the-jev-clones/",
+      "claim": "Rise of the Jev-Clones (Reported)",
+      "accessed_at": "2026-10-11T05:17:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s19",
+      "source_type": "documented source",
+      "source_url": "https://thejevai.com/",
+      "title": "Run 13 source R13-S19: thejevai.com/",
+      "claim": "Jev AI — Jev Model Online, Free, No Waitlist (Reported)",
+      "accessed_at": "2026-10-11T05:17:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s20",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jack-jill-jev-case-study",
+      "title": "Run 13 source R13-S20: typesafe.ai/blog/jack-jill-jev-case-study",
+      "claim": "How Jack & Jill Cut Candidate Screening Costs By 88% With Jev (Reported)",
+      "accessed_at": "2026-10-11T05:17:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s21",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/series-ai",
+      "title": "Run 13 source R13-S21: typesafe.ai/blog/series-ai",
+      "claim": "TypeSafe A raises Series AI (Documented)",
+      "accessed_at": "2026-10-11T05:17:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s22",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query=typesafe",
+      "title": "Run 13 source R13-S22: hn.algolia.com/api/v1/search_by_date?query=typesafe",
+      "claim": "Jeyzma is TypeSafeAI minus $850M plus Go/TinyGo/llama.cpp in the browser (Reported)",
+      "accessed_at": "2026-10-11T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s23",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=jev",
+      "title": "Run 13 source R13-S23: api.github.com/search/repositories?q=jev",
+      "claim": "total_count 147 (100 returned) (Reported)",
+      "accessed_at": "2026-10-11T05:21:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s24",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=typesafe",
+      "title": "Run 13 source R13-S24: api.github.com/search/repositories?q=typesafe",
+      "claim": "total_count 29 (Reported)",
+      "accessed_at": "2026-10-11T05:21:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s25",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=jev",
+      "title": "Run 13 source R13-S25: api.github.com/search/repositories?q=jev",
+      "claim": "total_count 673; topic:jev 226 (Reported)",
+      "accessed_at": "2026-10-11T05:21:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s26",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?text=jev",
+      "title": "Run 13 source R13-S26: registry.npmjs.org/-/v1/search?text=jev",
+      "claim": "@openclaw/typesafe 2026.10.1 2026-10-10T22:13:05Z (Documented)",
+      "accessed_at": "2026-10-11T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s27",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=jev&sort=lastModified&direction=-1&limit=50",
+      "title": "Run 13 source R13-S27: huggingface.co/api/models?search=jev&sort=lastModified&direc",
+      "claim": "autotrust/JEV-35B; autotrust/JEV-9B; SargeDev/JEV-27B-Uncensored (Reported)",
+      "accessed_at": "2026-10-11T05:21:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s28",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev&per_page=30",
+      "title": "Run 13 source R13-S28: dev.to/api/articles?tag=jev&per_page=30",
+      "claim": "Jev Can Make Decisions. But How Do You Work With It? (Reported)",
+      "accessed_at": "2026-10-11T05:21:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s29",
+      "source_type": "documented source",
+      "source_url": "https://www.reddit.com/search.json?q=jev%20typesafe",
+      "title": "Run 13 source R13-S29: www.reddit.com/search.json?q=jev%20typesafe",
+      "claim": "HTTP 403 (Reported)",
+      "accessed_at": "2026-10-11T05:21:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s30",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox&q=jev%20vision",
+      "title": "Run 13 source R13-S30: suggestqueries.google.com/complete/search?client=firefox&q=j",
+      "claim": "jev vision, jev vision model | jev visual, jev vla, jev vision, jev vlm (Reported)",
+      "accessed_at": "2026-10-11T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s31",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search?query=%22jev%20vision%22",
+      "title": "Run 13 source R13-S31: hn.algolia.com/api/v1/search?query=%22jev%20vision%22",
+      "claim": "SeanLiu/Jev-Vision; @gbesse/jev-vision (Reported)",
+      "accessed_at": "2026-10-11T05:21:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s32",
+      "source_type": "documented source",
+      "source_url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "title": "Run 13 source R13-S32: commandline.microsoft.com/microsoft-decision-1-model-foundry",
+      "claim": "our new model for fast decision-scoring, available in Microsoft Foundry and through OpenRouter (Documented)",
+      "accessed_at": "2026-10-11T05:22:26Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s33",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search?query=%22Microsoft%20Decision%201%22",
+      "title": "Run 13 source R13-S33: hn.algolia.com/api/v1/search?query=%22Microsoft%20Decision%2",
+      "claim": "Microsoft-Decision-1, our model for fast decision-making (Reported)",
+      "accessed_at": "2026-10-11T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s34",
+      "source_type": "documented source",
+      "source_url": "https://ollama.com/search?q=jev",
+      "title": "Run 13 source R13-S34: ollama.com/search?q=jev",
+      "claim": "jev (Reported)",
+      "accessed_at": "2026-10-11T05:21:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s35",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/<pkg>",
+      "title": "Run 13 source R13-S35: registry.npmjs.org/<pkg>",
+      "claim": "@effect/ai-typesafe 4.0.3 2026-10-10T10:04:03Z (Documented)",
+      "accessed_at": "2026-10-11T05:22:26Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s36",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/~typesafe/jev-latest/endpoints",
+      "title": "Run 13 source R13-S36: openrouter.ai/api/v1/models/~typesafe/jev-latest/endpoints",
+      "claim": "This model always redirects to the latest model in the Jev family. (Documented)",
+      "accessed_at": "2026-10-11T05:18:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s37",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Run 13 source R13-S37: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "\"context_length\":64000 ... \"max_prompt_tokens\":32000 (Documented)",
+      "accessed_at": "2026-10-11T05:17:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s38",
+      "source_type": "documented source",
+      "source_url": "https://opper.ai/typesafe/jev-1.13.0",
+      "title": "Run 13 source R13-S38: opper.ai/typesafe/jev-1.13.0",
+      "claim": "Jev 1.13 vs Microsoft Decision 1 (Documented)",
+      "accessed_at": "2026-10-11T05:17:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s39",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Run 13 source R13-S39: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "typesafe/jev (Documented)",
+      "accessed_at": "2026-10-11T05:17:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s50",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/komzweb/jev-vs-decisions-rpg/git/trees/f81c004d85c4b1dc240bd00e1c10d17476f040ba?recursive=1",
+      "title": "Run 13 source R13-S50: api.github.com/repos/komzweb/jev-vs-decisions-rpg/git/trees/",
+      "claim": "results/summary.md 8359 (Documented)",
+      "accessed_at": "2026-10-11T05:22:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s51",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/komzweb/jev-vs-decisions-rpg/f81c004d85c4b1dc240bd00e1c10d17476f040ba/README.md",
+      "title": "Run 13 source R13-S51: raw.githubusercontent.com/komzweb/jev-vs-decisions-rpg/f81c0",
+      "claim": "Jev vs Decisions API, 100 matches | 8 wins | 82 wins (10 draws) (Reported)",
+      "accessed_at": "2026-10-11T05:23:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s52",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/komzweb/jev-vs-decisions-rpg/f81c004d85c4b1dc240bd00e1c10d17476f040ba/experiments/stats.py",
+      "title": "Run 13 source R13-S52: raw.githubusercontent.com/komzweb/jev-vs-decisions-rpg/f81c0",
+      "claim": "def mcnemar_exact(b: int, c: int) -> float: (Documented)",
+      "accessed_at": "2026-10-11T05:23:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s53",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/komzweb/jev-vs-decisions-rpg/f81c004d85c4b1dc240bd00e1c10d17476f040ba/results/summary.md",
+      "title": "Run 13 source R13-S53: raw.githubusercontent.com/komzweb/jev-vs-decisions-rpg/f81c0",
+      "claim": "| jev vs decisions | 100 | 8 | 82 | 10 | (Reported)",
+      "accessed_at": "2026-10-11T05:23:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s54",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/komzweb/jev-vs-decisions-rpg/f81c004d85c4b1dc240bd00e1c10d17476f040ba/deciders/jev.py",
+      "title": "Run 13 source R13-S54: raw.githubusercontent.com/komzweb/jev-vs-decisions-rpg/f81c0",
+      "claim": "MODEL = \"jev-1.13.0\" (Documented)",
+      "accessed_at": "2026-10-11T05:23:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s55",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/mateusfonsek/openai-decisions-vs-jev-vs-laya/git/trees/160e1120ab96d28926d0baca5a2e30b095e4bcf1?recursive=1",
+      "title": "Run 13 source R13-S55: api.github.com/repos/mateusfonsek/openai-decisions-vs-jev-vs",
+      "claim": "results/2026-10-07/jev.jsonl 269676 (Documented)",
+      "accessed_at": "2026-10-11T05:22:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s56",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mateusfonsek/openai-decisions-vs-jev-vs-laya/160e1120ab96d28926d0baca5a2e30b095e4bcf1/README.md",
+      "title": "Run 13 source R13-S56: raw.githubusercontent.com/mateusfonsek/openai-decisions-vs-j",
+      "claim": "Benchmark independente de decision models em português (Reported)",
+      "accessed_at": "2026-10-11T05:23:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s57",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mateusfonsek/openai-decisions-vs-jev-vs-laya/160e1120ab96d28926d0baca5a2e30b095e4bcf1/bench/metrics.py",
+      "title": "Run 13 source R13-S57: raw.githubusercontent.com/mateusfonsek/openai-decisions-vs-j",
+      "claim": "HEADLINE = {\"routing\": \"accuracy\", \"injection\": \"f1\", \"judge\": \"exact\"} (Documented)",
+      "accessed_at": "2026-10-11T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s58",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mateusfonsek/openai-decisions-vs-jev-vs-laya/160e1120ab96d28926d0baca5a2e30b095e4bcf1/results/2026-10-07/report/summary.md",
+      "title": "Run 13 source R13-S58: raw.githubusercontent.com/mateusfonsek/openai-decisions-vs-j",
+      "claim": "| Jev (TypeSafe) | **88,0%** | **87,4%** (Reported)",
+      "accessed_at": "2026-10-11T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s59",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mateusfonsek/openai-decisions-vs-jev-vs-laya/160e1120ab96d28926d0baca5a2e30b095e4bcf1/dataset/suites.yaml",
+      "title": "Run 13 source R13-S59: raw.githubusercontent.com/mateusfonsek/openai-decisions-vs-j",
+      "claim": "licenciado sob Creative Commons Attribution 4.0 International (CC BY 4.0) (Documented)",
+      "accessed_at": "2026-10-11T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s60",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mateusfonsek/openai-decisions-vs-jev-vs-laya/160e1120ab96d28926d0baca5a2e30b095e4bcf1/bench/adapters/jev.py",
+      "title": "Run 13 source R13-S60: raw.githubusercontent.com/mateusfonsek/openai-decisions-vs-j",
+      "claim": "model: str = \"jev-latest\" (Documented)",
+      "accessed_at": "2026-10-11T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s61",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/anessbelbati/jev-rerank-bench/git/trees/fecba75a443c580a8979ce2587e2d452d4d8e511?recursive=1",
+      "title": "Run 13 source R13-S61: api.github.com/repos/anessbelbati/jev-rerank-bench/git/trees",
+      "claim": "cache: 945 files (Documented)",
+      "accessed_at": "2026-10-11T05:22:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s62",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecba75a443c580a8979ce2587e2d452d4d8e511/README.md",
+      "title": "Run 13 source R13-S62: raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecb",
+      "claim": "The ranking average put Jev's rubric at 0.692 and Cohere Pro at 0.691, without establishing a winner. (Reported)",
+      "accessed_at": "2026-10-11T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s63",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecba75a443c580a8979ce2587e2d452d4d8e511/eval.py",
+      "title": "Run 13 source R13-S63: raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecb",
+      "claim": "def ndcg(ranked: list[str], rel: dict[str, int], k: int = 10) -> float: (Documented)",
+      "accessed_at": "2026-10-11T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s64",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecba75a443c580a8979ce2587e2d452d4d8e511/significance.py",
+      "title": "Run 13 source R13-S64: raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecb",
+      "claim": "Paired bootstrap over the questions, from the cached answers. No API calls. (Documented)",
+      "accessed_at": "2026-10-11T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s65",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecba75a443c580a8979ce2587e2d452d4d8e511/results/significance_run_sept25.txt",
+      "title": "Run 13 source R13-S65: raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecb",
+      "claim": "8-dataset average, ndcg10: best = jev-score-batch (0.692) (Reported)",
+      "accessed_at": "2026-10-11T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s66",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecba75a443c580a8979ce2587e2d452d4d8e511/rerankers/jev.py",
+      "title": "Run 13 source R13-S66: raw.githubusercontent.com/anessbelbati/jev-rerank-bench/fecb",
+      "claim": "JevScoreBatch: 30 Score questions with a four-level rubric in one call; rank by the expected level. (Documented)",
+      "accessed_at": "2026-10-11T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s67",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/alpersonalwebsite/classifier-bakeoff/4a1c4a0/reports/public/20261007T235443Z-da1571.html",
+      "title": "Run 13 source R13-S67: raw.githubusercontent.com/alpersonalwebsite/classifier-bakeo",
+      "claim": "OpenAI's Decisions API has the highest share fully right at 88.0%, Sonnet 5.5 has 86.0%, and Jev 84.0%, all within noise (Reported)",
+      "accessed_at": "2026-10-11T05:25:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s68",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd05cb6e1aefc4fed04834236e7c/brain.py",
+      "title": "Run 13 source R13-S68: raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd0",
+      "claim": "AsyncTypeSafeClient(model=MODEL, retry=RetryPolicy(max_retries=0), timeout=2.0) (Documented)",
+      "accessed_at": "2026-10-11T05:25:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s69",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/FazalAAli/jev-robotics-demo/531de61a75f386b0847f5f6f809a11424a75c29b/jev_agent.py",
+      "title": "Run 13 source R13-S69: raw.githubusercontent.com/FazalAAli/jev-robotics-demo/531de6",
+      "claim": "with TypeSafeClient() as client: (Documented)",
+      "accessed_at": "2026-10-11T05:25:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s100",
+      "source_type": "documented source",
+      "source_url": "https://github.com/mikespins/doom-jev/commits",
+      "title": "Run 13 source R13-S100: github.com/mikespins/doom-jev/commits",
+      "claim": "bd4e98f87990bd05cb6e1aefc4fed04834236e7c ... 2026-09-25T02:37:35.000Z (Documented (commit list HTML + tree API))",
+      "accessed_at": "2026-10-11T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s101",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd05cb6e1aefc4fed04834236e7c/README.md",
+      "title": "Run 13 source R13-S101: raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd0",
+      "claim": "Every 120 ms, describes the newest snapshot in plain English (`perception.py`) and fires a Jev `Choice` request without waiting for earlier ones (Reported (README))",
+      "accessed_at": "2026-10-11T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s102",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd05cb6e1aefc4fed04834236e7c/brain.py",
+      "title": "Run 13 source R13-S102: raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd0",
+      "claim": "async with AsyncTypeSafeClient(model=MODEL, retry=RetryPolicy(max_retries=0), timeout=2.0) as client: (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s103",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd05cb6e1aefc4fed04834236e7c/jev_doom.py",
+      "title": "Run 13 source R13-S103: raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd0",
+      "claim": "if not os.environ.get(\"TYPESAFE_API_KEY\", \"\").strip():\n        sys.exit(\"TYPESAFE_API_KEY is not set.\\n\" (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s104",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd05cb6e1aefc4fed04834236e7c/game.py",
+      "title": "Run 13 source R13-S104: raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd0",
+      "claim": "# Reflexes: plain code, applied instantly every tic. (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s105",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd05cb6e1aefc4fed04834236e7c/requirements.txt",
+      "title": "Run 13 source R13-S105: raw.githubusercontent.com/mikespins/doom-jev/bd4e98f87990bd0",
+      "claim": "typesafe-sdk==0.7.1 (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s106",
+      "source_type": "documented source",
+      "source_url": "https://github.com/FazalAAli/jev-robotics-demo/commits",
+      "title": "Run 13 source R13-S106: github.com/FazalAAli/jev-robotics-demo/commits",
+      "claim": "531de61a75f386b0847f5f6f809a11424a75c29b ... 2026-09-19T20:38:10.000+05:30 (Documented (commit list HTML + tree API))",
+      "accessed_at": "2026-10-11T05:17:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s107",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/FazalAAli/jev-robotics-demo/531de61a75f386b0847f5f6f809a11424a75c29b/README.md",
+      "title": "Run 13 source R13-S107: raw.githubusercontent.com/FazalAAli/jev-robotics-demo/531de6",
+      "claim": "One recorded run each: ... Time | 158.8 s | 19.1 s ... Cost | $0.75 | $0.0006 (Reported (README))",
+      "accessed_at": "2026-10-11T05:17:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s108",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/FazalAAli/jev-robotics-demo/531de61a75f386b0847f5f6f809a11424a75c29b/jev_agent.py",
+      "title": "Run 13 source R13-S108: raw.githubusercontent.com/FazalAAli/jev-robotics-demo/531de6",
+      "claim": "HAND_YES = 0.75  # probability Jev must give \"act\" to grasp/release (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s109",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/FazalAAli/jev-robotics-demo/531de61a75f386b0847f5f6f809a11424a75c29b/.gitignore",
+      "title": "Run 13 source R13-S109: raw.githubusercontent.com/FazalAAli/jev-robotics-demo/531de6",
+      "claim": "videos/\n*.npz (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s110",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/FazalAAli/jev-robotics-demo/531de61a75f386b0847f5f6f809a11424a75c29b/requirements.txt",
+      "title": "Run 13 source R13-S110: raw.githubusercontent.com/FazalAAli/jev-robotics-demo/531de6",
+      "claim": "mujoco\nanthropic\ntypesafe-sdk (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s111",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ys118/ra2web-jev-player/commits",
+      "title": "Run 13 source R13-S111: github.com/ys118/ra2web-jev-player/commits",
+      "claim": "af8caca8f0630468d39d1558f0a21bcaa1b29c04 ... 2026-10-10T10:45:56.000+08:00 (Documented (commit list HTML + tree API))",
+      "accessed_at": "2026-10-11T05:17:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s112",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ys118/ra2web-jev-player/af8caca8f0630468d39d1558f0a21bcaa1b29c04/README.md",
+      "title": "Run 13 source R13-S112: raw.githubusercontent.com/ys118/ra2web-jev-player/af8caca8f0",
+      "claim": "| Micro | 150 ms | focus fire, harvester recovery, repair, placement, camera, stall/end detection (in-page, zero network) | (Reported (README))",
+      "accessed_at": "2026-10-11T05:17:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s113",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ys118/ra2web-jev-player/af8caca8f0630468d39d1558f0a21bcaa1b29c04/src/ra2web_jev_player/jev/client.py",
+      "title": "Run 13 source R13-S113: raw.githubusercontent.com/ys118/ra2web-jev-player/af8caca8f0",
+      "claim": "DEFAULT_BASE_URL = \"http://127.0.0.1:8085/v1\" (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s114",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ys118/ra2web-jev-player/af8caca8f0630468d39d1558f0a21bcaa1b29c04/src/ra2web_jev_player/game.py",
+      "title": "Run 13 source R13-S114: raw.githubusercontent.com/ys118/ra2web-jev-player/af8caca8f0",
+      "claim": "except JevError as e:\n            self.audit.log(\"jev ERR %s\" % str(e)[:150]) (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s115",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ys118/ra2web-jev-player/af8caca8f0630468d39d1558f0a21bcaa1b29c04/src/ra2web_jev_player/strategy/planner/jev_apply.py",
+      "title": "Run 13 source R13-S115: raw.githubusercontent.com/ys118/ra2web-jev-player/af8caca8f0",
+      "claim": "if st_raw.get(\"choice\") and st_raw.get(\"confidence\", 0) >= CONF[\"stance\"]: (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s116",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ys118/ra2web-jev-player/af8caca8f0630468d39d1558f0a21bcaa1b29c04/src/ra2web_jev_player/config.py",
+      "title": "Run 13 source R13-S116: raw.githubusercontent.com/ys118/ra2web-jev-player/af8caca8f0",
+      "claim": "tick_interval: float = 1.5 (Documented (source))",
+      "accessed_at": "2026-10-11T05:17:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s117",
+      "source_type": "documented source",
+      "source_url": "https://github.com/orgs/typesafe-ai/repositories",
+      "title": "Run 13 source R13-S117: github.com/orgs/typesafe-ai/repositories",
+      "claim": "\"repositoryCount\":12 (Documented (absence))",
+      "accessed_at": "2026-10-11T05:18:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s118",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/typesafe-public-examples/tree/main/cookbooks",
+      "title": "Run 13 source R13-S118: github.com/typesafe-ai/typesafe-public-examples/tree/main/co",
+      "claim": "autoformat, basic_memory, ... twitch_chat_filter (Documented (absence))",
+      "accessed_at": "2026-10-11T05:18:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s119",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/pydantic-ai-slim/2.54.0/json",
+      "title": "Run 13 source R13-S119: pypi.org/pypi/pydantic-ai-slim/2.54.0/json",
+      "claim": "pydantic_ai/models/typesafe.py 13121 bytes; providers/typesafe.py 3918 bytes (Documented (package archive))",
+      "accessed_at": "2026-10-11T05:18:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s120",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/pydantic-ai-slim/2.55.0/json",
+      "title": "Run 13 source R13-S120: pypi.org/pypi/pydantic-ai-slim/2.55.0/json",
+      "claim": "if request.images:\n            raise UserError('TypeSafe does not support image input.') (Documented (package archive))",
+      "accessed_at": "2026-10-11T05:18:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s200",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/RanyAlbegWein/jev-triage/6360e21/index.js",
+      "title": "Run 13 source R13-S200: raw.githubusercontent.com/RanyAlbegWein/jev-triage/6360e21/i",
+      "claim": "if (kind.choice === \"spam\") return { handled: true }; // silence, no model call (jev-triage index.js L32-49 (before_dispatch hook))",
+      "accessed_at": "2026-10-11T05:17:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s201",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/RanyAlbegWein/jev-triage/6360e21/README.md",
+      "title": "Run 13 source R13-S201: raw.githubusercontent.com/RanyAlbegWein/jev-triage/6360e21/R",
+      "claim": "Commands such as `/new` go straight to OpenClaw, and heartbeat or cron turns are never triaged. (jev-triage README (Reported): install steps, decision-model requirement)",
+      "accessed_at": "2026-10-11T05:17:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s202",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/RanyAlbegWein/jev-triage/6360e21/openclaw.plugin.json",
+      "title": "Run 13 source R13-S202: raw.githubusercontent.com/RanyAlbegWein/jev-triage/6360e21/o",
+      "claim": "\"activation\": { \"onStartup\": true } (jev-triage manifest: activation onStartup)",
+      "accessed_at": "2026-10-11T05:17:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s203",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/openclaw/openclaw/git/trees/aa6008ad198ef99c43f9d89dbd01694708712974?recursive=1",
+      "title": "Run 13 source R13-S203: api.github.com/repos/openclaw/openclaw/git/trees/aa6008ad198",
+      "claim": "src/auto-reply/reply/dispatch-from-config.choose-route.ts (OpenClaw tree (1 API core call); 53,818 blobs, not truncated)",
+      "accessed_at": "2026-10-11T05:17:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s204",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/openclaw/openclaw/aa6008ad198ef99c43f9d89dbd01694708712974/src/auto-reply/reply/dispatch-from-config.choose-route.ts",
+      "title": "Run 13 source R13-S204: raw.githubusercontent.com/openclaw/openclaw/aa6008ad198ef99c",
+      "claim": "recordProcessed(\"completed\", { reason: \"before_dispatch_handled\" }); (OpenClaw host: before_dispatch call and {handled} branch, L557-660)",
+      "accessed_at": "2026-10-11T05:18:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s205",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/openclaw/openclaw/aa6008ad198ef99c43f9d89dbd01694708712974/src/plugins/hooks.ts",
+      "title": "Run 13 source R13-S205: raw.githubusercontent.com/openclaw/openclaw/aa6008ad198ef99c",
+      "claim": "// Host admission failures end dispatch; plugin fail-open policy cannot swallow them. (OpenClaw hook runner: runClaimingHook L789-804, runClaimingHooksList L806-847, handleHookError L514-524, shouldCatchHookErrors L275-276, runBeforeDispatch L999-1014)",
+      "accessed_at": "2026-10-11T05:18:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s206",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/openclaw/openclaw/aa6008ad198ef99c43f9d89dbd01694708712974/src/plugins/hook-runner-global.ts",
+      "title": "Run 13 source R13-S206: raw.githubusercontent.com/openclaw/openclaw/aa6008ad198ef99c",
+      "claim": "before_tool_call: \"fail-closed\", (OpenClaw global hook runner options L22-30 (fail-closed list excludes before_dispatch))",
+      "accessed_at": "2026-10-11T05:18:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s207",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/openclaw/openclaw/aa6008ad198ef99c43f9d89dbd01694708712974/src/plugins/hook-types.ts",
+      "title": "Run 13 source R13-S207: raw.githubusercontent.com/openclaw/openclaw/aa6008ad198ef99c",
+      "claim": "export type PluginHookBeforeDispatchResult = { (OpenClaw PluginHookBeforeDispatchResult type L478-481)",
+      "accessed_at": "2026-10-11T05:18:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s208",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/npm/v1/attestations/@openclaw%2ftypesafe@2026.10.1",
+      "title": "Run 13 source R13-S208: registry.npmjs.org/-/npm/v1/attestations/@openclaw%2ftypesaf",
+      "claim": "https://slsa.dev/provenance/v1 (npm provenance for 2026.10.1 (drift check only))",
+      "accessed_at": "2026-10-11T05:22:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s209",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/openclaw/openclaw/9cf7fc279c26cf3493b75e703aeadac6d0deb5ee/src/auto-reply/reply/dispatch-from-config.choose-route.ts",
+      "title": "Run 13 source R13-S209: raw.githubusercontent.com/openclaw/openclaw/9cf7fc279c26cf34",
+      "claim": "reason: \"before_dispatch_handled\" (OpenClaw host at 2026.10.1: {handled} branch refactored into a takeover, L618-650)",
+      "accessed_at": "2026-10-11T05:22:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s210",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/patches/jev-decisions.patch",
+      "title": "Run 13 source R13-S210: raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/p",
+      "claim": "\"decisions\": \"off\", (hermes-jev-mana core patch, read in full (2,079 lines, 20 files))",
+      "accessed_at": "2026-10-11T05:18:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s211",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/tools/jev_mana_install.py",
+      "title": "Run 13 source R13-S211: raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/t",
+      "claim": "install.sh --off           install everything but set jev.decisions to off (hermes-jev-mana installer: default sets jev.decisions on; --off leaves it off; L1-15, L334-337, L401-402)",
+      "accessed_at": "2026-10-11T05:19:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s212",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/plugin/jev-mana/decision_hooks.py",
+      "title": "Run 13 source R13-S212: raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/p",
+      "claim": "return None                                        # host treats this as no usable reading (hermes-jev-mana plugin hook on_select_agent_step L76-90; health guard L61-71)",
+      "accessed_at": "2026-10-11T05:19:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s213",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/plugin/jev-mana/jevkit/decisions.py",
+      "title": "Run 13 source R13-S213: raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/p",
+      "claim": "except client.JevError: (hermes-jev-mana Evaluator.evaluate L231-287 (outage/invalid/uncertainty paths))",
+      "accessed_at": "2026-10-11T05:20:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s214",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/config/jev_config.example.yaml",
+      "title": "Run 13 source R13-S214: raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/c",
+      "claim": "# Near-tie rule: if the top two Jev options are closer than this, use the original code path. (hermes-jev-mana example tuning (margin comment 0.10; no admit_unlabeled line))",
+      "accessed_at": "2026-10-11T05:19:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s215",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/README.md",
+      "title": "Run 13 source R13-S215: raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639/R",
+      "claim": "If Jev is unavailable or its answer is inadequate, the host falls back to the original code path. (hermes-jev-mana README (Reported))",
+      "accessed_at": "2026-10-11T05:18:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s216",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/NousResearch/hermes-agent/git/trees/f97608f178d1ffeca59860195ab7da295f7c8e5f?recursive=1",
+      "title": "Run 13 source R13-S216: api.github.com/repos/NousResearch/hermes-agent/git/trees/f97",
+      "claim": "plugin-catalog/jev-effort-router.yaml (Hermes tree (1 API core call); 16,240 blobs, not truncated; no agent/jev_source.py)",
+      "accessed_at": "2026-10-11T05:19:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s217",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/hermes_cli/config_defaults.py",
+      "title": "Run 13 source R13-S217: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "\"model\": \"\", (Hermes DEFAULT_CONFIG: model is an empty string (no model.provider key), L20-22; aux default provider auto L13)",
+      "accessed_at": "2026-10-11T05:19:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s218",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/agent/error_classifier.py",
+      "title": "Run 13 source R13-S218: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "\"insufficient credits\", \"insufficient_quota\", \"insufficient balance\", \"credit balance\", (Hermes _BILLING_PATTERNS L103-118 (imported by auxiliary_client.py L27-28, extended at L3188))",
+      "accessed_at": "2026-10-11T05:19:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s219",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/hermes_cli/plugins.py",
+      "title": "Run 13 source R13-S219: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "enabled = _get_enabled_plugins()  # None = opt-in default (nothing enabled) (Hermes plugin discovery gate: opt-in default, nothing enabled, L1370-1381)",
+      "accessed_at": "2026-10-11T05:19:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s220",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/hermes_cli/plugins_cmd.py",
+      "title": "Run 13 source R13-S220: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "enable = _is_tty() and _ask_yes(f\"  Enable '{installed_name}' now? [y/N]: \") (Hermes cmd_install: enable prompt defaults to No; non-TTY installs are not enabled, L916-1004)",
+      "accessed_at": "2026-10-11T05:19:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s221",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/NousResearch/hermes-agent/f97608f178d1ffeca59860195ab7da295f7c8e5f/plugin-catalog/jev-effort-router.yaml",
+      "title": "Run 13 source R13-S221: raw.githubusercontent.com/NousResearch/hermes-agent/f97608f1",
+      "claim": "provides_middleware: (Hermes catalog entry for jev-effort-router)",
+      "accessed_at": "2026-10-11T05:19:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s222",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/jev-for-all/-/jev-for-all-0.7.1.tgz",
+      "title": "Run 13 source R13-S222: registry.npmjs.org/jev-for-all/-/jev-for-all-0.7.1.tgz",
+      "claim": "if (!apiKey) return () => Promise.reject(new Error(\"jev-for-all: no API key configured\")) (jev-for-all index.ts: OpenCode prompt/context hooks L237-400, options L85-88)",
+      "accessed_at": "2026-10-11T05:20:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s223",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/jev-for-all/-/jev-for-all-0.7.1.tgz",
+      "title": "Run 13 source R13-S223: registry.npmjs.org/jev-for-all/-/jev-for-all-0.7.1.tgz",
+      "claim": "if (!keep.has(name)) delete tools[name] (jev-for-all src/tools.ts routeTools L63-119, applyToolDecision L121-133)",
+      "accessed_at": "2026-10-11T05:20:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s224",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/jev-for-all/-/jev-for-all-0.7.1.tgz",
+      "title": "Run 13 source R13-S224: registry.npmjs.org/jev-for-all/-/jev-for-all-0.7.1.tgz",
+      "claim": "const decision = apiKey ? await selectTier(createJev({ apiKey, timeoutMs: 3000 }), prompt) : null (jev-for-all launcher: bin/pick.ts L55-72, src/models.ts L20-75, spec/decisions.json L76-80, L97-101, L119-123)",
+      "accessed_at": "2026-10-11T05:20:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s225",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/Hoppin-Sorter/jev-router/git/trees/bdb4721?recursive=1",
+      "title": "Run 13 source R13-S225: api.github.com/repos/Hoppin-Sorter/jev-router/git/trees/bdb4",
+      "claim": "hooks/register.tsx (Hoppin-Sorter/jev-router tree (1 API core call))",
+      "accessed_at": "2026-10-11T05:21:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s226",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Hoppin-Sorter/jev-router/bdb47215570e8e41a7a7b8e4c3d6ce91a12674a2/hooks/register.tsx",
+      "title": "Run 13 source R13-S226: raw.githubusercontent.com/Hoppin-Sorter/jev-router/bdb472155",
+      "claim": "if ('error' in reply) { (jev-router Claude Code module: askJev L143-177, register L347-500)",
+      "accessed_at": "2026-10-11T05:21:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s227",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Hoppin-Sorter/jev-router/bdb47215570e8e41a7a7b8e4c3d6ce91a12674a2/lib/jev-router.ts",
+      "title": "Run 13 source R13-S227: raw.githubusercontent.com/Hoppin-Sorter/jev-router/bdb472155",
+      "claim": "export function pickTier(probabilities: Record<string, number>, enough: Record<Tier, number> = ENOUGH): Tier { (jev-router decide L228-255, pickTier L152-159, focus thresholds L133-139)",
+      "accessed_at": "2026-10-11T05:21:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s228",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Hoppin-Sorter/jev-router/bdb47215570e8e41a7a7b8e4c3d6ce91a12674a2/.claude-plugin/plugin.json",
+      "title": "Run 13 source R13-S228: raw.githubusercontent.com/Hoppin-Sorter/jev-router/bdb472155",
+      "claim": "\"title\": \"Effort routing\", (jev-router plugin.json userConfig (effortRouting default false))",
+      "accessed_at": "2026-10-11T05:21:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s229",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Krzysztof-Cieslak/jev-agent-control/43b26a54b0c76e8702347bbf5fc8c8cd78aff9b9/README.md",
+      "title": "Run 13 source R13-S229: raw.githubusercontent.com/Krzysztof-Cieslak/jev-agent-contro",
+      "claim": "uses [Jev](https://docs.typesafe.ai/introduction) to route requests between Plan, Build, and your own primary agents. (B5 run-12 S1 lead README (Reported): Krzysztof-Cieslak/jev-agent-control)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s230",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mrhsiung2015/jev-model-router/1c75436d29dde55139a66f3f2e76d18df5a9b197/README.md",
+      "title": "Run 13 source R13-S230: raw.githubusercontent.com/mrhsiung2015/jev-model-router/1c75",
+      "claim": "路由脚本只输出一个 JSON 决策，不直接创建子代理。 (B5 run-12 S1 lead README (Reported): mrhsiung2015/jev-model-router)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s231",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/joslynSmall/pi-gear-router/76db798d757df6671ecda180c5be7062eee14f19/README.md",
+      "title": "Run 13 source R13-S231: raw.githubusercontent.com/joslynSmall/pi-gear-router/76db798",
+      "claim": "为 [Pi](https://pi.dev) 提供按用户任务动态切换的三档模型路由 (B5 run-12 S1 lead README (Reported): joslynSmall/pi-gear-router)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s232",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/qianyuxiang-369/pi-jev-governor/4d8cb248ac844266163a0e27f378211884884da3/README.md",
+      "title": "Run 13 source R13-S232: raw.githubusercontent.com/qianyuxiang-369/pi-jev-governor/4d",
+      "claim": "Deterministic rules → JEV adjudication → human/fail-closed fallback (B5 run-12 S1 lead README (Reported): qianyuxiang-369/pi-jev-governor)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s233",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/eachann1024/pi-jev-route/f2f75f051edba9229c09ef7a1c94b26bea7f03f3/README.md",
+      "title": "Run 13 source R13-S233: raw.githubusercontent.com/eachann1024/pi-jev-route/f2f75f051",
+      "claim": "After installation, run `/reload`. Routing is enabled by default. (B5 run-12 S1 lead README (Reported): eachann1024/pi-jev-route)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s234",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/alexswan10k/pi-extensions/98434b6f9f6478afe84685ae021f9c5da9be5046/README.md",
+      "title": "Run 13 source R13-S234: raw.githubusercontent.com/alexswan10k/pi-extensions/98434b6f",
+      "claim": "Tool `ask_jev`: cheap yes/no, pick-one and rate judgements from the local LM Studio **decision model** (B5 run-12 S1 lead README (Reported): alexswan10k/pi-extensions)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s235",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/SaulineytorX/urdia/98872498d11d846bdc59464df5aab5d96e70cf76/README.md",
+      "title": "Run 13 source R13-S235: raw.githubusercontent.com/SaulineytorX/urdia/98872498d11d846",
+      "claim": "Automatic Jev selection is an explicitly enabled (B5 run-12 S1 lead README (Reported): SaulineytorX/urdia)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s236",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/HunterXing/jev-judge/97df1228952ac6dd670726ca2d45dcad262e5678/README.md",
+      "title": "Run 13 source R13-S236: raw.githubusercontent.com/HunterXing/jev-judge/97df1228952ac",
+      "claim": "changes only what the model sees. (B5 run-12 S1 lead README (Reported): HunterXing/jev-judge)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s237",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/hakilee/paseo-jev-compaction/3450cd8981a991009d673896ddb17fdb6184ab4b/README.md",
+      "title": "Run 13 source R13-S237: raw.githubusercontent.com/hakilee/paseo-jev-compaction/3450c",
+      "claim": "Manual compaction and automatic compaction at the context limit try Jev first. (B5 run-12 S1 lead README (Reported): hakilee/paseo-jev-compaction)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s238",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/oozoofrog/jev-native/e88caaa76d36c703bfaa72dd8896a253b7b20fc1/README.md",
+      "title": "Run 13 source R13-S238: raw.githubusercontent.com/oozoofrog/jev-native/e88caaa76d36c",
+      "claim": "A standalone SwiftPM native macOS controller. (B5 run-12 S1 lead README (Reported): oozoofrog/jev-native)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s239",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/TiChuXiXi/dsh-jev-zxh/0f5d0ea1564d0dfa024078a1a1377054bf08127b/README.md",
+      "title": "Run 13 source R13-S239: raw.githubusercontent.com/TiChuXiXi/dsh-jev-zxh/0f5d0ea1564d",
+      "claim": "接成模型可调用的工具 `jev_decide` (B5 run-12 S1 lead README (Reported): TiChuXiXi/dsh-jev-zxh)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s240",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/lucaminudel/jev-unpack-hook/999a732fb694f9f928980b6dc8c61dab89e77e8a/README.md",
+      "title": "Run 13 source R13-S240: raw.githubusercontent.com/lucaminudel/jev-unpack-hook/999a73",
+      "claim": "The hook receives the latest agent message from the `Stop` event. (B5 run-12 S1 lead README (Reported): lucaminudel/jev-unpack-hook)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s241",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/8itlab/reflex-cu/3887865279e2bc2444a9b0f019dda9cf6e811d9f/README.md",
+      "title": "Run 13 source R13-S241: raw.githubusercontent.com/8itlab/reflex-cu/3887865279e2bc244",
+      "claim": "is an open-source **computer use** MCP server for Claude Code, Codex and other AI agents. (B5 run-12 S1 lead README (Reported): 8itlab/reflex-cu)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s242",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Nancy97940/building-with-typesafe-jev/94b6576c7a4fd7e69d24408b045f18ee3299980f/README.md",
+      "title": "Run 13 source R13-S242: raw.githubusercontent.com/Nancy97940/building-with-typesafe-",
+      "claim": "Links to 150+ community projects, sorted by shape, with a code sketch for each. (B5 run-12 S1 lead README (Reported): Nancy97940/building-with-typesafe-jev)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s243",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/randlee/plan-anchor/7c1f1ce1795a8a307e165180d760e00cbdd07f53/README.md",
+      "title": "Run 13 source R13-S243: raw.githubusercontent.com/randlee/plan-anchor/7c1f1ce1795a8a",
+      "claim": "A Claude Code and Codex skill that keeps plans, and the code built from them, anchored to what you actually said while planning. (B5 run-12 S1 lead README (Reported): randlee/plan-anchor)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s244",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/6bb7934849c7e4a17f123d306b8c0e8f3650f970/README.md",
+      "title": "Run 13 source R13-S244: raw.githubusercontent.com/Novacon/ohmyjev/6bb7934849c7e4a17f",
+      "claim": "Guardrails for Claude Code, Codex, pi and omp, decided by (B5 run-12 S1 lead README (Reported): Novacon/ohmyjev)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s245",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Oqura-ai/optim-jev/212b702fba21baa043f3f619a6fbd918c9588ea1/README.md",
+      "title": "Run 13 source R13-S245: raw.githubusercontent.com/Oqura-ai/optim-jev/212b702fba21baa",
+      "claim": "Jev-powered context compaction, model routing, and skill selection in one Claude Code plugin. (B5 run-12 S1 lead README (Reported): Oqura-ai/optim-jev)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s246",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Akurganow/model-router/862e3f748c70999dbc304dc22cdf2c3139cfd769/README.md",
+      "title": "Run 13 source R13-S246: raw.githubusercontent.com/Akurganow/model-router/862e3f748c7",
+      "claim": "A Claude Code mod that picks the cheapest Claude model and effort for each (B5 run-12 S1 lead README (Reported): Akurganow/model-router)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s247",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/dominicrico/jev-router/8434b755de7e1a38fb272dd777bbae3efcc7c9eb/README.md",
+      "title": "Run 13 source R13-S247: raw.githubusercontent.com/dominicrico/jev-router/8434b755de7",
+      "claim": "automatic Claude model routing for Claude Code (B5 run-12 S1 lead README (Reported): dominicrico/jev-router)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s248",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/cloud-f1/jev-agent-kit/6a7aa8ef6d98b7e122bdcd8ac88f04c2419cc661/README.md",
+      "title": "Run 13 source R13-S248: raw.githubusercontent.com/cloud-f1/jev-agent-kit/6a7aa8ef6d9",
+      "claim": "plugin that shortens long `Bash` output before the model reads it. (B5 run-12 S1 lead README (Reported): cloud-f1/jev-agent-kit)",
+      "accessed_at": "2026-10-11T05:21:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s249",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/murilogteixeira/opencode-jev-pre-llm/bbe16aef162eec2b5a37c94ef1924aa86b8fd1ff/README.md",
+      "title": "Run 13 source R13-S249: raw.githubusercontent.com/murilogteixeira/opencode-jev-pre-l",
+      "claim": "Classify prompts via TypeSafe JEV *before* LLM reasoning, injecting determinism detection to avoid unnecessary LLM chain-of-thought (B5 run-13 S1 addition README (Reported): murilogteixeira/opencode-jev-pre-llm)",
+      "accessed_at": "2026-10-11T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s250",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Misato-R/Codex_Model_Router/6997343a0f17614bbee68850efd928ce5d90ee58/README.md",
+      "title": "Run 13 source R13-S250: raw.githubusercontent.com/Misato-R/Codex_Model_Router/699734",
+      "claim": "TypeScript 模型路由器，默认使用本地规则做 dry-run。 (B5 run-13 S1 addition README (Reported): Misato-R/Codex_Model_Router)",
+      "accessed_at": "2026-10-11T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s251",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/sunu-dev/jev-pilot/acddefaf8fa7739f1cbc93eee6c4b624485299c2/README.md",
+      "title": "Run 13 source R13-S251: raw.githubusercontent.com/sunu-dev/jev-pilot/acddefaf8fa7739",
+      "claim": "**Task-based model and reasoning-effort routing for Codex CLI and Claude Code.** (B5 run-13 S1 addition README (Reported): sunu-dev/jev-pilot)",
+      "accessed_at": "2026-10-11T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s252",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/chenrobotcat/Model_Selection/646b6a21f188b331e9607d513a156b8860b24db3/README.md",
+      "title": "Run 13 source R13-S252: raw.githubusercontent.com/chenrobotcat/Model_Selection/646b6",
+      "claim": "A `PreToolUse` hook for [Claude Code](https://claude.com/claude-code) that picks a model for each (B5 run-13 S1 addition README (Reported): chenrobotcat/Model_Selection)",
+      "accessed_at": "2026-10-11T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s253",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gecm0/jev-mod/4f3f55e41da4b1ab0f9409cd791b65fb98d2f88c/README.md",
+      "title": "Run 13 source R13-S253: raw.githubusercontent.com/gecm0/jev-mod/4f3f55e41da4b1ab0f94",
+      "claim": "A Claude Code mod that adds `$.jev` to the engine (B5 run-13 S1 addition README (Reported): gecm0/jev-mod)",
+      "accessed_at": "2026-10-11T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s254",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gecm0/skill-router-mod/33584c38f6ec34586becf5734a75f1d5b2d6f8a2/README.md",
+      "title": "Run 13 source R13-S254: raw.githubusercontent.com/gecm0/skill-router-mod/33584c38f6e",
+      "claim": "It never orders a skill loaded: the model decides. (B5 run-13 S1 addition README (Reported): gecm0/skill-router-mod)",
+      "accessed_at": "2026-10-11T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s255",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/iptton-ai/dsh-jev/875a3ad86332fd59765f1028c2abe51ccb896ac3/README.md",
+      "title": "Run 13 source R13-S255: raw.githubusercontent.com/iptton-ai/dsh-jev/875a3ad86332fd59",
+      "claim": "给 DeepSeek Harness 添加 `jev_evaluate` 工具 (B5 run-13 S1 addition README (Reported): iptton-ai/dsh-jev)",
+      "accessed_at": "2026-10-11T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s256",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/adityajha2005/decisionkit/06da6f7553714494f76fae13066e42cdcd01e430/README.md",
+      "title": "Run 13 source R13-S256: raw.githubusercontent.com/adityajha2005/decisionkit/06da6f75",
+      "claim": "You can use it as a **CLI**, as a **Claude Code plugin**, or as an **MCP server** (B5 run-13 S1 addition README (Reported): adityajha2005/decisionkit)",
+      "accessed_at": "2026-10-11T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s257",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/kevkzumi/jev_integration/2b9a35637e22affc1857d62fb8c4f92775ec69ca/README.md",
+      "title": "Run 13 source R13-S257: raw.githubusercontent.com/kevkzumi/jev_integration/2b9a35637",
+      "claim": "Prompts and notes for wiring [Jev](https://docs.typesafe.ai), TypeSafe's System One decision model, into terminal coding agents. (B5 run-13 S1 addition README (Reported): kevkzumi/jev_integration)",
+      "accessed_at": "2026-10-11T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s258",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Smyan1909/hunchcraft",
+      "title": "Run 13 source R13-S258: github.com/Smyan1909/hunchcraft",
+      "claim": "not readable: no HEAD returned at 05:22 UTC (absence; not retried) (B5 run-13 S1 addition: Smyan1909/hunchcraft)",
+      "accessed_at": "2026-10-11T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s259",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@each1024%2fpi-jev-route/1.0.6",
+      "title": "Run 13 source R13-S259: registry.npmjs.org/@each1024%2fpi-jev-route/1.0.6",
+      "claim": "Automatic Jev model selection at Pi subagent dispatch, with scoped model descriptions and a local HTML audit console. (B5 run-13 S1 addition: npm @each1024/pi-jev-route 1.0.6 description (Reported))",
+      "accessed_at": "2026-10-11T05:22:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s300",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d1815e27d1e/typesafe_sdk-0.7.4-py3-none-any.whl",
+      "title": "Run 13 source R13-S300: files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12",
+      "claim": "DEFAULT_TIMEOUT = 10.0 \"\"\"Default timeout in seconds for each HTTP operation.\"\"\" (Documented)",
+      "accessed_at": "2026-10-11T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s301",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d1815e27d1e/typesafe_sdk-0.7.4-py3-none-any.whl",
+      "title": "Run 13 source R13-S301: files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12",
+      "claim": "max_retries: int = 2 \"\"\"Maximum retries after the initial attempt; `0` disables retries.\"\"\" (Documented)",
+      "accessed_at": "2026-10-11T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s302",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d1815e27d1e/typesafe_sdk-0.7.4-py3-none-any.whl",
+      "title": "Run 13 source R13-S302: files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12",
+      "claim": "http_statuses: set[int] = field(default_factory=lambda: {408, 429, *range(500, 600)}) (Documented)",
+      "accessed_at": "2026-10-11T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s303",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d1815e27d1e/typesafe_sdk-0.7.4-py3-none-any.whl",
+      "title": "Run 13 source R13-S303: files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12",
+      "claim": "class TypeSafeAPITimeoutError(TypeSafeAPIConnectionError, TimeoutError): \"\"\"A request exceeded its configured timeout.\"\"\" (Documented)",
+      "accessed_at": "2026-10-11T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s304",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d1815e27d1e/typesafe_sdk-0.7.4-py3-none-any.whl",
+      "title": "Run 13 source R13-S304: files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12",
+      "claim": "raise TypeSafeError(f\"No API key was provided. Pass api_key or set the {API_KEY_ENV} environment variable.\") (Documented)",
+      "accessed_at": "2026-10-11T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s305",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/75/72/7e57648d27e45260b04762dd2393a81604b516a282fc5efe94cdf90ab971/typesafe_sdk-0.7.1-py3-none-any.whl",
+      "title": "Run 13 source R13-S305: files.pythonhosted.org/packages/75/72/7e57648d27e45260b04762",
+      "claim": "DEFAULT_TIMEOUT = 10.0 (Documented)",
+      "accessed_at": "2026-10-11T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s306",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "title": "Run 13 source R13-S306: registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "claim": "this.timeout = assertPositiveMs(\"timeout\", config.timeout ?? 1e4); (Documented)",
+      "accessed_at": "2026-10-11T05:21:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s307",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "title": "Run 13 source R13-S307: registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "claim": "const DEFAULT_RETRY_POLICY = { maxRetries: 2, backoffInitialMs: 500, backoffMaxMs: 5e3, backoffJitter: .25, (Documented)",
+      "accessed_at": "2026-10-11T05:21:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s308",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "title": "Run 13 source R13-S308: registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "claim": "if (err instanceof APITimeoutError) return policy.apiTimeoutError; if (err instanceof APIConnectionError) return policy.apiConnectionError; return false; (Documented)",
+      "accessed_at": "2026-10-11T05:21:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s309",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "title": "Run 13 source R13-S309: registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "claim": "/** The full response did not arrive within the timeout. A kind of `APIConnectionError`. */ var APITimeoutError = class extends APIConnectionError { (Documented)",
+      "accessed_at": "2026-10-11T05:21:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s310",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "title": "Run 13 source R13-S310: registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "claim": "throw new TypeSafeError(`No API key was provided. Pass \\`apiKey\\` to the TypeSafeClient constructor or set the ${ENV.apiKey} environment variable.`); (Documented)",
+      "accessed_at": "2026-10-11T05:21:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s311",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/lancedb/lancedb/b1b080b97c3edd2fd9f2aae8a3b71ff19487b1f8/python/python/lancedb/rerankers/typesafe.py",
+      "title": "Run 13 source R13-S311: raw.githubusercontent.com/lancedb/lancedb/b1b080b97c3edd2fd9",
+      "claim": "self.api_key = api_key (Documented)",
+      "accessed_at": "2026-10-11T05:22:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s312",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/lancedb/lancedb/b1b080b97c3edd2fd9f2aae8a3b71ff19487b1f8/python/python/lancedb/rerankers/typesafe.py",
+      "title": "Run 13 source R13-S312: raw.githubusercontent.com/lancedb/lancedb/b1b080b97c3edd2fd9",
+      "claim": "typesafe_sdk = attempt_import_or_raise(\"typesafe_sdk\", \"typesafe-sdk\") return typesafe_sdk.TypeSafeClient(api_key=self.api_key) (Documented)",
+      "accessed_at": "2026-10-11T05:22:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r13-s40",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/rate_limit",
+      "title": "Run 13 source R13-S40: api.github.com/rate_limit",
+      "claim": "core remaining 57 of 60; search remaining 10 of 10 (Documented)",
+      "accessed_at": "2026-10-11T05:30:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

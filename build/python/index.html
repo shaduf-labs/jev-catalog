@@ -16,7 +16,7 @@
     <meta property="og:description" content="Version-pinned Python example for Jev (TypeSafe AI) Choice, Score and Noul calls, with the request mistakes that cause 400 and 422 errors.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/build/python/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Call Jev from Python","description":"Version-pinned Python example for Jev (TypeSafe AI) Choice, Score and Noul calls, with the request mistakes that cause 400 and 422 errors.","dateModified":"2026-10-10T06:10:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/python/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Call Jev from Python","description":"Version-pinned Python example for Jev (TypeSafe AI) Choice, Score and Noul calls, with the request mistakes that cause 400 and 422 errors.","dateModified":"2026-10-11T06:10:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/python/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="build-python">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -70,7 +70,7 @@
     <div><dt>Licence and code</dt><dd>MIT; <a href="https://github.com/typesafe-ai/typesafe-sdk-python">typesafe-ai/typesafe-sdk-python</a></dd></div>
     <div><dt>Defaults</dt><dd>Base URL <code>https://api.typesafe.ai</code>; model <code>jev-latest</code> (<a href="../../where-to-use/versions-and-aliases/index.html">what it points to</a>); timeout 10 s per HTTP operation</dd></div>
   </dl>
-  <p><small>Version recheck: PyPI still lists 0.7.2 as the latest release on 30 Sep 2026, 20:47 UTC (also on 29 Sep, 07:07 UTC) <span class="ev ev-documented">Documented</span>. Drift, 10 Oct 2026 (05:12 UTC): typesafe-sdk 0.7.3 and 0.7.4 were published on 9 Oct 2026 (patches); this page was written for 0.7.2 and is not re-audited (R12-S34).</small></p>
+  <p><small>Version recheck: PyPI still lists 0.7.2 as the latest release on 30 Sep 2026, 20:47 UTC (also on 29 Sep, 07:07 UTC) <span class="ev ev-documented">Documented</span>. Drift, 10 Oct 2026 (05:12 UTC): typesafe-sdk 0.7.3 and 0.7.4 were published on 9 Oct 2026 (patches); this page was written for 0.7.2 and is not re-audited (R12-S34). Defaults read on 11 Oct 2026 from the 0.7.4 wheel (nothing installed): 10.0 s per HTTP operation, <code>max_retries</code> 2 with a 30 s total retry budget, retries on 408, 429, 5xx, connection errors and timeouts; a timeout raises <code>TypeSafeAPITimeoutError</code> (a subclass of <code>TypeSafeError</code> and of <code>TimeoutError</code>); a missing key raises <code>TypeSafeError</code> when the client is created. These match the 0.7.2 defaults on this page (R13-S300 to R13-S304).</small></p>
   <p><small>Release history: 0.5.7 (first public; PyPI 11 Sep, while TypeSafe's release notes say 12 or 14 Sep), 0.6.0 (15 Sep), 0.7.0 (18 Sep, move to Pydantic), 0.7.1 (21 Sep), 0.7.2 (26 Sep). Sources: <a href="https://pypi.org/project/typesafe-sdk/">PyPI</a>, <a href="https://docs.typesafe.ai/sdk/python/changelog">changelog</a>.</small></p>
 
   <h2 id="minimal">1. Minimal SDK call: Choice, Score and Noul</h2>
@@ -273,6 +273,7 @@ except (TypeSafeRateLimitError, TypeSafeAPITimeoutError, TypeSafeAPIError) as e:
       <li><a href="../../limitations/index.html">Limitations and fit check</a></li>
       <li><a href="../../what-is-jev/index.html">What is Jev (TypeSafe AI)?</a></li>
       <li><a href="../../videos/index.html">Demo videos</a></li>
+      <li><a href="../../reports/benchmark-grades-coding-agents/index.html">11 Oct research report (SDK default timeouts)</a></li>
     </ul>
   </section>
 </article>
@@ -291,7 +292,7 @@ except (TypeSafeRateLimitError, TypeSafeAPITimeoutError, TypeSafeAPIError) as e:
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>10 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>11 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
     </div>

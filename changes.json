@@ -2,6 +2,54 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "access-recheck-2026-10-11",
+      "changed_at": "2026-10-11T06:10:00Z",
+      "summary": "Access status rechecked 11 Oct 2026, 05:17 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime 99.835% to 99.838% with no new incident listed; the status page now also lists api.us.typesafe.ai under \"API status by geography\". Two notices shown as on 10 Oct; none retired.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "benchmarks-2026-10-11",
+      "changed_at": "2026-10-11T06:10:00Z",
+      "summary": "Benchmarks: three comparisons first listed as leads graded A from metric and results files opened at pinned commits (B38–B40); 37 graded rows (A 10, B 12, C 8, D 7). Two independent grade-A comparisons of Jev with OpenAI's Decisions API differ by task: Decisions API ahead on RPG move choices (B38); Jev ahead on exact judge score in Portuguese, level on routing and injection (B39).",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "alternatives-2026-10-11",
+      "changed_at": "2026-10-11T06:10:00Z",
+      "summary": "Jev alternatives: the Decisions API evidence cell rebuilt from graded rows only (B38, B39; results differ by task); Microsoft-Decision-1 added as a second hosted API from another provider. Jev weights: not found on TypeSafe's site, docs, GitHub or Hugging Face (10 Oct). Of 31 listed substitutes: 12 model weights, 11 local runtimes, 4 request adapters, 2 classifier/LLM approaches, 2 hosted APIs from other providers (OpenAI, Microsoft).",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "coding-agents-2026-10-11",
+      "changed_at": "2026-10-11T06:10:00Z",
+      "summary": "Coding agents settled: Of 24 integrations read in source, 13 act on Jev's answer, 10 do not, 1 is unsettled. On a Jev error the 13: 5 let the call run, 3 hold, 5 fall back. jev-triage, the jev-for-all launcher and hermes-jev-mana (inert after the documented install) counted; Hoppin-Sorter/jev-router not settled.",
+      "path": "/p/jev-catalog/build/coding-agents"
+    },
+    {
+      "change_id": "when-jev-fails-2026-10-11",
+      "changed_at": "2026-10-11T06:10:00Z",
+      "summary": "When Jev fails recounted at 74 implementations: on a Jev error 38 stop or hold the action, 20 fall back, 8 let it through, 5 return no decision and 3 are advisory. The action goes ahead in 15 of 74. LanceDB's no-key cell is now fail-closed (read 11 Oct).",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "reranking-rag-2026-10-11",
+      "changed_at": "2026-10-11T06:10:00Z",
+      "summary": "Jev reranker and Jev for RAG: jev-rerank-bench graded A as B40 (reranking-pipeline study; Jev and Cohere Rerank 4 Pro within noise); key finding recounted. Of 4 rerunnable graded reranking-pipeline studies, 2 come from parties with a stake and 2 state none (jev-pulse, 40 queries; jev-rerank-bench, Jev level with Cohere within noise); the other grade-A study measures relevance judgments.",
+      "path": "/p/jev-catalog/use-cases/reranking-rag"
+    },
+    {
+      "change_id": "products-2026-10-11",
+      "changed_at": "2026-10-11T06:10:00Z",
+      "summary": "Products: 99 rows (A 86, B 12, C 1) with jev-triage, the jev-for-all launcher and hermes-jev-mana added; none independently verified in production.",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "report-2026-10-11",
+      "changed_at": "2026-10-11T06:10:00Z",
+      "summary": "11 Oct research report: benchmark grades for three Jev vs substitute comparisons, coding-agent settlement, the failure-checklist recount and the real-time-control research result for run 14.",
+      "path": "/p/jev-catalog/reports/benchmark-grades-coding-agents"
+    },
+    {
       "change_id": "access-recheck-2026-10-10",
       "changed_at": "2026-10-10T06:10:00Z",
       "summary": "Access status rechecked 10 Oct 2026, 05:12 UTC (no run took place on 9 Oct): unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime 99.831% to 99.835% with no new incident listed. Two notices shown: the subprocessor notice (2 Oct) and the rate-limit notice (3 Oct) were retired when their seven-day shelf life ended; both facts are unchanged and stay on data privacy and access status.",

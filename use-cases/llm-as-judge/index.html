@@ -16,7 +16,7 @@
     <meta property="og:description" content="Four Jev judge and eval tools read in source and counted on When Jev fails: whether a Jev error becomes a pass, a fail or a missing score, how to escalate, and three judge studies.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/use-cases/llm-as-judge/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev as a judge","description":"Four Jev judge and eval tools read in source and counted on When Jev fails: whether a Jev error becomes a pass, a fail or a missing score, how to escalate, and three judge studies.","dateModified":"2026-10-10T06:10:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/llm-as-judge/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev as a judge","description":"Four Jev judge and eval tools read in source and counted on When Jev fails: whether a Jev error becomes a pass, a fail or a missing score, how to escalate, and three judge studies.","dateModified":"2026-10-11T06:10:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/llm-as-judge/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="llm-as-judge">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -150,7 +150,7 @@
     <li class="k-na">no-threshold, or not recorded (the cell says which)</li>
   </ul>
   <p><small>Change, 7 Oct 2026: three cells that read "conditional" (openlayer below threshold and no key, did-they-answer malformed) now show the term counted on <a href="../../build/when-jev-fails/index.html#wf-judges">When Jev fails</a>, with the condition kept in the note: the default configuration counts. The facts in the cells are unchanged. Rechecked 7 Oct 2026: <code>deepeval</code> 4.2.8 and <code>jevals</code> 0.1.4 are still the latest releases.</small></p>
-  <p><small>Change, 8 Oct 2026: openlayer jevals' no-key cell changed from "not recorded" to <strong>fallback-another backend</strong>. With no TypeSafe key, the default auto-detect (<code>backends/__init__.py</code> L30, L38–55 at <code>0a8f895</code>) picks another configured backend; with none configured it raises "No backend configured" before any eval, so it fails closed. Jev named explicitly: fail-closed (<code>backends/typesafe.py</code> L39–40). The same cell is on <a href="../../build/when-jev-fails/index.html#wf-judges">When Jev fails</a> (R11-S107). Rechecked 8 Oct 2026: deepeval 4.2.8 and jevals 0.1.4 are still the latest releases. Rechecked 10 Oct 2026: deepeval 4.2.8 and jevals 0.1.4 are still the latest releases (R12-S48).</small></p>
+  <p><small>Change, 8 Oct 2026: openlayer jevals' no-key cell changed from "not recorded" to <strong>fallback-another backend</strong>. With no TypeSafe key, the default auto-detect (<code>backends/__init__.py</code> L30, L38–55 at <code>0a8f895</code>) picks another configured backend; with none configured it raises "No backend configured" before any eval, so it fails closed. Jev named explicitly: fail-closed (<code>backends/typesafe.py</code> L39–40). The same cell is on <a href="../../build/when-jev-fails/index.html#wf-judges">When Jev fails</a> (R11-S107). Rechecked 8 Oct 2026: deepeval 4.2.8 and jevals 0.1.4 are still the latest releases. Rechecked 10 Oct 2026: deepeval 4.2.8 and jevals 0.1.4 are still the latest releases (R12-S48). Rechecked 11 Oct 2026, 05:22 UTC: still the latest releases (R13-S35).</small></p>
 
   <div class="jv-box info" id="lj-details">
     <h2>Three details that change a score</h2>
@@ -192,7 +192,7 @@
     <ul>
       <li>Whether to judge with Jev, an LLM or a trained classifier at all: <a href="../../alternatives/jev-vs-llm-vs-classifier/index.html">Jev vs an LLM vs a classifier</a>.</li>
       <li>Graded accuracy figures and their materials: <a href="../../benchmarks/index.html">benchmarks</a>. Rows are copied here unchanged, not re-graded.</li>
-      <li id="lj-counted">Failure handling compared across use cases: <a href="../../build/when-jev-fails/index.html">when Jev fails</a>. From 7 Oct 2026 the four judge tools read in source (DeepEval JevEval, openlayer jevals, did-they-answer, competitor-hunter) are counted on When Jev fails as the <a href="../../build/when-jev-fails/index.html#wf-judges">"LLM as a judge" domain</a>; the Jevals harness is not, because its code is not public. There, openlayer jevals is 1 of the 8 implementations (of 71, recounted 10 Oct 2026) that let the action go ahead unchecked on a Jev error: an errored eval counts as passed.</li>
+      <li id="lj-counted">Failure handling compared across use cases: <a href="../../build/when-jev-fails/index.html">when Jev fails</a>. From 7 Oct 2026 the four judge tools read in source (DeepEval JevEval, openlayer jevals, did-they-answer, competitor-hunter) are counted on When Jev fails as the <a href="../../build/when-jev-fails/index.html#wf-judges">"LLM as a judge" domain</a>; the Jevals harness is not, because its code is not public. There, openlayer jevals is 1 of the 8 implementations (of 74, recounted 11 Oct 2026) that let the action go ahead unchecked on a Jev error: an errored eval counts as passed.</li>
       <li>How to choose a cutoff: <a href="../../build/confidence-thresholds/index.html">confidence thresholds</a>.</li>
     </ul>
   </div>
@@ -242,6 +242,7 @@
       <li><a href="../../build/confidence-thresholds/index.html">How to choose a confidence threshold</a></li>
       <li><a href="../../build/when-jev-fails/index.html#wf-judges">When Jev fails: the four judge tools counted with the other implementations</a></li>
       <li><a href="../../build/frameworks/index.html">Jev LangChain and other framework integrations</a></li>
+      <li><a href="../../reports/benchmark-grades-coding-agents/index.html">11 Oct research report (version recheck)</a></li>
       <li><a href="../../reports/judge-rows-benchmarks/index.html">7 Oct research report (judge rows counted)</a></li>
       <li><a href="../../reports/reranking-databases/index.html">8 Oct research report</a></li>
       <li><a href="../../reports/trading-failures-judge/index.html">4 Oct research report</a></li>
@@ -270,7 +271,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>10 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>11 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
     </div>
