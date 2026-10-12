@@ -1,0 +1,399 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Jev real-time control demos, Microsoft-Decision-1 and the Clef family · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Jev real-time control demos, Microsoft-Decision-1 and the Clef family. New page on real-time game and robot demos: of 3 published demos that call Jev, read at pinned commits, 2 keep their last action when a call fails and 1 stops; none is a product. When Jev fails recounted at 77 implementations in 12 use cases (39 stop or hold, 22 fall back, 8 let it through; action goes ahead 17 of 77). B41 graded A (38 graded rows): on synthetic bank-withdrawal routing Jev and Microsoft-Decision-1 not separated, both ahead of OpenAI&#039;s Decisions API. Against small text-generating LLMs, Jev scored ahead in 6 of 10 graded studies, mixed in 2 and not ahead in 2. Alternatives 33 with Decision-1 cells and Cloudflare&#039;s Clef family; Azure pointer. Access unchanged. Nothing was run; no Jev call.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/reports/real-time-control-decision-1/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Jev real-time control demos, Microsoft-Decision-1 and the Clef family · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Jev real-time control demos, Microsoft-Decision-1 and the Clef family. New page on real-time game and robot demos: of 3 published demos that call Jev, read at pinned commits, 2 keep their last action when a call fails and 1 stops; none is a product. When Jev fails recounted at 77 implementations in 12 use cases (39 stop or hold, 22 fall back, 8 let it through; action goes ahead 17 of 77). B41 graded A (38 graded rows): on synthetic bank-withdrawal routing Jev and Microsoft-Decision-1 not separated, both ahead of OpenAI&#039;s Decisions API. Against small text-generating LLMs, Jev scored ahead in 6 of 10 graded studies, mixed in 2 and not ahead in 2. Alternatives 33 with Decision-1 cells and Cloudflare&#039;s Clef family; Azure pointer. Access unchanged. Nothing was run; no Jev call.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/reports/real-time-control-decision-1/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev real-time control demos, Microsoft-Decision-1 and the Clef family","description":"Jev real-time control demos, Microsoft-Decision-1 and the Clef family. New page on real-time game and robot demos: of 3 published demos that call Jev, read at pinned commits, 2 keep their last action when a call fails and 1 stops; none is a product. When Jev fails recounted at 77 implementations in 12 use cases (39 stop or hold, 22 fall back, 8 let it through; action goes ahead 17 of 77). B41 graded A (38 graded rows): on synthetic bank-withdrawal routing Jev and Microsoft-Decision-1 not separated, both ahead of OpenAI's Decisions API. Against small text-generating LLMs, Jev scored ahead in 6 of 10 graded studies, mixed in 2 and not ahead in 2. Alternatives 33 with Decision-1 cells and Cloudflare's Clef family; Azure pointer. Access unchanged. Nothing was run; no Jev call.","dateModified":"2026-10-12T06:10:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/reports/real-time-control-decision-1/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="report-run:04f20caf-f47c-44e1-8765-80f8678da725">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a><a href="../../use-cases/support-ticket-triage/index.html" ><span aria-hidden="true">▤</span><b>Support-ticket triage with Jev</b></a><a href="../../use-cases/model-routing/index.html" ><span aria-hidden="true">⇉</span><b>Jev Router or your own router?</b></a><a href="../../use-cases/content-moderation/index.html" ><span aria-hidden="true">⚑</span><b>Content moderation with Jev</b></a><a href="../../use-cases/email-and-lead-sorting/index.html" ><span aria-hidden="true">✉</span><b>Jev email classifier</b></a><a href="../../use-cases/trading-and-fraud-gates/index.html" ><span aria-hidden="true">⇅</span><b>Jev trading bot and fraud gates</b></a><a href="../../use-cases/llm-as-judge/index.html" ><span aria-hidden="true">⚖</span><b>Jev as a judge</b></a><a href="../../use-cases/browser-and-computer-use/index.html" ><span aria-hidden="true">⌖</span><b>Jev browser and computer use</b></a><a href="../../use-cases/reranking-rag/index.html" ><span aria-hidden="true">⇅</span><b>Jev reranker and RAG</b></a><a href="../../use-cases/databases-and-documents/index.html" ><span aria-hidden="true">▤</span><b>Jev in SQL and document pipelines</b></a><a href="../../use-cases/real-time-control/index.html" ><span aria-hidden="true">▶</span><b>Jev plays Doom: real-time demos</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../../build/index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../../build/python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../../build/typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../../build/frameworks/index.html" ><span aria-hidden="true">⧉</span><b>Jev LangChain and frameworks</b></a><a href="../../build/n8n/index.html" ><span aria-hidden="true">⇶</span><b>Jev n8n node</b></a><a href="../../build/claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../../build/coding-agents/index.html" ><span aria-hidden="true">⌨</span><b>Jev with coding agents</b></a><a href="../../build/errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../../build/confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../../build/testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a><a href="../../build/when-jev-fails/index.html" ><span aria-hidden="true">⚠</span><b>When Jev fails</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Jev alternatives by layer</b></a><a href="../../alternatives/jev-vs-llm-vs-classifier/index.html" ><span aria-hidden="true">⋈</span><b>Jev vs LLM vs classifier</b></a><a href="../../alternatives/laya-vs-kev/index.html" ><span aria-hidden="true">⚖</span><b>Jev vs Laya vs Kev</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/data-privacy/index.html" ><span aria-hidden="true">eye</span><b>Jev data retention and privacy</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/versions-and-aliases/index.html" ><span aria-hidden="true">#</span><b>Jev model IDs and aliases</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Jev examples: products and projects</b></a><a href="../../benchmarks/index.html" ><span aria-hidden="true">▦</span><b>Jev benchmarks, graded</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv jev-page">
+  <div class="jv-kicker"><span>Research report</span><span>Run <code>run:04f20caf-f47c-44e1-8765-80f8678da725</code> · checks <time datetime="2026-10-12">12 October 2026</time>, 05:12–05:36 UTC</span></div>
+  <h1>Real-time control demos, Microsoft-Decision-1 and the Clef family: research of 12 October 2026</h1>
+  <p class="jv-lede">This dated report records the evidence behind release <code>regular-2026-10-12-real-time-control</code> of 12 October 2026. It adds one page, <a href="../../use-cases/real-time-control/index.html">Jev plays Doom: what real-time demos do when a Jev call fails</a>, and refreshes <a href="../../build/when-jev-fails/index.html#wf-d-realtime">When Jev fails</a> (74 → 77 rows), <a href="../../benchmarks/index.html#b41">benchmarks</a> (B41 graded: 37 → 38 graded rows) and <a href="../../alternatives/index.html#alt-r-clef-hosted">Jev alternatives</a> (Cloudflare Clef family added: 31 → 33 substitutes). The pool ran nothing: no harness, package, benchmark or API call was run.</p>
+
+  <div class="jv-answer key" id="r14-key">
+    <strong>Key findings</strong>
+    <p class="kf"><a href="../../use-cases/real-time-control/index.html#rt-key">Real-time control</a>: Of 3 published game and robot-simulation demos that call Jev, read at pinned commits, 2 keep their last action when a call fails (doom-jev, JevPlaysSnakeGame) and 1 stops (jev-robotics-demo); none is a product.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>code read at pinned commits, checked <time datetime="2026-10-12">12 Oct 2026</time>, 05:19 UTC</span></p>
+    <p class="kf"><a href="../../build/when-jev-fails/index.html#wf-d-realtime">When Jev fails</a>: Of 77 Jev implementations read in source, on a Jev error 39 stop or hold the action, 22 fall back, 8 let it through, 5 return no decision and 3 are advisory.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>recounted by script from the published cells plus 3 new rows, checked <time datetime="2026-10-12">12 Oct 2026</time>, 05:20 UTC</span></p>
+    <p class="kf"><a href="../../benchmarks/index.html#b41">Benchmarks</a>: On synthetic bank-withdrawal routing (B41, grade A), Jev (89.2% macro-F1) and Microsoft-Decision-1 (87.6%) were not separated and both were ahead of OpenAI's Decisions API (71.4%); Decision-1 kept the same route across all 6 option orders more often (97.2–97.6% vs Jev 91.6–91.8%, Decisions API 64.2%).</p>
+    <p class="kf-meta"><span class="ev ev-reported">Reported</span><span>results in the operator's own units</span><span class="ev ev-documented">Documented</span><span>metric and results files opened at a pinned commit, checked <time datetime="2026-10-12">12 Oct 2026</time>, 05:12 UTC</span></p>
+    <p class="kf"><a href="../../alternatives/index.html#alt-key">Alternatives</a>: Of 33 listed substitutes: 13 model weights, 11 local runtimes, 4 request adapters, 2 classifier/LLM approaches, 3 hosted APIs from other providers (OpenAI, Microsoft, Cloudflare).</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>counted by layer by script, checked <time datetime="2026-10-12">12 Oct 2026</time>, 05:33–05:36 UTC</span></p>
+    <p>No page sums or ranks the graded comparisons into an overall verdict: each result belongs to its task. None of these findings says Jev is fit for real-time control; the demo rows describe what each loop's code does when a Jev call fails.</p>
+  </div>
+
+  <figure class="jv-figure" id="r14-changed" aria-labelledby="r14-changed-t">
+    <h3 id="r14-changed-t">What changed on 12 Oct 2026 (published value on 11 Oct → value on 12 Oct)</h3>
+    <ul class="rp-chg">
+      <li class="rp-new"><span class="rp-chg-l">New page</span><span class="rp-chg-n"><strong>use-cases/real-time-control</strong></span><p>3 counted demos, 2 listed and not counted. <a href="../../use-cases/real-time-control/index.html">Open the page</a>. Release 4: 3 of 4 → 4 of 4.</p></li>
+      <li><span class="rp-chg-l">When Jev fails: implementations (n)</span><span class="rp-chg-n"><s>74</s><span>→</span><strong>77</strong></span><p>New domain table, "Real-time control (games and simulations)": 11 → 12 domain tables.</p></li>
+      <li><span class="rp-chg-l">When Jev fails: action goes ahead on a Jev error</span><span class="rp-chg-n"><s>15 of 74</s><span>→</span><strong>17 of 77</strong></span><p>"Keep the last action" counts as going ahead (<a href="#r14-rule">rule</a>).</p></li>
+      <li><span class="rp-chg-l">Benchmarks: graded rows</span><span class="rp-chg-n"><s>37</s><span>→</span><strong>38</strong></span><p>B41 graded A. Grade A rows 10 → 11; B 12, C 8, D 7 unchanged.</p></li>
+      <li><span class="rp-chg-l">Graded comparisons with OpenAI's Decisions API</span><span class="rp-chg-n"><s>2</s><span>→</span><strong>3</strong></span><p>B38, B39, B41. With Microsoft-Decision-1: 0 → 1 (B41).</p></li>
+      <li><span class="rp-chg-l">Alternatives: listed substitutes</span><span class="rp-chg-n"><s>31</s><span>→</span><strong>33</strong></span><p>Hosted APIs from other providers 2 → 3; model weights 12 → 13 (Cloudflare Clef family, two rows).</p></li>
+      <li class="rp-same"><span class="rp-chg-l">Access status</span><span class="rp-chg-n"><strong>unchanged</strong></span><p>Checked 12 Oct 2026, 05:12 UTC. Home notices: 2 shown, 3 hidden, 0 retired, 0 new.</p></li>
+      <li class="rp-same"><span class="rp-chg-l">Aggregate sentence on small LLMs</span><span class="rp-chg-n"><strong>reworded</strong></span><p>"Usually ahead" becomes a count: ahead in 6 of 10 graded studies, mixed in 2, not ahead in 2 (<a href="#r14-aggregate">section 8</a>).</p></li>
+    </ul>
+    <p class="fig-note">Counts are <span class="ev ev-documented">Documented</span> from source read at pinned commits, official pages or the published pages, 12 Oct 2026. Nothing was run. A dashed box means the value did not change or is wording only.</p>
+  </figure>
+
+  <p><strong>Run:</strong> <code>run:04f20caf-f47c-44e1-8765-80f8678da725</code> (scheduled regular research run 14) · <strong>Pool:</strong> <code>pool_jev_catalog</code> · <strong>Runner:</strong> one runner plus two research helpers (A: real-time harnesses; B: decision APIs) and a spare-time helper. <strong>Checks:</strong> 12 Oct 2026; runner started 05:11:36 UTC; home status written 05:14:24 UTC; runner done 05:31:07 UTC; manager review 05:31–05:35 UTC; Cloudflare Clef follow-up accepted 05:35:32 UTC.</p>
+  <p>The run's research notes and its source ledger (117 records, R14-S… IDs) are held in the pool's private record. Key sources are linked below and on the pages each finding feeds. Pre-return checks passed: 105 distinct cited IDs, 0 missing. 11 count-word sentences were checked: every category list adds up to its total, and every category with 3 or more items (or 10% of the total) is named.</p>
+  <p><strong>Rules kept:</strong> nothing was installed or run, so no Jev, Microsoft, OpenAI or Cloudflare call was made. Failure cells come only from source at pinned commits or from published package files read in memory. Study results are the operators' own measurements. <strong>Nothing in this run is Tested.</strong></p>
+  <p><strong>Previous report:</strong> <a href="../benchmark-grades-coding-agents/index.html">11 Oct research report</a>. All dated reports: <a href="../../research/index.html">Research</a>.</p>
+
+  <h2 id="r14-asked">1. What was asked</h2>
+  <ul>
+    <li><strong>Real-time control (protected page).</strong> Recheck the pins of the game and robot-simulation demos read on 11 Oct, read new ones, and decide whether <code>use-cases/real-time-control</code> can ship with at least 3 counted rows.</li>
+    <li><strong>Microsoft-Decision-1.</strong> Check whether Jev or Microsoft-Decision-1 is listed in Microsoft Foundry, read Decision-1's request, price and data pages for the alternatives row, and grade the comparison kartikanand73/decision-api-benchmark from its opened files.</li>
+    <li><strong>Small items.</strong> Test the benchmarks sentence "Jev is usually ahead of cheap LLM setups" against the graded ledger, and write one line each for "Jev 27B VL", "Is Jev multimodal?" and "Is Jev free or paid?".</li>
+    <li><strong>Standing work.</strong> Access and notice recheck, the daily discovery scan with a 72-hour look-back for decision APIs, and the drift registry.</li>
+    <li><strong>Added in review.</strong> The manager found that Cloudflare's Clef models had no row on alternatives and sent a follow-up (05:33 UTC).</li>
+  </ul>
+
+  <h2 id="r14-summary">2. Summary answer, as of 12 October 2026</h2>
+  <ul>
+    <li><strong>Access is unchanged</strong> (12 Oct 2026, 05:12 UTC). Status <code>open_with_conditions</code> since 27 Sep (signups open, no new-user credit); the API is operational. <a href="../../where-to-use/access-status/index.html">Access status</a>.</li>
+    <li><strong>Real-time control ships.</strong> 3 demos that call Jev were read at confirmed pins with all five failure cells plus bypass. 2 more are listed and not counted (<a href="#r14-realtime">section 4</a>).</li>
+    <li><strong>When Jev fails: 74 → 77 rows</strong> in 12 domain tables (<a href="#r14-wf">section 5</a>).</li>
+    <li><strong>Microsoft-Decision-1.</strong> Jev was not listed in Microsoft Foundry's catalog at 12 Oct 2026, 05:15 UTC; Microsoft-Decision-1 was. The alternatives row gets dated cells, with the data cell marked partial. B41 is graded A (<a href="#r14-decision1">section 6</a>).</li>
+    <li><strong>Cloudflare Clef family</strong> added to alternatives as two rows: 31 → 33 substitutes (<a href="#r14-clef">section 7</a>).</li>
+    <li><strong>Aggregate sentence</strong> replaced by a counted form (<a href="#r14-aggregate">section 8</a>).</li>
+  </ul>
+
+  <h2 id="r14-access">3. Access status and home notices</h2>
+  <p>Checked 12 Oct 2026, 05:12:54–05:15:21 UTC: <span class="ev ev-documented">Documented</span>. Status unchanged since 27 Sep 2026, 22:33:25 UTC (TypeSafe CEO post, re-read through X's public oEmbed endpoint; R14-S03).</p>
+  <ul>
+    <li>Signups open, no free credit for new accounts. Service operational ("All services are online", status page updated Oct 12, 2026 at 5:12am UTC; R14-S05).</li>
+    <li>Price ($0.042 per million input tokens; output free), limits (100K tokens per second, 80 requests per second), the model <code>jev-1.13.0</code>, its aliases and all six route IDs are unchanged (R14-S06, R14-S12, R14-S36 to R14-S39).</li>
+    <li><strong>Shown on Home (2):</strong> new-user credit disabled (rank 1); lookalike resellers (rank 2). <strong>Hidden (3):</strong> Vercel provider (retires 13 Oct 2026, 05:15 UTC), Jack &amp; Jill case study (14 Oct), Series A (16 Oct). <strong>Retired:</strong> 0. <strong>New:</strong> 0.</li>
+    <li>Rejected as notices: the Enterprise page's reworded case-study cards and a new docs cookbook line (no access effect); Microsoft-Decision-1 in Foundry and Cloudflare Clef-omni (another provider's model, not a change to Jev access).</li>
+    <li>Subprocessors were not rechecked (the trust portal needs a browser render); the 11 Oct value stands.</li>
+  </ul>
+
+  <h2 id="r14-realtime">4. New page: real-time control demos</h2>
+  <p>The page is <a href="../../use-cases/real-time-control/index.html">Jev plays Doom: what real-time demos do when a Jev call fails</a>. Its title keeps "(TypeSafe AI)". "jev plays doom" was the first suggestion for the prefix "jev plays" on Google, Bing and DuckDuckGo at 12 Oct 2026, 05:16 UTC (R14-S26). The full table, the patterns to copy and the list of what was not verified are on that page; this section records the counting decisions.</p>
+  <div class="jv-box info" id="r14-rule">
+    <p><strong>Counting rule, manager decisions of 12 Oct 2026:</strong></p>
+    <ul>
+      <li>A demo is counted when it calls TypeSafe's Jev by default and its own code acts on the answer (the runner's test). JevPlaysSnakeGame, doom-jev and jev-robotics-demo are counted (decision 1).</li>
+      <li>llm-invaders is listed as a research harness and not counted: no model player is the default, and it reaches Jev through OpenRouter.</li>
+      <li>ra2web is listed as a design contrast: it "calls a local substitute by default; not counted".</li>
+      <li><strong>"Keep the last action" counts as "action goes ahead".</strong></li>
+    </ul>
+    <p><strong>Reason:</strong> when a call fails, the loop keeps acting on a choice Jev did not make for this tick. The action that goes ahead is the previous choice repeated, not a new unchecked action, and the pages say so next to the count.</p>
+    <p><strong>Effect:</strong> 3 counted rows meet the 3-row rule for a domain table, so <a href="../../build/when-jev-fails/index.html#wf-d-realtime">When Jev fails</a> gets a new domain, "Real-time control (games and simulations)".</p>
+  </div>
+  <div class="table-wrap stack">
+    <table class="jv-heat">
+      <caption>Demos read at pinned commits (12 Oct 2026, 05:12–05:19 UTC). Counted rows are coloured; uncounted rows are not.</caption>
+      <thead><tr><th>Demo and pin</th><th>Status</th><th>On a Jev error or timeout</th><th>Timeout against tick</th></tr></thead>
+      <tbody>
+<tr><td data-l="Demo and pin"><a href="../../use-cases/real-time-control/index.html#rt-r-doom">mikespins/doom-jev</a> at <a href="https://github.com/mikespins/doom-jev/tree/bd4e98f87990bd05cb6e1aefc4fed04834236e7c"><code>bd4e98f</code></a> (Doom game demo)</td><td data-l="Status">counted</td><td data-l="On error" class="k k-fb"><strong>fallback-last action</strong>the game keeps applying the last action</td><td data-l="Timeout vs tick">2.0 s, no retries, against a 0.12 s tick; stale answers are dropped</td></tr>
+<tr><td data-l="Demo and pin"><a href="../../use-cases/real-time-control/index.html#rt-r-snake">bileshg/JevPlaysSnakeGame</a> at <a href="https://github.com/bileshg/JevPlaysSnakeGame/tree/b9237bf9111cc7dba0e41da54a4b83de1e42f366"><code>b9237bf</code></a> (Snake game demo; new)</td><td data-l="Status">counted</td><td data-l="On error" class="k k-fb"><strong>fallback-last action</strong>the snake keeps its direction; also on a bad answer and with no key, because the client is built inside the <code>try</code></td><td data-l="Timeout vs tick">SDK 0.7.4 default 10 s, 2 retries; the call blocks a loop of at most 10 ticks per second</td></tr>
+<tr><td data-l="Demo and pin"><a href="../../use-cases/real-time-control/index.html#rt-r-robotics">FazalAAli/jev-robotics-demo</a> at <a href="https://github.com/FazalAAli/jev-robotics-demo/tree/531de61a75f386b0847f5f6f809a11424a75c29b"><code>531de61</code></a> (MuJoCo arm simulation)</td><td data-l="Status">counted</td><td data-l="On error" class="k k-go"><strong>fail-closed</strong>the demo stops; no action is taken</td><td data-l="Timeout vs tick">SDK default 10 s, 2 retries (SDK version unpinned); no fixed tick, the loop waits for each call</td></tr>
+<tr><td data-l="Demo and pin"><a href="../../use-cases/real-time-control/index.html#rt-r-ra2web">ys118/ra2web-jev-player</a> at <a href="https://github.com/ys118/ra2web-jev-player/tree/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46"><code>0e4e8cf</code></a> (moved from <code>af8caca</code>; cited files byte-identical)</td><td data-l="Status">design contrast: calls a local substitute by default; not counted</td><td data-l="On error">retry, then no decision; stance threshold 0.45 (build 0.40, infantry 0.35, vehicles 0.35), force-defend 0.55 (<code>doctrine.py</code> L214, L220)</td><td data-l="Timeout vs tick">40 s, up to 4 attempts; the 150 ms loop never waits for the model</td></tr>
+<tr><td data-l="Demo and pin"><a href="../../use-cases/real-time-control/index.html#rt-r-invaders">alexcpn/llm-invaders</a> at <a href="https://github.com/alexcpn/llm-invaders/tree/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7"><code>dfcbc49</code></a> (Space Invaders speed benchmark)</td><td data-l="Status">research harness, not counted</td><td data-l="On error">falls back to "wait" (<code>fallback-wait</code>)</td><td data-l="Timeout vs tick">30 s, no retries; late answers are never dropped</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul class="jv-keys"><li class="k-go">fail-closed: stop or hold</li><li class="k-fb">fallback-&lt;what&gt;: a named substitute (here the last action)</li></ul>
+  <ul>
+    <li>Patterns to copy and what not to copy are on the page: <a href="../../use-cases/real-time-control/index.html#rt-patterns">patterns</a>, <a href="../../use-cases/real-time-control/index.html#rt-dont">what not to copy</a>, <a href="../../use-cases/real-time-control/index.html#rt-judgements">flagged judgements</a>, <a href="../../use-cases/real-time-control/index.html#rt-unverified">not verified</a>.</li>
+    <li>Two README comparisons are <a href="../../benchmarks/index.html">benchmarks</a> leads, not graded <span class="ev ev-reported">Reported</span>: jev-robotics-demo (n = 1 per arm, results not committed) and llm-invaders' speed sweep (n = 3 seeds per speed per model, results files not opened).</li>
+    <li>The <a href="../../videos/index.html">videos</a> page links the new page from the ThursdAI Doom segment (26:40). At 12 Oct 2026, 05:14 UTC its description linked no code, so the pool cannot say which harness it shows (R14-S127).</li>
+    <li>Selection: the 2 counted demos from 11 Oct, the design contrast, and 2 of the 4 leads that helper A screened (the other 2 are in section 13). This is not a survey of game or robot demos.</li>
+  </ul>
+
+  <h2 id="r14-wf">5. <code>build/when-jev-fails</code>: recount 74 → 77</h2>
+  <p>A script read the published cells (74 rows) and first reproduced the published error split, 38 / 20 / 8 / 5 / 3. It then added the 3 counted real-time rows. Each condition sums to 77.</p>
+  <div class="table-wrap stack">
+    <table>
+      <caption>On a Jev error (n = 77; was n = 74)</caption>
+      <thead><tr><th>Outcome</th><th>11 Oct (n = 74)</th><th>12 Oct (n = 77)</th><th>Change</th></tr></thead>
+      <tbody>
+<tr><td data-l="Outcome">Stop or hold (fail-closed)</td><td data-l="11 Oct">38</td><td data-l="12 Oct">39</td><td data-l="Change">+1 (jev-robotics-demo)</td></tr>
+<tr><td data-l="Outcome">Fall back</td><td data-l="11 Oct">20</td><td data-l="12 Oct">22</td><td data-l="Change">+2 (doom-jev, JevPlaysSnakeGame)</td></tr>
+<tr><td data-l="Outcome">Let it through (fail-open)</td><td data-l="11 Oct">8</td><td data-l="12 Oct">8</td><td data-l="Change">unchanged</td></tr>
+<tr><td data-l="Outcome">No decision</td><td data-l="11 Oct">5</td><td data-l="12 Oct">5</td><td data-l="Change">unchanged</td></tr>
+<tr><td data-l="Outcome">Advisory</td><td data-l="11 Oct">3</td><td data-l="12 Oct">3</td><td data-l="Change">unchanged</td></tr>
+<tr><td data-l="Outcome"><strong>Total</strong></td><td data-l="11 Oct"><strong>74</strong></td><td data-l="12 Oct"><strong>77</strong></td><td data-l="Change">+3</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul>
+    <li><strong>Action goes ahead on a Jev error: 17 of 77</strong> (was 15 of 74): 8 fail-open plus 9 fallbacks that can still end in an action. "Keep the last action" counts as going ahead, because the loop keeps acting on a choice Jev did not make for this tick.</li>
+    <li>Routing fallbacks: 8 (unchanged; the 2 new fallbacks are not routing).</li>
+    <li>Malformed answer: fail-closed 33 → 34, fallback 22 → 24; fail-open 11, no-decision 3, advisory 3, not recorded 2 unchanged (sum 77).</li>
+    <li>Below threshold: no-threshold 18 → 20, no-decision 4 → 5; held 16, fallback 12, action anyway 15, advisory 4, not recorded 5 unchanged (sum 77).</li>
+    <li>No key: fail-closed 36 → 38, fallback 13 → 14; fail-open 4, advisory 3, not recorded 18 unchanged (sum 77).</li>
+    <li>Bypass recorded: 41 → 44; not recorded 33 (sum 77).</li>
+    <li>"Recomputed from 11 domain tables" becomes 12. The sentence on the 8 that let it through (4 moderation bots, 2 agent hooks, a passage filter and an eval tool) is unchanged.</li>
+  </ul>
+
+  <h2 id="r14-decision1">6. Microsoft-Decision-1: Azure pointer, alternatives cells and B41</h2>
+  <h3 id="r14-azure">6.1 Azure pointer</h3>
+  <p class="rp-quote">Jev is not listed in Microsoft Foundry's model catalog (checked 12 Oct 2026, 05:15 UTC). Foundry does list Microsoft-Decision-1, Microsoft's own decision model (Direct from Azure, version 1, GA). It is a different model from a different provider, not Jev; your data goes to Microsoft under Microsoft's terms. See its row on Alternatives.</p>
+  <ul>
+    <li><span class="ev ev-documented">Documented</span> Basis: the Foundry page <code>/catalog/models/jev</code> returned "No Data Available" at 12 Oct 2026, 05:15 UTC; 0 matches for "typesafe" or "jev" in the served <a href="https://ai.azure.com/catalog/models">Foundry catalog</a> list and on Microsoft Learn's "sold by Azure" and "from partners" pages, where control searches did match (R14-S41 to R14-S45). The catalog's own search box runs in the browser and was not observed.</li>
+    <li>Jev was also not listed in <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html">Amazon Bedrock's model cards</a>, Marketplace reference or model-choice page at 12 Oct 2026, 05:15 UTC (R14-S46). The pointer goes on <a href="../../where-to-use/index.html#ba-azure-pointer">Where to use</a>; it does not recommend either model and is not a Home notice.</li>
+  </ul>
+  <h3 id="r14-ms-cells">6.2 Microsoft-Decision-1 row on alternatives</h3>
+  <div class="table-wrap stack">
+    <table>
+      <caption>Cells for <a href="../../alternatives/index.html#alt-r-ms-decision">the Microsoft-Decision-1 row</a> (hosted API from another provider; read 12 Oct 2026, 05:13–05:15 UTC)</caption>
+      <thead><tr><th>Cell</th><th>Value</th><th>Source</th></tr></thead>
+      <tbody>
+<tr><td data-l="Cell">IDs</td><td data-l="Value"><code>Microsoft-Decision-1</code> version 1 in Foundry; <code>microsoft/microsoft-decision-1</code> on OpenRouter</td><td data-l="Source">R14-S208, R14-S212</td></tr>
+<tr><td data-l="Cell">Request</td><td data-l="Value"><code>POST …/providers/microsoft/v1/systemone</code> with <code>model</code>, <code>state</code> and <code>questions</code> (types <code>noul</code>, <code>choice</code>, <code>score</code>). No separate <code>confidence</code> field is documented on the page read</td><td data-l="Source">Microsoft Learn, Last updated on 2026-10-09 (R14-S208)</td></tr>
+<tr><td data-l="Cell">Input and context</td><td data-l="Value">Text only; 32,768-token context</td><td data-l="Source">R14-S209, R14-S212</td></tr>
+<tr><td data-l="Cell">Deployment</td><td data-l="Value">"DataZoneStandard in selected regions; GlobalStandard"</td><td data-l="Source">R14-S208</td></tr>
+<tr><td data-l="Cell">Price</td><td data-l="Value">"Input tokens cost $0.042 USD per million tokens. Output tokens are free." (unchanged)</td><td data-l="Source">Microsoft's post (R14-S207)</td></tr>
+<tr><td data-l="Cell">Data (partial)</td><td data-l="Value">"prompts and completions are not used to train, retrain, or improve the base models" (Microsoft, Last updated on 2026-05-19). No retention period stated; Product Terms not read. The page does not name Decision-1</td><td data-l="Source">R14-S215</td></tr>
+<tr><td data-l="Cell">Vendor note</td><td data-l="Value">New since 11 Oct: Microsoft's post carries an editor's note that it was updated "to add benchmarks for Jev on accuracy and calibration"; no update date shown <span class="ev ev-reported">Reported</span></td><td data-l="Source">R14-S207</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>The <a href="../../alternatives/index.html#alt-r-decisions-api">OpenAI Decisions API row</a> keeps its published facts. It adds OpenAI's data-controls values for <code>/v1/decisions</code>, dated 12 Oct 2026: training "No", abuse-monitoring retention "30 days", eligible for zero data retention (R14-S218).</p>
+  <h3 id="r14-b41">6.3 B41 graded A</h3>
+  <p>kartikanand73/decision-api-benchmark at <a href="https://github.com/kartikanand73/decision-api-benchmark/tree/1ffa4d5b95de29c1d42602a63e25566d6b152ddd"><code>1ffa4d5</code></a> (10 Oct 2026). Operator: an individual GitHub account that states no affiliation with TypeSafe, OpenAI or Microsoft. Task: synthetic bank-withdrawal routing, 500 cases × 6 option orders, two runs; all three models were called through OpenRouter. Graded from the opened metric file (<code>compare/metrics.py</code>) and results file (<code>runs/compare-20261010-222249Z/comparison.md</code> L26: 89.2%), checked 12 Oct 2026, 05:12 UTC (R14-S201 to R14-S206, runner spot-check R14-S51).</p>
+  <div class="table-wrap stack">
+    <table>
+      <caption>B41 as the operator reported it (grade <span class="gr gr-a">A</span>)</caption>
+      <thead><tr><th>Model</th><th>Route macro-F1 (pooled)</th><th>Same route in all 6 option orders</th></tr></thead>
+      <tbody>
+<tr><td data-l="Model">Jev</td><td data-l="Macro-F1">89.2%</td><td data-l="Same route">91.6–91.8%</td></tr>
+<tr><td data-l="Model">Microsoft-Decision-1</td><td data-l="Macro-F1">87.6%</td><td data-l="Same route">97.2–97.6%</td></tr>
+<tr><td data-l="Model">OpenAI Decisions API</td><td data-l="Macro-F1">71.4%</td><td data-l="Same route">64.2%</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul>
+    <li><strong>Flags (4):</strong> synthetic single task; thresholds set with Jev-shaped probabilities (the operator's own note); all three models called via OpenRouter; code version not pinned.</li>
+    <li><strong>Ledger:</strong> 38 graded rows = A 11, B 12, C 8, D 7. Graded comparisons with OpenAI's Decisions API: 3 (B38, B39, B41). With Microsoft-Decision-1: 1 (B41).</li>
+    <li><strong>Per task, no overall direction:</strong> B38, the Decisions API ahead on RPG move choices; B39, Jev ahead on exact judge score in Portuguese, level on routing and injection; B41, Jev and Decision-1 not separated on synthetic bank-withdrawal routing, both ahead of the Decisions API. <a href="../../benchmarks/index.html#b41">B41 on benchmarks</a>.</li>
+  </ul>
+
+  <h2 id="r14-clef">7. Cloudflare Clef family on alternatives: 31 → 33</h2>
+  <p>Found in review: Cloudflare's Clef, Clef-flash and Clef-omni are hosted decision models on Workers AI and are cited as comparators in B32 (grade A), but alternatives had no row for them. The follow-up read Cloudflare's pages at 12 Oct 2026, 05:33–05:34 UTC (R14-S400 to R14-S406). Two family rows were added: <a href="../../alternatives/index.html#alt-r-clef-hosted">hosted API from another provider</a> and <a href="../../alternatives/index.html#alt-r-clef-weights">open weights</a> (Apache-2.0; base-model licences not read).</p>
+  <div class="table-wrap stack">
+    <table>
+      <caption>Alternatives by layer (n = 33, 12 Oct 2026)</caption>
+      <thead><tr><th>Layer</th><th>11 Oct</th><th>12 Oct</th><th>New this run</th></tr></thead>
+      <tbody>
+<tr><td data-l="Layer">Model weights</td><td data-l="11 Oct">12</td><td data-l="12 Oct">13</td><td data-l="New">Cloudflare Clef weights</td></tr>
+<tr><td data-l="Layer">Local runtimes</td><td data-l="11 Oct">11</td><td data-l="12 Oct">11</td><td data-l="New">none</td></tr>
+<tr><td data-l="Layer">Request adapters</td><td data-l="11 Oct">4</td><td data-l="12 Oct">4</td><td data-l="New">none</td></tr>
+<tr><td data-l="Layer">Classifier/LLM approaches</td><td data-l="11 Oct">2</td><td data-l="12 Oct">2</td><td data-l="New">none</td></tr>
+<tr><td data-l="Layer">Hosted APIs from other providers</td><td data-l="11 Oct">2</td><td data-l="12 Oct">3</td><td data-l="New">Cloudflare Clef family (with OpenAI, Microsoft)</td></tr>
+<tr><td data-l="Layer"><strong>Total</strong></td><td data-l="11 Oct"><strong>31</strong></td><td data-l="12 Oct"><strong>33</strong></td><td data-l="New">+2</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul>
+    <li><strong>Prices</strong> from Cloudflare's <a href="https://developers.cloudflare.com/workers-ai/platform/pricing/">Workers AI pricing page</a>, read 12 Oct 2026, 05:33 UTC: Clef "$0.240 per M input tokens", Clef-flash "$0.038 per M input tokens", Clef-omni "$0.150 per M input tokens"; "Clef models do not charge for output tokens" (R14-S403).</li>
+    <li>Cloudflare says Clef-flash "now costs less than Jev" <span class="ev ev-reported">Reported</span> (Cloudflare changelog, 9 Oct 2026; R14-S405). The pool makes no per-decision comparison.</li>
+    <li>Cloudflare's Workers AI data-usage page also says "Cloudflare neither creates nor trains the AI models made available on Workers AI" (Last updated Apr 21, 2026; R14-S404). It is quoted as written; how it fits Cloudflare publishing Clef is not resolved.</li>
+    <li>The Clef weights row cross-links the <a href="../../use-cases/real-time-control/index.html#rt-r-ra2web">ra2web row</a>, whose default local substitute is clef-flash.</li>
+  </ul>
+
+  <h2 id="r14-aggregate">8. Aggregate sentence on small LLMs</h2>
+  <p>The benchmarks sentence "Jev is usually ahead of cheap LLM setups that generate their answer as text" was tested against the graded ledger. Criterion: a text-generating LLM that the ledger row itself names as a small tier (mini, nano, Haiku, Flash). 10 graded rows qualify. Manager decision: form (a), counted, with every category named.</p>
+  <div class="table-wrap stack">
+    <table>
+      <caption>Graded studies against small text-generating LLMs (n = 10; directions as the operators reported them)</caption>
+      <thead><tr><th>Direction</th><th>Studies</th><th>Rows</th></tr></thead>
+      <tbody>
+<tr><td data-l="Direction">Jev ahead</td><td data-l="Studies">6</td><td data-l="Rows">B01, B03, B05, B15, B23, B35</td></tr>
+<tr><td data-l="Direction">Mixed</td><td data-l="Studies">2</td><td data-l="Rows">B31, B34</td></tr>
+<tr><td data-l="Direction">Behind</td><td data-l="Studies">2</td><td data-l="Rows">B06, B33</td></tr>
+<tr><td data-l="Direction"><strong>Total</strong></td><td data-l="Studies"><strong>10</strong></td><td data-l="Rows">5 of the 10 are grade C</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>New wording on <a href="../../benchmarks/index.html">benchmarks</a> and in the catalogue's short answer:</p>
+  <p class="rp-quote">Against small text-generating LLMs, Jev scored ahead in 6 of 10 graded studies, mixed in 2 and not ahead in 2; 5 of the 10 are grade C.</p>
+  <p>On Home: "graded studies put it ahead of small LLMs in 6 of 10, not all", with a link to the ledger. Manager decision: no other paraphrase of "usually ahead of cheap LLM setups" may remain on the site.</p>
+
+  <h2 id="r14-lookback">9. Scan and 72-hour decision-API look-back</h2>
+  <p>Daily window: 11 Oct 2026, 05:12 UTC to 12 Oct 2026, 05:12 UTC. It overlaps run 13's window by 4 minutes, so there was no gap. Look-back for hosted decision models or decision APIs from any provider: from 9 Oct 2026, 05:12 UTC (R14-S24, R14-S25, R14-S40).</p>
+  <div class="table-wrap stack">
+    <table>
+      <caption>72-hour look-back (none is a Home notice)</caption>
+      <thead><tr><th>Item</th><th>Date</th><th>Classification</th></tr></thead>
+      <tbody>
+<tr><td data-l="Item">Cloudflare Clef-omni, a hosted multimodal decision model on Workers AI</td><td data-l="Date">9 Oct 2026 (Cloudflare changelog)</td><td data-l="Class">Older but newly recorded; now on alternatives (section 7) (R14-S34, R14-S35)</td></tr>
+<tr><td data-l="Item">Microsoft-Decision-1</td><td data-l="Date">9 Oct 2026</td><td data-l="Class">Recorded on 11 Oct. Changes: listed in Foundry; editor's note on Microsoft's post; served on OpenRouter through the per-model endpoints API but not in <code>/v1/models</code> (R14-S43, R14-S207, R14-S211, R14-S212)</td></tr>
+<tr><td data-l="Item">THX-01 "Free API"</td><td data-l="Date">10 and 11 Oct 2026</td><td data-l="Class">Change to an item recorded on 10 Oct. Author's claim on X; the API link was not followed <span class="ev ev-reported">Reported</span></td></tr>
+<tr><td data-l="Item">OpenDecision self-hosted decision API for images</td><td data-l="Date">11 Oct 2026</td><td data-l="Class">Change to an item recorded on 10 Oct; self-hosted, not a hosted launch</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul>
+    <li>OpenRouter's <code>/v1/models</code> listed no new ID with "decision" at 12 Oct 2026, 05:12 UTC (458 models, the same count as 11 Oct; R14-S40).</li>
+    <li>"jev vision", "jev vlm" and "jev vla" are still suggested by search engines and still not explained by any TypeSafe source (12 Oct 2026, 05:16 UTC; R14-S26). Third-party Jev-named vision models exist; that people mean those is a hypothesis.</li>
+    <li>New leads, not read: 2 real-time harnesses (romantic28/jevGameAgent, yuki-uchida/moq-games), 11 comparison repositories, 5 coding-agent integrations and Jev-named Hugging Face models (R14-S27, R14-S29). Nothing new from TypeSafe itself in the scan window.</li>
+  </ul>
+
+  <h2 id="r14-drift">10. Drift</h2>
+  <ul>
+    <li><strong>LiteLLM 1.105.0</strong> (minor release, 11 Oct 2026): targeted diff of the Jev classifier code done; <strong>failure path unchanged</strong>. A new option can send the Jev call through a router deployment with no retries and no fallbacks; its errors reach the same fallback (R14-S54). Line goes on <a href="../../build/frameworks/index.html">frameworks</a> and <a href="../../use-cases/model-routing/index.html#r-litellm">model routing</a>.</li>
+    <li><strong>@openclaw/typesafe 2026.10.2</strong> (released 12 Oct 2026, 02:27 UTC): drift note only. The jev-triage host branch was last read at 2026.10.1 (<a href="../../build/coding-agents/index.html#ca-r-triage">coding agents</a>).</li>
+    <li>Everything else on the drift list is unchanged since 11 Oct (registry check 12 Oct 2026, 05:17 UTC; R14-S53). The real-time pins for doom-jev and jev-robotics-demo are unchanged; ra2web moved (section 4).</li>
+  </ul>
+
+  <h2 id="r14-corrections">11. Corrections to published pages</h2>
+  <ul>
+    <li><strong>Where to use</strong> (and data privacy or official vs reseller where they state it): the Foundry and Bedrock check date moves from 5 Oct to 12 Oct 2026, 05:15 UTC. Jev is still not listed in either catalog.</li>
+    <li><strong>Alternatives, Microsoft-Decision-1 row:</strong> "terms not read" becomes the dated, partial data cell (section 6.2); the evidence cell gets B41.</li>
+    <li><strong>Alternatives, hosted layer:</strong> it said 2 rows while Cloudflare's Clef models were already cited on benchmarks. It is now 3 (section 7).</li>
+    <li><strong>Benchmarks, aggregate sentence:</strong> "usually ahead" is replaced by the counted sentence (section 8).</li>
+    <li><strong>When Jev fails:</strong> "recomputed from 11 domain tables" becomes 12.</li>
+  </ul>
+
+  <h2 id="r14-release">12. What this release changed</h2>
+  <p>New page: <a href="../../use-cases/real-time-control/index.html">use-cases/real-time-control</a>. <strong>Release 4 is now complete: 4 of 4.</strong> Edited in place:</p>
+  <ul>
+    <li><a href="../../build/when-jev-fails/index.html#wf-d-realtime">When Jev fails</a>: new domain table with 3 rows; recount n = 74 → 77; new key finding.</li>
+    <li><a href="../../benchmarks/index.html#b41">Benchmarks</a>: row B41 (grade A, 4 flags); grade counts 38 = A 11, B 12, C 8, D 7; the Decisions API clause as three per-task sentences; the counted aggregate sentence; two real-time README comparisons as leads.</li>
+    <li><a href="../../alternatives/index.html#alt-r-ms-decision">Jev alternatives</a>: Microsoft-Decision-1 cells and B41; OpenAI data-controls values; two Cloudflare Clef rows; counts 31 → 33.</li>
+    <li><a href="../../research/index.html">Research</a>, the <a href="../../use-cases/index.html">use-cases hub</a> and <a href="../../videos/index.html">videos</a>: release log, hub row and the link from the Doom segment.</li>
+  </ul>
+
+  <h2 id="r14-gaps">13. Evidence gaps and uncertainties</h2>
+  <ul>
+    <li><strong>Real-time rows:</strong> cells come from code at pins, not from runs. Not read: JevPlaysSnakeGame's <code>snake.py</code>; llm-invaders' <code>engine.py</code> and its results files. snowu/jev-fighter and Jayman391/ROS-JEV-LLM were only screened.</li>
+    <li><strong>Microsoft-Decision-1:</strong> not found or not read: the retention period, the Product Terms, the licence text, the regions offering DataZone deployment, rate limits, and whether the "sold by Azure" data page covers the <code>systemone</code> operation.</li>
+    <li><strong>OpenAI Decisions API:</strong> rate limits, error behaviour and page dates not documented on the pages read (12 Oct 2026, 05:13–05:14 UTC).</li>
+    <li><strong>Cloudflare Clef:</strong> base-model licences, Cloudflare's subscription agreement and privacy policy, documented timeout and error behaviour, and Cloudflare's own benchmark materials not read.</li>
+    <li><strong>B41:</strong> the code version that produced the results is not pinned (<code>git_commit: null</code>); the per-call logs were not opened line by line.</li>
+    <li><strong>Foundry search:</strong> the catalog search runs in the browser and was not observed; Jev's absence rests on the model-page lookup and the served lists.</li>
+    <li><strong>Subprocessors:</strong> not rechecked; the 11 Oct value stands.</li>
+    <li>Reddit returned HTTP 403. X (no search access), YouTube, TikTok and GitHub releases and trending were not covered: their coverage of the scan window is unknown, not zero.</li>
+  </ul>
+
+  <h2 id="r14-not-done">14. Not done (for the next run)</h2>
+  <ul>
+    <li>The new real-time harness leads and the 11 comparison repositories (no pins taken).</li>
+    <li>Microsoft Product Terms, Decision-1 region availability, and OpenRouter's data line for Decision-1.</li>
+    <li>etsabary/luna-decisions-benchmark: read in spare time; research for run 15, not published.</li>
+    <li>Spare queue items: classifier-bakeoff's metric code, hermes-jev-mana's no-key cell, and <code>pg_jevplanner</code>.</li>
+    <li>GitHub releases and trending, YouTube and TikTok (time).</li>
+  </ul>
+
+  <div class="jv-box warn">
+    <h2 id="r14-method">Method notes and what was not verified</h2>
+    <ul>
+      <li>Nothing was installed or run. No harness, package or benchmark was run and no Jev, Microsoft, OpenAI or Cloudflare API call was made. How any of the 77 implementations behaves in real use is not known.</li>
+      <li>Study results are the operators' own measurements <span class="ev ev-reported">Reported</span>. Vendor claims (Microsoft, Cloudflare) are Reported and attributed.</li>
+      <li>GitHub quota (unauthenticated): core 60 of 60 and search 10 of 10 at 05:11:49 UTC. Calls made: 8 core and 4 search, within a budget of 35 core and 8 search. The <code>git fetch</code> fallback was not used (R14-S02).</li>
+      <li>Third-party source files were read from raw GitHub or published package files and deleted after reading; their URLs and line ranges are in the source ledger.</li>
+      <li>Check times (12 Oct 2026, UTC): access 05:12:54–05:14:24; Foundry and Bedrock 05:15:04–05:15:21; scan and look-back 05:16:11–05:20:05; drift 05:17:43; spot-checks 05:17:53–05:19:30; recount 05:20:30; aggregate tally 05:22–05:23; Clef follow-up 05:33:50–05:34:25.</li>
+    </ul>
+  </div>
+
+  <section class="jv-sources" aria-labelledby="r14-sources">
+    <h2 id="r14-sources">Key sources and check times (12 Oct 2026, UTC)</h2>
+    <details>
+      <summary>Sources by section (R14 IDs)</summary>
+      <ul>
+        <li>Access, 05:12:54–05:14:24: <a href="https://status.typesafe.ai/">status.typesafe.ai</a> (R14-S05); <a href="https://docs.typesafe.ai/models.md">docs.typesafe.ai/models.md</a> (R14-S06); <a href="https://docs.typesafe.ai/llms.txt">docs.typesafe.ai/llms.txt</a> (R14-S07); <a href="https://typesafe.ai/">typesafe.ai</a> (R14-S08); <a href="https://typesafe.ai/enterprise">typesafe.ai/enterprise</a> (R14-S10); CEO post through X oEmbed (R14-S03); route IDs (R14-S12, R14-S36 to R14-S39); lookalike sites and the <a href="https://research.eye.security/rise-of-the-jev-clones/">Eye Security report</a> (R14-S15 to R14-S19).</li>
+        <li>Real-time demos, 05:12–05:19: doom-jev at <a href="https://github.com/mikespins/doom-jev/tree/bd4e98f87990bd05cb6e1aefc4fed04834236e7c">bd4e98f</a>: <code>brain.py</code> L291, L331–334, L340–352 (R14-S100; cells from run 13's reads at the same pin). jev-robotics-demo at <a href="https://github.com/FazalAAli/jev-robotics-demo/tree/531de61a75f386b0847f5f6f809a11424a75c29b">531de61</a>: <code>jev_agent.py</code> L213–293 (R14-S101). JevPlaysSnakeGame at <a href="https://github.com/bileshg/JevPlaysSnakeGame/tree/b9237bf9111cc7dba0e41da54a4b83de1e42f366">b9237bf</a>: <a href="https://raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9111cc7dba0e41da54a4b83de1e42f366/src/agents/jev_agent.py"><code>src/agents/jev_agent.py</code></a> L54–64; <code>src/game/engine.py</code> L96–151; <code>config.yaml</code> L2; <code>uv.lock</code> L235–236 (R14-S49, R14-S114 to R14-S120); typesafe-sdk 0.7.4 wheel (R14-S48). ra2web-jev-player at <a href="https://github.com/ys118/ra2web-jev-player/tree/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46">0e4e8cf</a>: <a href="https://raw.githubusercontent.com/ys118/ra2web-jev-player/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46/src/ra2web_jev_player/strategy/doctrine.py"><code>strategy/doctrine.py</code></a> L214, L220; <code>jev/client.py</code> L30–33, L110, L123–145 (R14-S50, R14-S102 to R14-S106). llm-invaders at <a href="https://github.com/alexcpn/llm-invaders/tree/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7">dfcbc49</a>: <code>invaders/agents.py</code> L91–116; <code>invaders/harness.py</code> L28–39; <code>play.py</code> L99–100, L124 (R14-S107 to R14-S113). Screened: jev-fighter (R14-S121 to R14-S123), ROS-JEV-LLM (R14-S124, R14-S125). ThursdAI video description (R14-S127). Title suggestions, 05:16:13 (R14-S26).</li>
+        <li>When Jev fails recount, 05:20: published <code>data-c</code> cells (R14-S52).</li>
+        <li>Catalogs, 05:15:04–05:15:21: <a href="https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure">Foundry Models sold by Azure</a> (R14-S41); <a href="https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners">Foundry Models from partners</a> (R14-S42); <a href="https://ai.azure.com/catalog/models">Foundry catalog</a> (R14-S43); <a href="https://ai.azure.com/catalog/models/Microsoft-Decision-1">Microsoft-Decision-1 model page</a> (R14-S44); Foundry <code>/catalog/models/jev</code> (R14-S45); Bedrock model cards, Marketplace reference and model choice (R14-S46).</li>
+        <li>Microsoft-Decision-1 and OpenAI, 05:13–05:15: <a href="https://commandline.microsoft.com/microsoft-decision-1-model-foundry/">Microsoft's post</a> (R14-S207); <a href="https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision">Microsoft Learn request page</a> (R14-S208); catalog (R14-S209, R14-S210); OpenRouter (R14-S211 to R14-S214); <a href="https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy">Microsoft data page</a> (R14-S215, R14-S216); <a href="https://developers.openai.com/api/docs/guides/your-data.md">OpenAI data controls</a> (R14-S218); <a href="https://developers.openai.com/api/docs/guides/decisions.md">OpenAI Decisions guide</a> (R14-S219); OpenAI pricing (R14-S217).</li>
+        <li>B41, 05:12:40: kartikanand73/decision-api-benchmark at <a href="https://github.com/kartikanand73/decision-api-benchmark/tree/1ffa4d5b95de29c1d42602a63e25566d6b152ddd">1ffa4d5</a>: README L23, L68, L205–241, L248, L295 (R14-S202); <a href="https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/compare/metrics.py"><code>compare/metrics.py</code></a> L61–83, L264–296 (R14-S203); <code>runs/compare-20261010-222249Z/comparison.md</code> L26, L29 (R14-S204, R14-S51); run-2 <code>report.md</code> L37 (R14-S205); tree, data and providers (R14-S200, R14-S201, R14-S206).</li>
+        <li>Cloudflare Clef, 05:33:50–05:34:25: <a href="https://developers.cloudflare.com/workers-ai/models/clef/">Clef</a> (R14-S400), <a href="https://developers.cloudflare.com/workers-ai/models/clef-flash/">Clef-flash</a> (R14-S401), <a href="https://developers.cloudflare.com/workers-ai/models/clef-omni/">Clef-omni</a> (R14-S402); <a href="https://developers.cloudflare.com/workers-ai/platform/pricing/">Workers AI pricing</a> (R14-S403); <a href="https://developers.cloudflare.com/workers-ai/platform/data-usage/">Workers AI data usage</a> (R14-S404); <a href="https://developers.cloudflare.com/changelog/post/2026-10-09-clef-omni-workers-ai/">changelog, 9 Oct 2026</a> (R14-S405); Hugging Face licences (R14-S406); published alternatives and B32 (R14-S407).</li>
+        <li>Aggregate tally, 05:22–05:23: published benchmarks ledger (R14-S52).</li>
+        <li>Scan, window 11 Oct 2026, 05:12 UTC to 12 Oct 2026, 05:12 UTC, plus look-back from 9 Oct 2026, 05:12 UTC: HN Algolia (R14-S24, R14-S25); GitHub repository searches (R14-S27); npm (R14-S28); Hugging Face (R14-S29); DEV.to (R14-S32); Reddit, HTTP 403, and Ollama (R14-S33); Cloudflare changelog and runtimewire.com (R14-S34, R14-S35); OpenRouter models (R14-S40); GitHub quota (R14-S02).</li>
+        <li>Drift, 05:17:43: registries (R14-S53); LiteLLM 1.104.0 and 1.105.0 <code>complexity_router.py</code> and <code>jev_classifier.py</code> (R14-S54).</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="jv-related" aria-labelledby="r14-related">
+    <h2 id="r14-related">Related pages</h2>
+    <ul>
+      <li><a href="../../use-cases/real-time-control/index.html">Jev plays Doom: what real-time demos do when a Jev call fails</a></li>
+      <li><a href="../../build/when-jev-fails/index.html#wf-d-realtime">When Jev fails: 77 implementations and a checklist</a></li>
+      <li><a href="../../benchmarks/index.html#b41">Jev benchmarks: a graded ledger</a></li>
+      <li><a href="../../alternatives/index.html">Jev alternatives (TypeSafe AI): open-source models, local runtimes and hosted APIs</a></li>
+      <li><a href="../../where-to-use/index.html#ba-azure-pointer">Where to use Jev: Bedrock and Azure</a></li>
+      <li><a href="../../where-to-use/access-status/index.html">Access status</a></li>
+      <li><a href="../../research/index.html">Research: all reports and release notes</a></li>
+      <li><a href="../benchmark-grades-coding-agents/index.html">11 Oct research report</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>12 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>

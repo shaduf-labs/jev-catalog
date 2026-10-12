@@ -1,0 +1,242 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Jev plays Doom: real-time demos · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Three game and robot-simulation demos that call Jev, read at pinned commits: what Jev decides, the loop tick, the request timeout, and what each loop does on an error, a bad answer or no key.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/use-cases/real-time-control/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Jev plays Doom: real-time demos · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Three game and robot-simulation demos that call Jev, read at pinned commits: what Jev decides, the loop tick, the request timeout, and what each loop does on an error, a bad answer or no key.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/use-cases/real-time-control/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev plays Doom: real-time demos","description":"Three game and robot-simulation demos that call Jev, read at pinned commits: what Jev decides, the loop tick, the request timeout, and what each loop does on an error, a bad answer or no key.","dateModified":"2026-10-12T06:10:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/real-time-control/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="real-time-control">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a><a href="../support-ticket-triage/index.html" ><span aria-hidden="true">▤</span><b>Support-ticket triage with Jev</b></a><a href="../model-routing/index.html" ><span aria-hidden="true">⇉</span><b>Jev Router or your own router?</b></a><a href="../content-moderation/index.html" ><span aria-hidden="true">⚑</span><b>Content moderation with Jev</b></a><a href="../email-and-lead-sorting/index.html" ><span aria-hidden="true">✉</span><b>Jev email classifier</b></a><a href="../trading-and-fraud-gates/index.html" ><span aria-hidden="true">⇅</span><b>Jev trading bot and fraud gates</b></a><a href="../llm-as-judge/index.html" ><span aria-hidden="true">⚖</span><b>Jev as a judge</b></a><a href="../browser-and-computer-use/index.html" ><span aria-hidden="true">⌖</span><b>Jev browser and computer use</b></a><a href="../reranking-rag/index.html" ><span aria-hidden="true">⇅</span><b>Jev reranker and RAG</b></a><a href="../databases-and-documents/index.html" ><span aria-hidden="true">▤</span><b>Jev in SQL and document pipelines</b></a><a href="index.html" aria-current="page"><span aria-hidden="true">▶</span><b>Jev plays Doom: real-time demos</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../../build/index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../../build/python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../../build/typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../../build/frameworks/index.html" ><span aria-hidden="true">⧉</span><b>Jev LangChain and frameworks</b></a><a href="../../build/n8n/index.html" ><span aria-hidden="true">⇶</span><b>Jev n8n node</b></a><a href="../../build/claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../../build/coding-agents/index.html" ><span aria-hidden="true">⌨</span><b>Jev with coding agents</b></a><a href="../../build/errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../../build/confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../../build/testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a><a href="../../build/when-jev-fails/index.html" ><span aria-hidden="true">⚠</span><b>When Jev fails</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Jev alternatives by layer</b></a><a href="../../alternatives/jev-vs-llm-vs-classifier/index.html" ><span aria-hidden="true">⋈</span><b>Jev vs LLM vs classifier</b></a><a href="../../alternatives/laya-vs-kev/index.html" ><span aria-hidden="true">⚖</span><b>Jev vs Laya vs Kev</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/data-privacy/index.html" ><span aria-hidden="true">eye</span><b>Jev data retention and privacy</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/versions-and-aliases/index.html" ><span aria-hidden="true">#</span><b>Jev model IDs and aliases</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Jev examples: products and projects</b></a><a href="../../benchmarks/index.html" ><span aria-hidden="true">▦</span><b>Jev benchmarks, graded</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv">
+  <div class="jv-kicker"><span>Use cases</span><span>Read at pinned commits <time datetime="2026-10-12T05:12:00Z">12 Oct 2026</time>, 05:12–05:16 UTC · spot-checked 05:17–05:19 UTC</span></div>
+  <h1>Jev plays Doom: what real-time demos do when a Jev call fails</h1>
+  <p class="jv-lede"><strong>Jev plays Doom (TypeSafe AI): real-time game and robot demos, and what each loop does when Jev fails.</strong> Three game and robot-simulation demos that call Jev, read at pinned commits: what Jev decides, the loop tick, the request timeout, and what each loop does on an error, a bad answer or no key. Two more harnesses are listed for contrast and are not counted. "jev plays doom" and "jev doom demo" were suggested on Google, Bing and DuckDuckGo when the pool checked on <time datetime="2026-10-12T05:16:13Z">12 Oct 2026, 05:16 UTC</time>. A suggestion shows that people search for something; it does not show how many. The pool ran nothing: no game, no simulation, no Jev call. Every cell comes from code read at a pinned commit.</p>
+
+  <div class="jv-answer key" id="rt-key">
+    <strong>Key finding</strong>
+    <p class="kf">Of 3 published game and robot-simulation demos that call Jev, read at pinned commits, 2 keep their last action when a call fails (doom-jev, JevPlaysSnakeGame) and 1 stops (jev-robotics-demo); none is a product.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>code read at pinned commits, checked <time datetime="2026-10-12T05:19:00Z">12 Oct 2026</time>, 05:19 UTC</span></p>
+    <p>The 3 are the counted rows in the <a href="#rt-table">harness table</a>: 2 + 1 = 3, and all 3 are runnable demos. Two were read on 11 Oct 2026; the third is one of two harnesses read on 12 Oct from four leads screened that day. This is not a survey of game or robot demos. Keeping the last action means the loop goes on acting on a choice Jev did not make for this tick, so <a href="../../build/when-jev-fails/index.html#wf-d-realtime">when Jev fails</a> counts it as "action goes ahead".</p>
+  </div>
+
+  <h2 id="rt-ticks">Loop tick against request timeout</h2>
+  <figure class="jv-figure rt-tl" aria-labelledby="rt-ticks-cap">
+    <p class="fig-title" id="rt-ticks-cap">For each harness: how often the loop wants a decision, how long one Jev request may take, and what the loop does while it waits (5 harnesses; the first 3 are counted)</p>
+    <ul class="rt-tl-list">
+      <li class="rt-tl-item">
+        <p class="rt-tl-h"><a href="#rt-r-doom">doom-jev</a> <span class="rt-tl-tag">counted</span></p>
+        <dl class="rt-tl-dl">
+          <div><dt>Tick</dt><dd>0.12 s</dd></div>
+          <div><dt>Timeout</dt><dd>2.0 s, no retries (about 17 ticks)</dd></div>
+          <div><dt>While waiting</dt><dd>the game keeps the last action; up to 5 requests in flight</dd></div>
+          <div><dt>Late answer</dt><dd>dropped as stale</dd></div>
+        </dl>
+      </li>
+      <li class="rt-tl-item">
+        <p class="rt-tl-h"><a href="#rt-r-robotics">jev-robotics-demo</a> <span class="rt-tl-tag">counted</span></p>
+        <dl class="rt-tl-dl">
+          <div><dt>Tick</dt><dd>no fixed rate; a blocking loop of up to 80 steps</dd></div>
+          <div><dt>Timeout</dt><dd>none in code: SDK default 10.0 s, 2 retries (SDK version not pinned)</dd></div>
+          <div><dt>While waiting</dt><dd>the loop waits for each call</dd></div>
+          <div><dt>Late answer</dt><dd>cannot happen (the call blocks)</dd></div>
+        </dl>
+      </li>
+      <li class="rt-tl-item">
+        <p class="rt-tl-h"><a href="#rt-r-snake">JevPlaysSnakeGame</a> <span class="rt-tl-tag">counted</span></p>
+        <dl class="rt-tl-dl">
+          <div><dt>Tick</dt><dd>at most 10 ticks per second</dd></div>
+          <div><dt>Timeout</dt><dd>none in code: SDK 0.7.4 default 10.0 s, 2 retries</dd></div>
+          <div><dt>While waiting</dt><dd>the game waits; the call blocks the tick</dd></div>
+          <div><dt>Late answer</dt><dd>cannot happen (the call blocks)</dd></div>
+        </dl>
+      </li>
+      <li class="rt-tl-item rt-tl-out">
+        <p class="rt-tl-h"><a href="#rt-r-ra2web">ra2web-jev-player</a> <span class="rt-tl-tag">design contrast, not counted</span></p>
+        <dl class="rt-tl-dl">
+          <div><dt>Tick</dt><dd>strategy every 1.5 s; a 150 ms loop in ordinary code with no network calls</dd></div>
+          <div><dt>Timeout</dt><dd>40 s, up to 4 attempts</dd></div>
+          <div><dt>While waiting</dt><dd>the 150 ms loop never waits for the model</dd></div>
+          <div><dt>Late answer</dt><dd>strategy changes when an answer arrives</dd></div>
+        </dl>
+      </li>
+      <li class="rt-tl-item rt-tl-out">
+        <p class="rt-tl-h"><a href="#rt-r-invaders">llm-invaders</a> <span class="rt-tl-tag">research harness, not counted</span></p>
+        <dl class="rt-tl-dl">
+          <div><dt>Tick</dt><dd>no fixed tick in the benchmark; <code>play.py</code> draws every 1/30 s</dd></div>
+          <div><dt>Timeout</dt><dd>30 s, no retries</dd></div>
+          <div><dt>While waiting</dt><dd>benchmark: the wait is charged as game time; <code>play.py</code>: one request in flight</dd></div>
+          <div><dt>Late answer</dt><dd>never dropped; applied with no staleness check</dd></div>
+        </dl>
+      </li>
+    </ul>
+    <figcaption>Values from the <a href="#rt-table">harness table</a>, with file and line references there. "About 17 ticks" is 2.0 s divided by 0.12 s. <span class="ev ev-documented">Documented</span> code at pinned commits, 12 Oct 2026; nothing was timed.</figcaption>
+  </figure>
+
+  <h2 id="rt-table">Five harnesses: what Jev decides and what each loop does when Jev fails</h2>
+  <p>Failure terms use the pool's shared vocabulary: <strong>fail-closed</strong> (stops with no action), <strong>fallback-&lt;what&gt;</strong> (a named substitute, here the last action or "wait"), <strong>no-decision</strong> (nothing is decided; the caller must handle it) and <strong>no-threshold</strong> (no confidence cut, so any answer is acted on). The 3 counted rows are coloured. The timeout and bypass columns are values, not verdicts, and stay uncoloured. ra2web-jev-player and llm-invaders are not counted and not coloured. <span class="ev ev-documented">Documented</span> code at the pinned commit, read 12 Oct 2026, 05:12–05:16 UTC (doom-jev and jev-robotics-demo cells from the 11 Oct read at the same commits, pins rechecked 12 Oct, 05:12 UTC); file paths are in the <a href="#rt-sources">sources</a>.</p>
+  <div class="table-wrap stack stack-md">
+    <table class="jv-heat rt-tab">
+      <thead><tr><th>Harness (commit) and what Jev decides</th><th>Loop tick</th><th>Request timeout, retries</th><th>Timeout against tick</th><th>Jev error or timeout</th><th>Malformed answer</th><th>Below threshold</th><th>No key</th><th>Bypass</th></tr></thead>
+      <tbody>
+        <tr id="rt-r-doom"><td data-l="Harness">mikespins/doom-jev (<a href="https://github.com/mikespins/doom-jev/tree/bd4e98f87990bd05cb6e1aefc4fed04834236e7c"><code>bd4e98f</code></a>, 25 Sep 2026). Runnable demo, ViZDoom/Freedoom game. Jev picks one of 6 actions each tick through <code>AsyncTypeSafeClient</code>.</td><td data-l="Loop tick">0.12 s; requests overlap, at most 5 in flight</td><td data-l="Timeout">2.0 s, <code>max_retries=0</code></td><td data-l="Timeout vs tick">About 17 ticks. Stale answers are dropped; the game keeps the last action meanwhile</td><td data-l="Jev error" class="k k-fb"><strong>fallback-last action</strong>The error is caught; the game applies the last action every tic</td><td data-l="Malformed" class="k k-fb"><strong>fallback-last action</strong>No validation; the error stays inside the request task (inference from the 11 Oct read)</td><td data-l="Below threshold" class="k k-na"><strong>no-threshold</strong>Any answer is acted on</td><td data-l="No key" class="k k-go"><strong>fail-closed</strong>Exits before the game starts</td><td data-l="Bypass" class="k"><strong>recorded</strong>Shoot and stop-at-wall reflexes override Jev; moves forward until the first answer</td></tr>
+        <tr id="rt-r-robotics"><td data-l="Harness">FazalAAli/jev-robotics-demo (<a href="https://github.com/FazalAAli/jev-robotics-demo/tree/531de61a75f386b0847f5f6f809a11424a75c29b"><code>531de61</code></a>, 19 Sep 2026, the only commit). Runnable demo, MuJoCo arm simulation. Jev picks the next target, done, and grasp or release at waypoints.</td><td data-l="Loop tick">No fixed rate; blocking loop of up to 80 steps</td><td data-l="Timeout">None in code: SDK default 10.0 s, 2 retries (SDK version not pinned)</td><td data-l="Timeout vs tick">The loop waits for each call; no late answer exists</td><td data-l="Jev error" class="k k-go"><strong>fail-closed</strong>The demo stops; no action is taken (no <code>try</code> in the file)</td><td data-l="Malformed" class="k k-go"><strong>fail-closed</strong>The demo stops</td><td data-l="Below threshold" class="k k-flag"><strong>no-decision</strong>Grasp or release only above 0.75; move and target take the top option with no threshold</td><td data-l="No key" class="k k-go"><strong>fail-closed</strong>Raises when the client is built (SDK 0.7.x)</td><td data-l="Bypass" class="k"><strong>recorded</strong>A single legal move is made without a call; a reflex reopens an empty closed hand; the simulation filters unsafe moves</td></tr>
+        <tr id="rt-r-snake"><td data-l="Harness">bileshg/JevPlaysSnakeGame (<a href="https://github.com/bileshg/JevPlaysSnakeGame/tree/b9237bf9111cc7dba0e41da54a4b83de1e42f366"><code>b9237bf</code></a>, 10 Oct 2026). Runnable demo, Snake game. Jev picks the next direction (up, down, left, right) through <code>TypeSafeClient()</code>; typesafe-sdk 0.7.4 locked.</td><td data-l="Loop tick">At most 10 ticks per second; the call blocks the tick</td><td data-l="Timeout">None in code: SDK 0.7.4 default 10.0 s, 2 retries</td><td data-l="Timeout vs tick">The game waits for each call; no late answer exists</td><td data-l="Jev error" class="k k-fb"><strong>fallback-last action</strong>The agent returns nothing and the snake keeps its direction</td><td data-l="Malformed" class="k k-fb"><strong>fallback-last action</strong>Same path as an error</td><td data-l="Below threshold" class="k k-na"><strong>no-threshold</strong>Any answer is acted on</td><td data-l="No key" class="k k-fb"><strong>fallback-last action</strong>The client is built inside the <code>try</code>, so the SDK's "No API key" error is caught</td><td data-l="Bypass" class="k"><strong>recorded: none found</strong>In <code>engine.py</code> L96–151 only</td></tr>
+        <tr id="rt-r-ra2web" class="rt-out"><td data-l="Harness">ys118/ra2web-jev-player (<a href="https://github.com/ys118/ra2web-jev-player/tree/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46"><code>0e4e8cf</code></a>, 11 Oct 2026, 06:14 UTC; moved from <code>af8caca</code>, the 6 cited files byte-identical). Research harness, Red Alert 2 in a browser. The model picks build, stance and threat every 1.5 s. <strong>Design contrast: calls a local substitute by default; not counted.</strong> The default is local "clef-flash" on 127.0.0.1; the cloud Jev lines are commented out.</td><td data-l="Loop tick">Strategy every 1.5 s; a 150 ms loop in ordinary in-page code with no network calls</td><td data-l="Timeout">40 s, up to 4 attempts</td><td data-l="Timeout vs tick">The 150 ms loop never waits; strategy changes when an answer arrives</td><td data-l="Jev error">retry, then no-decision</td><td data-l="Malformed">no-decision for that question</td><td data-l="Below threshold">fallback-last stance: stance changes only at confidence 0.45 or above; other gates 0.40 build, 0.35 infantry, 0.35 vehicles; force-defend at threat 0.55 or above</td><td data-l="No key">no-decision (inference from the 11 Oct read; an empty key is sent)</td><td data-l="Bypass">After 1,200 cloud calls it switches to scripted play</td></tr>
+        <tr id="rt-r-invaders" class="rt-out"><td data-l="Harness">alexcpn/llm-invaders (<a href="https://github.com/alexcpn/llm-invaders/tree/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7"><code>dfcbc49</code></a>, 10 Oct 2026). Research harness, a Space Invaders speed benchmark. The model picks left, right, fire or wait. <strong>Not counted: no model player is the default; Jev runs only when chosen on the command line, through OpenRouter.</strong> Microsoft-Decision-1 goes through the same code.</td><td data-l="Loop tick">No fixed tick in the benchmark; <code>play.py</code> draws every 1/30 s with one request in flight</td><td data-l="Timeout">30 s, no retries</td><td data-l="Timeout vs tick">Late answers are never dropped: the wait is charged as game time in the benchmark, and <code>play.py</code> applies answers with no staleness check</td><td data-l="Jev error">fallback-wait</td><td data-l="Malformed">fallback-wait</td><td data-l="Below threshold">no-threshold</td><td data-l="No key">fallback-wait (inference: the request is sent with no key)</td><td data-l="Bypass">None on the model player's path; a budget stop at $1.90</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul class="jv-keys">
+    <li class="k-go">fail-closed or held (the loop stops or does not act)</li>
+    <li class="k-stop">fail-open or acts-anyway (no cell on this page)</li>
+    <li class="k-fb">fallback-&lt;what&gt; (named in the cell; here the last action)</li>
+    <li class="k-flag">no-decision: nothing is decided; the caller must handle it</li>
+    <li class="k-hold">advisory (no cell on this page)</li>
+    <li class="k-na">no-threshold (no confidence cut; the cell says so), or not recorded</li>
+  </ul>
+  <p><small>Colours follow the shared legend on <a href="../../build/when-jev-fails/index.html">when Jev fails</a>, where the 3 counted rows form the domain "Real-time control (games and simulations)". ra2web-jev-player and llm-invaders are not on that map.</small></p>
+  <p>Comparison numbers: the jev-robotics-demo README compares one recorded run each (n = 1 per arm; results not committed), and the llm-invaders README describes a speed sweep of Jev, Microsoft-Decision-1 and a local model (n = 3 seeds per speed per model; results files committed but not opened). Both are <span class="ev ev-reported">Reported</span>, not graded, and are listed as leads on <a href="../../benchmarks/index.html#leads">benchmarks</a>.</p>
+
+  <h2 id="rt-patterns">Patterns to copy</h2>
+  <ol>
+    <li><strong>Keep the last action when a call fails.</strong> <a href="#rt-r-doom">doom-jev</a> (<a href="https://github.com/mikespins/doom-jev/tree/bd4e98f87990bd05cb6e1aefc4fed04834236e7c"><code>bd4e98f</code></a>) catches the error and the game keeps applying the last action every tic (<code>brain.py</code> L331–334; <code>game.py</code> L193, L287). <a href="#rt-r-snake">JevPlaysSnakeGame</a> (<a href="https://github.com/bileshg/JevPlaysSnakeGame/tree/b9237bf9111cc7dba0e41da54a4b83de1e42f366"><code>b9237bf</code></a>) returns nothing and the snake keeps its direction (<code>src/agents/jev_agent.py</code> L62–64; <code>src/game/engine.py</code> L127–128).</li>
+    <li><strong>Set the timeout against the tick and drop late answers.</strong> <a href="#rt-r-doom">doom-jev</a> (<a href="https://github.com/mikespins/doom-jev/tree/bd4e98f87990bd05cb6e1aefc4fed04834236e7c"><code>bd4e98f</code></a>): 2.0 s timeout, no retries, at most 5 requests in flight, stale answers dropped (<code>brain.py</code> L291, L301–302, L340–352). Contrast: <a href="#rt-r-invaders">llm-invaders</a> (<a href="https://github.com/alexcpn/llm-invaders/tree/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7"><code>dfcbc49</code></a>) applies late answers with no staleness check (<code>play.py</code> L99–100).</li>
+    <li><strong>Let ordinary code run the fast loop; ask the model for slower strategy.</strong> <a href="#rt-r-ra2web">ra2web-jev-player</a> (<a href="https://github.com/ys118/ra2web-jev-player/tree/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46"><code>0e4e8cf</code></a>): the 150 ms loop has no network calls; the model is asked every 1.5 s (<code>game.py</code> L1–13; <code>config.py</code> L30). Not counted: it calls a local substitute by default.</li>
+    <li><strong>Reflexes that override the model.</strong> <a href="#rt-r-doom">doom-jev</a> (<a href="https://github.com/mikespins/doom-jev/tree/bd4e98f87990bd05cb6e1aefc4fed04834236e7c"><code>bd4e98f</code></a>): shoot and stop-at-wall reflexes (<code>game.py</code> L255–281). <a href="#rt-r-robotics">jev-robotics-demo</a> (<a href="https://github.com/FazalAAli/jev-robotics-demo/tree/531de61a75f386b0847f5f6f809a11424a75c29b"><code>531de61</code></a>): a simulation filter for unsafe moves and a hand reflex (<code>jev_agent.py</code> L215–218, L266–273).</li>
+    <li><strong>A call budget with a scripted fallback.</strong> <a href="#rt-r-ra2web">ra2web-jev-player</a> (<a href="https://github.com/ys118/ra2web-jev-player/tree/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46"><code>0e4e8cf</code></a>) switches to scripted play after 1,200 cloud calls (<code>jev/client.py</code> L114–116; <code>game.py</code> L223–226).</li>
+  </ol>
+
+  <h2 id="rt-dont">What not to copy</h2>
+  <ul>
+    <li><strong>An uncaught exception that stops the loop.</strong> <a href="#rt-r-robotics">jev-robotics-demo</a> (<a href="https://github.com/FazalAAli/jev-robotics-demo/tree/531de61a75f386b0847f5f6f809a11424a75c29b"><code>531de61</code></a>) has no <code>try</code> in <code>jev_agent.py</code>, so one failed call, bad answer or missing key ends the run. The pool counts this as fail-closed: the demo stops and no action is taken.</li>
+    <li><strong>A blocking call inside the tick with the SDK's default timeout.</strong> <a href="#rt-r-snake">JevPlaysSnakeGame</a> (<a href="https://github.com/bileshg/JevPlaysSnakeGame/tree/b9237bf9111cc7dba0e41da54a4b83de1e42f366"><code>b9237bf</code></a>) sets no timeout, so the SDK 0.7.4 default (10.0 s, 2 retries) applies to a game that ticks at most 10 times per second (<code>src/agents/jev_agent.py</code> L56; <code>config.yaml</code> L2). The game waits; it does not act on a late answer.</li>
+    <li><strong>Applying answers with no staleness check.</strong> <a href="#rt-r-invaders">llm-invaders</a> (<a href="https://github.com/alexcpn/llm-invaders/tree/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7"><code>dfcbc49</code></a>) applies an answer whenever it arrives (<code>play.py</code> L99–100), up to its 30 s timeout. In its benchmark this delay is measured on purpose (<code>invaders/harness.py</code> L28–39).</li>
+  </ul>
+  <p>Retries and status codes: <a href="../../build/errors-and-rate-limits/index.html">Jev API errors, limits and retries</a>. Choosing a cut: <a href="../../build/confidence-thresholds/index.html">how to choose a confidence threshold</a>.</p>
+
+  <h2 id="rt-judgements">Counting and mapping judgements</h2>
+  <p>These calls were made by the pool, not read from the code. The counting rule is the pool's decision of 12 Oct 2026.</p>
+  <ul>
+    <li><strong>llm-invaders is not counted.</strong> Its own code applies the move, but no model player is the default: <code>bench.py</code> requires <code>--players</code> (L66) and <code>play.py</code> defaults to "human" (L124). It also calls Jev through OpenRouter, not TypeSafe's API.</li>
+    <li><strong>JevPlaysSnakeGame is counted.</strong> <code>main.py</code> runs the Jev agent unconditionally (L12) with the SDK's default URL and model, and its own code moves the snake.</li>
+    <li><strong>ra2web-jev-player is not counted.</strong> It calls a local substitute ("clef-flash") by default.</li>
+    <li><strong>"Keep the last action" counts as "action goes ahead"</strong> on <a href="../../build/when-jev-fails/index.html#wf-d-realtime">when Jev fails</a>: the loop keeps acting on a choice Jev did not make for this tick.</li>
+    <li>llm-invaders error and malformed cells are <code>fallback-wait</code>, not <code>no-decision</code>, because "wait" is one of the game's actions.</li>
+    <li>doom-jev's malformed-answer cell is an inference from the 11 Oct read: there is no validation, and the error stays inside the per-request task.</li>
+    <li>JevPlaysSnakeGame's bypass cell ("none found") covers <code>src/game/engine.py</code> L96–151 only.</li>
+    <li>JevPlaysSnakeGame's no-key cell rests on typesafe-sdk 0.7.4 (the version the demo locks) raising a catchable error for a missing key (read 11 Oct).</li>
+    <li>jev-robotics-demo's no-key and timeout cells are the values for typesafe-sdk 0.7.x; the demo does not pin the SDK version.</li>
+    <li>ra2web-jev-player's no-key cell is an inference from the 11 Oct read.</li>
+  </ul>
+
+  <h2 id="rt-unverified">Not verified</h2>
+  <ul>
+    <li>The pool ran no harness, package or API call. Every cell comes from code read at a pin; none is an observed runtime behaviour, and no tick or timeout was timed.</li>
+    <li>JevPlaysSnakeGame <code>snake.py</code> was not read (for example, whether a reversal is rejected).</li>
+    <li>llm-invaders <code>engine.py</code> was not read (whether "fire" does nothing when no shot is ready), and its results files were not opened.</li>
+    <li>snowu/jev-fighter (Jev only with a configured key; the hosted build uses a local brain) and Jayman391/ROS-JEV-LLM (default backend not found in the files read, 12 Oct 2026, 05:13 UTC) were screened, not read.</li>
+    <li>Harness leads from the 12 Oct scan (for example romantic28/jevGameAgent and yuki-uchida/moq-games) were not read.</li>
+    <li>No TypeSafe-published real-time harness was found among the typesafe-ai GitHub organisation's repository names or its cookbook folders on 11 Oct 2026, 05:18 UTC; not rechecked on 12 Oct.</li>
+  </ul>
+
+  <h2 id="rt-videos">Videos</h2>
+  <p>The ThursdAI segment at 26:40 shows a Doom demo; its description links no code, so this page cannot say which harness it is. Description read <time datetime="2026-10-12T05:14:30Z">12 Oct 2026, 05:14 UTC</time>; the video is listed on <a href="../../videos/index.html#vg-games">Jev videos</a>.</p>
+
+  <section class="jv-sources" aria-labelledby="rt-sources">
+    <h2 id="rt-sources">Sources and check times (UTC)</h2>
+    <ul>
+      <li>R14-S100, R13-S100 to R13-S105, R13-S68: mikespins/doom-jev at <a href="https://github.com/mikespins/doom-jev/tree/bd4e98f87990bd05cb6e1aefc4fed04834236e7c">bd4e98f</a>, read 11 Oct 2026, 05:17 UTC; HEAD unchanged 12 Oct, 05:12 UTC: <code>brain.py</code> L27–52, L291, L301–302, L331–334, L340–352; <code>game.py</code> L193, L255–281, L287; <code>jev_doom.py</code> L33, L41–45, L51; <code>requirements.txt</code> (typesafe-sdk 0.7.1).</li>
+      <li>R14-S101, R13-S106 to R13-S110, R13-S69: FazalAAli/jev-robotics-demo at <a href="https://github.com/FazalAAli/jev-robotics-demo/tree/531de61a75f386b0847f5f6f809a11424a75c29b">531de61</a>, read 11 Oct 2026, 05:17 UTC; HEAD unchanged 12 Oct, 05:12 UTC: <code>jev_agent.py</code> L29–30, L198–218, L219–291 (L244, L247, L266–273, L280–281, L291–293); <code>requirements.txt</code> (typesafe-sdk not pinned); <code>.gitignore</code>; README comparison (Reported).</li>
+      <li>R14-S114 to R14-S120, R14-S49: bileshg/JevPlaysSnakeGame at <a href="https://github.com/bileshg/JevPlaysSnakeGame/tree/b9237bf9111cc7dba0e41da54a4b83de1e42f366">b9237bf</a>, read 12 Oct 2026, 05:13–05:14 UTC, spot-checked 05:18 UTC: <code>src/agents/jev_agent.py</code> L11–31, L54–64; <code>src/game/engine.py</code> L96–151 (L113, L127–128, L138); <code>main.py</code> L9–12; <code>src/runner.py</code> L1–26; <code>config.yaml</code> L2; <code>uv.lock</code> L235–236; <code>pyproject.toml</code> L11; README L1–34 (a generic Snake README, Reported).</li>
+      <li>R14-S102 to R14-S106, R14-S50, R13-S111 to R13-S116: ys118/ra2web-jev-player at <a href="https://github.com/ys118/ra2web-jev-player/tree/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46">0e4e8cf</a> (HEAD moved from <a href="https://github.com/ys118/ra2web-jev-player/tree/af8caca8f0630468d39d1558f0a21bcaa1b29c04">af8caca</a>; 6 cited files compared byte for byte, all identical), read 12 Oct 2026, 05:12 UTC: <code>src/ra2web_jev_player/jev/client.py</code> L27–33, L65–66, L110, L114–116, L123–145; <code>src/ra2web_jev_player/game.py</code> L1–13, L223–234; <code>src/ra2web_jev_player/config.py</code> L30; <code>src/ra2web_jev_player/strategy/planner/jev_apply.py</code> L34–115, L107–113, L117; <code>src/ra2web_jev_player/strategy/doctrine.py</code> L213–220.</li>
+      <li>R14-S107 to R14-S113, R14-S50: alexcpn/llm-invaders at <a href="https://github.com/alexcpn/llm-invaders/tree/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7">dfcbc49</a>, read 12 Oct 2026, 05:13 UTC: <code>invaders/agents.py</code> L21–24, L27–38, L87–116; <code>invaders/harness.py</code> L28–39; <code>invaders/budget.py</code> L17, L41–44; <code>bench.py</code> L29–30, L44–49, L66; <code>play.py</code> L23, L96–106, L124; README L5–13, L36, L58 (Reported).</li>
+      <li>R13-S300, R13-S301, R13-S304, R13-S305, R14-S48: typesafe-sdk 0.7.4 wheel from PyPI (default URL and model, <code>typesafe_sdk/constants.py</code> L15, L18; default timeout 10.0 s and 2 retries; missing-key error), read 11 Oct 2026, 05:21 UTC and 12 Oct 2026, 05:19 UTC.</li>
+      <li>R14-S121 to R14-S125: screened only, 12 Oct 2026, 05:12–05:13 UTC: snowu/jev-fighter at <a href="https://github.com/snowu/jev-fighter/tree/039d93b04be039470a80c32ce51ba4e108e68699">039d93b</a> (README, <code>worker/src/index.js</code>, <code>public/engine/ai/brains.js</code>); Jayman391/ROS-JEV-LLM at <a href="https://github.com/Jayman391/ROS-JEV-LLM/tree/09e950204355d9fd398cc77172a7a1719e70d924">09e9502</a> (README, <code>src/jev_ai_bringup/config/params.yaml</code>, backend files).</li>
+      <li>R13-S117, R13-S118: <a href="https://github.com/orgs/typesafe-ai/repositories">typesafe-ai repositories</a> and <a href="https://github.com/typesafe-ai/typesafe-public-examples/tree/main/cookbooks">cookbook folders</a>, read 11 Oct 2026, 05:18 UTC.</li>
+      <li>R14-S126, R14-S127: <a href="https://www.youtube.com/watch?v=QkPnAoHBXwo">ThursdAI video</a> description (chapter "26:40 Jev plays Doom in 100 ms"; links only typesafe.ai and thursdai.news), read 12 Oct 2026, 05:14 UTC.</li>
+      <li>R14-S26: query wording, 12 Oct 2026, 05:16 UTC. Google suggest (<code>client=firefox</code>), Bing (<code>www.bing.com/osjson.aspx</code>) and DuckDuckGo (<code>duckduckgo.com/ac</code>) for "jev plays", "jev plays doom", "jev doom" and "jev doom demo".</li>
+    </ul>
+  </section>
+
+  <section class="jv-related" aria-labelledby="rt-related">
+    <h2 id="rt-related">Related pages</h2>
+    <ul>
+      <li><a href="../../build/when-jev-fails/index.html#wf-d-realtime">When Jev fails: the real-time control domain beside other use cases</a></li>
+      <li><a href="../index.html">All use cases by evidence level (hub)</a></li>
+      <li><a href="../browser-and-computer-use/index.html">Browser and computer use: agents that click and type</a></li>
+      <li><a href="../../build/errors-and-rate-limits/index.html">Jev API errors, limits and retries</a></li>
+      <li><a href="../../benchmarks/index.html">Benchmarks ledger</a></li>
+      <li><a href="../../videos/index.html">Jev videos</a></li>
+      <li><a href="../../reports/real-time-control-decision-1/index.html">12 Oct research report</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>12 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>

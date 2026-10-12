@@ -13080,6 +13080,1176 @@
       "accessed_at": "2026-10-11T05:30:53Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s01",
+      "source_type": "unverified source",
+      "source_url": "https://console.typesafe.ai/ and /signup",
+      "title": "Run 14 source R14-S01: console.typesafe.ai/ and /signup",
+      "claim": "Cloudflare challenge page, HTTP 403 on both (Unverified)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s03",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Run 14 source R14-S03: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/statu",
+      "claim": "good news: ANYONE CAN SIGN UP ... bad news: we had to temporarily disable the free credits (just for new users) (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s04",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Run 14 source R14-S04: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "no waitlist, pause or credit text (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s05",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Run 14 source R14-S05: status.typesafe.ai/",
+      "claim": "All services are online ... api.typesafe.ai TypeSafe API Availability 99.838% uptime (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Run 14 source R14-S06: docs.typesafe.ai/models.md",
+      "claim": "Input | Text only. String, JSON object, or array of text values. No image, audio, or video input. (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s07",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Run 14 source R14-S07: docs.typesafe.ai/llms.txt",
+      "claim": "[Simple memory system](https://docs.typesafe.ai/cookbooks/basic_memory.md): Let Jev decide which requests and answers are worth remembering (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Run 14 source R14-S08: typesafe.ai/",
+      "claim": "build comment 'Published Oct 12, 2026, 3:01 AM UTC'; no signup, waitlist or credit text (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Run 14 source R14-S09: typesafe.ai/blog",
+      "claim": "TypeSafe A raises Series AI TL;DR raised a lot of money (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Run 14 source R14-S10: typesafe.ai/enterprise",
+      "claim": "Zero data retention is available for enterprise customers. ... Classification at 98.7% lower cost (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s12",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Run 14 source R14-S12: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "provider_name digitalocean has_zdr false; provider_name typesafe-ai has_zdr true (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s13",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Run 14 source R14-S13: docs.typesafe.ai/legal.md",
+      "claim": "1,168 bytes legal index (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s14",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Run 14 source R14-S14: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. Just create an OpenRouter API key (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s15",
+      "source_type": "unverified source",
+      "source_url": "https://jev-agent.org/",
+      "title": "Run 14 source R14-S15: jev-agent.org/",
+      "claim": "Jev: Fast System One Decisions for AI Agents | Jev Agent (Unverified)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s16",
+      "source_type": "unverified source",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Run 14 source R14-S16: jev-ai.pro/",
+      "claim": "Jev AI — Try the Jev Model by TypeSafe: Playground & API (Unverified)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s17",
+      "source_type": "unverified source",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Run 14 source R14-S17: jevtypesafeai.com/",
+      "claim": "Jev by TypeSafe AI — Try the System One model & API (Unverified)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s18",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Run 14 source R14-S18: research.eye.security/rise-of-the-jev-clones/",
+      "claim": "Rise of the Jev-Clones - Eye Research (Reported)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s19",
+      "source_type": "unverified source",
+      "source_url": "https://thejevai.com/",
+      "title": "Run 14 source R14-S19: thejevai.com/",
+      "claim": "Jev AI — Jev Model Online, Free, No Waitlist (Unverified)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s20",
+      "source_type": "reported source",
+      "source_url": "https://typesafe.ai/blog/jack-jill-jev-case-study",
+      "title": "Run 14 source R14-S20: typesafe.ai/blog/jack-jill-jev-case-study",
+      "claim": "How Jack & Jill Cut Candidate Screening Costs By 88% With Jev (Reported)",
+      "accessed_at": "2026-10-12T05:12:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s21",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/series-ai",
+      "title": "Run 14 source R14-S21: typesafe.ai/blog/series-ai",
+      "claim": "TypeSafe A raises Series AI (Documented)",
+      "accessed_at": "2026-10-12T05:12:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s22",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/terms, /legal/privacy-policy, /legal/data-processing",
+      "title": "Run 14 source R14-S22: typesafe.ai/legal/terms, /legal/privacy-policy, /legal/data-",
+      "claim": "Last updated Sep 19, 2026 Welcome, and thank you for (Documented)",
+      "accessed_at": "2026-10-12T05:12:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s23",
+      "source_type": "unverified source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Run 14 source R14-S23: aifront-page.com/",
+      "claim": "homepage text: 0 matches for TypeSafe or Jev (Unverified)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s36",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Run 14 source R14-S36: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "TypeSafe | typesafe/jev-1.13-20260917 context_length 64000 (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s37",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Run 14 source R14-S37: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "typesafe/jev (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s38",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Run 14 source R14-S38: api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "claim": "typesafe/jev-1.13.0 (Documented)",
+      "accessed_at": "2026-10-12T05:12:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s39",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Run 14 source R14-S39: docs.netlify.com/build/ai-gateway/overview/",
+      "claim": "jev-1.13.0 (Documented)",
+      "accessed_at": "2026-10-12T05:12:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s40",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Run 14 source R14-S40: openrouter.ai/api/v1/models",
+      "claim": "typesafe/jev-router TypeSafe: Jev Router (created 2026-09-25); no other id containing 'decision' (Documented)",
+      "accessed_at": "2026-10-12T05:12:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s41",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "title": "Run 14 source R14-S41: learn.microsoft.com/en-us/azure/foundry/foundry-models/conce",
+      "claim": "Microsoft-Decision-1 decision, text classification, zero shot classification - Calibrated decision scoring (Documented)",
+      "accessed_at": "2026-10-12T05:15:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s42",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "title": "Run 14 source R14-S42: learn.microsoft.com/en-us/azure/foundry/foundry-models/conce",
+      "claim": "no TypeSafe, Jev or Decision-1 match (Documented)",
+      "accessed_at": "2026-10-12T05:15:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s43",
+      "source_type": "documented source",
+      "source_url": "https://ai.azure.com/catalog/models (also ?q=decision, ?q=jev, ?q=typesafe, control ?q=mistral)",
+      "title": "Run 14 source R14-S43: ai.azure.com/catalog/models (also ?q=decision, ?q=jev, ?q=ty",
+      "claim": "11642 models Microsoft-Decision-1 text-classification Input type text Output type json Context window 32.768k Generally available (GA) (Documented)",
+      "accessed_at": "2026-10-12T05:15:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s44",
+      "source_type": "documented source",
+      "source_url": "https://ai.azure.com/catalog/models/Microsoft-Decision-1",
+      "title": "Run 14 source R14-S44: ai.azure.com/catalog/models/Microsoft-Decision-1",
+      "claim": "returns a calibrated probability for each option instead of generated text. It is built on Alibaba's open-weight Qwen3.5-9B (Documented)",
+      "accessed_at": "2026-10-12T05:15:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s45",
+      "source_type": "documented source",
+      "source_url": "https://ai.azure.com/catalog/models/jev",
+      "title": "Run 14 source R14-S45: ai.azure.com/catalog/models/jev",
+      "claim": "No Data Available We couldn't find any data to display here. (Documented)",
+      "accessed_at": "2026-10-12T05:15:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s46",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html ; bedrock-marketplace-model-reference.html ; https://aws.amazon.com/bedrock/model-choice/",
+      "title": "Run 14 source R14-S46: docs.aws.amazon.com/bedrock/latest/userguide/model-cards.htm",
+      "claim": "0 matches for typesafe, jev, decision-1 or decision on all three pages (Documented)",
+      "accessed_at": "2026-10-12T05:15:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s47",
+      "source_type": "documented source",
+      "source_url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "title": "Run 14 source R14-S47: commandline.microsoft.com/microsoft-decision-1-model-foundry",
+      "claim": "our new model for fast decision-scoring, available in Microsoft Foundry and through OpenRouter (Documented)",
+      "accessed_at": "2026-10-12T05:15:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s02",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/rate_limit",
+      "title": "Run 14 source R14-S02: api.github.com/rate_limit",
+      "claim": "core remaining 60 of 60, search 10 of 10 (unauthenticated) (Documented)",
+      "accessed_at": "2026-10-12T05:11:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s24",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date (query jev, typesafe, \"decisions api\", system one model; created_at_i 1791695520..1791781920)",
+      "title": "Run 14 source R14-S24: hn.algolia.com/api/v1/search_by_date (query jev, typesafe, \"",
+      "claim": "jev 408 fuzzy hits, no Jev story; typesafe 8 (type-safe unrelated); \"decisions api\" 0 (Documented)",
+      "accessed_at": "2026-10-12T05:16:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s25",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date (\"decision model\", \"decision api\", \"decisions api\", \"System One\", Decision-1, \"vs Jev\", decision-scoring; created_at_i 1791522720..1791781920)",
+      "title": "Run 14 source R14-S25: hn.algolia.com/api/v1/search_by_date (\"decision model\", \"dec",
+      "claim": "Cloudflare puts audio and video into its decision model with Clef-Omni (50035624); Show HN: THX-01 – Free API (50041545, 50048015) (Documented)",
+      "accessed_at": "2026-10-12T05:16:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s26",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox ; https://www.bing.com/osjson.aspx ; https://duckduckgo.com/ac/ (prefixes jev vision, jev vlm, jev vla, jev v, jev plays, jev plays doom, jev doom, jev doom demo, jev robotics, jev robot, jev game)",
+      "title": "Run 14 source R14-S26: suggestqueries.google.com/complete/search?client=firefox ; h",
+      "claim": "Google 'jev plays' -> 'jev plays doom' first; Bing 'jev plays' -> 'jev plays doom'; 'jev doom' -> 'jev doom demo' on all three (Documented (demand signal, not volume))",
+      "accessed_at": "2026-10-12T05:16:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s27",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories (jev created, typesafe created, jev pushed, topic:jev pushed; 2026-10-11T05:12:00Z..2026-10-12T05:12:00Z)",
+      "title": "Run 14 source R14-S27: api.github.com/search/repositories (jev created, typesafe cr",
+      "claim": "jev created 163; typesafe created 25; jev pushed 701; topic:jev pushed 187 (incomplete_results false) (Documented)",
+      "accessed_at": "2026-10-12T05:16:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s28",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?text=jev ; text=typesafe ; text=jev%20vision",
+      "title": "Run 14 source R14-S28: registry.npmjs.org/-/v1/search?text=jev ; text=typesafe ; te",
+      "claim": "@bismawy/pi-jev-eye 0.1.17 (2026-10-11T05:41Z); jev-web 0.8.0 (2026-10-11T19:11Z) (Documented)",
+      "accessed_at": "2026-10-12T05:16:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s29",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=jev / typesafe / jev-vision / decision-1 (sort lastModified)",
+      "title": "Run 14 source R14-S29: huggingface.co/api/models?search=jev / typesafe / jev-vision",
+      "claim": "e12ex2/jev-vision-27b (created 2026-10-10T04:15Z); autotrust/JEV-35B (created 2026-10-11T01:22Z); no typesafe-ai account model (Documented)",
+      "accessed_at": "2026-10-12T05:16:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s30",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/SargeDev/JEV-27B-VL-Uncensored",
+      "title": "Run 14 source R14-S30: huggingface.co/api/models/SargeDev/JEV-27B-VL-Uncensored",
+      "claim": "base_model huihui-ai/Huihui-Qwen3.8-27B-abliterated; license apache-2.0; tags image-text-to-text, decision-model, uncensored, abliterated (Documented)",
+      "accessed_at": "2026-10-12T05:16:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s31",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/autotrust/JEV-27B-VL",
+      "title": "Run 14 source R14-S31: huggingface.co/api/models/autotrust/JEV-27B-VL",
+      "claim": "base_model Qwen/Qwen3.8-27B; license apache-2.0; tags jev, multimodal, vision; downloads 1545492 (Documented)",
+      "accessed_at": "2026-10-12T05:16:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s32",
+      "source_type": "reported source",
+      "source_url": "https://dev.to/api/articles?tag=jev ; /articles/latest ; tag=typesafe",
+      "title": "Run 14 source R14-S32: dev.to/api/articles?tag=jev ; /articles/latest ; tag=typesaf",
+      "claim": "You Should Know About System One Models (2026-10-11T19:43Z); Building an LLM Router with Jev (2026-10-11T16:19Z) (Reported)",
+      "accessed_at": "2026-10-12T05:16:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s33",
+      "source_type": "unverified source",
+      "source_url": "https://www.reddit.com/search.json?q=jev%20typesafe ; https://ollama.com/search?q=jev",
+      "title": "Run 14 source R14-S33: www.reddit.com/search.json?q=jev%20typesafe ; https://ollama",
+      "claim": "Reddit HTTP 403 (unknown); Ollama search: no jev library entry in served HTML (Unverified)",
+      "accessed_at": "2026-10-12T05:16:16Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s34",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/changelog/ ; https://developers.cloudflare.com/workers-ai/models/",
+      "title": "Run 14 source R14-S34: developers.cloudflare.com/changelog/ ; https://developers.cl",
+      "claim": "@cf/cloudflare/clef-omni is now available on Workers AI. Clef-omni is a decision model that takes audio (WAV or MP3) and video (Documented)",
+      "accessed_at": "2026-10-12T05:19:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s35",
+      "source_type": "reported source",
+      "source_url": "https://runtimewire.com/article/cloudflare-clef-omni-multimodal-decision-model",
+      "title": "Run 14 source R14-S35: runtimewire.com/article/cloudflare-clef-omni-multimodal-deci",
+      "claim": "The model takes text, images, audio and video in one request; Cloudflare also cut Clef-flash pricing (Reported)",
+      "accessed_at": "2026-10-12T05:19:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s48",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d1815e27d1e/typesafe_sdk-0.7.4-py3-none-any.whl (typesafe_sdk/constants.py)",
+      "title": "Run 14 source R14-S48: files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12",
+      "claim": "DEFAULT_BASE_URL = \"https://api.typesafe.ai\" (L15) ... DEFAULT_MODEL = \"jev-latest\" (L18) (Documented)",
+      "accessed_at": "2026-10-12T05:19:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s49",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9111cc7dba0e41da54a4b83de1e42f366/src/agents/jev_agent.py ; src/game/engine.py ; main.py",
+      "title": "Run 14 source R14-S49: raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9",
+      "claim": "with TypeSafeClient() as client: ... except Exception as e: ... return None ; if direction := agent.get_direction(): snake.set_direction(direction) (Documented)",
+      "accessed_at": "2026-10-12T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s50",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ys118/ra2web-jev-player/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46/src/ra2web_jev_player/strategy/doctrine.py ; https://raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7/invaders/agents.py",
+      "title": "Run 14 source R14-S50: raw.githubusercontent.com/ys118/ra2web-jev-player/0e4e8cf4db",
+      "claim": "CONF = {\"build\": 0.40, \"inf\": 0.35, \"veh\": 0.35, \"stance\": 0.45} ; except Exception: choice, cost = \"wait\", 0.0 (Documented)",
+      "accessed_at": "2026-10-12T05:17:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s51",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/runs/compare-20261010-222249Z/comparison.md ; compare/metrics.py ; https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+      "title": "Run 14 source R14-S51: raw.githubusercontent.com/kartikanand73/decision-api-benchma",
+      "claim": "TypeSafe Jev | pooled | 89.2% (86.1%–92.1%) ; prompts and completions are not used to train, retrain, or improve the base models (Documented)",
+      "accessed_at": "2026-10-12T05:18:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s52",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/build/when-jev-fails/",
+      "title": "Run 14 source R14-S52: the pool's own published pages (read before editing)",
+      "claim": "74 rows; err fc 38, fb 20, fo 8, nd 5, adv 3 ; 38 ledger rows (A 10, B 12, C 8, D 7, 1 ungraded) (Documented)",
+      "accessed_at": "2026-10-12T05:20:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s53",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org and https://pypi.org/pypi/<pkg>/json for the drift list (23 packages)",
+      "title": "Run 14 source R14-S53: registry.npmjs.org and https://pypi.org/pypi/<pkg>/json for ",
+      "claim": "@openclaw/typesafe 2026.10.2 (2026-10-12T02:27Z); litellm 1.105.0 (2026-10-11T09:47Z); others unchanged (Documented)",
+      "accessed_at": "2026-10-12T05:17:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s54",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/79645770fedc7ec2627e6468d31062f20f82aecc/litellm/router_strategy/complexity_router/{jev_classifier.py,complexity_router.py} vs https://raw.githubusercontent.com/BerriAI/litellm/v1.105.0/...",
+      "title": "Run 14 source R14-S54: raw.githubusercontent.com/BerriAI/litellm/79645770fedc7ec262",
+      "claim": "cost=response.classifier_cost if config.deployment_name else jev_classifier_cost(...); except Exception as e: # noqa: BLE001 -- external Jev call can fail (Documented)",
+      "accessed_at": "2026-10-12T05:28:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s100",
+      "source_type": "documented source",
+      "source_url": "https://github.com/mikespins/doom-jev/commits/main.atom",
+      "title": "Run 14 source R14-S100: github.com/mikespins/doom-jev/commits/main.atom",
+      "claim": "Newest commit bd4e98f, 2026-09-25T02:37:35Z (doom-jev HEAD recheck (atom feed))",
+      "accessed_at": "2026-10-12T05:12:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s101",
+      "source_type": "documented source",
+      "source_url": "https://github.com/FazalAAli/jev-robotics-demo/commits/main.atom",
+      "title": "Run 14 source R14-S101: github.com/FazalAAli/jev-robotics-demo/commits/main.atom",
+      "claim": "Single commit 531de61, 2026-09-19T15:08:10Z (jev-robotics-demo HEAD recheck (atom feed))",
+      "accessed_at": "2026-10-12T05:12:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s102",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ys118/ra2web-jev-player/commits/master.atom",
+      "title": "Run 14 source R14-S102: github.com/ys118/ra2web-jev-player/commits/master.atom",
+      "claim": "Merge pull request #8 from ys118/sync/update, 2026-10-11T06:14:55Z; 6 commits after af8caca (ra2web HEAD recheck (atom feed))",
+      "accessed_at": "2026-10-12T05:12:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s103",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/ys118/ra2web-jev-player/git/trees/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46?recursive=1",
+      "title": "Run 14 source R14-S103: api.github.com/repos/ys118/ra2web-jev-player/git/trees/0e4e8",
+      "claim": "164 blobs, not truncated; doctrine.py at src/ra2web_jev_player/strategy/doctrine.py (ra2web tree at new HEAD (core API call 1))",
+      "accessed_at": "2026-10-12T05:12:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s104",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ys118/ra2web-jev-player/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46/src/ra2web_jev_player/jev/client.py",
+      "title": "Run 14 source R14-S104: raw.githubusercontent.com/ys118/ra2web-jev-player/0e4e8cf4db",
+      "claim": "Empty unified diff for all six files; identical byte lengths (ra2web diff of 6 cited files (README, config, game, client, jev_apply, doctrine) at both SHAs)",
+      "accessed_at": "2026-10-12T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s105",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ys118/ra2web-jev-player/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46/src/ra2web_jev_player/strategy/doctrine.py",
+      "title": "Run 14 source R14-S105: raw.githubusercontent.com/ys118/ra2web-jev-player/0e4e8cf4db",
+      "claim": "CONF = {\"build\": 0.40, \"inf\": 0.35, \"veh\": 0.35, \"stance\": 0.45} ... THREAT_FORCE_DEFEND = 0.55 (ra2web doctrine.py L213-220)",
+      "accessed_at": "2026-10-12T05:12:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s106",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ys118/ra2web-jev-player/0e4e8cf4db07e1c7802fa2b5a595fa77a5171b46/src/ra2web_jev_player/jev/client.py",
+      "title": "Run 14 source R14-S106: raw.githubusercontent.com/ys118/ra2web-jev-player/0e4e8cf4db",
+      "claim": "DEFAULT_BASE_URL = \"http://127.0.0.1:8085/v1\" ... DEFAULT_MODEL = \"clef-flash\" (ra2web client.py L27-33, L65-66)",
+      "accessed_at": "2026-10-12T05:12:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s107",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/alexcpn/llm-invaders/git/trees/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7?recursive=1",
+      "title": "Run 14 source R14-S107: api.github.com/repos/alexcpn/llm-invaders/git/trees/dfcbc494",
+      "claim": "results.jsonl, summary.json, ceiling.json, report.html, cost-ledger.json committed (llm-invaders HEAD (atom) + tree (core API call 2))",
+      "accessed_at": "2026-10-12T05:12:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s108",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7/README.md",
+      "title": "Run 14 source R14-S108: raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41",
+      "claim": "System-1 decision models Jev (TypeSafe) and Microsoft-Decision-1 ... run in the cloud through OpenRouter (llm-invaders README L1-75)",
+      "accessed_at": "2026-10-12T05:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s109",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7/invaders/agents.py",
+      "title": "Run 14 source R14-S109: raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41",
+      "claim": "except Exception: choice, cost = \"wait\", 0.0 ... return choice if choice in ACTIONS else \"wait\" (llm-invaders agents.py L1-148)",
+      "accessed_at": "2026-10-12T05:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s110",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7/bench.py",
+      "title": "Run 14 source R14-S110: raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41",
+      "claim": "\"jev\": DecisionModel(\"~typesafe/jev-latest\" ... \"decision-1\": DecisionModel(\"microsoft/microsoft-decision-1\" (llm-invaders bench.py L20-75)",
+      "accessed_at": "2026-10-12T05:13:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s111",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7/invaders/harness.py",
+      "title": "Run 14 source R14-S111: raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41",
+      "claim": "the world runs for L x speed game seconds before the move lands (llm-invaders harness.py L1-46)",
+      "accessed_at": "2026-10-12T05:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s112",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7/play.py",
+      "title": "Run 14 source R14-S112: raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41",
+      "claim": "ap.add_argument(\"--player\", default=\"human\" (llm-invaders play.py L1-132)",
+      "accessed_at": "2026-10-12T05:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s113",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41cdca207a0acc338781d6bc0b2b7/invaders/budget.py",
+      "title": "Run 14 source R14-S113: raw.githubusercontent.com/alexcpn/llm-invaders/dfcbc494b2c41",
+      "claim": "stop_at_usd: float = 1.90, limit_usd: float = 2.0 (llm-invaders budget.py L1-67)",
+      "accessed_at": "2026-10-12T05:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s114",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/bileshg/JevPlaysSnakeGame/git/trees/b9237bf9111cc7dba0e41da54a4b83de1e42f366?recursive=1",
+      "title": "Run 14 source R14-S114: api.github.com/repos/bileshg/JevPlaysSnakeGame/git/trees/b92",
+      "claim": "18 files; src/agents/jev_agent.py; no results files (JevPlaysSnakeGame HEAD (atom) + tree (core API call 3))",
+      "accessed_at": "2026-10-12T05:12:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s115",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9111cc7dba0e41da54a4b83de1e42f366/README.md",
+      "title": "Run 14 source R14-S115: raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9",
+      "claim": "Arrow Keys / WASD: Control the direction of the snake (Snake README L1-50)",
+      "accessed_at": "2026-10-12T05:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s116",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9111cc7dba0e41da54a4b83de1e42f366/src/agents/jev_agent.py",
+      "title": "Run 14 source R14-S116: raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9",
+      "claim": "with TypeSafeClient() as client: ... except Exception as e: ... return None (Snake jev_agent.py L1-64)",
+      "accessed_at": "2026-10-12T05:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s117",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9111cc7dba0e41da54a4b83de1e42f366/src/game/engine.py",
+      "title": "Run 14 source R14-S117: raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9",
+      "claim": "if direction := agent.get_direction(): snake.set_direction(direction) (Snake engine.py L96-151)",
+      "accessed_at": "2026-10-12T05:13:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s118",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9111cc7dba0e41da54a4b83de1e42f366/main.py",
+      "title": "Run 14 source R14-S118: raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9",
+      "claim": "run_game(JevAgent()) (Snake main.py L1-12 and runner.py L1-26)",
+      "accessed_at": "2026-10-12T05:13:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s119",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9111cc7dba0e41da54a4b83de1e42f366/config.yaml",
+      "title": "Run 14 source R14-S119: raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9",
+      "claim": "tick: 10 (Snake config.yaml L2)",
+      "accessed_at": "2026-10-12T05:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s120",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9111cc7dba0e41da54a4b83de1e42f366/uv.lock",
+      "title": "Run 14 source R14-S120: raw.githubusercontent.com/bileshg/JevPlaysSnakeGame/b9237bf9",
+      "claim": "name = \"typesafe-sdk\" version = \"0.7.4\" (Snake uv.lock L235-236 and pyproject.toml L11)",
+      "accessed_at": "2026-10-12T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s121",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/snowu/jev-fighter/git/trees/039d93b04be039470a80c32ce51ba4e108e68699?recursive=1",
+      "title": "Run 14 source R14-S121: api.github.com/repos/snowu/jev-fighter/git/trees/039d93b04be",
+      "claim": "public/engine/ai/brains.js, worker/src/index.js, server.mjs (jev-fighter HEAD (atom) + tree (core API call 4))",
+      "accessed_at": "2026-10-12T05:12:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s122",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/snowu/jev-fighter/039d93b04be039470a80c32ce51ba4e108e68699/README.md",
+      "title": "Run 14 source R14-S122: raw.githubusercontent.com/snowu/jev-fighter/039d93b04be03947",
+      "claim": "static build with the local AI brain; Jev needs the local server below (jev-fighter README L1-16)",
+      "accessed_at": "2026-10-12T05:13:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s123",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/snowu/jev-fighter/039d93b04be039470a80c32ce51ba4e108e68699/worker/src/index.js",
+      "title": "Run 14 source R14-S123: raw.githubusercontent.com/snowu/jev-fighter/039d93b04be03947",
+      "claim": "body: JSON.stringify({ model: \"jev-latest\", state, questions }) (jev-fighter worker index.js L7, L41-45 and brains.js L4-5, L78-106)",
+      "accessed_at": "2026-10-12T05:13:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s124",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/Jayman391/ROS-JEV-LLM/git/trees/09e950204355d9fd398cc77172a7a1719e70d924?recursive=1",
+      "title": "Run 14 source R14-S124: api.github.com/repos/Jayman391/ROS-JEV-LLM/git/trees/09e9502",
+      "claim": "jev_backends: llama_ros, mock, replay, typesafe_backend (ROS-JEV-LLM HEAD (atom) + tree (core API call 5))",
+      "accessed_at": "2026-10-12T05:12:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s125",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Jayman391/ROS-JEV-LLM/09e950204355d9fd398cc77172a7a1719e70d924/src/jev_ai_bringup/config/params.yaml",
+      "title": "Run 14 source R14-S125: raw.githubusercontent.com/Jayman391/ROS-JEV-LLM/09e950204355",
+      "claim": "timeout_s: 1.0 max_retries: 1 ... model: '' # '' = jev-latest (ROS-JEV-LLM README, params.yaml L1-18, jev_server.py L22-25, typesafe_backend.py L5-6, L60)",
+      "accessed_at": "2026-10-12T05:13:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s126",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/videos/",
+      "title": "Run 14 source R14-S126: the pool's own published pages (read before editing)",
+      "claim": "ThursdAI livestream ... Doom demo at 26:40 (videos page Doom segment)",
+      "accessed_at": "2026-10-12T05:14:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s127",
+      "source_type": "documented source",
+      "source_url": "https://www.youtube.com/watch?v=QkPnAoHBXwo",
+      "title": "Run 14 source R14-S127: www.youtube.com/watch?v=QkPnAoHBXwo",
+      "claim": "26:40 Jev plays Doom in 100 ms ... Jev: https://typesafe.ai (ThursdAI video description (page HTML))",
+      "accessed_at": "2026-10-12T05:14:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s200",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/kartikanand73/decision-api-benchmark/commits/HEAD",
+      "title": "Run 14 source R14-S200: api.github.com/repos/kartikanand73/decision-api-benchmark/co",
+      "claim": "Portable dataset paths, direct evidence links, README caveats (Documented)",
+      "accessed_at": "2026-10-12T05:12:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s201",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/kartikanand73/decision-api-benchmark/git/trees/1ffa4d5b95de29c1d42602a63e25566d6b152ddd?recursive=1",
+      "title": "Run 14 source R14-S201: api.github.com/repos/kartikanand73/decision-api-benchmark/gi",
+      "claim": "compare/metrics.py; data/cases.jsonl; runs/20261010-004439Z-or-run1; runs/20261010-023836Z-or-run2; runs/compare-20261010-222249Z (Documented)",
+      "accessed_at": "2026-10-12T05:12:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s202",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/README.md",
+      "title": "Run 14 source R14-S202: raw.githubusercontent.com/kartikanand73/decision-api-benchma",
+      "claim": "Route macro-F1 | **89.2%** (86.1–92.1) | 71.4% (66.7–75.5) | **87.6%** (83.9–90.8) (Reported)",
+      "accessed_at": "2026-10-12T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s203",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/compare/metrics.py",
+      "title": "Run 14 source R14-S203: raw.githubusercontent.com/kartikanand73/decision-api-benchma",
+      "claim": "Per-class precision / recall / F1, macro-F1 and balanced accuracy. (Documented)",
+      "accessed_at": "2026-10-12T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s204",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/runs/compare-20261010-222249Z/comparison.md",
+      "title": "Run 14 source R14-S204: raw.githubusercontent.com/kartikanand73/decision-api-benchma",
+      "claim": "TypeSafe Jev | pooled | 89.2% (86.1%–92.1%) | 92.8% (90.8%–94.7%) | 233 (232–234) | 321 (315–326) (Reported)",
+      "accessed_at": "2026-10-12T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s205",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/runs/20261010-023836Z-or-run2/report.md ; https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/runs/20261010-023836Z-or-run2/meta.json",
+      "title": "Run 14 source R14-S205: raw.githubusercontent.com/kartikanand73/decision-api-benchma",
+      "claim": "route macro-F1 (each class weighted equally) | 88.0% | 71.4% | 87.4% (Reported)",
+      "accessed_at": "2026-10-12T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s206",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/compare/providers.py ; https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/compare/dataset.py ; https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/data/cases.jsonl",
+      "title": "Run 14 source R14-S206: raw.githubusercontent.com/kartikanand73/decision-api-benchma",
+      "claim": "Synthetic withdrawal cases with analyst labels. (Documented)",
+      "accessed_at": "2026-10-12T05:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s207",
+      "source_type": "documented source",
+      "source_url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "title": "Run 14 source R14-S207: commandline.microsoft.com/microsoft-decision-1-model-foundry",
+      "claim": "Input tokens cost $0.042 USD per million tokens. Output tokens are free. (Documented)",
+      "accessed_at": "2026-10-12T05:13:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s208",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision",
+      "title": "Run 14 source R14-S208: learn.microsoft.com/en-us/azure/foundry/foundry-models/how-t",
+      "claim": "Send requests to the Microsoft provider's decision endpoint on your Foundry resource: <your-foundry-resource-endpoint>/providers/microsoft/v1/systemone (Documented)",
+      "accessed_at": "2026-10-12T05:13:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s209",
+      "source_type": "documented source",
+      "source_url": "https://ai.azure.com/catalog/models/Microsoft-Decision-1",
+      "title": "Run 14 source R14-S209: ai.azure.com/catalog/models/Microsoft-Decision-1",
+      "claim": "The model is text-only and does not accept or produce image, audio, or video content. (Documented)",
+      "accessed_at": "2026-10-12T05:13:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s210",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "title": "Run 14 source R14-S210: learn.microsoft.com/en-us/azure/foundry/foundry-models/conce",
+      "claim": "Microsoft-Decision-1 decision, text classification, zero shot classification (Documented)",
+      "accessed_at": "2026-10-12T05:13:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s211",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Run 14 source R14-S211: openrouter.ai/api/v1/models",
+      "claim": "no id matching 'decision' in the catalog; matches only typesafe/jev-router and openai gpt-6-luna chat models (Documented (absence within boundary))",
+      "accessed_at": "2026-10-12T05:13:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s212",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/microsoft/microsoft-decision-1/endpoints",
+      "title": "Run 14 source R14-S212: openrouter.ai/api/v1/models/microsoft/microsoft-decision-1/e",
+      "claim": "\"provider_name\":\"Azure\",\"context_length\":32768,\"pricing\":{\"prompt\":\"0.000000042\",\"completion\":\"0\"} (Documented)",
+      "accessed_at": "2026-10-12T05:13:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s213",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/microsoft/microsoft-decision-1",
+      "title": "Run 14 source R14-S213: openrouter.ai/microsoft/microsoft-decision-1",
+      "claim": "Microsoft-Decision-1 costs $0.042/M input tokens and $0.00/M output tokens. (Documented)",
+      "accessed_at": "2026-10-12T05:13:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s214",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/providers",
+      "title": "Run 14 source R14-S214: openrouter.ai/api/v1/providers",
+      "claim": "\"name\": \"Azure\", \"privacy_policy_url\": \"https://www.microsoft.com/en-us/privacy/privacystatement\", \"headquarters\": \"US\" (Documented)",
+      "accessed_at": "2026-10-12T05:14:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s215",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+      "title": "Run 14 source R14-S215: learn.microsoft.com/en-us/azure/foundry/responsible-ai/opena",
+      "claim": "prompts and completions are not used to train, retrain, or improve the base models. (Documented)",
+      "accessed_at": "2026-10-12T05:13:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s216",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/abuse-monitoring",
+      "title": "Run 14 source R14-S216: learn.microsoft.com/en-us/azure/foundry/openai/concepts/abus",
+      "claim": "prompts and completions that undergo such review are not stored by the abuse monitoring system or used to train the AI model (Documented)",
+      "accessed_at": "2026-10-12T05:15:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s217",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/pricing ; https://developers.openai.com/api/docs/pricing.md",
+      "title": "Run 14 source R14-S217: developers.openai.com/api/docs/pricing ; https://developers.",
+      "claim": "gpt-6-luna $0.10 $0.01 $0.125 $0.50 (Documented (absence within boundary))",
+      "accessed_at": "2026-10-12T05:13:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s218",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/your-data.md",
+      "title": "Run 14 source R14-S218: developers.openai.com/api/docs/guides/your-data.md",
+      "claim": "| `/v1/decisions` | No | 30 days | None, see below for exceptions | Yes, see below for limitations | Pending confirmation | (Documented)",
+      "accessed_at": "2026-10-12T05:13:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s219",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md",
+      "title": "Run 14 source R14-S219: developers.openai.com/api/docs/guides/decisions.md",
+      "claim": "The Decisions API evaluates text, images, or both and returns typed answers (Documented)",
+      "accessed_at": "2026-10-12T05:13:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s220",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/where-to-use/",
+      "title": "Run 14 source R14-S220: the pool's own published pages (read before editing)",
+      "claim": "POST https://api.typesafe.ai/v1/systemone with a Bearer key; body state , model , questions . $0.042 input; output free (Documented)",
+      "accessed_at": "2026-10-12T05:14:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s300",
+      "source_type": "documented source",
+      "source_url": "https://github.com/etsabary/luna-decisions-benchmark/commits/main.atom",
+      "title": "Run 14 source R14-S300: github.com/etsabary/luna-decisions-benchmark/commits/main.at",
+      "claim": "Diagnose persistent refusals with slow matched controls (HEAD); prior commit 136860bf: Publish matched Luna Decisions benchmark and Jev comparison (Commit feed, main branch (HEAD pin))",
+      "accessed_at": "2026-10-12T05:27:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s301",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/etsabary/luna-decisions-benchmark/git/trees/7a5ea1371905c1e680f936d0a2ac1862b9039ca8?recursive=1",
+      "title": "Run 14 source R14-S301: api.github.com/repos/etsabary/luna-decisions-benchmark/git/t",
+      "claim": "data/questions_1000.csv, data/results_jev_1000.csv, data/results_luna_1000.csv, analyze_comparison.py, analysis/summary.json, run_benchmark.py; not truncated (Repo tree (1 GitHub API core call))",
+      "accessed_at": "2026-10-12T05:27:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s302",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/etsabary/luna-decisions-benchmark/7a5ea1371905c1e680f936d0a2ac1862b9039ca8/README.md",
+      "title": "Run 14 source R14-S302: raw.githubusercontent.com/etsabary/luna-decisions-benchmark/",
+      "claim": "On this benchmark, Jev scored 817/1,000 (81.7%); Luna scored 612/1,000 (61.2%). (README)",
+      "accessed_at": "2026-10-12T05:28:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s303",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/etsabary/luna-decisions-benchmark/7a5ea1371905c1e680f936d0a2ac1862b9039ca8/analyze_comparison.py",
+      "title": "Run 14 source R14-S303: raw.githubusercontent.com/etsabary/luna-decisions-benchmark/",
+      "claim": "Score the frozen runs with an external answer key; publish aggregates only. (Metric/scoring file)",
+      "accessed_at": "2026-10-12T05:28:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s304",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/etsabary/luna-decisions-benchmark/7a5ea1371905c1e680f936d0a2ac1862b9039ca8/analysis/summary.json",
+      "title": "Run 14 source R14-S304: raw.githubusercontent.com/etsabary/luna-decisions-benchmark/",
+      "claim": "\"luna\": {\"attempted\": 1000, \"valid\": 983, \"unanswered\": 17, \"correct\": 612, ... \"accuracy_attempted\": 0.612 (Results file (aggregate summary))",
+      "accessed_at": "2026-10-12T05:28:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s305",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/etsabary/luna-decisions-benchmark/7a5ea1371905c1e680f936d0a2ac1862b9039ca8/data/luna_run_manifest.json",
+      "title": "Run 14 source R14-S305: raw.githubusercontent.com/etsabary/luna-decisions-benchmark/",
+      "claim": "\"model_requested\": \"openai/gpt-6-luna-decisions\", \"endpoint\": \"https://openrouter.ai/api/alpha/decisions\" (Luna run manifest)",
+      "accessed_at": "2026-10-12T05:28:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s55",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/etsabary/luna-decisions-benchmark/7a5ea1371905c1e680f936d0a2ac1862b9039ca8/analysis/summary.json",
+      "title": "Run 14 source R14-S55: raw.githubusercontent.com/etsabary/luna-decisions-benchmark/",
+      "claim": "\"correct\": 612 ... \"accuracy_attempted\": 0.612 (Documented)",
+      "accessed_at": "2026-10-12T05:29:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s400",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/clef/ (and /index.md)",
+      "title": "Run 14 source R14-S400: developers.cloudflare.com/workers-ai/models/clef/ (and /inde",
+      "claim": "Clef is a 27B multimodal decision model ... Context Window 65,536 tokens ... Unit Pricing $0.24 per M input tokens (Documented)",
+      "accessed_at": "2026-10-12T05:33:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s401",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/clef-flash/",
+      "title": "Run 14 source R14-S401: developers.cloudflare.com/workers-ai/models/clef-flash/",
+      "claim": "Clef-flash is a fast 9B multimodal decision model ... Context Window 24,576 tokens ... $0.038 per M input tokens (Documented)",
+      "accessed_at": "2026-10-12T05:33:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s402",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/clef-omni/",
+      "title": "Run 14 source R14-S402: developers.cloudflare.com/workers-ai/models/clef-omni/",
+      "claim": "30B-parameter mixture-of-experts (3B active) ... reads the state as text, JSON, images, audio, or video ... Context Window 64,000 tokens ... $0.15 per M input tokens (Documented)",
+      "accessed_at": "2026-10-12T05:33:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s403",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/ (index.md)",
+      "title": "Run 14 source R14-S403: developers.cloudflare.com/workers-ai/platform/pricing/ (inde",
+      "claim": "@cf/cloudflare/clef $0.240 per M input tokens ... clef-omni $0.150 ... clef-flash $0.038 per M input tokens; 10,000 Neurons per day at no charge (Documented)",
+      "accessed_at": "2026-10-12T05:33:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s404",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/data-usage/",
+      "title": "Run 14 source R14-S404: developers.cloudflare.com/workers-ai/platform/data-usage/",
+      "claim": "Cloudflare does not use your Customer Content to (1) train any AI models made available on Workers AI or (2) improve any Cloudflare or third-party services (Documented)",
+      "accessed_at": "2026-10-12T05:33:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s405",
+      "source_type": "reported source",
+      "source_url": "https://developers.cloudflare.com/changelog/post/2026-10-09-clef-omni-workers-ai/",
+      "title": "Run 14 source R14-S405: developers.cloudflare.com/changelog/post/2026-10-09-clef-omn",
+      "claim": "Clef-flash now costs $0.038 per million input tokens, down from $0.090, which makes it cheaper than Jev ... hosted Clef-flash context window is now 24K (Reported)",
+      "accessed_at": "2026-10-12T05:33:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s406",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?author=Cloudflare&search=clef ; https://huggingface.co/Cloudflare/{clef,clef-flash,clef-omni}/raw/main/LICENSE",
+      "title": "Run 14 source R14-S406: huggingface.co/api/models?author=Cloudflare&search=clef ; ht",
+      "claim": "base_model:Qwen/Qwen3.8-27B ... Qwen/Qwen3.5-9B ... Qwen/Qwen3-Omni-30B-A3B-Instruct; license:apache-2.0; LICENSE: Apache License Version 2.0 (Documented)",
+      "accessed_at": "2026-10-12T05:34:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r14-s407",
+      "source_type": "owner-authored research report",
+      "source_url": "https://shaduf.ai/p/jev-catalog/alternatives/",
+      "title": "Run 14 source R14-S407: the pool's own published pages (read before editing)",
+      "claim": "Of 31 listed substitutes: 12 model weights, 11 local runtimes, 4 request adapters, 2 classifier/LLM approaches, 2 hosted APIs (Documented)",
+      "accessed_at": "2026-10-12T05:34:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

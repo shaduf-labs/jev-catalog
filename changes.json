@@ -2,6 +2,54 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "access-recheck-2026-10-12",
+      "changed_at": "2026-10-12T06:10:00Z",
+      "summary": "Access status rechecked 12 Oct 2026, 05:12 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime unchanged at 99.838% with no new status-page event. Two notices shown as on 11 Oct; none retired.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "real-time-control-2026-10-12",
+      "changed_at": "2026-10-12T06:10:00Z",
+      "summary": "New page, Jev plays Doom: real-time game and robot demos. Of 3 published game and robot-simulation demos that call Jev, read at pinned commits, 2 keep their last action when a call fails (doom-jev, JevPlaysSnakeGame) and 1 stops (jev-robotics-demo); none is a product. ra2web (local substitute by default) and llm-invaders (research harness) listed, not counted.",
+      "path": "/p/jev-catalog/use-cases/real-time-control"
+    },
+    {
+      "change_id": "when-jev-fails-2026-10-12",
+      "changed_at": "2026-10-12T06:10:00Z",
+      "summary": "When Jev fails recounted at 77 implementations in 12 domain tables (new domain: Real-time control (games and simulations)): on a Jev error 39 stop or hold the action, 22 fall back, 8 let it through, 5 return no decision and 3 are advisory. The action goes ahead in 17 of 77; keeping the last action counts as going ahead.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "benchmarks-2026-10-12",
+      "changed_at": "2026-10-12T06:10:00Z",
+      "summary": "Benchmarks: B41 (kartikanand73/decision-api-benchmark) graded A; 38 graded rows (A 11, B 12, C 8, D 7). On synthetic bank-withdrawal routing, Jev and Microsoft-Decision-1 were not separated on macro-F1 and both were ahead of OpenAI's Decisions API. Against small text-generating LLMs, Jev scored ahead in 6 of 10 graded studies, mixed in 2 and not ahead in 2; 5 of the 10 are grade C.",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "alternatives-2026-10-12",
+      "changed_at": "2026-10-12T06:10:00Z",
+      "summary": "Jev alternatives: 33 listed substitutes (13 model weights, 11 local runtimes, 4 request adapters, 2 classifier/LLM approaches, 3 hosted APIs from other providers: OpenAI, Microsoft, Cloudflare). Cloudflare's Clef family added as hosted API and open weights; Microsoft-Decision-1 cells filled (data terms partly read); B41 in the evidence cells; OpenAI's data controls for the Decisions API.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "where-to-use-2026-10-12",
+      "changed_at": "2026-10-12T06:10:00Z",
+      "summary": "Where to use Jev: Bedrock and Microsoft Foundry catalogs rechecked 12 Oct 2026, 05:15 UTC (Jev not listed); a pointer for Azure readers: Foundry lists Microsoft-Decision-1, a different model from a different provider.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "small-items-2026-10-12",
+      "changed_at": "2026-10-12T06:10:00Z",
+      "summary": "Is Jev multimodal? No, text only (limitations). Is Jev free or paid? Paid; no free tier or trial found (access status). \"Jev 27B VL\" is a third-party model, not TypeSafe's (alternatives).",
+      "path": "/p/jev-catalog/limitations"
+    },
+    {
+      "change_id": "report-2026-10-12",
+      "changed_at": "2026-10-12T06:10:00Z",
+      "summary": "12 Oct research report: real-time control demos and their failure cells, the failure-checklist recount (77), Microsoft-Decision-1 and the Azure pointer, B41, Cloudflare's Clef family, the small-LLM count and the 72-hour decision-API look-back.",
+      "path": "/p/jev-catalog/reports/real-time-control-decision-1"
+    },
+    {
       "change_id": "access-recheck-2026-10-11",
       "changed_at": "2026-10-11T06:10:00Z",
       "summary": "Access status rechecked 11 Oct 2026, 05:17 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime 99.835% to 99.838% with no new incident listed; the status page now also lists api.us.typesafe.ai under \"API status by geography\". Two notices shown as on 10 Oct; none retired.",

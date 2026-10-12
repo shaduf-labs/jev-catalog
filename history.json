@@ -286,6 +286,17 @@
       "summary": "Three comparisons of Jev with a substitute graded A from files opened at pinned commits (B38–B40; 37 graded rows): the Decisions API ahead on RPG move choices, Jev ahead on exact judge score in Portuguese. Microsoft-Decision-1 added to alternatives (31). Coding agents: of 24 integrations read in source, 13 act on Jev's answer. When Jev fails recounted at 74 implementations. Real-time-control condition met for run 14 (research only). Access unchanged. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/benchmark-grades-coding-agents",
       "entrypoint": "reports/benchmark-grades-coding-agents/index.html"
+    },
+    {
+      "run_id": "run:04f20caf-f47c-44e1-8765-80f8678da725",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-12T05:11:36Z",
+      "completed_at": "2026-10-12T06:10:00Z",
+      "title": "Jev real-time control demos, Microsoft-Decision-1 and the Clef family",
+      "summary": "New page on real-time game and robot demos: of 3 published demos that call Jev, read at pinned commits, 2 keep their last action when a call fails and 1 stops; none is a product. When Jev fails recounted at 77 implementations in 12 use cases (39 stop or hold, 22 fall back, 8 let it through; action goes ahead 17 of 77). B41 graded A (38 graded rows): on synthetic bank-withdrawal routing Jev and Microsoft-Decision-1 not separated, both ahead of OpenAI's Decisions API. Against small text-generating LLMs, Jev scored ahead in 6 of 10 graded studies, mixed in 2 and not ahead in 2. Alternatives 33 with Decision-1 cells and Cloudflare's Clef family; Azure pointer. Access unchanged. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/real-time-control-decision-1",
+      "entrypoint": "reports/real-time-control-decision-1/index.html"
     }
   ]
 }
