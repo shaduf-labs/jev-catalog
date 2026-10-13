@@ -2,6 +2,12 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "recovered-notes-2026-10-09",
+      "changed_at": "2026-10-13T18:40:00Z",
+      "summary": "Archive page added: recovered research notes dated 9 Oct 2026 (Jev reranking, database and document pipelines, failure recount) from a run whose pipeline did not finish acceptance. Historical observations, not current claims; the notes' proposals are marked as not adopted and their unresolved questions stay open. Research history is unchanged. The research index and access pages now say no accepted run took place on 9 Oct.",
+      "path": "/p/jev-catalog/research/recovered-2026-10-09"
+    },
+    {
       "change_id": "access-recheck-2026-10-13",
       "changed_at": "2026-10-13T06:10:00Z",
       "summary": "Access status rechecked 13 Oct 2026, 05:18 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime unchanged at 99.838% with no new status-page event. Two notices shown as on 12 Oct; the hidden notice on Vercel's second Jev provider retired at the end of its seven-day shelf life (the fact is unchanged).",

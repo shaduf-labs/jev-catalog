@@ -1163,3 +1163,33 @@
 
 /* rp (run 15): research-page report timeline gains a 24th day column (13 Oct). */
 [data-agent-document] .jv .jv-tl.rs-tl24 { grid-template-columns: minmax(0, 10em) repeat(24, minmax(0, 1fr)); }
+
+/* Recovered 9 Oct 2026 notes archive (13 Oct 2026 update; prefix .jv-rn-) */
+[data-agent-document] .jv .jv-rn-status { margin-top: 8px; }
+[data-agent-document] .jv .jv-rn-status h2 { margin: 0 0 6px; font-size: 16px; letter-spacing: 0; }
+[data-agent-document] .jv .jv-rn-toc { margin: 18px 0 8px; font-size: 13.5px; }
+[data-agent-document] .jv .jv-rn-toc ol { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0; padding: 0; list-style: none; counter-reset: rn; }
+[data-agent-document] .jv .jv-rn-toc li { min-width: 0; counter-increment: rn; }
+[data-agent-document] .jv .jv-rn-toc li::before { content: counter(rn) ". "; color: var(--jv-muted); }
+[data-agent-document] .jv .jv-rn-days { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr)); gap: 10px; margin: 14px 0 24px; padding: 0; list-style: none; }
+[data-agent-document] .jv .jv-rn-days li { display: flex; flex-direction: column; gap: 3px; min-width: 0; padding: 10px 12px; border: 1px solid var(--jv-line); border-top: 4px solid var(--jv-green); border-radius: 6px; background: #fff; font-size: 13.5px; line-height: 1.5; }
+[data-agent-document] .jv .jv-rn-days li.rec { border-top: 4px dashed var(--jv-amber); background: #fffaf0; }
+[data-agent-document] .jv .jv-rn-days time { color: var(--jv-muted); font-size: 12.5px; font-variant-numeric: tabular-nums; }
+[data-agent-document] .jv .jv-rn-days strong { color: var(--jv-ink); }
+[data-agent-document] .jv .jv-rn-list { padding-left: 20px; }
+[data-agent-document] .jv .jv-rn-list li { margin: 6px 0; line-height: 1.55; min-width: 0; overflow-wrap: break-word; }
+[data-agent-document] .jv .jv-rn-prop { margin: 22px 0 30px; padding-top: 4px; border-top: 1px solid var(--jv-line); }
+[data-agent-document] .jv .jv-rn-prop h3 { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+[data-agent-document] .jv .jv-rn-prop h3 .jv-flag { font-weight: 650; letter-spacing: 0; }
+[data-agent-document] .jv h3 .jv-flag { vertical-align: 2px; }
+[data-agent-document] .jv .jv-rn-cur { margin: 0 0 10px; color: var(--jv-text); font-size: 13.5px; }
+[data-agent-document] .jv .jv-rn-quote { margin: 12px 0 16px; padding: 10px 14px; border-left: 4px dashed var(--jv-amber); background: #fffaf0; border-radius: 0 6px 6px 0; }
+[data-agent-document] .jv .jv-rn-quote p { margin: 0 0 6px; font-size: 16px; line-height: 1.55; color: var(--jv-ink); }
+[data-agent-document] .jv .jv-rn-quote footer { color: var(--jv-muted); font-size: 12.5px; }
+[data-agent-document] .jv .jv-rn-num td { font-variant-numeric: tabular-nums; }
+[data-agent-document] .jv .jv-rn-qs { padding-left: 22px; }
+[data-agent-document] .jv .jv-rn-qs li { margin: 0 0 14px; line-height: 1.58; min-width: 0; overflow-wrap: break-word; scroll-margin-top: 20px; }
+[data-agent-document] .jv .jv-rn-qs em { color: var(--jv-muted); font-style: normal; font-weight: 650; }
+[data-agent-document] .jv .jv-rn-srcnote { font-size: 14px; color: var(--jv-ink); }
+[data-agent-document] .jv .jv-sources h3 { margin: 18px 0 6px; font-size: 15px; letter-spacing: 0; }
+[data-agent-document] .jv .jv-rn-prov { margin: 22px 0 0; color: var(--jv-muted); }

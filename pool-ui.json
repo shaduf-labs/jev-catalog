@@ -587,6 +587,21 @@
       "visibility": "public",
       "indexable": true,
       "tools": []
+    },
+    {
+      "id": "research-recovered-2026-10-09",
+      "slug": "research/recovered-2026-10-09",
+      "label": "Recovered notes, 9 Oct 2026",
+      "icon": "◫",
+      "group": "Evidence",
+      "description": "Unaccepted archive notes: recovered research notes dated 9 Oct 2026 on Jev (TypeSafe AI) reranking, database and document pipelines and a failure recount, from a run whose pipeline did not finish acceptance. Historical observations, not current claims; proposals marked as not adopted.",
+      "parent": "research",
+      "entrypoint": "research/recovered-2026-10-09/index.html",
+      "entrypoint_type": "html_fragment",
+      "redirects": [],
+      "visibility": "public",
+      "indexable": false,
+      "tools": []
     }
   ]
 }
