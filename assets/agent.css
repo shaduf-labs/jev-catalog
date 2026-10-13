@@ -492,7 +492,7 @@
 [data-agent-document] .jv-strip .s-open, [data-agent-document] .jv-strip-key .s-open::before { background: var(--jv-green); }
 [data-agent-document] .jv-strip .s-pause, [data-agent-document] .jv-strip-key .s-pause::before { background: var(--jv-red); }
 [data-agent-document] .jv-strip .s-cond, [data-agent-document] .jv-strip-key .s-cond::before { background: #7fb596; }
-[data-agent-document] .jv-strip .w-wait { flex: 5.13 1 0; } [data-agent-document] .jv-strip .w-open { flex: 1.36 1 0; } [data-agent-document] .jv-strip .w-pause { flex: 5.68 1 0; } [data-agent-document] .jv-strip .w-cond { flex: 14.28 1 0; }
+[data-agent-document] .jv-strip .w-wait { flex: 5.13 1 0; } [data-agent-document] .jv-strip .w-open { flex: 1.36 1 0; } [data-agent-document] .jv-strip .w-pause { flex: 5.68 1 0; } [data-agent-document] .jv-strip .w-cond { flex: 15.28 1 0; }
 [data-agent-document] .jv-strip-scale { display: flex; justify-content: space-between; gap: 8px; color: var(--jv-muted); font-size: 11.5px; }
 [data-agent-document] .jv-strip-key { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 8px 0 0; padding: 0; list-style: none; font-size: 12.5px; line-height: 1.45; color: var(--jv-text); }
 [data-agent-document] .jv-strip-key li { min-width: 0; }
@@ -1124,3 +1124,42 @@
 
 /* rs (run 14): research-page report timeline gains a 23rd day column (12 Oct). */
 [data-agent-document] .jv .jv-tl.rs-tl23 { grid-template-columns: minmax(0, 10em) repeat(23, minmax(0, 1fr)); }
+
+/* dapi: Jev vs hosted decision APIs (run 15, 13 Oct 2026; alternatives/jev-vs-decision-apis) */
+[data-agent-document] .jv.dapi .dapi-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+[data-agent-document] .jv.dapi .dapi-card table, [data-agent-document] .jv.dapi .dapi-full table { table-layout: fixed; width: 100%; }
+[data-agent-document] .jv.dapi .dapi-card thead th, [data-agent-document] .jv.dapi .dapi-full thead th { vertical-align: bottom; overflow-wrap: anywhere; }
+[data-agent-document] .jv.dapi .dapi-card thead th small, [data-agent-document] .jv.dapi .dapi-full thead th small { display: block; font-size: 10.5px; text-transform: none; letter-spacing: 0; font-weight: 500; }
+[data-agent-document] .jv.dapi .dapi-card thead th small.dapi-sub { margin-top: 2px; color: var(--jv-muted); font-weight: 400; line-height: 1.35; }
+[data-agent-document] .jv.dapi .dapi-card tbody th, [data-agent-document] .jv.dapi .dapi-full tbody th { width: 16%; padding: 9px 11px; text-align: left; vertical-align: top; font-size: 12.5px; background: #fafaf9; border-bottom: 1px solid var(--jv-line); overflow-wrap: anywhere; }
+[data-agent-document] .jv.dapi .dapi-card td, [data-agent-document] .jv.dapi .dapi-full td { vertical-align: top; min-width: 0; overflow-wrap: anywhere; word-break: normal; }
+[data-agent-document] .jv.dapi .dapi-card td { font-size: 13px; line-height: 1.45; }
+[data-agent-document] .jv.dapi .dapi-full td { font-size: 12.5px; line-height: 1.45; }
+[data-agent-document] .jv.dapi .dapi-card code, [data-agent-document] .jv.dapi .dapi-full code, [data-agent-document] .jv.dapi .dapi-src, [data-agent-document] .jv.dapi .dapi-caption { overflow-wrap: anywhere; word-break: normal; }
+[data-agent-document] .jv.dapi .dapi-card td a { color: inherit; text-decoration-color: var(--jv-line); }
+[data-agent-document] .jv.dapi .dapi-full tbody th .ev, [data-agent-document] .jv.dapi .dapi-src .ev { white-space: normal; }
+[data-agent-document] .jv.dapi .dapi-graded { padding-left: 1.1em; }
+[data-agent-document] .jv.dapi .dapi-graded li { margin: 0 0 10px; min-width: 0; overflow-wrap: anywhere; }
+[data-agent-document] .jv.dapi .dapi-graded .dapi-below { display: block; color: var(--jv-muted); }
+[data-agent-document] .jv.dapi .dapi-fls { display: inline-flex; flex-wrap: wrap; gap: 2px 0; max-width: 100%; vertical-align: top; }
+[data-agent-document] .jv.dapi .dapi-fls .fl { white-space: normal; max-width: 100%; }
+[data-agent-document] .jv.dapi .dapi-src li { margin: 0 0 4px; min-width: 0; }
+[data-agent-document] .jv.dapi .dapi-tbd { color: var(--jv-muted); font-style: italic; }
+@container shaduf-document (max-width: 780px) {
+  [data-agent-document] .jv.dapi .table-wrap.stack { overflow-x: visible; }
+  [data-agent-document] .jv.dapi .table-wrap.stack table, [data-agent-document] .jv.dapi .table-wrap.stack tbody, [data-agent-document] .jv.dapi .table-wrap.stack tr, [data-agent-document] .jv.dapi .table-wrap.stack td, [data-agent-document] .jv.dapi .table-wrap.stack tbody th { display: block; width: 100%; min-width: 0; }
+  [data-agent-document] .jv.dapi .table-wrap.stack thead { display: none; }
+  [data-agent-document] .jv.dapi .table-wrap.stack tr { padding: 8px 0; border-bottom: 1px solid var(--jv-line); }
+  [data-agent-document] .jv.dapi .table-wrap.stack tbody th { background: none; border: 0; padding: 3px 12px; }
+  [data-agent-document] .jv.dapi .table-wrap.stack td { padding: 3px 12px; border-bottom: 0; }
+  [data-agent-document] .jv.dapi .table-wrap.stack td[data-l]::before { content: attr(data-l) ": "; color: var(--jv-muted); font-size: 11px; font-weight: 650; letter-spacing: .04em; text-transform: uppercase; }
+}
+
+/* bm helper, run 15 (13 Oct 2026): grade-bar widths for the 39-row ledger */
+[data-agent-document] .jv .bm15-w11 { width: 28.21%; }  /* 11 of 39 */
+[data-agent-document] .jv .bm15-w13 { width: 33.33%; }  /* 13 of 39 */
+[data-agent-document] .jv .bm15-w8 { width: 20.51%; }   /* 8 of 39 */
+[data-agent-document] .jv .bm15-w7 { width: 17.95%; }   /* 7 of 39 */
+
+/* rp (run 15): research-page report timeline gains a 24th day column (13 Oct). */
+[data-agent-document] .jv .jv-tl.rs-tl24 { grid-template-columns: minmax(0, 10em) repeat(24, minmax(0, 1fr)); }

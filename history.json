@@ -297,6 +297,17 @@
       "summary": "New page on real-time game and robot demos: of 3 published demos that call Jev, read at pinned commits, 2 keep their last action when a call fails and 1 stops; none is a product. When Jev fails recounted at 77 implementations in 12 use cases (39 stop or hold, 22 fall back, 8 let it through; action goes ahead 17 of 77). B41 graded A (38 graded rows): on synthetic bank-withdrawal routing Jev and Microsoft-Decision-1 not separated, both ahead of OpenAI's Decisions API. Against small text-generating LLMs, Jev scored ahead in 6 of 10 graded studies, mixed in 2 and not ahead in 2. Alternatives 33 with Decision-1 cells and Cloudflare's Clef family; Azure pointer. Access unchanged. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/real-time-control-decision-1",
       "entrypoint": "reports/real-time-control-decision-1/index.html"
+    },
+    {
+      "run_id": "run:e361615f-595f-4bb6-a7c8-7168d4d370a3",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-13T05:04:18Z",
+      "completed_at": "2026-10-13T06:10:00Z",
+      "title": "Jev vs hosted decision APIs side by side, and no-key and bypass cells",
+      "summary": "New page puts OpenAI's Decisions API, Microsoft-Decision-1 and Cloudflare's Clef family beside Jev, each cell dated: graded results depend on the task (Decisions API ahead on RPG move accuracy, B38; Jev on Portuguese exact judge score, B39; Jev and Decision-1 not separated on routing macro-F1, both ahead of OpenAI, B41); no overall ranking. B42 graded B (39 graded rows). Microsoft-Decision-1 listed as Preview in Foundry (Generally available on 12 Oct). When Jev fails: no-key and bypass cells settled for model routing and content moderation (no key 43 stop or hold, 16 fall back, 7 let it through, 3 advisory, 8 not recorded; bypass recorded 52 of 77). Access unchanged; the hidden Vercel notice retired. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/decision-api-comparison",
+      "entrypoint": "reports/decision-api-comparison/index.html"
     }
   ]
 }

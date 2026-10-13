@@ -1,0 +1,257 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Jev vs hosted decision APIs side by side, and no-key and bypass cells · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Jev vs hosted decision APIs side by side, and no-key and bypass cells. New page puts OpenAI&#039;s Decisions API, Microsoft-Decision-1 and Cloudflare&#039;s Clef family beside Jev, each cell dated: graded results depend on the task (Decisions API ahead on RPG move accuracy, B38; Jev on Portuguese exact judge score, B39; Jev and Decision-1 not separated on routing macro-F1, both ahead of OpenAI, B41); no overall ranking. B42 graded B (39 graded rows). Microsoft-Decision-1 listed as Preview in Foundry (Generally available on 12 Oct). When Jev fails: no-key and bypass cells settled for model routing and content moderation (no key 43 stop or hold, 16 fall back, 7 let it through, 3 advisory, 8 not recorded; bypass recorded 52 of 77). Access unchanged; the hidden Vercel notice retired. Nothing was run; no Jev call.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/reports/decision-api-comparison/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Jev vs hosted decision APIs side by side, and no-key and bypass cells · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Jev vs hosted decision APIs side by side, and no-key and bypass cells. New page puts OpenAI&#039;s Decisions API, Microsoft-Decision-1 and Cloudflare&#039;s Clef family beside Jev, each cell dated: graded results depend on the task (Decisions API ahead on RPG move accuracy, B38; Jev on Portuguese exact judge score, B39; Jev and Decision-1 not separated on routing macro-F1, both ahead of OpenAI, B41); no overall ranking. B42 graded B (39 graded rows). Microsoft-Decision-1 listed as Preview in Foundry (Generally available on 12 Oct). When Jev fails: no-key and bypass cells settled for model routing and content moderation (no key 43 stop or hold, 16 fall back, 7 let it through, 3 advisory, 8 not recorded; bypass recorded 52 of 77). Access unchanged; the hidden Vercel notice retired. Nothing was run; no Jev call.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/reports/decision-api-comparison/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev vs hosted decision APIs side by side, and no-key and bypass cells","description":"Jev vs hosted decision APIs side by side, and no-key and bypass cells. New page puts OpenAI's Decisions API, Microsoft-Decision-1 and Cloudflare's Clef family beside Jev, each cell dated: graded results depend on the task (Decisions API ahead on RPG move accuracy, B38; Jev on Portuguese exact judge score, B39; Jev and Decision-1 not separated on routing macro-F1, both ahead of OpenAI, B41); no overall ranking. B42 graded B (39 graded rows). Microsoft-Decision-1 listed as Preview in Foundry (Generally available on 12 Oct). When Jev fails: no-key and bypass cells settled for model routing and content moderation (no key 43 stop or hold, 16 fall back, 7 let it through, 3 advisory, 8 not recorded; bypass recorded 52 of 77). Access unchanged; the hidden Vercel notice retired. Nothing was run; no Jev call.","dateModified":"2026-10-13T06:10:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/reports/decision-api-comparison/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="report-run:e361615f-595f-4bb6-a7c8-7168d4d370a3">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a><a href="../../use-cases/support-ticket-triage/index.html" ><span aria-hidden="true">▤</span><b>Support-ticket triage with Jev</b></a><a href="../../use-cases/model-routing/index.html" ><span aria-hidden="true">⇉</span><b>Jev Router or your own router?</b></a><a href="../../use-cases/content-moderation/index.html" ><span aria-hidden="true">⚑</span><b>Content moderation with Jev</b></a><a href="../../use-cases/email-and-lead-sorting/index.html" ><span aria-hidden="true">✉</span><b>Jev email classifier</b></a><a href="../../use-cases/trading-and-fraud-gates/index.html" ><span aria-hidden="true">⇅</span><b>Jev trading bot and fraud gates</b></a><a href="../../use-cases/llm-as-judge/index.html" ><span aria-hidden="true">⚖</span><b>Jev as a judge</b></a><a href="../../use-cases/browser-and-computer-use/index.html" ><span aria-hidden="true">⌖</span><b>Jev browser and computer use</b></a><a href="../../use-cases/reranking-rag/index.html" ><span aria-hidden="true">⇅</span><b>Jev reranker and RAG</b></a><a href="../../use-cases/databases-and-documents/index.html" ><span aria-hidden="true">▤</span><b>Jev in SQL and document pipelines</b></a><a href="../../use-cases/real-time-control/index.html" ><span aria-hidden="true">▶</span><b>Jev plays Doom: real-time demos</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../../build/index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../../build/python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../../build/typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../../build/frameworks/index.html" ><span aria-hidden="true">⧉</span><b>Jev LangChain and frameworks</b></a><a href="../../build/n8n/index.html" ><span aria-hidden="true">⇶</span><b>Jev n8n node</b></a><a href="../../build/claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../../build/coding-agents/index.html" ><span aria-hidden="true">⌨</span><b>Jev with coding agents</b></a><a href="../../build/errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../../build/confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../../build/testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a><a href="../../build/when-jev-fails/index.html" ><span aria-hidden="true">⚠</span><b>When Jev fails</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Jev alternatives by layer</b></a><a href="../../alternatives/jev-vs-decision-apis/index.html" ><span aria-hidden="true">⇆</span><b>Jev vs OpenAI and Microsoft decision APIs</b></a><a href="../../alternatives/jev-vs-llm-vs-classifier/index.html" ><span aria-hidden="true">⋈</span><b>Jev vs LLM vs classifier</b></a><a href="../../alternatives/laya-vs-kev/index.html" ><span aria-hidden="true">⚖</span><b>Jev vs Laya vs Kev</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/data-privacy/index.html" ><span aria-hidden="true">eye</span><b>Jev data retention and privacy</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/versions-and-aliases/index.html" ><span aria-hidden="true">#</span><b>Jev model IDs and aliases</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Jev examples: products and projects</b></a><a href="../../benchmarks/index.html" ><span aria-hidden="true">▦</span><b>Jev benchmarks, graded</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv jev-page">
+  <div class="jv-kicker"><span>Research report</span><span>Run <code>run:e361615f-595f-4bb6-a7c8-7168d4d370a3</code> · checks <time datetime="2026-10-13">13 October 2026</time>, 05:17–05:37 UTC</span></div>
+  <h1>Decisions API vs Jev vs Microsoft Decision 1, and what Jev integrations do with no key: research of 13 October 2026</h1>
+  <p class="jv-lede">This dated report records the evidence behind release <code>regular-2026-10-13-decision-api-comparison</code> of 13 October 2026. It adds one page, <a href="../../alternatives/jev-vs-decision-apis/index.html">Decisions API vs Jev (TypeSafe AI) vs Microsoft Decision 1, with Cloudflare Clef</a>, and refreshes <a href="../../build/when-jev-fails/index.html">When Jev fails</a> (no-key and bypass cells for model routing and content moderation), <a href="../../benchmarks/index.html#b42">benchmarks</a> (B42 graded B: 38 → 39 graded rows) and <a href="../../alternatives/index.html#alt-r-decisions-api">Jev alternatives</a> (hosted rows rechecked; 33 substitutes, unchanged). The pool ran nothing: no harness, package, benchmark or API call was run.</p>
+
+  <div class="jv-answer key" id="r15-key">
+    <strong>Key findings</strong>
+    <p class="kf"><a href="../../alternatives/jev-vs-decision-apis/index.html#dapi-key">Decision APIs side by side</a>: Graded results depend on the task: OpenAI's Decisions API ahead on RPG move accuracy (B38); Jev on Portuguese exact judge score (B39); Jev and Microsoft-Decision-1 not separated on routing macro-F1, both ahead of OpenAI (B41).</p>
+    <p class="kf-meta"><span class="ev ev-reported">Reported</span><span>results</span><span class="ev ev-documented">Documented</span><span>materials; B38 and B39 checked <time datetime="2026-10-11">11 Oct 2026</time>, 05:23 UTC; B41 checked <time datetime="2026-10-12">12 Oct 2026</time>, 05:12 UTC</span></p>
+    <p class="kf"><a href="../../build/when-jev-fails/index.html">When Jev fails</a>: With no API key set, of 77 Jev implementations read in source: 43 fail closed, 16 fall back, 7 fail open, 3 are advisory, 8 not recorded. A bypass path (code that never asks Jev) is recorded for 52 of 77; 25 not recorded.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>code read at the published pins, recounted by script, checked <time datetime="2026-10-13">13 Oct 2026</time>, 05:31 UTC</span></p>
+    <p class="kf"><a href="../../benchmarks/index.html#b42">Benchmarks</a>: On 1,000 five-option logic questions (B42, grade B), Jev answered 817 correctly and OpenAI's Decisions API 612; Jev's answers come from a 22 Sep run, and the answer key is not published.</p>
+    <p class="kf-meta"><span class="ev ev-reported">Reported</span><span>results in the operator's own units</span><span class="ev ev-documented">Documented</span><span>metric and results files opened at a pinned commit in run 14; pin rechecked <time datetime="2026-10-13">13 Oct 2026</time>, 05:24 UTC</span></p>
+    <p>No page sums or ranks the graded comparisons into an overall verdict: each result belongs to its task. B42 sits below B38, B39 and B41 and is not part of the comparison page's key finding.</p>
+  </div>
+
+  <figure class="jv-figure" id="r15-changed" aria-labelledby="r15-changed-t">
+    <h3 id="r15-changed-t">What changed on 13 Oct 2026 (published value on 12 Oct → value on 13 Oct)</h3>
+    <ul class="rp-chg">
+      <li class="rp-new"><span class="rp-chg-l">New page</span><span class="rp-chg-n"><strong>alternatives/jev-vs-decision-apis</strong></span><p>A six-row card for 4 providers, a 13-row table with every cell dated and sourced, and a copy block. <a href="../../alternatives/jev-vs-decision-apis/index.html">Open the page</a>.</p></li>
+      <li><span class="rp-chg-l">Benchmarks: graded rows</span><span class="rp-chg-n"><s>38</s><span>→</span><strong>39</strong></span><p>B42 graded B. Grade B rows 12 → 13; A 11, C 8, D 7 unchanged (11 + 13 + 8 + 7 = 39).</p></li>
+      <li><span class="rp-chg-l">Graded comparisons with OpenAI's Decisions API</span><span class="rp-chg-n"><s>3</s><span>→</span><strong>4</strong></span><p>B38, B39, B41, B42. With Microsoft-Decision-1: 1 (B41), unchanged.</p></li>
+      <li><span class="rp-chg-l">When Jev fails: no-key cells not recorded</span><span class="rp-chg-n"><s>18 of 77</s><span>→</span><strong>8 of 77</strong></span><p>Fail-closed 38 → 43, fallback 14 → 16, fail-open 4 → 7, advisory 3 unchanged.</p></li>
+      <li><span class="rp-chg-l">When Jev fails: bypass recorded</span><span class="rp-chg-n"><s>44 of 77</s><span>→</span><strong>52 of 77</strong></span><p>Not recorded 33 → 25.</p></li>
+      <li><span class="rp-chg-l">When Jev fails: malformed answer, fail-closed</span><span class="rp-chg-n"><s>34</s><span>→</span><strong>35</strong></span><p>agent-router read as fail-closed; not recorded 2 → 1.</p></li>
+      <li><span class="rp-chg-l">Microsoft-Decision-1 in Foundry</span><span class="rp-chg-n"><s>GA</s><span>→</span><strong>Preview</strong></span><p>Listed as Preview at 13 Oct 2026, 05:20 UTC; listed Generally available on 12 Oct; cause unknown.</p></li>
+      <li class="rp-same"><span class="rp-chg-l">Alternatives: listed substitutes</span><span class="rp-chg-n"><strong>33, unchanged</strong></span><p>Hosted rows rechecked. SubQ Snap, Cygnet and GLiNER2.5-Decide go to "seen, not checked", not to rows.</p></li>
+      <li class="rp-same"><span class="rp-chg-l">Access status</span><span class="rp-chg-n"><strong>unchanged</strong></span><p>Checked 13 Oct 2026, 05:18 UTC. Home notices: 2 shown, 2 hidden, 1 retired, 0 new.</p></li>
+    </ul>
+    <p class="fig-note">Counts are <span class="ev ev-documented">Documented</span> from source read at pinned commits, official pages or the published pages, 13 Oct 2026. Nothing was run. A dashed box means the value did not change.</p>
+  </figure>
+
+  <p><strong>Run:</strong> <code>run:e361615f-595f-4bb6-a7c8-7168d4d370a3</code> (scheduled regular research run 15) · <strong>Pool:</strong> <code>pool_jev_catalog</code> · <strong>Runner:</strong> one runner plus two research helpers (A: no-key and bypass cells; B: hosted decision-API pages). <strong>Checks:</strong> 13 Oct 2026; runner started 05:17:11 UTC; home status written 05:20:22 UTC; helper B done 05:24 UTC, helper A done 05:28 UTC; runner done 05:37:09 UTC; manager decisions 05:40 UTC.</p>
+  <p>The run's research notes and its source ledger (115 records, R15-S… IDs) are held in the pool's private record. Key sources are linked below and on the pages each finding feeds. Pre-return checks passed: 131 cited IDs checked, 0 missing. 15 count-word sentences were checked and all 15 pass: every category list adds up to its total, and every category with 3 or more items (or 10% of the total) is named.</p>
+  <p><strong>Rules kept:</strong> nothing was installed or run, so no Jev, OpenAI, Microsoft, Cloudflare or Subquadratic call was made, and the pool has no account with any of them. Failure cells come only from source at pinned commits. Study results are the operators' own measurements. <strong>Nothing in this run is Tested.</strong></p>
+  <p><strong>Previous report:</strong> <a href="../real-time-control-decision-1/index.html">12 Oct research report</a>. All dated reports: <a href="../../research/index.html">Research</a>.</p>
+
+  <h2 id="r15-asked">1. What was asked</h2>
+  <ul>
+    <li><strong>Decision APIs side by side (protected page).</strong> Build a page that puts OpenAI's Decisions API, Microsoft-Decision-1 and the Cloudflare Clef family beside Jev: graded tests, price, inputs, request shape, data terms, errors and limits, each cell dated and sourced, with a shareable card and a copy block.</li>
+    <li><strong>When Jev fails, first half of the no-key and bypass pass.</strong> Settle the open no-key and bypass cells for the model-routing and content-moderation rows at their published pins, and recount.</li>
+    <li><strong>Comparator review (new standing step).</strong> Check every decision model that a benchmarks row names as a comparator against the alternatives rows.</li>
+    <li><strong>Leads from 12 Oct.</strong> Recheck the pin of etsabary/luna-decisions-benchmark and decide its grade; screen utakatano/decision-models-demo.</li>
+    <li><strong>Standing work.</strong> Access and notice recheck, the daily discovery scan with the 72-hour decision-API look-back, and the drift registry.</li>
+  </ul>
+
+  <h2 id="r15-summary">2. Summary answer, as of 13 October 2026</h2>
+  <ul>
+    <li><strong>Access is unchanged</strong> (13 Oct 2026, 05:18 UTC). The Vercel provider notice retired at the end of its shelf life; it was never shown on Home (<a href="#r15-access">section 3</a>).</li>
+    <li><strong>The decision-API comparison page ships</strong>, with the key finding resting on B38, B39 and B41 (<a href="#r15-page">section 4</a>).</li>
+    <li><strong>B42 is graded B</strong>: 39 graded rows; 4 graded comparisons with the Decisions API (<a href="#r15-b42">section 5</a>).</li>
+    <li><strong>Microsoft-Decision-1 is listed as Preview, not GA, in Foundry</strong> (<a href="#r15-lifecycle">section 6</a>).</li>
+    <li><strong>When Jev fails:</strong> no key not recorded 18 → 8; bypass recorded 44 → 52; malformed fail-closed 34 → 35 (<a href="#r15-wf">section 7</a>).</li>
+    <li><strong>Comparator review:</strong> 9 comparator entries; 2 have no row and are queued for run 16 (<a href="#r15-comparators">section 8</a>).</li>
+  </ul>
+
+  <h2 id="r15-access">3. Access status and home notices</h2>
+  <p>Checked 13 Oct 2026, 05:18:51–05:25:30 UTC: <span class="ev ev-documented">Documented</span>. Status unchanged since 27 Sep 2026, 22:33:25 UTC (TypeSafe CEO post, re-read through X's public oEmbed endpoint; R15-S03).</p>
+  <ul>
+    <li>Signups open, no free credit for new accounts. Service operational ("All services are online", status page "Last updated on Oct 13, 2026 at 5:18am UTC"; R15-S05).</li>
+    <li>Price ($0.042 per million input tokens; output free), limits (100K tokens per second, 80 requests per second), the model <code>jev-1.13.0</code>, its aliases and all six route IDs are unchanged (R15-S06, R15-S12, R15-S36 to R15-S39).</li>
+    <li><strong>Shown on Home (2):</strong> new-user credit disabled (rank 1); lookalike resellers (rank 2). <strong>Hidden (2):</strong> Jack &amp; Jill case study (retires 14 Oct), Series A (16 Oct). <strong>Retired (1):</strong> Vercel adding TypeSafe as a second Jev provider; shelf life ended 13 Oct 2026, 05:15 UTC; checked 05:19 UTC; never shown on Home. The fact stays on <a href="../../where-to-use/index.html#vercel-providers">Where to use</a>. <strong>New:</strong> 0.</li>
+    <li>Docs changed without an access effect: the quickstart was rewritten and <code>llms.txt</code> is retitled "TypeSafe" (R15-S04, R15-S07). Rejected as notices: those docs changes, the Decision-1 lifecycle change and the SubQ Snap launch (another provider's model is never a home-page notice).</li>
+    <li>Jev was not listed in Microsoft Foundry's catalog or Amazon Bedrock's model cards when the pool checked on 13 Oct 2026, 05:20 UTC (R15-S41, R15-S42, R15-S45, R15-S46).</li>
+    <li>Subprocessors were not rechecked (the trust portal needs a browser render); the 11 Oct value stands.</li>
+  </ul>
+
+  <h2 id="r15-page">4. New page: Decisions API vs Jev vs Microsoft Decision 1</h2>
+  <p>The page is <a href="../../alternatives/jev-vs-decision-apis/index.html">Decisions API vs Jev (TypeSafe AI) vs Microsoft Decision 1, with Cloudflare Clef: graded tests, price, images and data terms</a>. The full card, table, copy block and sources are on that page; this section records how it was built.</p>
+  <ul>
+    <li><strong>Key finding</strong> (35 words, verbatim on the page): see <a href="#r15-key">Key findings</a> above. It rests on B38, B39 and B41 only; each clause names its metric. Labelled Reported results, Documented materials.</li>
+    <li><strong>Title source.</strong> "jev vs openai" did not hold: Google showed it only as an echo of the typed prefix, and Bing and DuckDuckGo suggest "jev openai" instead. Google completes "decisions api" and "decisions api vs" to "decisions api vs jev", and "microsoft decision" to "microsoft decision 1" and "microsoft decision 1 vs jev" (13 Oct 2026, 05:21 UTC; R15-S27). A suggestion is a demand signal, not a search volume.</li>
+    <li><strong>Card</strong> (<a href="../../alternatives/jev-vs-decision-apis/index.html#dapi-card">#dapi-card</a>): six rows (graded tests, price as published, images, request shape, your data, documented errors and limits) across four columns (Jev; OpenAI Decisions API; Microsoft-Decision-1; Cloudflare Clef family). Each non-Jev column says it is another provider and where your data goes. Each cell links its dated cell in the 13-row table. Prices are quoted as published, per million tokens; there is no per-call arithmetic and no overall ranking. The <a href="../../alternatives/jev-vs-decision-apis/index.html#dapi-copy">copy block</a> repeats the card word for word.</li>
+    <li><strong>Clef data wording</strong> (manager decision): your data goes to Cloudflare under Cloudflare's terms on Workers AI; on OpenRouter's non-Cloudflare hosts (PrimeIntellect, DeepInfra) it goes to that host (R15-S226).</li>
+    <li><strong>B42 added below the three</strong> in the graded block, with its 7 flags. The Jev and OpenAI "Graded tests" card cells carry one short B42 clause that names grade B (<a href="#r15-b42">section 5</a>).</li>
+    <li><strong>SubQ Snap not compared.</strong> Subquadratic launched SubQ Snap, a hosted decision API, on 12 Oct 2026 per the vendor post. Vendor-documented: $0.05 per 1M input tokens, output free, Public Preview with a possible waitlist, text and images. The vendor's claims against Jev are <span class="ev ev-reported">Reported</span> only. Its docs and data terms were not read (R15-S33). It gets a dated "Also launched, not compared here" line on the page (<a href="../../alternatives/jev-vs-decision-apis/index.html#dapi-also-launched">#dapi-also-launched</a>) and a "seen, not checked" entry on alternatives. No row, no fifth column, no home-page notice.</li>
+    <li><strong>Vendor claims</strong> (Microsoft's added Jev benchmarks; Cloudflare's "costs less than Jev") are Reported and attributed, outside the graded rows (R15-S209, R14-S405).</li>
+  </ul>
+
+  <h2 id="r15-b42">5. Benchmarks: B42 graded B (38 → 39)</h2>
+  <p>etsabary/luna-decisions-benchmark at <a href="https://github.com/etsabary/luna-decisions-benchmark/tree/7a5ea1371905c1e680f936d0a2ac1862b9039ca8"><code>7a5ea13</code></a>. The latest commit on <code>main</code> was still the run-14 pin at 13 Oct 2026, 05:24 UTC (R15-S53), so the README, metric script, results summary and run manifest opened in run 14 stand (R14-S300 to R14-S305).</p>
+  <ul>
+    <li><strong>Operator:</strong> GitHub account etsabary (independent; MIT licence). <strong>Task:</strong> 1,000 five-option deterministic logic questions in 25 families.</li>
+    <li><strong>Result as reported</strong> <span class="ev ev-reported">Reported</span>: Decisions API (via OpenRouter's alpha Decisions endpoint) 612 of 1,000 (61.2%); Jev 817 of 1,000 (81.7%), with Jev's answers reused from a 22 Sep run.</li>
+    <li><strong>7 flags:</strong> (1) via OpenRouter's alpha endpoint, not OpenAI direct; (2) Jev not re-run (22 Sep vs 10 Oct; mixed Jev providers); (3) answer key withheld (only its hash committed); (4) 17 persistent refusals (HTTP 502), cause unknown; (5) the operator built both benchmarks; (6) young repository (2 commits); (7) latency and cost not comparable across dates and routes.</li>
+    <li><strong>Ledger:</strong> 39 graded rows = A 11, B 13, C 8, D 7. Graded comparisons with OpenAI's Decisions API: 4 (B38, B39, B41, B42); with Microsoft-Decision-1: 1 (B41). The sentence "Against small text-generating LLMs, Jev scored ahead in 6 of 10 graded studies" is unchanged: B42 is not a small-LLM comparison.</li>
+    <li>utakatano/decision-models-demo stays a lead, not graded: an empty repository at 13 Oct 2026, 05:22 UTC (R15-S227, R15-S228).</li>
+  </ul>
+
+  <h2 id="r15-lifecycle">6. Microsoft-Decision-1: Foundry lifecycle and alternatives cells</h2>
+  <ul>
+    <li><strong>Lifecycle:</strong> listed as Preview in Foundry at 13 Oct 2026, 05:20 UTC (model page "Lifecycle Preview" and catalog card); listed Generally available on 12 Oct 2026, 05:15 UTC; cause unknown. No Microsoft statement was searched for or found (R15-S43, R15-S44). <a href="../../where-to-use/index.html#ba-azure-pointer">Where to use</a> is corrected; the 12 Oct report and earlier release notes keep their dated wording.</li>
+    <li><strong>Alternatives rows</strong> rechecked (quotes on <a href="../../alternatives/index.html#alt-r-ms-decision">alternatives</a> and the new page): Decision-1 requests-per-minute limits by tier, 60 to 900; no tokens-per-minute figure on that page at 13 Oct 2026, 05:20 UTC (R15-S206); Microsoft Product Terms read: Decision-1 is not named and Microsoft will "temporarily store" content, with no period (R15-S200); the catalog licence text (R15-S44); Vercel lists Decision-1 and the Decisions API (R15-S212). OpenAI: refusal behaviour and the 128-image limit (R15-S214); a 7-region table beside the guide's "US and Europe" (R15-S217). Clef: platform errors 408 and 429 (R15-S223); base-model licences (R15-S219 to R15-S221). Prices unchanged.</li>
+  </ul>
+
+  <h2 id="r15-wf">7. <code>build/when-jev-fails</code>: no-key and bypass pass</h2>
+  <p>A script first reproduced the published splits from the page's cells (13 Oct 2026, 05:31 UTC). Helper A then settled all 18 assigned cells for the model-routing and content-moderation rows, each from a file and line range at the published pin (R15-S100 to R15-S130). The runner spot-checked 2 cells at the pins; both match (R15-S55).</p>
+  <div class="table-wrap stack">
+    <table>
+      <caption>Counts of 77 implementations (12 Oct → 13 Oct)</caption>
+      <thead><tr><th>Condition</th><th>12 Oct</th><th>13 Oct</th><th>Check</th></tr></thead>
+      <tbody>
+<tr><td data-l="Condition">No key</td><td data-l="12 Oct">38 fail-closed, 14 fallback, 4 fail-open, 3 advisory, 18 not recorded</td><td data-l="13 Oct">43 fail-closed, 16 fallback, 7 fail-open, 3 advisory, 8 not recorded</td><td data-l="Check">43 + 16 + 7 + 3 + 8 = 77</td></tr>
+<tr><td data-l="Condition">Bypass</td><td data-l="12 Oct">44 recorded, 33 not recorded</td><td data-l="13 Oct">52 recorded, 25 not recorded</td><td data-l="Check">52 + 25 = 77</td></tr>
+<tr><td data-l="Condition">Malformed answer</td><td data-l="12 Oct">34 fail-closed, 24 fallback, 11 fail-open, 3 no-decision, 3 advisory, 2 not recorded</td><td data-l="13 Oct">35 fail-closed, 24 fallback, 11 fail-open, 3 no-decision, 3 advisory, 1 not recorded</td><td data-l="Check">35 + 24 + 11 + 3 + 3 + 1 = 77</td></tr>
+<tr><td data-l="Condition">Jev error</td><td data-l="12 Oct">39 fail-closed, 22 fallback, 8 fail-open, 5 no-decision, 3 advisory</td><td data-l="13 Oct">unchanged</td><td data-l="Check">39 + 22 + 8 + 5 + 3 = 77</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul>
+    <li><strong>Model routing (6 rows):</strong> no key 3 fail-closed, 3 fallback; bypass 6 of 6 recorded. <strong>Content moderation (7 rows):</strong> no key 3 fail-closed, 4 fail-open; bypass 7 of 7 recorded. Both domains now have no <code>not recorded</code> no-key or bypass cell.</li>
+    <li><strong>LiteLLM bypass cell counts as recorded</strong> (manager decision): the complexity router's own bypass paths were read at the pin; router-wide hooks outside that module were not.</li>
+    <li><strong>agent-router malformed answer → fail-closed</strong>: nidhi-singh02/agent-router at <a href="https://github.com/nidhi-singh02/agent-router/tree/fb24d06a62fb33a92c7836b4920ae9f4b1216c63"><code>fb24d06</code></a> exits with code 2 (<code>decision-engine.ts</code> L179, L196, L224 → <code>run.ts</code> L363; R15-S111, R15-S112).</li>
+    <li><strong>Mismatch qualifiers, text only (no split change):</strong> jev-router below threshold also allows upgrades capped at sonnet; autojev on named Jev routes falls to equal load balancing on error, malformed and below threshold; autojev's published bypass path is 1 of 10; jev_antispam_bot has 3 more bypass paths.</li>
+    <li>Remaining not recorded. No key, 8: n8n 5, email 1, trading 1, coding agents 1. Bypass, 25: ticket triage 5, email 4, n8n 4, browser 4, judges 4, frameworks 3, Claude Code and MCP 1.</li>
+    <li>The <code>build</code> hub said "71 real implementations"; it now says 77, as <code>build/when-jev-fails</code> has counted since 12 Oct.</li>
+  </ul>
+
+  <h2 id="r15-comparators">8. Comparator review (new standing step)</h2>
+  <p>A script extracted every decision model that a benchmarks ledger row names as a comparator and checked it against the 33 alternatives rows (R15-S56). Of 9 decision-model comparator entries: 5 have a row (Decisions API, Decision-1, Laya, Kev, Open-Jev), 2 are covered by a family row (Clef; Winnow through the Ollaya runtime row, a judgement), and 2 have no row (5 + 2 + 2 = 9). The 2 without a row, Cygnet (B07) and GLiNER2.5-Decide (B29), get no row this run because no primary source was read; they go to the "seen, not checked" list on alternatives and are queued for run 16 as leads. Text-generating LLMs, trained classifiers, rerankers and rules named in the ledger belong to other layers.</p>
+
+  <h2 id="r15-scan">9. Scan, 72-hour look-back and drift</h2>
+  <ul>
+    <li><strong>Window:</strong> 12 Oct 2026, 05:17 UTC to 13 Oct 2026, 05:17 UTC. Run 14's cutoff was 05:12 UTC, so a 5-minute gap was backfilled on Hacker News and GitHub: 0 items found in the result pages read (R15-S25, R15-S28).</li>
+    <li><strong>72-hour look-back</strong> from 10 Oct 2026, 05:17 UTC: SubQ Snap (Subquadratic) is new in the window, a hosted decision API launch (R15-S33). Decision 3.0, an open-weight family, and JevBench, a benchmark site, are new but not hosted launches (R15-S26, R15-S34). Decision-1's Foundry lifecycle changed and Vercel now lists it. None is a home-page notice.</li>
+    <li><strong>Comparison leads</strong> (benchmarks lead list, pins not taken): about 10 new repositories, among them dante01yoon/decision-model-arena, egarim/decision-1-vs-jev, GOhaike/decision-layer-benchmark and kprzybys/snap-vs-jev-swe (R15-S28).</li>
+    <li><strong>Drift: patches only.</strong> <code>@ai-sdk/typesafe-ai</code> 3.0.18, <code>ai</code> 7.0.138, <code>@jkudish/jev-mcp</code> 0.14.2, <code>@jkudish/jev-agent-tools</code> 0.2.1. No targeted diff is due (R15-S52).</li>
+  </ul>
+
+  <h2 id="r15-gaps">10. Evidence gaps and not done</h2>
+  <ul>
+    <li><strong>Not found</strong> on the pages read (13 Oct 2026, 05:18–05:22 UTC): Decision-1's retention period in days, its data zones, a tokens-per-minute limit and a Microsoft price page; OpenAI <code>/v1/decisions</code> rate limits, context window, error codes, timeouts and retries, and any page dates; Clef's own rate limit.</li>
+    <li>Subprocessors were not rechecked (the page needs a browser).</li>
+    <li>Reddit returned HTTP 403; YouTube, TikTok and GitHub trending were not run. Those surfaces are unknown, not empty. The Hacker News "jev" search is typo-tolerant (4,601 hits); only the newest 100 were inspected.</li>
+    <li><strong>Not done (for run 16):</strong> the ticket-triage bypass cells (5); some existing cells helper A did not re-check (LiteLLM, JevRouter error, malformed and below threshold; soter malformed; jev_antispam_bot error and malformed); SubQ Snap's docs and data terms; Cygnet and GLiNER2.5-Decide; pins for the new comparison repositories.</li>
+  </ul>
+
+  <div class="jv-box warn">
+    <h2 id="r15-method">Method notes and what was not verified</h2>
+    <ul>
+      <li>Nothing was installed or run. No harness, package or benchmark was run and no Jev, OpenAI, Microsoft, Cloudflare or Subquadratic API call was made.</li>
+      <li>Study results are the operators' own measurements <span class="ev ev-reported">Reported</span>. Vendor claims (Microsoft, Cloudflare, Subquadratic) are Reported and attributed.</li>
+      <li>GitHub quota (unauthenticated): 12 core and 4 search calls, within a budget of 35 core and 8 search. The <code>git fetch</code> fallback was not used (R15-S02).</li>
+      <li>Third-party source files were read from raw GitHub and deleted after reading; their URLs and line ranges are in the source ledger.</li>
+      <li>Lead only: the Foundry catalog's embedded configuration holds a publisher key "TypeSafeAI" on both 12 and 13 Oct, but no Jev model page was found (13 Oct 2026, 05:20 UTC). No claim is made from it.</li>
+    </ul>
+  </div>
+
+  <section class="jv-sources" aria-labelledby="r15-sources">
+    <h2 id="r15-sources">Key sources and check times (13 Oct 2026, UTC)</h2>
+    <details>
+      <summary>Sources by section (R15 and R14 IDs)</summary>
+      <ul>
+        <li>Access, 05:18:51–05:25:30: <a href="https://status.typesafe.ai/">status.typesafe.ai</a> (R15-S05); <a href="https://docs.typesafe.ai/models.md">docs.typesafe.ai/models.md</a> (R15-S06); <a href="https://docs.typesafe.ai/llms.txt">llms.txt</a> (R15-S07); <a href="https://docs.typesafe.ai/introduction/quickstart.md">quickstart</a> (R15-S04); CEO post via oEmbed (R15-S03); <a href="https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints">Vercel endpoints</a> (R15-S12); route IDs (R15-S36 to R15-S39).</li>
+        <li>Catalogs, 05:20:32: <a href="https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure">Foundry Models sold by Azure</a> (R15-S41); <a href="https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners">Foundry Models from partners</a> (R15-S42); <a href="https://ai.azure.com/catalog/models">Foundry catalog</a> (R15-S43); <a href="https://ai.azure.com/catalog/models/Microsoft-Decision-1">Microsoft-Decision-1 model page</a> (R15-S44); <a href="https://ai.azure.com/catalog/models/jev">Jev lookup</a> (R15-S45); <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html">Bedrock model cards</a> (R15-S46).</li>
+        <li>Hosted decision APIs, 05:18–05:25: <a href="https://www.microsoft.com/licensing/terms/productoffering/MicrosoftAzure/MCA">Microsoft Product Terms</a> (R15-S200); <a href="https://learn.microsoft.com/en-us/azure/foundry/foundry-models/quotas-limits">Foundry quotas and limits</a> (R15-S206); <a href="https://commandline.microsoft.com/microsoft-decision-1-model-foundry/">Microsoft's post</a> (R15-S209); <a href="https://ai-gateway.vercel.sh/v1/models">Vercel AI Gateway models</a> (R15-S212); <a href="https://developers.openai.com/api/reference/resources/decisions/methods/create">OpenAI Decisions API reference</a> (R15-S214); <a href="https://developers.openai.com/api/docs/guides/your-data.md">OpenAI your data</a> (R15-S217); <a href="https://developers.cloudflare.com/workers-ai/platform/errors/index.md">Workers AI errors</a> (R15-S223); Clef base-model licences (R15-S219 to R15-S221); <a href="https://openrouter.ai/cloudflare/clef">Clef on OpenRouter</a> (R15-S226); Cloudflare changelog of 9 Oct (R14-S405).</li>
+        <li>Title, 05:21:30–05:21:33: Google, Bing and DuckDuckGo autocomplete (R15-S27).</li>
+        <li>B42, 05:24:16: <a href="https://github.com/etsabary/luna-decisions-benchmark/commits/main.atom">commit feed</a> (R15-S53); files opened in run 14 (R14-S300 to R14-S305). utakatano/decision-models-demo, 05:22 (R15-S227, R15-S228).</li>
+        <li>When Jev fails, 05:18–05:31: helper A's reads at the published pins (R15-S100 to R15-S130), among them agent-router <a href="https://raw.githubusercontent.com/nidhi-singh02/agent-router/fb24d06a62fb33a92c7836b4920ae9f4b1216c63/packages/router/src/commands/run.ts"><code>run.ts</code></a> (R15-S111) and <a href="https://raw.githubusercontent.com/nidhi-singh02/agent-router/fb24d06a62fb33a92c7836b4920ae9f4b1216c63/packages/router/src/semantic/decision-engine.ts"><code>decision-engine.ts</code></a> (R15-S112); runner spot-checks (R15-S55); published cells and the comparator extraction (R15-S56).</li>
+        <li>Scan, window 12 Oct 2026, 05:17 UTC to 13 Oct 2026, 05:17 UTC, look-back from 10 Oct 2026, 05:17 UTC: HN Algolia (R15-S25, R15-S26); GitHub repository searches (R15-S28); npm (R15-S29); Hugging Face (R15-S30); DEV.to (R15-S31); Reddit, HTTP 403, and Ollama (R15-S32); <a href="https://subq.ai/introducing-subq-snap">SubQ Snap post</a> (R15-S33); <a href="https://leanmcp.github.io/jevbench/">JevBench</a> (R15-S34); GitHub quota (R15-S02).</li>
+        <li>Drift, 05:22:59: registries (R15-S52).</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="jv-related" aria-labelledby="r15-related">
+    <h2 id="r15-related">Related pages</h2>
+    <ul>
+      <li><a href="../../alternatives/jev-vs-decision-apis/index.html">Decisions API vs Jev (TypeSafe AI) vs Microsoft Decision 1</a></li>
+      <li><a href="../../build/when-jev-fails/index.html">When Jev fails: 77 implementations and a checklist</a></li>
+      <li><a href="../../benchmarks/index.html#b42">Jev benchmarks: a graded ledger</a></li>
+      <li><a href="../../alternatives/index.html">Jev alternatives (TypeSafe AI): open-source models, local runtimes and hosted APIs</a></li>
+      <li><a href="../../where-to-use/index.html#ba-azure-pointer">Where to use Jev: Bedrock and Azure</a></li>
+      <li><a href="../../where-to-use/access-status/index.html">Access status</a></li>
+      <li><a href="../../research/index.html">Research: all reports and release notes</a></li>
+      <li><a href="../real-time-control-decision-1/index.html">12 Oct research report</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>13 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>

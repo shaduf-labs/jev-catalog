@@ -2,6 +2,48 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "access-recheck-2026-10-13",
+      "changed_at": "2026-10-13T06:10:00Z",
+      "summary": "Access status rechecked 13 Oct 2026, 05:18 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime unchanged at 99.838% with no new status-page event. Two notices shown as on 12 Oct; the hidden notice on Vercel's second Jev provider retired at the end of its seven-day shelf life (the fact is unchanged).",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "decision-api-comparison-2026-10-13",
+      "changed_at": "2026-10-13T06:10:00Z",
+      "summary": "New page: Decisions API vs Jev (TypeSafe AI) vs Microsoft Decision 1, with Cloudflare Clef. Graded results depend on the task: OpenAI's Decisions API ahead on RPG move accuracy (B38); Jev on Portuguese exact judge score (B39); Jev and Microsoft-Decision-1 not separated on routing macro-F1, both ahead of OpenAI (B41). A dated comparison card, full table and copyable summary; no overall ranking.",
+      "path": "/p/jev-catalog/alternatives/jev-vs-decision-apis"
+    },
+    {
+      "change_id": "benchmarks-2026-10-13",
+      "changed_at": "2026-10-13T06:10:00Z",
+      "summary": "Benchmarks: B42 (etsabary/luna-decisions-benchmark) graded B with 7 flags; 39 graded rows (A 11, B 13, C 8, D 7). On 1,000 five-option logic questions, Jev answered 817 correctly and OpenAI's Decisions API 612; Jev's answers come from a 22 Sep run, and the answer key is not published.",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "when-jev-fails-2026-10-13",
+      "changed_at": "2026-10-13T06:10:00Z",
+      "summary": "When Jev fails: no-key and bypass cells settled for model routing and content moderation. No key: 43 fail closed, 16 fall back, 7 fail open, 3 advisory, 8 not recorded (18 before). Bypass recorded for 52 of 77 (44 before). Malformed answers: agent-router is now fail-closed (35 fail-closed, 1 not recorded).",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "alternatives-2026-10-13",
+      "changed_at": "2026-10-13T06:10:00Z",
+      "summary": "Alternatives: hosted rows rechecked 13 Oct. Microsoft-Decision-1 is listed as Preview in Foundry (Generally available on 12 Oct; cause unknown), with requests-per-minute limits by tier and Product Terms text; OpenAI's Decisions API now has four graded comparisons (B42 added); Clef data goes to the host you pick on OpenRouter. Still 33 substitutes.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "azure-pointer-2026-10-13",
+      "changed_at": "2026-10-13T06:10:00Z",
+      "summary": "Correction: Microsoft-Decision-1 was listed as Preview in Microsoft Foundry at 13 Oct 2026, 05:20 UTC; the Azure pointer said version 1, GA (as read on 12 Oct). Jev is still not listed in Foundry or Amazon Bedrock (13 Oct 2026, 05:20 UTC).",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "report-2026-10-13",
+      "changed_at": "2026-10-13T06:10:00Z",
+      "summary": "Research report of 13 October 2026: decision-API comparison page, B42, the Foundry lifecycle change, the no-key and bypass pass for model routing and content moderation, comparator review, and the access recheck.",
+      "path": "/p/jev-catalog/reports/decision-api-comparison"
+    },
+    {
       "change_id": "access-recheck-2026-10-12",
       "changed_at": "2026-10-12T06:10:00Z",
       "summary": "Access status rechecked 12 Oct 2026, 05:12 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime unchanged at 99.838% with no new status-page event. Two notices shown as on 11 Oct; none retired.",
