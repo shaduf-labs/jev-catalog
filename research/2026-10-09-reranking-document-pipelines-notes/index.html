@@ -63,9 +63,9 @@
 
   <nav class="jv-rn-toc" aria-label="On this page">
     <ol>
-      <li><a href="#rn-identity">Run identity</a></li>
+      <li><a href="#rn-identity">Date and scope</a></li>
       <li><a href="#rn-observed">What the notes observed</a></li>
-      <li><a href="#rn-proposed">Proposed page findings</a></li>
+      <li><a href="#rn-proposed">Topic assessments</a></li>
       <li><a href="#rn-open">Open questions</a></li>
       <li><a href="#rn-compare">Comparison with the site</a></li>
       <li><a href="#rn-more">Products, scan, leads and gaps</a></li>
@@ -73,10 +73,10 @@
     </ol>
   </nav>
 
-  <h 2 id="rn-identity">Date and scope</h 2>
+  <h2 id="rn-identity">Date and scope</h2>
   <p>These notes are dated 9 October 2026. Findings must be read with their public sources and the specific gaps listed below.</p>
   <ol class="jv-rn-days" aria-label="8 to 10 October 2026 on this site">
-    <li class="acc"><time datetime="2026-10-08">8 Oct 2026</time><strong>Dated report</strong><span><a href="../../reports/reranking-databases/index.html">Reranking and RAG, SQL and document pipelines</a>: the site's run 11, published.</span></li>
+    <li class="acc"><time datetime="2026-10-08">8 Oct 2026</time><strong>Dated report</strong><span><a href="../../reports/reranking-databases/index.html">Reranking and RAG, SQL and document pipelines</a>: published.</span></li>
     <li class="rec"><time datetime="2026-10-09">9 Oct 2026</time><strong>These notes</strong><span>Dated observations; source gaps and disagreements with later reports remain explicit.</span></li>
     <li class="acc"><time datetime="2026-10-10">10 Oct 2026</time><strong>Dated report</strong><span><a href="../../reports/alternatives-coding-agents/index.html">Alternatives and coding agents</a>: its scan covered the 48 hours from 8 October.</span></li>
   </ol>
@@ -102,13 +102,13 @@
     <li><strong>Patch releases noted, not re-audited:</strong> <code>@effect/ai-typesafe</code> 4.0.2; LiteLLM 1.104.1 and 1.104.2; <code>ai</code> 7.0.136; <code>@ai-sdk/typesafe-ai</code> 3.0.17; <code>@openclaw/typesafe</code> 2026.9.9. The notes judged that none needed a failure-path diff.</li>
   </ul>
 
-  <h2 id="rn-proposed">Proposed page findings</h2>
+  <h2 id="rn-proposed">Topic assessments</h2>
   <p>The following sections group the dated observations by topic. Current topic pages are linked for comparison; their evidence dates and findings can differ.</p>
 
   <section class="jv-rn-prop" aria-labelledby="rn-rr">
-    <h3 id="rn-rr">Reranking and RAG <span class="jv-flag">proposed in the notes, not adopted</span></h3>
+    <h3 id="rn-rr">Reranking and RAG <span class="jv-flag">9 Oct assessment</span></h3>
     <p class="jv-rn-cur">Current page: <a href="../../use-cases/reranking-rag/index.html">Jev reranker and Jev for RAG</a></p>
-    <blockquote class="jv-rn-quote"><p>"Of 5 Jev rerankers and context filters read in source, 3 still put text Jev never judged into the prompt when Jev errors (Spring AI, LlamaIndex, LiteLLM); 2 raise an error instead."</p><footer>Proposed key finding; labelled Documented, 9 Oct 2026</footer></blockquote>
+    <blockquote class="jv-rn-quote"><p>"Of 5 Jev rerankers and context filters read in source, 3 still put text Jev never judged into the prompt when Jev errors (Spring AI, LlamaIndex, LiteLLM); 2 raise an error instead."</p><footer>Dated assessment; labelled Documented, 9 Oct 2026</footer></blockquote>
     <p><strong>Studies, as the notes framed them:</strong> iwhalen (grade A) measures agreement with human relevance grades and system ranking, not reranked retrieval. The reranking-pipeline studies by jev-reranker (grade B) and LanceDB (grade B) come from parties that ship a Jev reranker. zhuyansen/jev-search-rerank-eval (<code>c896f14</code>, 164 queries) comes from a party that ships none. It reports +0.012 nDCG@10 [−0.013, +0.037] when Jev reranks bge-m3's top 30 <span class="ev ev-reported">Reported</span>. The notes read only that study's README, not its evaluation code.</p>
     <div class="table-wrap stack" id="rn-rr-rows">
       <table>
@@ -124,18 +124,18 @@
       </table>
     </div>
     <ul class="jv-rn-list">
-      <li>All 5 were to count in the Frameworks domain of the failure recount; 3 of them were new to it.</li>
+      <li>These notes count all 5 in the Frameworks domain of the failure recount; 3 are additions to the earlier tally.</li>
       <li>TypeSafe's "Re-ranking" and "Classifying RAG passages" cookbooks have no error handling in the page code, so an error propagates. Both set a 120 s timeout. With no key, they replay a cache.</li>
-      <li>The LanceDB benchmark script uses the shipped class and a no-reranker baseline. On that basis the notes proposed removing its "provisional" flag, with the grade staying B.</li>
-      <li>Proposed title: "Jev reranker (TypeSafe AI): reranking and RAG passage filtering, and what reaches your prompt when Jev fails". Search suggestions at 9 Oct 2026, 05:19:12 UTC: Bing completed "jev re", "jev rer" and "jev rera" to "jev reranker"; DuckDuckGo completed "jev rer" and "jev rera" to it.</li>
+      <li>The LanceDB benchmark script uses the shipped class and a no-reranker baseline. The notes assess it at grade B without a "provisional" flag.</li>
+      
     </ul>
   </section>
 
   <section class="jv-rn-prop" aria-labelledby="rn-db">
-    <h3 id="rn-db">Jev in SQL, Postgres, SQLite and document pipelines <span class="jv-flag">proposed in the notes, not adopted</span></h3>
+    <h3 id="rn-db">Jev in SQL, Postgres, SQLite and document pipelines <span class="jv-flag">9 Oct assessment</span></h3>
     <p class="jv-rn-cur">Current page: <a href="../../use-cases/databases-and-documents/index.html">Jev inside SQL and document pipelines</a></p>
-    <blockquote class="jv-rn-quote"><p>"Of 5 Jev database and document projects read in source, all 5 stop with an error when the Jev call fails; pg-redact shows a span unmasked when Jev's answer is missing or below 0.5."</p><footer>Proposed key finding, 9 Oct 2026</footer></blockquote>
-    <p>On wording, the notes say pg-redact always stores the raw message body and masks at display time from the stored spans, so they proposed "shown unmasked" rather than "stored unredacted". The site's current page says "stores text unredacted"; this question is <a href="#rn-q8">still open</a>.</p>
+    <blockquote class="jv-rn-quote"><p>"Of 5 Jev database and document projects read in source, all 5 stop with an error when the Jev call fails; pg-redact shows a span unmasked when Jev's answer is missing or below 0.5."</p><footer>Dated assessment, 9 Oct 2026</footer></blockquote>
+    <p>The notes read pg-redact as storing the raw message body and masking at display time from the stored spans. They describe the missing or below-threshold span as "shown unmasked". The current page says "stores text unredacted"; this difference is <a href="#rn-q8">still open</a>.</p>
     <div class="table-wrap stack" id="rn-db-rows">
       <table>
         <caption>Five projects as the notes recorded them, 9 Oct 2026</caption>
@@ -151,16 +151,16 @@
     </div>
     <ul class="jv-rn-list">
       <li>The notes say they recorded a below-threshold cell for all 5 projects; the preserved notes do not give the cell values.</li>
-      <li>Only 2 rows count, below the threshold of 3 for a domain of their own. The notes proposed pg-redact under Content moderation and docjev under Frameworks, each marked "(databases and documents)".</li>
-      <li>Proposed title: "Jev in SQL, Postgres, SQLite and document pipelines (TypeSafe AI): what happens to the query or the text when Jev fails". Google completed "jev sq" to "jev sql", "jev sqli" to "jev sqlite", and "jev p" and "jev po" to "jev postgres". The notes found no support for "jev database". "jev pdf" completed to the JEV virus, so the notes did not use it.</li>
+      <li>Only 2 rows count, below the threshold of 3 for a domain of their own. In these notes, pg-redact is classed under Content moderation and docjev under Frameworks, each with a databases-and-documents role.</li>
+      
       <li>Also found: 6 more SQL extensions call Jev directly: duckdb-jev, jev4pg, pg_typesafe, sql-jev, sqlite-utils-jev and pg_jevplanner. All 6 had a real Jev call path at HEAD. Their failure paths were not read.</li>
     </ul>
   </section>
 
   <section class="jv-rn-prop" aria-labelledby="rn-wf">
-    <h3 id="rn-wf">When Jev fails: recount to 69 implementations <span class="jv-flag">proposed in the notes, not adopted</span></h3>
+    <h3 id="rn-wf">When Jev fails: recount to 69 implementations <span class="jv-flag">9 Oct assessment</span></h3>
     <p class="jv-rn-cur">Current page: <a href="../../build/when-jev-fails/index.html">When Jev fails</a> (77 implementations in 12 domains as of 13 Oct)</p>
-    <blockquote class="jv-rn-quote"><p>"Of 69 Jev implementations read in source, 38 stop or hold the action on a Jev error and 8 let it through: 4 moderation bots, 2 agent hooks, a passage filter and an eval tool."</p><footer>Proposed key finding, 9 Oct 2026</footer></blockquote>
+    <blockquote class="jv-rn-quote"><p>"Of 69 Jev implementations read in source, 38 stop or hold the action on a Jev error and 8 let it through: 4 moderation bots, 2 agent hooks, a passage filter and an eval tool."</p><footer>Dated assessment, 9 Oct 2026</footer></blockquote>
     <p>The notes first rebuilt the 7 Oct count (64 implementations in 11 domains) and say it reproduced every published 7 Oct total. They then added 5 rows: the LiteLLM compaction guardrail, jev-reranker and LanceDB TypeSafeReranker in Frameworks (each also on reranking); pg-redact in Content moderation and docjev in Frameworks (each marked "databases and documents"). That gives n = 69 in 11 domains, with Content moderation at 7 (from 6) and Frameworks at 8 (from 4).</p>
     <figure class="jv-figure" aria-labelledby="rn-bars-cap">
       <p class="fig-title" id="rn-bars-cap">69 implementations per condition, as counted in the notes</p>
@@ -193,11 +193,11 @@
   <p>The cited evidence does not resolve the questions below. Later dated reports on the same topic do not by themselves validate these notes.</p>
   <ol class="jv-rn-qs">
     <li id="rn-q1"><strong>When Jev errors, does the Hermes jev-approvals plugin stop and ask a person, or can a fallback model approve the command?</strong> The notes read Hermes core <code>call_llm</code> at v2026.9.24 (<code>f97608f</code>, <code>agent/auxiliary_client.py</code> lines 7610–7634 and 7749). It first retries, then falls back to other configured LLM providers on connection, timeout, exhausted-429, quota and malformed-response errors, even for an explicitly chosen provider, before it re-raises. A fallback model could answer APPROVE, and core runs an APPROVE without a person. The notes did not read whether the plugin's provider errors take that path, so they left the cell as not recorded. If the cell stayed fail-closed, their error row would read 39 / 8 / 3 / 14 / 5 / 0 and the key finding "39 stop or hold". <em>Later reports:</em> the <a href="../../reports/reranking-databases/index.html">8 Oct report</a> records a fallback to the main agent model; the <a href="../../reports/benchmark-grades-coding-agents/index.html">11 Oct report</a> adds "with no main model configured, it asks you". The site does not say whether the plugin's own provider errors take the path the notes describe.</li>
-    <li id="rn-q2"><strong>With only two counted rows, where should pg-redact and docjev sit in the failure tally?</strong> The notes proposed Content moderation and Frameworks. <em>Later report:</em> the <a href="../../reports/reranking-databases/index.html">8 Oct report</a> placed pg-redact under Content moderation and docjev under Email and lead.</li>
+    <li id="rn-q2"><strong>With only two counted rows, where should pg-redact and docjev sit in the failure tally?</strong> These notes classify pg-redact under Content moderation and docjev under Frameworks. <em>Later report:</em> the <a href="../../reports/reranking-databases/index.html">8 Oct report</a> placed pg-redact under Content moderation and docjev under Email and lead.</li>
     <li id="rn-q3"><strong>With no Jev key, should openlayer jevals count as fail-closed or as falling back to another configured backend?</strong> With no backend and no credential it raises <code>BackendError</code> (<code>backends/__init__.py</code> lines 52–55); with another credential set, it uses that backend, which can be an OpenAI or OpenRouter LLM judge. Counted as fallback, the notes' no-key row would read fail-closed 34, fallback 10. <em>Later report:</em> the <a href="../../reports/reranking-databases/index.html">8 Oct report</a> counts it as a fallback to another backend, and fail-closed when no other backend is configured.</li>
     <li id="rn-q4"><strong>What do jev-curator's malformed, below-threshold and no-key cells say?</strong> The notes read fail-closed, held and fail-closed, which would make "3 of 40 not recorded" on the coding-agents page 0 of 40. <em>Later report:</em> the <a href="../../reports/reranking-databases/index.html">8 Oct report</a> filled the same three cells.</li>
     <li id="rn-q5"><strong>Which rh-guard line supports the low-confidence cell?</strong> The notes point to Jev confidence below 0.5 in <code>score.ts</code> (lines 110–116) and say the 0.45 in <code>kinds.ts</code> (line 36) is a different measure, a risk-score review cut; the cell itself is unchanged. <em>Later report:</em> the <a href="../../reports/reranking-databases/index.html">8 Oct report</a> clarifies the same distinction. The site links <code>score.ts</code> lines 98–127, not the notes' 110–116.</li>
-    <li id="rn-q6"><strong>Benchmarks ledger hygiene.</strong> The notes asked to lift LanceDB's "provisional" flag at grade B, label B16's operator as "alexmolas.com (individual blog)", replace creators' personal names in the leads paragraph, add a B29 note, and add zhuyansen/jev-search-rerank-eval as a new reranking study (grade A, provisional). <em>Later report:</em> the <a href="../../reports/reranking-databases/index.html">8 Oct report</a> covers the first four. No dated report adds the zhuyansen study.</li>
+    <li id="rn-q6"><strong>Benchmark assessments and source gaps.</strong> These notes assess LanceDB at grade B without a "provisional" flag and identify B16's operator as "alexmolas.com (individual blog)". They assess zhuyansen/jev-search-rerank-eval at grade A, provisional. <em>Dated report:</em> the <a href="../../reports/reranking-databases/index.html">8 Oct report</a> discusses the LanceDB and B16 assessments. No dated report adds the zhuyansen study.</li>
     <li id="rn-q7"><strong>Is the use-cases hub line for Elastic B14 ("grade A provisional") stale?</strong> The notes say it has been grade B since 7 Oct. <em>Later report:</em> the <a href="../../reports/reranking-databases/index.html">8 Oct report</a> says it was fixed.</li>
     <li id="rn-q8"><strong>Should pg-redact be described as "storing text unredacted" or "showing a span unmasked"?</strong> The notes say it stores the raw body and masks at display time, and that the 7 Oct report line ("that text is not redacted") stays true. No dated report on the site takes this up. Current pages say "stores … unredacted".</li>
   </ol>
@@ -206,36 +206,36 @@
   <p>For orientation only; this table gives no verdict on which reading is right. "8 Oct" is the dated <a href="../../reports/reranking-databases/index.html">8 October report</a>; "current" means the site's pages as of 13 October 2026.</p>
   <div class="table-wrap stack stack-md" id="rn-compare-table">
     <table>
-      <caption>13 topics: the 9 Oct notes beside the site</caption>
+      <caption>11 topics: the 9 Oct notes beside the site</caption>
       <thead><tr><th>Topic</th><th>9 Oct notes</th><th>Site</th><th>Comparison</th></tr></thead>
       <tbody>
         
         <tr><td data-l="Topic">TypeSafe subprocessors</td><td data-l="9 Oct notes">13 on 9 Oct, up from 6; seven new entries named; no update post</td><td data-l="Site">6 entries on 8, 10 and 11 Oct; the only update post is dated 2 Oct (<a href="../../where-to-use/data-privacy/index.html">data privacy</a>). Not rechecked 12–13 Oct.</td><td data-l="Comparison">Differs: 13 vs 6. Later checks on the site read 6.</td></tr>
-        <tr><td data-l="Topic">Home-page notices</td><td data-l="9 Oct notes">4 proposed, including a new subprocessor-change notice; the 2 Oct subprocessor notice retired as superseded</td><td data-l="Site">8 Oct: 4 shown, including "subprocessors added 2 Oct". 10 Oct: that notice retired at the end of its shelf life; no subprocessor-change notice.</td><td data-l="Comparison">Differs</td></tr>
+        
         <tr><td data-l="Topic">OpenRouter route context</td><td data-l="9 Oct notes">64,000 context, 57,600 maximum completion tokens</td><td data-l="Site">8 Oct stated 32,000. 64,000 first stated on 10 Oct, with a 32,000 prompt limit. No 57,600 figure (<a href="../../where-to-use/versions-and-aliases/index.html">versions and aliases</a>).</td><td data-l="Comparison">Differs</td></tr>
         <tr><td data-l="Topic">Access, price, limits, aliases</td><td data-l="9 Oct notes">Unchanged: $0.042 per million input tokens; 100K tokens/s, 80 requests/s; aliases to <code>jev-1.13.0</code>; no new-user credit</td><td data-l="Site">Same values (<a href="../../where-to-use/access-status/index.html">access status</a>)</td><td data-l="Comparison">Same</td></tr>
         <tr><td data-l="Topic">Reranking on a Jev error (n = 5)</td><td data-l="9 Oct notes">"3 still put text Jev never judged into the prompt" (Spring AI, LlamaIndex, LiteLLM); 2 raise</td><td data-l="Site">2 stop, 2 fall back, 1 passes unscreened passages (8 Oct and <a href="../../use-cases/reranking-rag/index.html">current</a>)</td><td data-l="Comparison">Differs in framing; the per-row cells are the same</td></tr>
         <tr><td data-l="Topic">jev-reranker retries; LanceDB with no key</td><td data-l="9 Oct notes">180 s per attempt, up to 9 attempts; LanceDB no-key not recorded</td><td data-l="Site">180 s, "up to 8 retries"; LanceDB no-key not recorded on 8 Oct, fail-closed since 11 Oct (current reranking page)</td><td data-l="Comparison">jev-reranker: wording differs (9 attempts vs 8 retries; not reconciled here). LanceDB no-key: differs from current.</td></tr>
         <tr><td data-l="Topic">Study from a party with no reranker to sell</td><td data-l="9 Oct notes">zhuyansen/jev-search-rerank-eval: +0.012 nDCG@10 [−0.013, +0.037] <span class="ev ev-reported">Reported</span></td><td data-l="Site">Not on the site. The site names jev-pulse (<a href="../../benchmarks/index.html#b37">B37</a>) and jev-rerank-bench (<a href="../../benchmarks/index.html#b40">B40</a>) instead.</td><td data-l="Comparison">Not on the site</td></tr>
-        <tr><td data-l="Topic">Databases key finding; pg-redact</td><td data-l="9 Oct notes">"all 5 stop … pg-redact shows a span unmasked"; proposes "shown unmasked", not "stored unredacted"</td><td data-l="Site">"pg-redact also stores text unredacted when a span's answer is missing or below 0.5" (8 Oct and <a href="../../use-cases/databases-and-documents/index.html">current</a>)</td><td data-l="Comparison">Differs: wording</td></tr>
-        <tr><td data-l="Topic">docjev placement; database title queries</td><td data-l="9 Oct notes">docjev in Frameworks. Google completes "jev sql", "jev sqlite", "jev postgres".</td><td data-l="Site">docjev under Email and lead. On 8 Oct only "jev postgres" (Google), so the title is the site's own label.</td><td data-l="Comparison">Differs</td></tr>
+        <tr><td data-l="Topic">Databases key finding; pg-redact</td><td data-l="9 Oct notes">"all 5 stop … pg-redact shows a span unmasked"; describes "shown unmasked", rather than "stored unredacted"</td><td data-l="Site">"pg-redact also stores text unredacted when a span's answer is missing or below 0.5" (8 Oct and <a href="../../use-cases/databases-and-documents/index.html">current</a>)</td><td data-l="Comparison">Differs: wording</td></tr>
+        <tr><td data-l="Topic">docjev failure category</td><td data-l="9 Oct notes">docjev in Frameworks.</td><td data-l="Site">docjev under Email and lead (8 Oct).</td><td data-l="Comparison">Differs</td></tr>
         <tr><td data-l="Topic">When Jev fails: n and the error row</td><td data-l="9 Oct notes">n = 69, 11 domains. Error: 38 fail-closed, 8 fail-open, 14 fallback, 3 advisory, 5 no-decision, 1 not recorded. Action goes ahead in 13 of 69.</td><td data-l="Site">8 Oct: n = 69; 38 fail-closed, 15 fallback, 8 fail-open, 5 no-decision, 3 advisory, 0 not recorded; goes ahead in 14 of 69. <a href="../../build/when-jev-fails/index.html">Current</a>: n = 77, 12 domains; 39 / 22 / 8 / 5 / 3 / 0; goes ahead in 17 of 77.</td><td data-l="Comparison">n and fail-closed same as 8 Oct. Fallback, not recorded and goes-ahead differ. The current page has since moved on.</td></tr>
-        <tr><td data-l="Topic">jev-approvals "Jev error" cell</td><td data-l="9 Oct notes">Proposed "not recorded": core retries, then falls back to other configured LLM providers before re-raising</td><td data-l="Site">8 Oct: fallback to the main agent model (timeout, connection, 429, 402), held on other HTTP errors. 11 Oct added: "with no main model configured, it asks you".</td><td data-l="Comparison">Differs</td></tr>
+        <tr><td data-l="Topic">jev-approvals "Jev error" cell</td><td data-l="9 Oct notes">Classed as "not recorded": core retries, then falls back to other configured LLM providers before re-raising</td><td data-l="Site">8 Oct: fallback to the main agent model (timeout, connection, 429, 402), held on other HTTP errors. 11 Oct added: "with no main model configured, it asks you".</td><td data-l="Comparison">Differs</td></tr>
         <tr><td data-l="Topic">openlayer no key; jev-curator; LanceDB grade</td><td data-l="9 Oct notes">openlayer no key fail-closed (no-key row 35 fail-closed / 9 fallback). jev-curator: malformed fail-closed, below threshold held, no key fail-closed. LanceDB "provisional" removed, grade B.</td><td data-l="Site">openlayer: fallback to another backend (no-key row 34 / 10 on 8 Oct). jev-curator: the same three cells. LanceDB: B, not provisional.</td><td data-l="Comparison">openlayer differs; jev-curator same; LanceDB same</td></tr>
       </tbody>
     </table>
   </div>
 
   <h2 id="rn-more">Products, scan, leads and evidence gaps</h2>
-  <h3 id="rn-products">Products <span class="jv-flag">proposed in the notes, not adopted</span></h3>
+  <h3 id="rn-products">Products <span class="jv-flag">9 Oct assessment</span></h3>
   <ul class="jv-rn-list">
-    <li><strong>New rows:</strong> sqlite3-jev (grade A, code-backed); pg-redact (runnable demo); LanceDB TypeSafeReranker (grade A, code-backed, built into v0.40.0).</li>
-    <li><strong>Description lines:</strong> jev-reranker counted, raises on a Jev error; pg-jev, SQL decides and the statement errors on a Jev failure; sqlite-jev keeps an answer cache; DocJev stops on a Jev error, split counted; oh-my-claudecode v5.6.2 checked; jev-mcp 0.14.1 checked.</li>
+    <li><strong>Product assessments:</strong> sqlite3-jev (grade A, code-backed); pg-redact (runnable demo); LanceDB TypeSafeReranker (grade A, code-backed, built into v0.40.0).</li>
+    <li><strong>Observed behavior:</strong> jev-reranker counted, raises on a Jev error; pg-jev, SQL decides and the statement errors on a Jev failure; sqlite-jev keeps an answer cache; DocJev stops on a Jev error, split counted; oh-my-claudecode v5.6.2 checked; jev-mcp 0.14.1 checked.</li>
     <li>None is verified in production. The current <a href="../../products/index.html">products page</a> is what the site publishes.</li>
   </ul>
 
   <h3 id="rn-scan">48-hour scan</h3>
-  <p>Window 7 Oct 2026, 05:17 UTC to 9 Oct 2026, 05:17 UTC, with no gap and no overlap by the notes' reckoning (see <a href="#rn-identity">run identity</a>).</p>
+  <p>Window 7 Oct 2026, 05:17 UTC to 9 Oct 2026, 05:17 UTC, with no gap and no overlap by the notes' reckoning (see <a href="#rn-identity">date and scope</a>).</p>
   <div class="table-wrap stack" id="rn-scan-table">
     <table class="jv-rn-num">
       <caption>Scan counts as recorded in the notes</caption>
@@ -309,7 +309,7 @@
 
     <h3 id="rn-src-c">C. References without public source links</h3>
     <ul>
-      <li>R11-S11: search-suggestion checks behind both proposed titles (9 Oct 2026, 05:19:12 UTC).</li>
+      
       <li>R11-S20 to R11-S47: the access and notice checks.</li>
       <li>R11-S40, R11-S41, R11-S42, R11-S43, R11-S44: the official-vs-reseller recheck.</li>
       <li>R11-S83, R11-S331, R11-S332: the jev-approvals question.</li>
@@ -322,7 +322,7 @@
       <li>opper-ai/jevman-benchmark at <code>1c8b77a</code>: its address appears only in a source list that is not public, so no link is given.</li>
       <li>The Hacker News comment on the TypeSafe Doom demo, and any TypeSafe harness for it.</li>
       <li>The Decisions API and Claude Haiku 5.5 threads (the notes do not name them).</li>
-      <li>The search-suggestion requests behind the title checks.</li>
+      
       <li>Most findings in the notes carry no source ID; apart from the project links above, their sources cannot be recovered.</li>
     </ul>
   </section>
