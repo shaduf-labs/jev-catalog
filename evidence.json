@@ -446,7 +446,7 @@
       "source_type": "owner-authored research report",
       "source_url": "https://shaduf.ai/p/jev-catalog/reports/builder-fit-maintenance",
       "title": "Builder fit and maintenance synthesis",
-      "claim": "The 24 September dated report synthesizes the 20 September access record,22 September alternatives audit and23 September product audit into a builder decision branch and proposed maintenance rules.",
+      "claim": "The 24 September builder-fit report synthesizes the 20 September access record, 22 September alternatives audit, and 23 September product audit into a dated builder decision branch and proposed maintenance rules.",
       "accessed_at": "2026-09-24T05:30:04Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
@@ -456,7 +456,7 @@
       "source_type": "owner-authored research report",
       "source_url": "https://shaduf.ai/p/jev-catalog/reports/builder-fit-maintenance",
       "title": "Builder fit synthesis — measurement boundary",
-      "claim": "The linked report records that no independent workload measurement,common comparison or authenticated Jev call was run.",
+      "claim": "The 24 September builder-fit report records that no independent workload measurement, common comparison, or authenticated Jev call was run.",
       "accessed_at": "2026-09-24T05:30:04Z",
       "relation": "limits",
       "publication_basis": "owner-authored"
@@ -5466,7 +5466,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/fazlerocks/jevmail/tree/f6f20af9c2805efd924c29cbea59547e72c558fc",
       "title": "Run 6 source R6-S51: github.com/fazlerocks/jevmail/tree/f6f20af9c2805efd924c29cbea59547e72c558fc",
-      "claim": "Read-only Gmail access. The only Gmail scope requested is gmail.readonly. (Documented (source); at f6f20af9c2805efd924c29cbea59547e72c558fc; Source inspected)",
+      "claim": "Read-only Gmail access. The only Gmail scope requested is gmail.readonly. (Documented (source); at f6f20af9c2805efd924c29cbea59547e72c558fc; Read by runner)",
       "accessed_at": "2026-10-03T05:19:40Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5476,7 +5476,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/tree/ade42bfba9b68404fba06724b149145caf074ff8",
       "title": "Run 6 source R6-S52: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/tree/ade42bfba9b68404fba06724b1491",
-      "claim": "dryRun: options.dryRun !== false (Documented (source); at ade42bfba9b68404fba06724b149145caf074ff8; Read by helper; source spot-checked L18-25, L2436-2438, L4595-4607 at 05:25)",
+      "claim": "dryRun: options.dryRun !== false (Documented (source); at ade42bfba9b68404fba06724b149145caf074ff8; Read by helper; runner spot-checked L18-25, L2436-2438, L4595-4607 at 05:25)",
       "accessed_at": "2026-10-03T05:21:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5486,7 +5486,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/parth-kp/jev-mail-classifier/tree/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07",
       "title": "Run 6 source R6-S53: github.com/parth-kp/jev-mail-classifier/tree/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07",
-      "claim": "Mark processed even when nothing matched (Documented (source); at db96194723a7d057a4c7b54cc9b56d0dc3cc6d07; Read by helper; source spot-checked cli.py at 05:25)",
+      "claim": "Mark processed even when nothing matched (Documented (source); at db96194723a7d057a4c7b54cc9b56d0dc3cc6d07; Read by helper; runner spot-checked cli.py at 05:25)",
       "accessed_at": "2026-10-03T05:21:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5496,7 +5496,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/vynnlee/jev-mail/tree/61e346f9034161e4cb7ddf04907326841e01300b",
       "title": "Run 6 source R6-S54: github.com/vynnlee/jev-mail/tree/61e346f9034161e4cb7ddf04907326841e01300b",
-      "claim": "throw new Error('TypeSafe API HTTP ' + code) (Documented (source); at 61e346f9034161e4cb7ddf04907326841e01300b; Read by helper; source spot-checked worker.ts at 05:25)",
+      "claim": "throw new Error('TypeSafe API HTTP ' + code) (Documented (source); at 61e346f9034161e4cb7ddf04907326841e01300b; Read by helper; runner spot-checked worker.ts at 05:25)",
       "accessed_at": "2026-10-03T05:22:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5506,7 +5506,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/automatewithuday/spam-leadgen-pipeline/tree/78a7592d5ef9ac5238638846ed18281ef679a4c0",
       "title": "Run 6 source R6-S55: github.com/automatewithuday/spam-leadgen-pipeline/tree/78a7592d5ef9ac5238638846ed18281ef67",
-      "claim": "body: (e.body_text ?? \"\").slice(0, 4000) (Documented (source); at 78a7592d5ef9ac5238638846ed18281ef679a4c0; Read by helper; source spot-checked classify.ts at 05:25)",
+      "claim": "body: (e.body_text ?? \"\").slice(0, 4000) (Documented (source); at 78a7592d5ef9ac5238638846ed18281ef679a4c0; Read by helper; runner spot-checked classify.ts at 05:25)",
       "accessed_at": "2026-10-03T05:22:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5546,7 +5546,7 @@
       "source_type": "documented source",
       "source_url": "https://registry.npmjs.org/@typesafe-ai%2fn8n-nodes-typesafe-ai",
       "title": "Run 6 source R6-S60: registry.npmjs.org/@typesafe-ai%2fn8n-nodes-typesafe-ai",
-      "claim": "maintainers alliesafe ((a typesafe.ai address)), diogo149 ((a typesafe.ai address)) (Documented; at 0.9.0; provenance commit c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Provenance links to typesafe-ai repo tag 0.9.0; source recheck of maintainers 05:27)",
+      "claim": "maintainers alliesafe ((a typesafe.ai address)), diogo149 ((a typesafe.ai address)) (Documented; at 0.9.0; provenance commit c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Provenance links to typesafe-ai repo tag 0.9.0; runner re-read maintainers 05:27)",
       "accessed_at": "2026-10-03T05:20:53Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5576,7 +5576,7 @@
       "source_type": "documented source",
       "source_url": "https://api.n8n.io/api/community-nodes?pagination%5BpageSize%5D=2000",
       "title": "Run 6 source R6-S63: api.n8n.io/api/community-nodes?pagination%5BpageSize%5D=2000",
-      "claim": "1765 entries; only Jev/TypeSafe entry isOfficialNode true, company Typesafe AI (Documented; at @typesafe-ai/n8n-nodes-typesafe-ai 0.9.0; Source recheck)",
+      "claim": "1765 entries; only Jev/TypeSafe entry isOfficialNode true, company Typesafe AI (Documented; at @typesafe-ai/n8n-nodes-typesafe-ai 0.9.0; Runner re-read)",
       "accessed_at": "2026-10-03T05:27:14Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5596,7 +5596,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b",
       "title": "Run 6 source R6-S65: github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b",
-      "claim": "A failure is not a routing decision, so it goes to Fallback or Uncertain where one exists (Documented (source); at c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Read by helper; source spot-checked L316-353 at 05:27)",
+      "claim": "A failure is not a routing decision, so it goes to Fallback or Uncertain where one exists (Documented (source); at c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Read by helper; runner spot-checked L316-353 at 05:27)",
       "accessed_at": "2026-10-03T05:20:40Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6256,7 +6256,7 @@
       "source_type": "documented source",
       "source_url": "https://api.github.com/search/repositories?q=jev%20fraud",
       "title": "Run 7 source R7-S64: api.github.com/search/repositories?q=jev%20fraud",
-      "claim": "jev fraud: total_count 15; jev payment: total_count 10 (2 search calls) (Documented (index results); read)",
+      "claim": "jev fraud: total_count 15; jev payment: total_count 10 (2 search calls; helper A) (Documented (index results); read)",
       "accessed_at": "2026-10-04T05:14:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7696,7 +7696,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28be98a19539b29768398fb400f4c62f41337c26/plugin/__init__.py ; plugin/jev_policy.py",
       "title": "Run 9 source R9-S61: raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28be98a19539b",
-      "claim": "APPROVE / DENY / ESCALATE; raises on missing key, HTTP error, malformed answer (Documented (source review); accessible; at 28be98a19539b29768398fb400f4c62f41337c26)",
+      "claim": "APPROVE / DENY / ESCALATE; raises on missing key, HTTP error, malformed answer (Documented (helper read); accessible; at 28be98a19539b29768398fb400f4c62f41337c26)",
       "accessed_at": "2026-10-06T05:15:09Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7706,7 +7706,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/{guard,engine,transport}.py",
       "title": "Run 9 source R9-S62: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9c",
-      "claim": "The guard performs no network call. (Documented (source review, partial); accessible; at 4e8626c7d394a9cbef8594993ec4b208ffb3395f)",
+      "claim": "The guard performs no network call. (Documented (helper read, partial); accessible; at 4e8626c7d394a9cbef8594993ec4b208ffb3395f)",
       "accessed_at": "2026-10-06T05:18:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7736,7 +7736,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/DECRUX9812/typesafe-skill-router/e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3/{__init__.py,typesafe_router/client.py,router.py}",
       "title": "Run 9 source R9-S65: raw.githubusercontent.com/DECRUX9812/typesafe-skill-router/e6cdac26f9e",
-      "claim": "enabled: False; gate 0.30, fits 0.40 (Documented (source review); accessible; at e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3)",
+      "claim": "enabled: False; gate 0.30, fits 0.40 (Documented (helper read); accessible; at e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3)",
       "accessed_at": "2026-10-06T05:18:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7746,7 +7746,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/ourines/hermes-jev/28a4ea390f80d97fcdc8c20d6b630dfe2de645de/{__init__,service,client}.py (and HEAD cdf59e4)",
       "title": "Run 9 source R9-S66: raw.githubusercontent.com/ourines/hermes-jev/28a4ea390f80d97fcdc8c20d6",
-      "claim": "advisory judgments, no automatic tool gating (Documented (source review); accessible; at 28a4ea390f80d97fcdc8c20d6b630dfe2de645de)",
+      "claim": "advisory judgments, no automatic tool gating (Documented (helper read); accessible; at 28a4ea390f80d97fcdc8c20d6b630dfe2de645de)",
       "accessed_at": "2026-10-06T05:18:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7756,7 +7756,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/ajensenwaud/hermes-jev-plugin/b3d29f71770a3447ad0b3db00658f64a8edc7dd3/{client,tools}.py",
       "title": "Run 9 source R9-S67: raw.githubusercontent.com/ajensenwaud/hermes-jev-plugin/b3d29f71770a34",
-      "claim": "tool errors returned as JSON to the agent; timeout 30 s (Documented (source review); accessible; at b3d29f71770a3447ad0b3db00658f64a8edc7dd3)",
+      "claim": "tool errors returned as JSON to the agent; timeout 30 s (Documented (helper read); accessible; at b3d29f71770a3447ad0b3db00658f64a8edc7dd3)",
       "accessed_at": "2026-10-06T05:15:48Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7766,7 +7766,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/ydmw74/jev-skill-router/76ee09e049dbc10c76f98cfefc6ca16b42cfad38/src/jev_skill_router/mcp_server.py",
       "title": "Run 9 source R9-S68: raw.githubusercontent.com/ydmw74/jev-skill-router/76ee09e049dbc10c76f9",
-      "claim": "MCP loop returns {\"error\"} to the agent; timeout 60 s (Documented (source review); accessible; at 76ee09e049dbc10c76f98cfefc6ca16b42cfad38)",
+      "claim": "MCP loop returns {\"error\"} to the agent; timeout 60 s (Documented (helper read); accessible; at 76ee09e049dbc10c76f98cfefc6ca16b42cfad38)",
       "accessed_at": "2026-10-06T05:15:48Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7846,7 +7846,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/NiazMorshed2007/jev-review/57690af54ef7d862c2483342c1e61c14dffcf727/src/...",
       "title": "Run 9 source R9-S76: raw.githubusercontent.com/NiazMorshed2007/jev-review/57690af54ef7d862c",
-      "claim": "Jev supplies metric scores, confidence, and score movement (Documented (source review); accessible; at 57690af54ef7d862c2483342c1e61c14dffcf727)",
+      "claim": "Jev supplies metric scores, confidence, and score movement (Documented (helper read); accessible; at 57690af54ef7d862c2483342c1e61c14dffcf727)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7856,7 +7856,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/burnigtm/jev-mcp/9448f6120015f2f6c6dad7137c7f234545209918/src/...",
       "title": "Run 9 source R9-S77: raw.githubusercontent.com/burnigtm/jev-mcp/9448f6120015f2f6c6dad7137c7",
-      "claim": "gate returns action auto|review|escalate; CLI non-zero exit only on errors (Documented (source review); accessible; at 9448f6120015f2f6c6dad7137c7f234545209918)",
+      "claim": "gate returns action auto|review|escalate; CLI non-zero exit only on errors (Documented (helper read); accessible; at 9448f6120015f2f6c6dad7137c7f234545209918)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7866,7 +7866,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/minhgv/jev-mcp/1a1f0a5b599e3c9f00a126bb247536a624aa265e/src/...",
       "title": "Run 9 source R9-S78: raw.githubusercontent.com/minhgv/jev-mcp/1a1f0a5b599e3c9f00a126bb24753",
-      "claim": "ci-shadow prints would_block but always exits 0 (Documented (source review); accessible; at 1a1f0a5b599e3c9f00a126bb247536a624aa265e)",
+      "claim": "ci-shadow prints would_block but always exits 0 (Documented (helper read); accessible; at 1a1f0a5b599e3c9f00a126bb247536a624aa265e)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7876,7 +7876,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/pedroknigge/mcp_jev/32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d/src/...",
       "title": "Run 9 source R9-S79: raw.githubusercontent.com/pedroknigge/mcp_jev/32377f8e4d5a63a76d4efbe9",
-      "claim": "The MCP returns signals only — harness allowlist and sandbox still required (Documented (source review); accessible; at 32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d)",
+      "claim": "The MCP returns signals only — harness allowlist and sandbox still required (Documented (helper read); accessible; at 32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7886,7 +7886,7 @@
       "source_type": "documented source",
       "source_url": "https://registry.npmjs.org/@osuki-dev/opencode-osuki-agent ; tarball 0.2.7",
       "title": "Run 9 source R9-S80: registry.npmjs.org/@osuki-dev/opencode-osuki-agent ; tarball 0.2.7",
-      "claim": "event.input = { ...input, agent: route.agent }; (Documented (source review); accessible; at 0.2.7 (tag v0.2.7 c96ce03c1c7dfc5c6fdf9d966691549101c68080))",
+      "claim": "event.input = { ...input, agent: route.agent }; (Documented (helper read); accessible; at 0.2.7 (tag v0.2.7 c96ce03c1c7dfc5c6fdf9d966691549101c68080))",
       "accessed_at": "2026-10-06T05:16:57Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7916,7 +7916,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/wellkilo/codex-jev-preflight/633ddefe6596aa5d7c6b00767c08d07edea61096/jev_user_prompt_hook.py",
       "title": "Run 9 source R9-S83: raw.githubusercontent.com/wellkilo/codex-jev-preflight/633ddefe6596aa5",
-      "claim": "any error emits an unavailable context and returns 0 (Documented (source review, partial); accessible; at 633ddefe6596aa5d7c6b00767c08d07edea61096)",
+      "claim": "any error emits an unavailable context and returns 0 (Documented (helper read, partial); accessible; at 633ddefe6596aa5d7c6b00767c08d07edea61096)",
       "accessed_at": "2026-10-06T05:18:07Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -14765,7 +14765,7 @@
       "evidence_id": "r15-s54",
       "source_type": "documented source",
       "source_url": "https://shaduf.ai/p/jev-catalog/",
-      "title": "Run 15 source R15-S54: Source spot-check: Microsoft Product Terms MCA; Foundry quotas-limits; OpenAI ",
+      "title": "Run 15 source R15-S54: Runner spot-check of helper B: Microsoft Product Terms MCA; Foundry quotas-limits; OpenAI ",
       "claim": "Microsoft will temporarily store Input and Output Content, to monitor for and prevent abusive or harmful uses (Documented)",
       "accessed_at": "2026-10-13T05:25:30Z",
       "relation": "supports",
@@ -15399,6 +15399,1476 @@
       "claim": "This repository is empty (Unverified)",
       "accessed_at": "2026-10-13T05:22:03Z",
       "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/ and /signup",
+      "title": "Source R16-S01: console.typesafe.ai/ and /signup",
+      "claim": "Cloudflare challenge page (HTTP 403) (Documented (access check))",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R16-S02: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "claim": "good news: ANYONE CAN SIGN UP ... bad news: we had to temporarily disable the free credits (just for new users) (Documented (executive))",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R16-S03: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "Get up and running with Jev in 5 minutes (Documented)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s04",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R16-S04: status.typesafe.ai/",
+      "claim": "All services are online ... 99.837% uptime ... api.us-east-1.typesafe.ai TypeSafe API served from us-east-1 (Documented)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R16-S05: docs.typesafe.ai/models.md",
+      "claim": "100K tokens per second / 80 requests per second (Documented)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Source R16-S06: docs.typesafe.ai/llms.txt",
+      "claim": "TypeSafe (Documented)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R16-S07: typesafe.ai/",
+      "claim": "Published Oct 13, 2026, 11:26 PM UTC (Documented)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R16-S08: typesafe.ai/blog",
+      "claim": "TypeSafe A raises Series AI (Documented)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R16-S09: typesafe.ai/enterprise",
+      "claim": "Zero data retention is available for enterprise customers. (Documented)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s10",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Source R16-S10: docs.typesafe.ai/legal.md",
+      "claim": "(legal index page) (Documented)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s11",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Source R16-S11: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "\"provider_name\":\"digitalocean\",\"has_zdr\":false ... \"provider_name\":\"typesafe-ai\",\"has_zdr\":true (Documented)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s12",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R16-S12: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. Just create an OpenRouter API key (Documented)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s13",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R16-S13: research.eye.security/rise-of-the-jev-clones/",
+      "claim": "Rise of the Jev clones (names jev-agent.org, jev-ai.pro, jevtypesafeai.com) (Reported)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s14",
+      "source_type": "unverified source",
+      "source_url": "https://jev-agent.org/",
+      "title": "Source R16-S14: jev-agent.org/",
+      "claim": "Jev: Fast System One Decisions for AI Agents | Jev Agent (Unverified (status only))",
+      "accessed_at": "2026-10-14T16:46:04Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s15",
+      "source_type": "unverified source",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Source R16-S15: jev-ai.pro/",
+      "claim": "Jev AI — Try the Jev Model by TypeSafe: Playground & API (Unverified (status only))",
+      "accessed_at": "2026-10-14T16:46:04Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s16",
+      "source_type": "unverified source",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Source R16-S16: jevtypesafeai.com/",
+      "claim": "Jev by TypeSafe AI — Try the System One model & API (Unverified (status only; never a source for facts))",
+      "accessed_at": "2026-10-14T16:46:04Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s17",
+      "source_type": "unverified source",
+      "source_url": "https://thejevai.com/",
+      "title": "Source R16-S17: thejevai.com/",
+      "claim": "Jev AI — Jev Model Online, Free, No Waitlist (Unverified (status only))",
+      "accessed_at": "2026-10-14T16:46:04Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s18",
+      "source_type": "reported source",
+      "source_url": "https://typesafe.ai/blog/jack-jill-jev-case-study",
+      "title": "Source R16-S18: typesafe.ai/blog/jack-jill-jev-case-study",
+      "claim": "How Jack & Jill Cut Candidate Screening Costs By 88% With Jev (Reported)",
+      "accessed_at": "2026-10-14T16:46:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s19",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/series-ai",
+      "title": "Source R16-S19: typesafe.ai/blog/series-ai",
+      "claim": "TypeSafe A raises Series AI (Documented)",
+      "accessed_at": "2026-10-14T16:46:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s20",
+      "source_type": "reported source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R16-S20: aifront-page.com/",
+      "claim": "(homepage text) (Secondary)",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Source R16-S21: docs.typesafe.ai/changelog.md",
+      "claim": "(404 page) (Documented (absence))",
+      "accessed_at": "2026-10-14T16:46:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s22",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/terms ; /legal/privacy-policy ; /legal/data-processing",
+      "title": "Source R16-S22: typesafe.ai/legal/terms ; /legal/privacy-policy ; /legal/data-processing",
+      "claim": "(legal pages) (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s23",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/rate_limit",
+      "title": "Source R16-S23: api.github.com/rate_limit",
+      "claim": "Tool state: core remaining 38 of 60; search 10 of 10",
+      "accessed_at": "2026-10-14T16:46:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s30",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Source R16-S30: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "TypeSafe | typesafe/jev-1.13-20260917 ... context_length 64000 ... prompt 0.000000042 (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s31",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/microsoft/microsoft-decision-1/endpoints",
+      "title": "Source R16-S31: openrouter.ai/api/v1/models/microsoft/microsoft-decision-1/endpoints",
+      "claim": "Azure | microsoft/microsoft-decision-1-20261009 ... 32768 ... prompt 0.000000042 (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s32",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/openai/gpt-6-luna-decisions/endpoints",
+      "title": "Source R16-S32: openrouter.ai/api/v1/models/openai/gpt-6-luna-decisions/endpoints",
+      "claim": "\"status\":-2 ... \"uptime_last_1d\":90.27777777777779 (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s33",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R16-S33: openrouter.ai/api/v1/models",
+      "claim": "typesafe/jev-router (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s34",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Source R16-S34: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "typesafe/jev (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s35",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Source R16-S35: api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "claim": "typesafe/jev-1.13.0 (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s36",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R16-S36: docs.netlify.com/build/ai-gateway/overview/",
+      "claim": "jev-1.13.0 ... jev-latest ... jev-preview (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s37",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "title": "Source R16-S37: learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-az",
+      "claim": "Microsoft-Decision-1 (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s38",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "title": "Source R16-S38: learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "claim": "(partner model list) (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s39",
+      "source_type": "documented source",
+      "source_url": "https://ai.azure.com/catalog/models",
+      "title": "Source R16-S39: ai.azure.com/catalog/models",
+      "claim": "Microsoft-Decision-1 (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s40",
+      "source_type": "documented source",
+      "source_url": "https://ai.azure.com/catalog/models/Microsoft-Decision-1",
+      "title": "Source R16-S40: ai.azure.com/catalog/models/Microsoft-Decision-1",
+      "claim": "Lifecycle Preview ... Version: 1 (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s41",
+      "source_type": "documented source",
+      "source_url": "https://ai.azure.com/catalog/models/jev",
+      "title": "Source R16-S41: ai.azure.com/catalog/models/jev",
+      "claim": "No Data Available (Documented (absence))",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s42",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html ; bedrock-marketplace-model-reference.html ; https://aws.amazon.com/bedrock/model-choice/",
+      "title": "Source R16-S42: docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html ; bedrock-marketplace-model-",
+      "claim": "(model lists) (Documented (absence))",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s43",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/",
+      "title": "Source R16-S43: developers.cloudflare.com/workers-ai/models/",
+      "claim": "clef (Documented)",
+      "accessed_at": "2026-10-14T16:48:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s44",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/index.md",
+      "title": "Source R16-S44: developers.cloudflare.com/workers-ai/platform/pricing/index.md",
+      "claim": "@cf/cloudflare/clef | $0.240 per M input tokens ... clef-omni | $0.150 ... clef-flash | $0.038 (Documented)",
+      "accessed_at": "2026-10-14T16:48:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s45",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/limits/index.md",
+      "title": "Source R16-S45: developers.cloudflare.com/workers-ai/platform/limits/index.md",
+      "claim": "300 requests per minute, unless the model requires the Workers Paid plan (Documented)",
+      "accessed_at": "2026-10-14T16:48:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s46",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/changelog/",
+      "title": "Source R16-S46: developers.cloudflare.com/changelog/",
+      "claim": "(changelog) (Documented)",
+      "accessed_at": "2026-10-14T16:48:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s47",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md",
+      "title": "Source R16-S47: developers.openai.com/api/docs/guides/decisions.md",
+      "claim": "The Decisions API is in public beta, and we expect to GA in the coming weeks. (Documented)",
+      "accessed_at": "2026-10-14T16:48:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s48",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "title": "Source R16-S48: developers.openai.com/api/docs/pricing.md",
+      "claim": "(pricing page) (Documented (absence))",
+      "accessed_at": "2026-10-14T16:48:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s49",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/rate-limits.md",
+      "title": "Source R16-S49: developers.openai.com/api/docs/guides/rate-limits.md",
+      "claim": "Luna (Documented (absence))",
+      "accessed_at": "2026-10-14T16:48:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s50",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/quotas-limits",
+      "title": "Source R16-S50: learn.microsoft.com/en-us/azure/foundry/foundry-models/quotas-limits",
+      "claim": "The following table lists requests per minute (RPM) limits for Microsoft-Decision-1 Global Standard and Data Zone Standard deployments by subscription tier. (Documented)",
+      "accessed_at": "2026-10-14T16:48:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s51",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R16-S51: ai-gateway.vercel.sh/v1/models",
+      "claim": "microsoft/microsoft-decision-1 ... openai/gpt-6-luna-decisions ... typesafe-ai/jev (Documented)",
+      "accessed_at": "2026-10-14T16:48:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s52",
+      "source_type": "documented source",
+      "source_url": "https://subq.ai/introducing-subq-snap",
+      "title": "Source R16-S52: subq.ai/introducing-subq-snap",
+      "claim": "Snap costs $0.05 per million input tokens, and output tokens are free. (Documented (vendor))",
+      "accessed_at": "2026-10-14T16:48:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s55",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date (jev, typesafe, \"decisions api\", system one model, clef, Decision-1, SubQ, subquadratic, vs Jev, decision model, decision API, jev vision/vlm/vla; typoTolerance false for jev, \"decisions api\", vs jev, jev vision, snap, decision index)",
+      "title": "Source R16-S55: hn.algolia.com/api/v1/search_by_date (jev, typesafe, \"decisions api\", system one model, cl",
+      "claim": "Search results: Artificial Analysis Decision Index v1.0",
+      "accessed_at": "2026-10-14T16:50:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s56",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories (jev created; typesafe created; jev pushed; topic:jev pushed; 2026-10-13T05:17:00Z..2026-10-14T16:45:00Z)",
+      "title": "Source R16-S56: api.github.com/search/repositories (jev created; typesafe created; jev pushed; topic:jev p",
+      "claim": "Search results: total_count 220 / 48 / 908 / 263",
+      "accessed_at": "2026-10-14T16:50:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s57",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?text=jev ; typesafe ; jev vision ; decision model ; subq",
+      "title": "Source R16-S57: registry.npmjs.org/-/v1/search?text=jev ; typesafe ; jev vision ; decision model ; subq",
+      "claim": "Search results: @jkudish/jev-mcp 0.14.3 ... @openclaw/typesafe 2026.10.3 ... @tanstack/ai-typesafe 0.1.12",
+      "accessed_at": "2026-10-14T16:50:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s58",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=jev / typesafe / jev-vision / decision-1 / clef / subq / snap-decision (sort lastModified); ?author=typesafe-ai",
+      "title": "Source R16-S58: huggingface.co/api/models?search=jev / typesafe / jev-vision / decision-1 / clef / subq / ",
+      "claim": "Search results: e12ex2/jev-vision-27b",
+      "accessed_at": "2026-10-14T16:50:26Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s59",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev ; tag=typesafe ; /articles/latest",
+      "title": "Source R16-S59: dev.to/api/articles?tag=jev ; tag=typesafe ; /articles/latest",
+      "claim": "Search results: Cut AI agent token costs with decision models for tool selection",
+      "accessed_at": "2026-10-14T16:50:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s60",
+      "source_type": "documented source",
+      "source_url": "https://www.reddit.com/search.json?q=jev%20typesafe ; https://ollama.com/search?q=jev ; https://pypi.org/search/?q=jev",
+      "title": "Source R16-S60: www.reddit.com/search.json?q=jev%20typesafe ; https://ollama.com/search?q=jev ; https://py",
+      "claim": "Search results: (Reddit HTTP 403)",
+      "accessed_at": "2026-10-14T16:50:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s61",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox ; https://www.bing.com/osjson.aspx ; https://duckduckgo.com/ac/ (18 prefixes)",
+      "title": "Source R16-S61: suggestqueries.google.com/complete/search?client=firefox ; https://www.bing.com/osjson.asp",
+      "claim": "Autocomplete: jev py -> jev python (Google, Bing, DDG); jev t -> jev typescript (Bing, DDG)",
+      "accessed_at": "2026-10-14T16:50:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s62",
+      "source_type": "reported source",
+      "source_url": "https://artificialanalysis.ai/articles/artificial-analysis-decision-index",
+      "title": "Source R16-S62: artificialanalysis.ai/articles/artificial-analysis-decision-index",
+      "claim": "Jev 1.13 leads the Decision Index with 58, ahead of GLiDE and Microsoft-Decision-1, both on 54. (Reported)",
+      "accessed_at": "2026-10-14T16:54:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s63",
+      "source_type": "reported source",
+      "source_url": "https://www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev",
+      "title": "Source R16-S63: www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev",
+      "claim": "Document Review With Unsiloed and TypeSafe Jev (Reported (vendor))",
+      "accessed_at": "2026-10-14T16:54:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s64",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/<pkg> and https://pypi.org/pypi/<pkg>/json for the drift list (23 packages + 2 watch)",
+      "title": "Source R16-S64: registry.npmjs.org/<pkg> and https://pypi.org/pypi/<pkg>/json for the drift list (23 packa",
+      "claim": "ai 7.0.140 2026-10-14T04:19:32Z ... litellm 1.105.1 ... pydantic-ai-slim 2.56.0 (Documented)",
+      "accessed_at": "2026-10-14T16:51:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s65",
+      "source_type": "documented source",
+      "source_url": "https://github.com/<owner>/<repo>/commits/main.atom (11 comparison repositories)",
+      "title": "Source R16-S65: github.com/<owner>/<repo>/commits/main.atom (11 comparison repositories)",
+      "claim": "Initial public release: Snap vs Jev SWE benchmark (Documented)",
+      "accessed_at": "2026-10-14T16:51:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s66",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/kprzybys/snap-vs-jev-swe/b754c446986aacb14ea5857c75ad2db2c739f6e7/ README.md ; reports/summary.md ; src/snapbench/evaluation/evaluators.py ; src/snapbench/evaluation/ties.py ; results/swe-paths-jev.jsonl ; results/swe-paths-snap.jsonl ; data/labels/swe-paths.jsonl",
+      "title": "Source R16-S66: raw.githubusercontent.com/kprzybys/snap-vs-jev-swe/b754c446986aacb14ea5857c75ad2db2c739f6e",
+      "claim": "I take part in SubQ's Snap creator challenge (which has prizes); the runs and numbers are my own. (Reported (operator's measurement))",
+      "accessed_at": "2026-10-14T16:52:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s67",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/dante01yoon/decision-model-arena/285c8036e1e40696fd3be7ceadc141e0635a80d6/ README.md ; evidence/league.json ; measure/tournament.mjs",
+      "title": "Source R16-S67: raw.githubusercontent.com/dante01yoon/decision-model-arena/285c8036e1e40696fd3be7ceadc141e",
+      "claim": "Results (measured 2026-10-12, called from the US — your numbers will differ) (Reported (operator's measurement))",
+      "accessed_at": "2026-10-14T16:55:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s68",
+      "source_type": "documented source",
+      "source_url": "https://subq.ai/terms",
+      "title": "Source R16-S68: subq.ai/terms",
+      "claim": "DEFAULT_TIMEOUT = 10.0 ... environmentVariableName: \"TYPESAFE_AI_API_KEY\" ... for no more than thirty (30) days after processing (Documented)",
+      "accessed_at": "2026-10-14T16:53:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s69",
+      "source_type": "documented source",
+      "source_url": "https://shaduf.ai/p/jev-catalog/build/when-jev-fails/",
+      "title": "Source R16-S69: the failure map on When Jev fails as published on 13 Oct 2026",
+      "claim": "The 77-row failure map as published on 13 Oct 2026, the starting point for the 14 Oct recount (no key 43/16/7/3/8 not recorded; bypass 52 recorded, 25 not recorded) (Documented)",
+      "accessed_at": "2026-10-14T16:54:30Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s70",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/enderkus/zammad-jev-dispatcher/f999eca7cac1d77256b2e95a280dc3757d449e47/app.rb",
+      "title": "Source R16-S70: raw.githubusercontent.com/enderkus/zammad-jev-dispatcher/f999eca7cac1d77256b2e95a280dc3757",
+      "claim": "halt 200, { skipped: \"already dispatched\" }.to_json ... throw new NodeOperationError(node, 'Node does not have any credentials set' (Documented (source at pin))",
+      "accessed_at": "2026-10-14T16:57:26Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s100",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/CyrilBaah/jev-triage-desk/63913177babe5bb19cb7598ff2aac2908abffa1d/app/api/triage/route.ts",
+      "title": "Source R16-S100: raw.githubusercontent.com/CyrilBaah/jev-triage-desk/63913177babe5bb19cb7598ff2aac2908abffa",
+      "claim": "CyrilBaah triage route: key check, per-ticket evaluate, catch to archive: if (!hasTypesafeKey()) {",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s101",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/tuhinmitra888/ai-jev-ticket-triage/3e8b83a890474203b4a8fc17809cc3b35ce7c587/src/server.ts",
+      "title": "Source R16-S101: raw.githubusercontent.com/tuhinmitra888/ai-jev-ticket-triage/3e8b83a890474203b4a8fc17809cc",
+      "claim": "tuhinmitra888 server: module-level client, 400 on bad ticket, 502/500 on error: const status = err instanceof APIError ? 502 : 500;",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s102",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/tuhinmitra888/ai-jev-ticket-triage/3e8b83a890474203b4a8fc17809cc3b35ce7c587/src/triage.ts",
+      "title": "Source R16-S102: raw.githubusercontent.com/tuhinmitra888/ai-jev-ticket-triage/3e8b83a890474203b4a8fc17809cc",
+      "claim": "tuhinmitra888 triage: one systemOne call per ticket, then decide: if (category.confidence < POLICY.minCategoryConfidence) {",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s103",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/enderkus/zammad-jev-dispatcher/f999eca7cac1d77256b2e95a280dc3757d449e47/app.rb",
+      "title": "Source R16-S103: raw.githubusercontent.com/enderkus/zammad-jev-dispatcher/f999eca7cac1d77256b2e95a280dc3757",
+      "claim": "enderkus dispatcher: skip halts, threshold, rescue 502: halt 200, { skipped: \"already dispatched\" }.to_json if groups.values.any? { |g| g[\"id\"] == ticket[\"group_id\"] }",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s104",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbesse/zammad-jev-triage/5d2a0a783b52d378cb53832f99a9c2ed05d8a42e/app.py",
+      "title": "Source R16-S104: raw.githubusercontent.com/gbesse/zammad-jev-triage/5d2a0a783b52d378cb53832f99a9c2ed05d8a42",
+      "claim": "gbesse process(): non-customer skip, key read, group update: result=evaluate(text,POLICY,os.environ[\"TYPESAFE_API_KEY\"])",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s105",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbesse/zammad-jev-triage/5d2a0a783b52d378cb53832f99a9c2ed05d8a42e/webhook.py",
+      "title": "Source R16-S105: raw.githubusercontent.com/gbesse/zammad-jev-triage/5d2a0a783b52d378cb53832f99a9c2ed05d8a42",
+      "claim": "gbesse webhook: pre-process rejections and 503 on any process error: # Let the source retry. Never return a successful decision on model or API errors.",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s106",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/veermshah/jev-support-desk/aef8fa0ca38b486556a183d0f1f90bb4553232c1/src/jev_support_desk/cli.py",
+      "title": "Source R16-S106: raw.githubusercontent.com/veermshah/jev-support-desk/aef8fa0ca38b486556a183d0f1f90bb455323",
+      "claim": "veermshah CLI: cache replay, legacy assignment, exit 2 on TypeSafeError: if args.cache and Path(args.cache).exists() and not args.refresh:",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s107",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/veermshah/jev-support-desk/aef8fa0ca38b486556a183d0f1f90bb4553232c1/src/jev_support_desk/triage.py",
+      "title": "Source R16-S107: raw.githubusercontent.com/veermshah/jev-support-desk/aef8fa0ca38b486556a183d0f1f90bb455323",
+      "claim": "veermshah triage: route_confidence 0.6, system_one per ticket: route=triage.queue if auto else \"triage_review\",",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s108",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs",
+      "title": "Source R16-S108: raw.githubusercontent.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/ade42bfba9b68404fba",
+      "claim": "ilyamk Apps Script: processNextBatch skip and fallback paths: The safe “' + reviewFallback.name + '” fallback ' +",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s109",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/parth-kp/jev-mail-classifier/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07/jev_mail/cli.py",
+      "title": "Source R16-S109: raw.githubusercontent.com/parth-kp/jev-mail-classifier/db96194723a7d057a4c7b54cc9b56d0dc3c",
+      "claim": "parth-kp CLI: every unprocessed email classified, then marked processed: # Mark processed even when nothing matched -- otherwise a never-matching",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s110",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/parth-kp/jev-mail-classifier/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07/jev_mail/classify.py",
+      "title": "Source R16-S110: raw.githubusercontent.com/parth-kp/jev-mail-classifier/db96194723a7d057a4c7b54cc9b56d0dc3c",
+      "claim": "parth-kp classify: one Jev call, threshold per category: \"\"\"One Jev call, one noul question per configured category.\"\"\"",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s111",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/vynnlee/jev-mail/61e346f9034161e4cb7ddf04907326841e01300b/src/gas/worker.ts",
+      "title": "Source R16-S111: raw.githubusercontent.com/vynnlee/jev-mail/61e346f9034161e4cb7ddf04907326841e01300b/src/ga",
+      "claim": "vynnlee worker: receipts, pending-decision replay, disabled skip: old.phase === 'pending' && old.policy === policy",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s112",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/automatewithuday/spam-leadgen-pipeline/78a7592d5ef9ac5238638846ed18281ef679a4c0/src/classify.ts",
+      "title": "Source R16-S112: raw.githubusercontent.com/automatewithuday/spam-leadgen-pipeline/78a7592d5ef9ac5238638846e",
+      "claim": "spam-leadgen classify: module-level client, unclassified rows only, roll-up: const client = new TypeSafeClient();",
+      "accessed_at": "2026-10-14T16:47:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s113",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/automatewithuday/spam-leadgen-pipeline/78a7592d5ef9ac5238638846ed18281ef679a4c0/package-lock.json",
+      "title": "Source R16-S113: raw.githubusercontent.com/automatewithuday/spam-leadgen-pipeline/78a7592d5ef9ac5238638846e",
+      "claim": "spam-leadgen lockfile: SDK resolved version: \"node_modules/@typesafe-ai/sdk\": { \"version\": \"0.6.0\",",
+      "accessed_at": "2026-10-14T16:49:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s114",
+      "source_type": "documented source",
+      "source_url": "https://cdn.jsdelivr.net/npm/@typesafe-ai/sdk@0.6.0/dist/index.mjs",
+      "title": "Source R16-S114: cdn.jsdelivr.net/npm/@typesafe-ai/sdk@0.6.0/dist/index.mjs",
+      "claim": "SDK 0.6.0 constructor missing-key throw (L391-393, L512): this.#apiKey = fromCodeOrEnv(config.apiKey, ENV.apiKey) ?? missingApiKey();",
+      "accessed_at": "2026-10-14T16:49:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s115",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/TypeSafeAi.node.ts",
+      "title": "Source R16-S115: raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca12",
+      "claim": "official n8n node 0.9.0: credential declaration, execute, COF branch: credentials: [{ name: CREDENTIAL_NAME, required: true }],",
+      "accessed_at": "2026-10-14T16:49:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s116",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/api.ts",
+      "title": "Source R16-S116: raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca12",
+      "claim": "official n8n node: getCredentials before the request: const credentials = await context.getCredentials(CREDENTIAL_NAME);",
+      "accessed_at": "2026-10-14T16:49:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s117",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/DomMonte/n8n-nodes-typesafe-ai/ff2afca0a90c8020db40e7c2dd2b13cad9514381/nodes/TypeSafeAi/TypeSafeAi.node.ts",
+      "title": "Source R16-S117: raw.githubusercontent.com/DomMonte/n8n-nodes-typesafe-ai/ff2afca0a90c8020db40e7c2dd2b13cad",
+      "claim": "DomMonte node 0.1.1: credentials, execute loop, COF error item: if (this.continueOnFail()) {",
+      "accessed_at": "2026-10-14T16:49:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s118",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/vibe-with-me-tools/n8n-nodes-jev/ddbfe850d5d15731aaf42b395960b12805c64942/nodes/Jev/Jev.node.ts",
+      "title": "Source R16-S118: raw.githubusercontent.com/vibe-with-me-tools/n8n-nodes-jev/ddbfe850d5d15731aaf42b395960b12",
+      "claim": "vibe-with-me-tools node 0.2.3: credentials, execute, COF to Low Confidence or first: const failedOutput = lowConfidenceOutput ? routeNames.length : 0;",
+      "accessed_at": "2026-10-14T16:49:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s119",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/vibe-with-me-tools/n8n-nodes-jev/ddbfe850d5d15731aaf42b395960b12805c64942/nodes/Jev/shared/transport.ts",
+      "title": "Source R16-S119: raw.githubusercontent.com/vibe-with-me-tools/n8n-nodes-jev/ddbfe850d5d15731aaf42b395960b12",
+      "claim": "vibe-with-me-tools transport: getCredentials per request: const credentials = await this.getCredentials('jevApi');",
+      "accessed_at": "2026-10-14T16:49:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s120",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/taifoon-io/n8n-nodes-typesafe/cdcc0f3427942ea616fa19a226faac632c6ff669/nodes/TaifoonTypeSafe/TaifoonTypeSafe.node.ts",
+      "title": "Source R16-S120: raw.githubusercontent.com/taifoon-io/n8n-nodes-typesafe/cdcc0f3427942ea616fa19a226faac632c",
+      "claim": "taifoon node 2.0.5: credential shown for ask+direct, getCredentials, COF to Review: if (this.continueOnFail()) { review.push(",
+      "accessed_at": "2026-10-14T16:49:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s121",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zampierid4p/n8n-nodes-typesafe/549a5451e0b463e51fbb00582babb800f23aa527/nodes/TypeSafe/TypeSafe.node.ts",
+      "title": "Source R16-S121: raw.githubusercontent.com/zampierid4p/n8n-nodes-typesafe/549a5451e0b463e51fbb00582babb800f",
+      "claim": "zampierid4p node 0.3.3: getCredentials before the item loop, COF first branch: const credentials = await this.getCredentials(CREDENTIAL);",
+      "accessed_at": "2026-10-14T16:49:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s122",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.1/packages/core/src/execution-engine/node-execution-context/node-execution-context.ts",
+      "title": "Source R16-S122: raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.1/packages/core/src/execution-engine/node-",
+      "claim": "n8n host _getCredentials: required credential not set throws (L409-432): throw new NodeOperationError(node, 'Node does not have any credentials set', {",
+      "accessed_at": "2026-10-14T16:49:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s123",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.1/packages/core/src/execution-engine/node-execution-context/utils/request-helpers/authentication.ts",
+      "title": "Source R16-S123: raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.1/packages/core/src/execution-engine/node-",
+      "claim": "n8n host httpRequestWithAuthentication: getCredentials inside try, rethrown as NodeApiError: await this.getCredentials<ICredentialDataDecryptedObject>(credentialsType);",
+      "accessed_at": "2026-10-14T16:49:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s124",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.1/packages/core/src/execution-engine/workflow-execute.ts",
+      "title": "Source R16-S124: raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.1/packages/core/src/execution-engine/workf",
+      "claim": "n8n host: node-level error with continue-on-error passes input through (L2106-2119): // Simply get the input data of the node if it has any and pass it through",
+      "accessed_at": "2026-10-14T16:50:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s125",
+      "source_type": "documented source",
+      "source_url": "https://github.com/n8n-io/n8n/tags.atom",
+      "title": "Source R16-S125: github.com/n8n-io/n8n/tags.atom",
+      "claim": "n8n release tags feed (tag choice n8n@2.44.1, newest numbered tag listed): n8n%402.44.1",
+      "accessed_at": "2026-10-14T16:49:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s126",
+      "source_type": "documented source",
+      "source_url": "https://github.com/<owner>/<repo>/commits.atom (14 feeds, A1-A3 repos)",
+      "title": "Source R16-S126: github.com/<owner>/<repo>/commits.atom (14 feeds, A1-A3 repos)",
+      "claim": "HEAD vs pin for A1-A3 rows; two moved (gbesse f46e5ad, spam-leadgen 030bb0a): HEAD f46e5ad pin 5d2a0a7 moved",
+      "accessed_at": "2026-10-14T16:51:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s127",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/<owner>/<repo>/git/trees/<sha>?recursive=1 (14 calls)",
+      "title": "Source R16-S127: api.github.com/repos/<owner>/<repo>/git/trees/<sha>?recursive=1 (14 calls)",
+      "claim": "Recursive tree listings for A1-A3 repos (github.com tree HTML gave top level only): truncated=False",
+      "accessed_at": "2026-10-14T16:47:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s128",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639c148ccc10c570b87b78b6549c244839b4/plugin/jev-mana/jevkit/client.py",
+      "title": "Source R16-S128: raw.githubusercontent.com/abehrman/hermes-jev-mana/3daf639c148ccc10c570b87b78b6549c244839b",
+      "claim": "hermes jevkit: shells out to jev CLI; any CLI failure becomes JevError: if done.returncode != 0 or not isinstance(reply, dict) or \"error\" in reply:",
+      "accessed_at": "2026-10-14T16:51:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s129",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jarrodwatts/jev-trader/b587759e459ea049590102e54a0b07800864cdc3/src/model.ts",
+      "title": "Source R16-S129: raw.githubusercontent.com/jarrodwatts/jev-trader/b587759e459ea049590102e54a0b07800864cdc3/",
+      "claim": "jev-trader JevModel: provider model built at construction, evaluate per decision: private model = typeSafeAi.evaluationModel(config.jevModelId);",
+      "accessed_at": "2026-10-14T16:52:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s130",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jarrodwatts/jev-trader/b587759e459ea049590102e54a0b07800864cdc3/src/config.ts",
+      "title": "Source R16-S130: raw.githubusercontent.com/jarrodwatts/jev-trader/b587759e459ea049590102e54a0b07800864cdc3/",
+      "claim": "jev-trader config: default model is mock: model: env(\"MODEL\", \"mock\") as \"mock\" | \"jev\",",
+      "accessed_at": "2026-10-14T16:52:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s131",
+      "source_type": "documented source",
+      "source_url": "https://unpkg.com/@ai-sdk/typesafe-ai@3.0.0/dist/index.js",
+      "title": "Source R16-S131: unpkg.com/@ai-sdk/typesafe-ai@3.0.0/dist/index.js",
+      "claim": "provider 3.0.0: key loaded in request headers (lazy, at call time): Authorization: `Bearer ${loadApiKey2({ apiKey: options.apiKey, environmentVariableName: \"TYPESAFE_AI_API_KEY\", description: \"TypeSafe\" })}`,",
+      "accessed_at": "2026-10-14T16:52:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s132",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jarrodwatts/jev-trader/b587759e459ea049590102e54a0b07800864cdc3/bun.lock",
+      "title": "Source R16-S132: raw.githubusercontent.com/jarrodwatts/jev-trader/b587759e459ea049590102e54a0b07800864cdc3/",
+      "claim": "jev-trader lockfile: provider resolved version: \"@ai-sdk/typesafe-ai\": [\"@ai-sdk/typesafe-ai@3.0.0\"",
+      "accessed_at": "2026-10-14T16:52:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s133",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/src/index.ts",
+      "title": "Source R16-S133: raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/src/ind",
+      "claim": "jkudish/jev-mcp tool handlers: askJev per tool; jev_extract skips zero-match fields: Fields with zero regex matches never reach the model \" + \"(not_found); if no field has matches, no API call is made.",
+      "accessed_at": "2026-10-14T16:55:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s134",
+      "source_type": "documented source",
+      "source_url": "https://github.com/jkudish/jev-mcp/tree/53fe5756252956863af2ecbd2952339352e82e15/src",
+      "title": "Source R16-S134: github.com/jkudish/jev-mcp/tree/53fe5756252956863af2ecbd2952339352e82e15/src",
+      "claim": "jev-mcp src listing (github.com tree HTML, no quota): src/http.ts src/index.ts src/lib.ts src/provider.ts",
+      "accessed_at": "2026-10-14T16:54:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s200",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json",
+      "title": "Source R16-S200: pypi.org/pypi/typesafe-sdk/json",
+      "claim": "\"requires_python\": \">=3.10\"; \"provides_extra\": [\"http2\"] (Documented)",
+      "accessed_at": "2026-10-14T16:47:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s201",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d1815e27d1e/typesafe_sdk-0.7.4-py3-none-any.whl",
+      "title": "Source R16-S201: files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d18",
+      "claim": "API_KEY_ENV = \"TYPESAFE_API_KEY\" (Documented)",
+      "accessed_at": "2026-10-14T16:47:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s202",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d1815e27d1e/typesafe_sdk-0.7.4-py3-none-any.whl",
+      "title": "Source R16-S202: files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d18",
+      "claim": "DEFAULT_TIMEOUT = 10.0 (Documented)",
+      "accessed_at": "2026-10-14T16:48:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s203",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d1815e27d1e/typesafe_sdk-0.7.4-py3-none-any.whl",
+      "title": "Source R16-S203: files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d18",
+      "claim": "raise TypeSafeError(f\"No API key was provided. Pass api_key or set the {API_KEY_ENV} environment variable.\") (Documented)",
+      "accessed_at": "2026-10-14T16:48:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s204",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d1815e27d1e/typesafe_sdk-0.7.4-py3-none-any.whl",
+      "title": "Source R16-S204: files.pythonhosted.org/packages/a2/49/6cd65684e41e25069f4d12c09cd7e1e3f81477f06acb29bf0d18",
+      "claim": "def system_one( self, state: JSONContent, questions: Mapping[str, Question], model: str | None = None (Documented)",
+      "accessed_at": "2026-10-14T16:48:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s205",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/changelog.md",
+      "title": "Source R16-S205: docs.typesafe.ai/sdk/python/changelog.md",
+      "claim": "v0.7.3 (2026-10-09) ... update the default settings to keep all pooled connections alive for 30 seconds (Documented)",
+      "accessed_at": "2026-10-14T16:49:23Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s206",
+      "source_type": "reported source",
+      "source_url": "https://pypi.org/pypi/typesafe-ai/json",
+      "title": "Source R16-S206: pypi.org/pypi/typesafe-ai/json",
+      "claim": "Redirect shim: the TypeSafe AI Python SDK is published as 'typesafe-sdk'. This package depends on it and re-exports its public API. (Reported)",
+      "accessed_at": "2026-10-14T16:47:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s207",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk",
+      "title": "Source R16-S207: registry.npmjs.org/@typesafe-ai/sdk",
+      "claim": "\"latest\": \"0.6.0\" (Documented)",
+      "accessed_at": "2026-10-14T16:47:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s208",
+      "source_type": "documented source",
+      "source_url": "https://cdn.jsdelivr.net/npm/@typesafe-ai/sdk@0.6.0/dist/index.mjs",
+      "title": "Source R16-S208: cdn.jsdelivr.net/npm/@typesafe-ai/sdk@0.6.0/dist/index.mjs",
+      "claim": "this.#apiKey = fromCodeOrEnv(config.apiKey, ENV.apiKey) ?? missingApiKey(); (Documented)",
+      "accessed_at": "2026-10-14T16:49:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s209",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ai",
+      "title": "Source R16-S209: registry.npmjs.org/ai",
+      "claim": "\"latest\": \"7.0.140\" (Documented)",
+      "accessed_at": "2026-10-14T16:47:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s210",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "title": "Source R16-S210: registry.npmjs.org/@ai-sdk/typesafe-ai",
+      "claim": "\"latest\": \"3.0.18\" (Documented)",
+      "accessed_at": "2026-10-14T16:47:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s211",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.18.tgz",
+      "title": "Source R16-S211: registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.18.tgz",
+      "claim": "environmentVariableName: \"TYPESAFE_AI_API_KEY\", (Documented)",
+      "accessed_at": "2026-10-14T16:48:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s212",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.18.tgz",
+      "title": "Source R16-S212: registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.18.tgz",
+      "claim": "})) ?? \"https://api.typesafe.ai/v1\"; (Documented)",
+      "accessed_at": "2026-10-14T16:48:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s213",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.18.tgz",
+      "title": "Source R16-S213: registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.18.tgz",
+      "claim": "type: \"boolean\", probability: answer.noul (Documented)",
+      "accessed_at": "2026-10-14T16:48:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s214",
+      "source_type": "documented source",
+      "source_url": "https://cdn.jsdelivr.net/npm/@ai-sdk/provider-utils@5.0.59/dist/index.js",
+      "title": "Source R16-S214: cdn.jsdelivr.net/npm/@ai-sdk/provider-utils@5.0.59/dist/index.js",
+      "claim": "if (apiKey == null) throw new LoadAPIKeyError({ message: `${description} API key is missing. (Documented)",
+      "accessed_at": "2026-10-14T16:49:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s215",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ai/-/ai-7.0.140.tgz",
+      "title": "Source R16-S215: registry.npmjs.org/ai/-/ai-7.0.140.tgz",
+      "claim": "/** @deprecated Use `experimental_decide` instead. */ const experimental_evaluate = decide; (Documented)",
+      "accessed_at": "2026-10-14T16:49:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s216",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ai/-/ai-7.0.140.tgz",
+      "title": "Source R16-S216: registry.npmjs.org/ai/-/ai-7.0.140.tgz",
+      "claim": "function prepareRetries({ maxRetries, abortSignal, additionalRetryableError, parameter = \"maxRetries\", defaultMaxRetries = 2 }) { (Documented)",
+      "accessed_at": "2026-10-14T16:49:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s217",
+      "source_type": "documented source",
+      "source_url": "https://docs.subq.ai/llms.txt",
+      "title": "Source R16-S217: docs.subq.ai/llms.txt",
+      "claim": "The Decisions API (`POST /v1/systemone`) has its own typed contract: noul (yes/no), choice, and score questions (Documented)",
+      "accessed_at": "2026-10-14T16:48:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s218",
+      "source_type": "documented source",
+      "source_url": "https://docs.subq.ai/markdown/endpoints/decisions-api.md",
+      "title": "Source R16-S218: docs.subq.ai/markdown/endpoints/decisions-api.md",
+      "claim": "- `state` — the text, object, or array to evaluate. (Documented)",
+      "accessed_at": "2026-10-14T16:48:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s219",
+      "source_type": "documented source",
+      "source_url": "https://docs.subq.ai/markdown/using-the-api/data-retention.md",
+      "title": "Source R16-S219: docs.subq.ai/markdown/using-the-api/data-retention.md",
+      "claim": "- **Retain indefinitely (default)** — kept until you delete it. (Documented)",
+      "accessed_at": "2026-10-14T16:48:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s220",
+      "source_type": "documented source",
+      "source_url": "https://docs.subq.ai/markdown/using-the-api/models.md",
+      "title": "Source R16-S220: docs.subq.ai/markdown/using-the-api/models.md",
+      "claim": "- Pricing: Input ($0.05 / 1M tokens), Output (Free) (Documented)",
+      "accessed_at": "2026-10-14T16:48:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s221",
+      "source_type": "documented source",
+      "source_url": "https://docs.subq.ai/markdown/index.md",
+      "title": "Source R16-S221: docs.subq.ai/markdown/index.md",
+      "claim": "Make sure your account has credits before sending requests. A request without (Documented)",
+      "accessed_at": "2026-10-14T16:48:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s222",
+      "source_type": "documented source",
+      "source_url": "https://subq.ai/terms",
+      "title": "Source R16-S222: subq.ai/terms",
+      "claim": "We do not train on Customer Content. (Documented)",
+      "accessed_at": "2026-10-14T16:47:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s223",
+      "source_type": "documented source",
+      "source_url": "https://subq.ai/privacy-policy",
+      "title": "Source R16-S223: subq.ai/privacy-policy",
+      "claim": "If you access our Services through a business offering, such as our API or an enterprise plan, we do not use your Content to train (Documented)",
+      "accessed_at": "2026-10-14T16:49:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s224",
+      "source_type": "documented source",
+      "source_url": "https://subq.ai/introducing-subq-snap",
+      "title": "Source R16-S224: subq.ai/introducing-subq-snap",
+      "claim": "SubQ Snap is available in Public Preview on a first come, first served basis while capacity is limited. (Documented)",
+      "accessed_at": "2026-10-14T16:47:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s225",
+      "source_type": "reported source",
+      "source_url": "https://subq.ai",
+      "title": "Source R16-S225: subq.ai",
+      "claim": "Free 100M tokens for the first 10,000 users (Reported)",
+      "accessed_at": "2026-10-14T16:47:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s226",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R16-S226: openrouter.ai/api/v1/models",
+      "claim": "200; 462 models; no id or field matching subq/subquadratic; not routed on OpenRouter (Documented)",
+      "accessed_at": "2026-10-14T16:47:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s227",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R16-S227: ai-gateway.vercel.sh/v1/models",
+      "claim": "200; 464 models; no id or field matching subq/subquadratic; typesafe-ai/jev present (Documented)",
+      "accessed_at": "2026-10-14T16:47:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s300",
+      "source_type": "documented source",
+      "source_url": "https://github.com/browser-use/jev-ultrafast/tree/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast",
+      "title": "Source R16-S300: github.com/browser-use/jev-ultrafast/tree/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ult",
+      "claim": "jev-ultrafast tree listing (top level and jev_ultrafast/): jev_ultrafast/agent.py, browser.py, demo.py, model.py, questions.py, snapshot.js",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s301",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/agent.py",
+      "title": "Source R16-S301: raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac",
+      "claim": "jev-ultrafast agent loop: predict calls choose before every act: state[\"decision\"] = choose(state[\"page\"], state[\"goal\"], state[\"history\"])",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s302",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac46/jev_ultrafast/model.py",
+      "title": "Source R16-S302: raw.githubusercontent.com/browser-use/jev-ultrafast/1231850a0bf1a0c0341fe408ef1668dbbfdfac",
+      "claim": "jev-ultrafast model: 25 s client, invalid answer raises, key from environ: raise ValueError(\"Invalid TypeSafe response; no action executed.\")",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s303",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/core/src/main/kotlin/io/github/jevandroid/core",
+      "title": "Source R16-S303: github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/core/src/mai",
+      "claim": "jev-android tree listing (top level, core/, core/src/main/kotlin/.../core): JevAgent.kt, Models.kt, ProgressTracker.kt",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s304",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/dougsong/jev-android/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/core/src/main/kotlin/io/github/jevandroid/core/JevAgent.kt",
+      "title": "Source R16-S304: raw.githubusercontent.com/dougsong/jev-android/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/co",
+      "claim": "jev-android run loop: decide every cycle, below-threshold replan twice then BLOCKED: No supported next action after two page-based replans; no action was sent for the discarded proposals",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s305",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/dougsong/jev-android/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/core/src/main/kotlin/io/github/jevandroid/core/Models.kt",
+      "title": "Source R16-S305: raw.githubusercontent.com/dougsong/jev-android/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/co",
+      "claim": "jev-android Task defaults: minimumConfidence 0.65: val minimumConfidence: Double = 0.65,",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s306",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/tree/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src",
+      "title": "Source R16-S306: github.com/chy4pro/jev-for-chrome/tree/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src",
+      "claim": "jev-for-chrome tree listing (top level, src/, src/background, src/shared, src/shared/providers, src/content): src/background/agent.ts, src/background/index.ts, src/background/input.ts, src/content/executor.ts",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s307",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/chy4pro/jev-for-chrome/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts",
+      "title": "Source R16-S307: raw.githubusercontent.com/chy4pro/jev-for-chrome/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/",
+      "claim": "jev-for-chrome agent step: one Jev call per step; DONE/BLOCKED below 0.5 get a second look: /** DONE/BLOCKED below this confidence is confirmed by a second look before the run ends. */",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s308",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/chy4pro/jev-for-chrome/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/shared/providers/http.ts",
+      "title": "Source R16-S308: raw.githubusercontent.com/chy4pro/jev-for-chrome/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/",
+      "claim": "jev-for-chrome HTTP helper: 3 retries, no timeout found: const retries = options.retries ?? 3;",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s309",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/chy4pro/jev-for-chrome/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/shared/providers/typesafe.ts",
+      "title": "Source R16-S309: raw.githubusercontent.com/chy4pro/jev-for-chrome/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/",
+      "claim": "jev-for-chrome TypeSafe provider: empty key throws: throw new Error('TypeSafe API Key is not configured. Please set it in Options.');",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s310",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/tree/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app",
+      "title": "Source R16-S310: github.com/KaushikSiva/second-look/tree/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/a",
+      "claim": "second-look tree listing (top level, backend/, backend/app, extension/): backend/app/jev.py, live.py, llm.py, main.py, research.py, stores.py",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s311",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/KaushikSiva/second-look/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/jev.py",
+      "title": "Source R16-S311: raw.githubusercontent.com/KaushikSiva/second-look/0c05d16958b532e2603c40551c224a4ba41b8beb",
+      "claim": "second-look Jev verdict: None on no key or any exception, 15 s: if not key:         return None",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s312",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/KaushikSiva/second-look/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/research.py",
+      "title": "Source R16-S312: raw.githubusercontent.com/KaushikSiva/second-look/0c05d16958b532e2603c40551c224a4ba41b8beb",
+      "claim": "second-look research pipeline: verdict only for focus all; heuristic fallback: v = {\"verdict\": \"WAIT\" if pr and pr[\"fake_discount\"] else \"BUY_NOW\", \"confidence\": None, \"probabilities\": {}}",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s313",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/KaushikSiva/second-look/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/main.py",
+      "title": "Source R16-S313: raw.githubusercontent.com/KaushikSiva/second-look/0c05d16958b532e2603c40551c224a4ba41b8beb",
+      "claim": "second-look server: price-drop alert by target price, no Jev call: if new_price > float(w[\"target_price\"]):",
+      "accessed_at": "2026-10-14T16:59:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s314",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/descriptions.ts",
+      "title": "Source R16-S314: raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca12",
+      "claim": "official n8n node: Confidence Handling default Always Route; optional separate fallback output: description: 'Send all items to the highest probability route, regardless of confidence',",
+      "accessed_at": "2026-10-14T17:01:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s315",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/TypeSafeAi.node.ts",
+      "title": "Source R16-S315: raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca12",
+      "claim": "official n8n node: low-confidence route index when separate output chosen: const lowConfidence = separateLowConfidence && (answer?.confidence ?? 0) < (threshold as number);",
+      "accessed_at": "2026-10-14T17:01:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s316",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/DomMonte/n8n-nodes-typesafe-ai/ff2afca0a90c8020db40e7c2dd2b13cad9514381/nodes/TypeSafeAi/TypeSafeAi.node.ts",
+      "title": "Source R16-S316: raw.githubusercontent.com/DomMonte/n8n-nodes-typesafe-ai/ff2afca0a90c8020db40e7c2dd2b13cad",
+      "claim": "DomMonte n8n node: single output, response shaped and passed on, no confidence check: json: shapeOutput(questionOperation, response, options.simplify ?? true),",
+      "accessed_at": "2026-10-14T17:01:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s317",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/vibe-with-me-tools/n8n-nodes-jev/ddbfe850d5d15731aaf42b395960b12805c64942/nodes/Jev/shared/route.ts",
+      "title": "Source R16-S317: raw.githubusercontent.com/vibe-with-me-tools/n8n-nodes-jev/ddbfe850d5d15731aaf42b395960b12",
+      "claim": "vibe-with-me-tools n8n node: optional Low Confidence output: const isLowConfidence = lowConfidenceOutput && confidence < threshold;",
+      "accessed_at": "2026-10-14T17:01:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s318",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/vibe-with-me-tools/n8n-nodes-jev/ddbfe850d5d15731aaf42b395960b12805c64942/nodes/Jev/Jev.node.ts",
+      "title": "Source R16-S318: raw.githubusercontent.com/vibe-with-me-tools/n8n-nodes-jev/ddbfe850d5d15731aaf42b395960b12",
+      "claim": "vibe-with-me-tools n8n node: threshold read only when low-confidence output on: this.getNodeParameter('confidenceThreshold', itemIndex, 0.5) as number",
+      "accessed_at": "2026-10-14T17:01:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s319",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/taifoon-io/n8n-nodes-typesafe/cdcc0f3427942ea616fa19a226faac632c6ff669/nodes/TaifoonTypeSafe/TaifoonTypeSafe.node.ts",
+      "title": "Source R16-S319: raw.githubusercontent.com/taifoon-io/n8n-nodes-typesafe/cdcc0f3427942ea616fa19a226faac632c",
+      "claim": "taifoon n8n node: Routing JSON thresholds, empty routes everything to Pass: Empty: everything leaves by Pass.",
+      "accessed_at": "2026-10-14T17:01:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s320",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/taifoon-io/n8n-nodes-typesafe/cdcc0f3427942ea616fa19a226faac632c6ff669/nodes/TaifoonTypeSafe/translate.ts",
+      "title": "Source R16-S320: raw.githubusercontent.com/taifoon-io/n8n-nodes-typesafe/cdcc0f3427942ea616fa19a226faac632c",
+      "claim": "taifoon translate: below minConfidence goes to review: } else if (r.minConfidence !== undefined && conf !== null && conf < r.minConfidence) {",
+      "accessed_at": "2026-10-14T17:01:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r16-s321",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zampierid4p/n8n-nodes-typesafe/549a5451e0b463e51fbb00582babb800f23aa527/nodes/TypeSafe/TypeSafe.node.ts",
+      "title": "Source R16-S321: raw.githubusercontent.com/zampierid4p/n8n-nodes-typesafe/549a5451e0b463e51fbb00582babb800f",
+      "claim": "zampierid4p n8n node: no confidence gate; probabilities and confidence kept unless simplified: This drops the probabilities and confidence that decide whether a judgment is safe to act on.",
+      "accessed_at": "2026-10-14T17:01:30Z",
+      "relation": "supports",
       "publication_basis": "linked-summary"
     }
   ]

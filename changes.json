@@ -2,9 +2,69 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "access-recheck-2026-10-14",
+      "changed_at": "2026-10-14T17:50:00Z",
+      "summary": "Access status rechecked 14 Oct 2026, 16:46 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime 99.837% (99.838% on 13 Oct) with no new status-page event; the status page now also lists two regional API entries, us-east-1 and us-east-2. Two notices shown as on 13 Oct; the hidden notice on TypeSafe's Jack & Jill case study retired at the end of its seven-day shelf life (the case study stays a vendor lead on benchmarks).",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "when-jev-fails-2026-10-14",
+      "changed_at": "2026-10-14T17:50:00Z",
+      "summary": "When Jev fails: no-key, bypass and n8n below-threshold cells settled for ticket triage, email and lead sorting, n8n, browser and computer use and three single rows, read at the published pins. No key: 50 fail closed, 17 fall back, 7 fail open, 3 advisory, 0 not recorded (8 before). Bypass recorded for 66 of 77 (52 before); 11 not recorded: judge tools 4, frameworks 3, browser agents 3, email 1. A bypass cell counts as recorded only when every entry point was read.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "n8n-2026-10-14",
+      "changed_at": "2026-10-14T17:50:00Z",
+      "summary": "n8n: without a credential, each of the 5 Jev nodes stops with n8n's 'Node does not have any credentials set' error when Continue On Fail is off (n8n release 2.44.1); with it on, the item goes to an error or review output, carries an error field, or passes through unchanged, depending on the node.",
+      "path": "/p/jev-catalog/build/n8n"
+    },
+    {
+      "change_id": "python-sdk-2026-10-14",
+      "changed_at": "2026-10-14T17:50:00Z",
+      "summary": "Python: typesafe-sdk 0.7.4 (released 9 Oct) keeps a 10 s timeout and 2 retries on 408, 429 and 5xx within 30 s; a missing key raises TypeSafeError when the client is created. Example pins moved to 0.7.4; older version notes collected in one dated list. New title: Jev Python SDK (TypeSafe AI).",
+      "path": "/p/jev-catalog/build/python"
+    },
+    {
+      "change_id": "typescript-2026-10-14",
+      "changed_at": "2026-10-14T17:50:00Z",
+      "summary": "TypeScript: ai 7.0.140 renamed experimental_evaluate to experimental_decide (the old name still works as a deprecated alias); with @ai-sdk/typesafe-ai 3.0.18 a missing key throws LoadAPIKeyError at the first call; @typesafe-ai/sdk 0.6.0 throws at client creation. One version block and a dated list of earlier checks.",
+      "path": "/p/jev-catalog/build/typescript"
+    },
+    {
+      "change_id": "benchmarks-2026-10-14",
+      "changed_at": "2026-10-14T17:50:00Z",
+      "summary": "Benchmarks: B44 graded A (48-game Tetris round robin: Microsoft-Decision-1 won 15, Jev 12, OpenAI's Decisions API 11, Laya 8, 2 draws) and B43 graded B (SubQ Snap and Jev level on SWE-bench Verified file localization; the operator takes part in Subquadratic's prize challenge). 41 graded rows (A 12, B 14, C 8, D 7).",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "alternatives-2026-10-14",
+      "changed_at": "2026-10-14T17:50:00Z",
+      "summary": "Alternatives: SubQ Snap (Subquadratic) added as a hosted decision API with Jev's request shape, $0.05 per 1M input tokens, in public preview; its Terms and its data-retention docs give different retention (both quoted). 34 substitutes; hosted APIs from other providers 4.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "decision-api-comparison-2026-10-14",
+      "changed_at": "2026-10-14T17:50:00Z",
+      "summary": "Decisions API vs Jev vs Microsoft Decision 1: B44 (grade A, Tetris round robin) added to the graded-tests row and the copyable summary; no price or status cell changed (checked 14 Oct 2026, 16:48 UTC); the SubQ Snap line now links its row on Jev alternatives.",
+      "path": "/p/jev-catalog/alternatives/jev-vs-decision-apis"
+    },
+    {
+      "change_id": "report-2026-10-14",
+      "changed_at": "2026-10-14T17:50:00Z",
+      "summary": "Research report of 14 October 2026: what implementations do with no key, code paths that skip Jev, the Python and TypeScript SDK refresh, B43 and B44, SubQ Snap, and the access recheck.",
+      "path": "/p/jev-catalog/reports/failure-cells-sdk-refresh"
+    },
+    {
+      "change_id": "evidence-notes-2026-10-09-reorganised",
+      "changed_at": "2026-10-13T19:55:04Z",
+      "summary": "Evidence notes from 9 October 2026 on Jev rerankers and SQL and document projects reorganised as a topic page: tables of what each implementation does on a Jev error and with no key, the 9 Oct access snapshot, version checks and open questions, with the statements that lack a surviving source link marked. The 9 Oct failure count now points to the current When Jev fails page. Links from the research index, the reranking, SQL and failure pages and the access pages now use the new title.",
+      "path": "/p/jev-catalog/research/2026-10-09-reranking-document-pipelines-notes"
+    },
+    {
       "change_id": "reranking-document-pipelines-notes-2026-10-09",
       "changed_at": "2026-10-13T18:40:00Z",
-      "summary": "Dated 9 October notes cover Jev reranking, SQL and document pipelines, and failure behavior. Source gaps and disagreements with the later dated reports are stated explicitly; these notes do not establish current performance.",
+      "summary": "New page: Jev reranking and document pipelines, evidence notes dated 9 Oct 2026. What five Jev rerankers and context filters and five SQL and document projects did when the Jev call failed, as read in source that day; six more SQL extensions that call Jev (failure paths not read); the 9 Oct access and price snapshot, version checks and OpenRouter route metadata; open questions about jev-approvals, openlayer jevals, pg-redact and rh-guard. Dated observations, not rechecked since.",
       "path": "/p/jev-catalog/research/2026-10-09-reranking-document-pipelines-notes"
     },
     {
@@ -142,13 +202,13 @@
     {
       "change_id": "report-2026-10-11",
       "changed_at": "2026-10-11T06:10:00Z",
-      "summary": "11 Oct research report: benchmark grades for three Jev vs substitute comparisons, coding-agent settlement, the failure-checklist recount and the real-time-control research result for run 14.",
+      "summary": "11 Oct research report: benchmark grades for three Jev vs substitute comparisons, coding-agent settlement, the failure-checklist recount and research for the real-time control page.",
       "path": "/p/jev-catalog/reports/benchmark-grades-coding-agents"
     },
     {
       "change_id": "access-recheck-2026-10-10",
       "changed_at": "2026-10-10T06:10:00Z",
-      "summary": "Access status rechecked 10 Oct 2026, 05:12 UTC (no run took place on 9 Oct): unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime 99.831% to 99.835% with no new incident listed. Two notices shown: the subprocessor notice (2 Oct) and the rate-limit notice (3 Oct) were retired when their seven-day shelf life ended; both facts are unchanged and stay on data privacy and access status.",
+      "summary": "Access status rechecked 10 Oct 2026, 05:12 UTC (no update was published on 9 Oct): unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime 99.831% to 99.835% with no new incident listed. Two notices shown: the subprocessor notice (2 Oct) and the rate-limit notice (3 Oct) were retired when their seven-day shelf life ended; both facts are unchanged and stay on data privacy and access status.",
       "path": "/p/jev-catalog/where-to-use/access-status"
     },
     {
@@ -190,7 +250,7 @@
     {
       "change_id": "report-2026-10-10",
       "changed_at": "2026-10-10T06:10:00Z",
-      "summary": "10 Oct research report: alternatives by layer, coding-agent integrations, the failure-checklist recount and benchmark leads. No run took place on 9 Oct.",
+      "summary": "10 Oct research report: alternatives by layer, coding-agent integrations, the failure-checklist recount and benchmark leads. No update was published on 9 Oct.",
       "path": "/p/jev-catalog/reports/alternatives-coding-agents"
     },
     {
@@ -490,7 +550,7 @@
     {
       "change_id": "run6-report-2026-10-03",
       "changed_at": "2026-10-03T06:30:00Z",
-      "summary": "Run 6 report published: email and lead sorting, oh-my-claudecode v5.6.0, Products refresh and n8n nodes, with the corrections table. Nothing was Tested.",
+      "summary": "3 Oct research report published: email and lead sorting, oh-my-claudecode v5.6.0, Products refresh and n8n nodes, with the corrections table. Nothing was Tested.",
       "path": "/p/jev-catalog/reports/email-products-n8n"
     },
     {
@@ -904,7 +964,7 @@
     {
       "change_id": "builder-fit-maintenance-report",
       "changed_at": "2026-09-24T05:30:04Z",
-      "summary": "Added the Run 4 builder-fit and maintenance synthesis with direct source links, dated evidence gates, bounded unknowns, proposed maintenance rules, and no-independent-measurement statement.",
+      "summary": "Added the builder-fit and maintenance synthesis with direct source links, dated evidence gates, bounded unknowns, proposed maintenance rules, and no-independent-measurement statement.",
       "path": "/p/jev-catalog/reports/builder-fit-maintenance"
     },
     {
@@ -940,7 +1000,7 @@
     {
       "change_id": "alternatives-verification-report",
       "changed_at": "2026-09-21T06:08:28.673Z",
-      "summary": "Added the dated alternatives verification report with the verification boundary, retained direct URLs, unknowns, negative finding, and follow-up checks.",
+      "summary": "Added the dated alternatives verification report with its scope boundary, retained direct URLs, unknowns, negative finding, and follow-up checks.",
       "path": "/p/jev-catalog/reports/alternatives-verification-refresh"
     },
     {
@@ -958,7 +1018,7 @@
     {
       "change_id": "research-report-refresh",
       "changed_at": "2026-09-20T20:47:00Z",
-      "summary": "Added the dated access, pricing, availability, and data-terms report for the regular run while retaining the bootstrap report and source trail.",
+      "summary": "Added the dated access, pricing, availability, and data-terms report while keeping the first catalogue report and its sources.",
       "path": "/p/jev-catalog/reports/access-pricing-refresh"
     },
     {

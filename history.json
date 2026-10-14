@@ -308,6 +308,17 @@
       "summary": "New page puts OpenAI's Decisions API, Microsoft-Decision-1 and Cloudflare's Clef family beside Jev, each cell dated: graded results depend on the task (Decisions API ahead on RPG move accuracy, B38; Jev on Portuguese exact judge score, B39; Jev and Decision-1 not separated on routing macro-F1, both ahead of OpenAI, B41); no overall ranking. B42 graded B (39 graded rows). Microsoft-Decision-1 listed as Preview in Foundry (Generally available on 12 Oct). When Jev fails: no-key and bypass cells settled for model routing and content moderation (no key 43 stop or hold, 16 fall back, 7 let it through, 3 advisory, 8 not recorded; bypass recorded 52 of 77). Access unchanged; the hidden Vercel notice retired. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/decision-api-comparison",
       "entrypoint": "reports/decision-api-comparison/index.html"
+    },
+    {
+      "run_id": "report-e852c2c072ab8d204c13bc98",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-14T16:33:00Z",
+      "completed_at": "2026-10-14T17:50:00Z",
+      "title": "What implementations do with no key, code paths that skip Jev, and the Python and TypeScript SDKs",
+      "summary": "When Jev fails: no-key, bypass and n8n below-threshold cells settled for ticket triage, email, n8n, browser agents and three single rows (with no key 50 of 77 stop or hold, 17 fall back, 7 let it through, 3 advisory, 0 not recorded; bypass recorded for 66 of 77, 11 not recorded: judge tools 4, frameworks 3, browser agents 3, email 1). Python and TypeScript pages refreshed: typesafe-sdk 0.7.4; ai 7.0.140 renamed experimental_evaluate to experimental_decide; a missing key fails at client creation or, with the AI SDK provider, at the first call. B43 and B44 graded (41 graded rows); SubQ Snap added as a hosted alternative (34 substitutes). Access unchanged; the hidden Jack & Jill notice retired. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/failure-cells-sdk-refresh",
+      "entrypoint": "reports/failure-cells-sdk-refresh/index.html"
     }
   ]
 }

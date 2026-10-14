@@ -492,7 +492,7 @@
 [data-agent-document] .jv-strip .s-open, [data-agent-document] .jv-strip-key .s-open::before { background: var(--jv-green); }
 [data-agent-document] .jv-strip .s-pause, [data-agent-document] .jv-strip-key .s-pause::before { background: var(--jv-red); }
 [data-agent-document] .jv-strip .s-cond, [data-agent-document] .jv-strip-key .s-cond::before { background: #7fb596; }
-[data-agent-document] .jv-strip .w-wait { flex: 5.13 1 0; } [data-agent-document] .jv-strip .w-open { flex: 1.36 1 0; } [data-agent-document] .jv-strip .w-pause { flex: 5.68 1 0; } [data-agent-document] .jv-strip .w-cond { flex: 15.28 1 0; }
+[data-agent-document] .jv-strip .w-wait { flex: 5.13 1 0; } [data-agent-document] .jv-strip .w-open { flex: 1.36 1 0; } [data-agent-document] .jv-strip .w-pause { flex: 5.68 1 0; } [data-agent-document] .jv-strip .w-cond { flex: 16.76 1 0; }
 [data-agent-document] .jv-strip-scale { display: flex; justify-content: space-between; gap: 8px; color: var(--jv-muted); font-size: 11.5px; }
 [data-agent-document] .jv-strip-key { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 8px 0 0; padding: 0; list-style: none; font-size: 12.5px; line-height: 1.45; color: var(--jv-text); }
 [data-agent-document] .jv-strip-key li { min-width: 0; }
@@ -1164,7 +1164,7 @@
 /* rp (run 15): research-page report timeline gains a 24th day column (13 Oct). */
 [data-agent-document] .jv .jv-tl.rs-tl24 { grid-template-columns: minmax(0, 10em) repeat(24, minmax(0, 1fr)); }
 
-/* Recovered 9 Oct 2026 notes archive (13 Oct 2026 update; prefix .jv-rn-) */
+/* Evidence notes, 9 Oct 2026 (prefix .jv-rn-) */
 [data-agent-document] .jv .jv-rn-status { margin-top: 8px; }
 [data-agent-document] .jv .jv-rn-status h2 { margin: 0 0 6px; font-size: 16px; letter-spacing: 0; }
 [data-agent-document] .jv .jv-rn-toc { margin: 18px 0 8px; font-size: 13.5px; }
@@ -1193,3 +1193,33 @@
 [data-agent-document] .jv .jv-rn-srcnote { font-size: 14px; color: var(--jv-ink); }
 [data-agent-document] .jv .jv-sources h3 { margin: 18px 0 6px; font-size: 15px; letter-spacing: 0; }
 [data-agent-document] .jv .jv-rn-prov { margin: 22px 0 0; color: var(--jv-muted); }
+[data-agent-document] .jv .jv-rn-limit { margin: 6px 0 14px; color: var(--jv-text); line-height: 1.55; }
+[data-agent-document] .jv .jv-rn-days .n { font-size: 22px; line-height: 1.15; font-variant-numeric: tabular-nums; }
+[data-agent-document] .jv .jv-rn-readings { grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr)); }
+
+/* bm16: grade-bar widths for 41 graded rows (14 Oct 2026) */
+[data-agent-document] .jv .bm16-w12 { width: 29.27%; }  /* 12 of 41 */
+[data-agent-document] .jv .bm16-w14 { width: 34.15%; }  /* 14 of 41 */
+[data-agent-document] .jv .bm16-w8 { width: 19.51%; }   /* 8 of 41 */
+[data-agent-document] .jv .bm16-w7 { width: 17.07%; }   /* 7 of 41 */
+
+/* rp (16): 14 Oct report before/after bars; research-page timeline gains a 25th day column (14 Oct). */
+[data-agent-document] .jv .jv-tl.rs-tl25 { grid-template-columns: minmax(0, 10em) repeat(25, minmax(0, 1fr)); }
+[data-agent-document] .jv .rp16-bars { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; margin: 12px 0 6px; }
+[data-agent-document] .jv .rp16-row { display: grid; grid-template-columns: minmax(0, 9em) minmax(0, 1fr); gap: 4px 12px; align-items: center; }
+[data-agent-document] .jv .rp16-row > .rp16-lab { font-size: 13px; font-weight: 600; color: var(--jv-ink); }
+[data-agent-document] .jv .rp16-bar { display: flex; height: 18px; border-radius: 4px; box-shadow: inset 0 0 0 1px var(--jv-line-strong); }
+[data-agent-document] .jv .rp16-bar > span { display: block; min-width: 0; border-right: 1px solid #fff; }
+[data-agent-document] .jv .rp16-bar > span:last-child { border-right: 0; }
+[data-agent-document] .jv .rp16-bar .k-go { background: var(--jv-green); }
+[data-agent-document] .jv .rp16-bar .k-fb { background: var(--jv-blue); }
+[data-agent-document] .jv .rp16-bar .k-stop { background: var(--jv-red); }
+[data-agent-document] .jv .rp16-bar .k-hold { background: var(--jv-amber); }
+[data-agent-document] .jv .rp16-bar .k-na { background: #fff; box-shadow: inset 0 0 0 1px var(--jv-line-strong); }
+[data-agent-document] .jv .rp16-row > .rp16-val { grid-column: 2; font-size: 13px; color: var(--jv-text); }
+@media (max-width: 560px) { [data-agent-document] .jv .rp16-row { grid-template-columns: minmax(0, 1fr); } [data-agent-document] .jv .rp16-row > .rp16-val { grid-column: 1; } }
+
+/* lead (16): domain-page failure tables reuse the map's recorded and no-threshold cell styles */
+[data-agent-document] .jv .jv-heat td.jv-wf-nt { background: #fff; outline: 1px dashed #4f4d47; outline-offset: -4px; }
+[data-agent-document] .jv .jv-heat td.jv-wf-nt strong { color: var(--jv-ink); }
+[data-agent-document] .jv .jv-heat td.jv-wf-rec strong { display: block; margin-bottom: 2px; font-size: 12.5px; color: var(--jv-ink); }
