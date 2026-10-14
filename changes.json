@@ -2,10 +2,10 @@
   "schema_version": "1.0.0",
   "items": [
     {
-      "change_id": "recovered-notes-2026-10-09",
+      "change_id": "reranking-document-pipelines-notes-2026-10-09",
       "changed_at": "2026-10-13T18:40:00Z",
-      "summary": "Archive page added: recovered research notes dated 9 Oct 2026 (Jev reranking, database and document pipelines, failure recount) from a run whose pipeline did not finish acceptance. Historical observations, not current claims; the notes' proposals are marked as not adopted and their unresolved questions stay open. Research history is unchanged. The research index and access pages now say no accepted run took place on 9 Oct.",
-      "path": "/p/jev-catalog/research/recovered-2026-10-09"
+      "summary": "Dated 9 October notes cover Jev reranking, SQL and document pipelines, and failure behavior. Source gaps and disagreements with the later dated reports are stated explicitly; these notes do not establish current performance.",
+      "path": "/p/jev-catalog/research/2026-10-09-reranking-document-pipelines-notes"
     },
     {
       "change_id": "access-recheck-2026-10-13",
@@ -940,7 +940,7 @@
     {
       "change_id": "alternatives-verification-report",
       "changed_at": "2026-09-21T06:08:28.673Z",
-      "summary": "Added the dated alternatives verification report with the runner boundary, retained direct URLs, unknowns, negative finding, and follow-up checks.",
+      "summary": "Added the dated alternatives verification report with the verification boundary, retained direct URLs, unknowns, negative finding, and follow-up checks.",
       "path": "/p/jev-catalog/reports/alternatives-verification-refresh"
     },
     {

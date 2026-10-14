@@ -446,7 +446,7 @@
       "source_type": "owner-authored research report",
       "source_url": "https://shaduf.ai/p/jev-catalog/reports/builder-fit-maintenance",
       "title": "Builder fit and maintenance synthesis",
-      "claim": "Run run:c4d2041e-27de-485b-9190-087eb8bb275a, recorded at runs/2026/09/c4d2041e-27de-485b-9190-087eb8bb275a/report.md, synthesizes the 20 September access record, 22 September alternatives audit, and 23 September product audit into a dated builder decision branch and proposed maintenance rules.",
+      "claim": "The 24 September dated report synthesizes the 20 September access record,22 September alternatives audit and23 September product audit into a builder decision branch and proposed maintenance rules.",
       "accessed_at": "2026-09-24T05:30:04Z",
       "relation": "supports",
       "publication_basis": "owner-authored"
@@ -456,7 +456,7 @@
       "source_type": "owner-authored research report",
       "source_url": "https://shaduf.ai/p/jev-catalog/reports/builder-fit-maintenance",
       "title": "Builder fit synthesis — measurement boundary",
-      "claim": "The report at runs/2026/09/c4d2041e-27de-485b-9190-087eb8bb275a/report.md records that no independent workload measurement, common comparison, or authenticated Jev call was run.",
+      "claim": "The linked report records that no independent workload measurement,common comparison or authenticated Jev call was run.",
       "accessed_at": "2026-09-24T05:30:04Z",
       "relation": "limits",
       "publication_basis": "owner-authored"
@@ -5466,7 +5466,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/fazlerocks/jevmail/tree/f6f20af9c2805efd924c29cbea59547e72c558fc",
       "title": "Run 6 source R6-S51: github.com/fazlerocks/jevmail/tree/f6f20af9c2805efd924c29cbea59547e72c558fc",
-      "claim": "Read-only Gmail access. The only Gmail scope requested is gmail.readonly. (Documented (source); at f6f20af9c2805efd924c29cbea59547e72c558fc; Read by runner)",
+      "claim": "Read-only Gmail access. The only Gmail scope requested is gmail.readonly. (Documented (source); at f6f20af9c2805efd924c29cbea59547e72c558fc; Source inspected)",
       "accessed_at": "2026-10-03T05:19:40Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5476,7 +5476,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/tree/ade42bfba9b68404fba06724b149145caf074ff8",
       "title": "Run 6 source R6-S52: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/tree/ade42bfba9b68404fba06724b1491",
-      "claim": "dryRun: options.dryRun !== false (Documented (source); at ade42bfba9b68404fba06724b149145caf074ff8; Read by helper; runner spot-checked L18-25, L2436-2438, L4595-4607 at 05:25)",
+      "claim": "dryRun: options.dryRun !== false (Documented (source); at ade42bfba9b68404fba06724b149145caf074ff8; Read by helper; source spot-checked L18-25, L2436-2438, L4595-4607 at 05:25)",
       "accessed_at": "2026-10-03T05:21:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5486,7 +5486,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/parth-kp/jev-mail-classifier/tree/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07",
       "title": "Run 6 source R6-S53: github.com/parth-kp/jev-mail-classifier/tree/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07",
-      "claim": "Mark processed even when nothing matched (Documented (source); at db96194723a7d057a4c7b54cc9b56d0dc3cc6d07; Read by helper; runner spot-checked cli.py at 05:25)",
+      "claim": "Mark processed even when nothing matched (Documented (source); at db96194723a7d057a4c7b54cc9b56d0dc3cc6d07; Read by helper; source spot-checked cli.py at 05:25)",
       "accessed_at": "2026-10-03T05:21:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5496,7 +5496,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/vynnlee/jev-mail/tree/61e346f9034161e4cb7ddf04907326841e01300b",
       "title": "Run 6 source R6-S54: github.com/vynnlee/jev-mail/tree/61e346f9034161e4cb7ddf04907326841e01300b",
-      "claim": "throw new Error('TypeSafe API HTTP ' + code) (Documented (source); at 61e346f9034161e4cb7ddf04907326841e01300b; Read by helper; runner spot-checked worker.ts at 05:25)",
+      "claim": "throw new Error('TypeSafe API HTTP ' + code) (Documented (source); at 61e346f9034161e4cb7ddf04907326841e01300b; Read by helper; source spot-checked worker.ts at 05:25)",
       "accessed_at": "2026-10-03T05:22:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5506,7 +5506,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/automatewithuday/spam-leadgen-pipeline/tree/78a7592d5ef9ac5238638846ed18281ef679a4c0",
       "title": "Run 6 source R6-S55: github.com/automatewithuday/spam-leadgen-pipeline/tree/78a7592d5ef9ac5238638846ed18281ef67",
-      "claim": "body: (e.body_text ?? \"\").slice(0, 4000) (Documented (source); at 78a7592d5ef9ac5238638846ed18281ef679a4c0; Read by helper; runner spot-checked classify.ts at 05:25)",
+      "claim": "body: (e.body_text ?? \"\").slice(0, 4000) (Documented (source); at 78a7592d5ef9ac5238638846ed18281ef679a4c0; Read by helper; source spot-checked classify.ts at 05:25)",
       "accessed_at": "2026-10-03T05:22:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5546,7 +5546,7 @@
       "source_type": "documented source",
       "source_url": "https://registry.npmjs.org/@typesafe-ai%2fn8n-nodes-typesafe-ai",
       "title": "Run 6 source R6-S60: registry.npmjs.org/@typesafe-ai%2fn8n-nodes-typesafe-ai",
-      "claim": "maintainers alliesafe ((a typesafe.ai address)), diogo149 ((a typesafe.ai address)) (Documented; at 0.9.0; provenance commit c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Provenance links to typesafe-ai repo tag 0.9.0; runner re-read maintainers 05:27)",
+      "claim": "maintainers alliesafe ((a typesafe.ai address)), diogo149 ((a typesafe.ai address)) (Documented; at 0.9.0; provenance commit c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Provenance links to typesafe-ai repo tag 0.9.0; source recheck of maintainers 05:27)",
       "accessed_at": "2026-10-03T05:20:53Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5576,7 +5576,7 @@
       "source_type": "documented source",
       "source_url": "https://api.n8n.io/api/community-nodes?pagination%5BpageSize%5D=2000",
       "title": "Run 6 source R6-S63: api.n8n.io/api/community-nodes?pagination%5BpageSize%5D=2000",
-      "claim": "1765 entries; only Jev/TypeSafe entry isOfficialNode true, company Typesafe AI (Documented; at @typesafe-ai/n8n-nodes-typesafe-ai 0.9.0; Runner re-read)",
+      "claim": "1765 entries; only Jev/TypeSafe entry isOfficialNode true, company Typesafe AI (Documented; at @typesafe-ai/n8n-nodes-typesafe-ai 0.9.0; Source recheck)",
       "accessed_at": "2026-10-03T05:27:14Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -5596,7 +5596,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b",
       "title": "Run 6 source R6-S65: github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b",
-      "claim": "A failure is not a routing decision, so it goes to Fallback or Uncertain where one exists (Documented (source); at c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Read by helper; runner spot-checked L316-353 at 05:27)",
+      "claim": "A failure is not a routing decision, so it goes to Fallback or Uncertain where one exists (Documented (source); at c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Read by helper; source spot-checked L316-353 at 05:27)",
       "accessed_at": "2026-10-03T05:20:40Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6256,7 +6256,7 @@
       "source_type": "documented source",
       "source_url": "https://api.github.com/search/repositories?q=jev%20fraud",
       "title": "Run 7 source R7-S64: api.github.com/search/repositories?q=jev%20fraud",
-      "claim": "jev fraud: total_count 15; jev payment: total_count 10 (2 search calls; helper A) (Documented (index results); read)",
+      "claim": "jev fraud: total_count 15; jev payment: total_count 10 (2 search calls) (Documented (index results); read)",
       "accessed_at": "2026-10-04T05:14:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7696,7 +7696,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28be98a19539b29768398fb400f4c62f41337c26/plugin/__init__.py ; plugin/jev_policy.py",
       "title": "Run 9 source R9-S61: raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28be98a19539b",
-      "claim": "APPROVE / DENY / ESCALATE; raises on missing key, HTTP error, malformed answer (Documented (helper read); accessible; at 28be98a19539b29768398fb400f4c62f41337c26)",
+      "claim": "APPROVE / DENY / ESCALATE; raises on missing key, HTTP error, malformed answer (Documented (source review); accessible; at 28be98a19539b29768398fb400f4c62f41337c26)",
       "accessed_at": "2026-10-06T05:15:09Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7706,7 +7706,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/{guard,engine,transport}.py",
       "title": "Run 9 source R9-S62: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9c",
-      "claim": "The guard performs no network call. (Documented (helper read, partial); accessible; at 4e8626c7d394a9cbef8594993ec4b208ffb3395f)",
+      "claim": "The guard performs no network call. (Documented (source review, partial); accessible; at 4e8626c7d394a9cbef8594993ec4b208ffb3395f)",
       "accessed_at": "2026-10-06T05:18:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7736,7 +7736,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/DECRUX9812/typesafe-skill-router/e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3/{__init__.py,typesafe_router/client.py,router.py}",
       "title": "Run 9 source R9-S65: raw.githubusercontent.com/DECRUX9812/typesafe-skill-router/e6cdac26f9e",
-      "claim": "enabled: False; gate 0.30, fits 0.40 (Documented (helper read); accessible; at e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3)",
+      "claim": "enabled: False; gate 0.30, fits 0.40 (Documented (source review); accessible; at e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3)",
       "accessed_at": "2026-10-06T05:18:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7746,7 +7746,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/ourines/hermes-jev/28a4ea390f80d97fcdc8c20d6b630dfe2de645de/{__init__,service,client}.py (and HEAD cdf59e4)",
       "title": "Run 9 source R9-S66: raw.githubusercontent.com/ourines/hermes-jev/28a4ea390f80d97fcdc8c20d6",
-      "claim": "advisory judgments, no automatic tool gating (Documented (helper read); accessible; at 28a4ea390f80d97fcdc8c20d6b630dfe2de645de)",
+      "claim": "advisory judgments, no automatic tool gating (Documented (source review); accessible; at 28a4ea390f80d97fcdc8c20d6b630dfe2de645de)",
       "accessed_at": "2026-10-06T05:18:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7756,7 +7756,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/ajensenwaud/hermes-jev-plugin/b3d29f71770a3447ad0b3db00658f64a8edc7dd3/{client,tools}.py",
       "title": "Run 9 source R9-S67: raw.githubusercontent.com/ajensenwaud/hermes-jev-plugin/b3d29f71770a34",
-      "claim": "tool errors returned as JSON to the agent; timeout 30 s (Documented (helper read); accessible; at b3d29f71770a3447ad0b3db00658f64a8edc7dd3)",
+      "claim": "tool errors returned as JSON to the agent; timeout 30 s (Documented (source review); accessible; at b3d29f71770a3447ad0b3db00658f64a8edc7dd3)",
       "accessed_at": "2026-10-06T05:15:48Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7766,7 +7766,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/ydmw74/jev-skill-router/76ee09e049dbc10c76f98cfefc6ca16b42cfad38/src/jev_skill_router/mcp_server.py",
       "title": "Run 9 source R9-S68: raw.githubusercontent.com/ydmw74/jev-skill-router/76ee09e049dbc10c76f9",
-      "claim": "MCP loop returns {\"error\"} to the agent; timeout 60 s (Documented (helper read); accessible; at 76ee09e049dbc10c76f98cfefc6ca16b42cfad38)",
+      "claim": "MCP loop returns {\"error\"} to the agent; timeout 60 s (Documented (source review); accessible; at 76ee09e049dbc10c76f98cfefc6ca16b42cfad38)",
       "accessed_at": "2026-10-06T05:15:48Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7846,7 +7846,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/NiazMorshed2007/jev-review/57690af54ef7d862c2483342c1e61c14dffcf727/src/...",
       "title": "Run 9 source R9-S76: raw.githubusercontent.com/NiazMorshed2007/jev-review/57690af54ef7d862c",
-      "claim": "Jev supplies metric scores, confidence, and score movement (Documented (helper read); accessible; at 57690af54ef7d862c2483342c1e61c14dffcf727)",
+      "claim": "Jev supplies metric scores, confidence, and score movement (Documented (source review); accessible; at 57690af54ef7d862c2483342c1e61c14dffcf727)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7856,7 +7856,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/burnigtm/jev-mcp/9448f6120015f2f6c6dad7137c7f234545209918/src/...",
       "title": "Run 9 source R9-S77: raw.githubusercontent.com/burnigtm/jev-mcp/9448f6120015f2f6c6dad7137c7",
-      "claim": "gate returns action auto|review|escalate; CLI non-zero exit only on errors (Documented (helper read); accessible; at 9448f6120015f2f6c6dad7137c7f234545209918)",
+      "claim": "gate returns action auto|review|escalate; CLI non-zero exit only on errors (Documented (source review); accessible; at 9448f6120015f2f6c6dad7137c7f234545209918)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7866,7 +7866,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/minhgv/jev-mcp/1a1f0a5b599e3c9f00a126bb247536a624aa265e/src/...",
       "title": "Run 9 source R9-S78: raw.githubusercontent.com/minhgv/jev-mcp/1a1f0a5b599e3c9f00a126bb24753",
-      "claim": "ci-shadow prints would_block but always exits 0 (Documented (helper read); accessible; at 1a1f0a5b599e3c9f00a126bb247536a624aa265e)",
+      "claim": "ci-shadow prints would_block but always exits 0 (Documented (source review); accessible; at 1a1f0a5b599e3c9f00a126bb247536a624aa265e)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7876,7 +7876,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/pedroknigge/mcp_jev/32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d/src/...",
       "title": "Run 9 source R9-S79: raw.githubusercontent.com/pedroknigge/mcp_jev/32377f8e4d5a63a76d4efbe9",
-      "claim": "The MCP returns signals only — harness allowlist and sandbox still required (Documented (helper read); accessible; at 32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d)",
+      "claim": "The MCP returns signals only — harness allowlist and sandbox still required (Documented (source review); accessible; at 32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7886,7 +7886,7 @@
       "source_type": "documented source",
       "source_url": "https://registry.npmjs.org/@osuki-dev/opencode-osuki-agent ; tarball 0.2.7",
       "title": "Run 9 source R9-S80: registry.npmjs.org/@osuki-dev/opencode-osuki-agent ; tarball 0.2.7",
-      "claim": "event.input = { ...input, agent: route.agent }; (Documented (helper read); accessible; at 0.2.7 (tag v0.2.7 c96ce03c1c7dfc5c6fdf9d966691549101c68080))",
+      "claim": "event.input = { ...input, agent: route.agent }; (Documented (source review); accessible; at 0.2.7 (tag v0.2.7 c96ce03c1c7dfc5c6fdf9d966691549101c68080))",
       "accessed_at": "2026-10-06T05:16:57Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7916,7 +7916,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/wellkilo/codex-jev-preflight/633ddefe6596aa5d7c6b00767c08d07edea61096/jev_user_prompt_hook.py",
       "title": "Run 9 source R9-S83: raw.githubusercontent.com/wellkilo/codex-jev-preflight/633ddefe6596aa5",
-      "claim": "any error emits an unavailable context and returns 0 (Documented (helper read, partial); accessible; at 633ddefe6596aa5d7c6b00767c08d07edea61096)",
+      "claim": "any error emits an unavailable context and returns 0 (Documented (source review, partial); accessible; at 633ddefe6596aa5d7c6b00767c08d07edea61096)",
       "accessed_at": "2026-10-06T05:18:07Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -14765,7 +14765,7 @@
       "evidence_id": "r15-s54",
       "source_type": "documented source",
       "source_url": "https://shaduf.ai/p/jev-catalog/",
-      "title": "Run 15 source R15-S54: Runner spot-check of helper B: Microsoft Product Terms MCA; Foundry quotas-limits; OpenAI ",
+      "title": "Run 15 source R15-S54: Source spot-check: Microsoft Product Terms MCA; Foundry quotas-limits; OpenAI ",
       "claim": "Microsoft will temporarily store Input and Output Content, to monitor for and prevent abusive or harmful uses (Documented)",
       "accessed_at": "2026-10-13T05:25:30Z",
       "relation": "supports",

@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "runs": [
     {
-      "run_id": "run:manual:b48aef8e204f05d99b6933660bd67d70",
+      "run_id": "report-1714bfa30b814ad53f2e85f7",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-20T17:02:41Z",
@@ -13,7 +13,7 @@
       "entrypoint": "reports/bootstrap-evidence/index.html"
     },
     {
-      "run_id": "run:6ee2dcc6-09c0-4f2a-8e92-6d6835767621",
+      "run_id": "report-175c2f6df72ad69e2fe5f6bb",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-20T20:23:59Z",
@@ -24,7 +24,7 @@
       "entrypoint": "reports/access-pricing-refresh/index.html"
     },
     {
-      "run_id": "run:43f334f1-e973-474c-b958-e9073b3764cf",
+      "run_id": "report-81473ffbc23c07978f36da0b",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-21T05:00:00.000Z",
@@ -35,7 +35,7 @@
       "entrypoint": "reports/alternatives-verification-refresh/index.html"
     },
     {
-      "run_id": "run:12eff83e-6150-42af-a3bc-96f68a5c95ce",
+      "run_id": "report-b29b2551b23287025c03b228",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-22T05:00:00Z",
@@ -46,7 +46,7 @@
       "entrypoint": "reports/alternatives-substitution-refresh/index.html"
     },
     {
-      "run_id": "run:2c5550ce-7675-4864-9d81-63f0d6ac2060",
+      "run_id": "report-fcb5a7c12dae4b8ddad967da",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-23T05:00:00Z",
@@ -57,7 +57,7 @@
       "entrypoint": "reports/adoption-product-verification/index.html"
     },
     {
-      "run_id": "run:c4d2041e-27de-485b-9190-087eb8bb275a",
+      "run_id": "report-4db958a76cd6b14683b014c7",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-24T05:00:00Z",
@@ -68,7 +68,7 @@
       "entrypoint": "reports/builder-fit-maintenance/index.html"
     },
     {
-      "run_id": "run:manual:60f0123d612489bea7f4a5253ad7209c",
+      "run_id": "report-3e4cf8cd4e6ab61d0c247067",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-24T14:03:00.139Z",
@@ -79,7 +79,7 @@
       "entrypoint": "reports/freshness-change-detection/index.html"
     },
     {
-      "run_id": "run:d30a42d1-35d2-4bd7-960a-e68c1650cdb1",
+      "run_id": "report-9aae0dfa770a87060daa8edf",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-25T05:00:00.000Z",
@@ -90,7 +90,7 @@
       "entrypoint": "reports/workload-evaluation-recipe/index.html"
     },
     {
-      "run_id": "run:manual:c338300f21a06ed237a48a75759ca44f",
+      "run_id": "report-f9359516104fe7ca704cee20",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-25T16:27:15.811Z",
@@ -101,7 +101,7 @@
       "entrypoint": "reports/full-catalogue-rebuild/index.html"
     },
     {
-      "run_id": "run:manual:e9dff084ff9213a3651ce9a8c05cf923",
+      "run_id": "report-ebe4e76cf9aa0dd5e6f2203f",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-25T17:39:11Z",
@@ -112,7 +112,7 @@
       "entrypoint": "reports/second-source-pass/index.html"
     },
     {
-      "run_id": "run:5b212414-2a3c-424d-a936-c97a0dc81245",
+      "run_id": "report-7bb9d4338e945f1ca4abfd4f",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-26T05:00:00Z",
@@ -123,7 +123,7 @@
       "entrypoint": "reports/post-promotion-route-check/index.html"
     },
     {
-      "run_id": "run:fd126dac-9390-4889-8a56-28cf9775eab7",
+      "run_id": "report-a16903c96bad33d3131148bd",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-27T05:00:00Z",
@@ -134,7 +134,7 @@
       "entrypoint": "reports/seven-day-access-checkpoint/index.html"
     },
     {
-      "run_id": "run:6a8d4e74-a3d7-4760-a726-99291ba0668b",
+      "run_id": "report-62ffb462f51152fe8fa5fb7c",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-28T05:00:00Z",
@@ -145,7 +145,7 @@
       "entrypoint": "reports/implementation-path-audit/index.html"
     },
     {
-      "run_id": "run:manual:e3ce5784cf44ff403a32f4cdaa67052b",
+      "run_id": "report-91976376aa078fa393382ada",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-28T19:11:21Z",
@@ -156,7 +156,7 @@
       "entrypoint": "reports/release-1-question-pages/index.html"
     },
     {
-      "run_id": "run:bd3c2f65-2199-4b1b-83d5-3a1135b103b0",
+      "run_id": "report-a8b3ba4a9fbdd6b2c5be0f13",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-29T07:04:56Z",
@@ -167,7 +167,7 @@
       "entrypoint": "reports/integration-trust/index.html"
     },
     {
-      "run_id": "run:878a2d3a-67e1-440a-bf94-f7810f487bad",
+      "run_id": "report-40223e78248be67e9f5b1ead",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-09-30T20:44:33Z",
@@ -178,7 +178,7 @@
       "entrypoint": "reports/evaluation-evidence/index.html"
     },
     {
-      "run_id": "run:35d0708f-1681-4f24-9954-581f127a7a34",
+      "run_id": "report-1775d09d52f602bc29eefda7",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-01T05:14:57Z",
@@ -189,7 +189,7 @@
       "entrypoint": "reports/alternatives-data-handling-triage/index.html"
     },
     {
-      "run_id": "run:8cfd1805-b04a-40d8-87dd-4c6c667c0920",
+      "run_id": "report-57eb2523b5289c4a0e0c5f4c",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-02T05:12:21Z",
@@ -200,7 +200,7 @@
       "entrypoint": "reports/routing-moderation/index.html"
     },
     {
-      "run_id": "run:5a50a0ba-e2af-412c-9556-7e4cb232a36b",
+      "run_id": "report-266a6373f5b0e0032af244cb",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-03T05:14:11Z",
@@ -211,7 +211,7 @@
       "entrypoint": "reports/email-products-n8n/index.html"
     },
     {
-      "run_id": "run:a0659f82-68c7-4d81-84ef-c1f25d543064",
+      "run_id": "report-259cc947d90ce6f993a3dafa",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-04T05:13:47Z",
@@ -222,7 +222,7 @@
       "entrypoint": "reports/trading-failures-judge/index.html"
     },
     {
-      "run_id": "run:b26864e3-2a62-4080-b445-28fe3dbadc7e",
+      "run_id": "report-ea23f469ac51bf531a9f756b",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-05T05:11:41Z",
@@ -233,7 +233,7 @@
       "entrypoint": "reports/browser-frameworks/index.html"
     },
     {
-      "run_id": "run:6c40bcd4-3b75-4bfc-bc54-b254713e0f95",
+      "run_id": "report-88216ac5b9259853a235076e",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-06T05:13:45Z",
@@ -244,7 +244,7 @@
       "entrypoint": "reports/coding-agents-versions/index.html"
     },
     {
-      "run_id": "run:0c869900-dcb8-4610-9e16-932d96992193",
+      "run_id": "report-b73b1d7e5dee7a7fad346393",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-07T05:16:57Z",
@@ -255,7 +255,7 @@
       "entrypoint": "reports/judge-rows-benchmarks/index.html"
     },
     {
-      "run_id": "run:61ac0fbc-a501-4f48-b1e5-503fd921a06e",
+      "run_id": "report-f6877343f17ba6ff83d0650b",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-08T05:12:04Z",
@@ -266,7 +266,7 @@
       "entrypoint": "reports/reranking-databases/index.html"
     },
     {
-      "run_id": "run:10226f0c-5933-40d3-9e79-972dee102672",
+      "run_id": "report-6812b0510b648478b40d96df",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-10T05:10:52Z",
@@ -277,7 +277,7 @@
       "entrypoint": "reports/alternatives-coding-agents/index.html"
     },
     {
-      "run_id": "run:4804d142-c2f9-40b1-8aa1-418259bd9a1a",
+      "run_id": "report-1a14ee61074305656f43f44c",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-11T05:15:58Z",
@@ -288,7 +288,7 @@
       "entrypoint": "reports/benchmark-grades-coding-agents/index.html"
     },
     {
-      "run_id": "run:04f20caf-f47c-44e1-8765-80f8678da725",
+      "run_id": "report-dbec2e02371cc14564077ad8",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-12T05:11:36Z",
@@ -299,7 +299,7 @@
       "entrypoint": "reports/real-time-control-decision-1/index.html"
     },
     {
-      "run_id": "run:e361615f-595f-4bb6-a7c8-7168d4d370a3",
+      "run_id": "report-1992b2cc4729086cd8fe7852",
       "status": "completed",
       "answer_change": "meaningful_change",
       "started_at": "2026-10-13T05:04:18Z",
