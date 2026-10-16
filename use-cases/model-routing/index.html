@@ -16,7 +16,7 @@
     <meta property="og:description" content="Jev router choices compared: OpenRouter&#039;s Jev Router, LiteLLM and five open-source routers, and where each sends a request when Jev fails or is unsure.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/use-cases/model-routing/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev Router or your own router?","description":"Jev router choices compared: OpenRouter's Jev Router, LiteLLM and five open-source routers, and where each sends a request when Jev fails or is unsure.","dateModified":"2026-10-14T17:50:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/model-routing/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev Router or your own router?","description":"Jev router choices compared: OpenRouter's Jev Router, LiteLLM and five open-source routers, and where each sends a request when Jev fails or is unsure.","dateModified":"2026-10-16T06:20:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/use-cases/model-routing/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="model-routing">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -48,7 +48,7 @@
     <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
       
       <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv">
-  <div class="jv-kicker"><span>Use cases</span><span>OpenRouter docs read <time datetime="2026-10-02T05:15:54Z">2 October 2026, 05:15–05:16 UTC</time> · six routers read at pinned commits 05:16–05:21 UTC · LiteLLM release rechecked <time datetime="2026-10-12T05:28:25Z">12 October 2026</time> (1.105.0 compared) · no-key and bypass paths read at the same pins <time datetime="2026-10-13">13 October 2026</time> · litellm 1.105.1 release noted <time datetime="2026-10-14">14 October 2026</time></span></div>
+  <div class="jv-kicker"><span>Use cases</span><span>OpenRouter docs read <time datetime="2026-10-02T05:15:54Z">2 October 2026, 05:15–05:16 UTC</time> · six routers read at pinned commits 05:16–05:21 UTC · LiteLLM release rechecked <time datetime="2026-10-12T05:28:25Z">12 October 2026</time> (1.105.0 compared) · no-key and bypass paths read at the same pins <time datetime="2026-10-13">13 October 2026</time> · litellm 1.105.1 release noted <time datetime="2026-10-14">14 October 2026</time> · Jev context limits rechecked <time datetime="2026-10-16">16 Oct 2026</time></span></div>
   <h1>Jev Router or your own model router? Where requests go when Jev fails (TypeSafe AI)</h1>
   <p class="jv-lede">The phrase "jev router" is used for several different things: OpenRouter's Jev Router (a chat endpoint that uses Jev to pick another model), LiteLLM's complexity router with Jev as its classifier, open-source routers that call Jev themselves, and an unrelated gateway at jev-router.com. Bing and DuckDuckGo suggest "jev router" when you type "jev r" or "jev routing" (checked 2 Oct 2026). This page compares what OpenRouter documents about its Jev Router with what six self-hosted routers do in their source code. The question is the same for all of them: where does a request go when Jev fails, is unsure, or gets a prompt longer than it can read?</p>
 
@@ -122,7 +122,7 @@
       </details>
       <details name="mr" id="mr-long">
         <summary><span class="acc-k">Long prompt</span><span class="acc-h">More text than Jev can read in one request</span></summary>
-        <div><p>Four routers send the full current ask, task or last message with no length cut (LiteLLM, gargpratyush, BillionsBobby, agent-router). A very long ask can then fail at Jev and take the failure path. 0xNatoshi clips the ask to 400 characters; autojev sends no prompt text at all, only a token estimate and signals. Jev reads 32,000 tokens on OpenRouter; TypeSafe direct allows 64k per request with 32k for state plus the longest question.</p></div>
+        <div><p>Four routers send the full current ask, task or last message with no length cut (LiteLLM, gargpratyush, BillionsBobby, agent-router). A very long ask can then fail at Jev and take the failure path. 0xNatoshi clips the ask to 400 characters; autojev sends no prompt text at all, only a token estimate and signals. TypeSafe direct allows 64k per request with 32k for state plus the longest question by default, on both Jev 1.13 and Jev 1.14; an opt-in long-context header raises both to 262k (experimental, not production-ready per TypeSafe). OpenRouter now lists 262,144 tokens of context for <code>typesafe/jev-1.13</code> (16 Oct 2026, 05:21–05:25 UTC; R17-S05, R17-S22). <small>Change, 16 Oct 2026: until today this page said Jev reads 32,000 tokens on OpenRouter.</small></p></div>
       </details>
     </div>
     <div class="table-wrap stack stack-md">
@@ -213,7 +213,7 @@
     <li><div><strong>Decide the failure destination before launch.</strong><p>A fixed default you can afford, "keep current", or an error to the caller. Write it in configuration, not in a code comment. The same rule for ticket queues is on <a href="../support-ticket-triage/index.html#rules">support-ticket triage</a>.</p></div><span class="who"><span class="chip ok">BillionsBobby</span><span class="chip ok">agent-router</span><span class="chip ok">gargpratyush</span><span class="chip info">LiteLLM: set it</span></span></li>
     <li><div><strong>Never let a failure pick your top tier without a log line and a counter.</strong><p>One of the six routers read does this by design.</p></div><span class="who"><span class="chip fail">0xNatoshi: Astra on any error</span></span></li>
     <li><div><strong>Gate on confidence.</strong><p>Set the threshold from your own traffic (<a href="../../build/confidence-thresholds/index.html#procedure">procedure</a>).</p></div><span class="who"><span class="chip ok">gargpratyush</span><span class="chip ok">BillionsBobby</span><span class="chip ok">agent-router</span><span class="chip ok">autojev</span><span class="chip fail">LiteLLM, 0xNatoshi: logged only</span></span></li>
-    <li><div><strong>Cut or summarise long prompts before Jev sees them.</strong><p>Jev reads 32k tokens for state plus the longest question (64k per request) on TypeSafe direct, and 32k on OpenRouter.</p></div><span class="who"><span class="chip ok">0xNatoshi: 400 chars</span><span class="chip ok">autojev: no text</span><span class="chip none">Four: no cut</span></span></li>
+    <li><div><strong>Cut or summarise long prompts before Jev sees them.</strong><p>By default Jev reads 32k tokens for state plus the longest question (64k per request) on TypeSafe direct, on both 1.13 and 1.14 (16 Oct 2026). The 262k long-context option is experimental (not production-ready per TypeSafe). OpenRouter lists 262,144 tokens for <code>typesafe/jev-1.13</code> on 16 Oct 2026; this page said 32k there until then.</p></div><span class="who"><span class="chip ok">0xNatoshi: 400 chars</span><span class="chip ok">autojev: no text</span><span class="chip none">Four: no cut</span></span></li>
     <li><div><strong>Keep the Jev timeout shorter than the routed call's latency budget.</strong><p>The six use 1.5 s per attempt up to 20 s. Rate limits and retry advice: <a href="../../build/errors-and-rate-limits/index.html#fallback">errors and rate limits</a>.</p></div><span class="who"><span class="chip info">1.5–20 s</span><span class="chip none">agent-router: not set</span></span></li>
     <li><div><strong>Exclude, do not only include.</strong><p>On OpenRouter Jev Router an include list that matches nothing is ignored; an exclusion is never ignored.</p></div><span class="who"><span class="chip info">Jev Router</span></span></li>
     <li><div><strong>Log which model answered.</strong><p>Jev Router's <code>model</code> field and router metadata, or your router's own log, so failures show up in cost reports.</p></div><span class="who"><span class="chip info">All</span></span></li>
@@ -294,6 +294,7 @@
       <li><a href="../content-moderation/index.html">Content moderation: what projects do when Jev fails</a></li>
       <li><a href="../../build/claude-code-mcp/index.html">Claude Code and MCP guardrails (allow and deny)</a></li>
       <li><a href="../../benchmarks/index.html#b05">LiteLLM's routing test (B05)</a></li>
+      <li><a href="../../reports/bypass-cells-claude-code-refresh/index.html">16 Oct research report</a></li>
       <li><a href="../../reports/failure-cells-sdk-refresh/index.html">14 Oct research report</a></li>
       <li><a href="../../reports/decision-api-comparison/index.html">13 Oct research report (no-key and bypass cells)</a></li>
       <li><a href="../../reports/benchmark-grades-coding-agents/index.html">11 Oct research report (version recheck)</a></li>
@@ -317,7 +318,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>14 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>16 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
     </div>

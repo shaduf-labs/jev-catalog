@@ -16870,6 +16870,2346 @@
       "accessed_at": "2026-10-14T17:01:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/ ; https://console.typesafe.ai/signup",
+      "title": "Source R17-S01: console.typesafe.ai/ ; https://console.typesafe.ai/signup",
+      "claim": "Welcome to TypeSafe Continue with Google or Continue (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R17-S02: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "claim": "ANYONE CAN SIGN UP ... we had to temporarily disable the free credits (just for new users) (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R17-S03: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "Composing primitives into larger systems takes some practice (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s04",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R17-S04: status.typesafe.ai/",
+      "claim": "Elevated Latency Resolved Oct 14, 2026 at 10:52pm UTC latency is back to normal (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R17-S05: docs.typesafe.ai/models.md",
+      "claim": "Jev 1.14 is the newest Jev release, available from October 14, 2026. (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R17-S06: docs.typesafe.ai/images.md",
+      "claim": "Images and Box questions aren't yet up to our standards to call ready for production (Documented)",
+      "accessed_at": "2026-10-16T05:22:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R17-S07: typesafe.ai/",
+      "claim": "(no signup, waitlist or credit text) (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R17-S08: typesafe.ai/blog",
+      "claim": "Jev: For the builders AND dreamers (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R17-S09: typesafe.ai/blog/jev-1-14",
+      "claim": "jev-latest will be updated to jev-1.14.0 in a week. jev-1.13.0 will be available for a while. (Documented)",
+      "accessed_at": "2026-10-16T05:23:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R17-S10: typesafe.ai/enterprise",
+      "claim": "(visible text identical to 14 Oct) (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s11",
+      "source_type": "reported source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R17-S11: aifront-page.com/",
+      "claim": "TypeSafe AI Launches Jev 1.14 with Image Request, Box Type, Longer Context (Reported)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s12",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md ; https://docs.typesafe.ai/changelog.md",
+      "title": "Source R17-S12: docs.typesafe.ai/legal.md ; https://docs.typesafe.ai/changelog.md",
+      "claim": "(legal index) (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s13",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R17-S13: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. Just create an OpenRouter API key (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s14",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R17-S14: research.eye.security/rise-of-the-jev-clones/",
+      "claim": "(names jev-agent.org, jev-ai.pro, jevtypesafeai.com) (Reported)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s15",
+      "source_type": "unverified source",
+      "source_url": "https://jev-agent.org/",
+      "title": "Source R17-S15: jev-agent.org/",
+      "claim": "Jev: Fast System One Decisions for AI Agents | Jev Agent (Unverified)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s16",
+      "source_type": "unverified source",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Source R17-S16: jev-ai.pro/",
+      "claim": "Jev AI — Try the Jev Model by TypeSafe: Playground & API (Unverified)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s17",
+      "source_type": "unverified source",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Source R17-S17: jevtypesafeai.com/",
+      "claim": "Jev by TypeSafe AI — Try the System One model & API (Unverified)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s18",
+      "source_type": "unverified source",
+      "source_url": "https://thejevai.com/",
+      "title": "Source R17-S18: thejevai.com/",
+      "claim": "Jev AI — Jev Model Online, Free, No Waitlist (Unverified)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s19",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/series-ai",
+      "title": "Source R17-S19: typesafe.ai/blog/series-ai",
+      "claim": "TypeSafe A raises Series AI (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s20",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/box.md",
+      "title": "Source R17-S20: docs.typesafe.ai/primitives/box.md",
+      "claim": "Box questions need Jev 1.14: send jev-preview or jev-1.14.0 as the model. (Documented)",
+      "accessed_at": "2026-10-16T05:22:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt ; https://docs.typesafe.ai/primitives.md",
+      "title": "Source R17-S21: docs.typesafe.ai/llms.txt ; https://docs.typesafe.ai/primitives.md",
+      "claim": "Images: Send images in a System One request (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s22",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Source R17-S22: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "text+image->decisions; context_length 262144 (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s23",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "title": "Source R17-S23: openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "claim": "typesafe/jev-1.14; provider TypeSafe; context 262144; prompt 0.000000042 (Documented)",
+      "accessed_at": "2026-10-16T05:25:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s24",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/microsoft/microsoft-decision-1/endpoints",
+      "title": "Source R17-S24: openrouter.ai/api/v1/models/microsoft/microsoft-decision-1/endpoints",
+      "claim": "Azure; 32768; prompt 0.000000042 (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s25",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/openai/gpt-6-luna-decisions/endpoints",
+      "title": "Source R17-S25: openrouter.ai/api/v1/models/openai/gpt-6-luna-decisions/endpoints",
+      "claim": "status 0; uptime_last_1d 99.58 (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s26",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R17-S26: openrouter.ai/api/v1/models",
+      "claim": "typesafe/jev-router (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s27",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints ; https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R17-S27: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints ; https://ai-gateway.vercel.sh/v1/models",
+      "claim": "typesafe-ai/jev ; typesafe-ai/jev-1.13.0 ; typesafe-ai/jev-1.14.0 (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.14.0/endpoints ; .../jev-1.13.0/endpoints",
+      "title": "Source R17-S28: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.14.0/endpoints ; .../jev-1.13.0/endpoints",
+      "claim": "provider typesafe-ai; input text, image; prompt 0.000000042; context 32000 (Documented)",
+      "accessed_at": "2026-10-16T05:25:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/ ; https://developers.cloudflare.com/ai/models/typesafe/jev-1.14/",
+      "title": "Source R17-S29: developers.cloudflare.com/ai/models/typesafe/jev/ ; https://developers.cloudflare.com/ai/models/typesafe/jev-1.14/",
+      "claim": "\"model\" : \"jev-1.13.0\" (Documented)",
+      "accessed_at": "2026-10-16T05:25:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s30",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0 ; ?q=typesafe%2Fjev-1.14.0",
+      "title": "Source R17-S30: api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0 ; ?q=typesafe%2Fjev-1.14.0",
+      "claim": "{\"models\":[],\"total\":0} (Documented)",
+      "accessed_at": "2026-10-16T05:25:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s31",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R17-S31: docs.netlify.com/build/ai-gateway/overview/",
+      "claim": "jev-1.14.0 (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s32",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure ; .../models-from-partners",
+      "title": "Source R17-S32: learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure ; .../models-from-partners",
+      "claim": "(0 typesafe, 0 jev; Mistral 7 / 25) (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s33",
+      "source_type": "documented source",
+      "source_url": "https://ai.azure.com/catalog/models ; /catalog/models/Microsoft-Decision-1 ; /catalog/models/jev",
+      "title": "Source R17-S33: ai.azure.com/catalog/models ; /catalog/models/Microsoft-Decision-1 ; /catalog/models/jev",
+      "claim": "Preview; Version: 1; No Data Available (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s34",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html ; bedrock-marketplace-model-reference.html ; https://aws.amazon.com/bedrock/model-choice/",
+      "title": "Source R17-S34: docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html ; bedrock-marketplace-model-reference.html ; https://aws.amazon.com/bedrock/model-choice/",
+      "claim": "(0 typesafe, 0 jev; Mistral 5 / 11 / 2) (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s35",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/ ; https://developers.cloudflare.com/workers-ai/platform/pricing/index.md",
+      "title": "Source R17-S35: developers.cloudflare.com/workers-ai/models/ ; https://developers.cloudflare.com/workers-ai/platform/pricing/index.md",
+      "claim": "@cf/cloudflare/clef | $0.240 per M input tokens (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s36",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md ; https://developers.openai.com/api/docs/pricing.md",
+      "title": "Source R17-S36: developers.openai.com/api/docs/guides/decisions.md ; https://developers.openai.com/api/docs/pricing.md",
+      "claim": "The Decisions API is in public beta, and we expect to GA in the coming weeks. (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s37",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/typesafe-sdk/json and typesafe_sdk-0.7.5-py3-none-any.whl",
+      "title": "Source R17-S37: pypi.org/pypi/typesafe-sdk/json and typesafe_sdk-0.7.5-py3-none-any.whl",
+      "claim": "DEFAULT_MODEL = \"jev-latest\" (Documented)",
+      "accessed_at": "2026-10-16T05:25:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s38",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk and sdk-0.7.0.tgz",
+      "title": "Source R17-S38: registry.npmjs.org/@typesafe-ai/sdk and sdk-0.7.0.tgz",
+      "claim": "Image support is experimental. Opt in by sending the TypeSafe-Danger-Zone-Images: true (Documented)",
+      "accessed_at": "2026-10-16T05:25:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s39",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai and typesafe-ai-3.0.20.tgz",
+      "title": "Source R17-S39: registry.npmjs.org/@ai-sdk/typesafe-ai and typesafe-ai-3.0.20.tgz",
+      "claim": "hasImages ? { 'TypeSafe-Danger-Zone-Images': 'true' } : undefined (Documented)",
+      "accessed_at": "2026-10-16T05:25:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s40",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/rate_limit",
+      "title": "Source R17-S40: api.github.com/rate_limit",
+      "claim": "core limit 60 remaining 60; search limit 10 remaining 10 (Documented)",
+      "accessed_at": "2026-10-16T05:19:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s41",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/terms ; /legal/privacy-policy ; /legal/data-processing",
+      "title": "Source R17-S41: typesafe.ai/legal/terms ; /legal/privacy-policy ; /legal/data-processing",
+      "claim": "(legal pages) (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s42",
+      "source_type": "documented source",
+      "source_url": "https://trust.typesafe.ai/",
+      "title": "Source R17-S42: trust.typesafe.ai/",
+      "claim": "(client-rendered page, 6,516 bytes) (Documented)",
+      "accessed_at": "2026-10-16T05:21:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s50",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date (typoTolerance=false; created_at_i 2026-10-14T16:45:00Z..2026-10-16T05:19:00Z; look-back from 2026-10-13T05:19:00Z)",
+      "title": "Source R17-S50: hn.algolia.com/api/v1/search_by_date (typoTolerance=false; created_at_i 2026-10-14T16:45:00Z..2026-10-16T05:19:00Z; look-back from 2026-10-13T05:19:00Z)",
+      "claim": "Testing Jev and other decision models on search-related tasks (Reported)",
+      "accessed_at": "2026-10-16T05:28:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s51",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories (jev created; typesafe created; jev pushed; topic:jev pushed; jev claude created; 2026-10-14T16:45:00Z..2026-10-16T05:18:59Z)",
+      "title": "Source R17-S51: api.github.com/search/repositories (jev created; typesafe created; jev pushed; topic:jev pushed; jev claude created; 2026-10-14T16:45:00Z..2026-10-16T05:18:59Z)",
+      "claim": "total_count 238 / 56 / 922 / 295 / 23 (Documented)",
+      "accessed_at": "2026-10-16T05:28:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s52",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?text=jev ; typesafe ; jev vision ; jev 1.14 ; decision model ; jev mcp ; claude jev",
+      "title": "Source R17-S52: registry.npmjs.org/-/v1/search?text=jev ; typesafe ; jev vision ; jev 1.14 ; decision model ; jev mcp ; claude jev",
+      "claim": "jev-reranker 0.1.6 ... pi-typesafe 0.10.0 ... @riskaverse/toolgate 0.17.1 (Documented)",
+      "accessed_at": "2026-10-16T05:28:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s53",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search?client=firefox ; https://www.bing.com/osjson.aspx ; https://duckduckgo.com/ac/ (17 prefixes)",
+      "title": "Source R17-S53: suggestqueries.google.com/complete/search?client=firefox ; https://www.bing.com/osjson.aspx ; https://duckduckgo.com/ac/ (17 prefixes)",
+      "claim": "jev cl -> jev claude code (Google, Bing, DDG); jev image -> jev image support (Google) (Documented)",
+      "accessed_at": "2026-10-16T05:28:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s54",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=jev / typesafe / jev-vision / jev-1.14 / decision-1 / clef / subq (sort lastModified); ?author=typesafe-ai",
+      "title": "Source R17-S54: huggingface.co/api/models?search=jev / typesafe / jev-vision / jev-1.14 / decision-1 / clef / subq (sort lastModified); ?author=typesafe-ai",
+      "claim": "JevAgentHarness/AgentDecision-4B ; cribl-ai/cribl-decision-1.0 (Documented)",
+      "accessed_at": "2026-10-16T05:28:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s55",
+      "source_type": "reported source",
+      "source_url": "https://dev.to/api/articles?tag=jev ; tag=typesafe ; /articles/latest",
+      "title": "Source R17-S55: dev.to/api/articles?tag=jev ; tag=typesafe ; /articles/latest",
+      "claim": "What are Jev-based evals? (Reported)",
+      "accessed_at": "2026-10-16T05:28:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s56",
+      "source_type": "documented source",
+      "source_url": "https://www.reddit.com/search.json?q=jev%20typesafe ; https://ollama.com/search?q=jev",
+      "title": "Source R17-S56: www.reddit.com/search.json?q=jev%20typesafe ; https://ollama.com/search?q=jev",
+      "claim": "(Reddit HTTP 403) (Documented)",
+      "accessed_at": "2026-10-16T05:28:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s57",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/<pkg> and https://pypi.org/pypi/<pkg>/json for the drift list (27 packages)",
+      "title": "Source R17-S57: registry.npmjs.org/<pkg> and https://pypi.org/pypi/<pkg>/json for the drift list (27 packages)",
+      "claim": "pydantic-ai-slim 2.57.0 2026-10-16T03:50:59Z ; deepeval 4.3.0 ; @typesafe-ai/sdk 0.7.0 (Documented)",
+      "accessed_at": "2026-10-16T05:28:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s58",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/{6695132,v2.56.0,v2.57.0}/pydantic_ai_slim/pydantic_ai/{models,providers}/typesafe.py",
+      "title": "Source R17-S58: raw.githubusercontent.com/pydantic/pydantic-ai/{6695132,v2.56.0,v2.57.0}/pydantic_ai_slim/pydantic_ai/{models,providers}/typesafe.py",
+      "claim": "if request.images: raise UserError('TypeSafe does not support image input.') (Documented)",
+      "accessed_at": "2026-10-16T05:30:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s59",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/confident-ai/deepeval/{a200ece,python-v4.3.0,main}/deepeval/metrics/jev_eval/*.py ; https://github.com/confident-ai/deepeval/tags.atom",
+      "title": "Source R17-S59: raw.githubusercontent.com/confident-ai/deepeval/{a200ece,python-v4.3.0,main}/deepeval/metrics/jev_eval/*.py ; https://github.com/confident-ai/deepeval/tags.atom",
+      "claim": "python-v4.3.0: new release (Documented)",
+      "accessed_at": "2026-10-16T05:31:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s60",
+      "source_type": "reported source",
+      "source_url": "https://artificialanalysis.ai/articles/artificial-analysis-decision-index",
+      "title": "Source R17-S60: artificialanalysis.ai/articles/artificial-analysis-decision-index",
+      "claim": "Jev 1.13 leads the Decision Index with 58, ahead of GLiDE and Microsoft-Decision-1, both on 54. (Reported)",
+      "accessed_at": "2026-10-16T05:31:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s61",
+      "source_type": "reported source",
+      "source_url": "https://artificialanalysis.ai/methodology/decision-index",
+      "title": "Source R17-S61: artificialanalysis.ai/methodology/decision-index",
+      "claim": "We send the state and questions to the model's decision API. (Reported)",
+      "accessed_at": "2026-10-16T05:31:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s62",
+      "source_type": "reported source",
+      "source_url": "https://www.uprightproject.com/eevo/ ; https://news.ycombinator.com/item?id=50093003",
+      "title": "Source R17-S62: www.uprightproject.com/eevo/ ; https://news.ycombinator.com/item?id=50093003",
+      "claim": "Introducing Eevo, the first consequential decision model (Reported)",
+      "accessed_at": "2026-10-16T05:31:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s63",
+      "source_type": "reported source",
+      "source_url": "https://parallel.ai/blog/are-all-system-one-models-created-equal ; HN 50109686",
+      "title": "Source R17-S63: parallel.ai/blog/are-all-system-one-models-created-equal ; HN 50109686",
+      "claim": "Are all System One models created equal? (Reported)",
+      "accessed_at": "2026-10-16T05:31:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s64",
+      "source_type": "reported source",
+      "source_url": "https://huggingface.co/api/models/cribl-ai/cribl-decision-1.0",
+      "title": "Source R17-S64: huggingface.co/api/models/cribl-ai/cribl-decision-1.0",
+      "claim": "license apache-2.0; base_model Qwen/Qwen3.5-4B-Base (Reported)",
+      "accessed_at": "2026-10-16T05:31:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s65",
+      "source_type": "unverified source",
+      "source_url": "https://enter.pollinations.ai/api/docs ; https://github.com/pollinations/pollinations",
+      "title": "Source R17-S65: enter.pollinations.ai/api/docs ; https://github.com/pollinations/pollinations",
+      "claim": "(no 'decision' match in docs page) (Unverified)",
+      "accessed_at": "2026-10-16T05:31:35Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s66",
+      "source_type": "reported source",
+      "source_url": "https://isotopes.ai/blog/decision-models ; https://flaviocopes.com/jev-coding-agents/ ; https://grigio.org/llm-vs-decision-models-like-jev-and-use-cases/",
+      "title": "Source R17-S66: isotopes.ai/blog/decision-models ; https://flaviocopes.com/jev-coding-agents/ ; https://grigio.org/llm-vs-decision-models-like-jev-and-use-cases/",
+      "claim": "Beyond the leaderboard. Decision models in a real workflow (Reported)",
+      "accessed_at": "2026-10-16T05:31:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s68",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/confident-ai/deepeval/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/jev_eval.py ; https://raw.githubusercontent.com/spring-ai-community/spring-ai-typesafe/51993bb28a0f52a88bf3280d609b000076122582/typesafe-spring-ai/src/main/java/org/springaicommunity/typesafe/rag/JevDocumentFilter.java",
+      "title": "Source R17-S68: raw.githubusercontent.com/confident-ai/deepeval/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/jev_eval.py ; https://raw.githubusercontent.com/spring-ai-community/spring-ai-typesafe/51993bb28a0f52a88bf3280d609b000076122582/typesafe-spring-ai/src/main/java/org/spri",
+      "claim": "if (documents.isEmpty()) { return List.of(); } (Documented)",
+      "accessed_at": "2026-10-16T05:30:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s69",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/promptAdvisor.mjs ; scripts/jev.mjs ; https://registry.npmjs.org/oh-my-claude-sisyphus",
+      "title": "Source R17-S69: raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/promptAdvisor.mjs ; scripts/jev.mjs ; https://registry.npmjs.org/oh-my-claude-sisyphus",
+      "claim": "main().catch(() => {}); // Jev unavailable/unconfigured/timed out: fail silent, never block. (Documented)",
+      "accessed_at": "2026-10-16T05:33:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s72",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/openlayer-ai/jevals/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_bench.py ; src/jevals/_calibrate.py ; src/jevals/integrations/_docs.py ; https://raw.githubusercontent.com/charlesdove977/competitor-hunter/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/web/index.html ; web/studio.html",
+      "title": "Source R17-S72: raw.githubusercontent.com/openlayer-ai/jevals/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_bench.py ; src/jevals/_calibrate.py ; src/jevals/integrations/_docs.py ; https://raw.githubusercontent.com/charlesdove977/competitor-hunter/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/web/",
+      "claim": "llm=ChatOpenAI(model=model, api_key=api_key, base_url=base_url, temperature=0), (Documented)",
+      "accessed_at": "2026-10-16T05:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s73",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/bileshg/JevPlaysSnakeGame/git/trees/b9237bf9111cc7dba0e41da54a4b83de1e42f366?recursive=1 ; raw main.py, src/runner.py, src/game/engine.py, src/game/snake.py, src/agents/jev_agent.py",
+      "title": "Source R17-S73: api.github.com/repos/bileshg/JevPlaysSnakeGame/git/trees/b9237bf9111cc7dba0e41da54a4b83de1e42f366?recursive=1 ; raw main.py, src/runner.py, src/game/engine.py, src/game/snake.py, src/agents/jev_agent.py",
+      "claim": "# Prevent the snake from reversing (Documented)",
+      "accessed_at": "2026-10-16T05:38:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s100",
+      "source_type": "documented source",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/jev_eval.py#L182-L194",
+      "title": "Source R17-S100: github.com/confident-ai/deepeval/blob/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/jev_eval.py#L182-L194",
+      "claim": "def _decide(self, state: Dict[str, Any]) -> List[QuestionOutcome]: answers, cost = self.system_one_model.decide( state, build_questions(self.questions) ) self._accrue(cost) return outcomes_from_answers(self.questions, answers) async def _a_decide(self, state: Dict[str, Any]) -> (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s101",
+      "source_type": "documented source",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/utils.py#L48-L53",
+      "title": "Source R17-S101: github.com/confident-ai/deepeval/blob/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/utils.py#L48-L53",
+      "claim": "def initialize_jev_model( model: Optional[Union[str, DeepEvalBaseSystemOneModel]] = None, ) -> DeepEvalBaseSystemOneModel: \"\"\"JevEval needs Jev in every mode; there is no LLM to fall back to.\"\"\" if (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s102",
+      "source_type": "documented source",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/utils.py#L108-L114",
+      "title": "Source R17-S102: github.com/confident-ai/deepeval/blob/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/utils.py#L108-L114",
+      "claim": "def value_from_answer( question: JevQuestion, answers: SystemOneAnswers, key: str ) -> QuestionOutcome: if isinstance(question, Noul): answer = answers.nouls.get(key) if answer is None: raise DeepEvalError(f\"Jev returned no (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s103",
+      "source_type": "documented source",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/utils.py#L48-L68",
+      "title": "Source R17-S103: github.com/confident-ai/deepeval/blob/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/utils.py#L48-L68",
+      "claim": "def initialize_jev_model( model: Optional[Union[str, DeepEvalBaseSystemOneModel]] = None, ) -> DeepEvalBaseSystemOneModel: \"\"\"JevEval needs Jev in every mode; there is no LLM to fall back to.\"\"\" if (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s104",
+      "source_type": "documented source",
+      "source_url": "https://github.com/confident-ai/deepeval/blob/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/jev_eval.py#L218-L228",
+      "title": "Source R17-S104: github.com/confident-ai/deepeval/blob/a200ecede6456f92d7cbbb350b7b3fb4d78d36b3/deepeval/metrics/jev_eval/jev_eval.py#L218-L228",
+      "claim": "def _finalize(self, outcomes: List[QuestionOutcome]) -> None: if self.strict_mode: outcomes = mark_strict(self.questions, outcomes) self.score = aggregate_strict(outcomes) else: self.score = aggregate(outcomes) self._system_one_outcomes = outcomes self.score_breakdown = [o.model_dump() (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s105",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_runner.py#L117-L124",
+      "title": "Source R17-S105: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_runner.py#L117-L124",
+      "claim": "def _plan(evals: Sequence[Eval], s: Sample) -> tuple[list[_Group], list[Result]]: groups: list[_Group] = [] done: list[Result] = [] for ev in evals: ok, why = ev.applicable(s) if (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s106",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_runner.py#L125-L133",
+      "title": "Source R17-S106: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_runner.py#L125-L133",
+      "claim": "try: pre = ev.pre(s) except Exception as e: # noqa: BLE001 done.append(Result(name=ev.name, error=f\"pre: {e}\")) continue if pre is not None: pre.name = ev.name done.append(pre) continue (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s107",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_runner.py#L140-L147",
+      "title": "Source R17-S107: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_runner.py#L140-L147",
+      "claim": "if not qs: try: r = ev.reduce({}, s) r.name = ev.name done.append(r) except Exception as e: # noqa: BLE001 done.append(Result(name=ev.name, error=f\"reduce: {e}\")) continue (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s108",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/agent/_evals.py#L246-L251",
+      "title": "Source R17-S108: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/agent/_evals.py#L246-L251",
+      "claim": "def pre(self, s: Sample) -> Result | None: if len(s.tool_calls) < 2: return Result(score=1.0, passed=True, probability=0.0, detail=\"fewer than 2 tool calls\") if self._repeats(s) < self.min_repeats: (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s109",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/security/_evals.py#L224-L229",
+      "title": "Source R17-S109: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/security/_evals.py#L224-L229",
+      "claim": "def pre(self, s: Sample) -> Result | None: if not self._entities(s): return Result( score=1.0, passed=True, probability=0.0, detail=\"no entities\", evidence={\"entities\": []} ) return None (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s110",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/security/_evals.py#L293-L303",
+      "title": "Source R17-S110: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/security/_evals.py#L293-L303",
+      "claim": "def pre(self, s: Sample) -> Result | None: ents, terms = detect_phi(self._text(s)) if not ents and not terms: return Result( score=1.0, passed=True, probability=0.0, detail=\"no identifiers (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s111",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/security/_evals.py#L362-L379",
+      "title": "Source R17-S111: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/security/_evals.py#L362-L379",
+      "claim": "def pre(self, s: Sample) -> Result | None: ents = detect_secrets(self._text(s)) if not ents: return Result( score=1.0, passed=True, probability=0.0, detail=\"no secret patterns\", evidence={\"secrets\": []} ) (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s112",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/agent/_evals.py#L467-L490",
+      "title": "Source R17-S112: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/agent/_evals.py#L467-L490",
+      "claim": "def pre(self, s: Sample) -> Result | None: actual = [self._key(tc) for tc in s.tool_calls] expected = [ self._key(tc if isinstance(tc, dict) else {\"name\": tc}) (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s113",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/agent/_evals.py#L507-L525",
+      "title": "Source R17-S113: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/agent/_evals.py#L507-L525",
+      "claim": "def pre(self, s: Sample) -> Result | None: a = {self._key(tc) for tc in s.tool_calls} e = {self._key(tc) for tc in s[\"expected_tool_calls\"]} tp = len(a (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s114",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/__init__.py#L97-L98",
+      "title": "Source R17-S114: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/__init__.py#L97-L98",
+      "claim": "if name == \"mock\": return MockBackend() (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s115",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/__init__.py#L38-L51",
+      "title": "Source R17-S115: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/__init__.py#L38-L51",
+      "claim": "def _autodetect() -> str: env = os.environ if env.get(\"TYPESAFE_API_KEY\"): return \"jev\" if env.get(\"AI_GATEWAY_API_KEY\") or env.get(\"VERCEL_OIDC_TOKEN\"): return \"vercel\" if env.get(\"KEV_BASE_URL\"): return \"kev\" if env.get(\"EIKOS_BASE_URL\"): return \"eikos\" (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s116",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/integrations/openai_agents.py#L101-L105",
+      "title": "Source R17-S116: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/integrations/openai_agents.py#L101-L105",
+      "claim": "def _guard_one(tool: Any, before: Gate | None, after: Gate | None, on_escalate: Any, on_block: str) -> Any: from agents import FunctionTool # type: ignore if (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s117",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_gate.py#L129-L130",
+      "title": "Source R17-S117: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_gate.py#L129-L130",
+      "claim": "if r.skipped or ev is None: continue (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s118",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_runner.py#L48-L50",
+      "title": "Source R17-S118: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_runner.py#L48-L50",
+      "claim": "@property def passed(self) -> bool: return all(r.passed is not False for r in self.results if not r.skipped) (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s119",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_gate.py#L82-L88",
+      "title": "Source R17-S119: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_gate.py#L82-L88",
+      "claim": "def __init__( self, *evals: Eval | Sequence[Eval], policy: Callable[[EvalReport], Action | None] | None = None, backend: str | Backend | None = None, on_error: (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s120",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/_wire.py#L91-L96",
+      "title": "Source R17-S120: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/_wire.py#L91-L96",
+      "claim": "def _clamp(p: Any) -> float: try: v = float(p) except (TypeError, ValueError): return 0.5 return min(1.0, max(0.0, v)) (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s121",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_runner.py#L167-L176",
+      "title": "Source R17-S121: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/_runner.py#L167-L176",
+      "claim": "for ev, qs in g.members: answers: dict[str, Answer] = {} for qid in qs: a = resp.answers.get(f\"{ev.key}.{qid}\") if a is not None: answers[qid] = a (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s122",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/typesafe.py#L26-L26",
+      "title": "Source R17-S122: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/typesafe.py#L26-L26",
+      "claim": "timeout: float = 15.0, # Jev answers in ~300ms; a hung connection should fail fast and retry (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s123",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/_base.py#L45-L45",
+      "title": "Source R17-S123: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/backends/_base.py#L45-L45",
+      "claim": "max_retries: int = 4 # on 429 / 5xx / connection errors; backoff 0.5, 1, 2, 4s + jitter (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s124",
+      "source_type": "documented source",
+      "source_url": "https://github.com/spring-ai-community/spring-ai-typesafe/blob/51993bb28a0f52a88bf3280d609b000076122582/typesafe-spring-ai/src/main/java/org/springaicommunity/typesafe/rag/JevDocumentFilter.java#L143-L149",
+      "title": "Source R17-S124: github.com/spring-ai-community/spring-ai-typesafe/blob/51993bb28a0f52a88bf3280d609b000076122582/typesafe-spring-ai/src/main/java/org/springaicommunity/typesafe/rag/JevDocumentFilter.java#L143-L149",
+      "claim": "@Override public List<Document> process(Query query, List<Document> documents) { Assert.notNull(query, \"query must not be null\"); Assert.notNull(documents, \"documents must not be null\"); if (documents.isEmpty()) { return List.of(); (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s125",
+      "source_type": "documented source",
+      "source_url": "https://github.com/spring-ai-community/spring-ai-typesafe/blob/51993bb28a0f52a88bf3280d609b000076122582/spring-ai-starter-typesafe/src/main/java/org/springaicommunity/typesafe/autoconfigure/TypeSafeAutoConfiguration.java#L48-L52",
+      "title": "Source R17-S125: github.com/spring-ai-community/spring-ai-typesafe/blob/51993bb28a0f52a88bf3280d609b000076122582/spring-ai-starter-typesafe/src/main/java/org/springaicommunity/typesafe/autoconfigure/TypeSafeAutoConfiguration.java#L48-L52",
+      "claim": "@AutoConfiguration @ConditionalOnClass({ TypeSafeClient.class, RestClient.class }) @ConditionalOnProperty(prefix = TypeSafeProperties.CONFIG_PREFIX, name = \"api-key\") @EnableConfigurationProperties(TypeSafeProperties.class) public class TypeSafeAutoConfiguration { (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s126",
+      "source_type": "documented source",
+      "source_url": "https://github.com/spring-ai-community/spring-ai-typesafe/blob/51993bb28a0f52a88bf3280d609b000076122582/typesafe-spring-ai/src/main/java/org/springaicommunity/typesafe/rag/JevDocumentFilter.java#L185-L193",
+      "title": "Source R17-S126: github.com/spring-ai-community/spring-ai-typesafe/blob/51993bb28a0f52a88bf3280d609b000076122582/typesafe-spring-ai/src/main/java/org/springaicommunity/typesafe/rag/JevDocumentFilter.java#L185-L193",
+      "claim": "else { unscreened++; if (firstFailure == null) { firstFailure = result.failure(); } } if (classification == null) { kept.add(document); (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s127",
+      "source_type": "documented source",
+      "source_url": "https://github.com/spring-ai-community/spring-ai-typesafe/blob/51993bb28a0f52a88bf3280d609b000076122582/typesafe-spring-ai/src/main/java/org/springaicommunity/typesafe/rag/JevDocumentFilter.java#L217-L230",
+      "title": "Source R17-S127: github.com/spring-ai-community/spring-ai-typesafe/blob/51993bb28a0f52a88bf3280d609b000076122582/typesafe-spring-ai/src/main/java/org/springaicommunity/typesafe/rag/JevDocumentFilter.java#L217-L230",
+      "claim": "public Classification classify(SystemOneResponse response) { Assert.notNull(response, \"response must not be null\"); if (response.noulValue(\"contains_prompt_injection\") > this.policy.injection()) { return Classification.EXCLUDED; } if (response.noulValue(\"contradicts_query_premise\") > this.policy.contradiction()) { return (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s128",
+      "source_type": "documented source",
+      "source_url": "https://github.com/spring-ai-community/spring-ai-typesafe/blob/51993bb28a0f52a88bf3280d609b000076122582/spring-ai-starter-typesafe/src/main/java/org/springaicommunity/typesafe/autoconfigure/TypeSafeAutoConfiguration.java#L68-L71",
+      "title": "Source R17-S128: github.com/spring-ai-community/spring-ai-typesafe/blob/51993bb28a0f52a88bf3280d609b000076122582/spring-ai-starter-typesafe/src/main/java/org/springaicommunity/typesafe/autoconfigure/TypeSafeAutoConfiguration.java#L68-L71",
+      "claim": "// key. Fail fast, naming the property, rather than build a client that cannot // authenticate. Assert.state(StringUtils.hasText(properties.getApiKey()), () -> \"No API key configured. Set \" (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s129",
+      "source_type": "documented source",
+      "source_url": "https://github.com/WiktorB2004/llama-index-jev/blob/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/base.py#L125-L129",
+      "title": "Source R17-S129: github.com/WiktorB2004/llama-index-jev/blob/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/base.py#L125-L129",
+      "claim": "if query_bundle is None: raise ValueError(\"Missing query bundle in extra info.\") if len(nodes) == 0: dispatcher.event(ReRankEndEvent(nodes=[])) return [] (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s130",
+      "source_type": "documented source",
+      "source_url": "https://github.com/WiktorB2004/llama-index-jev/blob/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/base.py#L171-L175",
+      "title": "Source R17-S130: github.com/WiktorB2004/llama-index-jev/blob/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/base.py#L171-L175",
+      "claim": "if query_bundle is None: raise ValueError(\"Missing query bundle in extra info.\") if len(nodes) == 0: dispatcher.event(ReRankEndEvent(nodes=[])) return [] (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s131",
+      "source_type": "documented source",
+      "source_url": "https://github.com/WiktorB2004/llama-index-jev/blob/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/base.py#L140-L152",
+      "title": "Source R17-S131: github.com/WiktorB2004/llama-index-jev/blob/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/base.py#L140-L152",
+      "claim": "try: scored = self._score_nodes(nodes, query_bundle.query_str) reranked = sorted(scored, key=lambda n: n.score or 0.0, reverse=True)[ : self.top_n ] except Exception: if self.raise_on_error: raise logger.warning( \"Jev rerank (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s132",
+      "source_type": "documented source",
+      "source_url": "https://github.com/WiktorB2004/llama-index-jev/blob/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/base.py#L69-L82",
+      "title": "Source R17-S132: github.com/WiktorB2004/llama-index-jev/blob/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/base.py#L69-L82",
+      "claim": "confidence_threshold: float | None = Field( default=None, description=( \"Score mode only. Never drops nodes; sets metadata \" \"`jev_low_confidence` when answer.confidence is below this value.\" ), (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s133",
+      "source_type": "documented source",
+      "source_url": "https://github.com/WiktorB2004/llama-index-jev/blob/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/utils.py#L92-L97",
+      "title": "Source R17-S133: github.com/WiktorB2004/llama-index-jev/blob/421afdafe16b832173874f1f642a731e23b8f374/packages/llama-index-postprocessor-jev/llama_index/postprocessor/jev/utils.py#L92-L97",
+      "claim": "key = os.environ.get(\"TYPESAFE_API_KEY\") if not key: raise ValueError( \"TypeSafe API key is missing. Pass api_key=... or set the \" \"TYPESAFE_API_KEY environment variable.\" ) (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s134",
+      "source_type": "documented source",
+      "source_url": "https://github.com/langchain-ai/langchain/blob/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/experimental/middleware/model_router.py#L163-L174",
+      "title": "Source R17-S134: github.com/langchain-ai/langchain/blob/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/experimental/middleware/model_router.py#L163-L174",
+      "claim": "@override def before_agent( self, state: _ModelRouterState, runtime: Runtime[ContextT] ) -> dict[str, ChoiceAnswer]: \"\"\"Classify the latest task and store the complete routing answer.\"\"\" response = self.classifier.invoke( (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s135",
+      "source_type": "documented source",
+      "source_url": "https://github.com/langchain-ai/langchain/blob/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/experimental/middleware/model_router.py#L194-L197",
+      "title": "Source R17-S135: github.com/langchain-ai/langchain/blob/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/experimental/middleware/model_router.py#L194-L197",
+      "claim": ") -> ModelResponse[ResponseT]: \"\"\"Route a synchronous model call to the selected model.\"\"\" answer: ChoiceAnswer = request.state[\"model_route\"] # type: ignore[typeddict-item] return handler(request.override(model=self.models[answer.choice])) (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s136",
+      "source_type": "documented source",
+      "source_url": "https://github.com/langchain-ai/langchain/blob/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/experimental/middleware/model_router.py#L84-L87",
+      "title": "Source R17-S136: github.com/langchain-ai/langchain/blob/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/experimental/middleware/model_router.py#L84-L87",
+      "claim": "for every model call in the run. Keeping the complete answer makes probabilities and confidence available in state and traces. Classifier failures propagate and terminate (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s137",
+      "source_type": "documented source",
+      "source_url": "https://github.com/langchain-ai/langchain/blob/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/classifier.py#L38-L38",
+      "title": "Source R17-S137: github.com/langchain-ai/langchain/blob/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/classifier.py#L38-L38",
+      "claim": "_DEFAULT_TIMEOUT = 30.0 (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s138",
+      "source_type": "documented source",
+      "source_url": "https://github.com/langchain-ai/langchain/blob/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/classifier.py#L259-L264",
+      "title": "Source R17-S138: github.com/langchain-ai/langchain/blob/4af7ab8fcb98c2dc211d9e34cddedffa23eba4d9/libs/partners/typesafe/langchain_typesafe/classifier.py#L259-L264",
+      "claim": "if not secret.get_secret_value().strip(): message = ( \"TypeSafe API key is required. Pass `api_key` or set \" \"`TYPESAFE_API_KEY`.\" ) raise ValueError(message) (Documented)",
+      "accessed_at": "2026-10-16T05:25:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s139",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/daily.py#L35-L35",
+      "title": "Source R17-S139: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/daily.py#L35-L35",
+      "claim": "start = max(LIVE_START, (dt.date.fromisoformat(today) - dt.timedelta(days=WINDOW_DAYS)).isoformat()) (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s140",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/daily.py#L44-L45",
+      "title": "Source R17-S140: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/daily.py#L44-L45",
+      "claim": "done = {j[\"id\"] for j in read_jsonl(DATA / \"judgments.jsonl\")} todo = [r for r in rows if r[\"reply\"] and r[\"id\"] not in done] (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s141",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/daily.py#L52-L54",
+      "title": "Source R17-S141: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/daily.py#L52-L54",
+      "claim": "with lock: if spent[0] >= MAX_RUN_COST: return None (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s142",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/compact.py#L50-L50",
+      "title": "Source R17-S142: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/compact.py#L50-L50",
+      "claim": "out += [compact(r, *jev[r[\"id\"]]) for r in rows if r[\"id\"] in jev] (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s143",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/label_server.py#L26-L26",
+      "title": "Source R17-S143: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/label_server.py#L26-L26",
+      "claim": "serve_sample, serve_labels, labeller = SAMPLE, LABELS, \"claude-opus-5-5\" (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s144",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/run_years.py#L36-L38",
+      "title": "Source R17-S144: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/run_years.py#L36-L38",
+      "claim": "def sample(path, n, seed=1): rows = [r for r in read_jsonl(path) if r[\"reply\"]] return random.Random(seed).sample(rows, min(n, len(rows))) (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s145",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/run_months.py#L50-L52",
+      "title": "Source R17-S145: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/run_months.py#L50-L52",
+      "claim": "with lock: if spent[0] >= budget: return {\"id\": row[\"id\"], \"skipped\": True} (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s146",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/daily.py#L57-L59",
+      "title": "Source R17-S146: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/daily.py#L57-L59",
+      "claim": "except Exception as e: # picked up again on the next run print(f\"failed {row['id']}: {e}\") return None (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s147",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/jev.py#L67-L84",
+      "title": "Source R17-S147: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/jev.py#L67-L84",
+      "claim": "def decide(state, questions, key, tries=5): provider, key = key _, endpoint, model = PROVIDERS[provider] body = {\"model\": model, \"state\": state, \"questions\": questions} req = urllib.request.Request( (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s148",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/jev.py#L28-L28",
+      "title": "Source R17-S148: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/jev.py#L28-L28",
+      "claim": "raise SystemExit(\"set TYPESAFE_API_KEY (or OPENROUTER_API_KEY) first\") (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s149",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L684-L685",
+      "title": "Source R17-S149: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L684-L685",
+      "claim": "if args.resume and (run / \"verdicts.jsonl\").exists(): return print(\"[judge] verdicts.jsonl exists, skipping\") (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s150",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L771-L777",
+      "title": "Source R17-S150: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L771-L777",
+      "claim": "p[\"paid_reason\"] = None if p[\"er\"] is not None and p[\"er\"] < PAID_ER_FLOOR: p[\"paid_reason\"] = \"ER %.2f%% is under the %.1f%% floor\" % (p[\"er\"], PAID_ER_FLOOR) elif (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s151",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L855-L855",
+      "title": "Source R17-S151: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L855-L855",
+      "claim": "reddit[\"posts\"] = sorted(reddit[\"posts\"], key=lambda r: -((r.get(\"jev\") or {}).get(\"icp_fit\") or 0))[:40] (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s152",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/studio.py#L192-L202",
+      "title": "Source R17-S152: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/studio.py#L192-L202",
+      "claim": "for platform in (\"youtube\", \"instagram\"): group = [p for p in result[\"pieces\"] if p[\"platform\"] == platform and p.get(\"conversion\") is not None] ranked = sorted(x[\"conversion\"] for (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s153",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/library.py#L301-L319",
+      "title": "Source R17-S153: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/library.py#L301-L319",
+      "claim": "def breakdown(folder, post, transcript, sheets): claude = shutil.which(\"claude\") if not claude: raise RuntimeError(\"Claude Code is not on PATH, so nobody can write the breakdown.\") status(folder, (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s154",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/server.py#L319-L358",
+      "title": "Source R17-S154: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/server.py#L319-L358",
+      "claim": "def ask(chat_id, message, piece_ids, include_top, include_reddit, token=None, card_ids=(), include_reports=False): claude = shutil.which(\"claude\") if not claude: raise ValueError(\"Claude Code is not on PATH.\") CHATS.mkdir(parents=True, exist_ok=True) chat (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s155",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L565-L566",
+      "title": "Source R17-S155: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L565-L566",
+      "claim": "except Exception as e: row[\"_error\"] = str(e)[:300] (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s156",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L778-L778",
+      "title": "Source R17-S156: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L778-L778",
+      "claim": "organic = [p for p in pieces if not p[\"paid_reason\"] and p[\"id\"] in verdicts and \"_error\" not in verdicts[p[\"id\"]]] (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s157",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L796-L796",
+      "title": "Source R17-S157: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L796-L796",
+      "claim": "fresh = 1 - 0.7 * v[\"newsjack\"] * min(1.0, max(0.0, (p[\"age_days\"] - 14) / 45)) (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s158",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/claude-x-jev/blob/c8662b0550b2a999d1dbcfb148683615cf92636a/skill/scripts/jev.py#L158-L158",
+      "title": "Source R17-S158: github.com/charlesdove977/claude-x-jev/blob/c8662b0550b2a999d1dbcfb148683615cf92636a/skill/scripts/jev.py#L158-L158",
+      "claim": "def decide(state, questions, model, key, timeout=60, retries=4): (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s159",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/claude-x-jev/blob/c8662b0550b2a999d1dbcfb148683615cf92636a/skill/scripts/jev.py#L145-L149",
+      "title": "Source R17-S159: github.com/charlesdove977/claude-x-jev/blob/c8662b0550b2a999d1dbcfb148683615cf92636a/skill/scripts/jev.py#L145-L149",
+      "claim": "headers={\"Authorization\": \"Bearer \" + key, \"Content-Type\": \"application/json\"}, method=\"POST\", ) with urllib.request.urlopen(req, timeout=timeout) as resp: return json.loads(resp.read().decode(\"utf-8\")) (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s160",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/shared/providers/index.ts#L27-L30",
+      "title": "Source R17-S160: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/shared/providers/index.ts#L27-L30",
+      "claim": "case 'openrouter': return callOpenRouter(settings.openrouter, request); case 'cloudflare': return callCloudflare(settings.cloudflare, request); (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s161",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L141-L151",
+      "title": "Source R17-S161: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L141-L151",
+      "claim": "private async followTab(): Promise<void> { const pending = this.pendingTab; if (!pending) return; this.pendingTab = null; this.lastFingerprint = null; // a different document: the previous action's (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s162",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L538-L542",
+      "title": "Source R17-S162: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L538-L542",
+      "claim": "if (this.pendingText && this.pendingText.key === key) { generatedText = this.pendingText.text; } else { try { generatedText = await generateFieldText(this.settings, context); (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s163",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L226-L229",
+      "title": "Source R17-S163: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L226-L229",
+      "claim": "if (this.progress.currentStep >= this.progress.maxSteps) { this.finish('blocked', `Reached the ${this.progress.maxSteps}-step budget.`); return; } (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s164",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L253-L256",
+      "title": "Source R17-S164: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L253-L256",
+      "claim": "if (this.progress.currentStep >= this.progress.maxSteps) { this.finish('blocked', `Reached the ${this.progress.maxSteps}-step budget without DONE.`); break; } (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s165",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L423-L426",
+      "title": "Source R17-S165: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L423-L426",
+      "claim": "if (this.decisionCount >= this.progress.maxSteps * 2) { this.finish('blocked', 'Reached the model-call budget for this run.'); return false; } (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s166",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L386-L395",
+      "title": "Source R17-S166: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L386-L395",
+      "claim": "if ( recent.length === DEADLOCK_RUN && recent.every((h) => h.page_changed === false && h.kind !== 'wait') ) { this.finish( 'blocked', `${DEADLOCK_RUN} consecutive actions produced no change (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s167",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L402-L405",
+      "title": "Source R17-S167: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L402-L405",
+      "claim": "if (repeated >= REPEAT_LIMIT) { this.finish('blocked', `The same action \"${repeatedAction}\" was repeated ${repeated} times without reaching the goal.`); return false; } (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s168",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/shared/providers/http.ts#L15-L25",
+      "title": "Source R17-S168: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/shared/providers/http.ts#L15-L25",
+      "claim": "const retries = options.retries ?? 3; const label = options.label || 'Model provider'; for (let attempt = 0; ; attempt++) { let response: Response; try (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s169",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L79-L79",
+      "title": "Source R17-S169: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/background/agent.ts#L79-L79",
+      "claim": "const TERMINAL_CONFIRM_THRESHOLD = 0.5; (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s170",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sample/src/main/kotlin/io/github/jevandroid/sample/MainActivity.kt#L144-L149",
+      "title": "Source R17-S170: github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sample/src/main/kotlin/io/github/jevandroid/sample/MainActivity.kt#L144-L149",
+      "claim": "val backendProvider = when (backend) { ModelBackend.JEV -> JevProvider(apiKey, modelName) ModelBackend.DEEPSEEK -> DeepSeekProvider(apiKey, modelName) } val triplePolicy = if (scenario.id == \"bilibili_triple\") BilibiliTriplePolicy() else null (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s171",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sample/src/main/kotlin/io/github/jevandroid/sample/BilibiliTriplePolicy.kt#L29-L57",
+      "title": "Source R17-S171: github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sample/src/main/kotlin/io/github/jevandroid/sample/BilibiliTriplePolicy.kt#L29-L57",
+      "claim": "fun provider(delegate: DecisionProvider): DecisionProvider = object : ContextualDecisionProvider { override suspend fun decide( task: Task, snapshot: UiSnapshot, history: List<StepRecord>, context: DecisionContext, ): Decision { val (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s172",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sample/src/main/kotlin/io/github/jevandroid/sample/MainActivity.kt#L163-L165",
+      "title": "Source R17-S172: github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sample/src/main/kotlin/io/github/jevandroid/sample/MainActivity.kt#L163-L165",
+      "claim": "if (scenario.fixture != FixtureKind.NONE) { startActivity(Intent(this, FixtureActivity::class.java).putExtra(FixtureActivity.EXTRA_KIND, scenario.fixture.name)) } else moveTaskToBack(true) (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s173",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/core/src/main/kotlin/io/github/jevandroid/core/JevAgent.kt#L117-L118",
+      "title": "Source R17-S173: github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/core/src/main/kotlin/io/github/jevandroid/core/JevAgent.kt#L117-L118",
+      "claim": "RunResult(Status.LIMIT_REACHED, steps, \"Step budget exhausted\") } ?: RunResult(Status.TIMED_OUT, steps, \"Task deadline reached\") (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s174",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github/jevandroid/ProviderTransport.kt#L64-L67",
+      "title": "Source R17-S174: github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github/jevandroid/ProviderTransport.kt#L64-L67",
+      "claim": ".callTimeout(25, TimeUnit.SECONDS) .followRedirects(false) .followSslRedirects(false) .retryOnConnectionFailure(false) (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s175",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github/jevandroid/JevProvider.kt#L16-L16",
+      "title": "Source R17-S175: github.com/dougsong/jev-android/blob/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github/jevandroid/JevProvider.kt#L16-L16",
+      "claim": "require(apiKey.isNotBlank() && apiKey.all { it in ' '..'~' }) { \"Invalid API key\" } (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s176",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/jev.py#L17-L32",
+      "title": "Source R17-S176: github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/jev.py#L17-L32",
+      "claim": "key = env(\"TYPESAFE_API_KEY\") if not key: return None body = {\"state\": signals, \"model\": JEV_MODEL, \"questions\": {\"verdict\": { \"type\": \"choice\", \"instructions\": \"You are a frugal, honest (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s177",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/research.py#L186-L191",
+      "title": "Source R17-S177: github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/research.py#L186-L191",
+      "claim": "} summary = {\"signals\": signals} if focus == \"all\": v = await _run(\"verdict\", \"Jev deciding: buy, wait or skip\", jev.verdict(signals), emit) if not v or (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s178",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/research.py#L166-L169",
+      "title": "Source R17-S178: github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/research.py#L166-L169",
+      "claim": "if st and st.get(\"best\"): savings = int(round(st[\"best\"][\"saving\"] * 100)) await emit({\"type\": \"savings\", \"total_cents\": await db.add_saving(\"cheaper_store\", savings, f\"{st['best']['store']} cheaper for {short_title(p)}\")}) (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s179",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/main.py#L41-L54",
+      "title": "Source R17-S179: github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/main.py#L41-L54",
+      "claim": "async def price_drop(w: dict, new_price: float, source: str = \"observed\"): await db.q(\"insert into price_history (product_key, price, source) values (%s,%s,%s)\", w[\"product_key\"], new_price, source) if new_price > (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s180",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/live.py#L100-L120",
+      "title": "Source R17-S180: github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/live.py#L100-L120",
+      "claim": "elif fc.name == \"watch_price\": p, target = self.product, float(args[\"target_price\"]) key = await db.record_product(p) await db.q(\"insert into watchlist (product_key,title,url,target_price,current_price) values (%s,%s,%s,%s,%s)\", key, p.get(\"title\"), p.get(\"url\"), target, p.get(\"price\")) (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s181",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/live.py#L135-L155",
+      "title": "Source R17-S181: github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/live.py#L135-L155",
+      "claim": "async def pump(self): while True: async for msg in self.session.receive(): sc = msg.server_content if sc: if sc.interrupted: await self.emit({\"type\": \"interrupted\"}) if sc.model_turn: for part in (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s182",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/mail.py#L81-L101",
+      "title": "Source R17-S182: github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/mail.py#L81-L101",
+      "claim": "async def handle_incoming(msg, emit: Callable[[dict], Awaitable[None]] | None = None): \"\"\"A forwarded order confirmation becomes a tracked purchase (return window + price-drop protection).\"\"\" text = (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s183",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/research.py#L203-L205",
+      "title": "Source R17-S183: github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/backend/app/research.py#L203-L205",
+      "claim": "headline = {\"BUY_NOW\": \"Good deal — buy it\", \"WAIT\": \"Wait — this price isn't the real deal\", \"SKIP\": \"Skip it\", \"BUY_ALTERNATIVE\": \"There's a better buy\"}[v[\"verdict\"]] (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s184",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1593-L1600",
+      "title": "Source R17-S184: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1593-L1600",
+      "claim": "if (!job.dryRun && !item.final && (message.labelIds || []).indexOf(labelContext.technical.id) !== -1) { removePendingItem_(job, item.id); } }); metadataRead.unavailableIds.forEach(function(id) { skipUnavailableGmailMessage_(job, id, metadataById[id], events, results); }); (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s185",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1687-L1705",
+      "title": "Source R17-S185: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1687-L1705",
+      "claim": "if (!body) { const reviewFallback = rules.filter(function(rule) { return !rule.spam && (rule.id === 'review' || String(rule.name || '').toLowerCase() === 'review'); })[0]; if (reviewFallback) { item.final (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s186",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1759-L1759",
+      "title": "Source R17-S186: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1759-L1759",
+      "claim": "if (finalized.length && !job.dryRun) { (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s187",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1200-L1214",
+      "title": "Source R17-S187: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1200-L1214",
+      "claim": "if ( !config.dryRun ) { ensureGmailLabels_( rules ); ensureTechnicalLabel_(); technicalLabelExists = true; } (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s188",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L2508-L2517",
+      "title": "Source R17-S188: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L2508-L2517",
+      "claim": "if ( technicalLabelExists ) { parts.push( '-label:' + APP.TECHNICAL_TRIAGED_LABEL ); (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s189",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1902-L1905",
+      "title": "Source R17-S189: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1902-L1905",
+      "claim": "if (Number(job.spentUsd || 0) + reserve + nextReserve > job.maxSpendUsd) { budgetBlocked = true; break; } (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s190",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L2049-L2056",
+      "title": "Source R17-S190: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L2049-L2056",
+      "claim": "if (parsed.failureScope === 'session') { if (!parsed.retryable) throw new Error(parsed.error); job.status = 'paused'; job.stopReason = 'provider-temporary'; job.lastError = parsed.error; events.push({level: 'warn', message: parsed.error + ' (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s191",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1825-L1827",
+      "title": "Source R17-S191: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1825-L1827",
+      "claim": "} catch (error) { job.status = 'error'; job.stopReason = 'processing-error'; (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s192",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L2070-L2087",
+      "title": "Source R17-S192: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L2070-L2087",
+      "claim": "if (job.skippedMessageIds.indexOf(item.id) === -1) { if (job.skippedMessageIds.length >= APP.MAX_SKIPPED_MESSAGE_IDS) { throw new Error('Too many messages were skipped safely in this session. Start a new session (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s193",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1654-L1656",
+      "title": "Source R17-S193: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L1654-L1656",
+      "claim": "const needsFull = item.metadataResult.confidence < job.metadataThreshold || (job.mode === 'labels_archive' && selected.spam && item.metadataResult.confidence < job.archiveThreshold); (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s194",
+      "source_type": "documented source",
+      "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L719-L724",
+      "title": "Source R17-S194: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/blob/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs#L719-L724",
+      "claim": "if (!key) { throw new Error( 'Enter an OpenRouter API key or save one first.' ); } (Documented)",
+      "accessed_at": "2026-10-16T05:26:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s200",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/skills/commits.atom",
+      "title": "Source R17-S200: github.com/typesafe-ai/skills/commits.atom",
+      "claim": "Release v0.5.7 (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s201",
+      "source_type": "documented source",
+      "source_url": "https://github.com/danna-zhou/jev-mcp/commits.atom",
+      "title": "Source R17-S201: github.com/danna-zhou/jev-mcp/commits.atom",
+      "claim": "Revert additionalContext (forces Stop continuation); add macOS notifi (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s202",
+      "source_type": "documented source",
+      "source_url": "https://github.com/brunopivetta88/jev-claude/commits.atom",
+      "title": "Source R17-S202: github.com/brunopivetta88/jev-claude/commits.atom",
+      "claim": "Merge pull request #1: JEV + Claude guardrails (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s203",
+      "source_type": "documented source",
+      "source_url": "https://github.com/jkudish/jev-mcp/commits.atom",
+      "title": "Source R17-S203: github.com/jkudish/jev-mcp/commits.atom",
+      "claim": "chore: release 0.14.4 (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s204",
+      "source_type": "documented source",
+      "source_url": "https://github.com/jkudish/jev-mcp/releases.atom",
+      "title": "Source R17-S204: github.com/jkudish/jev-mcp/releases.atom",
+      "claim": "v0.14.3 (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s205",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@jkudish/jev-mcp",
+      "title": "Source R17-S205: registry.npmjs.org/@jkudish/jev-mcp",
+      "claim": "MCP server exposing TypeSafe Jev as purpose-built judgment tools (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s206",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@jkudish/jev-agent-tools",
+      "title": "Source R17-S206: registry.npmjs.org/@jkudish/jev-agent-tools",
+      "claim": "Jev transport/provider layer: multi-provider transport layer (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s207",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/langchain-typesafe/json",
+      "title": "Source R17-S207: pypi.org/pypi/langchain-typesafe/json",
+      "claim": "0.0.1a3 (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s208",
+      "source_type": "documented source",
+      "source_url": "https://github.com/langchain-ai/langchain/commits/master/libs/partners/typesafe.atom",
+      "title": "Source R17-S208: github.com/langchain-ai/langchain/commits/master/libs/partners/typesafe.atom",
+      "claim": "release(typesafe): 0.0.1a3 (#40693) (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s209",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/releases.atom",
+      "title": "Source R17-S209: github.com/Yeachan-Heo/oh-my-claudecode/releases.atom",
+      "claim": "Release v5.7.3 (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s210",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/commits.atom",
+      "title": "Source R17-S210: github.com/Yeachan-Heo/oh-my-claudecode/commits.atom",
+      "claim": "ci: authorize generated artifacts for release PR #4378 (#4381) (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s211",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/oh-my-claude-sisyphus",
+      "title": "Source R17-S211: registry.npmjs.org/oh-my-claude-sisyphus",
+      "claim": "Multi-agent orchestration system for Claude Code - Inspired by oh-my-opencode (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s212",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Yeachan-Heo/oh-my-claudecode/commits/v5.7.3/src/hooks/jev.atom",
+      "title": "Source R17-S212: github.com/Yeachan-Heo/oh-my-claudecode/commits/v5.7.3/src/hooks/jev.atom",
+      "claim": "feat: rename shipyard glossary slot CONTEXT.md to GLOSSARY.md (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s213",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/v5.7.3/src/hooks/jev/client.ts",
+      "title": "Source R17-S213: raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/v5.7.3/src/hooks/jev/client.ts",
+      "claim": "export const JEV_MODEL = 'jev-latest'; (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s214",
+      "source_type": "documented source",
+      "source_url": "https://github.com/madisonrickert/jev-permission-gate/commits.atom",
+      "title": "Source R17-S214: github.com/madisonrickert/jev-permission-gate/commits.atom",
+      "claim": "v0.2.0: report the sealed test split; catch abbreviated git options (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s215",
+      "source_type": "documented source",
+      "source_url": "https://github.com/gulbaki/jev-llm-guard/commits.atom",
+      "title": "Source R17-S215: github.com/gulbaki/jev-llm-guard/commits.atom",
+      "claim": "Limit public demo usage with shared atomic Redis quotas (Documented)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s216",
+      "source_type": "reported source",
+      "source_url": "https://registry.npmjs.org/jev-guard",
+      "title": "Source R17-S216: registry.npmjs.org/jev-guard",
+      "claim": "Prompt-injection and dangerous-action guard for coding agents (Claude Code, Code (Reported)",
+      "accessed_at": "2026-10-16T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s217",
+      "source_type": "reported source",
+      "source_url": "https://github.com/PeterFujiyu/jev-status-marketplace",
+      "title": "Source R17-S217: github.com/PeterFujiyu/jev-status-marketplace",
+      "claim": "asks TypeSafe Jev two independent questions after every turn and shows both answers above the prompt (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s218",
+      "source_type": "reported source",
+      "source_url": "https://github.com/apatlasdev/fast-decide-compaction",
+      "title": "Source R17-S218: github.com/apatlasdev/fast-decide-compaction",
+      "claim": "Claude Code plugin that replaces the compaction summary with Mercury Decide decisions (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s219",
+      "source_type": "reported source",
+      "source_url": "https://github.com/mcowdery/claude-model-guard",
+      "title": "Source R17-S219: github.com/mcowdery/claude-model-guard",
+      "claim": "Jev confidently wants a more capable tier (haiku → sonnet → opus) → blocks the prompt (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s220",
+      "source_type": "reported source",
+      "source_url": "https://github.com/VictorGambarini/jev-mod",
+      "title": "Source R17-S220: github.com/VictorGambarini/jev-mod",
+      "claim": "Whether the call should be put to you first. (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s221",
+      "source_type": "reported source",
+      "source_url": "https://github.com/DiegoSalazar/ask-jev-skill",
+      "title": "Source R17-S221: github.com/DiegoSalazar/ask-jev-skill",
+      "claim": "A Claude Code skill plus a dependency-free `jev` CLI (Bun) that lets Claude offload cheap, repetitive judgments (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s222",
+      "source_type": "reported source",
+      "source_url": "https://github.com/kanedayo/clef-mcp",
+      "title": "Source R17-S222: github.com/kanedayo/clef-mcp",
+      "claim": "MCP server exposing Cloudflare Clef (Jev/System One decision model) on Ollama to Claude Code (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s223",
+      "source_type": "reported source",
+      "source_url": "https://github.com/Sad1mus/agentic-portfolio",
+      "title": "Source R17-S223: github.com/Sad1mus/agentic-portfolio",
+      "claim": "mediciones en `benchmarks/results.md` ejecutadas con fallbacks deterministas (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s224",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@delt/claude-jev-advisor",
+      "title": "Source R17-S224: registry.npmjs.org/@delt/claude-jev-advisor",
+      "claim": "Unofficial Claude Code helpers using TypeSafe Jev: compact/clear advice and an rm guard (Documented)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s225",
+      "source_type": "reported source",
+      "source_url": "https://registry.npmjs.org/@muthuishere/jevx",
+      "title": "Source R17-S225: registry.npmjs.org/@muthuishere/jevx",
+      "claim": "no hook runs until you enable a plugin (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s226",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Novacon/ohmyjev",
+      "title": "Source R17-S226: github.com/Novacon/ohmyjev",
+      "claim": "Deny irreversible or destructive commands (Documented)",
+      "accessed_at": "2026-10-16T05:23:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s227",
+      "source_type": "reported source",
+      "source_url": "https://github.com/Oqura-ai/optim-jev",
+      "title": "Source R17-S227: github.com/Oqura-ai/optim-jev",
+      "claim": "Jev-powered context compaction, model routing, and skill selection in one Claude Code plugin. (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s228",
+      "source_type": "reported source",
+      "source_url": "https://github.com/Akurganow/model-router",
+      "title": "Source R17-S228: github.com/Akurganow/model-router",
+      "claim": "Then it sets the call's `model` and `effort`. (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s229",
+      "source_type": "reported source",
+      "source_url": "https://github.com/dominicrico/jev-router",
+      "title": "Source R17-S229: github.com/dominicrico/jev-router",
+      "claim": "sends each prompt, step and subagent to the cheapest Claude model that can do the job (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s230",
+      "source_type": "reported source",
+      "source_url": "https://github.com/cloud-f1/jev-agent-kit",
+      "title": "Source R17-S230: github.com/cloud-f1/jev-agent-kit",
+      "claim": "A Claude Code plugin that shortens long `Bash` output before the model reads it. (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s231",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/UditAkhourii/quicksilver",
+      "title": "Source R17-S231: api.github.com/repos/UditAkhourii/quicksilver",
+      "claim": "Claude Code skill: hand bulk judgment calls to Jev. (Documented)",
+      "accessed_at": "2026-10-16T05:25:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s232",
+      "source_type": "reported source",
+      "source_url": "https://github.com/GorOhanyan/jev-offload-mcp",
+      "title": "Source R17-S232: github.com/GorOhanyan/jev-offload-mcp",
+      "claim": "An MCP server that gives any coding agent (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s233",
+      "source_type": "reported source",
+      "source_url": "https://github.com/DarkisuSu/Jev-Claude-Router",
+      "title": "Source R17-S233: github.com/DarkisuSu/Jev-Claude-Router",
+      "claim": "asks TypeSafe Jev which local skills fit and which Claude model and effort to use (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s234",
+      "source_type": "reported source",
+      "source_url": "https://github.com/sutan13/claude-jev-router",
+      "title": "Source R17-S234: github.com/sutan13/claude-jev-router",
+      "claim": "route each prompt to the cheapest Claude model and thinking effort that fits, decided by TypeSafe Jev (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s235",
+      "source_type": "reported source",
+      "source_url": "https://github.com/michelle8961/building-with-typesafe-jev",
+      "title": "Source R17-S235: github.com/michelle8961/building-with-typesafe-jev",
+      "claim": "Unofficial skill that teaches coding agents to build with TypeSafe AI's Jev (Reported)",
+      "accessed_at": "2026-10-16T05:22:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s236",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/jev.ts",
+      "title": "Source R17-S236: raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/jev.ts",
+      "claim": "if (!res.ok) throw new JevError(`${provider}: HTTP ${res.status}`) (Documented)",
+      "accessed_at": "2026-10-16T05:23:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s237",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/ohmyjev.ts",
+      "title": "Source R17-S237: raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/ohmyjev.ts",
+      "claim": "Ask Jev. Any failure is logged, shown in the status, and answered with null so the caller passes through. (Documented)",
+      "accessed_at": "2026-10-16T05:23:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s238",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/policy.ts",
+      "title": "Source R17-S238: raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/policy.ts",
+      "claim": "if (effect.choice === 'irreversible' && effect.confidence >= c.bashIrreversible) (Documented)",
+      "accessed_at": "2026-10-16T05:23:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s239",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/jev.ts",
+      "title": "Source R17-S239: raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/jev.ts",
+      "claim": "export const JEV_TIMEOUT_MS = 8000; (Documented)",
+      "accessed_at": "2026-10-16T05:24:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s240",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/rm/run.ts",
+      "title": "Source R17-S240: raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/rm/run.ts",
+      "claim": "Jev can only lift an ask; any failure on the way leaves the ask exactly as the guard decided it. (Documented)",
+      "accessed_at": "2026-10-16T05:24:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s241",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/features.ts",
+      "title": "Source R17-S241: raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/features.ts",
+      "claim": "rm: ['win32'], (Documented)",
+      "accessed_at": "2026-10-16T05:24:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s242",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/promptAdvisor.mjs",
+      "title": "Source R17-S242: raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/promptAdvisor.mjs",
+      "claim": "main().catch(() => {}); // Jev unavailable/unconfigured/timed out: fail silent, never block. (Documented)",
+      "accessed_at": "2026-10-16T05:25:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s243",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/jev.mjs",
+      "title": "Source R17-S243: raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/jev.mjs",
+      "claim": "if (!apiKey) { (Documented)",
+      "accessed_at": "2026-10-16T05:25:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s244",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/decision.mjs",
+      "title": "Source R17-S244: raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/decision.mjs",
+      "claim": "blockConfidence: 0.65, (Documented)",
+      "accessed_at": "2026-10-16T05:25:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s245",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/mcowdery/claude-model-guard/git/trees/bced870dd65fae00865964b044f1a9717f917a85?recursive=1",
+      "title": "Source R17-S245: api.github.com/repos/mcowdery/claude-model-guard/git/trees/bced870dd65fae00865964b044f1a9717f917a85?recursive=1",
+      "claim": "truncated: false (Documented)",
+      "accessed_at": "2026-10-16T05:25:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s246",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/danna-zhou/jev-mcp/436469a258593ab6c7e33dcf05a78bd8f5e95d22/hooks/lib.mjs",
+      "title": "Source R17-S246: raw.githubusercontent.com/danna-zhou/jev-mcp/436469a258593ab6c7e33dcf05a78bd8f5e95d22/hooks/lib.mjs",
+      "claim": "const MODEL = process.env.JEV_MODEL ?? \"kev-latest\"; (Documented)",
+      "accessed_at": "2026-10-16T05:26:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s247",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/src/index.ts",
+      "title": "Source R17-S247: raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/src/index.ts",
+      "claim": "const MODEL = process.env.JEV_MCP_MODEL ?? \"jev-latest\"; (Documented)",
+      "accessed_at": "2026-10-16T05:26:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s248",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gulbaki/jev-llm-guard/7c7b1b5b646428e397541473de0cd176cc9fe956/src/guard.js",
+      "title": "Source R17-S248: raw.githubusercontent.com/gulbaki/jev-llm-guard/7c7b1b5b646428e397541473de0cd176cc9fe956/src/guard.js",
+      "claim": "model = process.env.TYPESAFE_DEFAULT_MODEL (Documented)",
+      "accessed_at": "2026-10-16T05:26:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s249",
+      "source_type": "reported source",
+      "source_url": "https://github.com/u007/claude-plugins",
+      "title": "Source R17-S249: github.com/u007/claude-plugins",
+      "claim": "PostToolUse guardrail: scans inbound web/MCP/network results with TypeSafe Jev. (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s250",
+      "source_type": "reported source",
+      "source_url": "https://github.com/ricky94511/jev",
+      "title": "Source R17-S250: github.com/ricky94511/jev",
+      "claim": "建議這一輪用哪個模型（haiku／sonnet／opus），並**自動切換** (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s251",
+      "source_type": "reported source",
+      "source_url": "https://github.com/chrisDeFouRire/jevrules",
+      "title": "Source R17-S251: github.com/chrisDeFouRire/jevrules",
+      "claim": "Check your code against Cursor's `.cursor/rules` from Claude Code, Codex, a git hook or CI. (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s252",
+      "source_type": "reported source",
+      "source_url": "https://github.com/trungnt13/claude-system1",
+      "title": "Source R17-S252: github.com/trungnt13/claude-system1",
+      "claim": "System1 Thinking chooses Claude Code reasoning effort before selected model requests. (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s253",
+      "source_type": "reported source",
+      "source_url": "https://github.com/davidmclaughlinemail/jev-router",
+      "title": "Source R17-S253: github.com/davidmclaughlinemail/jev-router",
+      "claim": "Routing is enforced, not suggested. (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s254",
+      "source_type": "reported source",
+      "source_url": "https://github.com/guigetelina/claude-jev-codex",
+      "title": "Source R17-S254: github.com/guigetelina/claude-jev-codex",
+      "claim": "O **Jev Router** escolhe, a cada mensagem sua, o modelo Claude que a tarefa pede (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s255",
+      "source_type": "reported source",
+      "source_url": "https://github.com/audichuang/jev-skill-suggestion",
+      "title": "Source R17-S255: github.com/audichuang/jev-skill-suggestion",
+      "claim": "picks at most one skill for each prompt you send and attaches that skill's `SKILL.md` to the prompt. (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s256",
+      "source_type": "reported source",
+      "source_url": "https://github.com/flupkede/fast-compaction",
+      "title": "Source R17-S256: github.com/flupkede/fast-compaction",
+      "claim": "Claude Code plugin that replaces the compaction summary with Jev decisions (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s257",
+      "source_type": "reported source",
+      "source_url": "https://github.com/ThingsLikeClaude/ani-steer-public",
+      "title": "Source R17-S257: github.com/ThingsLikeClaude/ani-steer-public",
+      "claim": "Jev가 교정이라고 판정하면 기록 (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s258",
+      "source_type": "reported source",
+      "source_url": "https://github.com/nim-f/jev-pilot",
+      "title": "Source R17-S258: github.com/nim-f/jev-pilot",
+      "claim": "When a prompt only needs one read-only action (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s259",
+      "source_type": "reported source",
+      "source_url": "https://github.com/kevinCodeSavvy/cockpit",
+      "title": "Source R17-S259: github.com/kevinCodeSavvy/cockpit",
+      "claim": "cockpit puts three small tools above the prompt: **Deck** (the panel), **next-steps** and the **Jev model router**. (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s260",
+      "source_type": "reported source",
+      "source_url": "https://github.com/thiago-lage/jev-claud",
+      "title": "Source R17-S260: github.com/thiago-lage/jev-claud",
+      "claim": "O jev-claud corta esse ruído **antes** de ele chegar ao Claude. (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s261",
+      "source_type": "reported source",
+      "source_url": "https://github.com/mdimamhosen/jev",
+      "title": "Source R17-S261: github.com/mdimamhosen/jev",
+      "claim": "One key, one model name, `jev-auto`, works the same way in every client. (Reported)",
+      "accessed_at": "2026-10-16T05:30:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s300",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/build_site.py#L163-L164",
+      "title": "Source R17-S300: github.com/Kandarp-Joshi-007/did-they-answer/blob/e0ee60cce6785c359fb4fb04653c46468bb4f434/build_site.py#L163-L164",
+      "claim": "def main(): judged = read_jsonl(DATA / \"judgments.jsonl\") (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s301",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/popup/Popup.tsx#L67-L70",
+      "title": "Source R17-S301: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/popup/Popup.tsx#L67-L70",
+      "claim": "const handleStart = () => { if (!goal.trim()) return; chrome.runtime.sendMessage({ type: 'START_AGENT', goal: goal.trim(), tabId: targetTabId() }); }; (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s302",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/options/Options.tsx#L70-L71",
+      "title": "Source R17-S302: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/options/Options.tsx#L70-L71",
+      "claim": "const started = Date.now(); const res = await callJevProvider(testSettings, { model, ...TEST_REQUEST }); (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s303",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/content/snapshot.ts#L408-L409",
+      "title": "Source R17-S303: github.com/chy4pro/jev-for-chrome/blob/d5c24de556ade0f0a9c7a4c6ebb9dab305e4209e/src/content/snapshot.ts#L408-L409",
+      "claim": "const omitted_actions = Math.max(0, actions.length - 250); actions.splice(250); (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s304",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/cli.py#L212-L215",
+      "title": "Source R17-S304: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/cli.py#L212-L215",
+      "claim": "def cmd_bench(a: argparse.Namespace) -> int: from ._bench import run_bench return run_bench(n=a.n, backend=a.backend, ragas=a.ragas, model=a.model) (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s305",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/integrations/openai_agents.py#L91-L93",
+      "title": "Source R17-S305: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/integrations/openai_agents.py#L91-L93",
+      "claim": "on_escalate(decision, tool_name, args) is awaited if async; its return value is used as the tool output (e.g. \"Escalated to a human, ticket #123\"). If not (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s306",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/integrations/langgraph.py#L72-L84",
+      "title": "Source R17-S306: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/integrations/langgraph.py#L72-L84",
+      "claim": "elif d.action == \"escalate\" and on_escalate is not None: r = on_escalate(d, tc) if hasattr(r, \"__await__\"): r = await r new_msgs.append( ToolMessage( content=str(r or f\"Escalated (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s307",
+      "source_type": "documented source",
+      "source_url": "https://github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/integrations/claude_agent.py#L26-L26",
+      "title": "Source R17-S307: github.com/openlayer-ai/jevals/blob/0a8f895a0428b89c865f953d5295b6b516e4018c/src/jevals/integrations/claude_agent.py#L26-L26",
+      "claim": "_DECISION = {\"allow\": \"allow\", \"modify\": \"allow\", \"escalate\": \"ask\", \"block\": \"deny\"} (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s308",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/extension/sidepanel.js#L1114-L1120",
+      "title": "Source R17-S308: github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/extension/sidepanel.js#L1114-L1120",
+      "claim": "function renderStores(c) { const offers = Array.isArray(c.offers) ? c.offers.slice() : []; const priceOf = (o) => num(o.total) ?? num(o.price); const bestStore = c.best && c.best.store (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s309",
+      "source_type": "documented source",
+      "source_url": "https://github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/extension/content.js#L337-L338",
+      "title": "Source R17-S309: github.com/KaushikSiva/second-look/blob/0c05d16958b532e2603c40551c224a4ba41b8beb/extension/content.js#L337-L338",
+      "claim": "// Only claim a product when there is real product evidence. if (!title || (!p && price == null)) return null; (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s310",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/web/app.js#L438-L442",
+      "title": "Source R17-S310: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/web/app.js#L438-L442",
+      "claim": "function tier(fromTop, n) { if (fromTop === 0) return 'S'; const share = fromTop / Math.max(1, n - 1); return share <= 0.15 ? 'A' (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s311",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L456-L458",
+      "title": "Source R17-S311: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/engine/hunt.py#L456-L458",
+      "claim": "# onlyPostsNewerThan is not reliably honoured (pinned posts leak through): enforce the window here. if not comp or not stamp or parse_iso(stamp) < cutoff: continue (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s312",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/claude-x-jev/blob/c8662b0550b2a999d1dbcfb148683615cf92636a/bin/claude-x-jev.js#L127-L129",
+      "title": "Source R17-S312: github.com/charlesdove977/claude-x-jev/blob/c8662b0550b2a999d1dbcfb148683615cf92636a/bin/claude-x-jev.js#L127-L129",
+      "claim": "function hookEntry(target) { return { matcher: 'Bash', hooks: [{ type: 'command', command: `bash \"${path.join(target, 'hooks', 'pre-tool-gate.sh')}\"` }] }; } (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r17-s313",
+      "source_type": "documented source",
+      "source_url": "https://github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/server.py#L372-L381",
+      "title": "Source R17-S313: github.com/charlesdove977/competitor-hunter/blob/40613ea0809e2bd05351fbb3b1bb28e5c46b9e98/server.py#L372-L381",
+      "claim": "def start_studio_job(key, command, run=None): with lock: if key in studio_jobs and studio_jobs[key][\"status\"] == \"running\": return False studio_jobs[key] = {\"status\": \"running\", \"msg\": \"Starting\", \"started\": time.time(), \"run_id\": (Documented)",
+      "accessed_at": "2026-10-16T05:32:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

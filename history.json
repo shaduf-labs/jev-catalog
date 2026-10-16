@@ -319,6 +319,17 @@
       "summary": "When Jev fails: no-key, bypass and n8n below-threshold cells settled for ticket triage, email, n8n, browser agents and three single rows (with no key 50 of 77 stop or hold, 17 fall back, 7 let it through, 3 advisory, 0 not recorded; bypass recorded for 66 of 77, 11 not recorded: judge tools 4, frameworks 3, browser agents 3, email 1). Python and TypeScript pages refreshed: typesafe-sdk 0.7.4; ai 7.0.140 renamed experimental_evaluate to experimental_decide; a missing key fails at client creation or, with the AI SDK provider, at the first call. B43 and B44 graded (41 graded rows); SubQ Snap added as a hosted alternative (34 substitutes). Access unchanged; the hidden Jack & Jill notice retired. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/failure-cells-sdk-refresh",
       "entrypoint": "reports/failure-cells-sdk-refresh/index.html"
+    },
+    {
+      "run_id": "report-851331f78d1bbaa8009f3ed0",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-16T05:06:00Z",
+      "completed_at": "2026-10-16T06:20:00Z",
+      "title": "Bypass cells complete, Jev 1.14 preview and Claude Code guardrails rechecked",
+      "summary": "When Jev fails: the last 11 bypass cells and the last malformed cell were read at their pinned commits; every failure cell (no key, error, malformed answer, below threshold, bypass) is now recorded for all 77 implementations (bypass 77 of 77, 13 of them 'none found'; malformed 35 fail closed, 24 fall back, 11 fail open, 4 no decision, 3 advisory). TypeSafe released Jev 1.14 as a preview under jev-preview (jev-latest still on jev-1.13.0; TypeSafe says it moves in about a week); image input, a Box question type and 262k long context are opt-in experiments TypeSafe calls not production-ready; the models page no longer lists rate-limit numbers. Claude Code and MCP page: versions rechecked (no failure-path change), 32 leads triaged, new title. Access otherwise unchanged; Home shows four notices. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/bypass-cells-claude-code-refresh",
+      "entrypoint": "reports/bypass-cells-claude-code-refresh/index.html"
     }
   ]
 }

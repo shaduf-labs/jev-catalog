@@ -2,6 +2,60 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "access-recheck-2026-10-16",
+      "changed_at": "2026-10-16T06:20:00Z",
+      "summary": "Access status rechecked 16 Oct 2026, 05:21 UTC: signups open, no new-user credit, API operational; price unchanged. TypeSafe released Jev 1.14 under jev-preview (jev-latest still on jev-1.13.0, moving in about a week per TypeSafe); its models page no longer lists rate-limit numbers (set per organization, shown in the console); image input, a Box question type and 262k long context are opt-in experiments. Home shows four notices; the hidden Series A notice retired at the end of its seven-day shelf life.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "when-jev-fails-2026-10-16",
+      "changed_at": "2026-10-16T06:20:00Z",
+      "summary": "When Jev fails: the last 11 bypass cells (judge tools 4, frameworks 3, browser agents 3, email 1) and the last malformed cell were read at their pinned commits. Every failure cell (no key, error, malformed answer, below threshold, bypass) is now recorded for all 77 implementations. Bypass recorded for 77 of 77; 13 are \"none found\". Malformed answer: 35 fail closed, 24 fall back, 11 fail open, 4 no decision, 3 advisory. Seven existing cell texts were corrected without changing their terms.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "versions-and-aliases-2026-10-16",
+      "changed_at": "2026-10-16T06:20:00Z",
+      "summary": "Model IDs and aliases: TypeSafe released Jev 1.14 (jev-1.14.0) under jev-preview on 14 Oct; jev-latest still points to jev-1.13.0, and TypeSafe says it moves in about a week. OpenRouter, Vercel and Netlify list 1.14; Cloudflare, Opper, Amazon Bedrock and Microsoft Foundry did not list it on 16 Oct. Image input, a Box question type and 262k long context are opt-in experiments that TypeSafe calls not production-ready. The page is retitled \"Jev 1.14 preview, 1.13 and jev-latest (TypeSafe AI): model IDs and aliases by route\"; its URL is unchanged.",
+      "path": "/p/jev-catalog/where-to-use/versions-and-aliases"
+    },
+    {
+      "change_id": "limitations-2026-10-16",
+      "changed_at": "2026-10-16T06:20:00Z",
+      "summary": "Limitations: \"Is Jev multimodal?\" now reads: text by default, with image input as an opt-in experiment since 14 Oct that TypeSafe calls not production-ready; no audio or video. The rate-limit row notes that the models page no longer lists numbers.",
+      "path": "/p/jev-catalog/limitations"
+    },
+    {
+      "change_id": "decision-api-comparison-2026-10-16",
+      "changed_at": "2026-10-16T06:20:00Z",
+      "summary": "Decisions API vs Jev vs Microsoft Decision 1: Jev's Images cell is now \"text by default; images experimental behind an opt-in header\"; its limits cell notes that rate limits are set per organization and no longer published. The copy block and the changed-since list are updated. Prices in all four columns are unchanged (checked 16 Oct).",
+      "path": "/p/jev-catalog/alternatives/jev-vs-decision-apis"
+    },
+    {
+      "change_id": "claude-code-mcp-2026-10-16",
+      "changed_at": "2026-10-16T06:20:00Z",
+      "summary": "Claude Code and MCP guardrails: versions rechecked on 16 Oct (oh-my-claudecode 5.7.3: Jev hook files unchanged), and no failure path changed. 32 further projects seen in scans are classified in a lead table: 16 hooks or plugins, 12 that return Jev's answer to the agent, 1 skill, 3 not Jev. The page has a new title; its URL is unchanged.",
+      "path": "/p/jev-catalog/build/claude-code-mcp"
+    },
+    {
+      "change_id": "sdk-releases-2026-10-16",
+      "changed_at": "2026-10-16T06:20:00Z",
+      "summary": "Build: typesafe-sdk 0.7.5 and @typesafe-ai/sdk 0.7.0 (14 Oct) and @ai-sdk/typesafe-ai 3.0.20 (15 Oct) add image support for the Jev 1.14 preview. Their failure paths were last read at 0.7.4, 0.6.0 and 3.0.18. pydantic-ai-slim 2.57.0 rejects image requests before any call, and DeepEval 4.3.0 leaves its JevEval files unchanged.",
+      "path": "/p/jev-catalog/build"
+    },
+    {
+      "change_id": "benchmarks-2026-10-16",
+      "changed_at": "2026-10-16T06:20:00Z",
+      "summary": "Benchmarks: the Artificial Analysis Decision Index v1.0 (13 Oct; Jev 1.13 58, GLiDE 54, Microsoft-Decision-1 54) is listed as a Reported third-party index. It is outside the graded ledger, which stays at 41 rows; one of its four evaluations uses private questions, and it does not state the model ID or route.",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "report-2026-10-16",
+      "changed_at": "2026-10-16T06:20:00Z",
+      "summary": "Research report of 16 October 2026: bypass cells complete, the Jev 1.14 preview and Claude Code guardrails rechecked. It covers what was read, what changed and what is still not verified.",
+      "path": "/p/jev-catalog/reports/bypass-cells-claude-code-refresh"
+    },
+    {
       "change_id": "access-recheck-2026-10-14",
       "changed_at": "2026-10-14T17:50:00Z",
       "summary": "Access status rechecked 14 Oct 2026, 16:46 UTC: unchanged (signups open, no new-user credit, API operational). Price, listed limits, model aliases and the model IDs on all six routes unchanged; API 90-day uptime 99.837% (99.838% on 13 Oct) with no new status-page event; the status page now also lists two regional API entries, us-east-1 and us-east-2. Two notices shown as on 13 Oct; the hidden notice on TypeSafe's Jack & Jill case study retired at the end of its seven-day shelf life (the case study stays a vendor lead on benchmarks).",
