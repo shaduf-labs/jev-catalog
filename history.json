@@ -330,6 +330,17 @@
       "summary": "When Jev fails: the last 11 bypass cells and the last malformed cell were read at their pinned commits; every failure cell (no key, error, malformed answer, below threshold, bypass) is now recorded for all 77 implementations (bypass 77 of 77, 13 of them 'none found'; malformed 35 fail closed, 24 fall back, 11 fail open, 4 no decision, 3 advisory). TypeSafe released Jev 1.14 as a preview under jev-preview (jev-latest still on jev-1.13.0; TypeSafe says it moves in about a week); image input, a Box question type and 262k long context are opt-in experiments TypeSafe calls not production-ready; the models page no longer lists rate-limit numbers. Claude Code and MCP page: versions rechecked (no failure-path change), 32 leads triaged, new title. Access otherwise unchanged; Home shows four notices. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/bypass-cells-claude-code-refresh",
       "entrypoint": "reports/bypass-cells-claude-code-refresh/index.html"
+    },
+    {
+      "run_id": "report-403862c7e54af2b569fefd7b",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-18T05:10:00Z",
+      "completed_at": "2026-10-18T06:30:00Z",
+      "title": "Failure terms aligned, three Claude Code guardrails read, and the products ledger rechecked",
+      "summary": "When Jev fails now counts 79 implementations: claude-model-guard (fails open) and claude-jev-advisor (holds) join, and every failure cell is recorded for all 79; on a Jev error 40 stop or hold the action, 22 fall back, 9 let it through, 5 return no decision and 3 are advisory. The coding-agent, trading and browser pages now use the failure map's terms; no outcome changed, and the coding-agent split is corrected to 3 fail-closed, 9 fallback and 1 fail-open. Claude Code and MCP: ten guardrails read in source; ohmyjev is shown but not yet counted. Products: 113 ledger rows, 100 with the Jev call read at a pinned commit, none verified in production. @typesafe-ai/sdk 0.7.0 keeps the 0.6.0 failure path. Access unchanged; jev-latest still on jev-1.13.0; Opper lists Jev 1.14. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/failure-terms-claude-code-gates-products",
+      "entrypoint": "reports/failure-terms-claude-code-gates-products/index.html"
     }
   ]
 }

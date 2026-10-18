@@ -1,0 +1,307 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Failure terms aligned, three Claude Code guardrails read, and the products ledger rechecked · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Failure terms aligned, three Claude Code guardrails read, and the products ledger rechecked. When Jev fails now counts 79 implementations: claude-model-guard (fails open) and claude-jev-advisor (holds) join, and every failure cell is recorded for all 79; on a Jev error 40 stop or hold the action, 22 fall back, 9 let it through, 5 return no decision and 3 are advisory. The coding-agent, trading and browser pages now use the failure map&#039;s terms; no outcome changed, and the coding-agent split is corrected to 3 fail-closed, 9 fallback and 1 fail-open. Claude Code and MCP: ten guardrails read in source; ohmyjev is shown but not yet counted. Products: 113 ledger rows, 100 with the Jev call read at a pinned commit, none verified in production. @typesafe-ai/sdk 0.7.0 keeps the 0.6.0 failure path. Access unchanged; jev-latest still on jev-1.13.0; Opper lists Jev 1.14. Nothing was run; no Jev call.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/reports/failure-terms-claude-code-gates-products/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Failure terms aligned, three Claude Code guardrails read, and the products ledger rechecked · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Failure terms aligned, three Claude Code guardrails read, and the products ledger rechecked. When Jev fails now counts 79 implementations: claude-model-guard (fails open) and claude-jev-advisor (holds) join, and every failure cell is recorded for all 79; on a Jev error 40 stop or hold the action, 22 fall back, 9 let it through, 5 return no decision and 3 are advisory. The coding-agent, trading and browser pages now use the failure map&#039;s terms; no outcome changed, and the coding-agent split is corrected to 3 fail-closed, 9 fallback and 1 fail-open. Claude Code and MCP: ten guardrails read in source; ohmyjev is shown but not yet counted. Products: 113 ledger rows, 100 with the Jev call read at a pinned commit, none verified in production. @typesafe-ai/sdk 0.7.0 keeps the 0.6.0 failure path. Access unchanged; jev-latest still on jev-1.13.0; Opper lists Jev 1.14. Nothing was run; no Jev call.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/reports/failure-terms-claude-code-gates-products/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Failure terms aligned, three Claude Code guardrails read, and the products ledger rechecked","description":"Failure terms aligned, three Claude Code guardrails read, and the products ledger rechecked. When Jev fails now counts 79 implementations: claude-model-guard (fails open) and claude-jev-advisor (holds) join, and every failure cell is recorded for all 79; on a Jev error 40 stop or hold the action, 22 fall back, 9 let it through, 5 return no decision and 3 are advisory. The coding-agent, trading and browser pages now use the failure map's terms; no outcome changed, and the coding-agent split is corrected to 3 fail-closed, 9 fallback and 1 fail-open. Claude Code and MCP: ten guardrails read in source; ohmyjev is shown but not yet counted. Products: 113 ledger rows, 100 with the Jev call read at a pinned commit, none verified in production. @typesafe-ai/sdk 0.7.0 keeps the 0.6.0 failure path. Access unchanged; jev-latest still on jev-1.13.0; Opper lists Jev 1.14. Nothing was run; no Jev call.","dateModified":"2026-10-18T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/reports/failure-terms-claude-code-gates-products/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="report-report-403862c7e54af2b569fefd7b">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a><a href="../../use-cases/support-ticket-triage/index.html" ><span aria-hidden="true">▤</span><b>Support-ticket triage with Jev</b></a><a href="../../use-cases/model-routing/index.html" ><span aria-hidden="true">⇉</span><b>Jev Router or your own router?</b></a><a href="../../use-cases/content-moderation/index.html" ><span aria-hidden="true">⚑</span><b>Content moderation with Jev</b></a><a href="../../use-cases/email-and-lead-sorting/index.html" ><span aria-hidden="true">✉</span><b>Jev email classifier</b></a><a href="../../use-cases/trading-and-fraud-gates/index.html" ><span aria-hidden="true">⇅</span><b>Jev trading bot and fraud gates</b></a><a href="../../use-cases/llm-as-judge/index.html" ><span aria-hidden="true">⚖</span><b>Jev as a judge</b></a><a href="../../use-cases/browser-and-computer-use/index.html" ><span aria-hidden="true">⌖</span><b>Jev browser and computer use</b></a><a href="../../use-cases/reranking-rag/index.html" ><span aria-hidden="true">⇅</span><b>Jev reranker and RAG</b></a><a href="../../use-cases/databases-and-documents/index.html" ><span aria-hidden="true">▤</span><b>Jev in SQL and document pipelines</b></a><a href="../../use-cases/real-time-control/index.html" ><span aria-hidden="true">▶</span><b>Jev plays Doom: real-time demos</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../../build/index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../../build/python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../../build/typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../../build/frameworks/index.html" ><span aria-hidden="true">⧉</span><b>Jev LangChain and frameworks</b></a><a href="../../build/n8n/index.html" ><span aria-hidden="true">⇶</span><b>Jev n8n node</b></a><a href="../../build/claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../../build/coding-agents/index.html" ><span aria-hidden="true">⌨</span><b>Jev with coding agents</b></a><a href="../../build/errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../../build/confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../../build/testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a><a href="../../build/when-jev-fails/index.html" ><span aria-hidden="true">⚠</span><b>When Jev fails</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Jev alternatives by layer</b></a><a href="../../alternatives/jev-vs-decision-apis/index.html" ><span aria-hidden="true">⇆</span><b>Jev vs OpenAI and Microsoft decision APIs</b></a><a href="../../alternatives/jev-vs-llm-vs-classifier/index.html" ><span aria-hidden="true">⋈</span><b>Jev vs LLM vs classifier</b></a><a href="../../alternatives/laya-vs-kev/index.html" ><span aria-hidden="true">⚖</span><b>Jev vs Laya vs Kev</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/data-privacy/index.html" ><span aria-hidden="true">eye</span><b>Jev data retention and privacy</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/versions-and-aliases/index.html" ><span aria-hidden="true">#</span><b>Jev model IDs and aliases</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Jev examples: products and projects</b></a><a href="../../benchmarks/index.html" ><span aria-hidden="true">▦</span><b>Jev benchmarks, graded</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><details class="page-branch"><summary><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></summary><div class="page-children"><a href="../../research/2026-10-09-reranking-document-pipelines-notes/index.html" ><span aria-hidden="true">◫</span><b>Evidence notes, 9 Oct 2026</b></a></div></details></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv jev-page">
+  <div class="jv-kicker"><span>Research report</span><span>Checks <time datetime="2026-10-18">18 October 2026</time>, 05:17–05:38 UTC</span></div>
+  <h1>Failure terms aligned, three Claude Code guardrails read, and the products ledger rechecked (18 Oct 2026)</h1>
+  <p class="jv-lede">This dated report records the evidence behind the update of 18 October 2026. It compares the failure terms on 15 pages with the <a href="../../build/when-jev-fails/index.html">When Jev fails</a> map, adds two Claude Code guardrails to that map and shows a third on the <a href="../../build/claude-code-mcp/index.html">Claude Code and MCP</a> page, and rechecks the <a href="../../products/index.html">products ledger</a>. Nothing was run: no account, key, API call or third-party code.</p>
+
+  <div class="jv-answer key" id="summary">
+    <strong>Key findings</strong>
+    <p class="kf"><a href="../../build/when-jev-fails/index.html">When Jev fails</a>: For all 79 counted implementations, every failure cell (no key, error, malformed answer, below threshold and bypass) is recorded from source at pinned commits (18 Oct 2026).</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>two Claude Code guardrails added (77 → 79); recounted by script from the published cells, 18 Oct 2026</span></p>
+    <p class="kf">Of 79 Jev implementations read in source, on a Jev error 40 stop or hold the action, 22 fall back, 9 let it through, 5 return no decision and 3 are advisory. The 9 that let it through are 4 moderation bots, 3 agent hooks, a passage filter and an eval tool.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>source at pinned commits, 18 Oct 2026 (40 + 22 + 9 + 5 + 3 = 79)</span></p>
+    <p class="kf"><a href="../../build/claude-code-mcp/index.html">Claude Code and MCP</a>: We read ten Jev guardrails in their source code. Two hold or stop when Jev fails, one falls back, two ship in a shadow or log-only mode, one is advisory by design, three fail open and one only returns a verdict.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>shortened from the page's short answer; read at pinned commits, 18 Oct 2026 (2 + 1 + 2 + 1 + 3 + 1 = 10)</span></p>
+    <p class="kf"><a href="../../build/coding-agents/index.html">Coding agents</a>: On a Jev error the 13 integrations that act on Jev's answer are 3 fail-closed, 9 fallback and 1 fail-open (source at pinned commits; terms as on the failure map, 18 Oct 2026).</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>corrects the published split "5 let the call run, 3 hold, 5 fall back"</span></p>
+    <p class="kf"><a href="../../products/index.html">Products</a>: Of 113 Jev products and projects in the ledger, the call to Jev was read in code at a pinned commit for 100; none is independently verified as running in production.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>recounted 18 Oct 2026 (99 rows on 11 Oct; 14 added)</span></p>
+    <p class="kf"><a href="../../where-to-use/access-status/index.html">Access</a>: unchanged at 18 Oct 2026, 05:17 UTC. <code>jev-latest</code> still points to <code>jev-1.13.0</code> and <code>jev-preview</code> to <code>jev-1.14.0</code>. Opper now lists Jev 1.14.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>TypeSafe models page and Opper, 18 Oct 2026, 05:17–05:20 UTC (R18-S05, R18-S33)</span></p>
+  </div>
+
+  <figure class="jv-figure" id="rp18-bars" aria-labelledby="rp18-bars-t">
+    <h3 id="rp18-bars-t">When Jev fails: the Jev-error column, 77 implementations (16 Oct) → 79 (18 Oct), and below threshold at 79</h3>
+    <div class="jv-legend jv-keys"><span class="k-go">fail-closed or held</span><span class="k-fb">fallback</span><span class="k-stop">fail-open</span><span class="k-flag">no-decision</span><span class="k-hold">advisory</span><span class="k-na">no-threshold</span></div>
+    <div class="rp16-bars">
+      <div class="rp16-row"><span class="rp16-lab">Jev error, 16 Oct</span><div class="rp16-bar" aria-hidden="true"><span class="k-go" style="flex-grow:39"></span><span class="k-fb" style="flex-grow:22"></span><span class="k-stop" style="flex-grow:8"></span><span class="k-flag" style="flex-grow:5"></span><span class="k-hold" style="flex-grow:3"></span></div><span class="rp16-val">39 fail-closed, 22 fallback, 8 fail-open, 5 no-decision, 3 advisory (n 77)</span></div>
+      <div class="rp16-row"><span class="rp16-lab">Jev error, 18 Oct</span><div class="rp16-bar" aria-hidden="true"><span class="k-go" style="flex-grow:40"></span><span class="k-fb" style="flex-grow:22"></span><span class="k-stop" style="flex-grow:9"></span><span class="k-flag" style="flex-grow:5"></span><span class="k-hold" style="flex-grow:3"></span></div><span class="rp16-val">40 fail-closed, 22 fallback, 9 fail-open, 5 no-decision, 3 advisory (n 79)</span></div>
+      <div class="rp16-row"><span class="rp16-lab">Below threshold, 18 Oct</span><div class="rp16-bar" aria-hidden="true"><span class="k-na" style="flex-grow:25"></span><span class="k-go" style="flex-grow:17"></span><span class="k-stop" style="flex-grow:15"></span><span class="k-fb" style="flex-grow:12"></span><span class="k-flag" style="flex-grow:5"></span><span class="k-hold" style="flex-grow:5"></span></div><span class="rp16-val">25 no-threshold (white), 17 held, 15 acts-anyway, 12 fallback, 5 no-decision, 5 advisory (n 79)</span></div>
+    </div>
+    <p class="fig-note">claude-jev-advisor adds one fail-closed (held) cell and claude-model-guard one fail-open cell to the error column. In the below-threshold bar green means held and red means acts-anyway. Counts are <span class="ev ev-documented">Documented</span> from source read at pinned commits and recounted by script from the published cells, 18 Oct 2026. Nothing was run.</p>
+  </figure>
+
+  <figure class="jv-figure" id="rp18-changed" aria-labelledby="rp18-changed-t">
+    <h3 id="rp18-changed-t">What changed on 18 Oct 2026 (published value on 16 Oct → value on 18 Oct)</h3>
+    <ul class="rp-chg">
+      <li><span class="rp-chg-l">When Jev fails: implementations counted</span><span class="rp-chg-n"><s>77</s><span>→</span><strong>79</strong></span><p>claude-model-guard and claude-jev-advisor join the Claude Code / MCP guards domain (6 → 8). Still 12 domains.</p></li>
+      <li><span class="rp-chg-l">Action goes ahead on a Jev error</span><span class="rp-chg-n"><s>17 of 77</s><span>→</span><strong>18 of 79</strong></span><p>9 fail-open plus 9 fallbacks that go ahead (9 + 9 = 18).</p></li>
+      <li><span class="rp-chg-l">Coding agents, 13 on a Jev error</span><span class="rp-chg-n"><s>5 run / 3 hold / 5 fall back</s><span>→</span><strong>3 / 9 / 1</strong></span><p>3 fail-closed, 9 fallback, 1 fail-open (3 + 9 + 1 = 13). The earlier split could not be rebuilt from the map.</p></li>
+      <li><span class="rp-chg-l">Claude Code and MCP short answer</span><span class="rp-chg-n"><s>1 of 7 stops</s><span>→</span><strong>ten read</strong></span><p>2 hold or stop, 1 fallback, 2 shadow or log-only, 1 advisory, 3 fail-open, 1 verdict only.</p></li>
+      <li><span class="rp-chg-l">Products ledger rows</span><span class="rp-chg-n"><s>99</s><span>→</span><strong>113</strong></span><p>A 86 → 100; B 12 and C 1 unchanged. Verified in production: 0 of 113.</p></li>
+      <li><span class="rp-chg-l">Routes listing Jev 1.14 among five watched catalogs</span><span class="rp-chg-n"><s>0 of 5</s><span>→</span><strong>1 of 5</strong></span><p>Opper lists <code>typesafe/jev-1.14.0</code>; Cloudflare, Bedrock, Foundry and Workers AI do not (05:20 UTC).</p></li>
+      <li class="rp-same"><span class="rp-chg-l"><code>jev-latest</code></span><span class="rp-chg-n"><strong>unchanged</strong></span><p>Still <code>jev-1.13.0</code>. TypeSafe's 14 Oct post says it moves "in a week"; no date is published.</p></li>
+      <li class="rp-same"><span class="rp-chg-l">Home notices</span><span class="rp-chg-n"><strong>4, unchanged</strong></span><p>None retired.</p></li>
+      <li class="rp-same"><span class="rp-chg-l">Outcome differences between pages and the map</span><span class="rp-chg-n"><strong>0 found</strong></span><p>15 pages compared cell by cell; every difference was wording, colour or grouping.</p></li>
+    </ul>
+    <p class="fig-note">A dashed box means the value did not change.</p>
+  </figure>
+
+  <p><strong>Checks:</strong> 18 Oct 2026, 05:17–05:38 UTC (access 05:17–05:21; scan and drift 05:21–05:23; failure terms 05:24–05:31; Claude Code guardrails and products 05:32–05:36).</p>
+  <p>The research notes and the source ledger (R18-S… IDs) are held in the pool's private record. Key sources are linked below and on the pages each finding feeds. Checks on the sources: 155 cited IDs checked, 0 missing; 35 sentences that split a total were checked by script so that their parts add up and every category with 3 or more items (or 10% of the total) is named.</p>
+  <p><strong>Rules kept:</strong> nothing was installed or run, so no Jev or other provider call was made, and the pool has no account with any of them. Failure cells come only from source at pinned commits. Vendor quality claims are Reported. <strong>Nothing in this report is Tested.</strong></p>
+  <p><strong>Previous report:</strong> <a href="../bypass-cells-claude-code-refresh/index.html">16 Oct research report</a>. All dated reports: <a href="../../research/index.html">Research</a>.</p>
+
+  <h2 id="failure-terms">1. Failure terms: 15 pages compared with the map</h2>
+  <p>A script matched every page row that shows a map row by repository and pinned commit, then compared each failure cell with the map's cell (R18-S63). Two rows pinned by npm version were compared by hand.</p>
+  <ul>
+    <li><strong>No outcome differences:</strong> 0 cells on 15 pages give a different outcome from the map for the same condition and pin. Every difference is wording, colour or a column that groups outcomes.</li>
+    <li><strong>One pin difference, reported and not changed:</strong> the jkudish/jev-mcp row on the Claude Code page cites commit <code>86eae78</code>; the map cites <code>53fe575</code> (5 cells).</li>
+    <li><strong>One correction, <a href="../../build/coding-agents/index.html">coding agents</a>:</strong> the published key-finding split "On a Jev error the 13: 5 let the call run, 3 hold, 5 fall back" could not be rebuilt from the map or from the page's own column. The map's error cells for those 13 rows are 3 fail-closed, 9 fallback and 1 fail-open. The key finding now says so. A second line groups them by whether the tool call still runs: yes in 4 of 13, conditionally in 2, no in 3, and 4 are model-choice or routing rows (4 + 2 + 3 + 4 = 13). The split "24 read / 13 act on the answer / 10 do not / 1 unsettled" is kept as published.</li>
+    <li><strong>Coding agents, wording:</strong> 8 bypass cells now carry the term "recorded", as on the map, with their existing text as the detail. 4 hermes-jev-mana cells drop "(configured model)" from the term; it moves to the detail.</li>
+    <li><strong><a href="../../use-cases/trading-and-fraud-gates/index.html">Trading and fraud gates</a>:</strong> 16 cells use the map term, with the rest moved to the detail line (for example "fallback-LLM, then fail-open" → <strong>fallback-LLM</strong>, "then fail-open if the LLM does not reject"). The 7 bypass cells say "recorded"; whether the order or payment goes ahead without Jev stays in the detail and in the last column. The key finding is kept. New secondary line: on a Jev error the 4 trading bots are 2 fail-closed and 2 fallback, and both fallbacks can still place a new order.</li>
+    <li><strong><a href="../../use-cases/browser-and-computer-use/index.html">Browser and computer use</a>:</strong> 6 cells in the heat table use the map term. second-look is counted in the map's browser domain (8 rows); the browser page counts the 7 agents that click, type or tap and shows second-look separately because it only recommends. Both pages now say this; counts are unchanged.</li>
+    <li><strong>Left for a later update:</strong> wording-only cells on content moderation (11) and support-ticket triage (9), and a few on other pages. Their outcome words already match the map.</li>
+  </ul>
+  <div class="table-wrap stack">
+    <table>
+      <caption>Cells compared with the map, by page (18 Oct 2026)</caption>
+      <thead><tr><th>Page</th><th>Cells</th><th>Same</th><th>Wording only</th><th>Outcome differs</th></tr></thead>
+      <tbody>
+<tr><td data-l="Page">Coding agents</td><td data-l="Cells">78</td><td data-l="Same">65</td><td data-l="Wording only">13</td><td data-l="Outcome differs">0</td></tr>
+<tr><td data-l="Page">Trading and fraud gates</td><td data-l="Cells">35</td><td data-l="Same">19</td><td data-l="Wording only">16</td><td data-l="Outcome differs">0</td></tr>
+<tr><td data-l="Page">Browser and computer use (heat table)</td><td data-l="Cells">40</td><td data-l="Same">34</td><td data-l="Wording only">6</td><td data-l="Outcome differs">0</td></tr>
+<tr><td data-l="Page">Content moderation</td><td data-l="Cells">24</td><td data-l="Same">13</td><td data-l="Wording only">11</td><td data-l="Outcome differs">0</td></tr>
+<tr><td data-l="Page">Support-ticket triage</td><td data-l="Cells">15</td><td data-l="Same">6</td><td data-l="Wording only">9</td><td data-l="Outcome differs">0</td></tr>
+<tr><td data-l="Page">Claude Code and MCP</td><td data-l="Cells">11</td><td data-l="Same">1</td><td data-l="Wording only">5 (plus 5 with a different pin)</td><td data-l="Outcome differs">0</td></tr>
+<tr><td data-l="Page">Other 8 pages (frameworks, n8n, databases and documents, email, LLM as a judge, model routing, real-time control, reranking)</td><td data-l="Cells">131</td><td data-l="Same">116</td><td data-l="Wording only">15 (1 + 5 + 0 + 1 + 5 + 3 + 0 + 0)</td><td data-l="Outcome differs">0</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="fig-note">Term cells only; timeout-value cells are not compared. One more page, the dated 9 October evidence notes, holds two timeout values and was left as is (15 pages in all). Every row of the table sums: same + wording only (+ different pin) = cells.</p>
+
+  <h2 id="claude-code">2. Claude Code guardrails: three read, two join the map</h2>
+  <p>Three Claude Code guardrails were read at pinned commits; their tool-call cells were read on 16 Oct 2026 and their bypass entry points on 18 Oct 2026. The latest commit on each repository equals the pin (18 Oct 2026, 05:20 UTC; R18-S200 to R18-S202). <span class="ev ev-documented">Documented</span>.</p>
+  <div class="table-wrap stack stack-md">
+    <table class="jv-heat">
+      <caption>The three guardrails at their pinned commits</caption>
+      <thead><tr><th>Guardrail and pin</th><th>What it does</th><th>No key</th><th>Jev error</th><th>Malformed</th><th>Below threshold</th><th>Bypass</th><th>On the map?</th></tr></thead>
+      <tbody>
+<tr><td data-l="Guardrail">mcowdery/claude-model-guard at <a href="https://github.com/mcowdery/claude-model-guard/tree/bced870dd65fae00865964b044f1a9717f917a85"><code>bced870</code></a></td><td data-l="What it does">UserPromptSubmit hook; blocks a prompt when Jev confidently says a bigger model tier is needed. A model-tier gate, not a safety gate. Sends <code>jev-latest</code>.</td><td data-l="No key" class="k k-stop"><strong>fail-open</strong>exits with no output</td><td data-l="Jev error" class="k k-stop"><strong>fail-open</strong>2,500 ms timeout</td><td data-l="Malformed" class="k k-stop"><strong>fail-open</strong></td><td data-l="Below threshold" class="k k-hold"><strong>advisory</strong>a note to Claude</td><td data-l="Bypass" class="k jv-wf-rec"><strong>recorded</strong>empty prompt; skip phrase or env var; continuation words, slash and <code>!</code> commands; short prompts (<code>promptAdvisor.mjs</code> L31, L64-65, L70, L77)</td><td data-l="On the map?">Yes, counted from 18 Oct</td></tr>
+<tr><td data-l="Guardrail">delt96/claude-jev-advisor (<code>rm</code> hook, Windows only) at <a href="https://github.com/delt96/claude-jev-advisor/tree/f2c17914a591c443e58c7a4b260a40d25e261fd6"><code>f2c1791</code></a></td><td data-l="What it does">PreToolUse hook for Bash and PowerShell. Its own guard asks before a deletion; Jev can only lift that ask (every target at or above 0.8). Sends <code>jev-latest</code>.</td><td data-l="No key" class="k k-go"><strong>fail-closed</strong>held: the guard's ask stands (<code>src/rm/run.ts</code> L91-92)</td><td data-l="Jev error" class="k k-go"><strong>fail-closed</strong>held; 8,000 ms timeout</td><td data-l="Malformed" class="k k-go"><strong>fail-closed</strong>held</td><td data-l="Below threshold" class="k k-go"><strong>held</strong></td><td data-l="Bypass" class="k jv-wf-rec"><strong>recorded</strong><code>rm</code> off; no deletion found; deletion denied by code; no key; none lets an asked deletion through (<code>run.ts</code> L77-92, L42-55)</td><td data-l="On the map?">Yes, counted from 18 Oct</td></tr>
+<tr><td data-l="Guardrail">Novacon/ohmyjev at <a href="https://github.com/Novacon/ohmyjev/tree/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11"><code>78bb82c</code></a></td><td data-l="What it does">Claude Code module; Bash, Write/Edit and exfiltration gates on by default, enforcing deny. Pins <code>jev-1.13.0</code> on TypeSafe.</td><td data-l="No key" class="k k-stop"><strong>fail-open</strong></td><td data-l="Jev error" class="k k-stop"><strong>fail-open</strong>1,500 ms timeout</td><td data-l="Malformed" class="k k-stop"><strong>fail-open</strong></td><td data-l="Below threshold" class="k k-stop"><strong>acts-anyway</strong></td><td data-l="Bypass" class="k k-na"><strong>not recorded</strong>partial read; not counted as recorded. Skip paths found: off switch (<code>ohmyjev.ts</code> L807); read-only Bash allowed by code (L278-279, L778-785); each gate can be switched off (L276, L290, L309); its own exceptions pass the call (L811)</td><td data-l="On the map?">Not yet in the map count</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul>
+    <li><strong>Why ohmyjev is not counted yet (editorial decision, 18 Oct):</strong> a bypass cell counts as recorded only when every entry point from one listing at the pin was read. For ohmyjev, every entry-point file was opened and the Claude Code module and Codex adapter were read through their tool-call paths, but its pi and omp adapters were read at their tool-call gates only. It is shown, with all its cells, on the <a href="../../build/claude-code-mcp/index.html">Claude Code and MCP</a> page.</li>
+    <li><strong>Map counts before → after</strong> (n 77 → 79; Claude Code / MCP guards 6 → 8):
+      <ul>
+        <li>No key: fail-closed 50 → 51, fail-open 7 → 8; now 51 / 17 / 8 / 3 / 0 (fail-closed / fallback / fail-open / advisory / not recorded).</li>
+        <li>Jev error: fail-closed 39 → 40, fail-open 8 → 9; now 40 / 22 / 9 / 5 / 3 (fail-closed / fallback / fail-open / no-decision / advisory).</li>
+        <li>Malformed answer: fail-closed 35 → 36, fail-open 11 → 12; now 36 / 24 / 12 / 4 / 3.</li>
+        <li>Below threshold: held 16 → 17, advisory 4 → 5; now 25 / 17 / 15 / 12 / 5 / 5 (no-threshold / held / acts-anyway / fallback / no-decision / advisory).</li>
+        <li>Bypass: 79 recorded, 0 not recorded; 13 "none found" (unchanged) and 66 with skip lists (64 → 66).</li>
+        <li>The 9 that let the action through on a Jev error: 4 moderation bots, 3 agent hooks (danna-zhou/jev-mcp's PreToolUse hook, hermes-jev jev-judge in enforce mode, claude-model-guard), a passage filter and an eval tool (4 + 3 + 1 + 1 = 9).</li>
+      </ul>
+    </li>
+    <li><strong>New short answer on the Claude Code and MCP page:</strong> "We read ten Jev guardrails in their source code. Two hold or stop when Jev fails: LangChain AutoModeMiddleware stops the agent, and claude-jev-advisor's Windows delete guard keeps Claude Code's question for you. One, jev-permission-gate, falls back to Claude Code's built-in classifier. Two ship in a shadow or log-only mode, one is advisory by design, and three fail open: danna-zhou/jev-mcp, claude-model-guard and ohmyjev. One, gulbaki/jev-llm-guard, only returns a verdict: it is not counted as a decision. The official TypeSafe plugin makes no Jev calls at all." It replaces "only one of seven". The page lists ohmyjev among the three that fail open even though the map does not count it yet.</li>
+    <li><strong>Model IDs:</strong> ohmyjev pins <code>jev-1.13.0</code>, so it will not move when <code>jev-latest</code> is repointed; claude-model-guard and claude-jev-advisor send <code>jev-latest</code> (R18-S203 to R18-S230; cell reads R17-S236 to R17-S245).</li>
+  </ul>
+
+  <h2 id="products">3. Products ledger: 99 → 113 rows</h2>
+  <p>A script first reproduced the published ledger (A 86, B 12, C 1 = 99). 14 rows were added, each with the Jev call read at a pinned commit (grade A): 3 Claude Code guardrails, 3 game and robot demos and 8 projects (3 + 3 + 8 = 14). <span class="ev ev-documented">Documented</span>, 18 Oct 2026.</p>
+  <div class="table-wrap stack">
+    <table>
+      <caption>Ledger grades, 11 Oct → 18 Oct 2026</caption>
+      <thead><tr><th>Grade</th><th>11 Oct</th><th>18 Oct</th><th>Meaning</th></tr></thead>
+      <tbody>
+<tr><td data-l="Grade">A</td><td data-l="11 Oct">86</td><td data-l="18 Oct">100</td><td data-l="Meaning">the code that calls Jev was read at a pinned commit</td></tr>
+<tr><td data-l="Grade">B</td><td data-l="11 Oct">12</td><td data-l="18 Oct">12</td><td data-l="Meaning">rests on the project's own description</td></tr>
+<tr><td data-l="Grade">C</td><td data-l="11 Oct">1</td><td data-l="18 Oct">1</td><td data-l="Meaning">a mock</td></tr>
+<tr><td data-l="Grade">Total</td><td data-l="11 Oct">99</td><td data-l="18 Oct">113</td><td data-l="Meaning">independently verified in production: 0 of 113</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="table-wrap stack">
+    <table>
+      <caption>The 14 rows added on 18 Oct 2026 (all grade A)</caption>
+      <thead><tr><th>Project and pin</th><th>What it is</th><th>Jev call (file and lines)</th><th>Source</th></tr></thead>
+      <tbody>
+<tr><td data-l="Project">mcowdery/claude-model-guard at <a href="https://github.com/mcowdery/claude-model-guard/tree/bced870dd65fae00865964b044f1a9717f917a85"><code>bced870</code></a></td><td data-l="What it is">Claude Code model-tier guard</td><td data-l="Jev call">see <a href="#claude-code">section 2</a></td><td data-l="Source">R18-S202; R17-S236 to R17-S245</td></tr>
+<tr><td data-l="Project">delt96/claude-jev-advisor at <a href="https://github.com/delt96/claude-jev-advisor/tree/f2c17914a591c443e58c7a4b260a40d25e261fd6"><code>f2c1791</code></a></td><td data-l="What it is">Claude Code deletion guard (Windows)</td><td data-l="Jev call">see <a href="#claude-code">section 2</a></td><td data-l="Source">R18-S201, R18-S66</td></tr>
+<tr><td data-l="Project">Novacon/ohmyjev at <a href="https://github.com/Novacon/ohmyjev/tree/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11"><code>78bb82c</code></a></td><td data-l="What it is">Claude Code guard module</td><td data-l="Jev call">see <a href="#claude-code">section 2</a></td><td data-l="Source">R18-S200</td></tr>
+<tr><td data-l="Project">mikespins/doom-jev at <a href="https://github.com/mikespins/doom-jev/tree/bd4e98f87990bd05cb6e1aefc4fed04834236e7c"><code>bd4e98f</code></a></td><td data-l="What it is">game demo</td><td data-l="Jev call">as on <a href="../../use-cases/real-time-control/index.html">real-time control</a></td><td data-l="Source">R13-S68</td></tr>
+<tr><td data-l="Project">FazalAAli/jev-robotics-demo at <a href="https://github.com/FazalAAli/jev-robotics-demo/tree/531de61a75f386b0847f5f6f809a11424a75c29b"><code>531de61</code></a></td><td data-l="What it is">robot demo</td><td data-l="Jev call">as on real-time control</td><td data-l="Source">R13-S69</td></tr>
+<tr><td data-l="Project">bileshg/JevPlaysSnakeGame at <a href="https://github.com/bileshg/JevPlaysSnakeGame/tree/b9237bf9111cc7dba0e41da54a4b83de1e42f366"><code>b9237bf</code></a></td><td data-l="What it is">game demo</td><td data-l="Jev call">as on real-time control</td><td data-l="Source">R14-S49</td></tr>
+<tr><td data-l="Project">soderlind/jev-mail-triage at <a href="https://github.com/soderlind/jev-mail-triage/tree/29cebd02bc0aa1041b5ea2372acdf808b28cd2d4"><code>29cebd0</code></a></td><td data-l="What it is">spam and phishing triage for Proton Mail Bridge</td><td data-l="Jev call"><code>src/jev_mail_triage/classifier.py</code> L31; <code>policy.py</code> L30-33</td><td data-l="Source">R18-S120 to R18-S123</td></tr>
+<tr><td data-l="Project">igrady2/school-chat-filter at <a href="https://github.com/igrady2/school-chat-filter/tree/c6643497c6bd8021aedbdda6758d81a91aa24447"><code>c664349</code></a></td><td data-l="What it is">school chat moderation web app</td><td data-l="Jev call"><code>src/lib/moderation/typesafe.ts</code> L85-92; <code>index.ts</code> L105-111</td><td data-l="Source">R18-S124 to R18-S126</td></tr>
+<tr><td data-l="Project">seominpapa/sitesee at <a href="https://github.com/seominpapa/sitesee/tree/d7fb822d43df72b809b81d0d648123d29a6adbcb"><code>d7fb822</code></a></td><td data-l="What it is">construction-site camera safety pipeline</td><td data-l="Jev call"><code>siteeye/jev_client.py</code> L138-160; <code>pipeline.py</code> L95</td><td data-l="Source">R18-S127, R18-S128</td></tr>
+<tr><td data-l="Project">MrCull/QuaySight at <a href="https://github.com/MrCull/QuaySight/tree/c9fd6644e5c095b9ab069ba3efc508055b8d636e"><code>c9fd664</code></a></td><td data-l="What it is">shipping-container photo inspection</td><td data-l="Jev call"><code>src/services/jev.ts</code> L59-66; <code>src/domain/jev.ts</code> L25</td><td data-l="Source">R18-S129, R18-S130</td></tr>
+<tr><td data-l="Project">botheaj/video-image-tagger at <a href="https://github.com/botheaj/video-image-tagger/tree/e6283670078708d94fcf04d9867ed8f35f32374e"><code>e628367</code></a></td><td data-l="What it is">finds a product in video frames (Rust CLI)</td><td data-l="Jev call"><code>src/jev.rs</code> L174-178, L94-98; <code>src/main.rs</code> L139</td><td data-l="Source">R18-S131, R18-S132</td></tr>
+<tr><td data-l="Project">twidtwid/jev-dronecam at <a href="https://github.com/twidtwid/jev-dronecam/tree/236227f395bff22bd999475ff7ecde1a512eed5b"><code>236227f</code></a></td><td data-l="What it is">browser demo with a simulated drone camera</td><td data-l="Jev call"><code>server.py</code> L78-83; <code>public/index.html</code> L381-382</td><td data-l="Source">R18-S133 to R18-S135</td></tr>
+<tr><td data-l="Project">kallurayaankit/jev-content-mod at <a href="https://github.com/kallurayaankit/jev-content-mod/tree/90f644b1ebad873aebe31c432972b148ef6623fd"><code>90f644b</code></a></td><td data-l="What it is">content moderation example</td><td data-l="Jev call"><code>moderate.jev</code> L1-20; <code>policy.py</code> L40-46. The HTTP request is made inside the third-party <code>jevlang</code> package, which was not read.</td><td data-l="Source">R18-S136, R18-S137</td></tr>
+<tr><td data-l="Project">devYRPauli/putaway at <a href="https://github.com/devYRPauli/putaway/tree/35d8c507f37804f434c9aa686e1c1c02c373786e"><code>35d8c50</code></a></td><td data-l="What it is">macOS app that files a folder's contents</td><td data-l="Jev call"><code>Sources/PutawayCore/Classify.swift</code> L62, L81-87; <code>Plan.swift</code> L59-62</td><td data-l="Source">R18-S138, R18-S139</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <ul>
+    <li><strong>Published claims rechecked 18 Oct 2026, 05:19 UTC</strong> <span class="ev ev-reported">Reported</span>: 7 claims. Online with the same text: 5 of 7 (Brizz, Polylane, the Vercel CEO post, the Bryo AI post, FundaAI). Not rechecked: 2 of 7, the two figures relayed by VentureBeat (no direct link; VentureBeat returned HTTP 429). Changed: 0 of 7 (5 + 2 + 0 = 7) (R18-S103 to R18-S111).</li>
+    <li><strong>LangChain AutoModeMiddleware:</strong> the Python package is a counted row and its JS twin is not; kept as published, and the products page states the reason in one line.</li>
+    <li><strong>Directory counts</strong> (18 Oct 2026, 05:19 UTC): Made with Jev 855 builds; typesafeai.app 163 records ("Zero records have been independently reproduced"); JevCases 44 indexed cases; Jev in the Wild 2,170 (unchanged). These are listings, not adoption (R18-S112 to R18-S118).</li>
+    <li>Two repositories read for this update did not qualify and stay leads: one had no Jev call at the pin and one did not mention Jev.</li>
+  </ul>
+
+  <h2 id="access">4. Access, aliases and routes</h2>
+  <p>Checked 18 Oct 2026, 05:17–05:21 UTC: <span class="ev ev-documented">Documented</span>. The access state is unchanged.</p>
+  <ul>
+    <li>Signups open; new accounts get no free credit; API operational. Price $0.042 per million input tokens for <code>jev-1.14.0</code> and <code>jev-1.13.0</code>; rate limits "set per organization" (R18-S01 to R18-S05).</li>
+    <li><strong>Aliases:</strong> <code>jev-latest</code> → <code>jev-1.13.0</code>; <code>jev-preview</code> → <code>jev-1.14.0</code>. TypeSafe's models page is byte-identical to 16 Oct. The 14 Oct post still says <code>jev-latest</code> moves "in a week"; no move date and no 1.13 retirement date are published (R18-S05, R18-S09).</li>
+    <li><strong>Status page:</strong> no new event; the 90-day API uptime figure reads 99.826% (99.840% on 16 Oct). The page gives no cause (R18-S04).</li>
+    <li><strong>Home notices:</strong> 4 shown, none retired: no credit for new users, the Jev 1.14 preview, lookalike resellers, and the experimental features.</li>
+    <li><strong>Opper:</strong> now lists <code>typesafe/jev-1.14.0</code> (alias <code>typesafe/jev-preview</code>, 64,000-token context, $0.042 per million input tokens). Its <code>typesafe/jev-latest</code> alias still points to 1.13.0 (05:20 UTC; R18-S32, R18-S33). Opper is the first of the five watched catalogs to list 1.14.</li>
+    <li>Jev 1.14 was not listed on Cloudflare, Amazon Bedrock, Microsoft Foundry or Workers AI at 18 Oct 2026, 05:20 UTC (R18-S30, R18-S31, R18-S35, R18-S36). OpenRouter, Vercel and Netlify values unchanged.</li>
+  </ul>
+
+  <h2 id="small-items">5. Small items, scan and drift</h2>
+  <ul>
+    <li><strong>Vercel AI Gateway, 32,000:</strong> Vercel lists a 32,000-token context window for all three Jev IDs. This equals TypeSafe's per-question limit (32k; requests default to 64k), but Vercel does not define the field, so the match is not confirmed (R18-S25 to R18-S29).</li>
+    <li><strong>@typesafe-ai/sdk 0.7.0:</strong> checked against the 0.7.0 package files (not installed); the failure path is unchanged from 0.6.0 (error classes, 2 retries on 408, 429 and 5xx, 10,000 ms per attempt, a missing key throws in the constructor, <code>jev-latest</code> default). Three smaller changes: input-validation errors now reject the returned promise instead of throwing at the call; request bodies of 1 KiB or more are zstd-compressed by default on Node 22.15+; the package now needs Node 22 (R18-S68). Shown on <a href="../../build/typescript/index.html">TypeScript</a> and <a href="../../build/errors-and-rate-limits/index.html">errors and rate limits</a>.</li>
+    <li><strong>Drift notes, not re-audited:</strong> patches ai 7.0.143, @ai-sdk/typesafe-ai 3.0.21, deepeval 4.3.1 (JevEval files not rechecked) and n8n 2.44.3 (Jev path last read at 2.44.1); pre-release @openclaw/typesafe <code>2026.10.10-beta.2</code>. Unchanged: typesafe-sdk 0.7.5, @jkudish/jev-mcp 0.14.3, @effect/ai-typesafe 4.0.5, pydantic-ai-slim 2.57.0, litellm 1.105.1 and the rest of the list (R18-S57).</li>
+    <li><strong>Launched, not yet evaluated</strong> (72-hour look-back): Liquid AI d1-ultra, $0.042 per million input tokens on its launch page; Liquid says it outperforms Jev 1.14 "across all tasks" (vendor claim, <span class="ev ev-reported">Reported</span>; R18-S50). Mouse-1, $0.10 per million input tokens on its launch page (R18-S51). Terms, data handling and API shape were not read. One dated line on <a href="../../alternatives/index.html">alternatives</a>; no rows or comparison columns.</li>
+    <li><strong>72-hour look-back result</strong> (from 15 Oct 2026, 05:16 UTC): new: Liquid AI d1-ultra and a tazo labs audio decision model (API, price and terms not read; R18-S52); older but newly seen: Mouse-1 (post dated 13 Oct). Already recorded, no change found: the Decision Index, SubQ Snap, OpenAI's Decisions API (still public beta; R18-S55). Eevo's page was read (MCP, API and console; "around $0.20 per decision"); its terms and data handling were not found. None is a Home notice.</li>
+    <li><strong>Copies under many accounts:</strong> identical repositories (for example <code>quicksilver</code>, <code>jev-browser</code>, <code>jevmem</code>) were created under many accounts in the scan window, so GitHub counts for this window look inflated. Judged from names and descriptions only (R18-S42).</li>
+  </ul>
+
+  <h2 id="gaps">6. Evidence gaps</h2>
+  <ul>
+    <li>ohmyjev: the pi and omp adapters' other handlers (output screen, done-check, routing, compaction) were not read line by line, so its bypass cell is not counted as recorded.</li>
+    <li>jev-content-mod: the HTTP request is inside the third-party <code>jevlang</code> package, which was not read. The row is graded A on its call site in the repository.</li>
+    <li>Vercel's 32,000 field: not defined by Vercel, so its match with the per-question limit is not confirmed.</li>
+    <li>The two VentureBeat-relayed claims were not rechecked; newer X statements cannot be checked without X search. A DEV.to post claiming "35% of paid-for groups in Vercel" was not opened (Unverified).</li>
+    <li>d1-ultra, Mouse-1, the tazo labs model and Eevo: launch pages only; terms, data handling and API shape unknown.</li>
+    <li>The status page gives no cause for its uptime change.</li>
+    <li>Wording-only cells on content moderation (11) and support-ticket triage (9) are left for a later update.</li>
+    <li>Reddit returned HTTP 403 and X has no search access; YouTube, TikTok, GitHub trending and GitHub code search were not covered. GitHub result lists over 100 items cover the scan window only partly. Those surfaces are unknown, not empty.</li>
+    <li>Subprocessors were not rechecked (the trust portal needs a browser render).</li>
+  </ul>
+
+  <div class="jv-box warn" id="method">
+    <h2 id="rp18-method">7. Method notes and what was not verified</h2>
+    <ul>
+      <li>Nothing was run: no account, key, API call, package install or third-party code.</li>
+      <li><strong>Scan window:</strong> this update's scan covered 16 Oct 05:19 UTC to 18 Oct 05:16 UTC. It starts at the previous scan's cutoff, so there is no gap and no overlap. The 72-hour decision-API look-back starts at 15 Oct 2026, 05:16 UTC and overlaps the previous look-back, as intended.</li>
+      <li>Failure terms were compared by script: each page row was matched to a map row by repository and pinned commit; two rows pinned by npm version were compared by hand. The map's counts were reproduced by script before any row was added, then recounted after each addition.</li>
+      <li>Bypass cells rest on reading every entry point from one listing at the pinned commit. Package facts come from published package files opened without installing. Vendor claims are Reported and attributed.</li>
+    </ul>
+  </div>
+
+  <section class="jv-sources" aria-labelledby="rp18-sources">
+    <h2 id="rp18-sources">Key sources and check times (18 Oct 2026, UTC)</h2>
+    <details>
+      <summary>Sources by section (R18 IDs; earlier IDs from their own reports)</summary>
+      <ul>
+        <li>Access, 05:17–05:21: console and signup (R18-S01, R18-S02); <a href="https://status.typesafe.ai/">status.typesafe.ai</a> (R18-S04); <a href="https://docs.typesafe.ai/models.md">models page</a> (R18-S05); images and Box pages (R18-S06, R18-S19); <a href="https://typesafe.ai/blog/jev-1-14">Jev 1.14 post</a> (R18-S09).</li>
+        <li>Routes, 05:20: OpenRouter (R18-S22 to R18-S24); Vercel AI Gateway (R18-S25 to R18-S29); Cloudflare (R18-S30, R18-S31); Opper (R18-S32, R18-S33); Netlify (R18-S34); Foundry and Bedrock (R18-S35, R18-S36).</li>
+        <li>Failure terms, 05:24–05:31: the published map's cells (R18-S63).</li>
+        <li>Claude Code guardrails: commit feeds, 05:20 (R18-S200 to R18-S202); bypass entry points (R18-S203 to R18-S230); spot-check (R18-S66); cell reads of 16 Oct (R17-S236 to R17-S245).</li>
+        <li>Products, 05:19: claims (R18-S103 to R18-S111); directories (R18-S112 to R18-S118); new rows (R18-S120 to R18-S139); demos (R13-S68, R13-S69, R14-S49).</li>
+        <li>Packages: drift list, 05:23 (R18-S57); @typesafe-ai/sdk 0.7.0 package files (R18-S68).</li>
+        <li>Scan, window 16 Oct 05:19 UTC to 18 Oct 05:16 UTC: HN Algolia (R18-S41); GitHub (R18-S42); npm (R18-S43); Hugging Face (R18-S44); DEV.to (R18-S45); Reddit, HTTP 403 (R18-S46); Ollama (R18-S47); d1-ultra (R18-S50); Mouse-1 (R18-S51); tazo labs (R18-S52); OpenAI Decisions API guide (R18-S55).</li>
+      </ul>
+    </details>
+  </section>
+
+  <section class="jv-related" aria-labelledby="rp18-related">
+    <h2 id="rp18-related">Related pages</h2>
+    <ul>
+      <li><a href="../../build/when-jev-fails/index.html">When Jev fails: 79 implementations and a checklist</a></li>
+      <li><a href="../../build/claude-code-mcp/index.html">Jev Claude Code and MCP guardrails (TypeSafe AI)</a></li>
+      <li><a href="../../build/coding-agents/index.html">Coding agents</a></li>
+      <li><a href="../../use-cases/trading-and-fraud-gates/index.html">Trading and fraud gates</a></li>
+      <li><a href="../../use-cases/browser-and-computer-use/index.html">Browser and computer use</a></li>
+      <li><a href="../../products/index.html">Jev products and projects</a></li>
+      <li><a href="../../where-to-use/versions-and-aliases/index.html">Model IDs and aliases by route</a></li>
+      <li><a href="../../where-to-use/access-status/index.html">Access status</a></li>
+      <li><a href="../../research/index.html">Research: all reports and release notes</a></li>
+      <li><a href="../bypass-cells-claude-code-refresh/index.html">16 Oct research report</a></li>
+    </ul>
+  </section>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>18 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>

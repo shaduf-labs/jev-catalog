@@ -2,6 +2,66 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "access-recheck-2026-10-18",
+      "changed_at": "2026-10-18T06:30:00Z",
+      "summary": "Access status rechecked 18 Oct 2026, 05:17 UTC: signups open, no new-user credit, API operational; price, rate-limit wording and model aliases unchanged (jev-latest still on jev-1.13.0; TypeSafe has published no date for the move to 1.14). Home keeps its four notices; none retired.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "when-jev-fails-2026-10-18",
+      "changed_at": "2026-10-18T06:30:00Z",
+      "summary": "When Jev fails: two Claude Code guards join the checklist (claude-model-guard fails open on a Jev error; claude-jev-advisor's Windows delete guard holds), so it counts 79 implementations with every failure cell recorded. On a Jev error 40 stop or hold the action, 22 fall back, 9 let it through, 5 return no decision and 3 are advisory; the action goes ahead in 18 of 79. A line explains why second-look is counted here but not on the browser page.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "claude-code-mcp-2026-10-18",
+      "changed_at": "2026-10-18T06:30:00Z",
+      "summary": "Claude Code and MCP guardrails: three guardrails read at pinned commits are added (claude-model-guard, claude-jev-advisor, ohmyjev). New short answer: of ten guardrails read in source, two hold or stop when Jev fails, one falls back, two are shadow or log-only, one is advisory, three fail open and one returns a verdict only. ohmyjev is not yet in the failure-checklist count.",
+      "path": "/p/jev-catalog/build/claude-code-mcp"
+    },
+    {
+      "change_id": "coding-agents-terms-2026-10-18",
+      "changed_at": "2026-10-18T06:30:00Z",
+      "summary": "Coding agents: cells now use the failure checklist's terms. Correction: on a Jev error the 13 integrations that act on Jev's answer are 3 fail-closed, 9 fallback and 1 fail-open (the earlier split \"5 let the call run, 3 hold, 5 fall back\" did not match the cells). Bypass cells say \"recorded\". No outcome changed.",
+      "path": "/p/jev-catalog/build/coding-agents"
+    },
+    {
+      "change_id": "trading-browser-terms-2026-10-18",
+      "changed_at": "2026-10-18T06:30:00Z",
+      "summary": "Trading and fraud gates, and browser and computer use: cells use the failure checklist's terms and colours; bypass cells say \"recorded\", with what happens without Jev in the detail. On a Jev error the 4 trading bots are 2 fail-closed and 2 fallback; both fallbacks can still place a new order. No outcome changed.",
+      "path": "/p/jev-catalog/use-cases/trading-and-fraud-gates"
+    },
+    {
+      "change_id": "products-2026-10-18",
+      "changed_at": "2026-10-18T06:30:00Z",
+      "summary": "Products: the ledger has 113 rows (14 added: three Claude Code guards, three game and robot demos, eight projects). For 100 the Jev call was read at a pinned commit; none of the 113 is independently verified in production. Of 7 published production or cost claims, 5 are online with the same text and 2 relayed by VentureBeat were not rechecked.",
+      "path": "/p/jev-catalog/products"
+    },
+    {
+      "change_id": "versions-and-aliases-2026-10-18",
+      "changed_at": "2026-10-18T06:30:00Z",
+      "summary": "Model IDs and aliases: on 18 Oct jev-latest still points to jev-1.13.0. Opper now lists typesafe/jev-1.14.0 (alias typesafe/jev-preview; its jev-latest alias stays on 1.13.0), so 5 of 6 routes list a 1.14 ID. Vercel lists a 32,000-token context window for all three Jev IDs; it equals TypeSafe's per-question limit, but Vercel does not define the field.",
+      "path": "/p/jev-catalog/where-to-use/versions-and-aliases"
+    },
+    {
+      "change_id": "typescript-sdk-2026-10-18",
+      "changed_at": "2026-10-18T06:30:00Z",
+      "summary": "TypeScript: @typesafe-ai/sdk 0.7.0 keeps the 0.6.0 failure path (timeout, retries, missing-key error and default model). Validation errors now reject the returned promise, request bodies of 1 KiB or more are zstd-compressed by default on Node 22.15+, and the package needs Node 22.",
+      "path": "/p/jev-catalog/build/typescript"
+    },
+    {
+      "change_id": "alternatives-launches-2026-10-18",
+      "changed_at": "2026-10-18T06:30:00Z",
+      "summary": "Alternatives: Liquid AI d1-ultra and Mouse-1, hosted decision models launched in the last days, are noted with their launch-page prices; their performance claims are the vendors' own, and their terms were not read. They are not yet evaluated or listed as rows.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "report-2026-10-18",
+      "changed_at": "2026-10-18T06:30:00Z",
+      "summary": "Research report of 18 October 2026: failure terms aligned across pages, three Claude Code guardrails read, and the products ledger rechecked. It covers what was read, what changed and what is still not verified.",
+      "path": "/p/jev-catalog/reports/failure-terms-claude-code-gates-products"
+    },
+    {
       "change_id": "access-recheck-2026-10-16",
       "changed_at": "2026-10-16T06:20:00Z",
       "summary": "Access status rechecked 16 Oct 2026, 05:21 UTC: signups open, no new-user credit, API operational; price unchanged. TypeSafe released Jev 1.14 under jev-preview (jev-latest still on jev-1.13.0, moving in about a week per TypeSafe); its models page no longer lists rate-limit numbers (set per organization, shown in the console); image input, a Box question type and 262k long context are opt-in experiments. Home shows four notices; the hidden Series A notice retired at the end of its seven-day shelf life.",

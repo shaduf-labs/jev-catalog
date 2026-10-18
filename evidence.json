@@ -19210,6 +19210,1326 @@
       "accessed_at": "2026-10-16T05:32:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Source R18-S01: console.typesafe.ai/",
+      "claim": "Welcome to TypeSafe (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R18-S02: publish.x.com/oembed?url=x.com/CompleteSkeptic/status/2104338649999626397",
+      "claim": "good news: ANYONE CAN SIGN UP ... we had to temporarily disable the free credits (just for new users) (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R18-S03: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "(15,088 bytes) (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s04",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R18-S04: status.typesafe.ai/",
+      "claim": "All services are online; Last updated on Oct 18, 2026 at 5:17am UTC; api.typesafe.ai 99.826% uptime (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R18-S05: docs.typesafe.ai/models.md",
+      "claim": "| `jev-latest` | `jev-1.13.0` | ... | `jev-preview` | `jev-1.14.0` |; Rate limits are set per organization; $42 / $0.042 both versions (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R18-S06: docs.typesafe.ai/images.md",
+      "claim": "Dreamer-ready ... not production-ready callout (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R18-S07: typesafe.ai/",
+      "claim": "(homepage) (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R18-S08: typesafe.ai/blog",
+      "claim": "Jev: For the builders AND dreamers (latest) (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R18-S09: typesafe.ai/blog/jev-1-14",
+      "claim": "jev-latest ... in a week. jev-1.13.0 will be available for a while. (Documented)",
+      "accessed_at": "2026-10-18T05:19:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R18-S10: typesafe.ai/enterprise",
+      "claim": "(enterprise page) (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s11",
+      "source_type": "reported source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R18-S11: aifront-page.com/",
+      "claim": "(homepage) (Reported)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s12",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Source R18-S12: docs.typesafe.ai/legal.md",
+      "claim": "(1,168 bytes) (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s13",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R18-S13: openrouter.ai/docs/guides/community/jev",
+      "claim": "There's no waitlist or separate TypeSafe account. Just create an OpenRouter API key (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s14",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R18-S14: research.eye.security/rise-of-the-jev-clones/",
+      "claim": "names jev-agent.org, jev-ai.pro, jevtypesafeai.com (Reported)",
+      "accessed_at": "2026-10-18T05:19:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s15",
+      "source_type": "unverified source",
+      "source_url": "https://jev-agent.org/",
+      "title": "Source R18-S15: jev-agent.org/",
+      "claim": "Jev: Fast System One Decisions for AI Agents | Jev Agent (Unverified)",
+      "accessed_at": "2026-10-18T05:19:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s16",
+      "source_type": "unverified source",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Source R18-S16: jev-ai.pro/",
+      "claim": "Jev AI — Try the Jev Model by TypeSafe: Playground & API (Unverified)",
+      "accessed_at": "2026-10-18T05:19:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s17",
+      "source_type": "unverified source",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Source R18-S17: jevtypesafeai.com/",
+      "claim": "Jev by TypeSafe AI — Try the System One model & API (Unverified)",
+      "accessed_at": "2026-10-18T05:19:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s18",
+      "source_type": "unverified source",
+      "source_url": "https://thejevai.com/",
+      "title": "Source R18-S18: thejevai.com/",
+      "claim": "Jev AI — Jev Model Online, Free, No Waitlist (Unverified)",
+      "accessed_at": "2026-10-18T05:19:02Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s19",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/box.md",
+      "title": "Source R18-S19: docs.typesafe.ai/primitives/box.md",
+      "claim": "(Box question type) (Documented)",
+      "accessed_at": "2026-10-18T05:19:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s20",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Source R18-S20: docs.typesafe.ai/llms.txt",
+      "claim": "(docs index) (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Source R18-S21: docs.typesafe.ai/changelog.md",
+      "claim": "404 (Documented)",
+      "accessed_at": "2026-10-18T05:17:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s22",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Source R18-S22: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "typesafe/jev-1.13 endpoint (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s23",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "title": "Source R18-S23: openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "claim": "typesafe/jev-1.14 endpoint (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s24",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R18-S24: openrouter.ai/api/v1/models",
+      "claim": "TypeSafe entries: typesafe/jev-router only (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s25",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Source R18-S25: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "context_length 32000 (digitalocean, typesafe-ai endpoints) (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s26",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.14.0/endpoints",
+      "title": "Source R18-S26: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.14.0/endpoints",
+      "claim": "context_length 32000; prompt 0.000000042; input text, image (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s27",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.13.0/endpoints",
+      "title": "Source R18-S27: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.13.0/endpoints",
+      "claim": "context_length 32000 (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R18-S28: ai-gateway.vercel.sh/v1/models",
+      "claim": "typesafe-ai/jev, jev-1.13.0, jev-1.14.0: context_window 32000, max_tokens 0 (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s29",
+      "source_type": "documented source",
+      "source_url": "https://vercel.com/docs/ai-gateway/models-and-providers",
+      "title": "Source R18-S29: vercel.com/docs/ai-gateway/models-and-providers",
+      "claim": "This endpoint requires no authentication and returns model IDs, context windows, pricing, and reasoning controls. (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s30",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Source R18-S30: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "examples show \"model\": \"jev-1.13.0\" (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s31",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev-1.14/",
+      "title": "Source R18-S31: developers.cloudflare.com/ai/models/typesafe/jev-1.14/",
+      "claim": "(serves the generic Models catalog page) (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s32",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Source R18-S32: api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "claim": "typesafe/jev-1.13.0 aliases [\"typesafe/jev-latest\"] (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s33",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.14.0",
+      "title": "Source R18-S33: api.opper.ai/v3/models?q=typesafe%2Fjev-1.14.0",
+      "claim": "typesafe/jev-1.14.0, aliases [\"typesafe/jev-preview\"], context_window 64000, input 0.042 per Mtok, release 2026-10-14; model_card reference created 2026-10-16T08:08:16Z (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s34",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R18-S34: docs.netlify.com/build/ai-gateway/overview/",
+      "claim": "jev-1.13.0, jev-1.14.0 (Documented)",
+      "accessed_at": "2026-10-18T05:20:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s35",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "title": "Source R18-S35: learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "claim": "(no typesafe/jev) (Documented)",
+      "accessed_at": "2026-10-18T05:20:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s36",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
+      "title": "Source R18-S36: docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
+      "claim": "(no typesafe/jev) (Documented)",
+      "accessed_at": "2026-10-18T05:20:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s37",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/",
+      "title": "Source R18-S37: developers.cloudflare.com/workers-ai/models/",
+      "claim": "(no typesafe/jev) (Documented)",
+      "accessed_at": "2026-10-18T05:20:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s38",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/changelog/",
+      "title": "Source R18-S38: developers.cloudflare.com/changelog/",
+      "claim": "(no typesafe/jev) (Documented)",
+      "accessed_at": "2026-10-18T05:20:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s40",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/rate_limit",
+      "title": "Source R18-S40: api.github.com/rate_limit",
+      "claim": "core 60/60, search 10/10 (unauthenticated) (Documented)",
+      "accessed_at": "2026-10-18T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s41",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date (created_at_i window and 72 h look-back queries)",
+      "title": "Source R18-S41: hn.algolia.com/api/v1/search_by_date (created_at_i window and 72 h look-back queries)",
+      "claim": "jev 5 stories / 23 comments; typesafe 2 / 0; jev vision, vlm, vla 0 (Documented)",
+      "accessed_at": "2026-10-18T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s42",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories (6 queries, window split in two halves for pushed:)",
+      "title": "Source R18-S42: api.github.com/search/repositories (6 queries, window split in two halves for pushed:)",
+      "claim": "jev created 374; typesafe created 120; jev pushed 417 + 643; topic:jev pushed 361; jev claude created 47 (Documented)",
+      "accessed_at": "2026-10-18T05:22:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s43",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search (7 queries)",
+      "title": "Source R18-S43: registry.npmjs.org/-/v1/search (7 queries)",
+      "claim": "packages published in window listed (Documented)",
+      "accessed_at": "2026-10-18T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s44",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models (search jev, decision; author typesafe-ai)",
+      "title": "Source R18-S44: huggingface.co/api/models (search jev, decision; author typesafe-ai)",
+      "claim": "typesafe-ai author: 0 models; Jev-named third-party models only (Documented)",
+      "accessed_at": "2026-10-18T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s45",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev",
+      "title": "Source R18-S45: dev.to/api/articles?tag=jev",
+      "claim": "5 jev-tagged posts in window (Documented)",
+      "accessed_at": "2026-10-18T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s46",
+      "source_type": "documented source",
+      "source_url": "https://www.reddit.com/search.json?q=jev%20typesafe",
+      "title": "Source R18-S46: www.reddit.com/search.json?q=jev%20typesafe",
+      "claim": "HTTP 403 (Documented)",
+      "accessed_at": "2026-10-18T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s47",
+      "source_type": "documented source",
+      "source_url": "https://ollama.com/search?q=jev",
+      "title": "Source R18-S47: ollama.com/search?q=jev",
+      "claim": "no library/jev link in served HTML (Documented)",
+      "accessed_at": "2026-10-18T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s49",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/search/?q=jev&o=-created",
+      "title": "Source R18-S49: pypi.org/search/?q=jev&o=-created",
+      "claim": "(client-rendered; no list in served HTML) (Documented)",
+      "accessed_at": "2026-10-18T05:21:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s50",
+      "source_type": "reported source",
+      "source_url": "https://www.liquid.ai/blog/d1-ultra",
+      "title": "Source R18-S50: www.liquid.ai/blog/d1-ultra",
+      "claim": "d1-ultra is available today on the Liquid API at $0.042 per million input tokens; vendor says it outperforms Jev 1.14 (Reported)",
+      "accessed_at": "2026-10-18T05:29:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s51",
+      "source_type": "reported source",
+      "source_url": "https://mouse.dev/blog/mouse-decision-model/",
+      "title": "Source R18-S51: mouse.dev/blog/mouse-decision-model/",
+      "claim": "Mouse-1 ... available as an API at $0.10 per 1M input tokens with free output; $5 in credits, no card (Reported)",
+      "accessed_at": "2026-10-18T05:29:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s52",
+      "source_type": "reported source",
+      "source_url": "https://tazolabs.com/blog/what-is-an-audio-decision-model",
+      "title": "Source R18-S52: tazolabs.com/blog/what-is-an-audio-decision-model",
+      "claim": "An audio decision model listens to a conversation ... (Reported)",
+      "accessed_at": "2026-10-18T05:29:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s53",
+      "source_type": "reported source",
+      "source_url": "https://www.kapa.ai/blog/jev-reranker-benchmark",
+      "title": "Source R18-S53: www.kapa.ai/blog/jev-reranker-benchmark",
+      "claim": "Jev is NOT a reranker (but it's close) (Reported)",
+      "accessed_at": "2026-10-18T05:29:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s54",
+      "source_type": "reported source",
+      "source_url": "https://arxiv.org/abs/2610.18773",
+      "title": "Source R18-S54: arxiv.org/abs/2610.18773",
+      "claim": "Jeva: System One Models from First Principles (Reported)",
+      "accessed_at": "2026-10-18T05:29:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s55",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md",
+      "title": "Source R18-S55: developers.openai.com/api/docs/guides/decisions.md",
+      "claim": "The Decisions API is in public beta, and we expect to GA in the coming weeks. (Documented)",
+      "accessed_at": "2026-10-18T05:29:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s57",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/<pkg>",
+      "title": "Source R18-S57: registry.npmjs.org/<pkg>",
+      "claim": "see offline/s6/drift.json (Documented)",
+      "accessed_at": "2026-10-18T05:23:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s66",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/rm/run.ts",
+      "title": "Source R18-S66: raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/rm/run.ts",
+      "claim": "L91 const key = readJevKey(...); L92 if (!key) return hookOutput(result); (Documented)",
+      "accessed_at": "2026-10-18T05:27:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s67",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/devYRPauli/putaway/35d8c507f37804f434c9aa686e1c1c02c373786e/Sources/PutawayCore/Classify.swift",
+      "title": "Source R18-S67: raw.githubusercontent.com/devYRPauli/putaway/35d8c507f37804f434c9aa686e1c1c02c373786e/Sources/PutawayCore/Classify.swift",
+      "claim": "L62 case .jev: URL(string: \"https://api.typesafe.ai/v1/systemone\")!; L81-87 POST (Documented)",
+      "accessed_at": "2026-10-18T05:27:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s68",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.7.0.tgz",
+      "title": "Source R18-S68: registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.7.0.tgz",
+      "claim": "dist/index.mjs L905 ?? \"jev-latest\"; L909 config.timeout ?? 1e4; package.json L31 \"node\": \">=22\" (Documented)",
+      "accessed_at": "2026-10-18T05:27:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s69",
+      "source_type": "reported source",
+      "source_url": "https://www.brizz.ai/blog",
+      "title": "Source R18-S69: www.brizz.ai/blog",
+      "claim": "(blog index) (Reported)",
+      "accessed_at": "2026-10-18T05:27:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s70",
+      "source_type": "reported source",
+      "source_url": "https://www.uprightproject.com/eevo/",
+      "title": "Source R18-S70: www.uprightproject.com/eevo/",
+      "claim": "Eevo is available through MCP, API, and the Eevo console. ... for around $0.20 per decision ... We are around 30 people in Finland (Reported)",
+      "accessed_at": "2026-10-18T05:37:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s71",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/rate_limit",
+      "title": "Source R18-S71: api.github.com/rate_limit",
+      "claim": "core 60/60, search 10/10 (unauthenticated) (Documented)",
+      "accessed_at": "2026-10-18T05:37:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s103",
+      "source_type": "documented source",
+      "source_url": "https://www.brizz.ai/blog/replacing-llm-classifier-with-jev",
+      "title": "Source R18-S103: Brizz blog post (datePublished 2026-09-23)",
+      "claim": "HTTP 200; 21x, $11,594, $2,759, 76%, 17,840, $1.40, $29.67 all present (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s104",
+      "source_type": "documented source",
+      "source_url": "https://polylane.com/blog/we-swapped-our-llms-for-jev/",
+      "title": "Source R18-S104: Polylane blog post (datePublished 2026-09-25)",
+      "claim": "HTTP 200; 39% cheaper, production, $0.76199, $0.46369, 4,752, 508 all present (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s105",
+      "source_type": "documented source",
+      "source_url": "https://publish.twitter.com/oembed?url=https://x.com/rauchg/status/2100307962262872105",
+      "title": "Source R18-S105: X post by Vercel CEO via public oEmbed",
+      "claim": "HTTP 200; GPT Luna, up to 18x faster (p95), more accurate, likely new default present (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s106",
+      "source_type": "documented source",
+      "source_url": "https://publish.twitter.com/oembed?url=https://x.com/nikhilmudholkar/status/2100604560335139083",
+      "title": "Source R18-S106: X post by Bryo AI CTO via public oEmbed",
+      "claim": "HTTP 200; lost to Gemini and still interested in putting it into production present (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s107",
+      "source_type": "documented source",
+      "source_url": "https://fundaai.substack.com/p/deepllm-jev-users-report-10-faster",
+      "title": "Source R18-S107: FundaAI Substack (datePublished = dateModified 2026-09-24T13:52:28+00:00)",
+      "claim": "HTTP 200; 80, 2,153, 3.7%, production present (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s108",
+      "source_type": "documented source",
+      "source_url": "https://venturebeat.com/?s=typesafe+jev",
+      "title": "Source R18-S108: VentureBeat site search",
+      "claim": "HTTP 429; the 13% and 140,000 claims not rechecked (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s109",
+      "source_type": "documented source",
+      "source_url": "https://www.brizz.ai/blog",
+      "title": "Source R18-S109: Brizz blog index",
+      "claim": "HTTP 200; one link containing jev (the 23 Sep post) (Documented)",
+      "accessed_at": "2026-10-18T05:19:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s110",
+      "source_type": "documented source",
+      "source_url": "https://polylane.com/blog/",
+      "title": "Source R18-S110: Polylane blog index",
+      "claim": "HTTP 200; one link containing jev (the 25 Sep post) (Documented)",
+      "accessed_at": "2026-10-18T05:19:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s111",
+      "source_type": "documented source",
+      "source_url": "https://fundaai.substack.com/archive",
+      "title": "Source R18-S111: FundaAI archive (served HTML)",
+      "claim": "HTTP 200; no link containing jev in served HTML (archive may load more by script) (Documented)",
+      "accessed_at": "2026-10-18T05:19:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s112",
+      "source_type": "documented source",
+      "source_url": "https://jevcases.com/",
+      "title": "Source R18-S112: JevCases home",
+      "claim": "INDEXED CASES 44 (live + featured + community); SOURCE LINKS 42 community repositories; LIVE DEMOS 02 (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s113",
+      "source_type": "documented source",
+      "source_url": "https://madewithjev.com/",
+      "title": "Source R18-S113: Made with Jev home",
+      "claim": "Updated Oct 18, 2026; 855 projects, posts and guides; 855 builds, 181 guides, 21 use cases (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s114",
+      "source_type": "documented source",
+      "source_url": "https://madewithjev.com/about",
+      "title": "Source R18-S114: Made with Jev about",
+      "claim": "855 builds listed; 181 guides and posts; 21 use cases (curator name not recorded) (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s115",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/hotchpotch/awesome-jev-cobanov/c188f7c55625ec6a1360e01f4a6e19e1ea1395cc/README.md",
+      "title": "Source R18-S115: awesome-jev-cobanov README (HEAD c188f7c per commits feed at 05:20Z; last commit 2026-09-19)",
+      "claim": "No count stated; scripted count 144 bulleted link lines (links, not verified products) (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s116",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/walidboulanouar/awesome-jev-use-cases/c70ef53c2cc80c21cf0d9ba06018195df60f6a27/README.md",
+      "title": "Source R18-S116: awesome-jev-use-cases README (HEAD c70ef53 per commits feed; last commit 2026-09-26)",
+      "claim": "No total stated (a \"13 use cases\" phrase only); scripted count 331 bulleted link lines and 24 table-row links (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s117",
+      "source_type": "documented source",
+      "source_url": "https://typesafeai.app/",
+      "title": "Source R18-S117: typesafeai.app (unofficial community index)",
+      "claim": "163 records; last full re-check 2026-10-17; zero records independently reproduced (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s118",
+      "source_type": "documented source",
+      "source_url": "https://arxiv.org/abs/2609.30216",
+      "title": "Source R18-S118: arXiv 2609.30216 Jev in the Wild",
+      "claim": "v1 only (24 Sep 2026); abstract: 2,170 publicly available Jev projects collected from GitHub as of 22 Sep 2026 (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s119",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/typesafe/jev-1.13/apps",
+      "title": "Source R18-S119: OpenRouter Jev 1.13 apps page (served HTML)",
+      "claim": "HTTP 200; app list and count not present in served HTML (count not shown) (Documented)",
+      "accessed_at": "2026-10-18T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s120",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/soderlind/jev-mail-triage/29cebd02bc0aa1041b5ea2372acdf808b28cd2d4/src/jev_mail_triage/classifier.py#L29-L88",
+      "title": "Source R18-S120: jev-mail-triage classifier at pin",
+      "claim": "system_one call L31; TypeSafeError -> RetryableError L73-74; missing or invalid Noul -> RetryableError L76-82 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s121",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/soderlind/jev-mail-triage/29cebd02bc0aa1041b5ea2372acdf808b28cd2d4/src/jev_mail_triage/policy.py#L25-L34",
+      "title": "Source R18-S121: jev-mail-triage policy at pin",
+      "claim": "spam or scam score at threshold -> MOVE L30-33; else LEAVE L34; truncated or allowlisted -> LEAVE L26-29 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s122",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/soderlind/jev-mail-triage/29cebd02bc0aa1041b5ea2372acdf808b28cd2d4/src/jev_mail_triage/service.py#L228-L233",
+      "title": "Source R18-S122: jev-mail-triage service at pin",
+      "claim": "a local gate verdict replaces the Jev call when enforced or user-restored L228-232; decide L233 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s123",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/soderlind/jev-mail-triage/29cebd02bc0aa1041b5ea2372acdf808b28cd2d4/src/jev_mail_triage/config.py#L191",
+      "title": "Source R18-S123: jev-mail-triage config at pin",
+      "claim": "move_enabled defaults to False L191 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s124",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/igrady2/school-chat-filter/c6643497c6bd8021aedbdda6758d81a91aa24447/src/lib/moderation/typesafe.ts#L80-L100",
+      "title": "Source R18-S124: school-chat-filter TypeSafe client at pin",
+      "claim": "fetch to api.typesafe.ai/v1/systemone L85-92, AbortSignal.timeout 15,000 ms L92; back-off between attempts L80-83 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s125",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/igrady2/school-chat-filter/c6643497c6bd8021aedbdda6758d81a91aa24447/src/lib/moderation/index.ts#L105-L112",
+      "title": "Source R18-S125: school-chat-filter moderate() at pin",
+      "claim": "scoreMessage then decideModeration against live thresholds L110-111 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s126",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/igrady2/school-chat-filter/c6643497c6bd8021aedbdda6758d81a91aa24447/src/lib/messages/post.ts#L186-L205",
+      "title": "Source R18-S126: school-chat-filter post path at pin",
+      "claim": "moderation error -> message not posted: 502 on HTTP 401, else 503 L189-205 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s127",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/seominpapa/sitesee/d7fb822d43df72b809b81d0d648123d29a6adbcb/siteeye/jev_client.py#L138-L160",
+      "title": "Source R18-S127: sitesee Jev client at pin",
+      "claim": "predict posts to api_url L138-146; retries on transport error and retry statuses, then RuntimeError L149-160 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s128",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/seominpapa/sitesee/d7fb822d43df72b809b81d0d648123d29a6adbcb/siteeye/pipeline.py#L95-L109",
+      "title": "Source R18-S128: sitesee pipeline at pin",
+      "claim": "decide() calls predictor.predict L95 and records the action plan L97-109 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s129",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/MrCull/QuaySight/c9fd6644e5c095b9ab069ba3efc508055b8d636e/src/services/jev.ts#L50-L71",
+      "title": "Source R18-S129: QuaySight Jev adapter at pin",
+      "claim": "fetch to JEV_ENDPOINT with image header L59-66; network failure -> JevError L67-71 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s130",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/MrCull/QuaySight/c9fd6644e5c095b9ab069ba3efc508055b8d636e/src/domain/jev.ts#L25",
+      "title": "Source R18-S130: QuaySight Jev endpoint at pin",
+      "claim": "JEV_ENDPOINT = https://api.typesafe.ai/v1/systemone L25; providers.ts L112-133 lists jev-latest, 1.14, 1.13 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s131",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/botheaj/video-image-tagger/e6283670078708d94fcf04d9867ed8f35f32374e/src/jev.rs#L14-L178",
+      "title": "Source R18-S131: video-image-tagger Jev client at pin",
+      "claim": "ENDPOINT L14; check_frame sends and returns the Noul probability and box L94-98; POST L174-178 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s132",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/botheaj/video-image-tagger/e6283670078708d94fcf04d9867ed8f35f32374e/src/main.rs#L81-L151",
+      "title": "Source R18-S132: video-image-tagger main at pin",
+      "claim": "any frame error ends the run with exit 2 L81-88, L121-131; probability >= threshold is a match L139; crops saved for matches L151 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s133",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/twidtwid/jev-dronecam/236227f395bff22bd999475ff7ecde1a512eed5b/server.py#L27-L128",
+      "title": "Source R18-S133: jev-dronecam server at pin",
+      "claim": "API_URL L27, model default jev-1.14.0 L28; POST with 15 s timeout L78-83; HTTP error -> 502, unreachable -> 504 L125-128 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s134",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/twidtwid/jev-dronecam/236227f395bff22bd999475ff7ecde1a512eed5b/public/index.html#L378-L383",
+      "title": "Source R18-S134: jev-dronecam page script at pin",
+      "claim": "seen > threshold -> approach (simulated fly) L381-382; error retried, gives up after 4 failures L379 (Documented)",
+      "accessed_at": "2026-10-18T05:21:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s135",
+      "source_type": "documented source",
+      "source_url": "https://jev-dronecam-bq3fs.sprites.app/",
+      "title": "Source R18-S135: jev-dronecam public demo URL (from README)",
+      "claim": "HTTP 200, title \"jev drone cam\"; page loaded only, no operation run (Documented)",
+      "accessed_at": "2026-10-18T05:22:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s136",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/kallurayaankit/jev-content-mod/90f644b1ebad873aebe31c432972b148ef6623fd/moderate.jev#L1-L20",
+      "title": "Source R18-S136: jev-content-mod question file at pin",
+      "claim": "ask_all from jevlang with harm, category, is_clear, needs_human L1-20; the HTTP request is made inside the jevlang package (not read) (Documented)",
+      "accessed_at": "2026-10-18T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s137",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/kallurayaankit/jev-content-mod/90f644b1ebad873aebe31c432972b148ef6623fd/policy.py#L39-L94",
+      "title": "Source R18-S137: jev-content-mod policy at pin",
+      "claim": "evaluate_content L40; approve, shadow, remove or human by thresholds L33-36, L50-94; needs_human -> escalate L85-89 (Documented)",
+      "accessed_at": "2026-10-18T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s138",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/devYRPauli/putaway/35d8c507f37804f434c9aa686e1c1c02c373786e/Sources/PutawayCore/Classify.swift#L61-L131",
+      "title": "Source R18-S138: Putaway classifier at pin",
+      "claim": "Jev endpoint L62 (SubQ alternative L61); POST L81-87; classify with errors for 401/403 and 402 L113-131 (Documented)",
+      "accessed_at": "2026-10-18T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s139",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/devYRPauli/putaway/35d8c507f37804f434c9aa686e1c1c02c373786e/Sources/PutawayCore/Plan.swift#L55-L62",
+      "title": "Source R18-S139: Putaway plan at pin",
+      "claim": "text file and confidence >= autoMoveConfidence -> move (still needs the user to click Move per README) L59-60; else ask L62 (Documented)",
+      "accessed_at": "2026-10-18T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s140",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Koh-Henry/JevMail/2f14d18f28478f399dad555c19114dae567cda79/apps/api/src/jev/client.ts",
+      "title": "Source R18-S140: JevMail Jev client at pin",
+      "claim": "3-line file holding a comment only; no Jev call in it at the pin (lead, not graded) (Documented)",
+      "accessed_at": "2026-10-18T05:22:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s141",
+      "source_type": "documented source",
+      "source_url": "https://github.com/romantic28/jevGameAgent/tree/ad3961e3de9593e4c45681ea69053e44b258d831",
+      "title": "Source R18-S141: jevGameAgent at pin (19 files)",
+      "claim": "no file mentions jev or typesafe (case-insensitive scan of the checkout); lead only (Documented)",
+      "accessed_at": "2026-10-18T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s142",
+      "source_type": "documented source",
+      "source_url": "https://gmailclass.ticekralt.com/",
+      "title": "Source R18-S142: GmailClass live page",
+      "claim": "HTTP 200; title \"GmailClass - Gmail Email Classifier powered by Jev\"; source not read (lead) (Documented)",
+      "accessed_at": "2026-10-18T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s143",
+      "source_type": "documented source",
+      "source_url": "https://sage-verdict.vercel.app/",
+      "title": "Source R18-S143: sage-verdict live page",
+      "claim": "HTTP 200; title \"Kant Decide\"; no mention of Jev in served HTML (lead; not read) (Documented)",
+      "accessed_at": "2026-10-18T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s200",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Novacon/ohmyjev/commits.atom",
+      "title": "Source R18-S200: Novacon/ohmyjev commits feed",
+      "claim": "HEAD 78bb82cea03c0fb06fbf8892dc6d1840a7f02c11, 2026-10-15T16:50:10Z (= pin) (Documented)",
+      "accessed_at": "2026-10-18T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s201",
+      "source_type": "documented source",
+      "source_url": "https://github.com/delt96/claude-jev-advisor/commits.atom",
+      "title": "Source R18-S201: delt96/claude-jev-advisor commits feed",
+      "claim": "HEAD f2c17914a591c443e58c7a4b260a40d25e261fd6, 2026-10-14T06:48:52Z (= pin; parent 4c18c24 'chore: version 0.5.0') (Documented)",
+      "accessed_at": "2026-10-18T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s202",
+      "source_type": "documented source",
+      "source_url": "https://github.com/mcowdery/claude-model-guard/commits.atom",
+      "title": "Source R18-S202: mcowdery/claude-model-guard commits feed",
+      "claim": "HEAD bced870dd65fae00865964b044f1a9717f917a85, 2026-10-13T19:27:20Z (= pin) (Documented)",
+      "accessed_at": "2026-10-18T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s203",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Novacon/ohmyjev/tree/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11",
+      "title": "Source R18-S203: ohmyjev repository listing at pin",
+      "claim": "git fetch --depth 1 of the pinned SHA into /tmp (read only, deleted); git ls-files: 78 tracked files (16 Oct note said 99 from the API tree, which also counts directories) (Documented)",
+      "accessed_at": "2026-10-18T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s204",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/ohmyjev.ts",
+      "title": "Source R18-S204: ohmyjev Claude Code module",
+      "claim": "891 lines; askJev L68-90, decide L182-203, gate L272-319, agent.spawn L691-707, tool.check L778-786, tool.call L791-811 (Documented)",
+      "accessed_at": "2026-10-18T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s205",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/policy.ts",
+      "title": "Source R18-S205: ohmyjev policy and defaults",
+      "claim": "defaults L11 enabled, L18-19 thresholds, L28 autoApprove, L63 timeoutMs 1500; isPlainRead L282; plainRead L307; gateBash L323-336 (Documented)",
+      "accessed_at": "2026-10-18T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s206",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/jev.ts",
+      "title": "Source R18-S206: ohmyjev Jev client",
+      "claim": "ENDPOINTS L13-16; pickKey L21-25; parseReply L57-64 (Documented)",
+      "accessed_at": "2026-10-18T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s207",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters/codex.ts",
+      "title": "Source R18-S207: ohmyjev Codex adapter (read in full, 188 lines)",
+      "claim": "handle L53-176; PreToolUse gates L77-125; PermissionRequest allow L127-133; main catch L185-187 (Documented)",
+      "accessed_at": "2026-10-18T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s208",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/codex/ohmyjev.mjs",
+      "title": "Source R18-S208: ohmyjev Codex hook bundle (built from codex/main.ts)",
+      "claim": "codex/main.ts imports adapters/codex.ts main(); bundle checked at gate lines L1061 enabled, L1096 bashGate, L1098 plainRead (Documented)",
+      "accessed_at": "2026-10-18T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s209",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/codex/hooks.json",
+      "title": "Source R18-S209: ohmyjev Codex hook registrations",
+      "claim": "SessionStart, UserPromptSubmit, PreToolUse ^(Bash|apply_patch|mcp__.*)$, PostToolUse, Stop, PermissionRequest ^(Bash|apply_patch)$ all run codex/ohmyjev.mjs; .codex-plugin/plugin.json points hooks here (Documented)",
+      "accessed_at": "2026-10-18T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s210",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters/pi.ts",
+      "title": "Source R18-S210: ohmyjev pi extension",
+      "claim": "guarded wrapper L157-164; tool_call gate L495-547 read; other handlers listed (L434-635) but not read line by line (Documented)",
+      "accessed_at": "2026-10-18T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s211",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters/omp.ts",
+      "title": "Source R18-S211: ohmyjev omp extension",
+      "claim": "tool_call gate L520-600 read; other handlers listed (L495-727) but not read line by line (Documented)",
+      "accessed_at": "2026-10-18T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s212",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters/shared.ts",
+      "title": "Source R18-S212: ohmyjev shared Session for Codex/pi/omp",
+      "claim": "Session.decide L103-127 (null on every failure); denyByCode L152-156 (Documented)",
+      "accessed_at": "2026-10-18T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s213",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/package.json",
+      "title": "Source R18-S213: ohmyjev package and host manifests",
+      "claim": "package.json pi.extensions adapters/pi.ts, omp.extensions adapters/omp.ts, files list (no hooks/ohmyjev.ts); .claude-plugin/plugin.json userConfig defaults; hooks/hooks.json modules ./ohmyjev.ts (Documented)",
+      "accessed_at": "2026-10-18T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s214",
+      "source_type": "documented source",
+      "source_url": "https://github.com/delt96/claude-jev-advisor/tree/f2c17914a591c443e58c7a4b260a40d25e261fd6",
+      "title": "Source R18-S214: claude-jev-advisor repository listing at pin",
+      "claim": "git fetch --depth 1 of the pinned SHA into /tmp (read only, deleted); git ls-files: 80 tracked files (Documented)",
+      "accessed_at": "2026-10-18T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s215",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/rm/run.ts",
+      "title": "Source R18-S215: claude-jev-advisor rm hook logic (read in full, 124 lines)",
+      "claim": "runRmHook L73-124; judgeTargets L41-71 (Documented)",
+      "accessed_at": "2026-10-18T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s216",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/rm/hook.ts",
+      "title": "Source R18-S216: claude-jev-advisor rm hook entry (read in full)",
+      "claim": "main().catch L14: any failure falls through to Claude Code's normal handling (Documented)",
+      "accessed_at": "2026-10-18T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s217",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/rm/targets.ts",
+      "title": "Source R18-S217: claude-jev-advisor guard decisions",
+      "claim": "decisionOf L103-112 (deny by code, ask, or null); hookOutput L114-115; src/rm/dispatch.ts decideTool L151-153 (Documented)",
+      "accessed_at": "2026-10-18T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s218",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/jev.ts",
+      "title": "Source R18-S218: claude-jev-advisor Jev client",
+      "claim": "JEV_TIMEOUT_MS 8000 L4; model jev-latest L63; HTTP error L72; parse L73-78; catch L79-80 (Documented)",
+      "accessed_at": "2026-10-18T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s219",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/tsup.config.ts",
+      "title": "Source R18-S219: claude-jev-advisor build entries",
+      "claim": "entries cli, rm-hook, context-hook, statusline, mod register; src/features.ts HOOK_SPECS L6-12, win32-only rm L14-17; mod/hooks/hooks.json modules ./register.js (Documented)",
+      "accessed_at": "2026-10-18T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s220",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/cli.ts",
+      "title": "Source R18-S220: claude-jev-advisor CLI entry",
+      "claim": "cli.ts read in full; src/cli/run.ts usage L30-41 and command switch L176-206 read (install/uninstall/on/off/key/status/report/help); no Jev call or permission output (scripted scan) (Documented)",
+      "accessed_at": "2026-10-18T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s221",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/context/hook.ts",
+      "title": "Source R18-S221: claude-jev-advisor context and statusline entries",
+      "claim": "context/hook.ts (Stop, SessionEnd; read in full) and display/statusline.ts (read in full); context/run.ts calls Jev at L77 for compact/clear advice, no tool decision (Documented)",
+      "accessed_at": "2026-10-18T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s222",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/mod/register.ts",
+      "title": "Source R18-S222: claude-jev-advisor Claude Code mod",
+      "claim": "register L87-196 read: session.start, turn.start, turn.complete, session.end, ui.render handlers; display and advice only, no tool-call decision or Jev call (Documented)",
+      "accessed_at": "2026-10-18T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s223",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/delt96/claude-jev-advisor/f2c17914a591c443e58c7a4b260a40d25e261fd6/src/rm/judge.ts",
+      "title": "Source R18-S223: claude-jev-advisor rm judge and config defaults",
+      "claim": "lifts L75-77; src/config-shape.ts L22 rm defaults enabled, jev, throwawayYes 0.8, maxDirFiles 50 (Documented)",
+      "accessed_at": "2026-10-18T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s224",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/promptAdvisor.mjs",
+      "title": "Source R18-S224: claude-model-guard prompt hook",
+      "claim": "re-read lines L25, L31, L64-65, L70, L77, L82, L86, L89, L133-144, L155: match the 16 Oct cells (Documented)",
+      "accessed_at": "2026-10-18T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s225",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/jev.mjs",
+      "title": "Source R18-S225: claude-model-guard Jev client",
+      "claim": "L124-137: no-key throw, model jev-latest, AbortSignal.timeout, HTTP error throw: match the 16 Oct cells (Documented)",
+      "accessed_at": "2026-10-18T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s226",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mcowdery/claude-model-guard/bced870dd65fae00865964b044f1a9717f917a85/scripts/decision.mjs",
+      "title": "Source R18-S226: claude-model-guard decision rules",
+      "claim": "L6-10 thresholds 0.65/0.9/3; L32 unknown tier nudge; L36-47: match the 16 Oct cells (Documented)",
+      "accessed_at": "2026-10-18T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s227",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk",
+      "title": "Source R18-S227: npm registry: @typesafe-ai/sdk",
+      "claim": "dist-tags latest 0.7.0; time 0.6.0 2026-09-15T18:17:19.263Z, 0.7.0 2026-10-14T21:25:39.441Z; no newer version (Documented)",
+      "accessed_at": "2026-10-18T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s228",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.6.0.tgz",
+      "title": "Source R18-S228: @typesafe-ai/sdk 0.6.0 tarball",
+      "claim": "shasum dbba30689e77c317e7619fbee006caa18f37a76a; extracted to /tmp, read, deleted; dist/index.mjs 693 lines (Documented)",
+      "accessed_at": "2026-10-18T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s229",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.7.0.tgz",
+      "title": "Source R18-S229: @typesafe-ai/sdk 0.7.0 tarball",
+      "claim": "shasum f3d06cd9913f0861b05cf45e1bd27e9d867dd3ec; extracted to /tmp, read, deleted; dist/index.mjs 1126 lines (Documented)",
+      "accessed_at": "2026-10-18T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r18-s230",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@jkudish/jev-mcp",
+      "title": "Source R18-S230: npm registry: @jkudish/jev-mcp",
+      "claim": "dist-tags latest 0.14.3 (2026-10-13T18:57:17.207Z); 0.14.4 not in versions or time; 0.14.3 depends on @typesafe-ai/sdk ^0.6.0 (Documented)",
+      "accessed_at": "2026-10-18T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
