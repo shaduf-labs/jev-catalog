@@ -20530,6 +20530,1366 @@
       "accessed_at": "2026-10-18T05:18:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Source R19-S01: console.typesafe.ai/",
+      "claim": "Sign-in page, no waitlist text; no form submitted (Documented)",
+      "accessed_at": "2026-10-19T05:22:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R19-S02: publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "claim": "CEO post text byte-identical to 18 Oct (Documented)",
+      "accessed_at": "2026-10-19T05:22:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R19-S03: docs.typesafe.ai/introduction/quickstart.md",
+      "claim": "byte-identical (Documented)",
+      "accessed_at": "2026-10-19T05:22:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s04",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R19-S04: status.typesafe.ai/",
+      "claim": "All services are online; 99.826%; last event 14 Oct resolved (Documented)",
+      "accessed_at": "2026-10-19T05:22:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R19-S05: docs.typesafe.ai/models.md",
+      "claim": "byte-identical to 16/18 Oct; jev-latest -> jev-1.13.0; jev-preview -> jev-1.14.0; no deprecation date (Documented)",
+      "accessed_at": "2026-10-19T05:22:23Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R19-S06: docs.typesafe.ai/images.md",
+      "claim": "byte-identical (Documented)",
+      "accessed_at": "2026-10-19T05:22:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R19-S07: typesafe.ai/",
+      "claim": "no credit/signup/waitlist text found (Documented)",
+      "accessed_at": "2026-10-19T05:22:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R19-S08: typesafe.ai/blog",
+      "claim": "same 7 posts (Documented)",
+      "accessed_at": "2026-10-19T05:22:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R19-S09: typesafe.ai/blog/jev-1-14",
+      "claim": "'in a week'; 'available for a while' (Documented)",
+      "accessed_at": "2026-10-19T05:22:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R19-S10: typesafe.ai/enterprise",
+      "claim": "no credit/waitlist text (Documented)",
+      "accessed_at": "2026-10-19T05:22:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s11",
+      "source_type": "reported source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R19-S11: aifront-page.com/",
+      "claim": "no TypeSafe/Jev item (Reported)",
+      "accessed_at": "2026-10-19T05:22:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s12",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Source R19-S12: docs.typesafe.ai/legal.md",
+      "claim": "byte-identical (Documented)",
+      "accessed_at": "2026-10-19T05:22:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s13",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R19-S13: openrouter.ai/docs/guides/community/jev",
+      "claim": "'There's no waitlist or separate TypeSafe account' (Documented)",
+      "accessed_at": "2026-10-19T05:22:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s14",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R19-S14: research.eye.security/rise-of-the-jev-clones/",
+      "claim": "online; names three sites (Reported)",
+      "accessed_at": "2026-10-19T05:23:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s15",
+      "source_type": "unverified source",
+      "source_url": "https://jev-agent.org/",
+      "title": "Source R19-S15: jev-agent.org/",
+      "claim": "homepage status only, HTTP 200 (Unverified)",
+      "accessed_at": "2026-10-19T05:23:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s16",
+      "source_type": "unverified source",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Source R19-S16: jev-ai.pro/",
+      "claim": "homepage status only, HTTP 200 (Unverified)",
+      "accessed_at": "2026-10-19T05:23:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s17",
+      "source_type": "unverified source",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Source R19-S17: jevtypesafeai.com/",
+      "claim": "homepage status only, HTTP 200; never a source (Unverified)",
+      "accessed_at": "2026-10-19T05:23:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s18",
+      "source_type": "unverified source",
+      "source_url": "https://thejevai.com/",
+      "title": "Source R19-S18: thejevai.com/",
+      "claim": "homepage status only, HTTP 200 (Unverified)",
+      "accessed_at": "2026-10-19T05:23:23Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s19",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/box.md",
+      "title": "Source R19-S19: docs.typesafe.ai/primitives/box.md",
+      "claim": "byte-identical (Documented)",
+      "accessed_at": "2026-10-19T05:22:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s20",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Source R19-S20: docs.typesafe.ai/llms.txt",
+      "claim": "byte-identical (Documented)",
+      "accessed_at": "2026-10-19T05:22:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Source R19-S21: docs.typesafe.ai/changelog.md",
+      "claim": "HTTP 404 (Documented)",
+      "accessed_at": "2026-10-19T05:22:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s22",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Source R19-S22: openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "claim": "byte-identical to 18 Oct (Documented)",
+      "accessed_at": "2026-10-19T05:24:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s23",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "title": "Source R19-S23: openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "claim": "byte-identical to 18 Oct (Documented)",
+      "accessed_at": "2026-10-19T05:24:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s24",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R19-S24: openrouter.ai/api/v1/models",
+      "claim": "471 IDs; no ID added/removed vs 18 Oct; typesafe/jev-router only (Documented)",
+      "accessed_at": "2026-10-19T05:24:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s25",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Source R19-S25: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "claim": "uptime values only changed (Documented)",
+      "accessed_at": "2026-10-19T05:24:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s26",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.14.0/endpoints",
+      "title": "Source R19-S26: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.14.0/endpoints",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:24:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s27",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.13.0/endpoints",
+      "title": "Source R19-S27: ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.13.0/endpoints",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:24:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R19-S28: ai-gateway.vercel.sh/v1/models",
+      "claim": "context_window 32000 for three Jev IDs; liquid/d1-ultra listed (also in 18 Oct copy) (Documented)",
+      "accessed_at": "2026-10-19T05:24:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s30",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Source R19-S30: developers.cloudflare.com/ai/models/typesafe/jev/",
+      "claim": "jev-1.13.0 examples; no 1.14 (Documented)",
+      "accessed_at": "2026-10-19T05:24:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s31",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev-1.14/",
+      "title": "Source R19-S31: developers.cloudflare.com/ai/models/typesafe/jev-1.14/",
+      "claim": "generic Models page (no 1.14 page) (Documented)",
+      "accessed_at": "2026-10-19T05:24:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s32",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Source R19-S32: api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "claim": "aliases typesafe/jev-latest (Documented)",
+      "accessed_at": "2026-10-19T05:24:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s33",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.14.0",
+      "title": "Source R19-S33: api.opper.ai/v3/models?q=typesafe%2Fjev-1.14.0",
+      "claim": "aliases typesafe/jev-preview (Documented)",
+      "accessed_at": "2026-10-19T05:24:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s34",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R19-S34: docs.netlify.com/build/ai-gateway/overview/",
+      "claim": "lists jev-1.13.0 and jev-1.14.0 (Documented)",
+      "accessed_at": "2026-10-19T05:24:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s35",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "title": "Source R19-S35: learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "claim": "no Jev/TypeSafe string (Documented)",
+      "accessed_at": "2026-10-19T05:24:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s36",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
+      "title": "Source R19-S36: docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
+      "claim": "no Jev/TypeSafe string (Documented)",
+      "accessed_at": "2026-10-19T05:24:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s37",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/",
+      "title": "Source R19-S37: developers.cloudflare.com/workers-ai/models/",
+      "claim": "no Jev/TypeSafe string (Documented)",
+      "accessed_at": "2026-10-19T05:24:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s38",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/changelog/",
+      "title": "Source R19-S38: developers.cloudflare.com/changelog/",
+      "claim": "no Jev item (Documented)",
+      "accessed_at": "2026-10-19T05:24:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s39",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-latest",
+      "title": "Source R19-S39: api.opper.ai/v3/models?q=typesafe%2Fjev-latest",
+      "claim": "0 models (alias is not a model name) (Documented)",
+      "accessed_at": "2026-10-19T05:24:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s40",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md",
+      "title": "Source R19-S40: developers.openai.com/api/docs/guides/decisions.md",
+      "claim": "byte-identical to 18 Oct; 'public beta ... GA in the coming weeks' (Documented)",
+      "accessed_at": "2026-10-19T05:27:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s41",
+      "source_type": "reported source",
+      "source_url": "https://huggingface.co/api/models/Remek/basal-omni-1.0-ultra",
+      "title": "Source R19-S41: huggingface.co/api/models/Remek/basal-omni-1.0-ultra",
+      "claim": "card: apache-2.0, base google/gemma-4-31B-it; created 15 Oct (Reported)",
+      "accessed_at": "2026-10-19T05:27:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s42",
+      "source_type": "reported source",
+      "source_url": "https://huggingface.co/api/models/cribl-ai/cribl-decision-1.0-27B",
+      "title": "Source R19-S42: huggingface.co/api/models/cribl-ai/cribl-decision-1.0-27B",
+      "claim": "created 19 Oct 02:14Z; apache-2.0; base Qwen/Qwen3.5-27B (Reported)",
+      "accessed_at": "2026-10-19T05:27:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s43",
+      "source_type": "reported source",
+      "source_url": "https://dev.to/api/articles?username=james_wang_5aaab811177486",
+      "title": "Source R19-S43: dev.to/api/articles?username=james_wang_5aaab811177486",
+      "claim": "'Jev, Drex, and Laya' post 19 Oct 02:17Z (not opened) (Reported)",
+      "accessed_at": "2026-10-19T05:27:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s44",
+      "source_type": "unverified source",
+      "source_url": "https://github.com/yexerik/jevision",
+      "title": "Source R19-S44: github.com/yexerik/jevision",
+      "claim": "'Typesafe Jev image prototype'; created 19 Oct 04:25Z (Unverified)",
+      "accessed_at": "2026-10-19T05:27:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s45",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date",
+      "title": "Source R19-S45: hn.algolia.com/api/v1/search_by_date",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:25:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s46",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories",
+      "title": "Source R19-S46: api.github.com/search/repositories",
+      "claim": "5 searches (created/pushed in window, topics); unauthenticated (Documented)",
+      "accessed_at": "2026-10-19T05:26:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s47",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search",
+      "title": "Source R19-S47: registry.npmjs.org/-/v1/search",
+      "claim": "4 searches (Documented)",
+      "accessed_at": "2026-10-19T05:26:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s48",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models",
+      "title": "Source R19-S48: huggingface.co/api/models",
+      "claim": "search jev, decision; sort lastModified (Documented)",
+      "accessed_at": "2026-10-19T05:26:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s49",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles",
+      "title": "Source R19-S49: dev.to/api/articles",
+      "claim": "tags jev, typesafe; latest 1000 (Documented)",
+      "accessed_at": "2026-10-19T05:26:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s50",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/",
+      "title": "Source R19-S50: registry.npmjs.org/",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:27:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s51",
+      "source_type": "documented source",
+      "source_url": "https://www.reddit.com/search.json",
+      "title": "Source R19-S51: www.reddit.com/search.json",
+      "claim": "HTTP 403 both (Documented)",
+      "accessed_at": "2026-10-19T05:26:23Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s52",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com",
+      "title": "Source R19-S52: suggestqueries.google.com",
+      "claim": "autocomplete jev v/vision/vlm/vla/visual (Documented)",
+      "accessed_at": "2026-10-19T05:26:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s60",
+      "source_type": "documented source",
+      "source_url": "https://venturebeat.com/?s=typesafe+jev",
+      "title": "Source R19-S60: venturebeat.com/?s=typesafe+jev",
+      "claim": "HTTP 429 (Documented)",
+      "accessed_at": "2026-10-19T05:34:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s61",
+      "source_type": "documented source",
+      "source_url": "https://archive.org/wayback/available?url=venturebeat.com/?s=typesafe%20jev",
+      "title": "Source R19-S61: archive.org/wayback/available?url=venturebeat.com/?s=typesafe%20jev",
+      "claim": "no snapshot (Documented)",
+      "accessed_at": "2026-10-19T05:34:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s62",
+      "source_type": "unverified source",
+      "source_url": "https://dev.to/api/articles/hacksgr/jev-was-used-by-35-of-paid-for-groups-in-vercel-9al",
+      "title": "Source R19-S62: dev.to/api/articles/hacksgr/jev-was-used-by-35-of-paid-for-groups-in-vercel-9al",
+      "claim": "rewrite; links en.hacks.gr only (Unverified)",
+      "accessed_at": "2026-10-19T05:34:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s63",
+      "source_type": "unverified source",
+      "source_url": "https://en.hacks.gr/to-jev-chrisimopoiithike-apo-to-35-ton-omadon-me-pliromeni-chrisi-sti-vercel/",
+      "title": "Source R19-S63: en.hacks.gr/to-jev-chrisimopoiithike-apo-to-35-ton-omadon-me-pliromeni-chrisi-sti-vercel/",
+      "claim": "HTTP 403 (Unverified)",
+      "accessed_at": "2026-10-19T05:34:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s64",
+      "source_type": "reported source",
+      "source_url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+      "title": "Source R19-S64: vercel.com/blog/ai-gateway-production-index-october-2026",
+      "claim": "Vercel: Jev 35.3% of paid teams in first two weeks; 0.27% of spend; retention 55.6% (Reported)",
+      "accessed_at": "2026-10-19T05:35:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s65",
+      "source_type": "documented source",
+      "source_url": "https://vercel.com/blog",
+      "title": "Source R19-S65: vercel.com/blog",
+      "claim": "index links the production-index post (Documented)",
+      "accessed_at": "2026-10-19T05:34:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s69",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/ohmyjev.ts",
+      "title": "Source R19-S69: raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/ohmyjev.ts",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s70",
+      "source_type": "documented source",
+      "source_url": "https://www.liquid.ai/terms-conditions",
+      "title": "Source R19-S70: www.liquid.ai/terms-conditions",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:30:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s100",
+      "source_type": "reported source",
+      "source_url": "https://www.liquid.ai/blog/d1-ultra",
+      "title": "Source R19-S100: d1-ultra: Introducing the World's Best Decision Model (Liquid AI blog, OCT 15, 2026)",
+      "claim": "(Reported)",
+      "accessed_at": "2026-10-19T05:22:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s101",
+      "source_type": "documented source",
+      "source_url": "https://docs.liquid.ai/lfm/models/decision-models",
+      "title": "Source R19-S101: Decision Models - Liquid Docs",
+      "claim": "d1-ultra: Hosted, Liquid API/OpenRouter/Vercel AI Gateway, text+images, 'built on a larger open-weight model' (base not named). No date shown. (Documented)",
+      "accessed_at": "2026-10-19T05:22:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s102",
+      "source_type": "documented source",
+      "source_url": "https://docs.liquid.ai/lfm/models/d1.md",
+      "title": "Source R19-S102: d1 (cloud API) - Liquid Docs (markdown)",
+      "claim": "Models table, setup via console.liquid.ai, typesafe-sdk with base_url https://api.liquid.ai, image requirements (up to 8 images, 4.5 MB body, 10,000 patches). No error-code table or rate limits found on this page. No date shown. (Documented)",
+      "accessed_at": "2026-10-19T05:23:26Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s103",
+      "source_type": "documented source",
+      "source_url": "https://docs.liquid.ai/guides/decision-model-guide.md",
+      "title": "Source R19-S103: Decision Model Guide - Liquid Docs (markdown)",
+      "claim": "Decision-model examples use the TypeSafe SDK (typesafe-sdk) against the Liquid AI API. (Documented)",
+      "accessed_at": "2026-10-19T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s104",
+      "source_type": "documented source",
+      "source_url": "https://www.liquid.ai/pricing",
+      "title": "Source R19-S104: Pricing | Liquid AI",
+      "claim": "d1-ultra Input $0.042/MTok, Cached input $0.042/MTok, Output $0.00/MTok; '$2 in free credit for every new organization'; 'The price is the same wherever you call our models from.' No date shown. (Documented)",
+      "accessed_at": "2026-10-19T05:22:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s105",
+      "source_type": "documented source",
+      "source_url": "https://www.liquid.ai/terms-conditions",
+      "title": "Source R19-S105: Terms of Service | Liquid AI (Last updated: SEP 30, 2026)",
+      "claim": "s.6 Your Content and Data: licence to use Your Content incl. training; Retention 'as reasonably necessary'; no fixed period, opt-out, ZDR or DPA text found. (Documented)",
+      "accessed_at": "2026-10-19T05:22:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s106",
+      "source_type": "documented source",
+      "source_url": "https://www.liquid.ai/privacy-policy",
+      "title": "Source R19-S106: Privacy Policy | Liquid AI (Last updated: SEP 30, 2026)",
+      "claim": "Training on inputs and outputs listed as a purpose; 'The Services are hosted and operated in the United States'; opt-outs found only for cookies/analytics and CCPA sell/share. (Documented)",
+      "accessed_at": "2026-10-19T05:22:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s107",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/liquid/d1-ultra",
+      "title": "Source R19-S107: d1-ultra - API Pricing & Providers | OpenRouter",
+      "claim": "Public model page: 'LiquidAI: d1-ultra', $0.042 / $0 per 1M, Context 33K, Released Oct 15, 2026, /v1/systemone schema. ID not in /api/v1/models JSON at 05:22:45Z (see R19-S109). (Documented)",
+      "accessed_at": "2026-10-19T05:23:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s108",
+      "source_type": "documented source",
+      "source_url": "https://vercel.com/ai-gateway/models/d1-ultra",
+      "title": "Source R19-S108: Vercel AI Gateway model page d1-ultra",
+      "claim": "Fetched; fields taken from the JSON listing (R19-S28/R19-S110) instead. (Documented)",
+      "accessed_at": "2026-10-19T05:23:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s109",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R19-S109: OpenRouter models list (JSON)",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:22:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s110",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R19-S110: Vercel AI Gateway models list (JSON)",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:22:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s111",
+      "source_type": "documented source",
+      "source_url": "https://docs.liquid.ai/llms.txt",
+      "title": "Source R19-S111: Liquid Docs index",
+      "claim": "Used to locate decision-model pages; no separate API error or rate-limit page found in the index. (Documented)",
+      "accessed_at": "2026-10-19T05:23:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s120",
+      "source_type": "reported source",
+      "source_url": "https://mouse.dev/blog/mouse-decision-model/",
+      "title": "Source R19-S120: Introducing Mouse-1 (Mouse blog, October 13, 2026)",
+      "claim": "Saved copy R18-S51 (2026-10-18T05:29:03Z) read first; fresh fetch same size. '$0.10 per 1M input tokens with free output', '$5 in credits, no card', image input 'in beta'; benchmark claims vs Jev are vendor claims (Mouse sells a competing model). (Reported)",
+      "accessed_at": "2026-10-19T05:24:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s121",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/pricing",
+      "title": "Source R19-S121: Pricing | Mouse",
+      "claim": "mouse-1 Input $0.10 / 1M tokens, Output $0.00 (free). No date shown. (Documented)",
+      "accessed_at": "2026-10-19T05:24:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s122",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs",
+      "title": "Source R19-S122: Overview | Mouse API docs",
+      "claim": "POST /v1/decisions and alias POST /v1/systemone; base URL https://api.mouse.dev (US-East); up to 128 questions; 'Zero data retention by default'. (Documented)",
+      "accessed_at": "2026-10-19T05:24:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s123",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs/guides/images",
+      "title": "Source R19-S123: Images | Mouse API docs",
+      "claim": "'Image input is in beta.' Vision encoder is the base model's (base model not named). (Documented)",
+      "accessed_at": "2026-10-19T05:24:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s124",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/terms",
+      "title": "Source R19-S124: Terms of Service | Mouse (Effective date: October 14, 2026)",
+      "claim": "s.4: API grant 'limited to processing the request in memory'; 'We do not use API request content to train or fine-tune models.' (Documented)",
+      "accessed_at": "2026-10-19T05:24:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s125",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/privacy",
+      "title": "Source R19-S125: Privacy Policy | Mouse (Effective date: October 14, 2026)",
+      "claim": "API content processed in memory then discarded; metadata console log deleted after 30 days; 'The API is served from the United States (US-East).' (Documented)",
+      "accessed_at": "2026-10-19T05:24:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s126",
+      "source_type": "reported source",
+      "source_url": "https://mouse.dev/api",
+      "title": "Source R19-S126: Mouse API page",
+      "claim": "Fetched; cost-per-1,000-decisions chart repeats launch-post figures. (Reported)",
+      "accessed_at": "2026-10-19T05:24:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s127",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs/reference/security",
+      "title": "Source R19-S127: Data retention and security | Mouse API docs",
+      "claim": "ZDR by default; metadata 30 days; US-East on Modal GPU workers; preview SLO 99.5% during mouse-preview-2026-10-13; no training on customer traffic. (Documented)",
+      "accessed_at": "2026-10-19T05:24:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s128",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs/reference/errors",
+      "title": "Source R19-S128: Errors | Mouse API docs",
+      "claim": "JSON error envelope; 400, 401, 402 insufficient_credits, 413, 422, 429 (rate_limited, auth_rate_limited, work_rate_limited, token_rate_limited), 503 engine_timeout with Retry-After. (Documented)",
+      "accessed_at": "2026-10-19T05:24:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s129",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs/reference/limits",
+      "title": "Source R19-S129: Limits | Mouse API docs",
+      "claim": "state 16,384 tokens; 128 questions; 8 images; 4 MB body; 30 s engine timeout; standard key 10 RPS (burst 20), 1,000,000 TPM; account 300,000 work tokens/min. (Documented)",
+      "accessed_at": "2026-10-19T05:24:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s130",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs/reference/pricing",
+      "title": "Source R19-S130: Pricing and billing | Mouse API docs",
+      "claim": "$0.10 per 1M input, output $0.00; 'Verified accounts receive $5.00 in free starter credits at signup'; prepaid, 402 at $0.00. (Documented)",
+      "accessed_at": "2026-10-19T05:24:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s131",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs/concepts/versions/",
+      "title": "Source R19-S131: Models and versioning | Mouse API docs",
+      "claim": "Aliases mouse-1 and mouse resolve to mouse-preview-2026-10-13, Status 'Preview', modalities text and image. (Documented)",
+      "accessed_at": "2026-10-19T05:24:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s140",
+      "source_type": "reported source",
+      "source_url": "https://www.uprightproject.com/eevo/",
+      "title": "Source R19-S140: Introducing Eevo (Upright announcement)",
+      "claim": "(Reported)",
+      "accessed_at": "2026-10-18T05:37:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s141",
+      "source_type": "documented source",
+      "source_url": "https://www.uprightproject.com/eevo/docs/",
+      "title": "Source R19-S141: Upright saved copy of /eevo/docs/",
+      "claim": "Saved copy contains the Upright Project home page text; no Eevo docs text. Real docs are on eevo.io (R19-S146 onward). (Documented)",
+      "accessed_at": "2026-10-18T05:37:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s142",
+      "source_type": "documented source",
+      "source_url": "https://www.uprightproject.com/pricing/",
+      "title": "Source R19-S142: Upright saved copy of /pricing/",
+      "claim": "Saved copy is the generic Upright site page; no Eevo price table found. (Documented)",
+      "accessed_at": "2026-10-18T05:37:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s143",
+      "source_type": "documented source",
+      "source_url": "https://www.uprightproject.com/terms/",
+      "title": "Source R19-S143: Upright saved copy of /terms/",
+      "claim": "Saved copy is the generic Upright site page (same text as /pricing/); no terms or data clauses found. The Terms of Use are at /terms-of-use/ (R19-S144). (Documented)",
+      "accessed_at": "2026-10-18T05:37:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s144",
+      "source_type": "documented source",
+      "source_url": "https://www.uprightproject.com/terms-of-use/",
+      "title": "Source R19-S144: Upright Terms of Use",
+      "claim": "Names Eevo (console, API, MCP) as an Online Service of Upright Oy; Eevo training governed by data use setting 'on by default and can be turned off'; 'Not stored' keys never used for training. No date found on page. (Documented)",
+      "accessed_at": "2026-10-19T05:25:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s145",
+      "source_type": "documented source",
+      "source_url": "https://www.uprightproject.com/privacy-policy/",
+      "title": "Source R19-S145: Upright Privacy Statement",
+      "claim": "Eevo request content stored for key's chosen retention (not stored, 30 days, 90 days, 1 year or without time limit); DPA on request; transfers outside EEA under SCCs/DPF. No date found on page. (Documented)",
+      "accessed_at": "2026-10-19T05:25:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s146",
+      "source_type": "documented source",
+      "source_url": "https://eevo.io/api/arvo/docs/llms.txt",
+      "title": "Source R19-S146: Eevo docs index (llms.txt)",
+      "claim": "Linked from the announcement; lists reference pages. (Documented)",
+      "accessed_at": "2026-10-19T05:25:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s147",
+      "source_type": "documented source",
+      "source_url": "https://eevo.io/docs/arvo",
+      "title": "Source R19-S147: Eevo developer docs",
+      "claim": "Fetched; fields taken from the markdown reference pages. (Documented)",
+      "accessed_at": "2026-10-19T05:25:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s148",
+      "source_type": "documented source",
+      "source_url": "https://eevo.io/api/docs/reference/models-pricing.md",
+      "title": "Source R19-S148: Models, pricing and limits | Eevo docs",
+      "claim": "eevo-1 $2.50 per 1M input; output free; Default-mode table '10 consequences, 2 stakeholders ... ≈ $0.20'; prepaid; free decisions; limits. (Documented)",
+      "accessed_at": "2026-10-19T05:25:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s149",
+      "source_type": "documented source",
+      "source_url": "https://eevo.io/api/docs/how-to/retention.md",
+      "title": "Source R19-S149: Configure data controls | Eevo docs",
+      "claim": "Per-key retention Not stored / 30 days / 90 days / 1 year / Unlimited; 'Not stored' only once the organization has bought credit; training setting per organization. (Documented)",
+      "accessed_at": "2026-10-19T05:25:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s150",
+      "source_type": "documented source",
+      "source_url": "https://eevo.io/api/docs/reference/authentication.md",
+      "title": "Source R19-S150: Authentication | Eevo docs",
+      "claim": "600 requests/min per key, 1,200 per organization; 429 rate_limited with Retry-After. (Documented)",
+      "accessed_at": "2026-10-19T05:25:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s151",
+      "source_type": "documented source",
+      "source_url": "https://eevo.io/api/docs/reference/errors.md",
+      "title": "Source R19-S151: Errors | Eevo docs",
+      "claim": "400 invalid_request, 401 authentication, 402 insufficient_credit, 409 model_unavailable, 409 revision_conflict, 429 rate_limited, 503 free_capacity_busy. (Documented)",
+      "accessed_at": "2026-10-19T05:25:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s152",
+      "source_type": "documented source",
+      "source_url": "https://eevo.io/api/docs/reference/api-systemone.md",
+      "title": "Source R19-S152: Ask typed questions | Eevo docs",
+      "claim": "POST /api/v1/systemone (SystemOne-compatible), rendered from OpenAPI; no image field found. (Documented)",
+      "accessed_at": "2026-10-19T05:25:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s160",
+      "source_type": "reported source",
+      "source_url": "https://tazolabs.com/blog/what-is-an-audio-decision-model",
+      "title": "Source R19-S160: What is an audio decision model? (Tazo Labs, Oct 4, 2026)",
+      "claim": "Saved copy only. Audio in, question and answers in; yes/no, pick-one, score with probability. No price or request shape found in the post; footer has 'Early access ... Request access' form. (Reported)",
+      "accessed_at": "2026-10-18T05:29:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s200",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Novacon/ohmyjev/commits/main.atom",
+      "title": "Source R19-S200: Novacon/ohmyjev commits feed (main)",
+      "claim": "HEAD 78bb82c, updated 2026-10-15T16:50:10Z = pin; HEAD did not move (Documented)",
+      "accessed_at": "2026-10-19T05:22:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s201",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/Novacon/ohmyjev/git/trees/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11?recursive=1",
+      "title": "Source R19-S201: Novacon/ohmyjev tree at pin (API, recursive)",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:22:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s202",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Novacon/ohmyjev/tree/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters",
+      "title": "Source R19-S202: ohmyjev adapters/ tree HTML at pin",
+      "claim": "confirms adapters/codex.ts, omp.ts, pi.ts, shared.ts (plus tests/) (Documented)",
+      "accessed_at": "2026-10-19T05:22:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s203",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters/pi.ts",
+      "title": "Source R19-S203: ohmyjev adapters/pi.ts at pin",
+      "claim": "651 lines, read in full (Documented)",
+      "accessed_at": "2026-10-19T05:22:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s204",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters/omp.ts",
+      "title": "Source R19-S204: ohmyjev adapters/omp.ts at pin",
+      "claim": "768 lines, read in full (Documented)",
+      "accessed_at": "2026-10-19T05:22:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s205",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters/shared.ts",
+      "title": "Source R19-S205: ohmyjev adapters/shared.ts at pin",
+      "claim": "Session.decide L106-127 (null on every failure), runBrowse L300-328; decide() call sites listed (Documented)",
+      "accessed_at": "2026-10-19T05:22:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s206",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/ohmyjev.ts",
+      "title": "Source R19-S206: ohmyjev hooks/ohmyjev.ts (Claude Code module) at pin",
+      "claim": "891 lines; every on() handler L667-891 read; all 16 decide() call sites located (Documented)",
+      "accessed_at": "2026-10-19T05:23:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s207",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/package.json",
+      "title": "Source R19-S207: ohmyjev package.json at pin",
+      "claim": "pi.extensions ./adapters/pi.ts (L40-44); omp.extensions ./adapters/omp.ts (L45-48) (Documented)",
+      "accessed_at": "2026-10-19T05:23:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s208",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbesse/zammad-jev-triage/5d2a0a783b52d378cb53832f99a9c2ed05d8a42e/jev_core.py",
+      "title": "Source R19-S208: gbesse/zammad-jev-triage jev_core.py at pin",
+      "claim": "timeout=20 L12; validation raises DecisionError L30-37; below threshold or 'other' -> 'review' L38 (Documented)",
+      "accessed_at": "2026-10-19T05:26:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s209",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbesse/zammad-jev-triage/5d2a0a783b52d378cb53832f99a9c2ed05d8a42e/policy.json",
+      "title": "Source R19-S209: gbesse/zammad-jev-triage policy.json at pin",
+      "claim": "threshold 0.9 L12; model jev-1.13.0 L3 (Documented)",
+      "accessed_at": "2026-10-19T05:26:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s210",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbesse/zammad-jev-triage/5d2a0a783b52d378cb53832f99a9c2ed05d8a42e/app.py",
+      "title": "Source R19-S210: gbesse/zammad-jev-triage app.py at pin",
+      "claim": "outcome mapped to group L18-22 (Documented)",
+      "accessed_at": "2026-10-19T05:26:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s211",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/ade42bfba9b68404fba06724b149145caf074ff8/CODE.gs",
+      "title": "Source R19-S211: ilyamk Gmail labeler CODE.gs at pin",
+      "claim": "8,756 lines; error path L2048-2052, L2577, L1825-1830; below threshold L1654-1666, L1710-1728 (Documented)",
+      "accessed_at": "2026-10-19T05:26:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s212",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jkudish/jev-mcp/53fe5756252956863af2ecbd2952339352e82e15/src/provider.ts",
+      "title": "Source R19-S212: jkudish/jev-mcp src/provider.ts at 0.11.0 pin",
+      "claim": "resolve() L218-237: in auto mode credential rules are delegated to @jkudish/jev-agent-tools resolveTransport (L231, L236; dependency not read) (Documented)",
+      "accessed_at": "2026-10-19T05:26:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s53",
+      "source_type": "reported source",
+      "source_url": "https://github.com/kingchan818/jev-guard",
+      "title": "Source R19-S53: github.com/kingchan818/jev-guard",
+      "claim": "repo page HTML, description and top-level files (Reported)",
+      "accessed_at": "2026-10-19T05:37:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s54",
+      "source_type": "reported source",
+      "source_url": "https://github.com/pachelbel23/claude-code-jev",
+      "title": "Source R19-S54: github.com/pachelbel23/claude-code-jev",
+      "claim": "repo page HTML; names jev-vision (Images + Box) (Reported)",
+      "accessed_at": "2026-10-19T05:37:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s55",
+      "source_type": "reported source",
+      "source_url": "https://registry.npmjs.org/auto-mode",
+      "title": "Source R19-S55: registry.npmjs.org/auto-mode",
+      "claim": "2.0.1, 2026-10-17T14:11:16Z; description (Reported)",
+      "accessed_at": "2026-10-19T05:37:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s56",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n@2.44.3/packages/core/src/execution-engine/node-execution-context/node-execution-context.ts",
+      "title": "Source R19-S56: raw.githubusercontent.com/n8n-io/n8n/n8n@2.44.3/packages/core/src/execution-engine/node-execution-context/node-execution-context.ts",
+      "claim": "byte-identical at both tags; throws at L416, L423 (Documented)",
+      "accessed_at": "2026-10-19T05:39:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s300",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/parth-kp/jev-mail-classifier/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07/jev_mail/classify.py",
+      "title": "Source R19-S300: parth-kp/jev-mail-classifier: jev_mail/classify.py",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:37:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s301",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/parth-kp/jev-mail-classifier/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07/jev_mail/cli.py",
+      "title": "Source R19-S301: parth-kp/jev-mail-classifier: jev_mail/cli.py",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:37:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s302",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/vynnlee/jev-mail/61e346f9034161e4cb7ddf04907326841e01300b/src/gas/worker.ts",
+      "title": "Source R19-S302: vynnlee/jev-mail: src/gas/worker.ts",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:37:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s303",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/vynnlee/jev-mail/61e346f9034161e4cb7ddf04907326841e01300b/src/core/index.ts",
+      "title": "Source R19-S303: vynnlee/jev-mail: src/core/index.ts",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:37:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s304",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/veermshah/jev-support-desk/aef8fa0ca38b486556a183d0f1f90bb4553232c1/src/jev_support_desk/cli.py",
+      "title": "Source R19-S304: veermshah/jev-support-desk: src/jev_support_desk/cli.py",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:37:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s305",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/veermshah/jev-support-desk/aef8fa0ca38b486556a183d0f1f90bb4553232c1/src/jev_support_desk/triage.py",
+      "title": "Source R19-S305: veermshah/jev-support-desk: src/jev_support_desk/triage.py",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:37:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s306",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/TypeSafeAi.node.ts",
+      "title": "Source R19-S306: typesafe-ai/n8n-nodes-typesafe-ai: nodes/TypeSafeAi/TypeSafeAi.node.ts",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:37:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s307",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/helpers.ts",
+      "title": "Source R19-S307: raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/helpers.ts",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:37:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s308",
+      "source_type": "documented source",
+      "source_url": "https://github.com/parth-kp/jev-mail-classifier/tree/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07/jev_mail/providers",
+      "title": "Source R19-S308: parth-kp/jev-mail-classifier/tree/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07/jev_mail/providers",
+      "claim": "Directory listing at pinned commit. (Documented)",
+      "accessed_at": "2026-10-19T05:37:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s309",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/parth-kp/jev-mail-classifier/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07/jev_mail/providers/base.py",
+      "title": "Source R19-S309: parth-kp/jev-mail-classifier: jev_mail/providers/base.py",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:37:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s310",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/parth-kp/jev-mail-classifier/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07/jev_mail/providers/typesafe_direct.py",
+      "title": "Source R19-S310: parth-kp/jev-mail-classifier: jev_mail/providers/typesafe_direct.py",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:37:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s311",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk",
+      "title": "Source R19-S311: dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk",
+      "claim": "Directory listing at pinned commit. (Documented)",
+      "accessed_at": "2026-10-19T05:38:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s312",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github/jevandroid/sdk",
+      "title": "Source R19-S312: dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github/jevandroid/sdk",
+      "claim": "Guessed sdk path; 404, not used. Listing then walked level by level (S313-S318). (Documented)",
+      "accessed_at": "2026-10-19T05:38:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s313",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src",
+      "title": "Source R19-S313: dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src",
+      "claim": "Directory listing at pinned commit. (Documented)",
+      "accessed_at": "2026-10-19T05:38:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s314",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main",
+      "title": "Source R19-S314: dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main",
+      "claim": "Directory listing at pinned commit. (Documented)",
+      "accessed_at": "2026-10-19T05:38:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s315",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin",
+      "title": "Source R19-S315: dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin",
+      "claim": "Directory listing at pinned commit. (Documented)",
+      "accessed_at": "2026-10-19T05:38:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s316",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io",
+      "title": "Source R19-S316: dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io",
+      "claim": "Directory listing at pinned commit. (Documented)",
+      "accessed_at": "2026-10-19T05:38:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s317",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github",
+      "title": "Source R19-S317: dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github",
+      "claim": "Directory listing at pinned commit. (Documented)",
+      "accessed_at": "2026-10-19T05:38:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s318",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github/jevandroid",
+      "title": "Source R19-S318: dougsong/jev-android/tree/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github/jevandroid",
+      "claim": "Directory listing at pinned commit. (Documented)",
+      "accessed_at": "2026-10-19T05:38:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s319",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/dougsong/jev-android/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github/jevandroid/JevProvider.kt",
+      "title": "Source R19-S319: dougsong/jev-android: sdk/src/main/kotlin/io/github/jevandroid/JevProvider.kt",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:39:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s320",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/dougsong/jev-android/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/sdk/src/main/kotlin/io/github/jevandroid/ProviderTransport.kt",
+      "title": "Source R19-S320: dougsong/jev-android: sdk/src/main/kotlin/io/github/jevandroid/ProviderTransport.kt",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:39:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r19-s321",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/dougsong/jev-android/be8364ad1a7596172f8cd79c70d2462f4dd0f4dc/core/src/main/kotlin/io/github/jevandroid/core/JevAgent.kt",
+      "title": "Source R19-S321: dougsong/jev-android: core/src/main/kotlin/io/github/jevandroid/core/JevAgent.kt",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-19T05:39:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

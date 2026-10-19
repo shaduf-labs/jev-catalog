@@ -341,6 +341,17 @@
       "summary": "When Jev fails now counts 79 implementations: claude-model-guard (fails open) and claude-jev-advisor (holds) join, and every failure cell is recorded for all 79; on a Jev error 40 stop or hold the action, 22 fall back, 9 let it through, 5 return no decision and 3 are advisory. The coding-agent, trading and browser pages now use the failure map's terms; no outcome changed, and the coding-agent split is corrected to 3 fail-closed, 9 fallback and 1 fail-open. Claude Code and MCP: ten guardrails read in source; ohmyjev is shown but not yet counted. Products: 113 ledger rows, 100 with the Jev call read at a pinned commit, none verified in production. @typesafe-ai/sdk 0.7.0 keeps the 0.6.0 failure path. Access unchanged; jev-latest still on jev-1.13.0; Opper lists Jev 1.14. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/failure-terms-claude-code-gates-products",
       "entrypoint": "reports/failure-terms-claude-code-gates-products/index.html"
+    },
+    {
+      "run_id": "report-834049b228d9c11a92fd5c95",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-19T05:07:00Z",
+      "completed_at": "2026-10-19T06:30:00Z",
+      "title": "Failure map completed with ohmyjev, jev-mcp commits, and three hosted decision models",
+      "summary": "When Jev fails now counts 80 implementations: ohmyjev joins after its pi and omp adapters were read in full, and every failure cell is recorded for all 80; on a Jev error 40 stop or hold the action, 22 fall back, 10 let it through, 5 return no decision and 3 are advisory; the action goes ahead in 19 of 80. jkudish/jev-mcp cells were read at 0.11.0 (53fe575); 0.13.0 and 0.14.1 are later checks with the failure path unchanged. Content moderation and support-ticket triage cells lead with the map terms; no outcome changed. Alternatives: Liquid AI d1-ultra, Mouse-1 and Eevo added with their published prices and data terms (37 substitutes, 7 hosted APIs from other providers); no graded comparison. Access unchanged; jev-latest still on jev-1.13.0. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/failure-map-hosted-decision-models",
+      "entrypoint": "reports/failure-map-hosted-decision-models/index.html"
     }
   ]
 }

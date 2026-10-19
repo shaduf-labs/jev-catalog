@@ -16,7 +16,7 @@
     <meta property="og:description" content="LangChain, Pydantic AI, Effect, Spring AI and LlamaIndex Jev integrations read in source: who publishes them, how young they are, what they do on errors.">
     <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/build/frameworks/">
     <meta name="twitter:card" content="summary">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev LangChain and frameworks","description":"LangChain, Pydantic AI, Effect, Spring AI and LlamaIndex Jev integrations read in source: who publishes them, how young they are, what they do on errors.","dateModified":"2026-10-18T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/frameworks/"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev LangChain and frameworks","description":"LangChain, Pydantic AI, Effect, Spring AI and LlamaIndex Jev integrations read in source: who publishes them, how young they are, what they do on errors.","dateModified":"2026-10-19T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/build/frameworks/"}</script>
     <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="build-frameworks">
     <a class="skip-link" href="#pool-content">Skip to content</a>
     <header class="app-header">
@@ -143,6 +143,7 @@
 
   <div class="jv-box info" id="fw-rechecks">
     <h3>Version rechecks (not audited on this page)</h3>
+    <p id="fw-recheck-19oct"><strong>Noted 19 Oct 2026:</strong> litellm 1.106.0 published 18 Oct 2026 (minor; the 1.105.1 patch of 14 Oct 2026 is noted below); failure path not rechecked at this version. <span class="ev ev-documented">Documented</span> <small>(PyPI registry record, R19-S50)</small></p>
     <p id="fw-recheck-16oct"><strong>Checked at pydantic-ai-slim 2.56.0 and 2.57.0 (16 Oct 2026): TypeSafe provider unchanged; the model adds one check, a request with images raises <code>UserError</code> before any call; the failure path is otherwise unchanged.</strong> Since 14 Oct 2026 TypeSafe accepts images as an opt-in experiment (not production-ready per TypeSafe), so this check is stricter than the API. @effect/ai-typesafe 4.0.5 (patch) was released after our last check; not re-audited. <span class="ev ev-documented">Documented</span> <small>(registry records 16 Oct 2026, 05:28 UTC, and the package files compared as text, nothing installed; R17-S57, R17-S58)</small></p>
     <p id="fw-recheck-14oct"><strong>Rechecked 14 Oct 2026 (registries 16:51 UTC):</strong> @effect/ai-typesafe 4.0.4 (13 Oct 2026, patch), pydantic-ai-slim 2.56.0 (13 Oct 2026, minor) and litellm 1.105.1 (14 Oct 2026, patch) were released after our last check; not re-audited. <span class="ev ev-documented">Documented</span> <small>(npm and PyPI registry records, R16-S64)</small></p>
     <p><strong>Rechecked 11 Oct 2026, 05:22 UTC: pydantic-ai-slim checked at 2.55.0 (9 Oct, minor; the row above was read at 2.54.0). The failure path is unchanged: <code>providers/typesafe.py</code> is unchanged and the API error mapping in <code>models/typesafe.py</code> (L223–243) is unchanged. New in 2.55.0: a request with image input now raises <code>UserError</code> ("TypeSafe does not support image input.") before any request is sent (L219–220). @effect/ai-typesafe 4.0.3 (10 Oct, patch; row read at 4.0.1) and LiteLLM 1.104.2 (8 Oct, patch; failure path read at 1.104.0) are newer releases, not re-audited; the other packages are unchanged.</strong> <span class="ev ev-documented">Documented</span> <small>(package registries and the two PyPI wheels compared as text, nothing installed; R13-S35, R13-S119, R13-S120)</small></p>
@@ -261,7 +262,7 @@
       <section class="right-section">
         <h3>Current position</h3>
         <div class="release-state state-live"><i></i><span>live</span></div>
-        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>18 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>19 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
       </section>
       <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
     </div>
