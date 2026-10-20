@@ -352,6 +352,17 @@
       "summary": "When Jev fails now counts 80 implementations: ohmyjev joins after its pi and omp adapters were read in full, and every failure cell is recorded for all 80; on a Jev error 40 stop or hold the action, 22 fall back, 10 let it through, 5 return no decision and 3 are advisory; the action goes ahead in 19 of 80. jkudish/jev-mcp cells were read at 0.11.0 (53fe575); 0.13.0 and 0.14.1 are later checks with the failure path unchanged. Content moderation and support-ticket triage cells lead with the map terms; no outcome changed. Alternatives: Liquid AI d1-ultra, Mouse-1 and Eevo added with their published prices and data terms (37 substitutes, 7 hosted APIs from other providers); no graded comparison. Access unchanged; jev-latest still on jev-1.13.0. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/failure-map-hosted-decision-models",
       "entrypoint": "reports/failure-map-hosted-decision-models/index.html"
+    },
+    {
+      "run_id": "report-e8ceea831fb3f08d19979cc1",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-20T05:01:00Z",
+      "completed_at": "2026-10-20T06:30:00Z",
+      "title": "Failure self-check, checklist question 9, and Drex on alternatives",
+      "summary": "When Jev fails gains a self-check: pick what your code does in five failure conditions and see how many of the 80 implementations on the map made the same choice, with examples (counts as recomputed 19 Oct; it compares choices and does not read or test code). Checklist question 9 asks whether your code logs or shows a fallback or fail-open; the map does not record this, so it has no count. Sentences on 14 pages that still gave the earlier 79-implementation count now give 80. Alternatives: Drex (Nace.AI) added as a hosted API from another provider with open weights (38 substitutes, 8 hosted APIs from other providers); its claims against Jev are the vendor's own and no graded comparison exists. LiteLLM 1.106.0's Jev failure path is unchanged; n8n 2.44.3 refuses to activate a workflow whose node lacks a required credential. Access unchanged; jev-latest still on jev-1.13.0. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/failure-self-check",
+      "entrypoint": "reports/failure-self-check/index.html"
     }
   ]
 }

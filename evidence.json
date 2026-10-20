@@ -2,6 +2,1056 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "evidence_id": "r20-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/signup",
+      "title": "Source R20-S01: TypeSafe console sign-in and signup pages",
+      "claim": "Sign-in page ('Welcome to TypeSafe') on / and /signup; no waitlist text; no form submitted. (Documented)",
+      "accessed_at": "2026-10-20T05:13:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s51",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/docs/drex/reference/pricing",
+      "title": "Source R20-S51: Nace.AI Console pricing docs (re-read)",
+      "claim": "'Per 1M input tokens, drex-v2.0 $ 0.06'; same as the first read. (Documented)",
+      "accessed_at": "2026-10-20T05:23:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s52",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/terms",
+      "title": "Source R20-S52: Nace.AI Console Service Terms (re-read)",
+      "claim": "'Last updated October 19, 2026'; s.5.4(a) 'No training by default'; s.5.7(a) 'within 48 hours ... Paid Accounts and within 7 days ... Free Tier Accounts'; same as the first read. (Documented)",
+      "accessed_at": "2026-10-20T05:23:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s53",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/955bdaafa8b72b2b6ff728048f272fbc06049f63/litellm/router_strategy/complexity_router/complexity_router.py",
+      "title": "Source R20-S53: litellm complexity_router.py at v1.106.0",
+      "claim": "L2363 'except Exception as e' -> L2366 return self._classifier_failure_outcome(...); L2359-2362 CancelledError re-raised; L2374 def _classifier_failure_outcome. (Documented)",
+      "accessed_at": "2026-10-20T05:25:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s220",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.3/packages/cli/src/active-workflow-manager.ts",
+      "title": "Source R20-S220: n8n active-workflow-manager.ts at n8n@2.44.3",
+      "claim": "add() L540-700: publish policy L607-612, trigger-node check L625-636, no credential validation before registering triggers (start-up and leadership-change re-registration). (Documented)",
+      "accessed_at": "2026-10-20T05:19:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R20-S02: TypeSafe CEO post via X oEmbed",
+      "claim": "Text byte-identical to 16, 18 and 19 Oct reads: 'ANYONE CAN SIGN UP', free credits 'temporarily' disabled for new users. (Documented)",
+      "accessed_at": "2026-10-20T05:13:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R20-S03: TypeSafe docs quickstart",
+      "claim": "15,088 bytes, byte-identical to 16 Oct; no waitlist, credit or free-tier text. (Documented)",
+      "accessed_at": "2026-10-20T05:13:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s04",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R20-S04: TypeSafe status page",
+      "claim": "'All services are online', 'Last updated on Oct 20, 2026 at 5:13am UTC'; api.typesafe.ai 99.826% uptime; last event 14 Oct us-east-1 Elevated Latency, resolved 22:52 UTC. (Documented)",
+      "accessed_at": "2026-10-20T05:13:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R20-S05: TypeSafe docs models page",
+      "claim": "7,978 bytes (19 Oct 7,971). jev-latest -> jev-1.13.0; jev-preview -> jev-1.14.0; price and limits unchanged; only change: rate-limit link now /api/errors#handling-rate-limits. (Documented)",
+      "accessed_at": "2026-10-20T05:13:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R20-S06: TypeSafe docs images page",
+      "claim": "Text unchanged except two link targets moved to /api/errors; opt-in header and 'Dreamer-ready' callout unchanged. (Documented)",
+      "accessed_at": "2026-10-20T05:13:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R20-S07: TypeSafe homepage",
+      "claim": "No signup, waitlist or credit text found. (Documented)",
+      "accessed_at": "2026-10-20T05:13:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R20-S08: TypeSafe blog index",
+      "claim": "7 posts; latest /blog/jev-1-14; no new post. (Documented)",
+      "accessed_at": "2026-10-20T05:13:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R20-S09: TypeSafe blog: Jev 1.14 post",
+      "claim": "Still 'jev-latest will be updated to jev-1.14.0 in a week. jev-1.13.0 will be available for a while.' (Documented)",
+      "accessed_at": "2026-10-20T05:13:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R20-S10: TypeSafe Enterprise page",
+      "claim": "No credit, waitlist or trial text. (Documented)",
+      "accessed_at": "2026-10-20T05:13:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s11",
+      "source_type": "reported source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R20-S11: AI FrontPage homepage",
+      "claim": "Item 'Jev AI Reaches 35% of Paid Teams in 14 Days, Uses Just 0.15% of Inference Spend: Vercel Report' (about 7 h old); relay of Vercel's report; no credit or signup statement. (Reported)",
+      "accessed_at": "2026-10-20T05:13:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s12",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Source R20-S12: TypeSafe docs legal page",
+      "claim": "1,168 bytes, byte-identical to 16, 18 and 19 Oct. (Documented)",
+      "accessed_at": "2026-10-20T05:13:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s13",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R20-S13: OpenRouter Jev guide",
+      "claim": "Sentence 'no waitlist or separate TypeSafe account' present. (Documented)",
+      "accessed_at": "2026-10-20T05:13:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s14",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R20-S14: Eye Security: Rise of the Jev clones",
+      "claim": "Online; names jev-agent.org, jev-ai.pro, jevtypesafeai.com. (Reported)",
+      "accessed_at": "2026-10-20T05:16:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s15",
+      "source_type": "reported source",
+      "source_url": "https://jev-agent.org/",
+      "title": "Source R20-S15: Lookalike reseller jev-agent.org (homepage status only)",
+      "claim": "Title 'Jev: Fast System One Decisions for AI Agents | Jev Agent'. (Reported)",
+      "accessed_at": "2026-10-20T05:16:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s16",
+      "source_type": "reported source",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Source R20-S16: Lookalike reseller jev-ai.pro (homepage status only)",
+      "claim": "Title 'Jev AI — Try the Jev Model by TypeSafe: Playground & API'. (Reported)",
+      "accessed_at": "2026-10-20T05:16:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s17",
+      "source_type": "reported source",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Source R20-S17: Lookalike reseller jevtypesafeai.com (status only; never a source)",
+      "claim": "Title 'Jev by TypeSafe AI — Try the System One model & API'. Homepage status only. (Reported)",
+      "accessed_at": "2026-10-20T05:16:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s18",
+      "source_type": "reported source",
+      "source_url": "https://thejevai.com/",
+      "title": "Source R20-S18: Lookalike watch thejevai.com (homepage status only)",
+      "claim": "Title 'Jev AI — Jev Model Online, Free, No Waitlist'. (Reported)",
+      "accessed_at": "2026-10-20T05:16:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s19",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/box.md",
+      "title": "Source R20-S19: TypeSafe docs Box page",
+      "claim": "Byte-identical to 16 Oct. (Documented)",
+      "accessed_at": "2026-10-20T05:13:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s20",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Source R20-S20: TypeSafe docs llms.txt index",
+      "claim": "API reference entry replaced by System One, List models, Request rules and errors pages; OpenAPI spec link api.typesafe.ai/openapi.json added. (Documented)",
+      "accessed_at": "2026-10-20T05:13:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Source R20-S21: TypeSafe docs changelog (absent)",
+      "claim": "HTTP 404; no docs changelog. (Documented)",
+      "accessed_at": "2026-10-20T05:13:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s22",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Source R20-S22: OpenRouter typesafe/jev-1.13 endpoints",
+      "claim": "Identical to 19 Oct: TypeSafe provider, 262,144 context, prompt 0.000000042. (Documented)",
+      "accessed_at": "2026-10-20T05:16:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s23",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "title": "Source R20-S23: OpenRouter typesafe/jev-1.14 endpoints",
+      "claim": "Identical to 19 Oct. (Documented)",
+      "accessed_at": "2026-10-20T05:16:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s24",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R20-S24: OpenRouter public models list",
+      "claim": "470 IDs; TypeSafe: typesafe/jev-router only; added inception/mercury-3, minimax/minimax-m3.1-flash:free; removed deepseek/deepseek-r1, microsoft/wizardlm-2-8x22b, sao10k/l3.3-euryale-70b; no decision-model ID added. (Documented)",
+      "accessed_at": "2026-10-20T05:16:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s25",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Source R20-S25: Vercel AI Gateway typesafe-ai/jev endpoints",
+      "claim": "Only uptime_last_1d values differ from 19 Oct. (Documented)",
+      "accessed_at": "2026-10-20T05:16:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s26",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.13.0/endpoints",
+      "title": "Source R20-S26: Vercel AI Gateway typesafe-ai/jev-1.13.0 endpoints",
+      "claim": "Only uptime_last_1d differs. (Documented)",
+      "accessed_at": "2026-10-20T05:16:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s27",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev-1.14.0/endpoints",
+      "title": "Source R20-S27: Vercel AI Gateway typesafe-ai/jev-1.14.0 endpoints",
+      "claim": "Only uptime_last_1d differs. (Documented)",
+      "accessed_at": "2026-10-20T05:16:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s28",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R20-S28: Vercel AI Gateway models list",
+      "claim": "477 IDs; typesafe-ai/jev, jev-1.13.0, jev-1.14.0; added inception/mercury-3, minimax/minimax-m3.1-flash; removed stealth/cat-jam. (Documented)",
+      "accessed_at": "2026-10-20T05:16:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s29",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-latest",
+      "title": "Source R20-S29: Opper models search for typesafe/jev-latest",
+      "claim": "0 models (alias is not a model name in search). (Documented)",
+      "accessed_at": "2026-10-20T05:16:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s30",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Source R20-S30: Cloudflare AI docs: TypeSafe Jev",
+      "claim": "4 mentions of jev-1.13, 0 of jev-1.14. (Documented)",
+      "accessed_at": "2026-10-20T05:16:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s31",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev-1.14/",
+      "title": "Source R20-S31: Cloudflare AI docs: jev-1.14 URL",
+      "claim": "Serves the generic 'Models · Cloudflare AI docs' catalog page; no 1.14 page. (Documented)",
+      "accessed_at": "2026-10-20T05:16:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s32",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Source R20-S32: Opper typesafe/jev-1.13.0",
+      "claim": "Aliases typesafe/jev-latest; 64,000 context; identical to 19 Oct. (Documented)",
+      "accessed_at": "2026-10-20T05:16:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s33",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.14.0",
+      "title": "Source R20-S33: Opper typesafe/jev-1.14.0",
+      "claim": "Aliases typesafe/jev-preview; capabilities text and vision; identical to 19 Oct. (Documented)",
+      "accessed_at": "2026-10-20T05:16:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s34",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R20-S34: Netlify AI Gateway overview",
+      "claim": "Lists jev-1.13.0 and jev-1.14.0. (Documented)",
+      "accessed_at": "2026-10-20T05:16:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s35",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "title": "Source R20-S35: Azure Foundry partner models",
+      "claim": "No 'Jev' or 'TypeSafe' string. (Documented)",
+      "accessed_at": "2026-10-20T05:16:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s36",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
+      "title": "Source R20-S36: Bedrock model cards",
+      "claim": "No 'Jev' or 'TypeSafe' string. (Documented)",
+      "accessed_at": "2026-10-20T05:16:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s37",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/",
+      "title": "Source R20-S37: Workers AI models",
+      "claim": "No 'Jev' or 'TypeSafe' string. (Documented)",
+      "accessed_at": "2026-10-20T05:16:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s38",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/changelog/",
+      "title": "Source R20-S38: Cloudflare changelog",
+      "claim": "No 'Jev' or 'TypeSafe' string. (Documented)",
+      "accessed_at": "2026-10-20T05:16:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s39",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/rate_limit",
+      "title": "Source R20-S39: GitHub rate limit (not counted)",
+      "claim": "Unauthenticated; core 60/60; search 10/10. (Documented)",
+      "accessed_at": "2026-10-20T05:13:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s40",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md",
+      "title": "Source R20-S40: OpenAI Decisions API guide",
+      "claim": "Changed since 19 Oct at line 316 only: images may now be inline base64 data URLs or public HTTP(S) URLs (19 Oct: base64 only); still 'public beta ... GA in the coming weeks'. (Documented)",
+      "accessed_at": "2026-10-20T05:24:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s41",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date",
+      "title": "Source R20-S41: HN Algolia search (window 19 Oct 05:21Z to 20 Oct 05:13Z)",
+      "claim": "Queries jev, typesafe, jev vision, jev vlm, drex, nace.ai; stories and comments; literal filter. jev: 4 stories (50156970, 50157795, 50158441, 50158770). (Documented)",
+      "accessed_at": "2026-10-20T05:17:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s42",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date",
+      "title": "Source R20-S42: HN Algolia 72 h look-back (17 Oct 05:13Z to 20 Oct 05:13Z)",
+      "claim": "Queries decision model, decision API, decisions API, System One, Decision-1, vs Jev, Drex, Laya, d1-ultra, Mouse-1, Eevo, jevman, JevBench, Decision Index. (Documented)",
+      "accessed_at": "2026-10-20T05:17:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s43",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories",
+      "title": "Source R20-S43: GitHub repository search (4 calls, unauthenticated)",
+      "claim": "jev created in window 184; jev pushed in window 661; typesafe created in window 55; drex created 19-20 Oct 0. (Documented)",
+      "accessed_at": "2026-10-20T05:17:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s44",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search",
+      "title": "Source R20-S44: npm search (jev, typesafe, typesafe-ai, jev-mcp, drex)",
+      "claim": "In window: @ai-sdk/typesafe-ai 3.0.23, @tanstack/ai-typesafe 0.1.13, @standardagents/typesafe 0.43.1, @narumitw/pi-typesafe(-compact,-search) 0.1.2, @parcha/agentrun-jev 0.1.0-beta.18, jev-repl 0.11.0, dsh-jev-interceptor 0.5.0, nace-sdk 0.2.0 and others. (Documented)",
+      "accessed_at": "2026-10-20T05:17:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s47",
+      "source_type": "documented source",
+      "source_url": "https://www.reddit.com/search.json?q=jev&sort=new&limit=100",
+      "title": "Source R20-S47: Reddit search",
+      "claim": "HTTP 403: window coverage unknown. (Documented)",
+      "accessed_at": "2026-10-20T05:17:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s54",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/items/50148396",
+      "title": "Source R20-S54: HN 50148396: Show HN Strot",
+      "claim": "Links github.com/strot-ai/Project-STROT (19 Oct 04:32Z, before window; in look-back); 'compile an LLM's intent once, run decisions locally'; not a hosted decision API; lead only. (Documented)",
+      "accessed_at": "2026-10-20T05:24:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s100",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/blog/introducing-drex",
+      "title": "Source R20-S100: Introducing Drex, a small model that decides instead of writing (Nace.AI blog, Sep 24, 2026)",
+      "claim": "Launch post: 'Generally available'; 'Update, September 28, 2026. Drex 1.5 scores 58.28 on Decision Index 0.2.1' (vendor claim, Reported). Links github.com/nace-ai, console.nace.ai/docs, /policies/terms-of-service, /policies/privacy-policy, /drex.md. (Documented)",
+      "accessed_at": "2026-10-20T05:16:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s101",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/",
+      "title": "Source R20-S101: Nace.AI home",
+      "claim": "Links /drex, console.nace.ai/docs, github.com/nace-ai, policies pages. (Documented)",
+      "accessed_at": "2026-10-20T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s102",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/drex.md",
+      "title": "Source R20-S102: Drex Max, the decision model that sees (product page, markdown)",
+      "claim": "Family table (drex-max API only; drex-v2.0 open weights; drex-v1.5 Console); base URL, Bearer auth, POST /v1/systemone request shape and curl; 'wire-compatible with TypeSafe's Jev'; links huggingface.co/nace-ai/drex-v2.0 and github.com/nace-ai/drex-decision-models; 'Drex 2.0 is built on Qwen3.6-35B-A3B'. Benchmark figures are vendor claims (Reported). No date shown. (Documented)",
+      "accessed_at": "2026-10-20T05:16:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s103",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/drex",
+      "title": "Source R20-S103: Drex product page (HTML)",
+      "claim": "HTML form of R20-S102; markdown copy used for quotes. (Documented)",
+      "accessed_at": "2026-10-20T05:16:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s104",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/docs",
+      "title": "Source R20-S104: Nace Docs overview",
+      "claim": "'A new account gets $25.00 of signup credit once a person is behind it'; 'an owner or admin can turn on zero retention'. Nav links Terms (/terms), Privacy (/privacy), DPA (/dpa). (Documented)",
+      "accessed_at": "2026-10-20T05:16:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s105",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/docs/drex/reference/models",
+      "title": "Source R20-S105: Drex docs: Models",
+      "claim": "Table: drex-max 2026-10-13 $0.06; drex-v2.0 2026-10-06 $0.06 (drex-latest); drex-v1.5 2026-09-28 $0.05; drex-v1.0 2026-09-24 $0.04; drex-v1.1 retired 2026-09-28. 'When model is omitted, Drex uses drex-v2.0'. No preview label found. (Documented)",
+      "accessed_at": "2026-10-20T05:17:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s106",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/docs/drex/reference/pricing",
+      "title": "Source R20-S106: Drex docs: Pricing",
+      "claim": "Per 1M input tokens: drex-max $0.06, drex-v2.0 $0.06, drex-v1.5 $0.05, drex-v1.0 $0.04; 'Output tokens ... are not billed'; signup credit $25.00 (expires 3 months), monthly $5; 'Only a 200 response is debited'. No page date recorded. (Documented)",
+      "accessed_at": "2026-10-20T05:17:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s107",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/docs/drex/reference/limits",
+      "title": "Source R20-S107: Drex docs: Limits",
+      "claim": "512 questions (Drex Max 16); body 4,194,304 bytes; state 131,072 tokens (v1.0 32,768); row limits; evaluate timeout 55 s; max 3 active keys; rate limits free 120 RPM / 8 in flight, paid 600 RPM / 16. (Documented)",
+      "accessed_at": "2026-10-20T05:17:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s108",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/docs/drex/reference/errors",
+      "title": "Source R20-S108: Drex docs: Errors",
+      "claim": "Envelope with error.type, message, issues, request_id; 401 authentication_error, 402 insufficient_credit / payment_required, 422 invalid_request_error, 429 rate_limit_error, 500 internal_error, 529 overloaded; retry-after and retry-after-ms on 429/529; x-typesafe-request-id header. (Documented)",
+      "accessed_at": "2026-10-20T05:17:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s109",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/docs/drex/api-reference/systemone",
+      "title": "Source R20-S109: Drex API reference: Evaluate questions (POST /v1/systemone)",
+      "claim": "'Send any JSON state and one to 512 typed questions'; 'only a 200 is billed'. (Documented)",
+      "accessed_at": "2026-10-20T05:17:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s110",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/docs/drex/guides/migrate-from-typesafe",
+      "title": "Source R20-S110: Drex docs: Migrate from TypeSafe",
+      "claim": "'Drex is wire-compatible with TypeSafe's Jev. The @typesafe-ai/sdk package works against https://console.nace.ai without a fork.' Not tested by the pool. (Documented)",
+      "accessed_at": "2026-10-20T05:17:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s111",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/terms",
+      "title": "Source R20-S111: Nace.AI Terms of Service (console)",
+      "claim": "'Last updated October 19, 2026'. Covers console.nace.ai, APIs, SDKs, models. s.5.4(a) 'No training by default'; s.5.7(a) default retention 48 hours (Paid) / 7 days (Free Tier); s.5.7(g) zero retention, 'within 1 hour after results are delivered'. (Documented)",
+      "accessed_at": "2026-10-20T05:17:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s112",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/privacy",
+      "title": "Source R20-S112: Nace.AI Privacy Notice (console)",
+      "claim": "'Last updated October 19, 2026'. s.5: 'process and store personal information in the United States and other countries where our service providers operate'. Zero-retention text matches Terms s.5.7(g). (Documented)",
+      "accessed_at": "2026-10-20T05:17:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s113",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/dpa",
+      "title": "Source R20-S113: Nace.AI DPA (console)",
+      "claim": "Fetched; existence only. Content not read in the time box. (Documented)",
+      "accessed_at": "2026-10-20T05:17:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s114",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/policies/terms-of-service",
+      "title": "Source R20-S114: Nace.AI Terms & Conditions (www)",
+      "claim": "Fetched; linked from the blog footer. Not read in the time box; the row quotes the console Terms (R20-S111), which name the APIs and models. (Documented)",
+      "accessed_at": "2026-10-20T05:16:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s115",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/policies/privacy-policy",
+      "title": "Source R20-S115: Nace.AI Privacy Policy (www)",
+      "claim": "Fetched; not read in the time box (console Privacy Notice R20-S112 used). (Documented)",
+      "accessed_at": "2026-10-20T05:16:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s116",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/nace-ai/drex-v1.5",
+      "title": "Source R20-S116: OpenRouter: Nace.AI: Drex v1.5",
+      "claim": "'$0.04 / $0 per 1M', 'Context 131K', 'Released Oct 9, 2026', 'hosted by one provider'; embedded provider_name 'DeepInfra'; data_policy {training:false, trainingOpenRouter:false, retainsPrompts:false, canPublish:false, safetyRetention:false, termsOfServiceURL deepinfra.com/terms}. Text input only per page FAQ. (Documented)",
+      "accessed_at": "2026-10-20T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s117",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/nace-ai/drex-v2.0",
+      "title": "Source R20-S117: OpenRouter: Nace.AI: Drex v2.0",
+      "claim": "'$0.06 / $0 per 1M', 'Context 131K', 'Released Oct 12, 2026', one provider, provider_name 'DeepInfra'; same data_policy fields as R20-S116. (Documented)",
+      "accessed_at": "2026-10-20T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s118",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R20-S118: OpenRouter public models JSON",
+      "claim": "470 models; no id containing 'nace' or 'drex' (same pattern as d1-ultra on 19 Oct: decision models may be excluded from this list). (Documented)",
+      "accessed_at": "2026-10-20T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s119",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/nace-ai/drex-v1.5",
+      "title": "Source R20-S119: HF API: nace-ai/drex-v1.5",
+      "claim": "sha f80f9d2b5c3dadde590a30f203f1ecd99acd6cf3; createdAt 2026-09-28T21:05:09Z; lastModified 2026-10-15T21:16:49Z; license other / nace-ai-open-rail-m; base_model XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B; not gated. (Documented)",
+      "accessed_at": "2026-10-20T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s120",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/nace-ai/drex-v2.0",
+      "title": "Source R20-S120: HF API: nace-ai/drex-v2.0",
+      "claim": "sha 3e6d164cb5c8cf264eec167905cc2448d89ea97d; createdAt 2026-10-06T08:06:40Z; lastModified 2026-10-15T21:16:46Z; license other / nace-ai-open-rail-m; base_model Qwen/Qwen3.6-35B-A3B; not gated; 16 safetensors shards plus head.pt. (Documented)",
+      "accessed_at": "2026-10-20T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s121",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?author=nace-ai",
+      "title": "Source R20-S121: HF API: models by nace-ai",
+      "claim": "8 repos incl. drex-v2.0, drex-v1.5, drex-dlm, drex-v1.5-Q8_0, drex-v2.0-Q8_0. (Documented)",
+      "accessed_at": "2026-10-20T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s122",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/nace-ai/drex-v2.0/raw/3e6d164cb5c8cf264eec167905cc2448d89ea97d/LICENSE",
+      "title": "Source R20-S122: drex-v2.0 LICENSE at 3e6d164",
+      "claim": "'NACE AI OPEN RAIL-M LICENSE (MODIFIED) Version 1.0, October 2026'; s.4 commercial use above Attachment A thresholds needs a separate licence; Attachment A para 2(a) revenue and 2(b) funding over $1,000,000, except personal use or research. (Documented)",
+      "accessed_at": "2026-10-20T05:18:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s123",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/nace-ai/drex-v2.0/raw/3e6d164cb5c8cf264eec167905cc2448d89ea97d/README.md",
+      "title": "Source R20-S123: drex-v2.0 model card at 3e6d164",
+      "claim": "Metadata license other / nace-ai-open-rail-m, base_model Qwen/Qwen3.6-35B-A3B; 'built on Qwen3.6-35B-A3B ... with a Kev pointer head' (card claim, Reported); benchmark claims vs Jev 1.13.0 (Reported). (Documented)",
+      "accessed_at": "2026-10-20T05:18:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s124",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/nace-ai/drex-v1.5/raw/f80f9d2b5c3dadde590a30f203f1ecd99acd6cf3/LICENSE",
+      "title": "Source R20-S124: drex-v1.5 LICENSE at f80f9d2",
+      "claim": "Byte-identical to R20-S122 (cmp). (Documented)",
+      "accessed_at": "2026-10-20T05:18:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s125",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/nace-ai/drex-v1.5/raw/f80f9d2b5c3dadde590a30f203f1ecd99acd6cf3/README.md",
+      "title": "Source R20-S125: drex-v1.5 model card at f80f9d2",
+      "claim": "Base model XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B (card claim, Reported); '#1 model under 10B parameters on the public Decision Index 0.3.1 (58.08)' (Reported); links drex.nace.ai/docs (now redirects to console login, R20-S134). (Documented)",
+      "accessed_at": "2026-10-20T05:18:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s126",
+      "source_type": "documented source",
+      "source_url": "https://github.com/nace-ai",
+      "title": "Source R20-S126: GitHub organisation nace-ai",
+      "claim": "Org page; linked from nace.ai. (Documented)",
+      "accessed_at": "2026-10-20T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s127",
+      "source_type": "documented source",
+      "source_url": "https://github.com/nace-ai/drex-decision-models/commits/main.atom",
+      "title": "Source R20-S127: nace-ai/drex-decision-models commits (main)",
+      "claim": "HEAD be8ba7c8157241b9393862e9fcec104d0dc5caff, updated 2026-10-13T04:31:14Z. No API call used. (Documented)",
+      "accessed_at": "2026-10-20T05:18:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s128",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/nace-ai/drex-decision-models/be8ba7c8157241b9393862e9fcec104d0dc5caff/LICENSE",
+      "title": "Source R20-S128: drex-decision-models LICENSE at be8ba7c",
+      "claim": "Apache License, Version 2.0 (runtime/code repo). (Documented)",
+      "accessed_at": "2026-10-20T05:18:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s129",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/blog/introducing-drex-max",
+      "title": "Source R20-S129: Introducing Drex Max (Nace.AI blog, Oct 19, 2026)",
+      "claim": "Fetched; title and date (Oct 19, 2026) from the blog index; body not read in the time box. (Documented)",
+      "accessed_at": "2026-10-20T05:16:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s130",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/nace-sdk",
+      "title": "Source R20-S130: npm registry: nace-sdk",
+      "claim": "latest 0.2.0 (2026-10-20T04:35:05Z; 0.1.0 2026-10-08); license Apache-2.0; homepage console.nace.ai/docs/developer-tools/typescript; README: 'built on the TypeSafe AI SDK (MIT ...)'. Metadata only; not installed. (Documented)",
+      "accessed_at": "2026-10-20T05:18:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s131",
+      "source_type": "reported source",
+      "source_url": "https://daily.dev/posts/drex-wins-the-decision-index-by-a-rounding-error-2c9lwjiov",
+      "title": "Source R20-S131: daily.dev: Drex wins the Decision Index by a rounding error",
+      "claim": "Headline phrase is daily.dev's; og:description: 'Nace AI's new decision model Drex is being marketed as the first serious challenger to Jev, claiming a narrow lead on the vendor's own Decision Index benchmark'. Not a Nace page. (Reported)",
+      "accessed_at": "2026-10-20T05:18:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s132",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/pricing",
+      "title": "Source R20-S132: nace.ai /pricing, /terms, /privacy",
+      "claim": "All three guessed URLs returned 404 (absence of those URLs only; real legal pages are under /policies/ and console.nace.ai). (Documented)",
+      "accessed_at": "2026-10-20T05:16:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s133",
+      "source_type": "documented source",
+      "source_url": "https://docs.nace.ai/",
+      "title": "Source R20-S133: docs.nace.ai",
+      "claim": "Connection error (no such docs host reached); docs are at console.nace.ai/docs. (Documented)",
+      "accessed_at": "2026-10-20T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s134",
+      "source_type": "documented source",
+      "source_url": "https://drex.nace.ai",
+      "title": "Source R20-S134: drex.nace.ai",
+      "claim": "Redirects to https://console.nace.ai/login. (Documented)",
+      "accessed_at": "2026-10-20T05:16:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s135",
+      "source_type": "documented source",
+      "source_url": "https://trust.nace.ai",
+      "title": "Source R20-S135: Nace trust center",
+      "claim": "403; SOC 2 claim on R20-S102 not checked. (Documented)",
+      "accessed_at": "2026-10-20T05:16:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s200",
+      "source_type": "documented source",
+      "source_url": "https://github.com/BerriAI/litellm/tags.atom",
+      "title": "Source R20-S200: Tags from litellm (Atom feed)",
+      "claim": "v1.106.0 entry updated 2026-10-18T05:53:32Z; newer tags v1.107.0-rc.1/rc.2 (pre-release), v1.104.4, v1.103.5; feed carries no SHA (Documented)",
+      "accessed_at": "2026-10-20T05:16:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s201",
+      "source_type": "documented source",
+      "source_url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.0",
+      "title": "Source R20-S201: litellm release v1.106.0 (HTML)",
+      "claim": "tag v1.106.0 -> commit 955bdaafa8b72b2b6ff728048f272fbc06049f63 (Documented)",
+      "accessed_at": "2026-10-20T05:16:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s202",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/litellm/1.106.0/json",
+      "title": "Source R20-S202: PyPI litellm 1.106.0 JSON",
+      "claim": "files uploaded 2026-10-18T05:49:44Z to 05:50:08Z (sdist 05:50:08Z) (Documented)",
+      "accessed_at": "2026-10-20T05:16:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s203",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/litellm/json",
+      "title": "Source R20-S203: PyPI litellm JSON (latest)",
+      "claim": "info.version 1.106.0 (latest stable) (Documented)",
+      "accessed_at": "2026-10-20T05:16:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s204",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/79645770fedc7ec2627e6468d31062f20f82aecc/litellm/router_strategy/complexity_router/complexity_router.py",
+      "title": "Source R20-S204: complexity_router.py at 1.104.0 (7964577)",
+      "claim": "baseline; _jev_classifier_outcome L2121, _classify_with_plugin L2261 (Documented)",
+      "accessed_at": "2026-10-20T05:16:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s205",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/v1.106.0/litellm/router_strategy/complexity_router/complexity_router.py",
+      "title": "Source R20-S205: complexity_router.py at v1.106.0 (955bdaa)",
+      "claim": "also fetched at 955bdaa (05:16:47Z), identical; key check L1356-1360; dispatch L1973; _jev_classifier_outcome L2259; except Exception L2363; _classifier_failure_outcome L2374-2430; failure reasons L1240-1243 (Documented)",
+      "accessed_at": "2026-10-20T05:16:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s206",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/79645770fedc7ec2627e6468d31062f20f82aecc/litellm/router_strategy/complexity_router/jev_classifier.py",
+      "title": "Source R20-S206: jev_classifier.py at 1.104.0 (7964577)",
+      "claim": "baseline (Documented)",
+      "accessed_at": "2026-10-20T05:16:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s207",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/v1.106.0/litellm/router_strategy/complexity_router/jev_classifier.py",
+      "title": "Source R20-S207: jev_classifier.py at v1.106.0 (955bdaa)",
+      "claim": "provider-aware HttpJevClassifierClient (typesafe/laya/bespoke/databricks), optional api_key, body parsed before logging; also identical at 955bdaa (Documented)",
+      "accessed_at": "2026-10-20T05:16:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s208",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/79645770fedc7ec2627e6468d31062f20f82aecc/litellm/proxy/guardrails/guardrail_hooks/typesafe/typesafe.py",
+      "title": "Source R20-S208: TypeSafe guardrail hook at 1.104.0 (7964577)",
+      "claim": "baseline, 416 lines (Documented)",
+      "accessed_at": "2026-10-20T05:16:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s209",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/v1.106.0/litellm/proxy/guardrails/guardrail_hooks/typesafe/typesafe.py",
+      "title": "Source R20-S209: TypeSafe guardrail hook at v1.106.0 (955bdaa)",
+      "claim": "exists; 417 lines; timeout param L165/L193/L277, default 30.0 L53; no-key ValueError L169-174; unreachable_fallback default fail_open L183-185 (Documented)",
+      "accessed_at": "2026-10-20T05:16:47Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s210",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/v1.105.0/litellm/router_strategy/complexity_router/complexity_router.py",
+      "title": "Source R20-S210: complexity_router.py, jev_classifier.py, typesafe.py at v1.105.0 (midpoint)",
+      "claim": "same-path raw fetches of jev_classifier.py and proxy/guardrails/guardrail_hooks/typesafe/typesafe.py at v1.105.0 also 200 at 05:16:48Z; used to split 1.104->1.105 vs 1.105->1.106 changes (Documented)",
+      "accessed_at": "2026-10-20T05:16:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s211",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/v1.106.0/litellm/router_strategy/complexity_router/config.py",
+      "title": "Source R20-S211: complexity_router config.py at v1.106.0",
+      "claim": "alias normalisation jev->oss_classifier L689-705; before-validator L993-1000; OpenSourceClassifierConfig L716-785 (provider default jev, model jev-latest, timeout_ms 3000, breaker on 30s); JevClassifierConfig alias L788; local_heuristic restricted L1905-1907 (Documented)",
+      "accessed_at": "2026-10-20T05:17:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s212",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/BerriAI/litellm/v1.105.0/litellm/router_strategy/complexity_router/config.py",
+      "title": "Source R20-S212: complexity_router config.py at v1.105.0",
+      "claim": "comparison for the rename (Documented)",
+      "accessed_at": "2026-10-20T05:17:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s216",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.3/packages/cli/src/workflows/workflows.controller.ts",
+      "title": "Source R20-S216: n8n workflows.controller.ts at n8n@2.44.3",
+      "claim": "POST /:workflowId/activate L455-479 -> workflowService.activateWorkflow (Documented)",
+      "accessed_at": "2026-10-20T05:19:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s217",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.3/packages/cli/src/workflows/workflow.service.ts",
+      "title": "Source R20-S217: n8n workflow.service.ts at n8n@2.44.3",
+      "claim": "activateWorkflow L1145 (publicApi source L1157-1158; callers L965, L974); _validateNodes call L1228, def L2021-2040 throws WorkflowValidationError; _addToActiveWorkflowManager L1018/L1362; publishAsSystem L1571 not read in full (Documented)",
+      "accessed_at": "2026-10-20T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s218",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.3/packages/cli/src/workflows/workflow-validation.service.ts",
+      "title": "Source R20-S218: n8n workflow-validation.service.ts at n8n@2.44.3",
+      "claim": "validateForActivation L345-371; validateNodeConfiguration L99-168 (Missing required credential / Credential not configured; reachable enabled nodes only) (Documented)",
+      "accessed_at": "2026-10-20T05:20:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s219",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.3/packages/workflow/src/node-validation.ts",
+      "title": "Source R20-S219: n8n-workflow node-validation.ts at n8n@2.44.3",
+      "claim": "validateNodeCredentials L74-109: required + displayed credential; missing entry or entry without id -> issue (Documented)",
+      "accessed_at": "2026-10-20T05:20:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s221",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n%402.44.3/packages/cli/src/errors/response-errors/workflow-validation.error.ts",
+      "title": "Source R20-S221: n8n WorkflowValidationError at n8n@2.44.3",
+      "claim": "extends WorkflowActivationBadRequestError; also tried public-api/v1/handlers/workflows/workflows.handler.ts -> 404 (path differs; not located) (Documented)",
+      "accessed_at": "2026-10-20T05:20:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r20-s222",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/TypeSafeAi.node.ts",
+      "title": "Source R20-S222: Official TypeSafe n8n node at c12537b",
+      "claim": "credentials: [{ name: CREDENTIAL_NAME, required: true }] L217, no displayOptions (Documented)",
+      "accessed_at": "2026-10-20T05:21:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
       "evidence_id": "typesafe-launch",
       "source_type": "official launch post",
       "source_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",

@@ -2,6 +2,48 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "failure-self-check-2026-10-20",
+      "changed_at": "2026-10-20T06:30:00Z",
+      "summary": "When Jev fails: new self-check. Pick what your code does in five failure conditions and see how many of the 80 implementations on the map made the same choice, with examples; same counts as the map (recomputed 19 Oct); it does not read or test code.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "checklist-question-9-2026-10-20",
+      "changed_at": "2026-10-20T06:30:00Z",
+      "summary": "When Jev fails: checklist question 9 asks whether your code logs or shows when it falls back or fails open; not counted, because the map does not record it. Copyable checklist updated.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "map-count-corrections-2026-10-20",
+      "changed_at": "2026-10-20T06:30:00Z",
+      "summary": "Corrected: current sentences on 14 pages that still gave the earlier count of 79 implementations, or its category numbers, now give 80 (for example, 10 let the action through on a Jev error; 19 of 80 let it go ahead).",
+      "path": "/p/jev-catalog/use-cases"
+    },
+    {
+      "change_id": "alternatives-drex-2026-10-20",
+      "changed_at": "2026-10-20T06:30:00Z",
+      "summary": "Alternatives: Drex (Nace.AI) added as a hosted decision API with open weights; price and data terms quoted from Nace.AI's pages; claims against Jev are the vendor's own; 38 substitutes, 8 hosted APIs from other providers.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "version-checks-2026-10-20",
+      "changed_at": "2026-10-20T06:30:00Z",
+      "summary": "Rechecked: LiteLLM 1.106.0 keeps the Jev classifier's failure path; n8n 2.44.3 refuses to activate a workflow whose node lacks a required credential; OpenAI's Decisions API guide now accepts image URLs (no comparison-card cell changed).",
+      "path": "/p/jev-catalog/build/frameworks"
+    },
+    {
+      "change_id": "report-failure-self-check",
+      "changed_at": "2026-10-20T06:30:00Z",
+      "summary": "New dated report: failure self-check, checklist question 9, and Drex on alternatives (20 Oct 2026).",
+      "path": "/p/jev-catalog/reports/failure-self-check"
+    },
+    {
+      "change_id": "access-recheck-2026-10-20",
+      "changed_at": "2026-10-20T06:30:00Z",
+      "summary": "Access status rechecked 20 Oct 2026, 05:13 UTC: signups open, no new-user credit, API operational; price, rate-limit wording and model aliases unchanged (jev-latest still on jev-1.13.0; TypeSafe has published no date for the move to 1.14). Home keeps its four notices; none retired.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
       "change_id": "access-recheck-2026-10-19",
       "changed_at": "2026-10-19T06:30:00Z",
       "summary": "Access status rechecked 19 Oct 2026, 05:22 UTC: signups open, no new-user credit, API operational; price, rate-limit wording and model aliases unchanged (jev-latest still on jev-1.13.0; TypeSafe has published no date for the move to 1.14). Home keeps its four notices; none retired.",

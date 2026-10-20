@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'self'; img-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Jev (TypeSafe AI) failure self-check</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #fff; }
+  body { color: #37352f; font: 15px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  * { box-sizing: border-box; }
+  .fsc { padding: 18px 18px 20px; }
+  h2 { margin: 0 0 4px; font-size: 18px; letter-spacing: -.01em; }
+  .intro { margin: 0 0 6px; color: #4f4d47; font-size: 14px; }
+  .disc { margin: 0 0 14px; padding: 8px 12px; border-left: 3px solid #d4d2cd; background: #f7f7f5; color: #4f4d47; font-size: 13px; border-radius: 4px; }
+  .q { margin: 0 0 12px; padding: 12px 14px; border: 1px solid #e6e5e2; border-radius: 6px; }
+  .q > p { margin: 0 0 8px; font-weight: 650; }
+  .q > small { display: block; margin: -4px 0 8px; color: #6b6a66; font-weight: 400; font-size: 12.5px; }
+  .opts { display: flex; flex-wrap: wrap; gap: 8px; }
+  button { font: inherit; font-size: 13.5px; min-height: 36px; padding: 6px 12px; border: 1px solid #d4d2cd; border-radius: 6px; background: #fff; color: #37352f; cursor: pointer; text-align: left; max-width: 100%; }
+  button[aria-pressed="true"] { border-color: #326ca6; background: #e7eef6; color: #214b75; font-weight: 650; }
+  button:focus-visible { outline: 3px solid #d08a16; outline-offset: 2px; }
+  .sw { display: inline-block; width: 11px; height: 11px; margin-right: 7px; border-radius: 2px; vertical-align: -1px; }
+  .t-fc .sw, .r.t-fc { --c: #3e7d5c; } .t-fc .sw { background: #3e7d5c; }
+  .t-fb .sw { background: #326ca6; } .r.t-fb { --c: #326ca6; }
+  .t-adv .sw { background: #b3822f; } .r.t-adv { --c: #b3822f; }
+  .t-nd .sw { background: #8a8984; } .r.t-nd { --c: #8a8984; }
+  .t-fo .sw { background: #9f3f3b; } .r.t-fo { --c: #9f3f3b; }
+  .t-rec .sw { background: #5d6b78; } .r.t-rec { --c: #5d6b78; }
+  .t-none .sw { background: #fff; box-shadow: inset 0 0 0 1px #b9b7b1; } .r.t-none { --c: #b9b7b1; }
+  .t-unsure .sw { background: #fff; border: 1px dashed #4f4d47; } .r.t-unsure { --c: #d4d2cd; }
+  .r { margin-top: 10px; padding: 10px 12px; border-left: 4px solid var(--c, #d4d2cd); border-radius: 6px; background: #f7f7f5; font-size: 13.5px; }
+  .r:empty { display: none; }
+  .r strong { display: block; font-size: 15px; margin-bottom: 2px; }
+  .mt { color: #6b6a66; font-size: 12.5px; font-weight: 400; }
+  button[aria-pressed="true"] .mt { color: #214b75; }
+  .r .bar { display: block; width: 100%; max-width: 360px; height: 8px; margin: 6px 0 8px; border-radius: 4px; background: #e6e5e2; overflow: hidden; }
+  .r .bar i { display: block; height: 100%; background: var(--c, #8a8984); }
+  .r ul { margin: 6px 0 0; padding-left: 20px; }
+  .r li { margin: 3px 0; overflow-wrap: anywhere; }
+  .r .ck { margin: 8px 0 0; color: #4f4d47; font-size: 12.5px; }
+  .rem { margin: 4px 0 12px; padding: 12px 14px; border: 1px dashed #d4d2cd; border-radius: 6px; }
+  .rem p { margin: 0 0 6px; font-weight: 650; }
+  .rem ul { margin: 0; padding-left: 20px; font-size: 13.5px; }
+  .rem li { margin: 4px 0; }
+  .rem small { color: #6b6a66; }
+  .reset { margin-top: 2px; border-style: dashed; color: #6b6a66; }
+  .note { margin: 12px 0 0; color: #6b6a66; font-size: 12.5px; }
+</style>
+</head>
+<body>
+<div class="fsc" data-shaduf-resize-root>
+  <h2>Failure self-check: your choices next to the 80</h2>
+  <p class="intro" data-intro></p>
+  <p class="disc" data-disclaimer></p>
+  <div data-questions></div>
+  <div class="rem" data-reminders hidden></div>
+  <button type="button" class="reset" data-reset>Clear choices</button>
+  <p class="note" data-scope></p>
+</div>
+<!-- Root-absolute so the scripts load both at tools/failure-self-check.html and at tools/failure-self-check/, where the host serves this file. -->
+<script src="/p/jev-catalog/assets/failure-self-check-data.js"></script>
+<script src="/p/jev-catalog/assets/failure-self-check.js"></script>
+<script src="../assets/shaduf-tool-resize.js"></script>
+</body>
+</html>
