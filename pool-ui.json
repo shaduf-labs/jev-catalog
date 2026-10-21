@@ -309,7 +309,7 @@
       "label": "Jev with coding agents",
       "icon": "⌨",
       "group": "Build",
-      "description": "Does your coding agent's tool call or model choice still go ahead when Jev fails? 13 Jev integrations for Codex, OpenCode, Cursor, OpenClaw, Hermes and Claude Code that act on Jev's answer, read in code.",
+      "description": "Does your coding agent's tool call or model choice still go ahead when Jev fails? 14 Jev integrations for Codex, OpenCode, Cursor, OpenClaw, Hermes, pi, omp and Claude Code that act on Jev's answer, read in code.",
       "parent": null,
       "entrypoint": "build/coding-agents/index.html",
       "entrypoint_type": "html_fragment",

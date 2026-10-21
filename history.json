@@ -363,6 +363,17 @@
       "summary": "When Jev fails gains a self-check: pick what your code does in five failure conditions and see how many of the 80 implementations on the map made the same choice, with examples (counts as recomputed 19 Oct; it compares choices and does not read or test code). Checklist question 9 asks whether your code logs or shows a fallback or fail-open; the map does not record this, so it has no count. Sentences on 14 pages that still gave the earlier 79-implementation count now give 80. Alternatives: Drex (Nace.AI) added as a hosted API from another provider with open weights (38 substitutes, 8 hosted APIs from other providers); its claims against Jev are the vendor's own and no graded comparison exists. LiteLLM 1.106.0's Jev failure path is unchanged; n8n 2.44.3 refuses to activate a workflow whose node lacks a required credential. Access unchanged; jev-latest still on jev-1.13.0. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/failure-self-check",
       "entrypoint": "reports/failure-self-check/index.html"
+    },
+    {
+      "run_id": "report-f2be1f984eb3a79bf9260766",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-21T05:01:00Z",
+      "completed_at": "2026-10-21T06:30:00Z",
+      "title": "Coding agents on pi and omp, auto-mode and jcode, and Nace.AI's two sets of terms",
+      "summary": "Coding agents: ohmyjev's pi and omp adapters added as a counted row (fail-open on every Jev failure; acts-anyway below threshold); 27 read in source, 14 act on Jev's answer (3 fail-closed, 9 fallback, 2 fail-open), 10 do not, 3 are not settled (Hoppin-Sorter/jev-router, auto-mode 3.0.0, jcode); 13 new leads classed. The failure map's ohmyjev row names pi and omp (still 80). Alternatives: Nace.AI's website terms and Console terms quoted side by side; they differ on training and retention. Cloudflare's catalog lists typesafe/jev-1.14.0. Access unchanged; jev-latest still on jev-1.13.0; the two Jev 1.14 home notices came off after seven days. Nothing was run; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/coding-agents-pi-omp",
+      "entrypoint": "reports/coding-agents-pi-omp/index.html"
     }
   ]
 }

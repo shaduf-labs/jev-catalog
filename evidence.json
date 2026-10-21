@@ -22940,6 +22940,1236 @@
       "accessed_at": "2026-10-19T05:39:11Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Source R21-S01: TypeSafe console sign-in page",
+      "claim": "no waitlist text; no form submitted. (Documented)",
+      "accessed_at": "2026-10-21T05:11:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R21-S02: CEO post via X oEmbed",
+      "claim": "credit temporarily disabled for new users; anyone can sign up. (Documented)",
+      "accessed_at": "2026-10-21T05:11:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R21-S03: Docs quickstart",
+      "claim": "14,062 bytes; no waitlist/credit text. (Documented)",
+      "accessed_at": "2026-10-21T05:11:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s04",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R21-S04: TypeSafe status page",
+      "claim": "All services are online; last updated Oct 21 5:11am UTC; 99.826%. (Documented)",
+      "accessed_at": "2026-10-21T05:11:47Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R21-S05: Docs models page",
+      "claim": "alias table jev-latest->jev-1.13.0, jev-preview->jev-1.14.0; 7,688 bytes. (Documented)",
+      "accessed_at": "2026-10-21T05:11:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R21-S07: TypeSafe homepage",
+      "claim": "no signup-waitlist/credit text. (Documented)",
+      "accessed_at": "2026-10-21T05:11:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R21-S08: TypeSafe blog index",
+      "claim": "7 posts; latest jev-1-14. (Documented)",
+      "accessed_at": "2026-10-21T05:11:46Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R21-S09: Jev 1.14 post",
+      "claim": "'in a week' wording still present. (Documented)",
+      "accessed_at": "2026-10-21T05:11:47Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R21-S10: Enterprise page",
+      "claim": "no credit/waitlist text. (Documented)",
+      "accessed_at": "2026-10-21T05:11:47Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s11",
+      "source_type": "reported source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R21-S11: AI FrontPage homepage",
+      "claim": "Clairic item; no credit statement. (Reported)",
+      "accessed_at": "2026-10-21T05:11:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s12",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Source R21-S12: Docs legal page",
+      "claim": "1,168 bytes. (Documented)",
+      "accessed_at": "2026-10-21T05:11:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s13",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R21-S13: OpenRouter Jev guide",
+      "claim": "no waitlist or separate TypeSafe account sentence present. (Documented)",
+      "accessed_at": "2026-10-21T05:11:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s14",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R21-S14: Eye Security report",
+      "claim": "names the three reseller sites. (Reported)",
+      "accessed_at": "2026-10-21T05:12:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s15",
+      "source_type": "reported source",
+      "source_url": "https://jev-agent.org/",
+      "title": "Source R21-S15: lookalike site homepage",
+      "claim": "online; status only. (Reported)",
+      "accessed_at": "2026-10-21T05:12:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s16",
+      "source_type": "reported source",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Source R21-S16: lookalike site homepage",
+      "claim": "online; status only. (Reported)",
+      "accessed_at": "2026-10-21T05:12:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s17",
+      "source_type": "reported source",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Source R21-S17: lookalike site homepage (never a source)",
+      "claim": "online; status only. (Reported)",
+      "accessed_at": "2026-10-21T05:12:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s18",
+      "source_type": "reported source",
+      "source_url": "https://thejevai.com/",
+      "title": "Source R21-S18: lookalike watch homepage",
+      "claim": "title unchanged. (Reported)",
+      "accessed_at": "2026-10-21T05:12:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s22",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Source R21-S22: OpenRouter jev-1.13 endpoints",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s23",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "title": "Source R21-S23: OpenRouter jev-1.14 endpoints",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s24",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R21-S24: OpenRouter models list",
+      "claim": "468 IDs; TypeSafe only typesafe/jev-router; no decision-model ID by name/description. (Documented)",
+      "accessed_at": "2026-10-21T05:13:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s25",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Source R21-S25: Vercel endpoints",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s26",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R21-S26: Vercel models list",
+      "claim": "482 IDs; three TypeSafe IDs. (Documented)",
+      "accessed_at": "2026-10-21T05:13:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s27",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Source R21-S27: Opper model search",
+      "claim": "1.13.0 aliases typesafe/jev-latest; 1.14.0 aliases typesafe/jev-preview. (Documented)",
+      "accessed_at": "2026-10-21T05:13:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s28",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Source R21-S28: Cloudflare AI docs Jev page",
+      "claim": "1.13 only. (Documented)",
+      "accessed_at": "2026-10-21T05:13:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev-1.14.0/",
+      "title": "Source R21-S29: Cloudflare AI docs Jev 1.14 page",
+      "claim": "typesafe/jev-1.14.0 listed, Third-party, AI Gateway; context 32,000; images/Box 'beta and dreamer-ready'. (Documented)",
+      "accessed_at": "2026-10-21T05:13:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s30",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R21-S30: Netlify AI Gateway overview",
+      "claim": "lists jev-1.13.0 and jev-1.14.0. (Documented)",
+      "accessed_at": "2026-10-21T05:13:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s31",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "title": "Source R21-S31: Foundry, Bedrock, Workers AI, Cloudflare changelog",
+      "claim": "no Jev/TypeSafe string. (Documented)",
+      "accessed_at": "2026-10-21T05:13:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s34",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date",
+      "title": "Source R21-S34: HN Algolia window and look-back queries (typoTolerance=false)",
+      "claim": "see scan-and-recheck.md. (Documented)",
+      "accessed_at": "2026-10-21T05:15:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s35",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories",
+      "title": "Source R21-S35: GitHub repository search (5 queries)",
+      "claim": "counts include copies; not adoption. (Documented)",
+      "accessed_at": "2026-10-21T05:14:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s36",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search",
+      "title": "Source R21-S36: npm search jev, typesafe",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s37",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models",
+      "title": "Source R21-S37: Hugging Face models search jev, decision",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:14:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s38",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles",
+      "title": "Source R21-S38: DEV.to tags jev, typesafe",
+      "claim": "search endpoint 403. (Documented)",
+      "accessed_at": "2026-10-21T05:14:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s39",
+      "source_type": "documented source",
+      "source_url": "https://www.reddit.com/search.json?q=jev&sort=new&limit=100",
+      "title": "Source R21-S39: Reddit search",
+      "claim": "coverage unknown. (Documented)",
+      "accessed_at": "2026-10-21T05:14:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s40",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search",
+      "title": "Source R21-S40: Autocomplete",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:14:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s42",
+      "source_type": "documented source",
+      "source_url": "https://github.com/BerriAI/litellm/pull/46875",
+      "title": "Source R21-S42: LiteLLM PR #46875 eu/jev",
+      "claim": "Open; 7 commits. (Documented)",
+      "accessed_at": "2026-10-21T05:16:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s43",
+      "source_type": "documented source",
+      "source_url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "title": "Source R21-S43: Cloudflare Clairic post (October 19, 2026)",
+      "claim": "preview on Workers AI as @cf/cloudflare/clairic; extraction model; open weights intended. (Documented)",
+      "accessed_at": "2026-10-21T05:16:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s44",
+      "source_type": "reported source",
+      "source_url": "https://huggingface.co/api/models/yannelli/nanojev-code-review-decisions",
+      "title": "Source R21-S44: nanojev code review card",
+      "claim": "base_model C-Tianyu/NanoJev; apache-2.0. (Reported)",
+      "accessed_at": "2026-10-21T05:16:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s45",
+      "source_type": "reported source",
+      "source_url": "https://huggingface.co/api/models/C-Tianyu/NanoJev",
+      "title": "Source R21-S45: NanoJev card",
+      "claim": "'NanoJev — A nano replica of Jev'; Qwen3-0.6B base; created 2026-09-17. (Reported)",
+      "accessed_at": "2026-10-21T05:16:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s46",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/releases.atom",
+      "title": "Source R21-S46: TypeSafe n8n node 0.10.0 release",
+      "claim": "Release 0.10.0 20 Oct 02:17Z for image support (#12); npm 20 Oct 15:25Z. (Documented)",
+      "accessed_at": "2026-10-21T05:18:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s47",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/50157795",
+      "title": "Source R21-S47: Ranking a Backlog with TypeSafe's Jev (author blog post)",
+      "claim": "backlog-ranker CLI; author's own agreement figures. (Reported)",
+      "accessed_at": "2026-10-21T05:26:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s100",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Novacon/ohmyjev/commits/main.atom",
+      "title": "Source R21-S100: Novacon/ohmyjev commits feed (main)",
+      "claim": "HEAD 78bb82cea03c0fb06fbf8892dc6d1840a7f02c11 (2026-10-15T16:50:10Z): unchanged since 19 Oct. (Documented)",
+      "accessed_at": "2026-10-21T05:11:47Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s101",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters/pi.ts",
+      "title": "Source R21-S101: ohmyjev adapters/pi.ts at 78bb82c",
+      "claim": "651 lines; tool_call L495-547; before_agent_start L465-493; agent_before_settle L585-605; guarded L157-164; no-key line L447. (Documented)",
+      "accessed_at": "2026-10-21T05:11:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s102",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters/omp.ts",
+      "title": "Source R21-S102: ohmyjev adapters/omp.ts at 78bb82c",
+      "claim": "768 lines; tool_call L520-600; OMP_DEFAULTS L31; session_stop L634-680; before_agent_start L682-703; before_subagent_spawn L714-725; no-key line L411. (Documented)",
+      "accessed_at": "2026-10-21T05:11:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s103",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/adapters/shared.ts",
+      "title": "Source R21-S103: ohmyjev adapters/shared.ts at 78bb82c",
+      "claim": "askJev L26-47 (no key L28, AbortSignal.timeout L37); Session.decide L105-127 returns null on any failure; runBrowse L300-328. (Documented)",
+      "accessed_at": "2026-10-21T05:11:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s104",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/package.json",
+      "title": "Source R21-S104: ohmyjev package.json at 78bb82c",
+      "claim": "pi entry L40-44 ./adapters/pi.ts; omp entry L45-48 ./adapters/omp.ts. (Documented)",
+      "accessed_at": "2026-10-21T05:11:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s105",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/policy.ts",
+      "title": "Source R21-S105: ohmyjev hooks/policy.ts at 78bb82c",
+      "claim": "fetched 05:12 (seconds not logged); thresholds L18-21, L26; timeoutMs 1500 L63; gateBash L323-337, gateWrite L353-363, gateExfil L365-371. (Documented)",
+      "accessed_at": "2026-10-21T05:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s106",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/jev.ts",
+      "title": "Source R21-S106: ohmyjev hooks/jev.ts at 78bb82c",
+      "claim": "fetched 05:12 (seconds not logged); JevError(noKey) L7-8; validate throws L33-49; parseReply L57-66. (Documented)",
+      "accessed_at": "2026-10-21T05:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s107",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/README.md",
+      "title": "Source R21-S107: ohmyjev README at 78bb82c",
+      "claim": "fetched 05:12 (seconds not logged); L110 'If Jev is unsure, slow, or down, the call goes through like normal'; L176 'omp doesn't ask | pi doesn't ask'. (Reported)",
+      "accessed_at": "2026-10-21T05:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s108",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Novacon/ohmyjev/78bb82cea03c0fb06fbf8892dc6d1840a7f02c11/hooks/ohmyjev.ts",
+      "title": "Source R21-S108: ohmyjev hooks/ohmyjev.ts at 78bb82c",
+      "claim": "checked only for the published row's runBrowse citation: runBrowse is at ohmyjev.ts L557-569, not adapters/shared.ts. (Documented)",
+      "accessed_at": "2026-10-21T05:13:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s109",
+      "source_type": "documented source",
+      "source_url": "https://github.com/badlogic/pi-mono/commits/main.atom",
+      "title": "Source R21-S109: pi-mono commits feed (main)",
+      "claim": "HEAD 16f5f0af4d85ca583d045ceb5ed6d646fcaf7761 (2026-10-21T01:02:55Z); used to pin the host docs. (Documented)",
+      "accessed_at": "2026-10-21T05:12:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s110",
+      "source_type": "documented source",
+      "source_url": "https://github.com/can1357/oh-my-pi/commits/main.atom",
+      "title": "Source R21-S110: oh-my-pi commits feed (main)",
+      "claim": "HEAD d5cd750e41fede277f9eb933455da92a0738915e (2026-10-21T02:12:30Z); used to pin the host docs. (Documented)",
+      "accessed_at": "2026-10-21T05:12:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s111",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/badlogic/pi-mono/16f5f0af4d85ca583d045ceb5ed6d646fcaf7761/packages/coding-agent/docs/extensions.md",
+      "title": "Source R21-S111: pi extensions docs at 16f5f0a",
+      "claim": "L218 tool_call can mutate input or block execution; L375 handler failure blocks the tool as a fail-safe. (Documented)",
+      "accessed_at": "2026-10-21T05:12:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s112",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/can1357/oh-my-pi/d5cd750e41fede277f9eb933455da92a0738915e/docs/extensions.md",
+      "title": "Source R21-S112: omp extensions docs at d5cd750",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:12:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s115",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/auto-mode/2.0.2",
+      "title": "Source R21-S115: npm auto-mode 2.0.2 metadata",
+      "claim": "repository zgeoff/auto-mode; bin auto-mode; description 'A permission classifier library and Claude Code mod…'; no gitHead. (Documented)",
+      "accessed_at": "2026-10-21T05:13:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s116",
+      "source_type": "documented source",
+      "source_url": "https://github.com/zgeoff/auto-mode/tags.atom",
+      "title": "Source R21-S116: auto-mode tags feed",
+      "claim": "v3.0.0 2026-10-20T09:23:57Z; v2.0.2 2026-10-19T08:25:47Z. (Documented)",
+      "accessed_at": "2026-10-21T05:13:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s117",
+      "source_type": "documented source",
+      "source_url": "https://github.com/zgeoff/auto-mode/releases/tag/auto-mode-v2.0.2",
+      "title": "Source R21-S117: auto-mode v2.0.2 release",
+      "claim": "2.0.2 (2026-10-19): corpus anonymisation fixes (30ac50c, d71b8d1). (Documented)",
+      "accessed_at": "2026-10-21T05:13:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s118",
+      "source_type": "documented source",
+      "source_url": "https://github.com/zgeoff/auto-mode/tree/auto-mode-v2.0.2",
+      "title": "Source R21-S118: auto-mode tree at tag v2.0.2",
+      "claim": "currentOid 458c41cde87c77adc76a8419f6d65c6557b0e34f = tag commit. (Documented)",
+      "accessed_at": "2026-10-21T05:13:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s119",
+      "source_type": "documented source",
+      "source_url": "https://github.com/zgeoff/auto-mode/tree/458c41cde87c77adc76a8419f6d65c6557b0e34f/src",
+      "title": "Source R21-S119: auto-mode src listing at 458c41c",
+      "claim": "src entry points listed. (Documented)",
+      "accessed_at": "2026-10-21T05:13:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s120",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/zgeoff/auto-mode/git/trees/458c41cde87c77adc76a8419f6d65c6557b0e34f?recursive=1",
+      "title": "Source R21-S120: auto-mode API tree at 458c41c",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s121",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/README.md",
+      "title": "Source R21-S121: auto-mode README at 458c41c",
+      "claim": "Claude Code mod pairing Jev with a judge model; L17 needs a TypeSafe API key; stages list L30-43; identical at c0b9378. (Reported)",
+      "accessed_at": "2026-10-21T05:13:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s122",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/package.json",
+      "title": "Source R21-S122: auto-mode package.json at 458c41c",
+      "claim": "package metadata. (Documented)",
+      "accessed_at": "2026-10-21T05:13:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s123",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/.env.example",
+      "title": "Source R21-S123: auto-mode .env.example at 458c41c",
+      "claim": "TYPESAFE_API_KEY=. (Documented)",
+      "accessed_at": "2026-10-21T05:13:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s124",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/docs/architecture/stages/jev.md",
+      "title": "Source R21-S124: auto-mode Jev stage doc at 458c41c",
+      "claim": "failure section: default writes no verdict and the mod keeps the prompt; other option denies as Classifier Unavailable; identical at c0b9378. (Documented)",
+      "accessed_at": "2026-10-21T05:13:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s125",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/mods/auto-mode/hooks/register.ts",
+      "title": "Source R21-S125: auto-mode mod register.ts at 458c41c",
+      "claim": "tool.check handler L110-211: acts only on ask (L120-122); return verdict ?? decided (L200); identical at c0b9378. (Documented)",
+      "accessed_at": "2026-10-21T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s126",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/mods/auto-mode/hooks/parse-decision.ts",
+      "title": "Source R21-S126: auto-mode parse-decision.ts at 458c41c",
+      "claim": "only exact allow/deny shapes; else null (L5-35); identical at c0b9378. (Documented)",
+      "accessed_at": "2026-10-21T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s127",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/mods/auto-mode/contract/cli-limits.ts",
+      "title": "Source R21-S127: auto-mode cli-limits.ts at 458c41c",
+      "claim": "JEV_MS 5000 (L2); evaluationMs L16; identical at c0b9378. (Documented)",
+      "accessed_at": "2026-10-21T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s128",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/src/config/presets.ts",
+      "title": "Source R21-S128: auto-mode presets.ts at 458c41c",
+      "claim": "Jev provider jev-1.13.0, timeoutMs CLI_LIMITS.jevMs (L13-21); identical at c0b9378. (Documented)",
+      "accessed_at": "2026-10-21T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s129",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/src/config/config.ts",
+      "title": "Source R21-S129: auto-mode config.ts at 458c41c",
+      "claim": "onFailure defer (L76); DEFAULT_BLOCK_THRESHOLD 0.2 (L69); same lines at c0b9378. (Documented)",
+      "accessed_at": "2026-10-21T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s130",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/src/model/classify-with-jev.ts",
+      "title": "Source R21-S130: auto-mode classify-with-jev.ts at 458c41c",
+      "claim": "no key throws L48-51; deadline signal L91; catch L111-122; same lines at c0b9378. (Documented)",
+      "accessed_at": "2026-10-21T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s131",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/src/classify-action.ts",
+      "title": "Source R21-S131: auto-mode classify-action.ts at 458c41c",
+      "claim": "STAGES L199-206, FINAL_STAGE classifyJev L209; at c0b9378 L228-235, L242. (Documented)",
+      "accessed_at": "2026-10-21T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s132",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/src/model/build-jev-outcome.ts",
+      "title": "Source R21-S132: auto-mode build-jev-outcome.ts (also read: pick-decision-verdict.ts, send-decision.ts, build-unavailable-verdict.ts, render-verdict.ts) at 458c41c",
+      "claim": "failure → buildUnavailableVerdict (L76-84); pick-decision-verdict L11-21; send-decision checks L117-166; build-unavailable-verdict L8; render-verdict L8-12; all identical at c0b9378. (Documented)",
+      "accessed_at": "2026-10-21T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s133",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/src/run-cli.ts",
+      "title": "Source R21-S133: auto-mode run-cli.ts (also read: build-jev-only-config.ts) at 458c41c",
+      "claim": "prints a verdict only when non-null (L390-392; L245-246 at c0b9378); jev-only cap 5 s (build-jev-only-config.ts L16). (Documented)",
+      "accessed_at": "2026-10-21T05:15:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s134",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/458c41cde87c77adc76a8419f6d65c6557b0e34f/src/model/collect-blocking-rules.ts",
+      "title": "Source R21-S134: auto-mode collect-blocking-rules.ts (also read: find-denied-rule.ts) at 458c41c",
+      "claim": "block when probabilities.block >= blockThreshold (L26; L28 at c0b9378). (Documented)",
+      "accessed_at": "2026-10-21T05:15:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s135",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/auto-mode/3.0.0",
+      "title": "Source R21-S135: npm auto-mode 3.0.0 metadata",
+      "claim": "same description and bin as 2.0.2. (Documented)",
+      "accessed_at": "2026-10-21T05:16:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s136",
+      "source_type": "documented source",
+      "source_url": "https://github.com/zgeoff/auto-mode/releases/tag/auto-mode-v3.0.0",
+      "title": "Source R21-S136: auto-mode v3.0.0 release",
+      "claim": "3.0.0 (2026-10-20) breaking change: capture.dir renamed capture.directory (69c731f). (Documented)",
+      "accessed_at": "2026-10-21T05:16:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s137",
+      "source_type": "documented source",
+      "source_url": "https://github.com/zgeoff/auto-mode/tree/auto-mode-v3.0.0",
+      "title": "Source R21-S137: auto-mode tree at tag v3.0.0",
+      "claim": "currentOid c0b93787892e8e4c9fe71eb926893144860e0404 = tag commit. (Documented)",
+      "accessed_at": "2026-10-21T05:16:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s138",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/c0b93787892e8e4c9fe71eb926893144860e0404/mods/auto-mode/hooks/register.ts",
+      "title": "Source R21-S138: auto-mode cited files re-read at c0b9378 (18 files, same paths as the 458c41c reads)",
+      "claim": "05:16:18-05:16:21Z, all HTTP 200; text diff vs 458c41c: 13 identical; classify-action, collect-blocking-rules, config, classify-with-jev, run-cli changed by refactor/rename only; gate path unchanged. (Documented)",
+      "accessed_at": "2026-10-21T05:16:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s200",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chinmayakelkar/jev-plan-review/commits.atom",
+      "title": "Source R21-S200: chinmayakelkar/jev-plan-review commits (main) atom",
+      "claim": "HEAD 894f673289a688ec2fc50e32d21b866cde10ab75 (updated 2026-10-20T05:08:32Z). (Documented)",
+      "accessed_at": "2026-10-21T05:12:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s201",
+      "source_type": "documented source",
+      "source_url": "https://github.com/chinmayakelkar/jev-plan-review/tree/894f673289a688ec2fc50e32d21b866cde10ab75",
+      "title": "Source R21-S201: jev-plan-review source at 894f673",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s202",
+      "source_type": "documented source",
+      "source_url": "https://github.com/menoncello/model-selector/commits.atom",
+      "title": "Source R21-S202: menoncello/model-selector commits (main) atom",
+      "claim": "HEAD 63eddf9b11625e36c6630145c0249efaf1a86023 (updated 2026-10-19T22:11:43Z). (Documented)",
+      "accessed_at": "2026-10-21T05:12:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s203",
+      "source_type": "documented source",
+      "source_url": "https://github.com/menoncello/model-selector/tree/63eddf9b11625e36c6630145c0249efaf1a86023",
+      "title": "Source R21-S203: model-selector source at 63eddf9",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s204",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Mrmimee/opencode-v2-jev/commits.atom",
+      "title": "Source R21-S204: Mrmimee/opencode-v2-jev commits (main) atom",
+      "claim": "HEAD ea576ca5520cec1636f3554230ad6dc22134072b (updated 2026-10-20T07:39:09Z). (Documented)",
+      "accessed_at": "2026-10-21T05:12:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s205",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Mrmimee/opencode-v2-jev/tree/ea576ca5520cec1636f3554230ad6dc22134072b",
+      "title": "Source R21-S205: opencode-v2-jev source at ea576ca",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s206",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Mrmimee/codex-jev/commits.atom",
+      "title": "Source R21-S206: Mrmimee/codex-jev commits (main) atom",
+      "claim": "HEAD da8e78453f210f423422eab584e47ac0d9e2c27f (updated 2026-10-20T06:13:41Z). (Documented)",
+      "accessed_at": "2026-10-21T05:12:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s207",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Mrmimee/codex-jev/tree/da8e78453f210f423422eab584e47ac0d9e2c27f",
+      "title": "Source R21-S207: codex-jev source at da8e784",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s208",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Covre81/jev-router/commits.atom",
+      "title": "Source R21-S208: Covre81/jev-router commits (main) atom",
+      "claim": "HEAD d83e068b4cce153c791414a7a59b7671b73d39f2 (updated 2026-10-20T17:09:17Z). (Documented)",
+      "accessed_at": "2026-10-21T05:12:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s209",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Covre81/jev-router/tree/d83e068b4cce153c791414a7a59b7671b73d39f2",
+      "title": "Source R21-S209: Covre81/jev-router source at d83e068",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s210",
+      "source_type": "documented source",
+      "source_url": "https://github.com/sanghamitrajohri/recoveriq/commits.atom",
+      "title": "Source R21-S210: sanghamitrajohri/recoveriq commits (main) atom",
+      "claim": "HEAD a8241dff4a6a18888dbe45e56e22a9a767b51d4a (updated 2026-10-20T23:20:25Z). (Documented)",
+      "accessed_at": "2026-10-21T05:12:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s211",
+      "source_type": "documented source",
+      "source_url": "https://github.com/sanghamitrajohri/recoveriq/tree/a8241dff4a6a18888dbe45e56e22a9a767b51d4a",
+      "title": "Source R21-S211: recoveriq source at a8241df",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:12:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s212",
+      "source_type": "reported source",
+      "source_url": "https://hacker-news.firebaseio.com/v0/item/50156970.json",
+      "title": "Source R21-S212: Show HN: Jev in action - task classifier and auto model router in Keen Code",
+      "claim": "Story links article mochow13.github.io/keen-code/... and repo github.com/mochow13/keen-code. (Reported)",
+      "accessed_at": "2026-10-21T05:12:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s213",
+      "source_type": "reported source",
+      "source_url": "https://mochow13.github.io/keen-code/docs/task-classification-using-decision-models.html",
+      "title": "Source R21-S213: Keen Code docs: task classification using decision models",
+      "claim": "Linked from HN 50156970; not quoted further. (Reported)",
+      "accessed_at": "2026-10-21T05:13:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s214",
+      "source_type": "documented source",
+      "source_url": "https://github.com/mochow13/keen-code/commits.atom",
+      "title": "Source R21-S214: mochow13/keen-code commits atom",
+      "claim": "HEAD c77a3a6bb0fb40f50456547118bb0947e4bf3960 (updated 2026-10-21T00:01:57Z). (Documented)",
+      "accessed_at": "2026-10-21T05:13:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s215",
+      "source_type": "documented source",
+      "source_url": "https://github.com/mochow13/keen-code/tree/c77a3a6bb0fb40f50456547118bb0947e4bf3960",
+      "title": "Source R21-S215: keen-code source at c77a3a6",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s216",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?text=%40narumitw%2Fpi-typesafe&size=20",
+      "title": "Source R21-S216: npm search @narumitw/pi-typesafe",
+      "claim": "Three matching packages: @narumitw/pi-typesafe, pi-typesafe-search, pi-typesafe-compact, all 0.1.2, repo narumiruna/pi-extensions. (Documented)",
+      "accessed_at": "2026-10-21T05:12:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s217",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@narumitw%2Fpi-typesafe",
+      "title": "Source R21-S217: npm registry: @narumitw/pi-typesafe",
+      "claim": "latest 0.1.2 published 2026-10-20T04:06:18Z; no gitHead in metadata. (Documented)",
+      "accessed_at": "2026-10-21T05:13:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s218",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@narumitw/pi-typesafe/-/pi-typesafe-0.1.2.tgz",
+      "title": "Source R21-S218: @narumitw/pi-typesafe 0.1.2 tarball",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s219",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@narumitw%2Fpi-typesafe-search",
+      "title": "Source R21-S219: npm registry: @narumitw/pi-typesafe-search",
+      "claim": "latest 0.1.2 published 2026-10-20T04:05:38Z; no gitHead. (Documented)",
+      "accessed_at": "2026-10-21T05:13:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s220",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@narumitw/pi-typesafe-search/-/pi-typesafe-search-0.1.2.tgz",
+      "title": "Source R21-S220: @narumitw/pi-typesafe-search 0.1.2 tarball",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s221",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@narumitw%2Fpi-typesafe-compact",
+      "title": "Source R21-S221: npm registry: @narumitw/pi-typesafe-compact",
+      "claim": "latest 0.1.2 published 2026-10-20T04:05:29Z; no gitHead. (Documented)",
+      "accessed_at": "2026-10-21T05:13:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s222",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@narumitw/pi-typesafe-compact/-/pi-typesafe-compact-0.1.2.tgz",
+      "title": "Source R21-S222: @narumitw/pi-typesafe-compact 0.1.2 tarball",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s223",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/pi-jev-auto-mode",
+      "title": "Source R21-S223: npm registry: pi-jev-auto-mode",
+      "claim": "latest 0.6.0 published 2026-10-18T04:14:44Z; gitHead b4bf6c09e2ebf49589bcf6020676c29bac7cb988; repo jomatsu/pi-jev-auto-mode. (Documented)",
+      "accessed_at": "2026-10-21T05:12:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s224",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/pi-jev-auto-mode/-/pi-jev-auto-mode-0.6.0.tgz",
+      "title": "Source R21-S224: pi-jev-auto-mode 0.6.0 tarball",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s225",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/pi-typesafe-ai",
+      "title": "Source R21-S225: npm registry: pi-typesafe-ai",
+      "claim": "latest 0.2.1 published 2026-10-17T14:27:25Z; gitHead a87b954abb67913956a91f030240b7960054b91f; repo subaud-tools/pi-extensions packages/pi-typesafe-ai. (Documented)",
+      "accessed_at": "2026-10-21T05:12:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s226",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/pi-typesafe-ai/-/pi-typesafe-ai-0.2.1.tgz",
+      "title": "Source R21-S226: pi-typesafe-ai 0.2.1 tarball",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s227",
+      "source_type": "reported source",
+      "source_url": "https://github.com/openchamber/openchamber/issues/5014",
+      "title": "Source R21-S227: openchamber #5014 [Feature] Use Jev to predict whether a turn needs tool calls",
+      "claim": "state OPEN; linkedPullRequests none; closedByPullRequestsReferences none; updatedAt 2026-10-16T08:40:40Z; labels area:providers, enhancement. (Reported)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s228",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=kilocode+jev",
+      "title": "Source R21-S228: GitHub search repositories 'kilocode jev'",
+      "claim": "total_count 0. (Documented)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s229",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?text=kilo%20jev&size=20",
+      "title": "Source R21-S229: npm search 'kilo jev'",
+      "claim": "20 results; none is a Kilo Code Jev integration; jev-gateway (already on page) and @kilocode/cli appear separately. (Documented)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s230",
+      "source_type": "documented source",
+      "source_url": "https://github.com/1jehuang/jcode/pull/1890",
+      "title": "Source R21-S230: jcode PR #1890 Make Jev decision models configurable",
+      "claim": "merged commit f5c4922 into master Oct 19, 2026; full SHA f5c49226953ec39c1ecfeb4c67317869c0d03add from page links; Closes #1865. (Documented)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s231",
+      "source_type": "documented source",
+      "source_url": "https://github.com/1jehuang/jcode/tree/f5c49226953ec39c1ecfeb4c67317869c0d03add",
+      "title": "Source R21-S231: jcode source at merge commit f5c4922",
+      "claim": "(Documented)",
+      "accessed_at": "2026-10-21T05:13:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s232",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/policies/terms-of-service",
+      "title": "Source R21-S232: Terms of Service | Nace.AI (h1 'Terms of Service', Last updated October 9, 2026)",
+      "claim": "Confirmed the page: title and h1 Terms of Service; footer links followed. (Documented)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s233",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/policies/privacy-policy",
+      "title": "Source R21-S233: Privacy Policy | Nace.AI (h1 'Privacy Policy', Last updated October 9, 2026)",
+      "claim": "Confirmed the page: title and h1 Privacy Policy; links trust.nace.ai/subprocessors. (Documented)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s234",
+      "source_type": "documented source",
+      "source_url": "https://nace.ai/policies/privacy-policy.md",
+      "title": "Source R21-S234: Nace.AI Privacy Policy (markdown copy, redirect to www)",
+      "claim": "Footer link followed; markdown copy, not separately quoted. (Documented)",
+      "accessed_at": "2026-10-21T05:14:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s235",
+      "source_type": "documented source",
+      "source_url": "https://nace.ai/policies/terms-of-service.md",
+      "title": "Source R21-S235: Nace.AI Terms of Service (markdown copy, redirect to www)",
+      "claim": "Footer link followed; markdown copy, not separately quoted. (Documented)",
+      "accessed_at": "2026-10-21T05:14:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s236",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/dpa",
+      "title": "Source R21-S236: Data Processing Addendum | Console (h1, Last updated October 19, 2026)",
+      "claim": "Confirmed the page: title and h1 Data Processing Addendum; Schedule 2 subprocessors. (Documented)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s237",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/terms",
+      "title": "Source R21-S237: Service Terms | Console (h1 'Service Terms', Last updated October 19, 2026)",
+      "claim": "For comparison with www Terms; 5.4(a), 5.7(a), 5.7(g). (Documented)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s238",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/privacy",
+      "title": "Source R21-S238: Privacy Notice | Console (Last updated October 19, 2026)",
+      "claim": "For comparison with www Privacy. (Documented)",
+      "accessed_at": "2026-10-21T05:14:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s239",
+      "source_type": "unverified source",
+      "source_url": "https://trust.nace.ai/subprocessors",
+      "title": "Source R21-S239: Nace trust center subprocessors",
+      "claim": "403 'Just a moment...' challenge page; list not read (same as R20-S135). (Unverified)",
+      "accessed_at": "2026-10-21T05:14:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s240",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/drex",
+      "title": "Source R21-S240: Drex Max, the decision model that sees | Nace.AI (product page HTML)",
+      "claim": "Cost per 1k decisions row; Drex 1.5 $0.04. (Documented)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s241",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/drex.md",
+      "title": "Source R21-S241: Nace.AI product page (markdown)",
+      "claim": "L43 'Cost per 1,000 decisions' row; Drex 1.5 $0.04. (Documented)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s242",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/docs/drex/reference/pricing",
+      "title": "Source R21-S242: Pricing | Drex Docs",
+      "claim": "drex-v1.5 per input token $0.00000005 (50 nUSD); per 1M input tokens $0.05. (Documented)",
+      "accessed_at": "2026-10-21T05:12:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s243",
+      "source_type": "documented source",
+      "source_url": "https://deepinfra.com/terms",
+      "title": "Source R21-S243: DeepInfra Terms of Service",
+      "claim": "Customer Data clause: no training; Zero Data Retention with exceptions. (Documented)",
+      "accessed_at": "2026-10-21T05:15:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s244",
+      "source_type": "documented source",
+      "source_url": "https://deepinfra.com/privacy",
+      "title": "Source R21-S244: DeepInfra Privacy Policy",
+      "claim": "Inference service: will not store, sell, or train without explicit consent. (Documented)",
+      "accessed_at": "2026-10-21T05:15:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r21-s245",
+      "source_type": "documented source",
+      "source_url": "https://deepinfra.com/docs/data",
+      "title": "Source R21-S245: DeepInfra Data Privacy (redirect to docs.deepinfra.com/account/data-privacy; dateModified 2026-09-24)",
+      "claim": "No training/no disk storage summary; exceptions for Google/Anthropic models and bulk APIs. (Documented)",
+      "accessed_at": "2026-10-21T05:15:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

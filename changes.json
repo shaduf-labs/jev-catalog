@@ -2,6 +2,42 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "coding-agents-pi-omp-2026-10-21",
+      "changed_at": "2026-10-21T06:30:00Z",
+      "summary": "Coding agents: ohmyjev's pi and omp adapters added as a counted row (on every Jev failure the gate returns without blocking, so the tool runs). 27 integrations read in source; 14 act on Jev's answer (3 fail-closed, 9 fallback, 2 fail-open), 10 do not, 3 are not settled (Hoppin-Sorter/jev-router, auto-mode 3.0.0, jcode). 13 new leads classed.",
+      "path": "/p/jev-catalog/build/coding-agents"
+    },
+    {
+      "change_id": "failure-map-ohmyjev-hosts-2026-10-21",
+      "changed_at": "2026-10-21T06:30:00Z",
+      "summary": "When Jev fails: ohmyjev's row names its pi and omp adapters, read at the same commit with the same five failure terms; still 80 implementations and no count changed. One file reference in its bypass cell corrected.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "alternatives-drex-terms-2026-10-21",
+      "changed_at": "2026-10-21T06:30:00Z",
+      "summary": "Alternatives: the Drex row quotes Nace.AI's website Terms and Privacy Policy (9 Oct; training by default with an opt-out, up to 30 days) next to its Console Service Terms and Data Processing Addendum (19 Oct; no training unless you opt in, deletion within 48 hours or 7 days); which controls is not stated. drex-v1.5's two prices shown in their own units.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "versions-cloudflare-1-14-2026-10-21",
+      "changed_at": "2026-10-21T06:30:00Z",
+      "summary": "Versions and aliases: Cloudflare's AI model catalog lists typesafe/jev-1.14.0 through AI Gateway (first seen by this catalogue on 21 Oct 2026; it may have been listed earlier; not tested). Aliases unchanged: jev-latest still gives jev-1.13.0.",
+      "path": "/p/jev-catalog/where-to-use/versions-and-aliases"
+    },
+    {
+      "change_id": "report-coding-agents-pi-omp",
+      "changed_at": "2026-10-21T06:30:00Z",
+      "summary": "New research report: coding agents on pi and omp, auto-mode and jcode, and Nace.AI's two sets of terms (21 Oct 2026).",
+      "path": "/p/jev-catalog/reports/coding-agents-pi-omp"
+    },
+    {
+      "change_id": "access-recheck-2026-10-21",
+      "changed_at": "2026-10-21T06:30:00Z",
+      "summary": "Access status rechecked 21 Oct 2026, 05:11 UTC: signups open, no new-user credit, API operational; price, rate-limit wording and model aliases unchanged (jev-latest still on jev-1.13.0; TypeSafe has published no date for the move to 1.14). Home now shows two notices: the Jev 1.14 preview and experimental-features notices came off after seven days; both facts stay on versions and aliases and limitations.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
       "change_id": "failure-self-check-2026-10-20",
       "changed_at": "2026-10-20T06:30:00Z",
       "summary": "When Jev fails: new self-check. Pick what your code does in five failure conditions and see how many of the 80 implementations on the map made the same choice, with examples; same counts as the map (recomputed 19 Oct); it does not read or test code.",
