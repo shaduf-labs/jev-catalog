@@ -24170,6 +24170,1326 @@
       "accessed_at": "2026-10-21T05:15:27Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Source R22-S01: TypeSafe console sign-in page",
+      "claim": "no waitlist text; no form submitted (Documented)",
+      "accessed_at": "2026-10-23T05:18:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R22-S02: CEO post via X oEmbed",
+      "claim": "credit temporarily disabled for new users; anyone can sign up (Documented)",
+      "accessed_at": "2026-10-23T05:19:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R22-S03: Docs quickstart",
+      "claim": "14,098 bytes; no waitlist/credit text; examples use jev-latest (Documented)",
+      "accessed_at": "2026-10-23T05:18:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s04",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R22-S04: TypeSafe status page",
+      "claim": "All services are online; api 99.777/99.842/99.835%; last event 14 Oct us-east-1 (Documented)",
+      "accessed_at": "2026-10-23T05:18:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R22-S05: Docs models page",
+      "claim": "Docs models page (Documented)",
+      "accessed_at": "2026-10-23T05:19:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R22-S06: Docs images page",
+      "claim": "Docs images page (Documented)",
+      "accessed_at": "2026-10-23T05:19:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R22-S07: TypeSafe homepage",
+      "claim": "no waitlist/credit text (Documented)",
+      "accessed_at": "2026-10-23T05:18:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R22-S08: TypeSafe blog index",
+      "claim": "7 posts; latest jev-1-14 (Documented)",
+      "accessed_at": "2026-10-23T05:18:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R22-S09: TypeSafe Jev 1.14 post",
+      "claim": "still 'in a week' (Documented)",
+      "accessed_at": "2026-10-23T05:18:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R22-S10: TypeSafe enterprise page",
+      "claim": "no credit/waitlist/trial text (Documented)",
+      "accessed_at": "2026-10-23T05:18:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s11",
+      "source_type": "reported source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R22-S11: AI FrontPage homepage",
+      "claim": "no credit or signup statement (Reported)",
+      "accessed_at": "2026-10-23T05:19:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s12",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Source R22-S12: Docs legal page",
+      "claim": "1,168 bytes (Documented)",
+      "accessed_at": "2026-10-23T05:19:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s13",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R22-S13: OpenRouter Jev guide",
+      "claim": "no waitlist or separate TypeSafe account (Documented)",
+      "accessed_at": "2026-10-23T05:19:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s14",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R22-S14: Eye Security lookalike report",
+      "claim": "names jev-agent.org, jev-ai.pro, jevtypesafeai.com (Reported)",
+      "accessed_at": "2026-10-23T05:19:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s15",
+      "source_type": "unverified lead",
+      "source_url": "https://jev-agent.org/",
+      "title": "Source R22-S15: Lookalike site (status only)",
+      "claim": "online (Unverified)",
+      "accessed_at": "2026-10-23T05:19:53Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s16",
+      "source_type": "unverified lead",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Source R22-S16: Lookalike site (status only)",
+      "claim": "online (Unverified)",
+      "accessed_at": "2026-10-23T05:19:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s17",
+      "source_type": "unverified lead",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Source R22-S17: Lookalike site (status only; never a source)",
+      "claim": "online (Unverified)",
+      "accessed_at": "2026-10-23T05:19:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s18",
+      "source_type": "unverified lead",
+      "source_url": "https://thejevai.com/",
+      "title": "Source R22-S18: Lookalike watch (status only)",
+      "claim": "title unchanged (Unverified)",
+      "accessed_at": "2026-10-23T05:19:54Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s19",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/box.md",
+      "title": "Source R22-S19: Docs Box page",
+      "claim": "8,133 bytes (Documented)",
+      "accessed_at": "2026-10-23T05:19:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s20",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Source R22-S20: Docs index",
+      "claim": "18,706 bytes (Documented)",
+      "accessed_at": "2026-10-23T05:19:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Source R22-S21: Docs changelog",
+      "claim": "no changelog (Documented)",
+      "accessed_at": "2026-10-23T05:19:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s22",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Source R22-S22: OpenRouter jev-1.13 endpoints",
+      "claim": "text+image->decisions; 262,144 (Documented)",
+      "accessed_at": "2026-10-23T05:23:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s23",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "title": "Source R22-S23: OpenRouter jev-1.14 endpoints",
+      "claim": "text+image->decisions; 262,144 (Documented)",
+      "accessed_at": "2026-10-23T05:23:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s24",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R22-S24: OpenRouter models list",
+      "claim": "468 IDs; TypeSafe only typesafe/jev-router (Documented)",
+      "accessed_at": "2026-10-23T05:23:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s25",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Source R22-S25: Vercel endpoints",
+      "claim": "1.13.0/1.14.0 text+image→text; jev text→text; providers digitalocean, typesafe-ai on jev (Documented)",
+      "accessed_at": "2026-10-23T05:23:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s26",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R22-S26: Vercel model list",
+      "claim": "484 IDs; three TypeSafe IDs; 1.13.0/1.14.0 tag vision (Documented)",
+      "accessed_at": "2026-10-23T05:23:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s27",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Source R22-S27: Opper models API",
+      "claim": "1.13.0 aliases jev-latest; 1.14.0 aliases jev-preview, vision, header named in description (Documented)",
+      "accessed_at": "2026-10-23T05:23:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s28",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/",
+      "title": "Source R22-S28: Cloudflare AI models: typesafe/jev",
+      "claim": "unversioned typesafe/jev; ZDR; env.AI.run and /ai/run examples (Documented)",
+      "accessed_at": "2026-10-23T05:23:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev-1.14.0/",
+      "title": "Source R22-S29: Cloudflare AI models: typesafe/jev-1.14.0",
+      "claim": "Third-party; 32,000; images and Box beta; image example with model typesafe/jev-1.14.0; no opt-in header string (Documented)",
+      "accessed_at": "2026-10-23T05:23:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s30",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R22-S30: Netlify AI Gateway overview",
+      "claim": "jev-1.13.0, jev-1.14.0, jev-latest, jev-preview (Documented)",
+      "accessed_at": "2026-10-23T05:23:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s31",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "title": "Source R22-S31: Foundry, Bedrock, Workers AI catalog, Cloudflare changelog",
+      "claim": "no Jev/TypeSafe string (Documented)",
+      "accessed_at": "2026-10-23T05:23:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s32",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md",
+      "title": "Source R22-S32: OpenAI Decisions API guide",
+      "claim": "now generally available; gpt-6-luna; $0.10 per 1M input (Documented)",
+      "accessed_at": "2026-10-23T05:23:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s34",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date",
+      "title": "Source R22-S34: Hacker News search (Algolia)",
+      "claim": "Stories and comments matching jev, typesafe and related terms in the 21–23 Oct 2026 window (Reported)",
+      "accessed_at": "2026-10-23T05:27:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s35",
+      "source_type": "reported source",
+      "source_url": "https://api.github.com/search/repositories",
+      "title": "Source R22-S35: GitHub repository search",
+      "claim": "counts include copies; not adoption (Reported)",
+      "accessed_at": "2026-10-23T05:27:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s36",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search",
+      "title": "Source R22-S36: npm search",
+      "claim": "npm search (Documented)",
+      "accessed_at": "2026-10-23T05:27:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s37",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models",
+      "title": "Source R22-S37: Hugging Face models search",
+      "claim": "Hugging Face models search (Documented)",
+      "accessed_at": "2026-10-23T05:27:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s38",
+      "source_type": "reported source",
+      "source_url": "https://dev.to/api/articles",
+      "title": "Source R22-S38: DEV.to API",
+      "claim": "search endpoint no JSON (Reported)",
+      "accessed_at": "2026-10-23T05:27:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s40",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search",
+      "title": "Source R22-S40: Autocomplete endpoints",
+      "claim": "suggestions show phrases, not volumes (Documented)",
+      "accessed_at": "2026-10-23T05:27:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s41",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/<pkg>",
+      "title": "Source R22-S41: npm and PyPI version check",
+      "claim": "Latest published versions of the packages the catalogue follows, 23 Oct 2026 (Documented)",
+      "accessed_at": "2026-10-23T05:28:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s45",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/",
+      "title": "Source R22-S45: Cloudflare AI models index",
+      "claim": "typesafe/jev-1.14.0 card (Documented)",
+      "accessed_at": "2026-10-23T05:23:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s47",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/changelog.md",
+      "title": "Source R22-S47: OpenAI API changelog",
+      "claim": "Oct 22: Decisions API generally available (Documented)",
+      "accessed_at": "2026-10-23T05:25:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s51",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/IntelligenceLab/Jev-Vision-2B",
+      "title": "Source R22-S51: Jev-Vision-2B model API",
+      "claim": "created 22 Oct; base Qwen3.5-2B; Jev-named, not TypeSafe (Documented)",
+      "accessed_at": "2026-10-23T05:29:47Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s52",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dragpk247/jev-gateway/tree/37ff982949f0cb9bb131963f82a6f34f8ba38edd",
+      "title": "Source R22-S52: Published jev-gateway pin link",
+      "claim": "link target missing (Documented)",
+      "accessed_at": "2026-10-23T05:34:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s53",
+      "source_type": "documented source",
+      "source_url": "https://github.com/vinilana/jev-gateway/tree/37ff982949f0cb9bb131963f82a6f34f8ba38edd",
+      "title": "Source R22-S53: jev-gateway pin at vinilana",
+      "claim": "commit present (Documented)",
+      "accessed_at": "2026-10-23T05:34:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s100",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R22-S100: TypeSafe docs: Images",
+      "claim": "TypeSafe docs: Images (Documented)",
+      "accessed_at": "2026-10-23T05:19:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s101",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R22-S101: TypeSafe docs: Models",
+      "claim": "TypeSafe docs: Models (Documented)",
+      "accessed_at": "2026-10-23T05:19:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s102",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/api/errors.md",
+      "title": "Source R22-S102: TypeSafe API reference: Request rules and errors",
+      "claim": "2698 bytes; no image-specific text on the page (images, assets, the opt-in header not mentioned). (Documented)",
+      "accessed_at": "2026-10-23T05:23:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s103",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/api/system-one.md",
+      "title": "Source R22-S103: TypeSafe API reference: System One (OpenAPI)",
+      "claim": "28858 bytes; header parameter L46-53, multipart schema L124-145, assets L265-275, Asset schema L356-389 (line numbers of the fetched body). (Documented)",
+      "accessed_at": "2026-10-23T05:23:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s104",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/sdk/python/api/types/assets.md",
+      "title": "Source R22-S104: TypeSafe Python SDK API reference: Assets",
+      "claim": "5561 bytes; note L13 'The API detects each image's format from its bytes.' (Documented)",
+      "accessed_at": "2026-10-23T05:23:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s105",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Source R22-S105: TypeSafe docs index",
+      "claim": "Used only to locate the API reference pages (L53-55). (Documented)",
+      "accessed_at": "2026-10-23T05:23:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s106",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.24.tgz",
+      "title": "Source R22-S106: @ai-sdk/typesafe-ai 3.0.24 npm tarball",
+      "claim": "Metadata https://registry.npmjs.org/@ai-sdk/typesafe-ai/3.0.24 (05:23:05Z, 200); integrity sha512-5hHwKOXq9skAOM5b/2+GX+iJOeC6g0la76vbvE7SdhfqVvUI7u3hqAU99BcJVZ9tEOPhneY/jR7UClgMzC736Q==. not installed or run. (Documented)",
+      "accessed_at": "2026-10-23T05:23:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s107",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.20.tgz",
+      "title": "Source R22-S107: @ai-sdk/typesafe-ai 3.0.20 npm tarball",
+      "claim": "Baseline for the 3.0.24 comparison; integrity sha512-IX8e+czS33GeYFjbqGVw8MeteHD+PeVt8JiAmtvdGIzBEb0HwHURIz/g5SelbLJRMfhaY+imxOt+0DM9v3YUcA==. Read only. (Documented)",
+      "accessed_at": "2026-10-23T05:23:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s108",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/sdk/-/sdk-0.7.0.tgz",
+      "title": "Source R22-S108: @typesafe-ai/sdk 0.7.0 npm tarball",
+      "claim": "integrity sha512-Yg3OZArCQMJx98ut8QVkhx3rFo9ON7pz8Hjzv8c3FGz69Sk8jYftLOlz+Wf6kq6jol/1m08aBnjRAzJr2x3GoQ==; dist/index.mjs and README.md read only. (Documented)",
+      "accessed_at": "2026-10-23T05:23:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s109",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/1c/f6/bee4c3b49570c2d312057c9e37c1446cf37eb1b86bf5872f7a797e803326/typesafe_sdk-0.7.5-py3-none-any.whl",
+      "title": "Source R22-S109: typesafe-sdk 0.7.5 wheel (PyPI)",
+      "claim": "Via https://pypi.org/pypi/typesafe-sdk/0.7.5/json (200); sha256 967a8b61494d536abb55ee3f3a2b10e81685cb6baad6ccdcab588bdc6c9b86d2; uploaded 2026-10-14T21:21:41Z. Extracted with python zipfile; read only. (Documented)",
+      "accessed_at": "2026-10-23T05:23:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s110",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/cc/4f/ee187f80f9f9232fc6915da47d84305dfa62d4f879efbb1e6ff262172437/pydantic_ai_slim-2.57.0-py3-none-any.whl",
+      "title": "Source R22-S110: pydantic-ai-slim 2.57.0 wheel (PyPI)",
+      "claim": "sha256 a07d732e09df8d51f22bd3be2ad45ab644721a904809a2481146bf5d7bb47c67; uploaded 2026-10-16T03:50:59Z. Baseline for A3. (Documented)",
+      "accessed_at": "2026-10-23T05:23:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s111",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/43/d3/2c791262df9a69458bf41c769f723ba13b639697b348203d8ae322b4626c/pydantic_ai_slim-2.58.0-py3-none-any.whl",
+      "title": "Source R22-S111: pydantic-ai-slim 2.58.0 wheel (PyPI)",
+      "claim": "sha256 fa118b6c9d95706169f312b28749fc28474285c0739083542e9803947c1a76ea; uploaded 2026-10-20T05:25:31Z. (Documented)",
+      "accessed_at": "2026-10-23T05:23:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s112",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/73/79/d8c8cb808b69a6f286bc8bab6bab832c1da98163ab37689bfd5208508f25/pydantic_ai_slim-2.59.0-py3-none-any.whl",
+      "title": "Source R22-S112: pydantic-ai-slim 2.59.0 wheel (PyPI)",
+      "claim": "sha256 b4bc3a659176f616ad1a104cb8faed33c1565b449cb16226c6f6adb0c674770f; uploaded 2026-10-21T05:00:22Z. (Documented)",
+      "accessed_at": "2026-10-23T05:23:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s113",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@langchain/typesafe/-/typesafe-0.0.2.tgz",
+      "title": "Source R22-S113: @langchain/typesafe 0.0.2 npm tarball",
+      "claim": "integrity sha512-FwNQ5ZzKRvguO4zGhwRsOxumH7zNQjfGdlfdla7KUUGCGfXbGpqXtFmxw+4DRdTCVxgsJQ3NIpke9WICukWlnQ==; dist/*.js read only. (Documented)",
+      "accessed_at": "2026-10-23T05:23:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s114",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/ca/5b/a14f30242eb36363ee757024a01727fef5efffbb542d2382468f457a7e2b/langchain_typesafe-0.0.1a3-py3-none-any.whl",
+      "title": "Source R22-S114: langchain-typesafe 0.0.1a3 wheel (PyPI)",
+      "claim": "sha256 f06f74ebdcb10cbc836dd89a275bbf4e2e13646cb919dcc02d4219e602cfe36e; uploaded 2026-09-20T18:54:39Z. (Documented)",
+      "accessed_at": "2026-10-23T05:23:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s115",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/03/08/9c90f020f89a51df3033daa11b026ccbd9405ff7df601b0ff97059b90b57/litellm-1.106.1-cp310-abi3-macosx_10_12_x86_64.whl",
+      "title": "Source R22-S115: litellm 1.106.1 wheel (PyPI, first listed wheel)",
+      "claim": "Via https://pypi.org/pypi/litellm/1.106.1/json (200); sha256 7efc2e3b7bdea5842e9b372fd37bedde2754f4dccd01abc84b8c65e3ed174a6b; uploaded 2026-10-20T18:53:49Z. Platform wheel (macOS x86_64); only pure-Python files read (litellm/llms/typesafe/decisions/transformation.py, litellm/decisions/call.py, litellm/llms/base_llm/decisions/transformation.py, litellm/constants.py, litellm/litellm_core_utils/prompt_templates/image_handling.py). Assumed identical across platform wheels (not checked). (Documented)",
+      "accessed_at": "2026-10-23T05:23:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s116",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.26.tgz",
+      "title": "Source R22-S116: @ai-sdk/typesafe-ai 3.0.26 npm tarball",
+      "claim": "Metadata https://registry.npmjs.org/@ai-sdk/typesafe-ai/3.0.26 (05:29:29Z, 200); integrity sha512-l8iSYnlro5Bp7OBFBGUIHhjH6Zt6Oi3iw+thlEk2C2iTHUXH/BNr+UmTtM7OKN5TNJFUeiAiNRPF56xaBFjbnw==. src/ identical to 3.0.24 (decision-model sha256 3452b22362c9d6d2…); dist/index.js differs only in VERSION (L52). Read only. (Documented)",
+      "accessed_at": "2026-10-23T05:29:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s117",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.25.tgz",
+      "title": "Source R22-S117: @ai-sdk/typesafe-ai 3.0.25 npm tarball",
+      "claim": "Downloaded for the CHANGELOG chain only (3.0.25 and 3.0.26 entries are dependency updates). Read only. (Documented)",
+      "accessed_at": "2026-10-23T05:29:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s118",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/6b/2e/6cdaee12b671e4d96cf12eeab4b2fdac0a36baceb03dd78dd1653739a746/pydantic_ai_slim-2.60.0-py3-none-any.whl",
+      "title": "Source R22-S118: pydantic-ai-slim 2.60.0 wheel (PyPI)",
+      "claim": "Via https://pypi.org/pypi/pydantic-ai-slim/2.60.0/json (200); sha256 071f93d1cb3744c46aaaa0c36eef7a11d114319cdaf5e656725c94e21ad4b693; uploaded 2026-10-23T02:01:56Z. models/providers/profiles typesafe.py byte-identical to 2.59.0. (Documented)",
+      "accessed_at": "2026-10-23T05:29:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s119",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/packages/0f/47/1038af80d9831972fae8712a890c30252f51c514c092d83e0f1330bb1fa1/litellm-1.106.2-cp310-abi3-macosx_10_12_x86_64.whl",
+      "title": "Source R22-S119: litellm 1.106.2 wheel (PyPI, first listed wheel)",
+      "claim": "Via https://pypi.org/pypi/litellm/1.106.2/json (200); sha256 bf6f13445bb59d8d02131bbc1fb57161d1ae629bec65dc66f9add4c09fb6994a; uploaded 2026-10-21T10:44:22Z. TypeSafe decisions transformation, base decisions transformation, image_handling.py and the TypeSafe guardrail hook byte-identical to 1.106.1; decisions/call.py adds caller-request logging (L412-434) only. (Documented)",
+      "accessed_at": "2026-10-23T05:29:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s200",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/tags.atom",
+      "title": "Source R22-S200: n8n-nodes-typesafe-ai tags feed (0.10.0, 0.9.0)",
+      "claim": "tag 0.10.0 updated 2026-10-20T02:17:01Z, title 'chore: Release 0.10.0 (#13)'; tag 0.9.0 2026-09-28T07:45:39Z (Documented)",
+      "accessed_at": "2026-10-23T05:23:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s201",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/commits/main.atom",
+      "title": "Source R22-S201: n8n-nodes-typesafe-ai main commits feed",
+      "claim": "HEAD ec817142 (2026-10-20T02:17:01Z); 9f08d367 (PR #12 merge, 02:08:00Z); c12537bb; d53fb6a1 (Documented)",
+      "accessed_at": "2026-10-23T05:23:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s202",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/releases/tag/0.10.0",
+      "title": "Source R22-S202: Release 0.10.0 page",
+      "claim": "links commit ec817142259e7996639024817a7e6f1bbfaac817 (tag 0.10.0 SHA) (Documented)",
+      "accessed_at": "2026-10-23T05:23:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s203",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/pull/12",
+      "title": "Source R22-S203: PR #12 feat: Add image support",
+      "claim": "merged; merge commit 9f08d36731ace9150025f7e5aebfd883b378261a; opened 2026-10-19, merged 2026-10-20 ~02:08Z (author not recorded) (Documented)",
+      "accessed_at": "2026-10-23T05:23:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s204",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/pull/12/files",
+      "title": "Source R22-S204: PR #12 files changed",
+      "claim": "CHANGELOG.md, README.md, nodes/TypeSafeAi/SPEC.md, TypeSafeAi.node.ts, api.ts, descriptions.ts, helpers.ts (list from page; test files not listed in page data) (Documented)",
+      "accessed_at": "2026-10-23T05:23:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s205",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/TypeSafeAi.node.ts",
+      "title": "Source R22-S205: TypeSafeAi.node.ts at 0.9.0",
+      "claim": "baseline for published cells (Documented)",
+      "accessed_at": "2026-10-23T05:23:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s206",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/ec817142259e7996639024817a7e6f1bbfaac817/nodes/TypeSafeAi/TypeSafeAi.node.ts",
+      "title": "Source R22-S206: TypeSafeAi.node.ts at 0.10.0",
+      "claim": "IMAGE_MIME_TYPES L66-73; readImages L76-131; execute L293-427; COF L386-423 (Documented)",
+      "accessed_at": "2026-10-23T05:23:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s207",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/api.ts",
+      "title": "Source R22-S207: api.ts at 0.9.0",
+      "claim": "error throw L109-115 (Documented)",
+      "accessed_at": "2026-10-23T05:23:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s208",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/ec817142259e7996639024817a7e6f1bbfaac817/nodes/TypeSafeAi/api.ts",
+      "title": "Source R22-S208: api.ts at 0.10.0",
+      "claim": "error throw L125-131; header L142-148; multipart L157-178 (Documented)",
+      "accessed_at": "2026-10-23T05:23:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s209",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/descriptions.ts",
+      "title": "Source R22-S209: descriptions.ts at 0.9.0",
+      "claim": "timeout L486-489 (Documented)",
+      "accessed_at": "2026-10-23T05:23:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s210",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/ec817142259e7996639024817a7e6f1bbfaac817/nodes/TypeSafeAi/descriptions.ts",
+      "title": "Source R22-S210: descriptions.ts at 0.10.0",
+      "claim": "Images field L272-308; timeout L523-526; threshold L420-452 (Documented)",
+      "accessed_at": "2026-10-23T05:23:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s211",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/nodes/TypeSafeAi/helpers.ts",
+      "title": "Source R22-S211: helpers.ts at 0.9.0",
+      "claim": "fail() baseline (Documented)",
+      "accessed_at": "2026-10-23T05:24:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s212",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/ec817142259e7996639024817a7e6f1bbfaac817/nodes/TypeSafeAi/helpers.ts",
+      "title": "Source R22-S212: helpers.ts at 0.10.0",
+      "claim": "fail() L15-20 throws NodeOperationError; assertReferencesUsed L32-51 (doc comment L32-35) (Documented)",
+      "accessed_at": "2026-10-23T05:24:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s213",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/credentials/TypeSafeAiApi.credentials.ts",
+      "title": "Source R22-S213: credentials at 0.9.0",
+      "claim": "identical to 0.10.0 (Documented)",
+      "accessed_at": "2026-10-23T05:23:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s214",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/ec817142259e7996639024817a7e6f1bbfaac817/credentials/TypeSafeAiApi.credentials.ts",
+      "title": "Source R22-S214: credentials at 0.10.0",
+      "claim": "byte-identical to 0.9.0 (diff empty) (Documented)",
+      "accessed_at": "2026-10-23T05:23:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s215",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/package.json",
+      "title": "Source R22-S215: package.json at 0.9.0",
+      "claim": "package.json at 0.9.0 (Documented)",
+      "accessed_at": "2026-10-23T05:23:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s216",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/ec817142259e7996639024817a7e6f1bbfaac817/package.json",
+      "title": "Source R22-S216: package.json at 0.10.0",
+      "claim": "version 0.10.0 (Documented)",
+      "accessed_at": "2026-10-23T05:23:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s217",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b/README.md",
+      "title": "Source R22-S217: README at 0.9.0",
+      "claim": "Retry On Fail advice L119 (Reported)",
+      "accessed_at": "2026-10-23T05:23:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s218",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/ec817142259e7996639024817a7e6f1bbfaac817/README.md",
+      "title": "Source R22-S218: README at 0.10.0",
+      "claim": "Images L41-49; Retry On Fail advice L129 (Reported)",
+      "accessed_at": "2026-10-23T05:23:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s219",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/ec817142259e7996639024817a7e6f1bbfaac817/CHANGELOG.md",
+      "title": "Source R22-S219: CHANGELOG at 0.10.0",
+      "claim": "0.10.0 Added: Images (PNG and JPEG from binary data) (Documented)",
+      "accessed_at": "2026-10-23T05:25:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s220",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/ec817142259e7996639024817a7e6f1bbfaac817/test/execute.test.ts",
+      "title": "Source R22-S220: test/execute.test.ts at 0.10.0",
+      "claim": "describe('Images') L552 onward; tests read by title only, not run (Documented)",
+      "accessed_at": "2026-10-23T05:25:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s221",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/typesafe-ai/n8n-nodes-typesafe-ai/ec817142259e7996639024817a7e6f1bbfaac817/nodes/TypeSafeAi/SPEC.md",
+      "title": "Source R22-S221: SPEC.md at 0.10.0",
+      "claim": "Images L214-223; multipart+header L356-365; reject-before-call L407-412 (Documented)",
+      "accessed_at": "2026-10-23T05:25:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s222",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai%2fn8n-nodes-typesafe-ai",
+      "title": "Source R22-S222: npm registry record @typesafe-ai/n8n-nodes-typesafe-ai",
+      "claim": "versions 0.9.0 (2026-09-29T21:32:26.966Z), 0.10.0 (2026-10-20T15:25:26.576Z); latest 0.10.0; 0.10.0 _npmUser GitHub Actions (trusted publisher); 2 maintainers (not named) (Documented)",
+      "accessed_at": "2026-10-23T05:23:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s223",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/npm/v1/attestations/@typesafe-ai%2fn8n-nodes-typesafe-ai@0.10.0",
+      "title": "Source R22-S223: npm attestations 0.10.0",
+      "claim": "npm attestations 0.10.0 (Documented)",
+      "accessed_at": "2026-10-23T05:23:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s224",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@typesafe-ai/n8n-nodes-typesafe-ai/-/n8n-nodes-typesafe-ai-0.10.0.tgz",
+      "title": "Source R22-S224: npm tarball 0.10.0 (read, not run)",
+      "claim": "sha1 f25be0cf... matches registry shasum; dist api.js L69 header; dist TypeSafeAi.node.js L56 PNG/JPEG error (Documented)",
+      "accessed_at": "2026-10-23T05:30:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s225",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/ec817142259e7996639024817a7e6f1bbfaac817/nodes/TypeSafeAi",
+      "title": "Source R22-S225: tree nodes/TypeSafeAi at 0.10.0",
+      "claim": "files: TypeSafeAi.node.ts, api.ts, descriptions.ts, helpers.ts (+SPEC.md) (Documented)",
+      "accessed_at": "2026-10-23T05:23:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s226",
+      "source_type": "documented source",
+      "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/commit/ec817142259e7996639024817a7e6f1bbfaac817",
+      "title": "Source R22-S226: commit ec81714 (Release 0.10.0)",
+      "claim": "commit ec81714 (Release 0.10.0) (Documented)",
+      "accessed_at": "2026-10-23T05:23:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s227",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/n8n-io/n8n/n8n@2.44.3/packages/core/src/execution-engine/node-execution-context/utils/binary-helper-functions.ts",
+      "title": "Source R22-S227: n8n binary-helper-functions.ts at n8n@2.44.3",
+      "claim": "assertBinaryData L56-117: NodeOperationError for missing binary (L96-103) or missing field (L108-116) (Documented)",
+      "accessed_at": "2026-10-23T05:30:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s230",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/issues?q=jev+image+created:%3E2026-10-11&per_page=50",
+      "title": "Source R22-S230: GitHub issue search 'jev image' created after 11 Oct",
+      "claim": "total_count 6440 (search match count, not adoption); first 50 read for owners (Documented)",
+      "accessed_at": "2026-10-23T05:26:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s231",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=racecraft-plugins-public+OR+hibana+OR+JevLight+OR+jev-front-back-id-matching+in:name&per_page=30",
+      "title": "Source R22-S231: GitHub repo search for lead names",
+      "claim": "found racecraft-lab/racecraft-plugins-public, usail-hkust/JevLight, HRyohni/jev-front-back-id-matching, hibanaworks/hibana and other hibana repos (Documented)",
+      "accessed_at": "2026-10-23T05:26:23Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s232",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/jev-gateway",
+      "title": "Source R22-S232: npm registry record jev-gateway",
+      "claim": "latest 0.5.1 (2026-10-06T18:33:54Z) gitHead 37ff982949f0cb9bb131963f82a6f34f8ba38edd; repository vinilana/jev-gateway (Documented)",
+      "accessed_at": "2026-10-23T05:26:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s233",
+      "source_type": "documented source",
+      "source_url": "https://github.com/vinilana/jev-gateway/pull/67",
+      "title": "Source R22-S233: jev-gateway PR #67 feat: let Jev see the images in a conversation",
+      "claim": "merged; merge commit 83b5b98279f7b932db7f03388d9e95a873025063 (2026-10-22T17:48Z) (Documented)",
+      "accessed_at": "2026-10-23T05:26:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s234",
+      "source_type": "documented source",
+      "source_url": "https://github.com/vinilana/jev-gateway/pull/67/files",
+      "title": "Source R22-S234: jev-gateway PR #67 files",
+      "claim": "src/adapters/*, src/config.ts, README.md, .env.example, dashboard (page list; may be partial) (Documented)",
+      "accessed_at": "2026-10-23T05:26:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s235",
+      "source_type": "documented source",
+      "source_url": "https://github.com/vinilana/jev-gateway/commits/main.atom",
+      "title": "Source R22-S235: jev-gateway main commits feed",
+      "claim": "HEAD 83b5b98 2026-10-22T17:48:28Z (Documented)",
+      "accessed_at": "2026-10-23T05:26:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s236",
+      "source_type": "documented source",
+      "source_url": "https://github.com/vinilana/jev-gateway/tags.atom",
+      "title": "Source R22-S236: jev-gateway tags feed",
+      "claim": "newest tag v0.5.1 (2026-10-06) (Documented)",
+      "accessed_at": "2026-10-23T05:26:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s237",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/vinilana/jev-gateway/git/trees/83b5b98279f7b932db7f03388d9e95a873025063?recursive=1",
+      "title": "Source R22-S237: jev-gateway tree at 83b5b98",
+      "claim": "src/images.ts, src/jev.ts present (Documented)",
+      "accessed_at": "2026-10-23T05:27:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s238",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/vinilana/jev-gateway/83b5b98279f7b932db7f03388d9e95a873025063/src/images.ts",
+      "title": "Source R22-S238: jev-gateway src/images.ts at 83b5b98",
+      "claim": "header const L11; limits L35-37; URL placeholder L55-65; toAsset L142-154; attachImages L170-195 (Documented)",
+      "accessed_at": "2026-10-23T05:27:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s239",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/vinilana/jev-gateway/83b5b98279f7b932db7f03388d9e95a873025063/src/jev.ts",
+      "title": "Source R22-S239: jev-gateway src/jev.ts at 83b5b98",
+      "claim": "header set L104 when assets (Documented)",
+      "accessed_at": "2026-10-23T05:27:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s240",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dragpk247/jev-gateway/pull/67",
+      "title": "Source R22-S240: dragpk247/jev-gateway PR 67",
+      "claim": "404 (Documented)",
+      "accessed_at": "2026-10-23T05:26:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s241",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dragpk247/jev-gateway",
+      "title": "Source R22-S241: dragpk247/jev-gateway repo page",
+      "claim": "a different project (LLM router); not a fork notice found (Documented)",
+      "accessed_at": "2026-10-23T05:29:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s242",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dragpk247/jev-gateway/tree/37ff982949f0cb9bb131963f82a6f34f8ba38edd",
+      "title": "Source R22-S242: dragpk247/jev-gateway tree at 37ff982 (link used on published pages)",
+      "claim": "404: commit not in this repository (Documented)",
+      "accessed_at": "2026-10-23T05:29:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s243",
+      "source_type": "documented source",
+      "source_url": "https://github.com/vinilana/jev-gateway/tree/37ff982949f0cb9bb131963f82a6f34f8ba38edd",
+      "title": "Source R22-S243: vinilana/jev-gateway tree at 37ff982",
+      "claim": "200 (Documented)",
+      "accessed_at": "2026-10-23T05:29:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s244",
+      "source_type": "reported source",
+      "source_url": "https://github.com/microsoft/agent-framework/issues/9410",
+      "title": "Source R22-S244: agent-framework #9410 TypeSafe connector should support image inputs and Box",
+      "claim": "open; created 2026-10-15; issue text says connector rejects non-text content and never sends the header (Reported)",
+      "accessed_at": "2026-10-23T05:26:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s245",
+      "source_type": "reported source",
+      "source_url": "https://github.com/racecraft-lab/racecraft-plugins-public/issues/1377",
+      "title": "Source R22-S245: racecraft-plugins-public #1377 image asset fallback token can collide",
+      "claim": "open; created 2026-10-18 (Reported)",
+      "accessed_at": "2026-10-23T05:26:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s246",
+      "source_type": "documented source",
+      "source_url": "https://github.com/hibanaworks/hibana/issues/83",
+      "title": "Source R22-S246: hibanaworks/hibana issue 83",
+      "claim": "404 (Documented)",
+      "accessed_at": "2026-10-23T05:26:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s247",
+      "source_type": "documented source",
+      "source_url": "https://github.com/hibanaworks/hibana/pull/83",
+      "title": "Source R22-S247: hibanaworks/hibana pull 83",
+      "claim": "404 (Documented)",
+      "accessed_at": "2026-10-23T05:26:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s248",
+      "source_type": "documented source",
+      "source_url": "https://github.com/hibanaworks/hibana/discussions/83",
+      "title": "Source R22-S248: hibanaworks/hibana discussion 83",
+      "claim": "404 (Documented)",
+      "accessed_at": "2026-10-23T05:27:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s249",
+      "source_type": "documented source",
+      "source_url": "https://github.com/hibanaworks/hibana/issues?q=jev",
+      "title": "Source R22-S249: hibanaworks/hibana issues query jev",
+      "claim": "no Jev issue link extracted (Documented)",
+      "accessed_at": "2026-10-23T05:27:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s250",
+      "source_type": "documented source",
+      "source_url": "https://github.com/usail-hkust/JevLight/pull/2",
+      "title": "Source R22-S250: JevLight PR #2 Add Jev Vision decisions with VLALight cameras",
+      "claim": "merged; merge commit ff0395fe38553f5f0fa3e691015f2e0380462523 (2026-10-19T16:44Z) (Documented)",
+      "accessed_at": "2026-10-23T05:26:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s251",
+      "source_type": "documented source",
+      "source_url": "https://github.com/usail-hkust/JevLight/pull/2/files",
+      "title": "Source R22-S251: JevLight PR #2 files",
+      "claim": "page list partial (README.md, jevlight/controller.py) (Documented)",
+      "accessed_at": "2026-10-23T05:28:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s252",
+      "source_type": "documented source",
+      "source_url": "https://github.com/usail-hkust/JevLight/commits/main.atom",
+      "title": "Source R22-S252: JevLight main commits feed",
+      "claim": "HEAD f6251187 2026-10-19T16:48:33Z; ff0395fe 16:44:15Z (Documented)",
+      "accessed_at": "2026-10-23T05:28:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s253",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/usail-hkust/JevLight/git/trees/ff0395fe38553f5f0fa3e691015f2e0380462523?recursive=1",
+      "title": "Source R22-S253: JevLight tree at ff0395f",
+      "claim": "jevlight/jev_client.py, images.py, vlalight_images.py (Documented)",
+      "accessed_at": "2026-10-23T05:28:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s254",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/usail-hkust/JevLight/ff0395fe38553f5f0fa3e691015f2e0380462523/jevlight/jev_client.py",
+      "title": "Source R22-S254: JevLight jev_client.py at ff0395f",
+      "claim": "non-official transport + assets raises L216-217; header L530-533; multipart L537-538 (Documented)",
+      "accessed_at": "2026-10-23T05:28:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s255",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/usail-hkust/JevLight/ff0395fe38553f5f0fa3e691015f2e0380462523/jevlight/controller.py",
+      "title": "Source R22-S255: JevLight controller.py at ff0395f",
+      "claim": "fallbacks previous/ranking L48 (Documented)",
+      "accessed_at": "2026-10-23T05:28:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s256",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/usail-hkust/JevLight/ff0395fe38553f5f0fa3e691015f2e0380462523/jevlight/images.py",
+      "title": "Source R22-S256: JevLight images.py at ff0395f",
+      "claim": "JevLight images.py at ff0395f (Documented)",
+      "accessed_at": "2026-10-23T05:28:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s257",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/usail-hkust/JevLight/ff0395fe38553f5f0fa3e691015f2e0380462523/jevlight/vlalight_images.py",
+      "title": "Source R22-S257: JevLight vlalight_images.py at ff0395f",
+      "claim": "renderer assets missing raises FileNotFoundError L76-79; incomplete batch RuntimeError L134 (Documented)",
+      "accessed_at": "2026-10-23T05:28:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s258",
+      "source_type": "reported source",
+      "source_url": "https://github.com/HRyohni/jev-front-back-id-matching",
+      "title": "Source R22-S258: HRyohni/jev-front-back-id-matching repo page/README",
+      "claim": "README: 56 cards, 154 pairs, 310 calls; author's own results (Reported)",
+      "accessed_at": "2026-10-23T05:26:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s259",
+      "source_type": "documented source",
+      "source_url": "https://github.com/HRyohni/jev-front-back-id-matching/commits/main.atom",
+      "title": "Source R22-S259: HRyohni repo commits feed",
+      "claim": "HEAD 0633d2e36acb1cdd6b42001532e418bbb8730ff6 2026-10-17T21:17:13Z (Documented)",
+      "accessed_at": "2026-10-23T05:26:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s260",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/HRyohni/jev-front-back-id-matching/0633d2e36acb1cdd6b42001532e418bbb8730ff6/jev_front_back_eval.py",
+      "title": "Source R22-S260: jev_front_back_eval.py at 0633d2e",
+      "claim": "header L46/L147; size check raises L105; HTTP error raises L158-159; per-pair catch L170 (Documented)",
+      "accessed_at": "2026-10-23T05:28:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s261",
+      "source_type": "reported source",
+      "source_url": "https://hacker-news.firebaseio.com/v0/item/50167617.json",
+      "title": "Source R22-S261: HN 50167617 Show HN: Jev Cards",
+      "claim": "2026-10-20T15:11Z; author states Opper employment; code link to jevcards repo (Reported)",
+      "accessed_at": "2026-10-23T05:28:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s262",
+      "source_type": "reported source",
+      "source_url": "https://hacker-news.firebaseio.com/v0/item/50164567.json",
+      "title": "Source R22-S262: HN 50164567 Show HN: Photo Ferret",
+      "claim": "2026-10-20T11:19Z; repo link photo-ferret (Reported)",
+      "accessed_at": "2026-10-23T05:28:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s263",
+      "source_type": "documented source",
+      "source_url": "https://github.com/JonesSteven/photo-ferret/commits/main.atom",
+      "title": "Source R22-S263: photo-ferret commits feed",
+      "claim": "HEAD 7949f801e6e4700bb25b8526a91800fda848765b 2026-10-22T04:45:20Z (Documented)",
+      "accessed_at": "2026-10-23T05:28:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s264",
+      "source_type": "documented source",
+      "source_url": "https://github.com/JonesSteven/photo-ferret",
+      "title": "Source R22-S264: photo-ferret repo page",
+      "claim": "photo-ferret repo page (Documented)",
+      "accessed_at": "2026-10-23T05:28:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s265",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/JonesSteven/photo-ferret/git/trees/7949f801e6e4700bb25b8526a91800fda848765b?recursive=1",
+      "title": "Source R22-S265: photo-ferret tree at 7949f80",
+      "claim": "photo-ferret tree at 7949f80 (Documented)",
+      "accessed_at": "2026-10-23T05:29:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s266",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/JonesSteven/photo-ferret/7949f801e6e4700bb25b8526a91800fda848765b/server/jev.ts",
+      "title": "Source R22-S266: photo-ferret server/jev.ts at 7949f80",
+      "claim": "SDK client defaultHeaders header L39-44; JPEG state L54-86 (Documented)",
+      "accessed_at": "2026-10-23T05:29:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s267",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Jose-Sabater/jevcards/commits/main.atom",
+      "title": "Source R22-S267: jevcards commits feed",
+      "claim": "HEAD 8e67173770ab4bbd51db1a525463db818a6d660c 2026-10-21T14:42:53Z (Documented)",
+      "accessed_at": "2026-10-23T05:29:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s268",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/Jose-Sabater/jevcards/git/trees/8e67173770ab4bbd51db1a525463db818a6d660c?recursive=1",
+      "title": "Source R22-S268: jevcards tree at 8e67173",
+      "claim": "jevcards tree at 8e67173 (Documented)",
+      "accessed_at": "2026-10-23T05:29:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r22-s269",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Jose-Sabater/jevcards/8e67173770ab4bbd51db1a525463db818a6d660c/server/jev.ts",
+      "title": "Source R22-S269: jevcards server/jev.ts at 8e67173",
+      "claim": "route TypeSafe or Opper L63-70; PNG asset L90-100; header L137 (Documented)",
+      "accessed_at": "2026-10-23T05:29:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }

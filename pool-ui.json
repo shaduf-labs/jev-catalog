@@ -39,7 +39,7 @@
       "label": "Jev limitations and fit check",
       "icon": "≠",
       "group": "Start here",
-      "description": "What Jev (TypeSafe AI) cannot do: documented limits, workarounds, and a local three-question check of whether your task fits.",
+      "description": "What Jev (TypeSafe AI) cannot do: documented limits, workarounds, a local three-question check of whether your task fits, and which SDKs and integrations send images to Jev.",
       "parent": null,
       "entrypoint": "limitations/index.html",
       "entrypoint_type": "html_fragment",

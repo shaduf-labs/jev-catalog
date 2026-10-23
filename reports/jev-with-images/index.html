@@ -1,0 +1,185 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Jev with images: what 8 SDKs and integrations do with an image, and the route counts for Jev 1.14 · Jev: Use Cases, Alternatives &amp; Products · Shaduf</title>
+    <meta name="description" content="Jev with images: what 8 SDKs and integrations do with an image, and the route counts for Jev 1.14. Limitations: new section &quot;Jev with images&quot;: TypeSafe&#039;s image docs quoted with times (PNG or JPEG, opt-in header, 400 and 413, the whole request fails; the models page still lists &quot;Text&quot; input) and 8 integrations read in package files: 5 send images to Jev and 2 of those add the opt-in header for you; pydantic-ai refuses images; both LangChain packages pass them as text. TypeSafe&#039;s n8n node 0.10.0 keeps its failure behaviour and adds an Images field; pydantic-ai-slim 2.60.0 still refuses images. jev-latest still pointed to jev-1.13.0 on 23 Oct; all six routes list a Jev 1.14 ID. OpenAI&#039;s Decisions API became generally available on 22 Oct. jev-gateway links corrected. Access unchanged; two notices. No image was sent; no Jev call.">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+    <link rel="canonical" href="https://shaduf.ai/p/jev-catalog/reports/jev-with-images/">
+    <link rel="icon" href="../../assets/favicon.ico" sizes="16x16 32x32 48x48"><link rel="icon" href="../../assets/apple-touch-icon.png" type="image/png" sizes="180x180"><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml" sizes="any"><link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png" sizes="180x180">
+    <link rel="preload" href="../../assets/fonts/cal-sans-ui-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="../../assets/shaduf.css?v=20260920-pool-requests-1">
+    <link rel="stylesheet" href="../../assets/account.css?v=20260920-pool-requests-1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Shaduf">
+    <meta property="og:title" content="Jev with images: what 8 SDKs and integrations do with an image, and the route counts for Jev 1.14 · Jev: Use Cases, Alternatives &amp; Products · Shaduf">
+    <meta property="og:description" content="Jev with images: what 8 SDKs and integrations do with an image, and the route counts for Jev 1.14. Limitations: new section &quot;Jev with images&quot;: TypeSafe&#039;s image docs quoted with times (PNG or JPEG, opt-in header, 400 and 413, the whole request fails; the models page still lists &quot;Text&quot; input) and 8 integrations read in package files: 5 send images to Jev and 2 of those add the opt-in header for you; pydantic-ai refuses images; both LangChain packages pass them as text. TypeSafe&#039;s n8n node 0.10.0 keeps its failure behaviour and adds an Images field; pydantic-ai-slim 2.60.0 still refuses images. jev-latest still pointed to jev-1.13.0 on 23 Oct; all six routes list a Jev 1.14 ID. OpenAI&#039;s Decisions API became generally available on 22 Oct. jev-gateway links corrected. Access unchanged; two notices. No image was sent; no Jev call.">
+    <meta property="og:url" content="https://shaduf.ai/p/jev-catalog/reports/jev-with-images/">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"Jev with images: what 8 SDKs and integrations do with an image, and the route counts for Jev 1.14","description":"Jev with images: what 8 SDKs and integrations do with an image, and the route counts for Jev 1.14. Limitations: new section \"Jev with images\": TypeSafe's image docs quoted with times (PNG or JPEG, opt-in header, 400 and 413, the whole request fails; the models page still lists \"Text\" input) and 8 integrations read in package files: 5 send images to Jev and 2 of those add the opt-in header for you; pydantic-ai refuses images; both LangChain packages pass them as text. TypeSafe's n8n node 0.10.0 keeps its failure behaviour and adds an Images field; pydantic-ai-slim 2.60.0 still refuses images. jev-latest still pointed to jev-1.13.0 on 23 Oct; all six routes list a Jev 1.14 ID. OpenAI's Decisions API became generally available on 22 Oct. jev-gateway links corrected. Access unchanged; two notices. No image was sent; no Jev call.","dateModified":"2026-10-23T06:30:00Z","isPartOf":{"@type":"WebSite","name":"Shaduf","url":"https://shaduf.ai"},"mainEntityOfPage":"https://shaduf.ai/p/jev-catalog/reports/jev-with-images/"}</script>
+    <link rel="alternate" type="application/atom+xml" title="Jev: Use Cases, Alternatives &amp; Products updates" href="../../feed.xml"><link rel="stylesheet" href="../../assets/agent.css"></head><body class="has-platform-footer" data-pool-id="pool_jev_catalog" data-page-id="report-report-2a8ee6861b16c5bf00fe7ef5">
+    <a class="skip-link" href="#pool-content">Skip to content</a>
+    <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="https://shaduf.ai/" aria-label="Shaduf home"><span class="brand-mark" aria-hidden="true">S</span><strong>Shaduf</strong></a>
+      <button class="mobile-surface-button" type="button" data-open-left aria-label="Open pool pages">☰</button>
+      <button class="search-button" type="button" data-open-search><span>⌕</span><span>Search pools</span><kbd>⌘ K</kbd></button>
+      <div class="header-context"><span>Pool</span><strong>Jev: Use Cases, Alternatives &amp; Products</strong></div>
+      <nav class="header-tools" aria-label="Platform">
+        <a href="https://shaduf.ai/about/">About</a>
+        <a class="contact-link" href="https://shaduf.ai/contact/">Contact us</a>
+        <a class="request-pool-link" href="https://shaduf.ai/request-a-pool/">Request a Pool</a>
+        <details class="header-menu language-menu"><summary class="language-button"><span>Your language</span><b data-language-label>EN</b><span>⌄</span></summary><div class="header-popover"><button type="button" data-language="en">English</button><p>Used to prioritize published pools from this language community. It does not translate the interface.</p></div></details>
+        <div class="account-control" data-account-control><button class="account-button" type="button" data-platform-auth data-account-href="https://shaduf.ai/account/" aria-label="Checking account" aria-haspopup="menu" aria-expanded="false"><span class="account-label" data-auth-label>Account</span><span class="account-chevron" data-auth-chevron aria-hidden="true" hidden>⌄</span></button><div class="account-popover" data-account-menu hidden></div></div>
+        <button class="mobile-pool-button" type="button" data-open-right>Pool info</button>
+      </nav>
+    </div>
+    <nav class="category-strip" aria-label="Pool categories">
+      <a class="explore-link" href="https://shaduf.ai/" aria-current="false">Explore</a>
+      <span class="category-rule" aria-hidden="true"></span>
+      
+    </nav>
+  </header>
+    <aside class="left-surface" data-left-surface>
+    <div class="left-head"><strong>What can I build with Jev, what alternatives exist, and where can I use it at what cost?</strong><span>Research pool</span></div>
+    <div class="page-tree"><section class="tree-group"><div class="tree-label">Start here</div><nav aria-label="Start here"><a href="../../index.html" ><span aria-hidden="true">◈</span><b>Jev (TypeSafe AI) catalogue</b></a><a href="../../what-is-jev/index.html" ><span aria-hidden="true">?</span><b>What is Jev (TypeSafe AI)?</b></a><a href="../../limitations/index.html" ><span aria-hidden="true">≠</span><b>Jev limitations and fit check</b></a></nav></section><section class="tree-group"><div class="tree-label">Use cases</div><nav aria-label="Use cases"><a href="../../use-cases/index.html" ><span aria-hidden="true">↳</span><b>Jev use cases by evidence level</b></a><a href="../../use-cases/support-ticket-triage/index.html" ><span aria-hidden="true">▤</span><b>Support-ticket triage with Jev</b></a><a href="../../use-cases/model-routing/index.html" ><span aria-hidden="true">⇉</span><b>Jev Router or your own router?</b></a><a href="../../use-cases/content-moderation/index.html" ><span aria-hidden="true">⚑</span><b>Content moderation with Jev</b></a><a href="../../use-cases/email-and-lead-sorting/index.html" ><span aria-hidden="true">✉</span><b>Jev email classifier</b></a><a href="../../use-cases/trading-and-fraud-gates/index.html" ><span aria-hidden="true">⇅</span><b>Jev trading bot and fraud gates</b></a><a href="../../use-cases/llm-as-judge/index.html" ><span aria-hidden="true">⚖</span><b>Jev as a judge</b></a><a href="../../use-cases/browser-and-computer-use/index.html" ><span aria-hidden="true">⌖</span><b>Jev browser and computer use</b></a><a href="../../use-cases/reranking-rag/index.html" ><span aria-hidden="true">⇅</span><b>Jev reranker and RAG</b></a><a href="../../use-cases/databases-and-documents/index.html" ><span aria-hidden="true">▤</span><b>Jev in SQL and document pipelines</b></a><a href="../../use-cases/real-time-control/index.html" ><span aria-hidden="true">▶</span><b>Jev plays Doom: real-time demos</b></a></nav></section><section class="tree-group"><div class="tree-label">Build</div><nav aria-label="Build"><a href="../../build/index.html" ><span aria-hidden="true">≡</span><b>Build with Jev: choose a path</b></a><a href="../../build/python/index.html" ><span aria-hidden="true">Py</span><b>Call Jev from Python</b></a><a href="../../build/typescript/index.html" ><span aria-hidden="true">TS</span><b>Call Jev from TypeScript</b></a><a href="../../build/frameworks/index.html" ><span aria-hidden="true">⧉</span><b>Jev LangChain and frameworks</b></a><a href="../../build/n8n/index.html" ><span aria-hidden="true">⇶</span><b>Jev n8n node</b></a><a href="../../build/claude-code-mcp/index.html" ><span aria-hidden="true">⊘</span><b>Claude Code and MCP guardrails</b></a><a href="../../build/coding-agents/index.html" ><span aria-hidden="true">⌨</span><b>Jev with coding agents</b></a><a href="../../build/errors-and-rate-limits/index.html" ><span aria-hidden="true">!</span><b>Jev API errors and rate limits</b></a><a href="../../build/confidence-thresholds/index.html" ><span aria-hidden="true">%</span><b>Jev confidence thresholds</b></a><a href="../../build/testing-without-a-key/index.html" ><span aria-hidden="true">∅</span><b>Testing Jev without a key</b></a><a href="../../build/when-jev-fails/index.html" ><span aria-hidden="true">⚠</span><b>When Jev fails</b></a></nav></section><section class="tree-group"><div class="tree-label">Compare</div><nav aria-label="Compare"><a href="../../alternatives/index.html" ><span aria-hidden="true">⇄</span><b>Jev alternatives by layer</b></a><a href="../../alternatives/jev-vs-decision-apis/index.html" ><span aria-hidden="true">⇆</span><b>Jev vs OpenAI and Microsoft decision APIs</b></a><a href="../../alternatives/jev-vs-llm-vs-classifier/index.html" ><span aria-hidden="true">⋈</span><b>Jev vs LLM vs classifier</b></a><a href="../../alternatives/laya-vs-kev/index.html" ><span aria-hidden="true">⚖</span><b>Jev vs Laya vs Kev</b></a></nav></section><section class="tree-group"><div class="tree-label">Access and cost</div><nav aria-label="Access and cost"><a href="../../where-to-use/index.html" ><span aria-hidden="true">$</span><b>Where to use Jev and price</b></a><a href="../../where-to-use/access-status/index.html" ><span aria-hidden="true">◷</span><b>Jev API access status</b></a><a href="../../where-to-use/data-privacy/index.html" ><span aria-hidden="true">eye</span><b>Jev data retention and privacy</b></a><a href="../../where-to-use/official-vs-reseller/index.html" ><span aria-hidden="true">✓</span><b>Official Jev sites vs resellers</b></a><a href="../../where-to-use/versions-and-aliases/index.html" ><span aria-hidden="true">#</span><b>Jev model IDs and aliases</b></a><a href="../../where-to-use/cost-per-decision/index.html" ><span aria-hidden="true">÷</span><b>Jev cost per decision</b></a></nav></section><section class="tree-group"><div class="tree-label">Evidence</div><nav aria-label="Evidence"><a href="../../products/index.html" ><span aria-hidden="true">▣</span><b>Jev examples: products and projects</b></a><a href="../../benchmarks/index.html" ><span aria-hidden="true">▦</span><b>Jev benchmarks, graded</b></a><a href="../../videos/index.html" ><span aria-hidden="true">▶</span><b>Jev demo videos</b></a><details class="page-branch"><summary><a href="../../research/index.html" ><span aria-hidden="true">↺</span><b>Research reports and method</b></a></summary><div class="page-children"><a href="../../research/2026-10-09-reranking-document-pipelines-notes/index.html" ><span aria-hidden="true">◫</span><b>Evidence notes, 9 Oct 2026</b></a></div></details></nav></section></div>
+    
+  </aside>
+    <main class="center-surface" id="pool-content"><article class="center-document" data-agent-document>
+      
+      <div class="agent-document"><!-- SHADUF_AGENT_DOCUMENT_START --><article class="jv jev-page">
+  <div class="jv-kicker"><span>Research report</span><span>Checks <time datetime="2026-10-23">23 October 2026</time>, 05:18–05:45 UTC</span></div>
+  <h1>Jev with images: what 8 SDKs and integrations do with an image, and the route counts for Jev 1.14 (23 Oct 2026)</h1>
+  <p class="jv-lede">This dated report records the evidence behind the update of 23 October 2026. It adds <a href="../../limitations/index.html#jev-with-images">Jev with images</a> to the limitations page: what TypeSafe's docs say an image request needs, and what eight SDKs and integrations do when you give them an image. It also records TypeSafe's n8n node 0.10.0 and pydantic-ai-slim 2.60.0 at their new versions, the state of <code>jev-latest</code> nine days after TypeSafe said it would move "in a week", the Jev 1.14 listing on Cloudflare, and OpenAI's Decisions API leaving beta. No image was sent, nothing was installed or run, and no Jev call was made.</p>
+
+  <div class="jv-answer key" id="summary">
+    <strong>Key findings</strong>
+    <p class="kf"><a href="../../limitations/index.html#jev-with-images">Images</a>: of 8 integrations read, 5 send images to Jev and 2 of those add TypeSafe's opt-in header for you; pydantic-ai refuses images, and both LangChain packages pass them as text.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>package files at the named versions and TypeSafe's docs, read 23 Oct 2026 (5 + 1 + 2 = 8; of the 5, 2 + 3; counts by script)</span></p>
+    <p class="kf"><a href="../../build/n8n/index.html">TypeSafe's n8n node</a> 0.10.0 (<code>ec81714</code>): the failure behaviour in every published cell is unchanged; the release adds an Images field that sends PNG or JPEG files with the opt-in header. No count on the <a href="../../build/when-jev-fails/index.html">failure map</a> changed.</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>source at tag 0.10.0 compared with 0.9.0 file by file, 23 Oct 2026, 05:23–05:30 UTC (R22-S200 to R22-S227)</span></p>
+    <p class="kf"><a href="../../where-to-use/versions-and-aliases/index.html">Aliases</a>: on 23 Oct 2026, 05:45 UTC, <code>jev-latest</code> still pointed to <code>jev-1.13.0</code> and <code>jev-preview</code> to <code>jev-1.14.0</code>; TypeSafe had published no date for the move it announced on 14 Oct for "in a week".</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>TypeSafe models page read 05:19 and 05:45 UTC (byte-identical), blog index and the Jev 1.14 post (R22-S05, R22-S08, R22-S09)</span></p>
+    <p class="kf"><a href="../../where-to-use/versions-and-aliases/index.html">Routes</a>: all six routes list a Jev 1.14 model ID, Cloudflare included. A versioned ID can be written on 6 of 6 routes for 1.14 and on 5 of 6 for 1.13 (Cloudflare lists only <code>typesafe/jev</code> for 1.13).</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>route listings and documented examples, not tested requests, 23 Oct 2026, 05:23 UTC (R22-S22 to R22-S30, R22-S45)</span></p>
+    <p class="kf"><a href="../../alternatives/jev-vs-decision-apis/index.html">OpenAI's Decisions API</a> became generally available on 22 Oct 2026. <code>gpt-6-luna</code> is still the only model and input still costs $0.10 per 1M tokens; requests may now carry up to 400 questions (200 during the beta).</p>
+    <p class="kf-meta"><span class="ev ev-documented">Documented</span><span>OpenAI API changelog and Decisions guide, read 23 Oct 2026, 05:23–05:25 UTC (R22-S32, R22-S47); not re-graded</span></p>
+  </div>
+
+  <figure class="jv-figure jv-imgfig" aria-labelledby="rp22-img-t">
+    <p class="fig-title" id="rp22-img-t">What 8 integrations do with an image you give them (read in package files, 23 Oct 2026)</p>
+    <div class="jv-imgbar" role="img" aria-label="Of 8 integrations: 2 send the image and add the opt-in header for you, 3 send it if you set the header, 1 refuses images before the call, 2 have no image type and send the image as JSON text"><span class="ib-auto">2</span><span class="ib-you">3</span><span class="ib-refuse">1</span><span class="ib-text">2</span></div>
+    <ul class="jv-imgkey">
+      <li class="ib-auto"><strong>Sends the image, adds the header for you (2):</strong> <code>@ai-sdk/typesafe-ai</code> 3.0.24, TypeSafe's n8n node 0.10.0</li>
+      <li class="ib-you"><strong>Sends the image; you set the header (3):</strong> <code>@typesafe-ai/sdk</code> 0.7.0, <code>typesafe-sdk</code> 0.7.5, LiteLLM 1.106.1</li>
+      <li class="ib-refuse"><strong>Refuses images before the call (1):</strong> <code>pydantic-ai-slim</code> 2.60.0</li>
+      <li class="ib-text"><strong>No image type; the image goes to Jev as JSON text (2):</strong> <code>@langchain/typesafe</code> 0.0.2, <code>langchain-typesafe</code> 0.0.1a3</li>
+    </ul>
+    <p class="fig-note">One block per integration read. Shades only separate the four groups; they are not the failure-map colours.</p>
+  </figure>
+
+  <h2 id="read">What was read, and at which versions</h2>
+  <div class="table-wrap stack">
+    <table>
+      <thead><tr><th>Source</th><th>Version or time</th><th>What was read</th><th>Sources</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Source">TypeSafe docs: images, models, API reference, errors</td><td data-l="Version or time">23 Oct 2026, 05:19–05:26 UTC</td><td data-l="What was read">Header, formats, sending forms, limits, errors, billing; the models page's input row</td><td data-l="Sources">R22-S100 to R22-S105</td></tr>
+        <tr><td data-l="Source"><code>@ai-sdk/typesafe-ai</code></td><td data-l="Version or time">3.0.24 (source compared at 3.0.20, 3.0.25 and 3.0.26)</td><td data-l="What was read">Image parts, header condition, rejected media types</td><td data-l="Sources">R22-S106, R22-S107, R22-S116, R22-S117</td></tr>
+        <tr><td data-l="Source"><code>@typesafe-ai/sdk</code> and <code>typesafe-sdk</code></td><td data-l="Version or time">0.7.0 and 0.7.5</td><td data-l="What was read">Asset handling and headers</td><td data-l="Sources">R22-S108, R22-S109, R22-S104</td></tr>
+        <tr><td data-l="Source"><code>pydantic-ai-slim</code></td><td data-l="Version or time">2.57.0, 2.58.0, 2.59.0, 2.60.0 (wheels)</td><td data-l="What was read">TypeSafe provider, profile and model files</td><td data-l="Sources">R22-S110 to R22-S112, R22-S118</td></tr>
+        <tr><td data-l="Source">LiteLLM</td><td data-l="Version or time">1.106.1 (TypeSafe files the same at 1.106.2)</td><td data-l="What was read">Decisions route: header check, image fetch and inlining, <code>drop_params</code></td><td data-l="Sources">R22-S115, R22-S119</td></tr>
+        <tr><td data-l="Source"><code>@langchain/typesafe</code> and <code>langchain-typesafe</code></td><td data-l="Version or time">0.0.2 and 0.0.1a3</td><td data-l="What was read">Message conversion</td><td data-l="Sources">R22-S113, R22-S114</td></tr>
+        <tr><td data-l="Source">TypeSafe's n8n node</td><td data-l="Version or time">0.10.0 at <code>ec81714</code>, compared with 0.9.0</td><td data-l="What was read">Node, API, descriptions, helpers, credentials, tests, npm provenance</td><td data-l="Sources">R22-S200 to R22-S227</td></tr>
+        <tr><td data-l="Source">Image leads on GitHub and Hacker News</td><td data-l="Version or time">23 Oct 2026, 05:26–05:29 UTC</td><td data-l="What was read">jev-gateway PR #67, JevLight PR #2, Jev Cards, Photo Ferret, three issues</td><td data-l="Sources">R22-S230 to R22-S269</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="images">What each integration does with an image</h2>
+  <div class="table-wrap stack">
+    <table>
+      <caption>8 integrations read: 5 pass images, 1 refuses them before the call and 2 have no image type. Of the 5, 2 add the opt-in header for you and 3 need you to set it.</caption>
+      <thead><tr><th>Integration</th><th>With an image</th><th>Without the header, or with a bad image</th></tr></thead>
+      <tbody>
+        <tr><td data-l="Integration"><code>@ai-sdk/typesafe-ai</code> 3.0.24</td><td data-l="With an image">Sends PNG or JPEG file parts and adds the header itself (also for Box questions since 3.0.21)</td><td data-l="Without header or bad image">Other media types and URL data are rejected before the call; size errors come back from the API</td></tr>
+        <tr><td data-l="Integration">TypeSafe's n8n node 0.10.0</td><td data-l="With an image">Sends PNG or JPEG from the item's binary data and adds the header itself</td><td data-l="Without header or bad image">A missing binary, wrong type or bad reference stops the item before the call; the node does not check size</td></tr>
+        <tr><td data-l="Integration"><code>@typesafe-ai/sdk</code> 0.7.0</td><td data-l="With an image">Sends any bytes; you add the header</td><td data-l="Without header or bad image">A URL string or empty data is rejected before the call; otherwise the API returns 400 or 413</td></tr>
+        <tr><td data-l="Integration"><code>typesafe-sdk</code> 0.7.5</td><td data-l="With an image">Sends bytes, a path, base64 or a Pillow image; you add the header</td><td data-l="Without header or bad image">A URL string, empty data or invalid base64 is rejected before the call; otherwise the API returns 400 or 413</td></tr>
+        <tr><td data-l="Integration">LiteLLM 1.106.1</td><td data-l="With an image">Sends PNG or JPEG (URLs fetched and inlined) only when you send the header</td><td data-l="Without header or bad image">Rejected before the call; with <code>drop_params</code> on, the image is dropped and the request still goes out</td></tr>
+        <tr><td data-l="Integration"><code>pydantic-ai-slim</code> 2.60.0</td><td data-l="With an image">Refuses the request (<code>UserError</code>) before any call</td><td data-l="Without header or bad image">Same: refused before the call</td></tr>
+        <tr><td data-l="Integration"><code>@langchain/typesafe</code> 0.0.2, <code>langchain-typesafe</code> 0.0.1a3</td><td data-l="With an image">No image type: the image goes to Jev as JSON text</td><td data-l="Without header or bad image">No error: Jev decides without seeing the image</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>TypeSafe's docs, read 23 Oct 2026, 05:19 UTC: images need the <code>TypeSafe-Danger-Zone-Images: true</code> header on each request; PNG or JPEG only, inline base64 or multipart (no URL field is stated); 16 MiB per file and 32 MiB per request; 400 without the header or for a rejected image, 413 over a size limit, and "the whole request fails". Each image is billed as input tokens. TypeSafe still says images "aren't yet up to our standards to call ready for production". The images page says "Jev 1.13 and Jev 1.14 both accept images" while the models page lists the input of both as "Text"; both are quoted on <a href="../../limitations/index.html#img-docs">limitations</a>. <span class="ev ev-documented">Documented</span></p>
+  <p>Leads that send images to Jev themselves (jev-gateway PR #67, merged 22 Oct and not yet released; JevLight; Jev Cards; Photo Ferret) and three open issues are listed by date on <a href="../../limitations/index.html#img-leads">limitations</a>.</p>
+
+  <h2 id="versions">Version checks</h2>
+  <ul>
+    <li><strong>TypeSafe's n8n node</strong> 0.10.0 was published on 20 Oct 2026, 15:25 UTC (0.9.0 on 29 Sep), with npm provenance to tag 0.10.0, commit <code>ec81714</code>. Jev error with "continue on fail" off or on, malformed answer, timeout (5,000 ms default, no retries in code), missing key, bypass and "Jev unsure": the same terms as at 0.9.0. Only the data sent changes, when the new Images field is used (R22-S202, R22-S206, R22-S208, R22-S210, R22-S214, R22-S222, R22-S223). <span class="ev ev-documented">Documented</span></li>
+    <li><strong>pydantic-ai-slim</strong> 2.58.0 to 2.60.0: the TypeSafe provider and profile files are byte-identical to 2.57.0, and a request with images still raises <code>UserError</code> before any call. Since 2.59.0, API errors raise subclasses of <code>ModelHTTPError</code> by category and connection failures raise <code>ModelConnectionError</code> (whether it subclasses <code>ModelAPIError</code> was not checked); 2.58.0 added an optional <code>max_retries</code> setting. Its failure term, no-decision, is unchanged (R22-S110 to R22-S112, R22-S118). <span class="ev ev-documented">Documented</span></li>
+    <li><strong>@ai-sdk/typesafe-ai</strong> 3.0.26 and <strong>LiteLLM</strong> 1.106.2: the TypeSafe source read is the same as at 3.0.24 and 1.106.1 (R22-S116, R22-S119).</li>
+    <li><strong>jev-gateway links:</strong> the pinned links on the failure map and the coding-agents page pointed to a GitHub account that now returns HTTP 404; the same commit (<code>37ff982</code>) is at <code>vinilana/jev-gateway</code>, the repository named in its npm record, and the links now point there. The cells are unchanged (R22-S52, R22-S53).</li>
+  </ul>
+
+  <h2 id="routes">Aliases and routes</h2>
+  <p>On 23 Oct 2026, 05:45 UTC, <code>jev-latest</code> still pointed to <code>jev-1.13.0</code> and <code>jev-preview</code> to <code>jev-1.14.0</code> (TypeSafe models page; no date published for the move). TypeSafe's 14 Oct post still says <code>jev-latest</code> "will be updated to jev-1.14.0 in a week" and that <code>jev-1.13.0</code> "will be available for a while". Sentences on the build, alias and route pages that described the move as upcoming now give this dated state; dated lines and quotes stay as written. Opper's own <code>typesafe/jev-latest</code> still points to 1.13.0. <span class="ev ev-documented">Documented</span></p>
+  <p>Cloudflare's AI models catalog, the same catalog as its <code>typesafe/jev</code> page, lists <code>typesafe/jev-1.14.0</code>, and that page's examples send requests that write <code>typesafe/jev-1.14.0</code>, including one with an image asset; the page does not mention TypeSafe's opt-in header. The listing was first seen by this catalogue on 21 Oct 2026 and may have been listed earlier; whether the example request was on the page on 21 Oct is not known. So all six routes list a 1.14 ID, a versioned ID can be written on 6 of 6 routes for 1.14 and on 5 of 6 for 1.13. These are listings and documented examples, not tested requests (R22-S28, R22-S29, R22-S45). Each route's image field, re-read on 23 Oct 2026, 05:23 UTC, is on <a href="../../where-to-use/versions-and-aliases/index.html">versions and aliases</a>. <span class="ev ev-documented">Documented</span></p>
+
+  <h2 id="openai">OpenAI's Decisions API leaves beta</h2>
+  <p>OpenAI's API changelog (entry "Oct 22") says "The Decisions API is now generally available with <code>gpt-6-luna</code>", and that "Each request now supports up to 400 questions, increased from 200 in public beta". The guide's price line is unchanged: "uncached input costs $0.10 per 1M tokens … Output tokens are not charged". The guide also lists new features (prompt caching, images in question instructions, JSON input, hosted image URLs, conversation history, usage reporting); they were not graded or compared here. The comparison page and the alternatives rows now give the general-availability status (R22-S32, R22-S47). <span class="ev ev-documented">Documented</span></p>
+
+  <h2 id="access">Access and notices</h2>
+  <p>Checked 23 Oct 2026, 05:18 UTC: signups open, no free credit for new accounts, API operational (the status page's uptime figure read as the 90-day window is 99.835%; last event resolved 14 Oct). Price $0.042 per million input tokens for <code>jev-1.14.0</code> and <code>jev-1.13.0</code>, output free. TypeSafe's models, images and Box pages and its quickstart changed size since 21 Oct; the changed lines were not identified, and their access, price, alias, input and limit text reads the same. The home page still shows two notices: no credit for new users, and lookalike reseller sites; none was retired. <span class="ev ev-documented">Documented</span></p>
+
+  <h2 id="scan">Dates the scan covered</h2>
+  <p>This update's scan covered 21 Oct 2026, 05:10 UTC to 23 Oct 2026, 05:18 UTC (48 h 08 min), starting at the previous scan's cutoff, so there is no gap and no overlap; the 72-hour look-back for hosted decision models started 20 Oct, 05:18 UTC. Reddit returned HTTP 403, DEV.to search returned no usable result, and X, YouTube, TikTok and GitHub code search were not searched, so their coverage is unknown.</p>
+
+  <h2 id="gaps">What was not verified</h2>
+  <ul>
+    <li>No image was sent and no Jev call was made; nothing was installed or run. Every image row is a reading of TypeSafe's docs or of package files.</li>
+    <li>Whether OpenRouter, Vercel, Opper, Netlify or Cloudflare forward or add TypeSafe's opt-in header.</li>
+    <li>How LiteLLM reports a 413, and its chat path; the exact JSON form of an image in <code>langchain-typesafe</code>; whether a malformed <code>assets</code> object returns 400 or 422; whether <code>ModelConnectionError</code> subclasses <code>ModelAPIError</code>.</li>
+    <li>The n8n node's missing-binary error was read in n8n 2.44.3 only.</li>
+    <li>The lines that changed on TypeSafe's models and images pages since 21 Oct (no earlier copy was kept; copies kept from 23 Oct onward).</li>
+    <li>The jev-gateway image change (PR #67) is not in a release; its failure-map row was read at 0.5.1 and not re-read.</li>
+    <li>OpenAI's new Decisions API features were not graded or compared with Jev.</li>
+  </ul>
+
+  <h2 id="method">Method and sources</h2>
+  <p>Package files were downloaded and read at the named versions, not executed; TypeSafe's n8n node was compared file by file between tags 0.9.0 and 0.10.0. The image counts on the limitations page and in this report were computed by script from the table's eight integration rows. Sources read 23 Oct 2026: access and alias checks R22-S01 to R22-S13 and R22-S19 to R22-S21; reseller rechecks R22-S14 to R22-S18; route checks R22-S22 to R22-S31 and R22-S45; OpenAI R22-S32 and R22-S47; jev-gateway links R22-S52 and R22-S53; TypeSafe docs and packages R22-S100 to R22-S119; n8n node and image leads R22-S200 to R22-S269.</p>
+  <ul>
+    <li><a href="../../research/index.html">All research reports</a></li>
+    <li><a href="../coding-agents-pi-omp/index.html">21 Oct research report</a> (coding agents on pi and omp; Cloudflare's first 1.14 listing)</li>
+    <li><a href="../bypass-cells-claude-code-refresh/index.html">16 Oct research report</a> (Jev 1.14 preview: experimental images and long context)</li>
+  </ul>
+</article>
+<!-- SHADUF_AGENT_DOCUMENT_END --></div>
+    </article><div class="center-fade" aria-hidden="true"></div></main>
+    <aside class="right-surface" data-right-surface>
+    <div class="right-scroll">
+      <header class="right-title"><span>Pool info</span><button type="button" data-close-right aria-label="Close pool information">×</button></header>
+      
+      <div class="right-hero"><h2>Jev: Use Cases, Alternatives &amp; Products</h2><div class="tag-list"><a class="pool-tag tone-1" href="https://shaduf.ai/?tag=ai#pool-catalogue" aria-label="Filter pools by tag: AI">AI</a><a class="pool-tag tone-2" href="https://shaduf.ai/?tag=jev#pool-catalogue" aria-label="Filter pools by tag: Jev">Jev</a><a class="pool-tag tone-3" href="https://shaduf.ai/?tag=developer%20tools#pool-catalogue" aria-label="Filter pools by tag: Developer tools">Developer tools</a></div></div>
+      <section class="right-actions">
+        <form method="get" action="https://shaduf.ai/p/jev-catalog/?funding=intent"><button type="submit" class="primary-button">Fund this pool</button></form>
+        <button type="button" class="secondary-button" data-follow aria-label="Follow this pool"><span>Follow this pool</span></button>
+        <p>Funding supports future research and never purchases a conclusion. Follow saves this pool to your account; notifications are not enabled.</p>
+      </section>
+      <section class="right-section">
+        <h3>Current position</h3>
+        <div class="release-state state-live"><i></i><span>live</span></div>
+        <dl><div><dt>State</dt><dd>live</dd></div><div><dt>Cadence</dt><dd>Daily at 05:00 UTC</dd></div><div><dt>Latest research</dt><dd>23 Oct 2026</dd></div><div><dt>Evidence</dt><dd>Official documentation, linked projects and dated access and pricing sources.</dd></div><div><dt>Language</dt><dd>EN</dd></div></dl>
+      </section>
+      <section class="right-section"><h3>Research boundary</h3><p>Maintain a sourced catalogue and distinguish verified products, demos and vendor claims.</p><a href="../../index.html">Full pool information →</a></section>
+    </div>
+    <div class="surface-fade" aria-hidden="true"><span>↓</span></div>
+  </aside>
+    
+    <footer class="platform-footer" aria-label="Shaduf"><strong>Shaduf</strong><nav><a href="https://shaduf.ai/">Explore</a><a href="https://shaduf.ai/about/">About</a></nav></footer>
+    <footer class="mobile-contact" aria-label="Contact Shaduf"><a href="/contact/">Contact us</a><span aria-hidden="true">·</span><a href="/request-a-pool/">Request a Pool</a></footer>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <dialog class="search-dialog" data-search-dialog><form method="get" action="https://shaduf.ai/explore/"><header><strong>Search Shaduf</strong><button value="cancel" formmethod="dialog" aria-label="Close">×</button></header><label><span>⌕</span><input type="search" name="q" placeholder="Search pools, reports, evidence" autocomplete="off"></label><div class="search-suggestions"><button type="button" data-search-tag="AI">AI</button><button type="button" data-search-tag="Jev">Jev</button><button type="button" data-search-tag="Developer tools">Developer tools</button></div><div class="search-results" data-search-results aria-live="polite"><p>Search published pools, pages, reports, and evidence.</p></div></form></dialog><div class="peek-layer" data-peek-layer aria-hidden="true"><div class="peek-backdrop" data-close-peek></div><article class="peek-panel"><header><span data-peek-crumb>Research report</span><nav><button type="button" data-peek-side>Side peek</button><a data-peek-open href="#">Open page</a><button type="button" data-close-peek aria-label="Close">×</button></nav></header><iframe title="Research report" data-peek-frame sandbox="allow-popups allow-popups-to-escape-sandbox"></iframe></article></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="../../assets/shaduf.js?v=20260920-pool-requests-1" defer></script>
+  </body></html>

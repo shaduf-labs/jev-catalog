@@ -2,6 +2,48 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "limitations-jev-with-images-2026-10-23",
+      "changed_at": "2026-10-23T06:30:00Z",
+      "summary": "Limitations: new section \"Jev with images\". Of 8 SDKs and integrations read in package files, 5 send images to Jev and 2 of those add TypeSafe's opt-in header for you; pydantic-ai refuses images and both LangChain packages pass them as text. TypeSafe's image docs quoted with times; no image was sent.",
+      "path": "/p/jev-catalog/limitations"
+    },
+    {
+      "change_id": "n8n-0-10-0-images-2026-10-23",
+      "changed_at": "2026-10-23T06:30:00Z",
+      "summary": "n8n: TypeSafe's node 0.10.0 keeps the same failure behaviour and adds an Images field that sends PNG or JPEG with the opt-in header. Image lines also on TypeScript, Python, frameworks (pydantic-ai-slim 2.60.0 still refuses images) and errors and limits.",
+      "path": "/p/jev-catalog/build/n8n"
+    },
+    {
+      "change_id": "versions-aliases-routes-2026-10-23",
+      "changed_at": "2026-10-23T06:30:00Z",
+      "summary": "Versions and aliases: sentences that described the jev-latest move as upcoming now give its state on 23 Oct (still jev-1.13.0, no date published). All six routes list a Jev 1.14 ID; a versioned ID can be written on 6 of 6 routes for 1.14 and 5 of 6 for 1.13. Route image fields re-read.",
+      "path": "/p/jev-catalog/where-to-use/versions-and-aliases"
+    },
+    {
+      "change_id": "decisions-api-ga-2026-10-23",
+      "changed_at": "2026-10-23T06:30:00Z",
+      "summary": "Decision-API comparison and alternatives: OpenAI's Decisions API became generally available on 22 Oct 2026; same model and input price; up to 400 questions per request (200 in the beta). Not re-graded.",
+      "path": "/p/jev-catalog/alternatives/jev-vs-decision-apis"
+    },
+    {
+      "change_id": "jev-gateway-links-2026-10-23",
+      "changed_at": "2026-10-23T06:30:00Z",
+      "summary": "When Jev fails and coding agents: the pinned jev-gateway links now point to the repository named in its npm record, at the same commit; cells unchanged.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "report-jev-with-images-2026-10-23",
+      "changed_at": "2026-10-23T06:30:00Z",
+      "summary": "New dated report: Jev with images, what 8 SDKs and integrations do with an image, and the route counts for Jev 1.14 (23 Oct 2026).",
+      "path": "/p/jev-catalog/reports/jev-with-images"
+    },
+    {
+      "change_id": "access-recheck-2026-10-23",
+      "changed_at": "2026-10-23T06:30:00Z",
+      "summary": "Access status rechecked 23 Oct 2026, 05:18 UTC: signups open, no new-user credit, API operational; price, rate-limit wording and model aliases unchanged (jev-latest still on jev-1.13.0; TypeSafe has published no date for the move to 1.14). Home keeps its two notices; none retired.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
       "change_id": "coding-agents-pi-omp-2026-10-21",
       "changed_at": "2026-10-21T06:30:00Z",
       "summary": "Coding agents: ohmyjev's pi and omp adapters added as a counted row (on every Jev failure the gate returns without blocking, so the tool runs). 27 integrations read in source; 14 act on Jev's answer (3 fail-closed, 9 fallback, 2 fail-open), 10 do not, 3 are not settled (Hoppin-Sorter/jev-router, auto-mode 3.0.0, jcode). 13 new leads classed.",

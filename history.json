@@ -374,6 +374,17 @@
       "summary": "Coding agents: ohmyjev's pi and omp adapters added as a counted row (fail-open on every Jev failure; acts-anyway below threshold); 27 read in source, 14 act on Jev's answer (3 fail-closed, 9 fallback, 2 fail-open), 10 do not, 3 are not settled (Hoppin-Sorter/jev-router, auto-mode 3.0.0, jcode); 13 new leads classed. The failure map's ohmyjev row names pi and omp (still 80). Alternatives: Nace.AI's website terms and Console terms quoted side by side; they differ on training and retention. Cloudflare's catalog lists typesafe/jev-1.14.0. Access unchanged; jev-latest still on jev-1.13.0; the two Jev 1.14 home notices came off after seven days. Nothing was run; no Jev call.",
       "report_path": "/p/jev-catalog/reports/coding-agents-pi-omp",
       "entrypoint": "reports/coding-agents-pi-omp/index.html"
+    },
+    {
+      "run_id": "report-2a8ee6861b16c5bf00fe7ef5",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-23T05:01:00Z",
+      "completed_at": "2026-10-23T06:30:00Z",
+      "title": "Jev with images: what 8 SDKs and integrations do with an image, and the route counts for Jev 1.14",
+      "summary": "Limitations: new section \"Jev with images\": TypeSafe's image docs quoted with times (PNG or JPEG, opt-in header, 400 and 413, the whole request fails; the models page still lists \"Text\" input) and 8 integrations read in package files: 5 send images to Jev and 2 of those add the opt-in header for you; pydantic-ai refuses images; both LangChain packages pass them as text. TypeSafe's n8n node 0.10.0 keeps its failure behaviour and adds an Images field; pydantic-ai-slim 2.60.0 still refuses images. jev-latest still pointed to jev-1.13.0 on 23 Oct; all six routes list a Jev 1.14 ID. OpenAI's Decisions API became generally available on 22 Oct. jev-gateway links corrected. Access unchanged; two notices. No image was sent; no Jev call.",
+      "report_path": "/p/jev-catalog/reports/jev-with-images",
+      "entrypoint": "reports/jev-with-images/index.html"
     }
   ]
 }
