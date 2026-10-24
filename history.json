@@ -385,6 +385,17 @@
       "summary": "Limitations: new section \"Jev with images\": TypeSafe's image docs quoted with times (PNG or JPEG, opt-in header, 400 and 413, the whole request fails; the models page still lists \"Text\" input) and 8 integrations read in package files: 5 send images to Jev and 2 of those add the opt-in header for you; pydantic-ai refuses images; both LangChain packages pass them as text. TypeSafe's n8n node 0.10.0 keeps its failure behaviour and adds an Images field; pydantic-ai-slim 2.60.0 still refuses images. jev-latest still pointed to jev-1.13.0 on 23 Oct; all six routes list a Jev 1.14 ID. OpenAI's Decisions API became generally available on 22 Oct. jev-gateway links corrected. Access unchanged; two notices. No image was sent; no Jev call.",
       "report_path": "/p/jev-catalog/reports/jev-with-images",
       "entrypoint": "reports/jev-with-images/index.html"
+    },
+    {
+      "run_id": "report-58e9683db9e8f90500d59baf",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-24T05:01:00Z",
+      "completed_at": "2026-10-24T06:30:00Z",
+      "title": "jev-latest now gives Jev 1.14; decision leaderboards and four new graded studies",
+      "summary": "jev-latest on TypeSafe's API moved from jev-1.13.0 to jev-1.14.0 between the 23 Oct, 05:45 UTC and 24 Oct, 05:12 UTC checks, with no dated announcement; jev-1.13.0 is still listed by its ID with no deprecation date; Opper's typesafe/jev-latest still gave 1.13. Pages that name a default model now say what an unpinned request gets. Benchmarks: four decision leaderboards that list Jev, with vendor rank claims checked against their own data (Base Labs' \"#1 of 208\" matches the Jev Decision Index's 20 Oct data, not its 22 Oct data); B45-B48 graded, ledger 45 (A 14, B 14, C 10, D 7). OpenAI's Decisions API now prices cached input. Access unchanged; three notices. No Jev call, no route call, nothing submitted to a leaderboard.",
+      "report_path": "/p/jev-catalog/reports/jev-latest-1-14-and-leaderboards",
+      "entrypoint": "reports/jev-latest-1-14-and-leaderboards/index.html"
     }
   ]
 }

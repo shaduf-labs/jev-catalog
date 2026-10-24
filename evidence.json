@@ -6516,7 +6516,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/fazlerocks/jevmail/tree/f6f20af9c2805efd924c29cbea59547e72c558fc",
       "title": "Run 6 source R6-S51: github.com/fazlerocks/jevmail/tree/f6f20af9c2805efd924c29cbea59547e72c558fc",
-      "claim": "Read-only Gmail access. The only Gmail scope requested is gmail.readonly. (Documented (source); at f6f20af9c2805efd924c29cbea59547e72c558fc; Read by runner)",
+      "claim": "Read-only Gmail access. The only Gmail scope requested is gmail.readonly. (Documented (source); at f6f20af9c2805efd924c29cbea59547e72c558fc; read at the pinned commit)",
       "accessed_at": "2026-10-03T05:19:40Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6526,7 +6526,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/tree/ade42bfba9b68404fba06724b149145caf074ff8",
       "title": "Run 6 source R6-S52: github.com/ilyamk/jev-gmail-ai-spam-filter-and-labeling/tree/ade42bfba9b68404fba06724b1491",
-      "claim": "dryRun: options.dryRun !== false (Documented (source); at ade42bfba9b68404fba06724b149145caf074ff8; Read by helper; runner spot-checked L18-25, L2436-2438, L4595-4607 at 05:25)",
+      "claim": "dryRun: options.dryRun !== false (Documented (source); at ade42bfba9b68404fba06724b149145caf074ff8; read at the pinned commit; L18-25, L2436-2438, L4595-4607 spot-checked against the raw file at the pin (05:25 UTC))",
       "accessed_at": "2026-10-03T05:21:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6536,7 +6536,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/parth-kp/jev-mail-classifier/tree/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07",
       "title": "Run 6 source R6-S53: github.com/parth-kp/jev-mail-classifier/tree/db96194723a7d057a4c7b54cc9b56d0dc3cc6d07",
-      "claim": "Mark processed even when nothing matched (Documented (source); at db96194723a7d057a4c7b54cc9b56d0dc3cc6d07; Read by helper; runner spot-checked cli.py at 05:25)",
+      "claim": "Mark processed even when nothing matched (Documented (source); at db96194723a7d057a4c7b54cc9b56d0dc3cc6d07; read at the pinned commit; cli.py spot-checked against the raw file at the pin (05:25 UTC))",
       "accessed_at": "2026-10-03T05:21:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6546,7 +6546,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/vynnlee/jev-mail/tree/61e346f9034161e4cb7ddf04907326841e01300b",
       "title": "Run 6 source R6-S54: github.com/vynnlee/jev-mail/tree/61e346f9034161e4cb7ddf04907326841e01300b",
-      "claim": "throw new Error('TypeSafe API HTTP ' + code) (Documented (source); at 61e346f9034161e4cb7ddf04907326841e01300b; Read by helper; runner spot-checked worker.ts at 05:25)",
+      "claim": "throw new Error('TypeSafe API HTTP ' + code) (Documented (source); at 61e346f9034161e4cb7ddf04907326841e01300b; read at the pinned commit; worker.ts spot-checked against the raw file at the pin (05:25 UTC))",
       "accessed_at": "2026-10-03T05:22:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6556,7 +6556,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/automatewithuday/spam-leadgen-pipeline/tree/78a7592d5ef9ac5238638846ed18281ef679a4c0",
       "title": "Run 6 source R6-S55: github.com/automatewithuday/spam-leadgen-pipeline/tree/78a7592d5ef9ac5238638846ed18281ef67",
-      "claim": "body: (e.body_text ?? \"\").slice(0, 4000) (Documented (source); at 78a7592d5ef9ac5238638846ed18281ef679a4c0; Read by helper; runner spot-checked classify.ts at 05:25)",
+      "claim": "body: (e.body_text ?? \"\").slice(0, 4000) (Documented (source); at 78a7592d5ef9ac5238638846ed18281ef679a4c0; read at the pinned commit; classify.ts spot-checked against the raw file at the pin (05:25 UTC))",
       "accessed_at": "2026-10-03T05:22:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6596,7 +6596,7 @@
       "source_type": "documented source",
       "source_url": "https://registry.npmjs.org/@typesafe-ai%2fn8n-nodes-typesafe-ai",
       "title": "Run 6 source R6-S60: registry.npmjs.org/@typesafe-ai%2fn8n-nodes-typesafe-ai",
-      "claim": "maintainers alliesafe ((a typesafe.ai address)), diogo149 ((a typesafe.ai address)) (Documented; at 0.9.0; provenance commit c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Provenance links to typesafe-ai repo tag 0.9.0; runner re-read maintainers 05:27)",
+      "claim": "maintainers alliesafe ((a typesafe.ai address)), diogo149 ((a typesafe.ai address)) (Documented; at 0.9.0; provenance commit c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Provenance links to typesafe-ai repo tag 0.9.0; maintainers field re-read (05:27 UTC))",
       "accessed_at": "2026-10-03T05:20:53Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6616,7 +6616,7 @@
       "source_type": "documented source",
       "source_url": "https://docs.n8n.io/integrations/community-nodes/installation/",
       "title": "Run 6 source R6-S62: docs.n8n.io/integrations/community-nodes/installation/",
-      "claim": "Unverified community nodes aren't available on n8n cloud and require self-hosting n8n. (Documented (n8n docs); Accessible (helper))",
+      "claim": "Unverified community nodes aren't available on n8n cloud and require self-hosting n8n. (Documented (n8n docs); Accessible)",
       "accessed_at": "2026-10-03T05:23:10Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6626,7 +6626,7 @@
       "source_type": "documented source",
       "source_url": "https://api.n8n.io/api/community-nodes?pagination%5BpageSize%5D=2000",
       "title": "Run 6 source R6-S63: api.n8n.io/api/community-nodes?pagination%5BpageSize%5D=2000",
-      "claim": "1765 entries; only Jev/TypeSafe entry isOfficialNode true, company Typesafe AI (Documented; at @typesafe-ai/n8n-nodes-typesafe-ai 0.9.0; Runner re-read)",
+      "claim": "1765 entries; only Jev/TypeSafe entry isOfficialNode true, company Typesafe AI (Documented; at @typesafe-ai/n8n-nodes-typesafe-ai 0.9.0; re-read at the package version)",
       "accessed_at": "2026-10-03T05:27:14Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6646,7 +6646,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b",
       "title": "Run 6 source R6-S65: github.com/typesafe-ai/n8n-nodes-typesafe-ai/tree/c12537bbd9ed7159b7bbe23678ca128c7b2fb52b",
-      "claim": "A failure is not a routing decision, so it goes to Fallback or Uncertain where one exists (Documented (source); at c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; Read by helper; runner spot-checked L316-353 at 05:27)",
+      "claim": "A failure is not a routing decision, so it goes to Fallback or Uncertain where one exists (Documented (source); at c12537bbd9ed7159b7bbe23678ca128c7b2fb52b; read at the pinned commit; L316-353 spot-checked against the raw file at the pin (05:27 UTC))",
       "accessed_at": "2026-10-03T05:20:40Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6656,7 +6656,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/DomMonte/n8n-nodes-typesafe-ai/tree/ff2afca0a90c8020db40e7c2dd2b13cad9514381",
       "title": "Run 6 source R6-S66: github.com/DomMonte/n8n-nodes-typesafe-ai/tree/ff2afca0a90c8020db40e7c2dd2b13cad9514381",
-      "claim": "(Documented (source); at ff2afca0a90c8020db40e7c2dd2b13cad9514381; Read by helper)",
+      "claim": "(Documented (source); at ff2afca0a90c8020db40e7c2dd2b13cad9514381; read at the pinned commit)",
       "accessed_at": "2026-10-03T05:22:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6666,7 +6666,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/vibe-with-me-tools/n8n-nodes-jev/tree/ddbfe850d5d15731aaf42b395960b12805c64942",
       "title": "Run 6 source R6-S67: github.com/vibe-with-me-tools/n8n-nodes-jev/tree/ddbfe850d5d15731aaf42b395960b12805c64942",
-      "claim": "(Documented (source); at ddbfe850d5d15731aaf42b395960b12805c64942; Read by helper; repository matches npm field (05:28))",
+      "claim": "(Documented (source); at ddbfe850d5d15731aaf42b395960b12805c64942; read at the pinned commit; repository matches npm field (05:28))",
       "accessed_at": "2026-10-03T05:22:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6676,7 +6676,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/taifoon-io/n8n-nodes-typesafe/tree/cdcc0f3427942ea616fa19a226faac632c6ff669",
       "title": "Run 6 source R6-S68: github.com/taifoon-io/n8n-nodes-typesafe/tree/cdcc0f3427942ea616fa19a226faac632c6ff669",
-      "claim": "(Documented (source); at cdcc0f3427942ea616fa19a226faac632c6ff669; Read by helper; repository matches npm field (05:28))",
+      "claim": "(Documented (source); at cdcc0f3427942ea616fa19a226faac632c6ff669; read at the pinned commit; repository matches npm field (05:28))",
       "accessed_at": "2026-10-03T05:23:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -6686,7 +6686,7 @@
       "source_type": "documented source",
       "source_url": "https://github.com/zampierid4p/n8n-nodes-typesafe/tree/549a5451e0b463e51fbb00582babb800f23aa527",
       "title": "Run 6 source R6-S69: github.com/zampierid4p/n8n-nodes-typesafe/tree/549a5451e0b463e51fbb00582babb800f23aa527",
-      "claim": "(Documented (source); at 549a5451e0b463e51fbb00582babb800f23aa527; Read by helper; repository matches npm field (05:28))",
+      "claim": "(Documented (source); at 549a5451e0b463e51fbb00582babb800f23aa527; read at the pinned commit; repository matches npm field (05:28))",
       "accessed_at": "2026-10-03T05:23:30Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -7306,7 +7306,7 @@
       "source_type": "documented source",
       "source_url": "https://api.github.com/search/repositories?q=jev%20fraud",
       "title": "Run 7 source R7-S64: api.github.com/search/repositories?q=jev%20fraud",
-      "claim": "jev fraud: total_count 15; jev payment: total_count 10 (2 search calls; helper A) (Documented (index results); read)",
+      "claim": "jev fraud: total_count 15; jev payment: total_count 10 (2 search calls) (Documented (index results); read)",
       "accessed_at": "2026-10-04T05:14:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8746,7 +8746,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28be98a19539b29768398fb400f4c62f41337c26/plugin/__init__.py ; plugin/jev_policy.py",
       "title": "Run 9 source R9-S61: raw.githubusercontent.com/anpicasso/hermes-jev-approvals/28be98a19539b",
-      "claim": "APPROVE / DENY / ESCALATE; raises on missing key, HTTP error, malformed answer (Documented (helper read); accessible; at 28be98a19539b29768398fb400f4c62f41337c26)",
+      "claim": "APPROVE / DENY / ESCALATE; raises on missing key, HTTP error, malformed answer (Documented (short read at the pinned commit); accessible; at 28be98a19539b29768398fb400f4c62f41337c26)",
       "accessed_at": "2026-10-06T05:15:09Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8756,7 +8756,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9cbef8594993ec4b208ffb3395f/plugin/{guard,engine,transport}.py",
       "title": "Run 9 source R9-S62: raw.githubusercontent.com/anpicasso/hermes-jev-curator/4e8626c7d394a9c",
-      "claim": "The guard performs no network call. (Documented (helper read, partial); accessible; at 4e8626c7d394a9cbef8594993ec4b208ffb3395f)",
+      "claim": "The guard performs no network call. (Documented (short read at the pinned commit, partial); accessible; at 4e8626c7d394a9cbef8594993ec4b208ffb3395f)",
       "accessed_at": "2026-10-06T05:18:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8786,7 +8786,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/DECRUX9812/typesafe-skill-router/e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3/{__init__.py,typesafe_router/client.py,router.py}",
       "title": "Run 9 source R9-S65: raw.githubusercontent.com/DECRUX9812/typesafe-skill-router/e6cdac26f9e",
-      "claim": "enabled: False; gate 0.30, fits 0.40 (Documented (helper read); accessible; at e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3)",
+      "claim": "enabled: False; gate 0.30, fits 0.40 (Documented (short read at the pinned commit); accessible; at e6cdac26f9ed588b4a94b8a2f7f9f026e1b9faf3)",
       "accessed_at": "2026-10-06T05:18:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8796,7 +8796,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/ourines/hermes-jev/28a4ea390f80d97fcdc8c20d6b630dfe2de645de/{__init__,service,client}.py (and HEAD cdf59e4)",
       "title": "Run 9 source R9-S66: raw.githubusercontent.com/ourines/hermes-jev/28a4ea390f80d97fcdc8c20d6",
-      "claim": "advisory judgments, no automatic tool gating (Documented (helper read); accessible; at 28a4ea390f80d97fcdc8c20d6b630dfe2de645de)",
+      "claim": "advisory judgments, no automatic tool gating (Documented (short read at the pinned commit); accessible; at 28a4ea390f80d97fcdc8c20d6b630dfe2de645de)",
       "accessed_at": "2026-10-06T05:18:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8806,7 +8806,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/ajensenwaud/hermes-jev-plugin/b3d29f71770a3447ad0b3db00658f64a8edc7dd3/{client,tools}.py",
       "title": "Run 9 source R9-S67: raw.githubusercontent.com/ajensenwaud/hermes-jev-plugin/b3d29f71770a34",
-      "claim": "tool errors returned as JSON to the agent; timeout 30 s (Documented (helper read); accessible; at b3d29f71770a3447ad0b3db00658f64a8edc7dd3)",
+      "claim": "tool errors returned as JSON to the agent; timeout 30 s (Documented (short read at the pinned commit); accessible; at b3d29f71770a3447ad0b3db00658f64a8edc7dd3)",
       "accessed_at": "2026-10-06T05:15:48Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8816,7 +8816,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/ydmw74/jev-skill-router/76ee09e049dbc10c76f98cfefc6ca16b42cfad38/src/jev_skill_router/mcp_server.py",
       "title": "Run 9 source R9-S68: raw.githubusercontent.com/ydmw74/jev-skill-router/76ee09e049dbc10c76f9",
-      "claim": "MCP loop returns {\"error\"} to the agent; timeout 60 s (Documented (helper read); accessible; at 76ee09e049dbc10c76f98cfefc6ca16b42cfad38)",
+      "claim": "MCP loop returns {\"error\"} to the agent; timeout 60 s (Documented (short read at the pinned commit); accessible; at 76ee09e049dbc10c76f98cfefc6ca16b42cfad38)",
       "accessed_at": "2026-10-06T05:15:48Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8896,7 +8896,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/NiazMorshed2007/jev-review/57690af54ef7d862c2483342c1e61c14dffcf727/src/...",
       "title": "Run 9 source R9-S76: raw.githubusercontent.com/NiazMorshed2007/jev-review/57690af54ef7d862c",
-      "claim": "Jev supplies metric scores, confidence, and score movement (Documented (helper read); accessible; at 57690af54ef7d862c2483342c1e61c14dffcf727)",
+      "claim": "Jev supplies metric scores, confidence, and score movement (Documented (short read at the pinned commit); accessible; at 57690af54ef7d862c2483342c1e61c14dffcf727)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8906,7 +8906,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/burnigtm/jev-mcp/9448f6120015f2f6c6dad7137c7f234545209918/src/...",
       "title": "Run 9 source R9-S77: raw.githubusercontent.com/burnigtm/jev-mcp/9448f6120015f2f6c6dad7137c7",
-      "claim": "gate returns action auto|review|escalate; CLI non-zero exit only on errors (Documented (helper read); accessible; at 9448f6120015f2f6c6dad7137c7f234545209918)",
+      "claim": "gate returns action auto|review|escalate; CLI non-zero exit only on errors (Documented (short read at the pinned commit); accessible; at 9448f6120015f2f6c6dad7137c7f234545209918)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8916,7 +8916,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/minhgv/jev-mcp/1a1f0a5b599e3c9f00a126bb247536a624aa265e/src/...",
       "title": "Run 9 source R9-S78: raw.githubusercontent.com/minhgv/jev-mcp/1a1f0a5b599e3c9f00a126bb24753",
-      "claim": "ci-shadow prints would_block but always exits 0 (Documented (helper read); accessible; at 1a1f0a5b599e3c9f00a126bb247536a624aa265e)",
+      "claim": "ci-shadow prints would_block but always exits 0 (Documented (short read at the pinned commit); accessible; at 1a1f0a5b599e3c9f00a126bb247536a624aa265e)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8926,7 +8926,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/pedroknigge/mcp_jev/32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d/src/...",
       "title": "Run 9 source R9-S79: raw.githubusercontent.com/pedroknigge/mcp_jev/32377f8e4d5a63a76d4efbe9",
-      "claim": "The MCP returns signals only — harness allowlist and sandbox still required (Documented (helper read); accessible; at 32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d)",
+      "claim": "The MCP returns signals only — harness allowlist and sandbox still required (Documented (short read at the pinned commit); accessible; at 32377f8e4d5a63a76d4efbe9abf0b2fbf3f98a0d)",
       "accessed_at": "2026-10-06T05:15:41Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8936,7 +8936,7 @@
       "source_type": "documented source",
       "source_url": "https://registry.npmjs.org/@osuki-dev/opencode-osuki-agent ; tarball 0.2.7",
       "title": "Run 9 source R9-S80: registry.npmjs.org/@osuki-dev/opencode-osuki-agent ; tarball 0.2.7",
-      "claim": "event.input = { ...input, agent: route.agent }; (Documented (helper read); accessible; at 0.2.7 (tag v0.2.7 c96ce03c1c7dfc5c6fdf9d966691549101c68080))",
+      "claim": "event.input = { ...input, agent: route.agent }; (Documented (short read at the pinned commit); accessible; at 0.2.7 (tag v0.2.7 c96ce03c1c7dfc5c6fdf9d966691549101c68080))",
       "accessed_at": "2026-10-06T05:16:57Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -8966,7 +8966,7 @@
       "source_type": "documented source",
       "source_url": "https://raw.githubusercontent.com/wellkilo/codex-jev-preflight/633ddefe6596aa5d7c6b00767c08d07edea61096/jev_user_prompt_hook.py",
       "title": "Run 9 source R9-S83: raw.githubusercontent.com/wellkilo/codex-jev-preflight/633ddefe6596aa5",
-      "claim": "any error emits an unavailable context and returns 0 (Documented (helper read, partial); accessible; at 633ddefe6596aa5d7c6b00767c08d07edea61096)",
+      "claim": "any error emits an unavailable context and returns 0 (Documented (short read at the pinned commit, partial); accessible; at 633ddefe6596aa5d7c6b00767c08d07edea61096)",
       "accessed_at": "2026-10-06T05:18:07Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
@@ -25488,6 +25488,1096 @@
       "title": "Source R22-S269: jevcards server/jev.ts at 8e67173",
       "claim": "route TypeSafe or Opper L63-70; PNG asset L90-100; header L137 (Documented)",
       "accessed_at": "2026-10-23T05:29:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R23-S02: TypeSafe CEO post via X oEmbed",
+      "claim": "text unchanged: anyone can sign up; free credits temporarily disabled for new users (Documented)",
+      "accessed_at": "2026-10-24T05:12:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R23-S03: TypeSafe docs quickstart",
+      "claim": "14,458 bytes; no waitlist/credit text; examples send jev-latest (Documented)",
+      "accessed_at": "2026-10-24T05:12:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R23-S05: TypeSafe docs models page",
+      "claim": "8,275 bytes; jev-latest -> jev-1.14.0; jev-preview -> jev-1.14.0 with 'no preview build' callout; jev-1.13.0 listed (Documented)",
+      "accessed_at": "2026-10-24T05:12:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R23-S06: TypeSafe docs images page",
+      "claim": "20,991 bytes; link-form changes only; Dreamer-ready callout present (Documented)",
+      "accessed_at": "2026-10-24T05:12:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R23-S07: TypeSafe homepage",
+      "claim": "no waitlist or credit text (Documented)",
+      "accessed_at": "2026-10-24T05:12:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R23-S08: TypeSafe blog index",
+      "claim": "7 posts; latest /blog/jev-1-14 (Documented)",
+      "accessed_at": "2026-10-24T05:12:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R23-S09: TypeSafe blog: Jev 1.14",
+      "claim": "'in a week'; 'available for a while'; '60 days warning before jev-1.13.0 is formally deprecated' (Documented)",
+      "accessed_at": "2026-10-24T05:12:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R23-S10: TypeSafe enterprise page",
+      "claim": "no credit, waitlist or trial text (Documented)",
+      "accessed_at": "2026-10-24T05:12:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s14",
+      "source_type": "reported source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R23-S14: Eye Security: rise of the Jev clones",
+      "claim": "names jev-agent.org, jev-ai.pro, jevtypesafeai.com (Reported)",
+      "accessed_at": "2026-10-24T05:12:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s15",
+      "source_type": "unverified lead",
+      "source_url": "https://jev-agent.org/",
+      "title": "Source R23-S15: jev-agent.org (lookalike)",
+      "claim": "online; title unchanged (Unverified)",
+      "accessed_at": "2026-10-24T05:12:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s16",
+      "source_type": "unverified lead",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Source R23-S16: jev-ai.pro (lookalike)",
+      "claim": "online; title unchanged (Unverified)",
+      "accessed_at": "2026-10-24T05:12:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s17",
+      "source_type": "unverified lead",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Source R23-S17: jevtypesafeai.com (lookalike; never a source)",
+      "claim": "online; homepage status only (Unverified)",
+      "accessed_at": "2026-10-24T05:12:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s18",
+      "source_type": "unverified lead",
+      "source_url": "https://thejevai.com/",
+      "title": "Source R23-S18: thejevai.com (lookalike watch)",
+      "claim": "online; homepage status only (Unverified)",
+      "accessed_at": "2026-10-24T05:12:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s19",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/box.md",
+      "title": "Source R23-S19: TypeSafe docs Box primitive",
+      "claim": "8,148 bytes; example sends jev-latest (L33) (Documented)",
+      "accessed_at": "2026-10-24T05:12:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s20",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Source R23-S20: TypeSafe docs llms.txt",
+      "claim": "18,706 bytes, unchanged size (Documented)",
+      "accessed_at": "2026-10-24T05:12:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s21",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Source R23-S21: TypeSafe docs changelog URL",
+      "claim": "HTTP 404 (Documented)",
+      "accessed_at": "2026-10-24T05:12:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s22",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Source R23-S22: OpenRouter jev-1.13 endpoints",
+      "claim": "endpoint typesafe/jev-1.13-20260917; context 262,144 (Documented)",
+      "accessed_at": "2026-10-24T05:15:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s23",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "title": "Source R23-S23: OpenRouter jev-1.14 endpoints",
+      "claim": "endpoint typesafe/jev-1.14-20261014 (Documented)",
+      "accessed_at": "2026-10-24T05:15:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s24",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R23-S24: OpenRouter model list and ~typesafe/jev-latest",
+      "claim": "469 IDs; ~typesafe/jev-latest 'always redirects to the latest model in the Jev family', no endpoints listed (Documented)",
+      "accessed_at": "2026-10-24T05:15:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s25",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Source R23-S25: Vercel AI Gateway endpoints",
+      "claim": "typesafe-ai/jev (digitalocean, typesafe-ai), versioned 1.13.0 and 1.14.0 (Documented)",
+      "accessed_at": "2026-10-24T05:15:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s26",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R23-S26: Vercel model list",
+      "claim": "480 IDs; 3 TypeSafe (Documented)",
+      "accessed_at": "2026-10-24T05:15:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s27",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Source R23-S27: Opper models API",
+      "claim": "typesafe/jev-latest is an alias of typesafe/jev-1.13.0 (model_id jev-1.13.0); jev-preview alias of 1.14.0 (Documented)",
+      "accessed_at": "2026-10-24T05:15:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s28",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/index.md",
+      "title": "Source R23-S28: Cloudflare AI models: typesafe/jev",
+      "claim": "examples return model jev-1.13.0 (Documented)",
+      "accessed_at": "2026-10-24T05:15:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev-1.14.0/index.md",
+      "title": "Source R23-S29: Cloudflare AI models: typesafe/jev-1.14.0",
+      "claim": "typesafe/jev-1.14.0 listed (Documented)",
+      "accessed_at": "2026-10-24T05:15:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s30",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R23-S30: Netlify AI Gateway overview",
+      "claim": "lists jev-1.13.0, jev-1.14.0, jev-latest, jev-preview, jev-router (Documented)",
+      "accessed_at": "2026-10-24T05:15:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s32",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md",
+      "title": "Source R23-S32: OpenAI Decisions API guide",
+      "claim": "prompt caching section L970-978; price L988 (Documented)",
+      "accessed_at": "2026-10-24T05:15:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s34",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date",
+      "title": "Source R23-S34: HN Algolia search",
+      "claim": "window and look-back queries (Documented)",
+      "accessed_at": "2026-10-24T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s35",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories",
+      "title": "Source R23-S35: GitHub repository search",
+      "claim": "4 searches (Documented)",
+      "accessed_at": "2026-10-24T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s36",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search",
+      "title": "Source R23-S36: npm search",
+      "claim": "jev, typesafe (Documented)",
+      "accessed_at": "2026-10-24T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s37",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models",
+      "title": "Source R23-S37: Hugging Face models search",
+      "claim": "jev, decision, typesafe sorted by lastModified (Documented)",
+      "accessed_at": "2026-10-24T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s38",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles",
+      "title": "Source R23-S38: DEV.to API",
+      "claim": "tags jev, typesafe: 0 in window (Documented)",
+      "accessed_at": "2026-10-24T05:17:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s40",
+      "source_type": "documented source",
+      "source_url": "https://suggestqueries.google.com/complete/search",
+      "title": "Source R23-S40: Autocomplete endpoints",
+      "claim": "11 phrases (Documented)",
+      "accessed_at": "2026-10-24T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s41",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/<pkg>",
+      "title": "Source R23-S41: Drift registry",
+      "claim": "Drift registry (Documented)",
+      "accessed_at": "2026-10-24T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s45",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "title": "Source R23-S45: OpenAI API pricing page",
+      "claim": "gpt-6-luna Standard short context: $0.10 input, $0.01 cached input, $0.125 30m write, $0.25 12h write per 1M (Documented)",
+      "accessed_at": "2026-10-24T05:15:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s46",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/changelog.md",
+      "title": "Source R23-S46: OpenAI API changelog",
+      "claim": "22 Oct GA entry: 'Cache shared input across requests for prompt-cache discounts' (Documented)",
+      "accessed_at": "2026-10-24T05:15:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s48",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/0b5ecaf2396891e76c13a19aa17b874b59abcc37/data/index.json",
+      "title": "Source R23-S48: Jev Decision Index data files",
+      "claim": "Jev 1.14 41 of 229 at 0b5ecaf; mammoth-1 71.24 first of 209 at 133313c (Documented)",
+      "accessed_at": "2026-10-24T05:23:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s49",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/results/summary.json",
+      "title": "Source R23-S49: Ledger spot-check files",
+      "claim": "0.922 at summary.json L8; 0.946875 at results.json L100-104 (Documented)",
+      "accessed_at": "2026-10-24T05:21:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s50",
+      "source_type": "reported source",
+      "source_url": "https://news.ycombinator.com/item?id=50206361",
+      "title": "Source R23-S50: The rise and fall of Jev hype (HN thread)",
+      "claim": "found via HN Algolia; article not opened (Reported)",
+      "accessed_at": "2026-10-24T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s51",
+      "source_type": "reported source",
+      "source_url": "https://news.ycombinator.com/item?id=50205651",
+      "title": "Source R23-S51: Cheaper review loop for coding agents using Jev",
+      "claim": "found via HN Algolia; not opened (Reported)",
+      "accessed_at": "2026-10-24T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s52",
+      "source_type": "reported source",
+      "source_url": "https://news.ycombinator.com/item?id=50210765",
+      "title": "Source R23-S52: OpenAI: Build more responsive apps with the Decisions API",
+      "claim": "found via HN Algolia; post not opened (Reported)",
+      "accessed_at": "2026-10-24T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s100",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/spaces/multimodalart/jev-decision-index",
+      "title": "Source R23-S100: HF API: Space multimodalart/jev-decision-index",
+      "claim": "sha 0b5ecaf2396891e76c13a19aa17b874b59abcc37; created 2026-09-17T20:05:16Z; lastModified 2026-10-22T20:12:26Z; sdk static; file list includes data/index.json, data/methodology.json, data/own.json, data/v03.json (Documented)",
+      "accessed_at": "2026-10-24T05:15:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s101",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/spaces/multimodalart/jev-decision-index/commits/main",
+      "title": "Source R23-S101: HF API: Space commit list (main)",
+      "claim": "50 commits returned, 2026-09-27T16:19:08Z (0.2.1: Eikos-27B-FP8 joins) to 2026-10-22T20:12:26Z (0b5ecaf, Decision Index 0.4.1); commit titles name 0.2.1, 0.3, 0.3.1, 0.3.2, 0.4, 0.4.1; earlier commits not returned on this page (Documented)",
+      "accessed_at": "2026-10-24T05:15:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s102",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/0b5ecaf2396891e76c13a19aa17b874b59abcc37/data/index.json",
+      "title": "Source R23-S102: Space data/index.json at 0b5ecaf",
+      "claim": "generated_utc 2026-10-22T20:10:35Z; suite.label 'Decision Index 0.4.1'; 228 model rows + separate jev row (Jev 1.14, jev-1.14.0, edition 'Lab run, 2026-10-14'); Full score field v03.v; rank_v/rank_tie fields (Documented)",
+      "accessed_at": "2026-10-24T05:15:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s103",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/0b5ecaf2396891e76c13a19aa17b874b59abcc37/data/methodology.json",
+      "title": "Source R23-S103: Space data/methodology.json at 0b5ecaf",
+      "claim": "changelog editions v0.1 2026-09-22, v0.2 2026-09-27, v0.2.1 2026-09-28, v0.3 2026-10-06, v0.3.1 2026-10-09, v0.3.2 2026-10-12, v0.4 2026-10-19, v0.4.1 2026-10-21; '37 benchmarks in all'; 'v1 stays on the 0.2 board'; author-submitted checkpoints adopted after reproduction (Documented)",
+      "accessed_at": "2026-10-24T05:15:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s104",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/0b5ecaf2396891e76c13a19aa17b874b59abcc37/data/own.json",
+      "title": "Source R23-S104: Space data/own.json at 0b5ecaf",
+      "claim": "formula 'v0.4'; parts public 0, same_skills 0.6, new_domains 0.4; 229 rows (Documented)",
+      "accessed_at": "2026-10-24T05:15:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s105",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/0b5ecaf2396891e76c13a19aa17b874b59abcc37/data/v03.json",
+      "title": "Source R23-S105: Space data/v03.json at 0b5ecaf",
+      "claim": "formula id v0.4, decided_utc 2026-10-19, tie_band 0.9 (Documented)",
+      "accessed_at": "2026-10-24T05:15:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s106",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/0b5ecaf2396891e76c13a19aa17b874b59abcc37/index.html",
+      "title": "Source R23-S106: Space index.html at 0b5ecaf",
+      "claim": "rankOf(): sort by score desc, new tie group when group-leader score minus row score > tie_band (0.9); tied ranks shown '=n'; 'the private tests stay private'; strings 'verified', 'self-report', 'submitted by' not found in file at 0b5ecaf, 2026-10-24T05:15Z (Documented)",
+      "accessed_at": "2026-10-24T05:15:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s107",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/0b5ecaf2396891e76c13a19aa17b874b59abcc37/methodology.html",
+      "title": "Source R23-S107: Space methodology.html at 0b5ecaf",
+      "claim": "'New in 0.4: the Full score is private only'; 'Full score = 0.60 x private set for same skill + 0.40 x new-domain private tasks'; 'verified' not found in file (Documented)",
+      "accessed_at": "2026-10-24T05:15:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s108",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/0b5ecaf2396891e76c13a19aa17b874b59abcc37/README.md",
+      "title": "Source R23-S108: Space README.md at 0b5ecaf",
+      "claim": "'Unofficial and community-maintained; not affiliated with TypeSafe AI.' 'The private tests and the new-domain tasks are never published.' Contributing: PRs for news entries (Documented)",
+      "accessed_at": "2026-10-24T05:16:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s109",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/133313cf8963f2b6bed960abb0152fd14cbb6731/data/index.json",
+      "title": "Source R23-S109: Space data/index.json at 133313c (commit 2026-10-20T14:19:53Z)",
+      "claim": "label 'Decision Index 0.4'; 208 model rows + Jev 1.14 row; mammoth-1 (27B) 71.24 rank 1 (not tied) (Documented)",
+      "accessed_at": "2026-10-24T05:15:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s110",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/de1f4ea872064970ee996d4dc169cefd629567a7/data/index.json",
+      "title": "Source R23-S110: Space data/index.json at de1f4ea (commit 2026-10-20T13:53:12Z)",
+      "claim": "label 'Decision Index 0.4'; 205 model rows + Jev 1.14; mammoth-1 71.24 rank 1 (Documented)",
+      "accessed_at": "2026-10-24T05:15:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s111",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/16f312e2baf02f110c42afaac4da9a7a8684cfdf/data/index.json",
+      "title": "Source R23-S111: Space data/index.json at 16f312e (commit 2026-10-21T15:13:57Z)",
+      "claim": "label 'Decision Index 0.4.1'; Jeffan-31b-1710 69.75 rank_tie 1; mammoth-1 68.87 rank_tie 1 (tied) (Documented)",
+      "accessed_at": "2026-10-24T05:15:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s112",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/1f4e4904cc5716689629a1ee3e3862a14018d61d/data/index.json",
+      "title": "Source R23-S112: Space data/index.json at 1f4e490 (commit 2026-10-21T20:39:22Z)",
+      "claim": "same top as 16f312e: Jeffan-31b-1710 69.75 =1 with mammoth-1 68.87 (Documented)",
+      "accessed_at": "2026-10-24T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s113",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/76fbe3765538c933477c7213158684edaa2048cb/data/index.json",
+      "title": "Source R23-S113: Space data/index.json at 76fbe37 (commit 2026-10-21T22:37:56Z)",
+      "claim": "Fastino GLiDE V1.2 71.52 rank 1; Jeffan-31b-1710 =2; mammoth-1 68.87 =2 (Documented)",
+      "accessed_at": "2026-10-24T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s114",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/2f77796cc0e8261e3b277ace5226729fefb96e0d/data/index.json",
+      "title": "Source R23-S114: Space data/index.json at 2f77796 (commit 2026-10-22T04:23:06Z)",
+      "claim": "mammoth-1 rescored on current weights: 68.44, =3 (Documented)",
+      "accessed_at": "2026-10-24T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s115",
+      "source_type": "reported source",
+      "source_url": "https://www.baseten.co/blog/the-best-decision-models-in-the-world-mammoth-1-and-elephant-1/",
+      "title": "Source R23-S115: Baseten blog: mammoth-1 and elephant-1",
+      "claim": "'mammoth-1 ranks #1 out of 208 decision models'; 'mammoth-1 leads the Jev Decision Index 0.4 with a score of 71.24'; 'On the Artificial Analysis Decision Index, mammoth-1 scores 65.9 and elephant-1 65.2'; 'elephant-1 is tied for #8 overall' (Reported)",
+      "accessed_at": "2026-10-24T05:15:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s116",
+      "source_type": "reported source",
+      "source_url": "https://labs.baseten.co/articles/mammoth-1-and-elephant-1-frontier-decision-models",
+      "title": "Source R23-S116: Base Labs technical report",
+      "claim": "'ranking #1 of 208 models on the Jev Decision Index 0.4'; elephant-1 'beating Jev 1.14' and 'tied with the previous best decision model d1-ultra on the Artificial Analysis Decision Index' (Reported)",
+      "accessed_at": "2026-10-24T05:15:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s117",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/tattrongvu/Jeffan-31b-1710",
+      "title": "Source R23-S117: HF API: model tattrongvu/Jeffan-31b-1710",
+      "claim": "sha cebfa86c2bed2b5c83b12e44de4374b20c87fd79; created 2026-10-19T07:06:45Z; lastModified 2026-10-22T10:57:45Z (Documented)",
+      "accessed_at": "2026-10-24T05:19:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s118",
+      "source_type": "reported source",
+      "source_url": "https://huggingface.co/tattrongvu/Jeffan-31b-1710/raw/cebfa86c2bed2b5c83b12e44de4374b20c87fd79/README.md",
+      "title": "Source R23-S118: Jeffan-31b-1710 model card at cebfa86",
+      "claim": "'#1 on the Jev Decision Index leaderboard (timestamp: 21 Oct 2026)' (Reported)",
+      "accessed_at": "2026-10-24T05:19:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s119",
+      "source_type": "reported source",
+      "source_url": "https://artificialanalysis.ai/methodology/decision-index",
+      "title": "Source R23-S119: Artificial Analysis Decision Index methodology",
+      "claim": "Version History: 'Version 1.0 October 2026 to current'; no later version shown at 2026-10-24T05:16:42Z (Reported)",
+      "accessed_at": "2026-10-24T05:16:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s120",
+      "source_type": "reported source",
+      "source_url": "https://artificialanalysis.ai/articles/artificial-analysis-decision-index",
+      "title": "Source R23-S120: Artificial Analysis Decision Index v1.0 article (October 13, 2026)",
+      "claim": "still reads 'Jev 1.13 leads the Decision Index with 58, ahead of GLiDE and Microsoft-Decision-1, both on 54.' (Reported)",
+      "accessed_at": "2026-10-24T05:16:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s121",
+      "source_type": "documented source",
+      "source_url": "https://artificialanalysis.ai/evaluations/decision-index",
+      "title": "Source R23-S121: Artificial Analysis (guessed URL)",
+      "claim": "Artificial Analysis (guessed URL) (Documented)",
+      "accessed_at": "2026-10-24T05:16:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s122",
+      "source_type": "documented source",
+      "source_url": "https://artificialanalysis.ai/leaderboards/decision-models",
+      "title": "Source R23-S122: Artificial Analysis (guessed URL)",
+      "claim": "Artificial Analysis (guessed URL) (Documented)",
+      "accessed_at": "2026-10-24T05:16:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s123",
+      "source_type": "reported source",
+      "source_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-decision-index",
+      "title": "Source R23-S123: Artificial Analysis Decision Index evaluation page",
+      "claim": "32 entries with indexScore (LLMs and decision models); Jev 1.14 slug typesafe_jev-1-14 hostName TypeSafe indexScore 57.07; Jev 1.13 57.50; d1-ultra 65.25; Elephant 9B (Baseten) 64.69; no mammoth entry; aggregate sub-scores and calibration bins only (Reported)",
+      "accessed_at": "2026-10-24T05:16:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s124",
+      "source_type": "reported source",
+      "source_url": "https://artificialanalysis.ai/evaluations/aa-omniscience-decision",
+      "title": "Source R23-S124: AA-Omniscience-Decision evaluation page",
+      "claim": "opened; not parsed beyond HTTP 200 (Reported)",
+      "accessed_at": "2026-10-24T05:16:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s125",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/50093003",
+      "title": "Source R23-S125: HN 50093003: Show HN: Eevo - Consequential Decision Model",
+      "claim": "story 2026-10-14T18:52:50Z, url uprightproject.com/eevo/; text: model 'beats Jev, Clef, MS decision-1 ... and even Pacman (Jevman benchmark)'; comment 50097703 'what was your score on jevman?' (Reported)",
+      "accessed_at": "2026-10-24T05:17:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s126",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/50007993",
+      "title": "Source R23-S126: HN 50007993: Show HN: Jevman - AI decision models play Pac-Man",
+      "claim": "2026-10-08T16:34:13Z; url opper.ai/jevman-benchmark/; 'each model play 100 games, published a leader board and open-sourced the repo' (Reported)",
+      "accessed_at": "2026-10-24T05:17:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s127",
+      "source_type": "reported source",
+      "source_url": "https://hn.algolia.com/api/v1/items/50199105",
+      "title": "Source R23-S127: HN 50199105: Show HN: Decido",
+      "claim": "2026-10-22T18:18:32Z; url github.com/decido-ai/decido; no text body (Reported)",
+      "accessed_at": "2026-10-24T05:17:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s128",
+      "source_type": "reported source",
+      "source_url": "https://leanmcp.github.io/jevbench/",
+      "title": "Source R23-S128: Leanmcp JevBench site",
+      "claim": "'JevBench Open benchmark for typed decision models.'; Submit section 'Submit a dataset' / 'Add a model'; loads data.js (Reported)",
+      "accessed_at": "2026-10-24T05:17:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s129",
+      "source_type": "reported source",
+      "source_url": "https://opper.ai/jevman-benchmark/",
+      "title": "Source R23-S129: Opper JevMan page",
+      "claim": "'=1 means tied: those scores are within each other's margin of error.' 'Run by @opper-ai means we played the games through Opper. Community models were benchmarked by whoever submitted them ... CI replayed every game they sent in to check its score, and the latency and cost are as they reported.' 'Only decision models are ranked' (Reported)",
+      "accessed_at": "2026-10-24T05:17:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s130",
+      "source_type": "documented source",
+      "source_url": "https://github.com/opper-ai/jevman-benchmark/commits/main.atom",
+      "title": "Source R23-S130: opper-ai/jevman-benchmark commits atom (main)",
+      "claim": "head fd465f02bc0066688f57b02ab5df7ec0245e0fa2 (2026-10-23T08:14:03Z); prior 7b5ceef 2026-10-21, 02c4515 2026-10-21, c4930ca 2026-10-20, 412ed72 2026-10-16 (Documented)",
+      "accessed_at": "2026-10-24T05:17:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s131",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/opper-ai/jevman-benchmark/fd465f02bc0066688f57b02ab5df7ec0245e0fa2/README.md",
+      "title": "Source R23-S131: jevman-benchmark README at fd465f0",
+      "claim": "jev called as typesafe/jev-1.13.0 via Opper or jev-1.13.0 via TypeSafe API; started as a fork of joch/jevman; leaderboard written to public/leaderboard.json by npm run leaderboard (Documented)",
+      "accessed_at": "2026-10-24T05:17:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s132",
+      "source_type": "documented source",
+      "source_url": "https://github.com/opper-ai/jevman-benchmark/tree/fd465f02bc0066688f57b02ab5df7ec0245e0fa2",
+      "title": "Source R23-S132: jevman-benchmark tree at fd465f0",
+      "claim": "top level includes leaderboard.html, public/, submissions/, .github/workflows (Documented)",
+      "accessed_at": "2026-10-24T05:17:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s133",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/opper-ai/jevman-benchmark/fd465f02bc0066688f57b02ab5df7ec0245e0fa2/public/leaderboard.json",
+      "title": "Source R23-S133: jevman public/leaderboard.json at fd465f0",
+      "claim": "generatedAt 2026-10-21T09:04:48.985Z; gamesPerModel 100; 12 entries; typesafe/jev-1.14.0 meanScore 3597 (SE 148); no rank or tie field (Documented)",
+      "accessed_at": "2026-10-24T05:17:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s134",
+      "source_type": "reported source",
+      "source_url": "https://leanmcp.github.io/jevbench/data.js",
+      "title": "Source R23-S134: Leanmcp JevBench data.js",
+      "claim": "generated 2026-10-16; 18 index rows, 25 datasets, 17,081 cases; Jev 1.13 index 76.5, run_id jev-1.13.0-20260926T133639; links github.com/Leanmcp/jevbench, HF dataset Leanmcp/jevbench, a preprints.org manuscript; site not pinned to a commit (Reported)",
+      "accessed_at": "2026-10-24T05:18:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s135",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/Remek/basal-omni-1.0-ultra",
+      "title": "Source R23-S135: HF API: Remek/basal-omni-1.0-ultra",
+      "claim": "sha 6d5ba67db149e47ddce26fc02d78c0cadb10f496; lastModified 2026-10-21T09:17:20Z (Documented)",
+      "accessed_at": "2026-10-24T05:18:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s136",
+      "source_type": "documented source",
+      "source_url": "https://github.com/decido-ai/decido/commits/main.atom",
+      "title": "Source R23-S136: decido-ai/decido commits atom (main)",
+      "claim": "head f895cf0869c80817cc0293025a288ecc39af0a37 (2026-10-22T21:02:03Z) (Documented)",
+      "accessed_at": "2026-10-24T05:18:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s137",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/Remek/basal-omni-1.0-ultra/raw/6d5ba67db149e47ddce26fc02d78c0cadb10f496/README.md",
+      "title": "Source R23-S137: basal-omni-1.0-ultra model card at 6d5ba67",
+      "claim": "string 'JevBench' not found in the card at 6d5ba67, 2026-10-24T05:18:41Z (Documented)",
+      "accessed_at": "2026-10-24T05:18:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s138",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/decido-ai/decido/f895cf0869c80817cc0293025a288ecc39af0a37/README.md",
+      "title": "Source R23-S138: Decido README at f895cf0",
+      "claim": "'Six-group mean (JevBench, Kev, OpenJev, Nimble, VitaminC, MASSIVE) | 85.38 | 83.85' (Decido vs 'Jev 1.13 (published)'); 'Jev's numbers are its published reference run, not Jev run through this harness.' (Reported)",
+      "accessed_at": "2026-10-24T05:18:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s139",
+      "source_type": "documented source",
+      "source_url": "https://github.com/decido-ai/decido/tree/f895cf0869c80817cc0293025a288ecc39af0a37",
+      "title": "Source R23-S139: Decido tree at f895cf0",
+      "claim": "results/ directory present; README: 'results/ summaries and reports of every headline run (no evaluation items)' (Documented)",
+      "accessed_at": "2026-10-24T05:18:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s140",
+      "source_type": "documented source",
+      "source_url": "https://github.com/decido-ai/decido/tree/f895cf0869c80817cc0293025a288ecc39af0a37/results",
+      "title": "Source R23-S140: Decido results/ tree at f895cf0",
+      "claim": "subdirectories incl. compound, cpu-r2-q8_0-five, gpu-r1, gpu-r2, jev-replay-arxiv; individual results files not opened (Documented)",
+      "accessed_at": "2026-10-24T05:18:47Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s200",
+      "source_type": "documented source",
+      "source_url": "https://github.com/gbolask24/decision-bench/commits/main.atom",
+      "title": "Source R23-S200: gbolask24/decision-bench commits feed (main)",
+      "claim": "HEAD e5b72020617bf08958813fa3ee54e4384d66b69b, 2026-10-18T13:58:43Z ('Data pack for the R1D04 articles'); first listed commits 16-17 Oct (Documented)",
+      "accessed_at": "2026-10-24T05:15:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s201",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/gbolask24/decision-bench/git/trees/e5b72020617bf08958813fa3ee54e4384d66b69b?recursive=1",
+      "title": "Source R23-S201: gbolask24/decision-bench tree at e5b7202 (GitHub API, 1 core call)",
+      "claim": "code dbench/*, public/items T1-T5, results/summary.json, data-pack.md, replay; no logs/ folder; no LICENSE file in tree (Documented)",
+      "accessed_at": "2026-10-24T05:15:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s202",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/README.md",
+      "title": "Source R23-S202: decision-bench README at e5b7202",
+      "claim": "Jev jev-1.14.0 vs OpenAI Decisions API gpt-6-luna vs Claude Opus 5.5 on five public-data tests (T1 1,000; T2 2,000; T3 1,999; T4 1,000; T5 1,071); seed 1017; README says logs are published but logs/ is not in the tree (Reported)",
+      "accessed_at": "2026-10-24T05:15:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s203",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/dbench/score.py",
+      "title": "Source R23-S203: dbench/score.py (metric) at e5b7202",
+      "claim": "brier L23-28; summarise L72-116: accuracy L87, paired bootstrap, McNemar Holm, claim rule L115-116 (Documented)",
+      "accessed_at": "2026-10-24T05:15:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s204",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/dbench/adapters.py",
+      "title": "Source R23-S204: dbench/adapters.py at e5b7202",
+      "claim": "jev_request L56 (state, model), decisions_request L78, opus_request L119 (Documented)",
+      "accessed_at": "2026-10-24T05:15:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s205",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/results/summary.json",
+      "title": "Source R23-S205: results/summary.json at e5b7202",
+      "claim": "L8 T1 jev \"accuracy\": 0.922 (n 1000, L5); decisions 0.911 (L26); T4 jev 0.882 (L744) (Reported)",
+      "accessed_at": "2026-10-24T05:15:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s206",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/.env.example",
+      "title": "Source R23-S206: decision-bench .env.example at e5b7202",
+      "claim": "TYPESAFE_API_KEY, OPENAI_API_KEY, ANTHROPIC_API_KEY; JEV_URL https://api.typesafe.ai/v1/systemone (Documented)",
+      "accessed_at": "2026-10-24T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s207",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/dbench/prices.py",
+      "title": "Source R23-S207: dbench/prices.py at e5b7202",
+      "claim": "list prices per million tokens, checked 2026-10-16: Jev $0.042 input, output free; Decisions $0.10 input, output free; Opus 5.5 $4 input, $20 output (Reported)",
+      "accessed_at": "2026-10-24T05:15:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s208",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/results/data-pack.md",
+      "title": "Source R23-S208: results/data-pack.md (operator's report) at e5b7202",
+      "claim": "run 17 Oct 2026, first test call 16:22:53 UTC; models jev-1.14.0, gpt-6-luna, claude-opus-5-5 (low); L21 T1 Jev 92.2% vs Decisions 91.1% 'no detectable difference'; L24-25 T4/T5 'Jev ahead'; L35-39 Brier 'Jev better' T1-T5; section F Opus sample (Reported)",
+      "accessed_at": "2026-10-24T05:15:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s209",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/dbench/run.py",
+      "title": "Source R23-S209: dbench/run.py at e5b7202",
+      "claim": "ARMS L21-24: jev model jev-1.14.0; decisions model gpt-6-luna; opus claude-opus-5-5 effort low / medium (Documented)",
+      "accessed_at": "2026-10-24T05:15:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s210",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/.gitignore",
+      "title": "Source R23-S210: decision-bench .gitignore at e5b7202",
+      "claim": "ignores logs/ and results/ (summary.json, data-pack.md committed anyway); per-call logs not published (Documented)",
+      "accessed_at": "2026-10-24T05:17:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s211",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/gbolask24/decision-bench/e5b72020617bf08958813fa3ee54e4384d66b69b/DEVIATIONS.md",
+      "title": "Source R23-S211: decision-bench DEVIATIONS.md at e5b7202",
+      "claim": "1: both latency windows on 17 Oct evening; 2: pre-registration tag unsigned, two commits (dddf064, 03fc011) have only git timestamps before the first test call (Reported)",
+      "accessed_at": "2026-10-24T05:17:37Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s212",
+      "source_type": "documented source",
+      "source_url": "https://github.com/egarim/decision-1-vs-jev/commits/main.atom",
+      "title": "Source R23-S212: egarim/decision-1-vs-jev commits feed (main)",
+      "claim": "HEAD unchanged 14e0b93b0e4fc67909df033930f16feea8c8ca8f, 2026-10-12T16:38:48Z, only entry (Documented)",
+      "accessed_at": "2026-10-24T05:16:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s213",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/egarim/decision-1-vs-jev/14e0b93b0e4fc67909df033930f16feea8c8ca8f/README.md",
+      "title": "Source R23-S213: egarim/decision-1-vs-jev README at 14e0b93",
+      "claim": "48 tickets, Microsoft-Decision-1 (deployment decision-1) vs open-jev (daseinlabs/open-jev, Qwen3-4B 4-bit, self-hosted); 'Jev itself is not in the table because I don't have an early-access key'; team accuracy 100.0% vs 85.4%; run 2026-10-12 (Reported)",
+      "accessed_at": "2026-10-24T05:16:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s214",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/egarim/decision-1-vs-jev/14e0b93b0e4fc67909df033930f16feea8c8ca8f/src/Decision1VsJev/Bench.cs",
+      "title": "Source R23-S214: Bench.cs (metric) at 14e0b93",
+      "claim": "metric record L10-11 (TeamAccuracy, TeamBrier, Coverage80...); questions L42-57 (Documented)",
+      "accessed_at": "2026-10-24T05:16:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s215",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/egarim/decision-1-vs-jev/14e0b93b0e4fc67909df033930f16feea8c8ca8f/results/openjev.jsonl",
+      "title": "Source R23-S215: results/openjev.jsonl at 14e0b93",
+      "claim": "48 rows; team correct recounted 41/48 = 85.4% (matches README) (Reported)",
+      "accessed_at": "2026-10-24T05:16:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s216",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/egarim/decision-1-vs-jev/14e0b93b0e4fc67909df033930f16feea8c8ca8f/results/decision1.jsonl",
+      "title": "Source R23-S216: results/decision1.jsonl at 14e0b93",
+      "claim": "48 rows; team correct recounted 48/48 = 100.0% (matches README); no jev.jsonl in results (Reported)",
+      "accessed_at": "2026-10-24T05:16:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s217",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=subq-vs-jev+in:name&per_page=10",
+      "title": "Source R23-S217: GitHub repository search 'subq-vs-jev in:name' (1 search call)",
+      "claim": "total_count 1: jcarlosrodicio/subq-vs-jev, created 2026-10-10T19:09Z, pushed 2026-10-13T15:10Z, 'Reproducible test of two decision models, SubQ Snap and Jev, from 2K to 360K tokens of context' (Documented)",
+      "accessed_at": "2026-10-24T05:16:24Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s218",
+      "source_type": "documented source",
+      "source_url": "https://github.com/jcarlosrodicio/subq-vs-jev/commits/main.atom",
+      "title": "Source R23-S218: jcarlosrodicio/subq-vs-jev commits feed (main)",
+      "claim": "HEAD c0379052376f3531b54d49350365ed07fe6424c5, 2026-10-13T15:09:11Z ('Rerun after SubQ's launch: 20 logs per size...'); 8 commits 10-13 Oct (Documented)",
+      "accessed_at": "2026-10-24T05:16:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s219",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/jcarlosrodicio/subq-vs-jev/git/trees/c0379052376f3531b54d49350365ed07fe6424c5?recursive=1",
+      "title": "Source R23-S219: jcarlosrodicio/subq-vs-jev tree at c037905 (GitHub API, 1 core call)",
+      "claim": "bench/{generate,run,analyze,client}.py, tests/test_truth.py, results/raw/answers.jsonl (2.06 MB), results/run-2026-10-10, site/data/results.json; no LICENSE file in tree (Documented)",
+      "accessed_at": "2026-10-24T05:16:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s220",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/jcarlosrodicio/subq-vs-jev/c0379052376f3531b54d49350365ed07fe6424c5/README.md",
+      "title": "Source R23-S220: subq-vs-jev README at c037905",
+      "claim": "3,840 questions over a synthetic store event log, 2K-360K tokens; run 13 Oct 2026; up to 30K: Snap 93.9%, Jev 94.7%; 360K: Snap 58.8%, Jev 77.1% (29K chunks); disclosure: independent, 'SubQ access was free during its preview weekend' (Reported)",
+      "accessed_at": "2026-10-24T05:16:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s221",
+      "source_type": "reported source",
+      "source_url": "https://raw.githubusercontent.com/jcarlosrodicio/subq-vs-jev/c0379052376f3531b54d49350365ed07fe6424c5/site/data/results.json",
+      "title": "Source R23-S221: site/data/results.json at c037905",
+      "claim": "meta: first_call 2026-10-13T14:53:03Z, last_call 15:05:43Z, model_versions jev-1.13.0, subq-snap-preview; L100-104 head_to_head.jev.overall n 960, correct 909, \"acc\": 0.946875; subq L34-37 n 960, correct 901, 0.938542 (Reported)",
+      "accessed_at": "2026-10-24T05:16:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s222",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jcarlosrodicio/subq-vs-jev/c0379052376f3531b54d49350365ed07fe6424c5/bench/analyze.py",
+      "title": "Source R23-S222: bench/analyze.py (metric) at c037905",
+      "claim": "grade L30-40; acc_block L115-118 (Wilson CI); shared <=30K and head_to_head L131-134; calibration ECE/Brier L143-153 (Documented)",
+      "accessed_at": "2026-10-24T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s223",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jcarlosrodicio/subq-vs-jev/c0379052376f3531b54d49350365ed07fe6424c5/bench/client.py",
+      "title": "Source R23-S223: bench/client.py at c037905",
+      "claim": "L12 jev https://api.typesafe.ai/v1/systemone model jev-latest; L13 subq https://api.subq.ai/v1/systemone model subq-snap-preview (Documented)",
+      "accessed_at": "2026-10-24T05:16:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s224",
+      "source_type": "reported source",
+      "source_url": "https://www.kapa.ai/blog/jev-reranker-benchmark",
+      "title": "Source R23-S224: kapa.ai blog: Jev is NOT a state-of-the-art reranker (but it's close), 15 Oct 2026",
+      "claim": "Company Knowledge Bench, 1,000 cases; 50 candidates per query reranked, top-10 retrieval score with partial credit; Voyage rerank-3 0.535, Jev 1.14 Noul 0.532, Voyage rerank-2.5 0.526, Jev 1.13 Noul 0.519, Cohere rerank-v4.0-pro 0.506; benchmark data and code not linked (only github.com/kapa-ai org link and a Qwen model card) (Reported)",
+      "accessed_at": "2026-10-24T05:16:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s225",
+      "source_type": "documented source",
+      "source_url": "https://hacker-news.firebaseio.com/v0/item/50070393.json",
+      "title": "Source R23-S225: Hacker News item 50070393 (API)",
+      "claim": "story 'Jev handed our LLM the wrong page a tenth as often as our embeddings', url sayora.ai/many-hands/jev-vs-embeddings/, posted 2026-10-13T12:08:53Z, score 14, 3 comments (Documented)",
+      "accessed_at": "2026-10-24T05:16:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s226",
+      "source_type": "documented source",
+      "source_url": "https://hacker-news.firebaseio.com/v0/item/50115347.json",
+      "title": "Source R23-S226: Hacker News item 50115347 (API)",
+      "claim": "story 'Jev is NOT a reranker (but it's close)', url kapa.ai/blog/jev-reranker-benchmark, posted 2026-10-16T07:40:53Z, score 2 (Documented)",
+      "accessed_at": "2026-10-24T05:16:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r23-s227",
+      "source_type": "reported source",
+      "source_url": "https://sayora.ai/many-hands/jev-vs-embeddings/",
+      "title": "Source R23-S227: Sayora Many Hands blog: Jev handed our LLM the wrong page a tenth as often as our embeddings, 12 Oct 2026",
+      "claim": "168 questions (128 answerable, 40 not) over four customer sites (22-232 pages); questions written by Claude Opus 5.5, page descriptions by Claude Haiku 4.5, relevance judged by Claude Opus 5.5 (1,668 judgements, 5 hand-checked); nine pickers incl. Jev jev-1.13.0, GPT-6 Luna (Azure chat API), text-embedding-3-large, BM25; right page first 88% Jev vs 70% production embeddings; no data or code linked (Reported)",
+      "accessed_at": "2026-10-24T05:17:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
     }

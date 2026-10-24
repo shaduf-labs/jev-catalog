@@ -2,6 +2,42 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "versions-aliases-jev-latest-1-14-2026-10-24",
+      "changed_at": "2026-10-24T06:30:00Z",
+      "summary": "Versions and aliases: jev-latest on TypeSafe's API now gives jev-1.14.0 (first seen 24 Oct 2026, 05:12 UTC; jev-1.13.0 at 23 Oct, 05:45 UTC; no dated announcement); jev-1.13.0 is still listed by its ID with no deprecation date. Opper's typesafe/jev-latest still gave 1.13 that morning. Title without \"preview\"; six-route table. Pages that name a default model now say what an unpinned request gets.",
+      "path": "/p/jev-catalog/where-to-use/versions-and-aliases"
+    },
+    {
+      "change_id": "benchmarks-leaderboards-2026-10-24",
+      "changed_at": "2026-10-24T06:30:00Z",
+      "summary": "Benchmarks: new section on the four decision leaderboards that list Jev (Jev Decision Index, Artificial Analysis Decision Index, JevMan, JevBench): who runs each, what you can check, and Jev's listed position. Base Labs' \"#1 of 208\" claim matches the Jev Decision Index's 20 Oct data, not its 22 Oct data. Leaderboards are not graded.",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "benchmarks-b45-b48-2026-10-24",
+      "changed_at": "2026-10-24T06:30:00Z",
+      "summary": "Benchmarks: four studies graded (B45 and B46 grade A, B47 and B48 grade C); the ledger has 45 graded rows: A 14, B 14, C 10, D 7. Five grade-A comparisons of Jev with OpenAI's Decisions API differ by task, with no overall direction. Same grades on alternatives, the decision-API comparison and reranking and RAG.",
+      "path": "/p/jev-catalog/benchmarks"
+    },
+    {
+      "change_id": "decisions-api-caching-2026-10-24",
+      "changed_at": "2026-10-24T06:30:00Z",
+      "summary": "Decision-API comparison and alternatives: since general availability OpenAI's Decisions API discounts cached input ($0.01 per 1M tokens) and charges cache writes ($0.125 or $0.25 per 1M); input $0.10 and free output unchanged. The 13 Oct beta wording is kept as dated.",
+      "path": "/p/jev-catalog/alternatives/jev-vs-decision-apis"
+    },
+    {
+      "change_id": "report-jev-latest-1-14-and-leaderboards-2026-10-24",
+      "changed_at": "2026-10-24T06:30:00Z",
+      "summary": "New dated report: jev-latest now gives Jev 1.14; decision leaderboards and four new graded studies (24 Oct 2026).",
+      "path": "/p/jev-catalog/reports/jev-latest-1-14-and-leaderboards"
+    },
+    {
+      "change_id": "access-recheck-2026-10-24",
+      "changed_at": "2026-10-24T06:30:00Z",
+      "summary": "Access status rechecked 24 Oct 2026, 05:12 UTC: signups open, no new-user credit, API operational; price and rate-limit wording unchanged. On TypeSafe's API jev-latest now points to jev-1.14.0 (first seen 05:12 UTC; it pointed to jev-1.13.0 on 23 Oct); jev-1.13.0 is still listed by its ID, with no deprecation date. Home adds a notice for the move (three notices); none retired.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
       "change_id": "limitations-jev-with-images-2026-10-23",
       "changed_at": "2026-10-23T06:30:00Z",
       "summary": "Limitations: new section \"Jev with images\". Of 8 SDKs and integrations read in package files, 5 send images to Jev and 2 of those add TypeSafe's opt-in header for you; pydantic-ai refuses images and both LangChain packages pass them as text. TypeSafe's image docs quoted with times; no image was sent.",
