@@ -396,6 +396,17 @@
       "summary": "jev-latest on TypeSafe's API moved from jev-1.13.0 to jev-1.14.0 between the 23 Oct, 05:45 UTC and 24 Oct, 05:12 UTC checks, with no dated announcement; jev-1.13.0 is still listed by its ID with no deprecation date; Opper's typesafe/jev-latest still gave 1.13. Pages that name a default model now say what an unpinned request gets. Benchmarks: four decision leaderboards that list Jev, with vendor rank claims checked against their own data (Base Labs' \"#1 of 208\" matches the Jev Decision Index's 20 Oct data, not its 22 Oct data); B45-B48 graded, ledger 45 (A 14, B 14, C 10, D 7). OpenAI's Decisions API now prices cached input. Access unchanged; three notices. No Jev call, no route call, nothing submitted to a leaderboard.",
       "report_path": "/p/jev-catalog/reports/jev-latest-1-14-and-leaderboards",
       "entrypoint": "reports/jev-latest-1-14-and-leaderboards/index.html"
+    },
+    {
+      "run_id": "report-bd94eb65ac7c30cba6a6a6f7",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-30T05:01:00Z",
+      "completed_at": "2026-10-30T06:30:00Z",
+      "title": "What changed for Jev builders, 24–30 October 2026",
+      "summary": "The first check after 24 Oct, with no check in between. Unchanged and re-dated 30 Oct: signups open, no new-user credit, API operational (no incident in the status page's history for 15–30 Oct); jev-latest and jev-preview on jev-1.14.0; jev-1.13.0 listed with no deprecation date; $0.042 per million input tokens; six route listings (Opper's alias still on 1.13); Jev not listed on Bedrock, Microsoft Learn's Foundry pages or Workers AI. Changed, each dated as a range: OpenAI's Decisions API retention eligibility, Microsoft-Decision-1 regions, SubQ Snap 1.1 at $0.04 per million input tokens in SubQ's docs, Drex's pricing docs (drex-max $0.03, was $0.06; signup balance $5.00), TypeSafe's higher-limit request form; Base Labs' free-week wording was not found on two Baseten pages. Coding agents: acmelabs-15/jev-gate read in source (fail-open on error, timeout, malformed answer and no key; logs only by default; not settled, off the failure map); 28 read in source. Three notices. No Jev call, no route call, no account.",
+      "report_path": "/p/jev-catalog/reports/jev-changes-24-30-oct",
+      "entrypoint": "reports/jev-changes-24-30-oct/index.html"
     }
   ]
 }

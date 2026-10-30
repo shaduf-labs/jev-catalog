@@ -2,6 +2,54 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "access-recheck-2026-10-30",
+      "changed_at": "2026-10-30T06:30:00Z",
+      "summary": "Access status checked 30 Oct 2026, 05:14 UTC, after the check of 24 Oct, 05:12 UTC (no check in between): signups open, no new-user credit, API operational; the status page's history lists no incident dated 15–30 Oct. jev-latest and jev-preview still give jev-1.14.0; jev-1.13.0 is still listed with no deprecation date; price unchanged. Three notices, none added or retired.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "decision-apis-cells-2026-10-30",
+      "changed_at": "2026-10-30T06:30:00Z",
+      "summary": "Decision-API comparison and alternatives: OpenAI's data-controls page now marks the Decisions API eligible for Private Retention and Safety Retention (between 13 and 30 Oct); Microsoft lists regions for Microsoft-Decision-1 (page dated 19 Oct, first seen 30 Oct); SubQ's docs list SubQ Snap 1.1 at $0.04 per million input tokens, output free (between 14 and 28 Oct; the launch post still says $0.05). Unchanged cells re-dated 30 Oct.",
+      "path": "/p/jev-catalog/alternatives/jev-vs-decision-apis"
+    },
+    {
+      "change_id": "alternatives-drex-price-2026-10-30",
+      "changed_at": "2026-10-30T06:30:00Z",
+      "summary": "Alternatives, Drex row: on 30 Oct 2026, 05:19 UTC Nace.AI's pricing docs list drex-max at $0.03 per 1M input tokens (was $0.06 on 20 Oct), a new drex-max-v1.1 at $0.03, drex-v2.0 $0.06, drex-v1.5 $0.05 and a signup balance of $5.00. Changed between 20 and 30 Oct 2026; the page shows no date. The 20 Oct values are kept as dated.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "routes-catalogs-recheck-2026-10-30",
+      "changed_at": "2026-10-30T06:30:00Z",
+      "summary": "Versions and aliases and where to use: six route listings rechecked 30 Oct 2026, 05:17 UTC and unchanged (Opper's typesafe/jev-latest still maps to jev-1.13.0). Jev is not listed in the Amazon Bedrock pages, Microsoft Learn's Foundry pages or the Workers AI models page at 30 Oct, 05:17 UTC; the Azure AI Foundry catalog page could not be read and keeps its 16 Oct date.",
+      "path": "/p/jev-catalog/where-to-use/versions-and-aliases"
+    },
+    {
+      "change_id": "rate-limit-form-2026-10-30",
+      "changed_at": "2026-10-30T06:30:00Z",
+      "summary": "Errors and rate limits: TypeSafe's models page now takes requests for higher limits through a rate limit increase request form instead of a sales email (changed between 24 Oct, 05:12 UTC and 30 Oct, 05:14 UTC). Limits are still set per organization and shown in the developer console.",
+      "path": "/p/jev-catalog/build/errors-and-rate-limits"
+    },
+    {
+      "change_id": "coding-agents-jev-gate-2026-10-30",
+      "changed_at": "2026-10-30T06:30:00Z",
+      "summary": "Coding agents: acmelabs-15/jev-gate, a Claude Code hook, read in source at a 20 Oct commit: it lets the tool call go ahead when Jev errors, times out after 1.5 seconds, answers malformed or has no key, and by default only logs. Not settled and not on the failure map (still 80). 28 read in source: 14 act on Jev's answer, 10 do not, 4 not settled. Lead triage for 21–30 Oct: ten names classed from their READMEs.",
+      "path": "/p/jev-catalog/build/coding-agents"
+    },
+    {
+      "change_id": "version-notes-2026-10-30",
+      "changed_at": "2026-10-30T06:30:00Z",
+      "summary": "Version notes: ohmyjev 0.13.2 (29 Oct) removes the auto-approve thresholds from its policy file (its failure-map row was read at an earlier version and has not been re-read); auto-mode 3.1.5 shows no change in the files compared; newer versions of @effect/ai-typesafe, pydantic-ai-slim and nace-sdk exist, not re-read; TypeSafe's SDKs unchanged.",
+      "path": "/p/jev-catalog/build/claude-code-mcp"
+    },
+    {
+      "change_id": "report-jev-changes-24-30-oct",
+      "changed_at": "2026-10-30T06:30:00Z",
+      "summary": "New dated report: what changed for Jev builders between the checks of 24 and 30 October 2026, with what was rechecked and unchanged, what changed and since when, which catalogs list Jev, the coding-agent read, the dates the scan covered and the surfaces whose coverage is unknown.",
+      "path": "/p/jev-catalog/reports/jev-changes-24-30-oct"
+    },
+    {
       "change_id": "versions-aliases-jev-latest-1-14-2026-10-24",
       "changed_at": "2026-10-24T06:30:00Z",
       "summary": "Versions and aliases: jev-latest on TypeSafe's API now gives jev-1.14.0 (first seen 24 Oct 2026, 05:12 UTC; jev-1.13.0 at 23 Oct, 05:45 UTC; no dated announcement); jev-1.13.0 is still listed by its ID with no deprecation date. Opper's typesafe/jev-latest still gave 1.13 that morning. Title without \"preview\"; six-route table. Pages that name a default model now say what an unpinned request gets.",

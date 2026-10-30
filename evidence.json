@@ -26580,6 +26580,876 @@
       "accessed_at": "2026-10-24T05:17:04Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s01",
+      "source_type": "official documentation",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Source R24-S01: TypeSafe console sign-in pages",
+      "claim": "42,782 / 42,855 bytes; sign-in page; no waitlist or credit text; no form submitted (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s02",
+      "source_type": "executive post",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R24-S02: CEO post via X oEmbed",
+      "claim": "text unchanged: 'ANYONE CAN SIGN UP' ... 'temporarily disable the free credits (just for new users)' (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s03",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R24-S03: Docs quickstart",
+      "claim": "14,480 bytes; no waitlist/credit/free-tier text (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s04",
+      "source_type": "official documentation",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R24-S04: TypeSafe status page",
+      "claim": "'All services are online', 'Last updated on Oct 30, 2026 at 5:14am UTC'; api.typesafe.ai 99.843% / 99.835% / 99.832%; dates in history Sep 20, 21, 23, 28, 29, Oct 14; none 15-30 Oct (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s05",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R24-S05: Docs models page",
+      "claim": "8,353 bytes; alias table L72-77 jev-latest and jev-preview -> jev-1.14.0; warning no preview build; price L14; rate limits L60-64 (L64 now rate limit increase request form) (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s06",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R24-S06: Docs images page",
+      "claim": "Docs images page (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s07",
+      "source_type": "official documentation",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R24-S07: TypeSafe homepage",
+      "claim": "0 waitlist / credit / free tier / trial strings (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s08",
+      "source_type": "official documentation",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R24-S08: TypeSafe blog index",
+      "claim": "7 post slugs, latest /blog/jev-1-14 (unchanged) (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s09",
+      "source_type": "official documentation",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R24-S09: Jev 1.14 post",
+      "claim": "'jev-1.13.0 will be available for a while. We intend to give 60 days warning before jev-1.13.0 is formally deprecated' (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s10",
+      "source_type": "official documentation",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R24-S10: TypeSafe Enterprise page",
+      "claim": "0 credit / waitlist / trial strings (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s100",
+      "source_type": "search API",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date",
+      "title": "Source R24-S100: HN Algolia search_by_date, 19 terms x 6 UTC-day slices (114 calls)",
+      "claim": "tags=(story,comment), typoTolerance=false, created_at_i>=1792818660,<1793337180 sliced by 86400 s (Documented)",
+      "accessed_at": "2026-10-30T05:17:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s11",
+      "source_type": "secondary summary",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R24-S11: AI FrontPage homepage",
+      "claim": "0 credit / signup statements (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s12",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Source R24-S12: Docs legal page",
+      "claim": "1,202 bytes (24 Oct 1,168); not diffed (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s124",
+      "source_type": "search API",
+      "source_url": "https://api.github.com/search/repositories?q=jev+created%3A2026-10-24..2026-10-24&per_page=100&sort=updated",
+      "title": "Source R24-S124: GitHub repository search: jev created:2026-10-24..2026-10-24",
+      "claim": "total_count 73; returned 73; incomplete_results False; counts include copies and non-Jev matches (Documented)",
+      "accessed_at": "2026-10-30T05:16:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s125",
+      "source_type": "search API",
+      "source_url": "https://api.github.com/search/repositories?q=jev+created%3A2026-10-25..2026-10-25&per_page=100&sort=updated",
+      "title": "Source R24-S125: GitHub repository search: jev created:2026-10-25..2026-10-25",
+      "claim": "total_count 69; returned 69; incomplete_results False; counts include copies and non-Jev matches (Documented)",
+      "accessed_at": "2026-10-30T05:17:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s126",
+      "source_type": "search API",
+      "source_url": "https://api.github.com/search/repositories?q=jev+created%3A2026-10-26..2026-10-26&per_page=100&sort=updated",
+      "title": "Source R24-S126: GitHub repository search: jev created:2026-10-26..2026-10-26",
+      "claim": "total_count 69; returned 69; incomplete_results False; counts include copies and non-Jev matches (Documented)",
+      "accessed_at": "2026-10-30T05:17:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s127",
+      "source_type": "search API",
+      "source_url": "https://api.github.com/search/repositories?q=jev+created%3A2026-10-27..2026-10-27&per_page=100&sort=updated",
+      "title": "Source R24-S127: GitHub repository search: jev created:2026-10-27..2026-10-27",
+      "claim": "total_count 82; returned 82; incomplete_results False; counts include copies and non-Jev matches (Documented)",
+      "accessed_at": "2026-10-30T05:17:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s128",
+      "source_type": "search API",
+      "source_url": "https://api.github.com/search/repositories?q=jev+created%3A2026-10-28..2026-10-28&per_page=100&sort=updated",
+      "title": "Source R24-S128: GitHub repository search: jev created:2026-10-28..2026-10-28",
+      "claim": "total_count 106; returned 100; incomplete_results False; counts include copies and non-Jev matches (Documented)",
+      "accessed_at": "2026-10-30T05:17:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s129",
+      "source_type": "search API",
+      "source_url": "https://api.github.com/search/repositories?q=jev+created%3A2026-10-29..2026-10-29&per_page=100&sort=updated",
+      "title": "Source R24-S129: GitHub repository search: jev created:2026-10-29..2026-10-29",
+      "claim": "total_count 88; returned 88; incomplete_results False; counts include copies and non-Jev matches (Documented)",
+      "accessed_at": "2026-10-30T05:17:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s13",
+      "source_type": "route",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R24-S13: OpenRouter Jev guide",
+      "claim": "'There's no waitlist or separate TypeSafe account. Just create an OpenRouter API key' (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s130",
+      "source_type": "search API",
+      "source_url": "https://api.github.com/search/repositories?q=jev+hook+OR+jev+gate+OR+jev+guard+OR+jev+router+in%3Aname%2Cdescription+created%3A2026-10-24..2026-10-30&per_page=100&sort=updated",
+      "title": "Source R24-S130: GitHub repository search: jev hook OR jev gate OR jev guard OR jev router in:name,description created:2026-10-24..2026-10-30",
+      "claim": "total_count 31; returned 31; incomplete_results False; counts include copies and non-Jev matches (Documented)",
+      "accessed_at": "2026-10-30T05:18:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s131",
+      "source_type": "search API",
+      "source_url": "https://api.github.com/search/repositories?q=typesafe+created%3A2026-10-24..2026-10-26&per_page=100&sort=updated",
+      "title": "Source R24-S131: GitHub repository search: typesafe created:2026-10-24..2026-10-26",
+      "claim": "total_count 46; returned 46; incomplete_results False; counts include copies and non-Jev matches (Documented)",
+      "accessed_at": "2026-10-30T05:18:23Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s132",
+      "source_type": "search API",
+      "source_url": "https://api.github.com/search/repositories?q=typesafe+created%3A2026-10-27..2026-10-30&per_page=100&sort=updated",
+      "title": "Source R24-S132: GitHub repository search: typesafe created:2026-10-27..2026-10-30",
+      "claim": "total_count 40; returned 40; incomplete_results False; counts include copies and non-Jev matches (Documented)",
+      "accessed_at": "2026-10-30T05:18:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s14",
+      "source_type": "secondary summary",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R24-S14: Eye Security lookalike report",
+      "claim": "online; names jev-agent.org, jev-ai.pro, jevtypesafeai.com (Reported)",
+      "accessed_at": "2026-10-30T05:17:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s15",
+      "source_type": "reseller",
+      "source_url": "https://jev-agent.org/",
+      "title": "Source R24-S15: Lookalike site (homepage status only)",
+      "claim": "title 'Jev: Fast System One Decisions for AI Agents | Jev Agent' (Documented)",
+      "accessed_at": "2026-10-30T05:17:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s16",
+      "source_type": "reseller",
+      "source_url": "https://jev-ai.pro/",
+      "title": "Source R24-S16: Lookalike site (homepage status only)",
+      "claim": "title now 'Jev AI — Jev Models Playground & API' (Documented)",
+      "accessed_at": "2026-10-30T05:17:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s17",
+      "source_type": "reseller",
+      "source_url": "https://jevtypesafeai.com/",
+      "title": "Source R24-S17: Lookalike site (homepage status only; never a source)",
+      "claim": "online; title unchanged; status only (Documented)",
+      "accessed_at": "2026-10-30T05:17:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s20",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Source R24-S20: Docs llms.txt index",
+      "claim": "19,809 bytes (24 Oct 18,706); not diffed (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s200",
+      "source_type": "docs",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md",
+      "title": "Source R24-S200: OpenAI Decisions API guide (md)",
+      "claim": "GA banner :5; model gpt-6-luna only :35; 400 questions :22; price :988 '$0.10 per 1M tokens'; ZDR/HIPAA :992 (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s201",
+      "source_type": "pricing",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "title": "Source R24-S201: OpenAI pricing (md)",
+      "claim": "gpt-6-luna row :38 Standard $0.10 in, cached $0.01, 30m write $0.125, 12h write $0.25 (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s202",
+      "source_type": "changelog",
+      "source_url": "https://developers.openai.com/api/docs/changelog.md",
+      "title": "Source R24-S202: OpenAI API changelog (md)",
+      "claim": "entries after Oct 22: Oct 26 (gpt-6.1-terra), Oct 28 (ChatGPT API credits); no v1/decisions entry (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s203",
+      "source_type": "docs",
+      "source_url": "https://developers.openai.com/api/docs/guides/your-data.md",
+      "title": "Source R24-S203: OpenAI data controls (md)",
+      "claim": "/v1/decisions row :74; :124 abuse logs up to 30 days; PSP 'Yes, see below for limitations' (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s204",
+      "source_type": "docs",
+      "source_url": "https://developers.openai.com/api/reference/resources/decisions/methods/create",
+      "title": "Source R24-S204: OpenAI Decisions API reference (HTML)",
+      "claim": "'Ask 1–400 questions'; '128 images' string not found in fetched HTML (Unverified)",
+      "accessed_at": "2026-10-30T05:18:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s205",
+      "source_type": "docs",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision",
+      "title": "Source R24-S205: Microsoft Learn: use Microsoft-Decision-1",
+      "claim": "updated_at 2026-10-09T22:04Z; version 1; DataZoneStandard in selected regions; GlobalStandard (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s206",
+      "source_type": "docs",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+      "title": "Source R24-S206: Microsoft Learn: region availability, models sold by Azure",
+      "claim": "updated_at 2026-10-19T22:12Z; Microsoft-Decision-1 version 1 in Global Standard and Data Zone Standard tables (Americas, Europe, APAC tabs) (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s207",
+      "source_type": "catalog",
+      "source_url": "https://ai.azure.com/catalog/models/Microsoft-Decision-1",
+      "title": "Source R24-S207: Foundry catalog: Microsoft-Decision-1",
+      "claim": "embedded data 'lifecycle','Preview'; 32768 present (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s208",
+      "source_type": "blog",
+      "source_url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "title": "Source R24-S208: Microsoft post: Decision-1 in Foundry",
+      "claim": "'Input tokens cost $0.042 USD per million tokens. Output tokens are free.' (Documented)",
+      "accessed_at": "2026-10-30T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s209",
+      "source_type": "api-metadata",
+      "source_url": "https://openrouter.ai/api/v1/models/microsoft/microsoft-decision-1/endpoints",
+      "title": "Source R24-S209: OpenRouter endpoints: microsoft-decision-1",
+      "claim": "one endpoint Azure, prompt 0.000000042, context 32768 (Documented)",
+      "accessed_at": "2026-10-30T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s21",
+      "source_type": "official documentation",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Source R24-S21: Docs changelog URL",
+      "claim": "HTTP 404 (Documented)",
+      "accessed_at": "2026-10-30T05:14:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s212",
+      "source_type": "docs",
+      "source_url": "https://docs.subq.ai/markdown/using-the-api/models.md",
+      "title": "Source R24-S212: SubQ docs: Models",
+      "claim": "Last-Modified Wed, 28 Oct 2026 23:15:59 GMT; 'SubQ Snap 1.1'; 'Model ID: subq-snap-1.1'; 'Status: Public preview'; 'Pricing: Input ($0.04 / 1M tokens), Output (Free)' (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s213",
+      "source_type": "docs",
+      "source_url": "https://docs.subq.ai/llms.txt",
+      "title": "Source R24-S213: SubQ docs llms.txt",
+      "claim": "'SubQ Snap 1.1 (subq-snap-1.1, public preview) is the default Decision model' (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s214",
+      "source_type": "blog",
+      "source_url": "https://subq.ai/introducing-subq-snap",
+      "title": "Source R24-S214: Subquadratic: Introducing SubQ Snap (12 Oct 2026)",
+      "claim": "'$0.05 per million input tokens'; Public Preview; waitlist sentence (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s216",
+      "source_type": "docs",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/clef/index.md",
+      "title": "Source R24-S216: Workers AI model: clef",
+      "claim": "context 65,536; $0.24 per M input (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s217",
+      "source_type": "docs",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/clef-flash/index.md",
+      "title": "Source R24-S217: Workers AI model: clef-flash",
+      "claim": "context 24,576; $0.038 per M input (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s218",
+      "source_type": "docs",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/clef-omni/index.md",
+      "title": "Source R24-S218: Workers AI model: clef-omni",
+      "claim": "context 64,000; $0.15 per M input (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s219",
+      "source_type": "pricing",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/index.md",
+      "title": "Source R24-S219: Workers AI pricing",
+      "claim": "Last updated Oct 20, 2026; clef $0.240, clef-omni $0.150, clef-flash $0.038, clairic $0.100 per M input (Documented)",
+      "accessed_at": "2026-10-30T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s22",
+      "source_type": "route",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Source R24-S22: OpenRouter Jev 1.13 endpoints",
+      "claim": "typesafe/jev-1.13-20260917; context 262,144; prompt 0.000000042 (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s223",
+      "source_type": "pricing",
+      "source_url": "https://www.baseten.co/pricing/",
+      "title": "Source R24-S223: Baseten pricing",
+      "claim": "per 1M input: joey-1 $0.01, elephant-1 $0.035, mammoth-1 $0.10; no 'free' week wording on library pages (Documented)",
+      "accessed_at": "2026-10-30T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s224",
+      "source_type": "catalog",
+      "source_url": "https://www.baseten.co/library/mammoth-1/",
+      "title": "Source R24-S224: Baseten library: mammoth-1",
+      "claim": "Input $0.10 per 1M; Output $0.00; License MIT (Documented)",
+      "accessed_at": "2026-10-30T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s228",
+      "source_type": "feed",
+      "source_url": "https://github.com/acmelabs-15/jev-gate/commits/main.atom",
+      "title": "Source R24-S228: jev-gate commits feed",
+      "claim": "HEAD b3ae111c09e205bf132ff7f7f3a6c2d2c8558298 2026-10-20T13:38:22Z; 14 entries (Documented)",
+      "accessed_at": "2026-10-30T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s229",
+      "source_type": "listing",
+      "source_url": "https://api.github.com/repos/acmelabs-15/jev-gate/git/trees/b3ae111c09e205bf132ff7f7f3a6c2d2c8558298?recursive=1",
+      "title": "Source R24-S229: jev-gate tree at pin",
+      "claim": "truncated false; 41 blobs outside .changeset (Documented)",
+      "accessed_at": "2026-10-30T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s23",
+      "source_type": "route",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.14/endpoints",
+      "title": "Source R24-S23: OpenRouter Jev 1.14 endpoints",
+      "claim": "typesafe/jev-1.14-20261014; context 262,144; prompt 0.000000042 (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s230",
+      "source_type": "source",
+      "source_url": "https://raw.githubusercontent.com/acmelabs-15/jev-gate/b3ae111c09e205bf132ff7f7f3a6c2d2c8558298/hooks/hooks.json",
+      "title": "Source R24-S230: jev-gate hooks.json at pin",
+      "claim": "PreToolUse L4-14 matcher L6 timeout 5 L11; SessionStart L16-26 (Documented)",
+      "accessed_at": "2026-10-30T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s231",
+      "source_type": "source",
+      "source_url": "https://raw.githubusercontent.com/acmelabs-15/jev-gate/b3ae111c09e205bf132ff7f7f3a6c2d2c8558298/scripts/gate/hook.ts",
+      "title": "Source R24-S231: jev-gate hook.ts at pin",
+      "claim": "runGate L70; no key L91-100; callJev L116; enforce L119,L131; catch L132-141; exit 0 L149 (Documented)",
+      "accessed_at": "2026-10-30T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s232",
+      "source_type": "source",
+      "source_url": "https://raw.githubusercontent.com/acmelabs-15/jev-gate/b3ae111c09e205bf132ff7f7f3a6c2d2c8558298/scripts/gate/jev.ts",
+      "title": "Source R24-S232: jev-gate jev.ts at pin",
+      "claim": "POST /v1/systemone L30; timeout L37; non-2xx L39-43; no answers L44-47; >= threshold L69 (Documented)",
+      "accessed_at": "2026-10-30T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s233",
+      "source_type": "source",
+      "source_url": "https://raw.githubusercontent.com/acmelabs-15/jev-gate/b3ae111c09e205bf132ff7f7f3a6c2d2c8558298/scripts/gate/config.ts",
+      "title": "Source R24-S233: jev-gate config.ts at pin (also session-start.ts, state.ts, questions.ts, log.ts, skills/*/SKILL.md, scripts/report/report.ts, package.json 0.2.1)",
+      "claim": "mode shadow L66; onFlag ask L67; threshold 0.9 L68; timeout 1500 L69; missingKey L76-78 (Documented)",
+      "accessed_at": "2026-10-30T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s234",
+      "source_type": "docs",
+      "source_url": "https://code.claude.com/docs/en/hooks.md",
+      "title": "Source R24-S234: Claude Code hooks reference",
+      "claim": "L183 deny blocks the tool call; L414 timeout defaults; host source not read (Documented)",
+      "accessed_at": "2026-10-30T05:22:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s235",
+      "source_type": "repo",
+      "source_url": "https://github.com/sanketmuchhala/jevgate/tree/b344c8e358c62a7d96fdb0fab16924bfb6a5a1cf",
+      "title": "Source R24-S235: sanketmuchhala/jevgate README and root listing at pin",
+      "claim": "class line only; atom HEAD 2026-10-26T02:17:10Z (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s236",
+      "source_type": "registry",
+      "source_url": "https://registry.npmjs.org/pi-typesafe",
+      "title": "Source R24-S236: npm pi-typesafe registry document",
+      "claim": "0.13.0 time 2026-10-24T02:36:45.348Z; latest 0.13.1; repo DevMortimer/pi-typesafe; fileCount 35 (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s237",
+      "source_type": "repo",
+      "source_url": "https://github.com/pbswimmer3/claude-jev-router/tree/be11baddb9bec6a5619f8543733e072ee6045407",
+      "title": "Source R24-S237: pbswimmer3/claude-jev-router README and root listing at pin",
+      "claim": "class line only (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s238",
+      "source_type": "repo",
+      "source_url": "https://github.com/hasanzaman22/jev-effort-router/tree/28eea82e1f62d5c8bb28818329894dc1368e65cc",
+      "title": "Source R24-S238: hasanzaman22/jev-effort-router README and root listing at pin",
+      "claim": "class line only (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s239",
+      "source_type": "repo",
+      "source_url": "https://github.com/G0-0000/subagent-jev/tree/6c79c42b52524f5490fff1856f65de61814e8b70",
+      "title": "Source R24-S239: G0-0000/subagent-jev README and root listing at pin",
+      "claim": "class line only (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s24",
+      "source_type": "route",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R24-S24: OpenRouter model list and jev-latest",
+      "claim": "456 IDs (24 Oct 469); jev/typesafe ID typesafe/jev-router; ~typesafe/jev-latest 'always redirects to the latest model in the Jev family', no endpoints (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s240",
+      "source_type": "repo",
+      "source_url": "https://github.com/Pyromind-Dynamics/pi-jev-governor/tree/5b00d98d06e10d1219bca11df86c8aa248131144",
+      "title": "Source R24-S240: Pyromind-Dynamics/pi-jev-governor README and root listing at pin",
+      "claim": "class line only (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s241",
+      "source_type": "repo",
+      "source_url": "https://github.com/Komugi-powerplatform/yomiyasu-sem/tree/5a81d356cb2b541c5173ab5d03992bd3e74f7c13",
+      "title": "Source R24-S241: Komugi-powerplatform/yomiyasu-sem README and root listing at pin",
+      "claim": "class line only; 1 commit in feed (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s242",
+      "source_type": "repo",
+      "source_url": "https://github.com/ysys143/jev-harness/tree/e716896df4f31187f767eead792e20ce338b7306",
+      "title": "Source R24-S242: ysys143/jev-harness README and root listing at pin",
+      "claim": "class line only; README says moved to context-harness (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s243",
+      "source_type": "repo",
+      "source_url": "https://github.com/felinae98/cmd-mod-jev-guard/tree/4051a8b64c72678ff182318463f410a9dad9e0f9",
+      "title": "Source R24-S243: felinae98/cmd-mod-jev-guard README and root listing at pin",
+      "claim": "class line only; 1 commit in feed (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s244",
+      "source_type": "article",
+      "source_url": "https://oxtan-maker.github.io/parallix/articles/jev-review-evidence/",
+      "title": "Source R24-S244: Parallix article: cheaper review loop for coding agents using Jev",
+      "claim": "dated 21 October 2026; no repo link found (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s245",
+      "source_type": "forum",
+      "source_url": "https://hn.algolia.com/api/v1/items/50205651",
+      "title": "Source R24-S245: HN item 50205651 (Algolia)",
+      "claim": "created 2026-10-23T07:41:33Z; 1 point; 0 children (Reported)",
+      "accessed_at": "2026-10-30T05:23:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s25",
+      "source_type": "route",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models/typesafe-ai/jev/endpoints",
+      "title": "Source R24-S25: Vercel AI Gateway Jev endpoints",
+      "claim": "typesafe-ai/jev (digitalocean, typesafe-ai), 1.13.0, 1.14.0; context 32,000; prompt 0.000000042 (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s26",
+      "source_type": "route",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R24-S26: Vercel model list",
+      "claim": "500 IDs (24 Oct 480); 3 TypeSafe (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s27",
+      "source_type": "route",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-1.13.0",
+      "title": "Source R24-S27: Opper models API",
+      "claim": "typesafe/jev-latest alias of typesafe/jev-1.13.0 (model_id jev-1.13.0); typesafe/jev-preview alias of jev-1.14.0 (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s28",
+      "source_type": "route",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/index.md",
+      "title": "Source R24-S28: Cloudflare AI catalog: typesafe/jev",
+      "claim": "examples return jev-1.13.0; $0.042 per 1M input (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s29",
+      "source_type": "route",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev-1.14.0/index.md",
+      "title": "Source R24-S29: Cloudflare AI catalog: typesafe/jev-1.14.0",
+      "claim": "jev-1.14.0 listed; $0.042 per 1M input (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s30",
+      "source_type": "route",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R24-S30: Netlify AI Gateway overview",
+      "claim": "lists jev-1.13.0, jev-1.14.0, jev-latest, jev-preview, jev-router (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s31",
+      "source_type": "catalog",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
+      "title": "Source R24-S31: Amazon Bedrock catalog pages",
+      "claim": "0 'typesafe', 0 'jev'; control 'Mistral' 5 / 11 / 2 (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s32",
+      "source_type": "catalog",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "title": "Source R24-S32: Microsoft Foundry catalog pages",
+      "claim": "0 'typesafe', 0 'jev' on both Learn pages (control 'Mistral' 13 / 4); ai.azure.com catalog page is a client-side shell (494 characters of text), not readable (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s33",
+      "source_type": "catalog",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/",
+      "title": "Source R24-S33: Workers AI models page and Cloudflare changelog",
+      "claim": "0 'typesafe', 0 'jev'; control 'Mistral' 6 / 0 (Documented)",
+      "accessed_at": "2026-10-30T05:17:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s35",
+      "source_type": "registry",
+      "source_url": "https://registry.npmjs.org/<package> (19 packages)",
+      "title": "Source R24-S35: npm registry documents (package versions)",
+      "claim": "npm registry documents (package versions and publish times) (Documented)",
+      "accessed_at": "2026-10-30T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s36",
+      "source_type": "registry",
+      "source_url": "https://pypi.org/pypi/<package>/json (8 packages)",
+      "title": "Source R24-S36: PyPI JSON (package versions)",
+      "claim": "PyPI JSON documents (package versions and publish times) (Documented)",
+      "accessed_at": "2026-10-30T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s37",
+      "source_type": "source",
+      "source_url": "https://data.jsdelivr.com/v1/packages/npm/auto-mode@3.0.0",
+      "title": "Source R24-S37: auto-mode package files 3.0.0 vs 3.1.5 (targeted diff)",
+      "claim": "30 files differ; mods/auto-mode/hooks sources: comments and opening-prompt marker only; dist Jev markers identical in count; model \"jev-1.13.0\" (Documented)",
+      "accessed_at": "2026-10-30T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s38",
+      "source_type": "source",
+      "source_url": "https://data.jsdelivr.com/v1/packages/npm/ohmyjev@0.12.0",
+      "title": "Source R24-S38: ohmyjev package files 0.12.0 vs 0.13.2 (targeted diff)",
+      "claim": "7 files differ; 0.12.0 policy.ts L28 autoApprove, L37-38 approveConfidence 0.9 / approveRiskMax 0.2, L342-350 approveBash: absent in 0.13.2; 0.13.2 L12 lockdown false; L84 timeoutMs 1500; adapters/shared.ts L309 exfil gate needs lockdown (Documented)",
+      "accessed_at": "2026-10-30T05:20:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s39",
+      "source_type": "official documentation",
+      "source_url": "https://github.com/typesafe-ai/typesafe-sdk-python/releases.atom",
+      "title": "Source R24-S39: TypeSafe SDK release feeds",
+      "claim": "latest v0.7.5 (2026-10-14) and v0.7.0 (2026-10-14) (Documented)",
+      "accessed_at": "2026-10-30T05:21:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s42",
+      "source_type": "comparator",
+      "source_url": "https://docs.subq.ai/markdown/using-the-api/models.md",
+      "title": "Source R24-S42: SubQ models page",
+      "claim": "L9 '## SubQ Snap 1.1'; L13 'Model ID: `subq-snap-1.1`'; L14 'Status: Public preview'; L18 'Pricing: Input ($0.04 / 1M tokens), Output (Free)'; Last-Modified Wed, 28 Oct 2026 23:15:59 GMT (Documented)",
+      "accessed_at": "2026-10-30T05:22:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s43",
+      "source_type": "source",
+      "source_url": "https://raw.githubusercontent.com/acmelabs-15/jev-gate/b3ae111c09e205bf132ff7f7f3a6c2d2c8558298/scripts/report/report.ts",
+      "title": "Source R24-S43: jev-gate report.ts and session-start.ts at pin",
+      "claim": "report.ts 278 lines, imports config, log, questions only (L13-16), no fetch or permission output; session-start.ts 53 lines, no Jev call (Documented)",
+      "accessed_at": "2026-10-30T05:28:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s46",
+      "source_type": "comparator",
+      "source_url": "https://developers.openai.com/api/reference/resources/decisions/methods/create.md",
+      "title": "Source R24-S46: OpenAI Decisions API reference and guide markdown (images limit check)",
+      "claim": "no 128 image figure in either (create 819 lines; only maxLength 128 fields at L251, L591); guide L433 images share the request image limits (Documented)",
+      "accessed_at": "2026-10-30T05:35:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r24-s225",
+      "source_type": "pricing",
+      "source_url": "https://console.nace.ai/docs/drex/reference/pricing",
+      "title": "Source R24-S225: Nace.AI Drex pricing",
+      "claim": "per 1M input: drex-max-v1.1 $0.03, drex-max $0.03, drex-v2.0 $0.06, drex-v1.5 $0.05; signup balance $5.00 (Documented)",
+      "accessed_at": "2026-10-30T05:19:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
