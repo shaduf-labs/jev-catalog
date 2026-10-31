@@ -407,6 +407,17 @@
       "summary": "The first check after 24 Oct, with no check in between. Unchanged and re-dated 30 Oct: signups open, no new-user credit, API operational (no incident in the status page's history for 15–30 Oct); jev-latest and jev-preview on jev-1.14.0; jev-1.13.0 listed with no deprecation date; $0.042 per million input tokens; six route listings (Opper's alias still on 1.13); Jev not listed on Bedrock, Microsoft Learn's Foundry pages or Workers AI. Changed, each dated as a range: OpenAI's Decisions API retention eligibility, Microsoft-Decision-1 regions, SubQ Snap 1.1 at $0.04 per million input tokens in SubQ's docs, Drex's pricing docs (drex-max $0.03, was $0.06; signup balance $5.00), TypeSafe's higher-limit request form; Base Labs' free-week wording was not found on two Baseten pages. Coding agents: acmelabs-15/jev-gate read in source (fail-open on error, timeout, malformed answer and no key; logs only by default; not settled, off the failure map); 28 read in source. Three notices. No Jev call, no route call, no account.",
       "report_path": "/p/jev-catalog/reports/jev-changes-24-30-oct",
       "entrypoint": "reports/jev-changes-24-30-oct/index.html"
+    },
+    {
+      "run_id": "report-17edf8acb838ff2035090a01",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-10-31T05:01:00Z",
+      "completed_at": "2026-10-31T06:30:00Z",
+      "title": "Hosted decision APIs compared: what changed by 31 October 2026",
+      "summary": "The 40 comparison cells dated before 17 Oct were read again. Changed, each dated as a range: Microsoft-Decision-1 rate limits (2,160–15,000 requests and 2.16M–15M tokens per minute by tier; was 60–900 requests per minute), Cloudflare's Workers AI zero-data-retention and no-training wording (page updated 16 Oct), Clef-flash hosts on OpenRouter (Makora and DeepInfra added), OpenAI's inputs (text, images and JSON; a per-request image limit not found on 30 or 31 Oct) and regions wording, Upright's Eevo prices ($0.10 per 1M input tokens; $0.15 per decision). 29 cells unchanged and re-dated, 2 re-read in part, 2 not re-read, 1 first read. Kev and Laya have new releases not yet read. Framework packages: TanStack AI read at commit 5651e07 (raises to your code); 7 read in source, 5 raise errors to your code; Pydantic AI 2.64.0 and Effect 4.1.1 failure paths unchanged. Access unchanged; a resolved 30 Oct us-east-1 status event; Home shows two notices after the jev-latest notice ended its shelf life. No Jev call, no route call, no account.",
+      "report_path": "/p/jev-catalog/reports/decision-api-cells-31-oct",
+      "entrypoint": "reports/decision-api-cells-31-oct/index.html"
     }
   ]
 }

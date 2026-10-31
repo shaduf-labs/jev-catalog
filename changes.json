@@ -2,6 +2,42 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "access-recheck-2026-10-31",
+      "changed_at": "2026-10-31T06:30:00Z",
+      "summary": "Access status checked 31 Oct 2026, 05:11 UTC, one day after the previous check: signups open, no new-user credit, API operational; price, rate-limit wording and aliases unchanged (jev-latest and jev-preview give jev-1.14.0; jev-1.13.0 listed with no deprecation date). The status page lists a resolved \"System overload\" on the us-east-1 endpoint on 30 Oct (degraded 1 hour 15 minutes, resolved 21:15 UTC), now on the access timeline. Home shows two notices: the jev-latest notice ended its seven-day shelf life; the fact stays on versions and aliases.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "decision-apis-cells-2026-10-31",
+      "changed_at": "2026-10-31T06:30:00Z",
+      "summary": "Decision-API comparison: the 40 cells dated before 17 Oct were read again on 31 Oct 2026. Changed: Microsoft-Decision-1 rate limits now 2,160–15,000 requests and 2.16M–15M tokens per minute by tier (was 60–900 requests per minute; between 13 and 31 Oct); Cloudflare's Workers AI data-usage page (updated 16 Oct) says \"Zero data retention: Workers AI processes Customer Content only for as long as needed to provide the service\", with exceptions (storage services, AI Gateway logging or caching) and no period in days, and has new no-training wording; on OpenRouter, Clef-flash is also served by Makora and DeepInfra; OpenAI's guide lists text, images and JSON input and new regions wording, and a per-request image limit was not found in its guide, API reference or changelog (13 Oct reading: up to 128). 29 cells unchanged and re-dated; the card's changed-since line and copy block updated.",
+      "path": "/p/jev-catalog/alternatives/jev-vs-decision-apis"
+    },
+    {
+      "change_id": "alternatives-hosted-rows-2026-10-31",
+      "changed_at": "2026-10-31T06:30:00Z",
+      "summary": "Alternatives: Upright's Eevo now lists $0.10 per 1M input tokens (Direct mode and its SystemOne-compatible API) and $0.15 per decision (Default mode), with Eevo-1.2 current and eevo-1.1 no longer served (changed between 19 and 31 Oct); Decision-1 and Clef rows match the comparison page; Kev (kev-1.0, 1 Oct) and Laya (v0.4.18, 30 Oct) have new releases that have not been read; d1-ultra, Drex, Mouse-1 and SubQ Snap re-read on 31 Oct and unchanged.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "frameworks-tanstack-2026-10-31",
+      "changed_at": "2026-10-31T06:30:00Z",
+      "summary": "Framework packages: TanStack AI's @tanstack/ai-typesafe 1.0.0, read at commit 5651e07, raises to your code on an API error, a malformed answer or a missing key and sets no timeout of its own; 7 packages now read in source (4 pre-1.0, none from TypeSafe, 5 raise Jev errors to your code, 2 decide by themselves). Pydantic AI 2.64.0 and Effect 4.1.1 checked: failure paths unchanged.",
+      "path": "/p/jev-catalog/build/frameworks"
+    },
+    {
+      "change_id": "routes-catalogs-recheck-2026-10-31",
+      "changed_at": "2026-10-31T06:30:00Z",
+      "summary": "Versions and aliases and where to use: six route listings rechecked 31 Oct 2026, 05:14 UTC and unchanged (Opper's typesafe/jev-latest still maps to jev-1.13.0). Jev is not listed in the Amazon Bedrock model cards or Marketplace reference, Microsoft Learn's Foundry pages or the Workers AI models page at 31 Oct 2026, 05:14 UTC.",
+      "path": "/p/jev-catalog/where-to-use/versions-and-aliases"
+    },
+    {
+      "change_id": "report-decision-api-cells-31-oct",
+      "changed_at": "2026-10-31T06:30:00Z",
+      "summary": "New dated report: hosted decision APIs compared, what changed by 31 October 2026, with the re-read of 40 comparison cells by column, when each change could have happened, the Eevo, Kev and Laya rows, the TanStack AI framework row and the day's access check.",
+      "path": "/p/jev-catalog/reports/decision-api-cells-31-oct"
+    },
+    {
       "change_id": "access-recheck-2026-10-30",
       "changed_at": "2026-10-30T06:30:00Z",
       "summary": "Access status checked 30 Oct 2026, 05:14 UTC, after the check of 24 Oct, 05:12 UTC (no check in between): signups open, no new-user credit, API operational; the status page's history lists no incident dated 15–30 Oct. jev-latest and jev-preview still give jev-1.14.0; jev-1.13.0 is still listed with no deprecation date; price unchanged. Three notices, none added or retired.",

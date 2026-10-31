@@ -27450,6 +27450,1046 @@
       "accessed_at": "2026-10-30T05:19:00Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Source R25-S01: console.typesafe.ai",
+      "claim": "Sign-in pages 42,756 / 42,829 bytes; no waitlist or credit text; no form submitted (Documented)",
+      "accessed_at": "2026-10-31T05:11:12Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R25-S02: publish.x.com",
+      "claim": "CEO post text unchanged (ANYONE CAN SIGN UP; free credits temporarily disabled for new users) (Documented)",
+      "accessed_at": "2026-10-31T05:11:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R25-S03: docs.typesafe.ai",
+      "claim": "14,948 bytes; markup-only diff vs 30 Oct (Documented)",
+      "accessed_at": "2026-10-31T05:11:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s04",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R25-S04: status.typesafe.ai",
+      "claim": "All services are online; Last updated Oct 31, 2026 at 5:10am UTC; 99.843/99.835/99.832%; Oct 30 System overload api.us-east-1, degraded 1 h 15 min, resolved 9:15pm UTC (Documented)",
+      "accessed_at": "2026-10-31T05:11:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R25-S05: docs.typesafe.ai",
+      "claim": "8,353 bytes, byte-identical to 30 Oct copy; alias table jev-latest/jev-preview -> jev-1.14.0 (Documented)",
+      "accessed_at": "2026-10-31T05:11:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R25-S06: docs.typesafe.ai",
+      "claim": "21,136 bytes; markup-only diff; images off by default, Danger-Zone header, not ready for production (Documented)",
+      "accessed_at": "2026-10-31T05:11:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R25-S07: typesafe.ai",
+      "claim": "No signup-waitlist or credit text (\"Join Waitlist\" only as component name on a jobs link) (Documented)",
+      "accessed_at": "2026-10-31T05:11:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R25-S08: typesafe.ai",
+      "claim": "7 posts; latest /blog/jev-1-14 (Documented)",
+      "accessed_at": "2026-10-31T05:11:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R25-S09: typesafe.ai",
+      "claim": "60 days warning and \"available for a while\" wording present (Documented)",
+      "accessed_at": "2026-10-31T05:11:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R25-S10: typesafe.ai",
+      "claim": "No credit, waitlist or trial text (Documented)",
+      "accessed_at": "2026-10-31T05:11:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s11",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Source R25-S11: docs.typesafe.ai",
+      "claim": "HTTP 404: no docs changelog (Documented)",
+      "accessed_at": "2026-10-31T05:11:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s12",
+      "source_type": "documented source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R25-S12: aifront-page.com",
+      "claim": "No credit or waitlist text (Documented)",
+      "accessed_at": "2026-10-31T05:11:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s12b",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/legal.md",
+      "title": "Source R25-S12b: docs.typesafe.ai",
+      "claim": "1,202 bytes; ZDR for enterprise customers sentence (Documented)",
+      "accessed_at": "2026-10-31T05:11:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s13",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R25-S13: openrouter.ai",
+      "claim": "No waitlist or separate TypeSafe account sentence present (Documented)",
+      "accessed_at": "2026-10-31T05:11:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s19",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/privacy-policy",
+      "title": "Source R25-S19: typesafe.ai",
+      "claim": "Last updated Nov 19, 2025; no-training quote and \"hosted in the United States\" present (Documented)",
+      "accessed_at": "2026-10-31T05:16:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s20",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/mca",
+      "title": "Source R25-S20: typesafe.ai",
+      "claim": "Last updated Sep 23, 2026; MCA \"no obligation to store or retain Customer Data\" present (Documented)",
+      "accessed_at": "2026-10-31T05:16:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s21",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/data-processing",
+      "title": "Source R25-S21: typesafe.ai",
+      "claim": "Last updated Apr 24, 2026; \"retained for as long as necessary taking into account the purpose of the Processing\" present (Documented)",
+      "accessed_at": "2026-10-31T05:16:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s22",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/legal/terms",
+      "title": "Source R25-S22: typesafe.ai",
+      "claim": "Last updated Sep 19, 2026 (Documented)",
+      "accessed_at": "2026-10-31T05:16:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s23",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/api/errors.md",
+      "title": "Source R25-S23: docs.typesafe.ai",
+      "claim": "401, 422, 429 (Back off and retry after a short delay), 529 rows (Documented)",
+      "accessed_at": "2026-10-31T05:15:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s24",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R25-S24: openrouter.ai",
+      "claim": "456 IDs (30 Oct 456); typesafe/jev-router listed (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s25",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/typesafe/jev-1.13/endpoints",
+      "title": "Source R25-S25: openrouter.ai",
+      "claim": "IDs unchanged; jev-latest \"always redirects to the latest model in the Jev family\" (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s26",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R25-S26: ai-gateway.vercel.sh",
+      "claim": "499 IDs; typesafe-ai/jev, -1.13.0, -1.14.0, context 32,000 (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s27",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-latest",
+      "title": "Source R25-S27: api.opper.ai",
+      "claim": "typesafe/jev-latest alias of typesafe/jev-1.13.0; typesafe/jev-preview alias of typesafe/jev-1.14.0 (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s28",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/index.md",
+      "title": "Source R25-S28: developers.cloudflare.com",
+      "claim": "examples jev-1.13.0; $0.042 per 1M input (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s29",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev-1.14.0/index.md",
+      "title": "Source R25-S29: developers.cloudflare.com",
+      "claim": "jev-1.14.0; $0.042 per 1M input (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s30",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R25-S30: docs.netlify.com",
+      "claim": "jev-1.13.0, jev-1.14.0, jev-latest, jev-preview, jev-router (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s31",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
+      "title": "Source R25-S31: docs.aws.amazon.com",
+      "claim": "0 typesafe, 0 jev (Mistral 25 / 11) (Documented)",
+      "accessed_at": "2026-10-31T05:14:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s32",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-from-partners",
+      "title": "Source R25-S32: learn.microsoft.com",
+      "claim": "0 typesafe, 0 jev (Mistral 26 / 9; Decision-1 0 / 2) (Documented)",
+      "accessed_at": "2026-10-31T05:14:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s33",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/",
+      "title": "Source R25-S33: developers.cloudflare.com",
+      "claim": "0 typesafe, 0 jev (Mistral 46) (Documented)",
+      "accessed_at": "2026-10-31T05:14:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s36",
+      "source_type": "package registry",
+      "source_url": "https://registry.npmjs.org/",
+      "title": "Source R25-S36: npm and PyPI registry documents",
+      "claim": "versions and publish times for 13 npm and 6 PyPI packages (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s38",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/v2.64.0/pydantic_ai_slim/pydantic_ai/models/typesafe.py",
+      "title": "Source R25-S38: raw.githubusercontent.com",
+      "claim": "models/typesafe.py changed only at v2.64.0 (L8 import httpx2; L252-254 HTTPStatusError -> transport_status_error -> ModelHTTPError); providers/typesafe.py identical from v2.60.0 (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s39",
+      "source_type": "documented source",
+      "source_url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.64.0",
+      "title": "Source R25-S39: github.com",
+      "claim": "tag page names commit cde1d10f88ce6d0ab4743e226d51a9ac65810f50 (Documented)",
+      "accessed_at": "2026-10-31T05:15:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s40",
+      "source_type": "documented source",
+      "source_url": "https://cdn.jsdelivr.net/npm/@effect/ai-typesafe@4.1.1/src/",
+      "title": "Source R25-S40: cdn.jsdelivr.net",
+      "claim": "@effect/ai-typesafe 4.0.1 -> 4.1.1 source compared (internal/errors.ts, TypeSafeClient.ts, TypeSafeConfig.ts, TypeSafeDecisionModel.ts); npm metadata has no gitHead (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s42",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/cloudflare/clef/endpoints",
+      "title": "Source R25-S42: openrouter.ai endpoints",
+      "claim": "OpenAI one provider (OpenAI, 1,050,000); Decision-1 Azure 32,768 $0.042/1M; clef: DeepInfra 65,537 $0.192/1M, PrimeIntellect 65,536 $0.24, Cloudflare 65,536 $0.24; clef-flash: Makora, DeepInfra, PrimeIntellect, Cloudflare (Documented)",
+      "accessed_at": "2026-10-31T05:19:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s43",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R25-S43: ai-gateway.vercel.sh",
+      "claim": "openai/gpt-6-luna-decisions and microsoft/microsoft-decision-1 listed; no clef ID (Documented)",
+      "accessed_at": "2026-10-31T05:14:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s45",
+      "source_type": "documented source",
+      "source_url": "https://eevo.io/api/docs/reference/models-pricing.md",
+      "title": "Source R25-S45: eevo.io and developers.cloudflare.com",
+      "claim": "Eevo L9 '$0.15 per decision | $0.10 per 1M input tokens' and L11 eevo-1.1 no longer served; Cloudflare data usage L15 'Last updated Oct 16, 2026', L25 'Zero data retention' (Documented)",
+      "accessed_at": "2026-10-31T05:18:16Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s46",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/quotas-limits",
+      "title": "Source R25-S46: learn.microsoft.com",
+      "claim": "'Microsoft-Decision-1 quotas' TPM and RPM by tier, Tier 1 2.16M / 2,160 to Tier 6 15.00M / 15,000; ms.date 2026-10-05, updated_at 2026-10-06T20:40Z (same metadata as on 13 Oct) (Documented)",
+      "accessed_at": "2026-10-31T05:22:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s47",
+      "source_type": "documented source",
+      "source_url": "https://docs.subq.ai/markdown/using-the-api/models.md",
+      "title": "Source R25-S47: docs.subq.ai",
+      "claim": "SubQ Snap 1.1, model ID subq-snap-1.1, Input $0.04 / 1M tokens, Output free (docs); launch post still $0.05 per million input tokens (Documented)",
+      "accessed_at": "2026-10-31T05:26:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s48",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/clef/index.md",
+      "title": "Source R25-S48: developers.cloudflare.com",
+      "claim": "Clef 65,536 context, $0.24 per M input; Clef-flash 24,576, $0.038; Clef-omni 64,000, $0.15, up to 4 audio clips (300 s) and 2 videos; images max 4 on all three (Documented)",
+      "accessed_at": "2026-10-31T05:27:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s49",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/choice.md",
+      "title": "Source R25-S49: docs.typesafe.ai",
+      "claim": "Choice: \"A Choice question accepts up to 255 options\" (L109); Score: \"Should have at least two levels; the API accepts up to 10\" (L51); Noul returns a yes probability (Documented)",
+      "accessed_at": "2026-10-31T05:27:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s100",
+      "source_type": "search API",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date",
+      "title": "Source R25-S100: HN Algolia",
+      "claim": "HN Algolia, 30 Oct 05:13 to 31 Oct 05:09 UTC: jev 6, typesafe 1, \"System One\" 2, jev-latest 0, \"jev 1.13/1.14/1.15\" 0 each, deprecat jev 0, deprecated jev 0 (Documented)",
+      "accessed_at": "2026-10-31T05:11:22Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s200",
+      "source_type": "documented source",
+      "source_url": "https://www.microsoft.com/licensing/terms/productoffering/MicrosoftAzure/MCA",
+      "title": "Source R25-S200: microsoft.com",
+      "claim": "Microsoft Product Terms, Microsoft Azure (MCA) page as served (effective-date selector lists 10/28/2026 as latest); Foundry Models sold by Azure 'temporarily store' wording (Documented)",
+      "accessed_at": "2026-10-31T05:11:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s201",
+      "source_type": "documented source",
+      "source_url": "https://www.microsoft.com/licensing/terms/productoffering/MicrosoftAzure/EAEAS",
+      "title": "Source R25-S201: microsoft.com",
+      "claim": "Microsoft Product Terms, Microsoft Azure (EA/EAS) page; same 'temporarily store' wording; Decision-1 not named (Documented)",
+      "accessed_at": "2026-10-31T05:11:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s202",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/legal/microsoft-foundry/model-specific-terms",
+      "title": "Source R25-S202: learn.microsoft.com",
+      "claim": "Foundry model-specific terms (ms.date 2026-07-17); no 'Decision', 'retain', 'retention' or day count (Documented)",
+      "accessed_at": "2026-10-31T05:11:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s203",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/responsible-ai/openai/data-privacy",
+      "title": "Source R25-S203: learn.microsoft.com",
+      "claim": "Data, privacy and security for Models sold by Azure (ms.date 2026-05-18); no retention period in days; Decision-1 not named (Documented)",
+      "accessed_at": "2026-10-31T05:11:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s204",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/abuse-monitoring",
+      "title": "Source R25-S204: learn.microsoft.com",
+      "claim": "Abuse monitoring page (ms.date 2026-05-13); no retention period in days (Documented)",
+      "accessed_at": "2026-10-31T05:11:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s205",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision",
+      "title": "Source R25-S205: learn.microsoft.com",
+      "claim": "Deploy and use Microsoft-Decision-1 (ms.date 2026-10-07); request path and auth unchanged; no retention wording (Documented)",
+      "accessed_at": "2026-10-31T05:11:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s206",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md",
+      "title": "Source R25-S206: developers.openai.com",
+      "claim": "Decisions API guide markdown; no '128' image limit; 'evaluates text, images, and JSON'; regions wording (Documented)",
+      "accessed_at": "2026-10-31T05:11:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s207",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions",
+      "title": "Source R25-S207: developers.openai.com",
+      "claim": "Decisions API guide HTML; no '128 images' wording (Documented)",
+      "accessed_at": "2026-10-31T05:12:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s208",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/reference/resources/decisions/methods/create.md",
+      "title": "Source R25-S208: developers.openai.com",
+      "claim": "API reference create decision, markdown; '128' only as maxLength string constraints; refusal wording; 1-400 questions; 2-255 choices (Documented)",
+      "accessed_at": "2026-10-31T05:11:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s209",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/reference/resources/decisions/methods/create",
+      "title": "Source R25-S209: developers.openai.com",
+      "claim": "API reference create decision, HTML; '128' only as maxLength constraints (Documented)",
+      "accessed_at": "2026-10-31T05:12:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s210",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/changelog.md",
+      "title": "Source R25-S210: developers.openai.com",
+      "claim": "OpenAI changelog; Oct 22 Decisions API GA entry; no image-count limit entry (Documented)",
+      "accessed_at": "2026-10-31T05:11:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s211",
+      "source_type": "documented source",
+      "source_url": "https://www.liquid.ai/pricing",
+      "title": "Source R25-S211: liquid.ai",
+      "claim": "Liquid pricing: d1-ultra Input $0.042 / MTok, Cached input $0.042, Output $0.00; '$2 in free credit for every new organization' (Documented)",
+      "accessed_at": "2026-10-31T05:11:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s212",
+      "source_type": "documented source",
+      "source_url": "https://docs.liquid.ai/lfm/models/d1.md",
+      "title": "Source R25-S212: docs.liquid.ai",
+      "claim": "Liquid d1 docs: images up to 8, body under 4.5 MB, SDK does not support images yet, billed per question (Documented)",
+      "accessed_at": "2026-10-31T05:11:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s213",
+      "source_type": "documented source",
+      "source_url": "https://www.liquid.ai/blog/d1-ultra",
+      "title": "Source R25-S213: liquid.ai",
+      "claim": "d1-ultra launch post: 'available today on the Liquid API at $0.042 per million input tokens' (Documented)",
+      "accessed_at": "2026-10-31T05:11:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s214",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/docs/drex/reference/pricing",
+      "title": "Source R25-S214: console.nace.ai",
+      "claim": "Drex pricing docs: drex-max-v1.1 $0.03, drex-max $0.03, drex-v2.0 $0.06, drex-v1.5 $0.05 per 1M input tokens; Signup balance $5.00 (Documented)",
+      "accessed_at": "2026-10-31T05:11:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s215",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/pricing",
+      "title": "Source R25-S215: mouse.dev",
+      "claim": "Mouse pricing: mouse-1 Input $0.10 / 1M tokens, Output $0.00 (free) (Documented)",
+      "accessed_at": "2026-10-31T05:13:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s216",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs/concepts/versions/",
+      "title": "Source R25-S216: mouse.dev",
+      "claim": "Mouse versions: mouse-1 and mouse -> mouse-preview-2026-10-13, Status Preview (Documented)",
+      "accessed_at": "2026-10-31T05:13:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s217",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/terms",
+      "title": "Source R25-S217: mouse.dev",
+      "claim": "Mouse Terms, Effective date October 14, 2026; no-training sentence (Documented)",
+      "accessed_at": "2026-10-31T05:13:13Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s218",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/privacy",
+      "title": "Source R25-S218: mouse.dev",
+      "claim": "Mouse Privacy Policy, Effective date October 14, 2026; discard/30 days/US-East wording (Documented)",
+      "accessed_at": "2026-10-31T05:13:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s219",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs/reference/limits",
+      "title": "Source R25-S219: mouse.dev",
+      "claim": "Mouse limits: state 16,384 tokens, 128 questions (Documented)",
+      "accessed_at": "2026-10-31T05:13:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s220",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs/reference/pricing",
+      "title": "Source R25-S220: mouse.dev",
+      "claim": "Mouse pricing reference: $5.00 free starter credits at signup (Documented)",
+      "accessed_at": "2026-10-31T05:13:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s221",
+      "source_type": "documented source",
+      "source_url": "https://www.uprightproject.com/eevo/",
+      "title": "Source R25-S221: uprightproject.com",
+      "claim": "Eevo announcement: now '$0.15 per decision'; 'Eevo is available through MCP, API, and the Eevo console' (Documented)",
+      "accessed_at": "2026-10-31T05:13:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s222",
+      "source_type": "documented source",
+      "source_url": "https://eevo.io/api/docs/reference/models-pricing.md",
+      "title": "Source R25-S222: eevo.io",
+      "claim": "Eevo models-pricing: eevo-1 (now Eevo-1.2) Default $0.15 per decision, Direct and SystemOne $0.10 per 1M input tokens; 5 free decisions; limits (Documented)",
+      "accessed_at": "2026-10-31T05:13:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s223",
+      "source_type": "documented source",
+      "source_url": "https://www.uprightproject.com/terms-of-use/",
+      "title": "Source R25-S223: uprightproject.com",
+      "claim": "Upright Terms of Use: training governed by data use setting, on by default (unchanged) (Documented)",
+      "accessed_at": "2026-10-31T05:13:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s224",
+      "source_type": "documented source",
+      "source_url": "https://www.uprightproject.com/privacy-policy/",
+      "title": "Source R25-S224: uprightproject.com",
+      "claim": "Upright Privacy Statement: retention options per key; DPA by contacting (unchanged) (Documented)",
+      "accessed_at": "2026-10-31T05:13:14Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s225",
+      "source_type": "documented source",
+      "source_url": "https://eevo.io/api/docs/how-to/retention.md",
+      "title": "Source R25-S225: eevo.io",
+      "claim": "Eevo retention docs: 'Not stored' after buying credit (unchanged) (Documented)",
+      "accessed_at": "2026-10-31T05:13:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s227",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@tanstack%2Fai-typesafe",
+      "title": "Source R25-S227: registry.npmjs.org",
+      "claim": "npm metadata: 1.0.0 published 2026-10-22T15:19:42Z; no gitHead; repository directory packages/ai-typesafe; latest 1.0.0 (Documented)",
+      "accessed_at": "2026-10-31T05:13:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s228",
+      "source_type": "documented source",
+      "source_url": "https://data.jsdelivr.com/v1/packages/npm/@tanstack/ai-typesafe@1.0.0?structure=flat",
+      "title": "Source R25-S228: data.jsdelivr.com",
+      "claim": "jsDelivr file list of @tanstack/ai-typesafe@1.0.0 (src included) (Documented)",
+      "accessed_at": "2026-10-31T05:13:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s229",
+      "source_type": "documented source",
+      "source_url": "https://cdn.jsdelivr.net/npm/@tanstack/ai-typesafe@1.0.0/src/adapters/evaluate.ts",
+      "title": "Source R25-S229: cdn.jsdelivr.net",
+      "claim": "Published src/adapters/evaluate.ts (also src/utils/client.ts, src/byok.ts, src/index.ts, package.json, README.md); byte-identical to the tag's raw files (Documented)",
+      "accessed_at": "2026-10-31T05:13:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s230",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/TanStack/ai/git/ref/tags/@tanstack/ai-typesafe@1.0.0",
+      "title": "Source R25-S230: api.github.com",
+      "claim": "tag ref -> annotated tag object 814e773823f7a373fef5ed1a784beb4737300f5f (Documented)",
+      "accessed_at": "2026-10-31T05:13:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s231",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/TanStack/ai/git/tags/814e773823f7a373fef5ed1a784beb4737300f5f",
+      "title": "Source R25-S231: api.github.com",
+      "claim": "tag object -> commit 5651e07e3181745984155ad88b65b86b8528844e, tagged 2026-10-22T15:17:41Z (Documented)",
+      "accessed_at": "2026-10-31T05:13:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s232",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/TanStack/ai/5651e07e3181745984155ad88b65b86b8528844e/packages/ai-typesafe/src/adapters/evaluate.ts",
+      "title": "Source R25-S232: raw.githubusercontent.com",
+      "claim": "evaluate.ts at pinned SHA: fetch errors rethrown (92-98), non-OK throws Error with status (100-115), bad shape throws (117-120) (Documented)",
+      "accessed_at": "2026-10-31T05:13:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s233",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/TanStack/ai/5651e07e3181745984155ad88b65b86b8528844e/packages/ai-typesafe/src/utils/client.ts",
+      "title": "Source R25-S233: raw.githubusercontent.com",
+      "claim": "client.ts at pinned SHA: timeout option documented default 30_000 (30-31); default base URL https://api.typesafe.ai (37); env key helper throws if missing (51-62) (Documented)",
+      "accessed_at": "2026-10-31T05:13:57Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s234",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/TanStack/ai/5651e07e3181745984155ad88b65b86b8528844e/packages/ai-typesafe/src/byok.ts",
+      "title": "Source R25-S234: raw.githubusercontent.com",
+      "claim": "byok.ts at pinned SHA: BYOK provider definition, env TYPESAFE_API_KEY (Documented)",
+      "accessed_at": "2026-10-31T05:13:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s235",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/TanStack/ai/5651e07e3181745984155ad88b65b86b8528844e/packages/ai-typesafe/package.json",
+      "title": "Source R25-S235: raw.githubusercontent.com",
+      "claim": "package.json at pinned SHA: version 1.0.0; dep @tanstack/ai-utils; peer @tanstack/ai (Documented)",
+      "accessed_at": "2026-10-31T05:13:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s236",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/TanStack/ai/5651e07e3181745984155ad88b65b86b8528844e/packages/ai/src/activities/evaluate/index.ts",
+      "title": "Source R25-S236: raw.githubusercontent.com",
+      "claim": "core decide() at pinned SHA: rethrows adapter errors (559-572, 608-631); throws on missing answer (320-323); identical to @tanstack/ai@1.0.0 on jsDelivr (Documented)",
+      "accessed_at": "2026-10-31T05:14:23Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s237",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@tanstack%2Fai",
+      "title": "Source R25-S237: registry.npmjs.org",
+      "claim": "npm @tanstack/ai: 1.0.0 published 2026-10-22T15:21:49Z (paired core version) (Documented)",
+      "accessed_at": "2026-10-31T05:14:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s238",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/clef/index.md",
+      "title": "Source R25-S238: developers.cloudflare.com",
+      "claim": "Clef model page: images[] maxItems 4 'Clef extension to the System One API'; env.AI.run('@cf/cloudflare/clef'); answers keyed by id (Documented)",
+      "accessed_at": "2026-10-31T05:14:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s239",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/data-usage/index.md",
+      "title": "Source R25-S239: developers.cloudflare.com",
+      "claim": "Workers AI Data usage, Last updated Oct 16, 2026: 'Zero data retention' and 'No training' commitments; storage-feature exceptions (Documented)",
+      "accessed_at": "2026-10-31T05:14:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s240",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/limits/index.md",
+      "title": "Source R25-S240: developers.cloudflare.com",
+      "claim": "Workers AI limits, Last updated Sep 17, 2026; Clef not named; Text Generation 300 rpm (Documented)",
+      "accessed_at": "2026-10-31T05:14:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s241",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/errors/index.md",
+      "title": "Source R25-S241: developers.cloudflare.com",
+      "claim": "Workers AI errors, Last updated Sep 17, 2026; Timeout 3007/408; Out of capacity 3040/429 with a rejectIfBusy sentence (Documented)",
+      "accessed_at": "2026-10-31T05:14:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s242",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/your-data.md",
+      "title": "Source R25-S242: developers.openai.com",
+      "claim": "OpenAI data controls: /v1/decisions row Data used for training No; abuse monitoring 30 days; ZDR and Private Retention with PSP and Safety Retention eligibility rows (Documented)",
+      "accessed_at": "2026-10-31T05:17:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s243",
+      "source_type": "documented source",
+      "source_url": "https://ai.azure.com/catalog/models/Microsoft-Decision-1",
+      "title": "Source R25-S243: ai.azure.com",
+      "claim": "Foundry catalog page: server HTML has title, description, 'Version: 1', 'Direct from Azure'; text-only sentence, context and licence text not in server HTML (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "limits",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s244",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/quotas-limits",
+      "title": "Source R25-S244: learn.microsoft.com",
+      "claim": "Foundry quotas and limits (ms.date 2026-10-05, updated_at 2026-10-06T20:40Z): 'Microsoft-Decision-1 quotas' table TPM and RPM by tier, Tier 1 2.16M/2,160 to Tier 6 15.00M/15,000 (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s245",
+      "source_type": "documented source",
+      "source_url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision",
+      "title": "Source R25-S245: learn.microsoft.com",
+      "claim": "Decision-1 how-to re-read: Troubleshoot table 400/401/403/404/422/429; output types table; TIMEOUT_SECONDS = 60 in sample (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s246",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/microsoft/microsoft-decision-1/endpoints",
+      "title": "Source R25-S246: openrouter.ai",
+      "claim": "OpenRouter endpoints: Azure provider context_length 32768; input_modalities ['text'] (third-party label) (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s247",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/rate-limits.md",
+      "title": "Source R25-S247: developers.openai.com",
+      "claim": "OpenAI rate-limits guide: no 'decision' string; Luna rows by tier (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s248",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions.md",
+      "title": "Source R25-S248: developers.openai.com",
+      "claim": "Decisions guide re-read: no 'context window' or 'rate limit' string (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s249",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/reference/resources/decisions/methods/create.md",
+      "title": "Source R25-S249: developers.openai.com",
+      "claim": "API reference re-read: no 'context window'; maxLength: 10485760 occurs 13 times (per-field) (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s250",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/Cloudflare/clef",
+      "title": "Source R25-S250: huggingface.co",
+      "claim": "HF Cloudflare/clef: license:apache-2.0, base_model Qwen/Qwen3.8-27B, LICENSE file, lastModified 2026-10-30T14:28:38Z, sha cfddda0 (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s251",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/Cloudflare/clef-flash",
+      "title": "Source R25-S251: huggingface.co",
+      "claim": "HF Cloudflare/clef-flash: license:apache-2.0, base Qwen/Qwen3.5-9B, LICENSE file, lastModified 2026-10-30T14:29:00Z, sha fb4417d (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s252",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/Cloudflare/clef-omni",
+      "title": "Source R25-S252: huggingface.co",
+      "claim": "HF Cloudflare/clef-omni: license:apache-2.0, base Qwen/Qwen3-Omni-30B-A3B-Instruct, LICENSE file, lastModified 2026-10-30T14:29:20Z, sha f32dfc0 (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s253",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/Cloudflare/clef/raw/main/LICENSE",
+      "title": "Source R25-S253: huggingface.co",
+      "claim": "Clef LICENSE file: 'Apache License Version 2.0, January 2004' (Documented)",
+      "accessed_at": "2026-10-31T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s254",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/models/clef/index.md",
+      "title": "Source R25-S254: developers.cloudflare.com",
+      "claim": "Clef model page re-read for regions: no region, location or jurisdiction wording (Documented)",
+      "accessed_at": "2026-10-31T05:20:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s255",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/data-usage/index.md",
+      "title": "Source R25-S255: developers.cloudflare.com",
+      "claim": "Workers AI data usage re-read for regions: no region, location or jurisdiction wording (Documented)",
+      "accessed_at": "2026-10-31T05:20:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s256",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/jaredpalmer/kev",
+      "title": "Source R25-S256: api.github.com",
+      "claim": "jaredpalmer/kev pushed_at 2026-10-27T14:04:38Z, not archived (Documented)",
+      "accessed_at": "2026-10-31T05:20:50Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s257",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/repos/NandhaKishorM/laya",
+      "title": "Source R25-S257: api.github.com",
+      "claim": "NandhaKishorM/laya pushed_at 2026-10-31T05:14:07Z, not archived (Documented)",
+      "accessed_at": "2026-10-31T05:20:50Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s258",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/jaredpalmer/kev-4b",
+      "title": "Source R25-S258: huggingface.co",
+      "claim": "HF kev-4b lastModified 2026-10-01T17:18:26Z, sha 6cfce5c (Documented)",
+      "accessed_at": "2026-10-31T05:20:50Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s259",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/jaredpalmer/kev-9b",
+      "title": "Source R25-S259: huggingface.co",
+      "claim": "HF kev-9b lastModified 2026-10-01T17:18:28Z, sha db029f0 (Documented)",
+      "accessed_at": "2026-10-31T05:20:50Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s260",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/jaredpalmer/kev-27b",
+      "title": "Source R25-S260: huggingface.co",
+      "claim": "HF kev-27b lastModified 2026-10-01T17:18:30Z, sha af0e6d5 (Documented)",
+      "accessed_at": "2026-10-31T05:20:50Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s261",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/convaiinnovations/laya",
+      "title": "Source R25-S261: huggingface.co",
+      "claim": "HF convaiinnovations/laya lastModified 2026-10-03T18:00:07Z, sha 7b928d8 (Documented)",
+      "accessed_at": "2026-10-31T05:20:50Z",
+      "relation": "context",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s262",
+      "source_type": "documented source",
+      "source_url": "https://github.com/jaredpalmer/kev/releases/latest",
+      "title": "Source R25-S262: github.com",
+      "claim": "Latest release page redirects to releases/tag/kev-1.0, dated 2026-10-01T17:25:27Z (Documented)",
+      "accessed_at": "2026-10-31T05:20:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r25-s263",
+      "source_type": "documented source",
+      "source_url": "https://github.com/NandhaKishorM/laya/releases/latest",
+      "title": "Source R25-S263: github.com",
+      "claim": "Latest release page redirects to releases/tag/v0.4.18, dated 2026-10-30T10:47:10Z (Documented)",
+      "accessed_at": "2026-10-31T05:20:55Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
