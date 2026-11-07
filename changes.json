@@ -2,6 +2,96 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "typesafe-docs-images-box-2026-11-07",
+      "changed_at": "2026-11-07T16:30:00Z",
+      "summary": "TypeSafe's docs (first observed 7 Nov 2026; after the 2 Nov reads): the models page lists \"Text, images\" as the input of both jev-1.14.0 and jev-1.13.0, adds a Box question type that needs Jev 1.14 and drops its \"Language support\" section; a new docs changelog dates the Jev 1.14 entry 14 Oct 2026 and lists \"Better multilingual support\". The Images page still calls images not ready for production behind an opt-in header. Limitations, what is Jev, the decision-API comparison and other pages that described Jev's inputs or question types now say what the docs state; TypeSafe's cookbook figures updated as its own Reported figures. No image or Box request was sent.",
+      "path": "/p/jev-catalog/limitations"
+    },
+    {
+      "change_id": "alternatives-base-labs-2026-11-07",
+      "changed_at": "2026-11-07T16:30:00Z",
+      "summary": "Alternatives: Base Labs (Baseten's research lab) added as one hosted-API row: mammoth-1, elephant-1 and joey-1 on Baseten's Model APIs at $0.10, $0.035 and $0.01 per 1M input tokens as published, Baseten's zero-data-retention and no-training terms quoted, MIT weights published by Base Labs as a line inside the row, rank claims Reported and not matched. A different model; your data goes to Baseten. The benchmarks mention links to the row.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "versions-1-14-vs-1-13-2026-11-07",
+      "changed_at": "2026-11-07T16:30:00Z",
+      "summary": "Versions and aliases: new title \"Jev 1.14 vs 1.13 (TypeSafe AI): model IDs, jev-latest and aliases by route\" (Google completes \"jev 1.14 vs\" to \"jev 1.14 vs 1.13\" on 7 Nov 2026), what differs between the two versions per TypeSafe's docs, and a dated list of eight GitHub issues and pull requests, read on 7 Nov, on staying on, pinning or leaving 1.13 (Reported). Aliases and route listings rechecked 7 Nov, unchanged.",
+      "path": "/p/jev-catalog/where-to-use/versions-and-aliases"
+    },
+    {
+      "change_id": "access-recheck-2026-11-07",
+      "changed_at": "2026-11-07T16:30:00Z",
+      "summary": "Access status checked 7 Nov 2026, 15:29 UTC (previous check 2 Nov, 10:47 UTC; no check in between): signups open, no new-user credit, API operational; price, rate-limit wording and aliases unchanged; no status event listed for 31 Oct to 7 Nov; uptime figure read as the 90-day window 99.882%. The console sign-in page answered again (HTTP 200). TypeSafe's blog has a new post dated 3 Nov (about naming). Two notices shown.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "opencode-recheck-2026-11-07",
+      "changed_at": "2026-11-07T16:30:00Z",
+      "summary": "OpenCode's jev-1.13-free re-read on 7 Nov 2026: still \"Free\" input and output, \"available on OpenCode for a limited time\", no end date or quota; data texts unchanged; its docs moved to opencode.ai/docs/console/models/. OpenRouter's ZDR endpoint list now has 1,119 endpoints, both TypeSafe endpoints listed.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "decision-api-cells-redated-2026-11-07",
+      "changed_at": "2026-11-07T16:30:00Z",
+      "summary": "Decision-API comparison and alternatives: the Jev input cell follows TypeSafe's models page (\"Text, images\"); cells due since 3 Nov re-read and unchanged carry the 7 Nov check date (d1-ultra, Mouse-1, Drex, Eevo terms, Microsoft-Decision-1 post and Learn page, OpenAI inputs and routes, SubQ Snap status and price); three cells that could not be settled keep their October dates. Laya v0.4.28 noted (contents not read).",
+      "path": "/p/jev-catalog/alternatives/jev-vs-decision-apis"
+    },
+    {
+      "change_id": "package-versions-2026-11-07",
+      "changed_at": "2026-11-07T16:30:00Z",
+      "summary": "Version notes: ohmyjev 0.14.0 (3 Nov) and langchain-typesafe 0.0.2 (5 Nov), released after the last read and not re-read; patch releases of @ai-sdk/typesafe-ai, ai, pydantic-ai-slim, deepeval, @openclaw/typesafe and n8n noted; LiteLLM's stable releases up to 1.108.2 do not include the eu/jev provider.",
+      "path": "/p/jev-catalog/build/frameworks"
+    },
+    {
+      "change_id": "jev-changes-2-nov-7-nov",
+      "changed_at": "2026-11-07T16:30:00Z",
+      "summary": "New dated report: what changed for Jev builders between 2 and 7 November 2026 (TypeSafe's docs on images and Box, Base Labs' decision models, who stayed on Jev 1.13, OpenCode's free ID, uptime, ZDR list and release lines), with what was re-read unchanged and what was not checked.",
+      "path": "/p/jev-catalog/reports/jev-changes-2-nov-7-nov"
+    },
+    {
+      "change_id": "ohmyjev-0-13-2-lockdown-2026-11-02",
+      "changed_at": "2026-11-02T11:45:00Z",
+      "summary": "Failure map: ohmyjev read again at 0.13.2 (commit d307c39). Its Jev gates now run only with its lockdown setting on, which is off by default; the row describes lockdown mode, where a Jev error, a malformed answer or a missing key still lets the call through and calls below its cut-offs go ahead (terms unchanged). The bypass cell changed in content (default skip of every gate; auto-approve path removed; GitHub-write reminder by code). No count changed: 80 implementations. The checklist, copy block, self-check example and the Claude Code, coding-agent and products pages follow.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "opencode-jev-1-13-free-2026-11-02",
+      "changed_at": "2026-11-02T11:45:00Z",
+      "summary": "New dated block on where to use: OpenCode's docs list jev-1.13-free (\"Free\" input and output per 1M tokens, \"available on OpenCode for a limited time\") and jev-1.13 ($0.042 input) on OpenCode's own endpoint. Third-party route; not run by TypeSafe and not one of the six compared routes. OpenCode does not say which Jev version either ID serves; reported errors listed with their dates. Not tested.",
+      "path": "/p/jev-catalog/where-to-use"
+    },
+    {
+      "change_id": "data-privacy-opencode-zdr-2026-11-02",
+      "changed_at": "2026-11-02T11:45:00Z",
+      "summary": "Data privacy: OpenCode's two texts quoted side by side for jev-1.13-free (docs: providers follow a zero-retention policy and do not train, Jev not among the exceptions; Terms of 15 Aug 2026: Content from an unpaid account may be used to improve its services, and it does not control third-party providers' retention), with the note that OpenCode does not say which text controls. OpenRouter's ZDR endpoint list now names typesafe/jev-1.13-20260917 and typesafe/jev-1.14-20261014 (1,094 endpoints at 10:59 UTC on 2 Nov; 941 on 10 Oct).",
+      "path": "/p/jev-catalog/where-to-use/data-privacy"
+    },
+    {
+      "change_id": "access-recheck-2026-11-02",
+      "changed_at": "2026-11-02T11:45:00Z",
+      "summary": "Access status checked 2 Nov 2026, 10:47 UTC (previous check 31 Oct, 05:11 UTC; no check in between): signups open, no new-user credit, API operational; price, rate-limit wording and aliases unchanged; no status event listed for 31 Oct to 2 Nov; uptime figure read as the 90-day window 99.880%. The console sign-in pages returned an HTTP 403 block page and could not be read. New \"Is Jev free?\" box keeps TypeSafe's credit condition and OpenCode's third-party free ID apart. Two notices shown.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "decision-api-cells-redated-2026-11-02",
+      "changed_at": "2026-11-02T11:45:00Z",
+      "summary": "Decision-API comparison: Microsoft-Decision-1's catalog cells (text-only sentence, 32,768-token context, licence text) re-read on 2 Nov 2026 and unchanged; the cells re-read unchanged carry the 2 Nov check date. Laya v0.4.21 noted on alternatives and Laya vs Kev (contents not read).",
+      "path": "/p/jev-catalog/alternatives/jev-vs-decision-apis"
+    },
+    {
+      "change_id": "package-versions-2026-11-02",
+      "changed_at": "2026-11-02T11:45:00Z",
+      "summary": "Version notes: @effect/ai-typesafe 4.1.2 (2 Nov) on framework packages and auto-mode 3.1.6 (31 Oct) on coding agents, both released after the last read and not re-read.",
+      "path": "/p/jev-catalog/build/frameworks"
+    },
+    {
+      "change_id": "jev-changes-31-oct-2-nov",
+      "changed_at": "2026-11-02T11:45:00Z",
+      "summary": "New dated report: what changed for Jev builders between 31 October and 2 November 2026 (ohmyjev at 0.13.2 on the failure map, OpenCode's free Jev ID, OpenRouter's ZDR list, uptime figures, new package and model releases), with what was re-read unchanged and what was not checked.",
+      "path": "/p/jev-catalog/reports/jev-changes-31-oct-2-nov"
+    },
+    {
       "change_id": "access-recheck-2026-10-31",
       "changed_at": "2026-10-31T06:30:00Z",
       "summary": "Access status checked 31 Oct 2026, 05:11 UTC, one day after the previous check: signups open, no new-user credit, API operational; price, rate-limit wording and aliases unchanged (jev-latest and jev-preview give jev-1.14.0; jev-1.13.0 listed with no deprecation date). The status page lists a resolved \"System overload\" on the us-east-1 endpoint on 30 Oct (degraded 1 hour 15 minutes, resolved 21:15 UTC), now on the access timeline. Home shows two notices: the jev-latest notice ended its seven-day shelf life; the fact stays on versions and aliases.",

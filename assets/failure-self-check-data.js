@@ -46,7 +46,7 @@ window.FSC_DATA = {
      "examples": [
       "DoGMaTiiC/hermes-jev jev-judge (enforce mode; default shadow) (Coding agents, pinned 5dddbea): fail-open; 3 s · action goes ahead",
       "danna-zhou/jev-mcp PreToolUse hook (Claude Code / MCP guards, pinned 436469a): fail-open; 8,000 ms; the command runs · action goes ahead",
-      "Novacon/ohmyjev, Claude Code module (Bash, Write/Edit and exfiltration gates; enforcing deny) (Claude Code / MCP guards, pinned 78bb82c): fail-open; 1,500 ms (policy.ts L63; race at ohmyjev.ts L80–89) …"
+      "Novacon/ohmyjev, Claude Code module (Bash, Write/Edit and exfiltration gates; enforcing deny), in lockdown mode (its default is off) (Claude Code / MCP guards, pinned d307c39): fail-open; 1,500 ms (policy.ts L84; race at ohmyjev.ts L80–89) …"
      ],
      "fallback": false
     },

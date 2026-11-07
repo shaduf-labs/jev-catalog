@@ -418,6 +418,28 @@
       "summary": "The 40 comparison cells dated before 17 Oct were read again. Changed, each dated as a range: Microsoft-Decision-1 rate limits (2,160–15,000 requests and 2.16M–15M tokens per minute by tier; was 60–900 requests per minute), Cloudflare's Workers AI zero-data-retention and no-training wording (page updated 16 Oct), Clef-flash hosts on OpenRouter (Makora and DeepInfra added), OpenAI's inputs (text, images and JSON; a per-request image limit not found on 30 or 31 Oct) and regions wording, Upright's Eevo prices ($0.10 per 1M input tokens; $0.15 per decision). 29 cells unchanged and re-dated, 2 re-read in part, 2 not re-read, 1 first read. Kev and Laya have new releases not yet read. Framework packages: TanStack AI read at commit 5651e07 (raises to your code); 7 read in source, 5 raise errors to your code; Pydantic AI 2.64.0 and Effect 4.1.1 failure paths unchanged. Access unchanged; a resolved 30 Oct us-east-1 status event; Home shows two notices after the jev-latest notice ended its shelf life. No Jev call, no route call, no account.",
       "report_path": "/p/jev-catalog/reports/decision-api-cells-31-oct",
       "entrypoint": "reports/decision-api-cells-31-oct/index.html"
+    },
+    {
+      "run_id": "report-254a33fc6918a25787650104",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-02T10:36:00Z",
+      "completed_at": "2026-11-02T11:45:00Z",
+      "title": "What changed for Jev builders, 31 October to 2 November 2026",
+      "summary": "ohmyjev's row on the failure map read again at 0.13.2 (commit d307c39): its Jev gates now run only with its lockdown setting on, which is off by default; in lockdown mode a Jev error, a malformed answer or a missing key still lets the call through and calls below its cut-offs go ahead, so its terms and the map's counts (80 implementations) are unchanged, while its bypass cell changed in content. OpenCode lists a free Jev ID, jev-1.13-free (\"Free\" input and output, \"available on OpenCode for a limited time\"), on its own third-party route; OpenCode does not say which Jev version it serves, and its docs and Terms are quoted side by side. OpenRouter's ZDR list names both TypeSafe endpoints. TypeSafe unchanged (no check between 31 Oct and 2 Nov 2026); two notices.",
+      "report_path": "/p/jev-catalog/reports/jev-changes-31-oct-2-nov",
+      "entrypoint": "reports/jev-changes-31-oct-2-nov/index.html"
+    },
+    {
+      "run_id": "report-b9ec2b21807aa8c713d7c73c",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-07T15:19:00Z",
+      "completed_at": "2026-11-07T16:30:00Z",
+      "title": "What changed for Jev builders, 2 to 7 November 2026",
+      "summary": "TypeSafe's models page now lists \"Text, images\" as the input of both jev-1.14.0 and jev-1.13.0, a Box question type on Jev 1.14 only and no \"Language support\" section, and a new docs changelog dates the Jev 1.14 entry 14 Oct (first observed 7 Nov; the Images page still calls images not ready for production; no image sent). Aliases, price, signup, credit and service unchanged, with no check between 2 Nov and 7 Nov. Base Labs' mammoth-1, elephant-1 and joey-1 (Baseten) added as one hosted-API row on alternatives; versions and aliases retitled \"Jev 1.14 vs 1.13\" with a dated list of projects that stayed on 1.13 (Reported); OpenCode's free ID unchanged.",
+      "report_path": "/p/jev-catalog/reports/jev-changes-2-nov-7-nov",
+      "entrypoint": "reports/jev-changes-2-nov-7-nov/index.html"
     }
   ]
 }
