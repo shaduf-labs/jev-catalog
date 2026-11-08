@@ -440,6 +440,17 @@
       "summary": "TypeSafe's models page now lists \"Text, images\" as the input of both jev-1.14.0 and jev-1.13.0, a Box question type on Jev 1.14 only and no \"Language support\" section, and a new docs changelog dates the Jev 1.14 entry 14 Oct (first observed 7 Nov; the Images page still calls images not ready for production; no image sent). Aliases, price, signup, credit and service unchanged, with no check between 2 Nov and 7 Nov. Base Labs' mammoth-1, elephant-1 and joey-1 (Baseten) added as one hosted-API row on alternatives; versions and aliases retitled \"Jev 1.14 vs 1.13\" with a dated list of projects that stayed on 1.13 (Reported); OpenCode's free ID unchanged.",
       "report_path": "/p/jev-catalog/reports/jev-changes-2-nov-7-nov",
       "entrypoint": "reports/jev-changes-2-nov-7-nov/index.html"
+    },
+    {
+      "run_id": "report-72364e3031606141fe1a5097",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-08T05:05:00Z",
+      "completed_at": "2026-11-08T06:25:00Z",
+      "title": "What changed for Jev builders, 7 to 8 November 2026",
+      "summary": "ohmyjev 0.14.0 read in source: an opt-in shadow setting (off by default) logs what lockdown would block without blocking it, and in-repo mkdir, touch, cp and mv now skip Jev; its other four failure cells are unchanged and lockdown is still off by default (failure map still 80). pi-jev-router 2.0.0 for pi read and counted on the coding-agents page (29 read, 15 counted). SubQ's docs and Terms now agree on 60-day retention; Cloudflare's data-usage page lists a third retention exception; OpenAI unchanged. TypeSafe: no access, alias, price or signup change; one new cookbook in its docs index.",
+      "report_path": "/p/jev-catalog/reports/jev-changes-7-nov-8-nov",
+      "entrypoint": "reports/jev-changes-7-nov-8-nov/index.html"
     }
   ]
 }

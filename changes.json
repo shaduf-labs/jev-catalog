@@ -2,6 +2,48 @@
   "schema_version": "1.0.0",
   "items": [
     {
+      "change_id": "ohmyjev-0-14-2026-11-08",
+      "changed_at": "2026-11-08T06:25:00Z",
+      "summary": "ohmyjev re-read at 0.14.0 (commit fbc4ea4; published 3 Nov 2026): its four other failure cells are unchanged (fail-open on error, timeout, malformed answer and missing key; acts anyway below its thresholds), and lockdown is still off by default. Its bypass cell keeps its term with new content: an opt-in shadow setting, off by default, runs the lockdown checks but only logs what they would block, and in-repo mkdir, touch, cp and mv now skip Jev. The failure map still counts 80 implementations; the checklist, Claude Code guardrails, coding agents and products pages carry the new pin.",
+      "path": "/p/jev-catalog/build/when-jev-fails"
+    },
+    {
+      "change_id": "coding-agents-pi-jev-router-2026-11-08",
+      "changed_at": "2026-11-08T06:25:00Z",
+      "summary": "Coding agents: @caph42/pi-jev-router 2.0.0 (pi) read in source at 75ad5b7 with pi 1.5.0 (f9a2636): Jev picks the complex or standard model for each request, pi applies the choice in code, and on any Jev failure it falls back to the standard model or keeps the current one. Counted on the page, under \"Read in source; not on the failure map yet\": 29 read in source, 15 counted, 10 not counted, 4 not settled. The failure map's 80 is unchanged. A dated list of 19 coding-agent projects seen 24 Oct to 8 Nov 2026 added as leads, not read in full.",
+      "path": "/p/jev-catalog/build/coding-agents"
+    },
+    {
+      "change_id": "subq-cloudflare-openai-terms-2026-11-08",
+      "changed_at": "2026-11-08T06:25:00Z",
+      "summary": "Alternatives and the decision-API comparison: SubQ's docs and Terms now both say Decisions API inputs and outputs are deleted within 60 days (until at least 14 Oct 2026 they disagreed: 30 days in the Terms, kept until deleted in the docs). Cloudflare's Workers AI data-usage page, still dated 16 Oct 2026, also lists asynchronous or batch features and file or adapter uploads among its retention exceptions. OpenAI's Decisions API data controls re-read on 8 Nov 2026, unchanged. Card and copy block updated.",
+      "path": "/p/jev-catalog/alternatives"
+    },
+    {
+      "change_id": "frameworks-langchain-0-0-2-2026-11-08",
+      "changed_at": "2026-11-08T06:25:00Z",
+      "summary": "Frameworks: langchain-typesafe read at 0.0.2: failure path unchanged, with an optional classifier= argument on both experimental middlewares; pydantic-ai-slim 2.66.0's TypeSafe files are identical to 2.64.0. New releases noted, not re-read: @ai-sdk/typesafe-ai 3.0.35, ai 7.0.165, auto-mode 4.0.0; LiteLLM 1.108.3, whose notes do not mention TypeSafe or Jev.",
+      "path": "/p/jev-catalog/build/frameworks"
+    },
+    {
+      "change_id": "typesafe-docs-cookbook-2026-11-08",
+      "changed_at": "2026-11-08T06:25:00Z",
+      "summary": "Use cases: TypeSafe's docs index now lists 6 patterns, 26 cookbooks and 2 demos, adding \"Verifying LLM answers against their source\" (first listed between 7 Nov and 8 Nov 2026); its figures are TypeSafe's own. TypeSafe's models, Images, quickstart, legal and changelog pages were identical to the 7 Nov copies.",
+      "path": "/p/jev-catalog/use-cases"
+    },
+    {
+      "change_id": "access-recheck-2026-11-08",
+      "changed_at": "2026-11-08T06:25:00Z",
+      "summary": "Access status rechecked 8 Nov 2026, 05:17 UTC: signups open, no free credit for new accounts, API operational, with no status event after 30 Oct; jev-latest and jev-preview still give jev-1.14.0 and jev-1.13.0 has no deprecation date; $0.042 per million input tokens. Uptime figure read as the 90-day window 99.883%. OpenCode's free ID and the six routes unchanged; OpenRouter's ZDR list has 1,117 endpoints, both Jev endpoints listed. Home keeps two notices.",
+      "path": "/p/jev-catalog/where-to-use/access-status"
+    },
+    {
+      "change_id": "report-jev-changes-7-nov-8-nov",
+      "changed_at": "2026-11-08T06:25:00Z",
+      "summary": "New dated report: what changed for Jev builders, 7 to 8 November 2026 (ohmyjev 0.14.0, pi-jev-router, SubQ, Cloudflare and OpenAI data terms, TypeSafe's new cookbook, what was re-read unchanged and what was not checked).",
+      "path": "/p/jev-catalog/reports/jev-changes-7-nov-8-nov"
+    },
+    {
       "change_id": "typesafe-docs-images-box-2026-11-07",
       "changed_at": "2026-11-07T16:30:00Z",
       "summary": "TypeSafe's docs (first observed 7 Nov 2026; after the 2 Nov reads): the models page lists \"Text, images\" as the input of both jev-1.14.0 and jev-1.13.0, adds a Box question type that needs Jev 1.14 and drops its \"Language support\" section; a new docs changelog dates the Jev 1.14 entry 14 Oct 2026 and lists \"Better multilingual support\". The Images page still calls images not ready for production behind an opt-in header. Limitations, what is Jev, the decision-API comparison and other pages that described Jev's inputs or question types now say what the docs state; TypeSafe's cookbook figures updated as its own Reported figures. No image or Box request was sent.",

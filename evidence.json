@@ -30170,6 +30170,1006 @@
       "accessed_at": "2026-11-07T15:34:19Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Source R28-S01: console.typesafe.ai",
+      "claim": "HTTP 200 both; 'Welcome to TypeSafe Sign in or create an account through Google or your email'; no form submitted (Documented)",
+      "accessed_at": "2026-11-08T05:17:04Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R28-S02: publish.x.com",
+      "claim": "CEO post text unchanged: 'ANYONE CAN SIGN UP' ... 'temporarily disable the free credits (just for new users)' (Documented)",
+      "accessed_at": "2026-11-08T05:17:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R28-S03: docs.typesafe.ai",
+      "claim": "byte-identical to 7 Nov copy (15,156 bytes); copy in offline/typesafe-docs-2026-11-08/ (Documented)",
+      "accessed_at": "2026-11-08T05:17:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s04",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R28-S04: status.typesafe.ai",
+      "claim": "'All services are online' 'Last updated on Nov 8, 2026 at 5:17am UTC'; 99.942% / 99.842% / 99.883%; latest history event Oct 30, 2026 System overload (Documented)",
+      "accessed_at": "2026-11-08T05:17:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R28-S05: docs.typesafe.ai",
+      "claim": "byte-identical to 7 Nov copy (8,177 bytes); jev-latest -> jev-1.14.0; jev-preview -> jev-1.14.0; $42 / $0.042 (Documented)",
+      "accessed_at": "2026-11-08T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R28-S06: docs.typesafe.ai",
+      "claim": "byte-identical to 7 Nov copy (Documented)",
+      "accessed_at": "2026-11-08T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R28-S07: typesafe.ai",
+      "claim": "no waitlist/credit/free/1.15/deprecat string in rendered text (Documented)",
+      "accessed_at": "2026-11-08T05:17:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R28-S08: typesafe.ai",
+      "claim": "8 post links, same as 7 Nov (Documented)",
+      "accessed_at": "2026-11-08T05:17:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R28-S09: typesafe.ai",
+      "claim": "'jev-1.13.0 will be available for a while. We intend to give 60 days warning before jev-1.13.0 is formally deprecated' (Documented)",
+      "accessed_at": "2026-11-08T05:17:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R28-S10: typesafe.ai",
+      "claim": "no credit/waitlist/free/1.15/deprecat string (Documented)",
+      "accessed_at": "2026-11-08T05:17:07Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s11",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Source R28-S11: docs.typesafe.ai",
+      "claim": "byte-identical to 7 Nov copy (Documented)",
+      "accessed_at": "2026-11-08T05:17:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s12",
+      "source_type": "documented source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R28-S12: aifront-page.com",
+      "claim": "no credit/waitlist string (Documented)",
+      "accessed_at": "2026-11-08T05:17:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s13",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R28-S13: openrouter.ai",
+      "claim": "'There's no waitlist or separate TypeSafe account. Just create an OpenRouter API key' (Documented)",
+      "accessed_at": "2026-11-08T05:17:08Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s14",
+      "source_type": "documented source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R28-S14: research.eye.security",
+      "claim": "all HTTP 200; report names all three; titles unchanged (Documented)",
+      "accessed_at": "2026-11-08T05:18:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s15",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Source R28-S15: docs.typesafe.ai",
+      "claim": "llms.txt 143 URLs, +cookbooks/verify_llm_outputs.md; legal.md byte-identical (Documented)",
+      "accessed_at": "2026-11-08T05:17:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s16",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/cookbooks/verify_llm_outputs.md",
+      "title": "Source R28-S16: docs.typesafe.ai",
+      "claim": "'The numbers below came from jev-1.14.0 on 2026-11-07'; 1,000 questions; 88.5% / 73% / 95.7% / 84 of 115 (TypeSafe's own figures) (Documented)",
+      "accessed_at": "2026-11-08T05:17:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s20",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ohmyjev",
+      "title": "Source R28-S20: registry.npmjs.org",
+      "claim": "latest 0.14.0, published 2026-11-03T14:32:26.724Z, gitHead fbc4ea49dc5d3e2bd9c164a5b57563739daa442e; 0.13.2 gitHead d307c399fbc4898200fb2c229c623df9a517f318 (Documented)",
+      "accessed_at": "2026-11-08T05:19:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s21",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/novacon/ohmyjev/d307c399fbc4898200fb2c229c623df9a517f318/{hooks/ohmyjev.ts,hooks/jev.ts,hooks/policy.ts,hooks/hooks.json,.claude-plugin/plugin.json,adapters/pi.ts,adapters/omp.ts,adapters/shared.ts}",
+      "title": "Source R28-S21: raw.githubusercontent.com",
+      "claim": "old pin files (Documented)",
+      "accessed_at": "2026-11-08T05:20:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s22",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/novacon/ohmyjev/fbc4ea49dc5d3e2bd9c164a5b57563739daa442e/{same",
+      "title": "Source R28-S22: raw.githubusercontent.com",
+      "claim": "new pin files; shadow setting policy.ts L13, L33-39, L424-425; clearedByCode L414 (Documented)",
+      "accessed_at": "2026-11-08T05:20:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s23",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ohmyjev/-/ohmyjev-0.13.2.tgz",
+      "title": "Source R28-S23: registry.npmjs.org",
+      "claim": "file lists 14 -> 15; added bin/ohmyjev.mjs; read as text in /tmp, deleted (Documented)",
+      "accessed_at": "2026-11-08T05:20:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s30",
+      "source_type": "documented source",
+      "source_url": "https://developers.openai.com/api/docs/guides/your-data.md",
+      "title": "Source R28-S30: developers.openai.com",
+      "claim": "L74 '/v1/decisions | No | 30 days | None, see below for exceptions | Yes, see below for limitations | Yes, see below for limitations' (Documented)",
+      "accessed_at": "2026-11-08T05:24:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s31",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/workers-ai/platform/data-usage/",
+      "title": "Source R28-S31: developers.cloudflare.com",
+      "claim": "'Last updated Oct 16, 2026'; 'No training: ...'; 'Zero data retention: ...'; exceptions list (Documented)",
+      "accessed_at": "2026-11-08T05:24:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s32",
+      "source_type": "documented source",
+      "source_url": "https://docs.subq.ai/markdown/using-the-api/data-retention.md",
+      "title": "Source R28-S32: docs.subq.ai",
+      "claim": "'deleted within 60 days of processing'; Last-Modified Sat, 07 Nov 2026 16:42:07 GMT (Documented)",
+      "accessed_at": "2026-11-08T05:24:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s33",
+      "source_type": "documented source",
+      "source_url": "https://subq.ai/terms",
+      "title": "Source R28-S33: subq.ai",
+      "claim": "'Effective Date: October 7, 2026 Last Updated: October 16, 2026'; 'no more than sixty (60) days after processing' (Documented)",
+      "accessed_at": "2026-11-08T05:24:11Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s37",
+      "source_type": "documented source",
+      "source_url": "https://opencode.ai/docs/console/models/",
+      "title": "Source R28-S37: opencode.ai",
+      "claim": "'Jev 1.13 Free Free Free - -'; 'Jev 1.13 $0.042 Free - -'; 'Jev 1.13 Free is available on OpenCode for a limited time.'; zero-retention text, exceptions without Jev (Documented)",
+      "accessed_at": "2026-11-08T05:24:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s38",
+      "source_type": "documented source",
+      "source_url": "https://opencode.ai/legal/terms-of-service",
+      "title": "Source R28-S38: opencode.ai",
+      "claim": "'Effective date: Aug 15, 2026'; unpaid-account clause present (Documented)",
+      "accessed_at": "2026-11-08T05:24:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s40",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R28-S40: openrouter.ai",
+      "claim": "461 IDs; only typesafe/jev-router; endpoints TypeSafe 262144, prompt 0.000000042 (Documented)",
+      "accessed_at": "2026-11-08T05:24:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s41",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R28-S41: ai-gateway.vercel.sh",
+      "claim": "498 IDs; typesafe-ai/jev, jev-1.13.0, jev-1.14.0 at 32000 (Documented)",
+      "accessed_at": "2026-11-08T05:24:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s42",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-latest",
+      "title": "Source R28-S42: api.opper.ai",
+      "claim": "typesafe/jev-1.13.0 aliases ['typesafe/jev-latest']; typesafe/jev-1.14.0 aliases ['typesafe/jev-preview'] (Documented)",
+      "accessed_at": "2026-11-08T05:24:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s43",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R28-S43: docs.netlify.com",
+      "claim": "jev-1.13.0, jev-1.14.0, jev-latest, jev-preview, jev-router (Documented)",
+      "accessed_at": "2026-11-08T05:24:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s44",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/index.md",
+      "title": "Source R28-S44: developers.cloudflare.com",
+      "claim": "both online; 0.042 per 1M input (Documented)",
+      "accessed_at": "2026-11-08T05:24:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s45",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/litellm/json",
+      "title": "Source R28-S45: pypi.org",
+      "claim": "1.108.3 (LTS) 2026-11-07T22:48:05Z, notes without typesafe/jev; v1.110.0-dev.2 without; v1.110.0-dev.1 (7 Nov 04:36Z) with (Documented)",
+      "accessed_at": "2026-11-08T05:25:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s46",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/endpoints/zdr",
+      "title": "Source R28-S46: openrouter.ai",
+      "claim": "1,117 entries; typesafe/jev-1.14 and typesafe/jev-1.13 listed (Documented)",
+      "accessed_at": "2026-11-08T05:24:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s47",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/<package>",
+      "title": "Source R28-S47: registry.npmjs.org",
+      "claim": "versions and times per currency-check.json drift-* facts (Documented)",
+      "accessed_at": "2026-11-08T05:25:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s48",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@caph42/pi-jev-router/-/pi-jev-router-2.0.0.tgz",
+      "title": "Source R28-S48: registry.npmjs.org",
+      "claim": "spot-check: tarball == raw (sha256 3498748e); L118/L453/L467/L485-493; class-line 17 quote present (Documented)",
+      "accessed_at": "2026-11-08T05:27:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s34",
+      "source_type": "documented source",
+      "source_url": "https://mouse.dev/docs",
+      "title": "Source R28-S34: mouse.dev",
+      "claim": "no weights/base model/open-weight/Hugging Face string on Mouse docs and Eevo models-pricing docs; eevo.io homepage script shell (Documented)",
+      "accessed_at": "2026-11-08T05:32:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s49",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-cards.html",
+      "title": "Source R28-S49: docs.aws.amazon.com",
+      "claim": "no 'TypeSafe'/'Jev' string in Foundry partner/direct pages and the Workers AI models index; Bedrock pages script-rendered (4,010 / 4,845 characters) (Documented)",
+      "accessed_at": "2026-11-08T05:32:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s50",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/langchain-typesafe/0.0.2/json",
+      "title": "Source R28-S50: pypi.org",
+      "claim": "spot-check: auto_mode.py L151, L172; model_router.py L156 as first read; read in memory, nothing saved (Documented)",
+      "accessed_at": "2026-11-08T05:32:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s51",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R28-S51: docs.typesafe.ai",
+      "claim": "models page re-read at 05:42 UTC: byte-identical to the 05:17:00Z copy (8,177 bytes) (Documented)",
+      "accessed_at": "2026-11-08T05:42:06Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s100",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query=<term>&numericFilters=created_at_i>=1794065220,created_at_i<1794114840",
+      "title": "Source R28-S100: hn.algolia.com",
+      "claim": "Raw hit counts inflated by typo/prefix matching; superseded by S101 for verified hits (Documented)",
+      "accessed_at": "2026-11-08T05:16:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s101",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/search_by_date?query=<term>&tags=story|comment&typoTolerance=false&numericFilters=created_at_i>=1794065220,created_at_i<1794114840",
+      "title": "Source R28-S101: hn.algolia.com",
+      "claim": "Verified hits: jev 4 (1 Jevons false positive), decision model 8 (word-pair noise except 50410426), others 0 or noise (Documented)",
+      "accessed_at": "2026-11-08T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s102",
+      "source_type": "documented source",
+      "source_url": "https://news.ycombinator.com/item?id=50397429",
+      "title": "Source R28-S102: news.ycombinator.com",
+      "claim": "Story created 2026-11-06T19:48:51Z (before window), 573 points, 146 comments; comments 50405488, 50405846, 50407769, 50407872 fall in window (Documented)",
+      "accessed_at": "2026-11-08T05:17:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s103",
+      "source_type": "documented source",
+      "source_url": "https://news.ycombinator.com/item?id=50405488",
+      "title": "Source R28-S103: news.ycombinator.com",
+      "claim": "'Memdoor author here which is a coding agent that run Jev inside.' New coding-agent name lead (Memdoor); not opened (Documented)",
+      "accessed_at": "2026-11-08T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s104",
+      "source_type": "documented source",
+      "source_url": "https://news.ycombinator.com/item?id=50410426",
+      "title": "Source R28-S104: news.ycombinator.com",
+      "claim": "Mentions Laya and 'the other had a decision model'; dead thread; comparator signal only (Documented)",
+      "accessed_at": "2026-11-08T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s105",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=jev+created:2026-11-08",
+      "title": "Source R28-S105: api.github.com",
+      "claim": "total_count 8, incomplete false, search remaining 9 after call (Documented)",
+      "accessed_at": "2026-11-08T05:17:01Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s106",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=jev+created:2026-11-07T15:27:00Z..2026-11-07T23:59:59Z",
+      "title": "Source R28-S106: api.github.com",
+      "claim": "total_count 13, incomplete false, remaining 8 (Documented)",
+      "accessed_at": "2026-11-08T05:17:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s107",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=typesafe+created:2026-11-07T15:27:00Z..2026-11-08T05:14:00Z",
+      "title": "Source R28-S107: api.github.com",
+      "claim": "total_count 1 (randlee/judge-jev), remaining 7 (Documented)",
+      "accessed_at": "2026-11-08T05:17:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s108",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=jev+codex+OR+jev+opencode+OR+jev+pi+OR+jev+claude+created:2026-11-07T15:27:00Z..2026-11-08T05:14:00Z",
+      "title": "Source R28-S108: api.github.com",
+      "claim": "total_count 2 (alejandroparis17/router-jev, marcostolosa/second-brain), remaining 1 (shared IP) (Documented)",
+      "accessed_at": "2026-11-08T05:18:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s109",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?text=jev&size=250",
+      "title": "Source R28-S109: registry.npmjs.org",
+      "claim": "6 packages with latest publish in window; coverage limited to first 500 results (Documented)",
+      "accessed_at": "2026-11-08T05:17:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s110",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?text=typesafe%20jev&size=100",
+      "title": "Source R28-S110: registry.npmjs.org",
+      "claim": "2 in window (@oortmem/decide-jev, @mlola/decision-jev) (Documented)",
+      "accessed_at": "2026-11-08T05:17:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s111",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/<package>",
+      "title": "Source R28-S111: registry.npmjs.org",
+      "claim": "TypeSafe packages unchanged (sdk 0.7.0 of 2026-10-14; n8n 0.10.0 of 2026-10-20); no deprecated field on latest versions read (Documented)",
+      "accessed_at": "2026-11-08T05:19:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s112",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/<name>/json",
+      "title": "Source R28-S112: pypi.org",
+      "claim": "No upload in window: typesafe-sdk 0.7.5 (2026-10-14), langchain-typesafe 0.0.2 (2026-11-05T22:56Z), jev 0.3.0, laya 0.4.28 (2026-11-07T14:58:35Z, 28 min before window) (Documented)",
+      "accessed_at": "2026-11-08T05:19:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s113",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=jev&sort=lastModified&direction=-1&limit=100",
+      "title": "Source R28-S113: huggingface.co",
+      "claim": "2 created in window, 3 older repos modified in window (Documented)",
+      "accessed_at": "2026-11-08T05:17:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s114",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?author=baselabs&sort=lastModified&direction=-1&limit=100",
+      "title": "Source R28-S114: huggingface.co",
+      "claim": "3 models (joey-1, mammoth-1, elephant-1); last modified 2026-10-29; no change in window (Documented)",
+      "accessed_at": "2026-11-08T05:17:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s115",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev&per_page=50",
+      "title": "Source R28-S115: dev.to",
+      "claim": "Newest 2026-11-05T23:24:59Z; none in window (Documented)",
+      "accessed_at": "2026-11-08T05:17:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s116",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles/latest?per_page=100",
+      "title": "Source R28-S116: dev.to",
+      "claim": "Covers only 2026-11-08T04:49Z to 05:17Z; no jev/typesafe title; does not cover the window (Documented)",
+      "accessed_at": "2026-11-08T05:17:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s117",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R28-S117: openrouter.ai",
+      "claim": "461 IDs; only Jev ID typesafe/jev-router (created 2026-09-25, pricing -1/-1); no :free Jev ID; no baselabs/baseten/mammoth ID; newest created stamp 2026-11-06T23:57:57Z; 12 :free IDs (Documented)",
+      "accessed_at": "2026-11-08T05:17:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s118",
+      "source_type": "documented source",
+      "source_url": "https://www.reddit.com/search.json?q=jev&sort=new&limit=50",
+      "title": "Source R28-S118: www.reddit.com",
+      "claim": "HTTP 403; window coverage unknown (Documented)",
+      "accessed_at": "2026-11-08T05:17:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s119",
+      "source_type": "documented source",
+      "source_url": "https://x.com/search?q=jev&f=live",
+      "title": "Source R28-S119: x.com",
+      "claim": "HTTP 200 JavaScript shell, 0 'jev' strings; window coverage unknown (Documented)",
+      "accessed_at": "2026-11-08T05:17:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s120",
+      "source_type": "documented source",
+      "source_url": "https://www.youtube.com/results?search_query=jev+typesafe&sp=CAI%253D",
+      "title": "Source R28-S120: www.youtube.com",
+      "claim": "Jev titles newest '10d ago'; relative dates only; window coverage unknown (no in-window item visible) (Documented)",
+      "accessed_at": "2026-11-08T05:17:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s121",
+      "source_type": "documented source",
+      "source_url": "https://www.tiktok.com/search?q=jev%20typesafe",
+      "title": "Source R28-S121: www.tiktok.com",
+      "claim": "HTTP 200 shell, 0 'jev' strings; window coverage unknown (Documented)",
+      "accessed_at": "2026-11-08T05:17:18Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s122",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/stevenke1981/jev/HEAD/README.md",
+      "title": "Source R28-S122: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s123",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/raydo-max/codex-model-advisor/HEAD/README.md",
+      "title": "Source R28-S123: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s124",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/mxttbennett/jev-relayer/HEAD/README.md",
+      "title": "Source R28-S124: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s125",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/elizabethsiegle/jev-entire-demo/HEAD/README.md",
+      "title": "Source R28-S125: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s126",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ajackti/antigravity-jev-skills/HEAD/README.md",
+      "title": "Source R28-S126: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s127",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/vishalj99/lock-in/HEAD/README.md",
+      "title": "Source R28-S127: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s128",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jflowers/opencode-auto-question/HEAD/README.md",
+      "title": "Source R28-S128: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s129",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/crisesarmiento/opencode-routing-dashboard/HEAD/README.md",
+      "title": "Source R28-S129: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s130",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ctaxnagomi/kd-agent-runtime/HEAD/README.md",
+      "title": "Source R28-S130: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s131",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ezcodelab/libreharness/HEAD/README.md",
+      "title": "Source R28-S131: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:44Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s132",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/aleksandrbagdasarov/opencode-jevcode/HEAD/README.md",
+      "title": "Source R28-S132: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s133",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/miketropi/pi-jev-model-manager/HEAD/README.md",
+      "title": "Source R28-S133: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s134",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/hsmoviich/omp-maestro/HEAD/README.md",
+      "title": "Source R28-S134: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s135",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/paul-yuchao-dong/pi-omarchy-cu/HEAD/README.md",
+      "title": "Source R28-S135: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s136",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/ttdua/pi-jev-pilot/HEAD/README.md",
+      "title": "Source R28-S136: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s137",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/alejandroparis17/router-jev/HEAD/README.md",
+      "title": "Source R28-S137: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s138",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/jingyao152/jev-claude-gate/HEAD/README.md",
+      "title": "Source R28-S138: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s139",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/sunjongos/jev-typesafe-gatekeeper/HEAD/README.md",
+      "title": "Source R28-S139: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s140",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/tbmsindemnify/claude-optimize-mod/HEAD/README.md",
+      "title": "Source R28-S140: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s141",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/noob-3301/claude-code-evolve/HEAD/README.md",
+      "title": "Source R28-S141: raw.githubusercontent.com",
+      "claim": "HTTP 200; class-line lead only, not read in full (Documented)",
+      "accessed_at": "2026-11-08T05:18:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s200",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@caph42/pi-jev-router",
+      "title": "Source R28-S200: registry.npmjs.org",
+      "claim": "latest 2.0.0, published 2026-11-01T03:37:38.959Z; gitHead 75ad5b71940624ba29baf39ad0e7c51319db598e; repository Caph-dev/pi-jev-router; peerDependencies @earendil-works/pi-ai, @earendil-works/pi-coding-agent (Documented)",
+      "accessed_at": "2026-11-08T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s201",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@caph42/pi-jev-router/-/pi-jev-router-2.0.0.tgz",
+      "title": "Source R28-S201: registry.npmjs.org",
+      "claim": "7 files; extensions/jev-router.ts (1187 lines) and extensions/lib/diagnostics.ts read as text; source of all jev-router.ts line cites (Documented)",
+      "accessed_at": "2026-11-08T05:17:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s202",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/Caph-dev/pi-jev-router/75ad5b71940624ba29baf39ad0e7c51319db598e/extensions/jev-router.ts",
+      "title": "Source R28-S202: raw.githubusercontent.com",
+      "claim": "byte-identical to tarball file, sha256 3498748e0492e0f80aed0a35241a3dbe34ff97620dcd10e5ef4afc44f59c2f59 (Documented)",
+      "accessed_at": "2026-11-08T05:17:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s203",
+      "source_type": "documented source",
+      "source_url": "https://github.com/Caph-dev/pi-jev-router/commits/main",
+      "title": "Source R28-S203: github.com",
+      "claim": "75ad5b7 present on main (Documented)",
+      "accessed_at": "2026-11-08T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s204",
+      "source_type": "documented source",
+      "source_url": "https://github.com/r33drichards/pi-jev-router",
+      "title": "Source R28-S204: github.com",
+      "claim": "exists; package.json name pi-jev-router version 0.1.0; not the repository named by @caph42/pi-jev-router (Documented)",
+      "accessed_at": "2026-11-08T05:21:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s205",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@earendil-works/pi-coding-agent",
+      "title": "Source R28-S205: registry.npmjs.org",
+      "claim": "published 2026-11-02T11:05:09Z; repository earendil-works/pi packages/coding-agent; no gitHead; dist read only to locate source files (Documented)",
+      "accessed_at": "2026-11-08T05:17:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s206",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@earendil-works/pi-ai/-/pi-ai-1.5.0.tgz",
+      "title": "Source R28-S206: registry.npmjs.org",
+      "claim": "dist/providers/data/typesafe.json L1: jev-latest baseUrl https://api.typesafe.ai/v1/, api typesafe-system-one (Documented)",
+      "accessed_at": "2026-11-08T05:17:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s207",
+      "source_type": "documented source",
+      "source_url": "https://github.com/earendil-works/pi/tags",
+      "title": "Source R28-S207: github.com",
+      "claim": "v1.5.0 -> f9a26365568127461c47a07a37dcb42c140a3ac5; packages/coding-agent/package.json at that SHA says 1.5.0 (Documented)",
+      "accessed_at": "2026-11-08T05:17:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s208",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/earendil-works/pi/f9a26365568127461c47a07a37dcb42c140a3ac5/packages/coding-agent/src/core/model-runtime.ts",
+      "title": "Source R28-S208: raw.githubusercontent.com",
+      "claim": "registerVirtualModel L972-980; resolveModel L1011-1041; classify catch L816-832; prepareRequest no-auth throw L677; getModelOfType L462-468; streamSimple direct route L733-749 (Documented)",
+      "accessed_at": "2026-11-08T05:17:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s209",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/earendil-works/pi/f9a26365568127461c47a07a37dcb42c140a3ac5/packages/coding-agent/src/core/agent-session.ts",
+      "title": "Source R28-S209: raw.githubusercontent.com",
+      "claim": "agent-loop routing L830-858; request uses route.model L858 (Documented)",
+      "accessed_at": "2026-11-08T05:17:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s210",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/earendil-works/pi/f9a26365568127461c47a07a37dcb42c140a3ac5/packages/ai/src/api/typesafe-system-one.ts",
+      "title": "Source R28-S210: raw.githubusercontent.com",
+      "claim": "typesafe-system-one.ts L23-27 (POST {baseUrl}/systemone; non-object body throws); also read: packages/ai/src/api/system-one-shared.ts L219-235, packages/ai/src/providers/typesafe.ts L11 (TYPESAFE_API_KEY), packages/ai/src/utils/model-operations.ts L67-81 (Documented)",
+      "accessed_at": "2026-11-08T05:18:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s211",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/langchain-typesafe/json",
+      "title": "Source R28-S211: pypi.org",
+      "claim": "latest 0.0.2; 0.0.1a3 wheel uploaded 2026-09-20T18:54:39Z; 0.0.2 wheel 2026-11-05T22:56:39Z (Documented)",
+      "accessed_at": "2026-11-08T05:19:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s212",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/",
+      "title": "Source R28-S212: files.pythonhosted.org",
+      "claim": "read as text; sha256 prefix f06f74ebdcb10cbc (Documented)",
+      "accessed_at": "2026-11-08T05:19:19Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s213",
+      "source_type": "documented source",
+      "source_url": "https://files.pythonhosted.org/",
+      "title": "Source R28-S213: files.pythonhosted.org",
+      "claim": "read as text; sha256 prefix 6a1df08654a4651a; diff hunks in auto_mode.py and model_router.py only (plus _version.py) (Documented)",
+      "accessed_at": "2026-11-08T05:19:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s214",
+      "source_type": "documented source",
+      "source_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2",
+      "title": "Source R28-S214: github.com",
+      "claim": "links commit 71881c7eac594cd7a3e0a4895bb6c500fb50a18f; datetime 2026-11-05T22:56:58Z; source tree not read (Documented)",
+      "accessed_at": "2026-11-08T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s215",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/pypi/pydantic-ai-slim/json",
+      "title": "Source R28-S215: pypi.org",
+      "claim": "models/typesafe.py sha256 3cfa03b0...9647 and providers/typesafe.py sha256 fcbb98b6...24f3 identical at both versions (Documented)",
+      "accessed_at": "2026-11-08T05:20:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s216",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models/baseten/mammoth-1/endpoints",
+      "title": "Source R28-S216: openrouter.ai",
+      "claim": "provider BaseTen, context 16384, prices unchanged from 7 Nov; no data-policy field in this API (Documented)",
+      "accessed_at": "2026-11-08T05:20:21Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s217",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/baseten/mammoth-1/providers",
+      "title": "Source R28-S217: openrouter.ai",
+      "claim": "embedded data_policy: training false, trainingOpenRouter false, retainsPrompts false, canPublish false, safetyRetention false; same dataPolicy on https://openrouter.ai/provider/baseten (Documented)",
+      "accessed_at": "2026-11-08T05:20:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r28-s218",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/privacy/provider-logging",
+      "title": "Source R28-S218: openrouter.ai",
+      "claim": "formatRetention code maps retainsPrompts false and safetyRetention false to 'Zero retention' (Documented)",
+      "accessed_at": "2026-11-08T05:20:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
