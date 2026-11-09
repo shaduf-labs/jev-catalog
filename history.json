@@ -451,6 +451,17 @@
       "summary": "ohmyjev 0.14.0 read in source: an opt-in shadow setting (off by default) logs what lockdown would block without blocking it, and in-repo mkdir, touch, cp and mv now skip Jev; its other four failure cells are unchanged and lockdown is still off by default (failure map still 80). pi-jev-router 2.0.0 for pi read and counted on the coding-agents page (29 read, 15 counted). SubQ's docs and Terms now agree on 60-day retention; Cloudflare's data-usage page lists a third retention exception; OpenAI unchanged. TypeSafe: no access, alias, price or signup change; one new cookbook in its docs index.",
       "report_path": "/p/jev-catalog/reports/jev-changes-7-nov-8-nov",
       "entrypoint": "reports/jev-changes-7-nov-8-nov/index.html"
+    },
+    {
+      "run_id": "report-347d515a8cc2c5f420a1044e",
+      "status": "completed",
+      "answer_change": "meaningful_change",
+      "started_at": "2026-11-09T11:01:00Z",
+      "completed_at": "2026-11-09T12:05:00Z",
+      "title": "What changed for Jev builders, 8 to 9 November 2026",
+      "summary": "Three benchmark studies graded from their files (B49 grade B, B50 grade A, B51 grade B); the ledger has 48 graded rows (A 15, B 16, C 10, D 7). Jev Decision Index scores unchanged with a longer list; Artificial Analysis changed its index (Jev 1.14 66.96; Jev 1.13 no longer listed). auto-mode 4.0.0 read in source: failure path unchanged, bypass lists a reply-channel allow, still not settled (failure map still 80). Nace.AI's legal pages now agree; OpenCode's Terms re-dated 8 Nov with a Connected Service exception, still not reconciled with its docs. TypeSafe: no access, alias, price or signup change.",
+      "report_path": "/p/jev-catalog/reports/jev-changes-8-nov-9-nov",
+      "entrypoint": "reports/jev-changes-8-nov-9-nov/index.html"
     }
   ]
 }

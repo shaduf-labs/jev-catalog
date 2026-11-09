@@ -31170,6 +31170,866 @@
       "accessed_at": "2026-11-08T05:20:29Z",
       "relation": "supports",
       "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s01",
+      "source_type": "documented source",
+      "source_url": "https://console.typesafe.ai/",
+      "title": "Source R29-S01: console.typesafe.ai",
+      "claim": "HTTP 200 both (42,091 / 42,164 bytes); sign-in/create-account page; no form submitted",
+      "accessed_at": "2026-11-09T11:07:33Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s02",
+      "source_type": "documented source",
+      "source_url": "https://publish.x.com/oembed?url=https://x.com/CompleteSkeptic/status/2104338649999626397",
+      "title": "Source R29-S02: publish.x.com",
+      "claim": "CEO post text unchanged: 'ANYONE CAN SIGN UP ... temporarily disable the free credits (just for new users)'",
+      "accessed_at": "2026-11-09T11:07:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s03",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/introduction/quickstart.md",
+      "title": "Source R29-S03: docs.typesafe.ai",
+      "claim": "byte-identical to 8 Nov copy (15,156 bytes)",
+      "accessed_at": "2026-11-09T11:07:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s04",
+      "source_type": "documented source",
+      "source_url": "https://status.typesafe.ai/",
+      "title": "Source R29-S04: status.typesafe.ai",
+      "claim": "'All services are online' 'Last updated on Nov 9, 2026 at 11:06am UTC'; API 99.941% / 99.848% / 99.882%; latest event Oct 30 'System overload'",
+      "accessed_at": "2026-11-09T11:07:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s05",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R29-S05: docs.typesafe.ai",
+      "claim": "byte-identical to 8 Nov copy (8,177 bytes); jev-1.14.0 and jev-1.13.0, $42 / $0.042; jev-latest and jev-preview -> jev-1.14.0",
+      "accessed_at": "2026-11-09T11:07:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s06",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/images.md",
+      "title": "Source R29-S06: docs.typesafe.ai",
+      "claim": "byte-identical to 8 Nov copy (21,186 bytes)",
+      "accessed_at": "2026-11-09T11:07:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s07",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/",
+      "title": "Source R29-S07: typesafe.ai",
+      "claim": "homepage; no '1.15', 'deprecat' or 'credit' string",
+      "accessed_at": "2026-11-09T11:07:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s08",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog",
+      "title": "Source R29-S08: typesafe.ai",
+      "claim": "8 post slugs, same as 8 Nov",
+      "accessed_at": "2026-11-09T11:07:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s09",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "Source R29-S09: typesafe.ai",
+      "claim": "Jev 1.14 post; deprecation wording unchanged (4 'deprecat' hits as before)",
+      "accessed_at": "2026-11-09T11:07:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s10",
+      "source_type": "documented source",
+      "source_url": "https://typesafe.ai/enterprise",
+      "title": "Source R29-S10: typesafe.ai",
+      "claim": "no '1.15', 'deprecat' or 'credit' string",
+      "accessed_at": "2026-11-09T11:07:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s11",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/changelog.md",
+      "title": "Source R29-S11: docs.typesafe.ai",
+      "claim": "byte-identical to 8 Nov copy (1,220 bytes); no new entry",
+      "accessed_at": "2026-11-09T11:07:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s12",
+      "source_type": "documented source",
+      "source_url": "https://aifront-page.com/",
+      "title": "Source R29-S12: aifront-page.com",
+      "claim": "HTTP 200; no credit-restoring statement looked for in text",
+      "accessed_at": "2026-11-09T11:07:35Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s13",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/docs/guides/community/jev",
+      "title": "Source R29-S13: openrouter.ai",
+      "claim": "'typesafe/jev-1.14 (or the ~typesafe/jev-latest alias) is available to anyone with an OpenRouter API key'",
+      "accessed_at": "2026-11-09T11:08:38Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s14",
+      "source_type": "documented source",
+      "source_url": "https://research.eye.security/rise-of-the-jev-clones/",
+      "title": "Source R29-S14: research.eye.security",
+      "claim": "all HTTP 200 at 11:07:36-39Z",
+      "accessed_at": "2026-11-09T11:07:36Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s15",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/llms.txt",
+      "title": "Source R29-S15: docs.typesafe.ai",
+      "claim": "both byte-identical to 8 Nov copies (21,279 / 1,202 bytes)",
+      "accessed_at": "2026-11-09T11:07:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s16",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/rate_limit",
+      "title": "Source R29-S16: api.github.com",
+      "claim": "unauthenticated: core 60/60, search 10/10 at",
+      "accessed_at": "2026-11-09T11:07:39Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s17",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/zgeoff/auto-mode/7b246a75843330146f350cbec28d4710ca446269/src/classify-action.ts",
+      "title": "Source R29-S17: raw.githubusercontent.com",
+      "claim": "L234-242 STAGES list with classifyReplyChannel at L240; body L470; file sha256 6ff2c32f8a16, same as at 382b7a9 (3.1.6) (at 7b246a7, src/classify-action.ts)",
+      "accessed_at": "2026-11-09T11:12:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s18",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/@ai-sdk/typesafe-ai/-/typesafe-ai-3.0.34.tgz",
+      "title": "Source R29-S18: registry.npmjs.org",
+      "claim": "tarballs read (not installed): src/typesafe-ai-decision-model.ts and src/typesafe-ai-decision-api.ts differ; 3.0.35 CHANGELOG c70adf6",
+      "accessed_at": "2026-11-09T11:10:40Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s19",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/ai/-/ai-7.0.164.tgz",
+      "title": "Source R29-S19: registry.npmjs.org",
+      "claim": "tarballs read (not installed): src/decide/ (8 files) byte-identical across the three; 7.0.165 changes telemetry and docs (32-decisions.mdx); 7.0.166 dependency bump only",
+      "accessed_at": "2026-11-09T11:10:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s20",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/",
+      "title": "Source R29-S20: registry.npmjs.org",
+      "claim": "latest versions and in-window releases: ai 7.0.166 (9 Nov 02:55Z), @openclaw/typesafe 2026.11.2 (8 Nov 09:05Z), n8n 2.47.3 and 2.46.7 (9 Nov 08:27-08:29Z); others none in window",
+      "accessed_at": "2026-11-09T11:10:17Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s21",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/",
+      "title": "Source R29-S21: pypi.org",
+      "claim": "in window: nace-sdk 0.7.0 (2026-11-09T00:56:46Z); others none; litellm latest 1.108.3",
+      "accessed_at": "2026-11-09T11:12:00Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s22",
+      "source_type": "documented source",
+      "source_url": "https://opencode.ai/docs/console/models/",
+      "title": "Source R29-S22: opencode.ai",
+      "claim": "'Jev 1.13 Free Free Free - -'; 'Jev 1.13 $0.042 Free - -'; 'Jev 1.13 Free is available on OpenCode for a limited time.'; zero-retention sentence with exceptions list; no Jev entry in the exceptions",
+      "accessed_at": "2026-11-09T11:11:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s23",
+      "source_type": "documented source",
+      "source_url": "https://opencode.ai/legal/terms-of-service",
+      "title": "Source R29-S23: opencode.ai",
+      "claim": "'Effective date: Nov 8, 2026' (was Aug 15, 2026); unpaid-account clause now ends 'except Content obtained or derived from a Connected Service (as defined in our Privacy Policy), which we never use for that purpose'; page's own 'What changed Nov 8, 2026' diff",
+      "accessed_at": "2026-11-09T11:11:41Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s24",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R29-S24: openrouter.ai",
+      "claim": "461 IDs; only typesafe/jev-router in /models; both endpoints TypeSafe, 262,144, prompt 0.000000042",
+      "accessed_at": "2026-11-09T11:11:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s25",
+      "source_type": "documented source",
+      "source_url": "https://ai-gateway.vercel.sh/v1/models",
+      "title": "Source R29-S25: ai-gateway.vercel.sh",
+      "claim": "498 IDs; typesafe-ai/jev, jev-1.13.0, jev-1.14.0 at 32,000",
+      "accessed_at": "2026-11-09T11:11:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s26",
+      "source_type": "documented source",
+      "source_url": "https://api.opper.ai/v3/models?q=typesafe%2Fjev-latest",
+      "title": "Source R29-S26: api.opper.ai",
+      "claim": "typesafe/jev-1.13.0 aliases ['typesafe/jev-latest']; typesafe/jev-1.14.0 aliases ['typesafe/jev-preview']",
+      "accessed_at": "2026-11-09T11:11:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s27",
+      "source_type": "documented source",
+      "source_url": "https://docs.netlify.com/build/ai-gateway/overview/",
+      "title": "Source R29-S27: docs.netlify.com",
+      "claim": "jev-1.13.0, jev-1.14.0, jev-latest, jev-preview, jev-router",
+      "accessed_at": "2026-11-09T11:11:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s28",
+      "source_type": "documented source",
+      "source_url": "https://developers.cloudflare.com/ai/models/typesafe/jev/index.md",
+      "title": "Source R29-S28: developers.cloudflare.com",
+      "claim": "both HTTP 200; '0.042' present; no 'deprecat' string",
+      "accessed_at": "2026-11-09T11:11:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s29",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/endpoints/zdr",
+      "title": "Source R29-S29: openrouter.ai",
+      "claim": "1,109 entries (8 Nov 1,117); typesafe/jev-1.14 and typesafe/jev-1.13 listed",
+      "accessed_at": "2026-11-09T11:11:42Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s30",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/policies/terms-of-service.md",
+      "title": "Source R29-S30: www.nace.ai",
+      "claim": "'Last Revised: November 6, 2026'; s.5.4(a) 'No training by default ... unless you separately and expressly authorize that use in writing (including through an opt-in control in the Console)'; s.5.7(a) Standard retention 'retained until you request their deletion or close the relevant Account or workspace'; s.5.7(h) Decision request text kept 30 days in a misuse-screening archive (Standard mode)",
+      "accessed_at": "2026-11-09T11:14:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s31",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/policies/privacy-policy.md",
+      "title": "Source R29-S31: www.nace.ai",
+      "claim": "'Last Updated: November 6, 2026'; 'We do not use Customer Content to train ... unless you separately and expressly authorize'; misuse-screening archive 30 days; 'For Decision model requests it applies without a workspace: we do not store the request content or results'",
+      "accessed_at": "2026-11-09T11:14:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s32",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/terms",
+      "title": "Source R29-S32: console.nace.ai",
+      "claim": "'Published November 6, 2026' (version fcc77228); s.5.4(a) and s.5.7(a) same wording as the website Terms",
+      "accessed_at": "2026-11-09T11:14:27Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s33",
+      "source_type": "documented source",
+      "source_url": "https://console.nace.ai/dpa",
+      "title": "Source R29-S33: console.nace.ai",
+      "claim": "'Published November 6, 2026' (version 7dd5132d); 4.1 Standard retention until Customer instructs deletion; 4.10 misuse screening 30 days; 4.3 Zero Retention for workspaces bound to Customer-Managed Storage",
+      "accessed_at": "2026-11-09T11:14:28Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s34",
+      "source_type": "documented source",
+      "source_url": "https://www.uprightproject.com/eevo/",
+      "title": "Source R29-S34: www.uprightproject.com",
+      "claim": "readable HTML (108,901 chars text); table columns Upright Eevo-1, Perplexity Decider-1, TypeSafe Jev 1.14, Cloudflare Clef 27B, OpenAI Decisions, Microsoft Decision-1; Decision Index 0.4.1 public part: Eevo-1 74.8, Jev 1.14 60.7; PokerBench (pre-flop) 87.7 / 77.3 / 74.3 / ...; CogBench (urn) 98.1 / 97.7 / 97.6 / ...; 'Sources: Jev Decision Index (board, 22 Oct 2026) · our evaluation runs (24-26 Oct 2026)'; no 'jev-latest' or '6 October' string; no weights or base-model string",
+      "accessed_at": "2026-11-09T11:15:09Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s35",
+      "source_type": "documented source",
+      "source_url": "https://www.nace.ai/drex.md",
+      "title": "Source R29-S35: www.nace.ai",
+      "claim": "'Drex Max ... 70.8 on the Decision Index, 10.1 points over Jev 1.14' (page had '6.9 points over Jev 1.14'); 'Decision Index 0.3.1, public benchmarks: Drex 2.0 at 61.25 vs 57.96 (+3.29)' unchanged",
+      "accessed_at": "2026-11-09T11:15:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s36",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models/nace-ai/drex-v2.0",
+      "title": "Source R29-S36: huggingface.co",
+      "claim": "repo sha e646674 (lastModified 2026-10-30T16:49:53Z; page cites 3e6d164); card still '61.25 on the public Decision Index 0.3.1, 3.3 points ahead of Jev'",
+      "accessed_at": "2026-11-09T11:15:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s37",
+      "source_type": "documented source",
+      "source_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+      "title": "Source R29-S37: docs.aws.amazon.com",
+      "claim": "HTTP 200 / 200 / 404; static text 2,034 and 4,606 characters; no TypeSafe or Jev string; model-cards page names Anthropic once and Mistral 5 times, so the list is partly static and partly script-rendered: not determined",
+      "accessed_at": "2026-11-09T11:16:56Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s38",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/dengzhe-hou/S1CogBench/9cd68df9b2809d291f6cd5a7f578b0ae5395699d/results/aggregate/table2.csv",
+      "title": "Source R29-S38: raw.githubusercontent.com",
+      "claim": "L2 Bayesian urn Posterior MAE lower: Uniform 0.349, Laya 0.291, Intern 0.235, ..., Jev 0.068, Opus 0.001, Sonnet 0.001, Haiku 0.001 (at 9cd68df, results/aggregate/table2.csv)",
+      "accessed_at": "2026-11-09T11:17:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s39",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/index.json",
+      "title": "Source R29-S39: huggingface.co",
+      "claim": "generated_utc 2026-11-06T09:05:08Z; suite label Decision Index 0.4.1; jev.scores.balanced_skill 60.24, public_skill 60.7; rank fields sit in a sub-object named v03: v 60.24, rank_v 55, rank_tie 12, tied true, rank_pub 72; 274 models rows plus the jev row",
+      "accessed_at": "2026-11-09T11:18:10Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s40",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/GopalAlag/FrontierLLMvsJEV/27a73b7adb1acf4187fe7e8a03c1991610cd2dbc/results_ivr_final/summary_by_system.csv",
+      "title": "Source R29-S40: raw.githubusercontent.com",
+      "claim": "L3 'jev,2,0.636,...'; L2 claude-haiku-5-5_explicit 0.608; L4 gemini-3.1-flash-lite_explicit 0.62; L5 gpt-6-luna_explicit 0.652; L6 claude-sonnet-5-5_explicit 0.644; L7 classic_tfidf_lr 0.304 (at 27a73b7, results_ivr_final/summary_by_system.csv)",
+      "accessed_at": "2026-11-09T11:20:43Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s41",
+      "source_type": "documented source",
+      "source_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-decision-index",
+      "title": "Source R29-S41: artificialanalysis.ai",
+      "claim": "entry typesafe_jev-1-14 'Jev 1.14' indexScore 66.95561867565617; no 'jev-1-13' slug in the page data",
+      "accessed_at": "2026-11-09T11:20:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s42",
+      "source_type": "documented source",
+      "source_url": "https://crazyrouter.com/",
+      "title": "Source R29-S42: crazyrouter.com",
+      "claim": "homepage HTTP 200, title 'Crazyrouter', no Jev or TypeSafe string in static text (9,478 chars); models endpoint HTTP 401 without a key (no key used)",
+      "accessed_at": "2026-11-09T11:20:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s43",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/primitives/score.md",
+      "title": "Source R29-S43: docs.typesafe.ai",
+      "claim": "criteria: \"An ordered array of level descriptions ... Should have at least two levels; the API accepts up to 10.\"; \"Use as many levels as you can describe distinctly, up to 10.\"",
+      "accessed_at": "2026-11-09T11:23:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s44",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/tukka25/graph-reflex/47859bd29c9a1d9fb9034581dba70465d42360a0/README.md",
+      "title": "Source R29-S44: raw.githubusercontent.com",
+      "claim": "README L42 '| C · Harness + Jev | 0.58 | 0.79 | 0.67 | 3.4 s / 4.4 s | $2.25 |'; docs/results.md L13 '| C · Harness + Jev | 100 | 0.580 | 0.790 | ...' (at 47859bd, README.md L42; docs/results.md L13)",
+      "accessed_at": "2026-11-09T11:24:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s45",
+      "source_type": "documented source",
+      "source_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-decision-index",
+      "title": "Source R29-S45: artificialanalysis.ai",
+      "claim": "21 indexScore values in the page data (21 distinct), consistent with 21 entries",
+      "accessed_at": "2026-11-09T11:24:59Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s46",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/models.md",
+      "title": "Source R29-S46: docs.typesafe.ai",
+      "claim": "re-read: 8,177 bytes, sha256 09ff62cff4c5, byte-identical to the 11:07:31Z copy",
+      "accessed_at": "2026-11-09T11:33:03Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s47",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/cookbooks/verify_llm_outputs.md",
+      "title": "Source R29-S47: docs.typesafe.ai",
+      "claim": "at .3: cookbook '88.5% of the answers were right. The check passed 73% of the answers, and 95.7% of those were right.' and '84 of the 115 wrong answers' present; B41 README L231 'Same route in all 6 option orders | 91.6–91.8% | 64.2% | **97.2–97.6%**', L245 '179 of 500 cases' (at 1ffa4d5, README.md L231, L245)",
+      "accessed_at": "2026-11-09T11:33:15Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s100",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/",
+      "title": "Source R29-S100: hn.algolia.com",
+      "claim": "A1 HN scan; Jev-relevant hits 50421155, 50421227, 50423700, 50423801, 50419675, 50417974, 50411488, 50421268, 50419467",
+      "accessed_at": "2026-11-09T11:07:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s101",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=jev+created:2026-11-08T05:14:00Z..2026-11-08T23:59:59Z",
+      "title": "Source R29-S101: api.github.com",
+      "claim": "total 33, incomplete false; search call 1",
+      "accessed_at": "2026-11-09T11:07:34Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s102",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=jev+created:2026-11-09T00:00:00Z..2026-11-09T11:04:59Z",
+      "title": "Source R29-S102: api.github.com",
+      "claim": "total 22; search call 2",
+      "accessed_at": "2026-11-09T11:07:48Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s103",
+      "source_type": "documented source",
+      "source_url": "https://api.github.com/search/repositories?q=typesafe+created:2026-11-08T05:14:00Z..2026-11-09T11:04:59Z",
+      "title": "Source R29-S103: api.github.com",
+      "claim": "total 19; search call 3",
+      "accessed_at": "2026-11-09T11:08:02Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s104",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/-/v1/search?text=jev&size=250",
+      "title": "Source R29-S104: registry.npmjs.org",
+      "claim": "in-window version dates; relevance order only",
+      "accessed_at": "2026-11-09T11:08:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s105",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/",
+      "title": "Source R29-S105: registry.npmjs.org",
+      "claim": "pinned-integration versions; ai 7.0.166 / 6.0.326 in window",
+      "accessed_at": "2026-11-09T11:08:50Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s106",
+      "source_type": "documented source",
+      "source_url": "https://pypi.org/",
+      "title": "Source R29-S106: pypi.org",
+      "claim": "only laya 0.4.29/0.4.30 in window",
+      "accessed_at": "2026-11-09T11:08:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s107",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/models?search=jev&sort=lastModified&direction=-1&limit=100",
+      "title": "Source R29-S107: huggingface.co",
+      "claim": "models/spaces/datasets created or modified in window",
+      "accessed_at": "2026-11-09T11:08:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s108",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/api/articles?tag=jev&per_page=50",
+      "title": "Source R29-S108: dev.to",
+      "claim": "tag jev newest 2026-11-05; latest-1000 covers 07:41Z-11:08Z 9 Nov; search feed empty (unknown)",
+      "accessed_at": "2026-11-09T11:08:53Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s109",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/buluo/jev-114-for-developers-what-the-decision-model-takes-in-returns-and-can-judge-328j",
+      "title": "Source R29-S109: dev.to",
+      "claim": "published 2026-11-09T09:44:02Z; names api.crazyrouter.com/api/alpha/decisions, model jev-1.14, tracking links (candidate notice lead)",
+      "accessed_at": "2026-11-09T11:09:20Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s110",
+      "source_type": "documented source",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "title": "Source R29-S110: openrouter.ai",
+      "claim": "461 IDs; no ID created in window; only typesafe/jev-router",
+      "accessed_at": "2026-11-09T11:08:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s111",
+      "source_type": "documented source",
+      "source_url": "https://www.reddit.com/search.json?q=jev&sort=new",
+      "title": "Source R29-S111: www.reddit.com",
+      "claim": "window coverage unknown",
+      "accessed_at": "2026-11-09T11:08:54Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s112",
+      "source_type": "documented source",
+      "source_url": "https://github.com/dengzhe-hou/S1CogBench/commits.atom",
+      "title": "Source R29-S112: github.com",
+      "claim": "pin SHAs for A2",
+      "accessed_at": "2026-11-09T11:08:49Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s113",
+      "source_type": "documented source",
+      "source_url": "https://codeload.github.com/dengzhe-hou/S1CogBench/tar.gz/9cd68df9b2809d291f6cd5a7f578b0ae5395699d",
+      "title": "Source R29-S113: codeload.github.com",
+      "claim": "S1CogBench at pin: metric code and aggregate results; Jev Bayesian-urn posterior MAE 0.068 (at 9cd68df, ['README.md', 'results/aggregate/table2.csv', 'results/aggregate/results.csv', 'src/paper_probabilistic.py', 's1cogbench/worker.py', 's1cogbench/results.py', 'docs/RESULTS.md'])",
+      "accessed_at": "2026-11-09T11:09:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s114",
+      "source_type": "documented source",
+      "source_url": "https://codeload.github.com/GopalAlag/FrontierLLMvsJEV/tar.gz/27a73b7adb1acf4187fe7e8a03c1991610cd2dbc",
+      "title": "Source R29-S114: codeload.github.com",
+      "claim": "FrontierLLMvsJEV at pin: IVR metric code and results; Jev accuracy 0.636 (at 27a73b7, ['README.md', 'src/ivr_intent/metrics.py', 'results_ivr_final/summary_by_system.csv', 'results_ivr_final/results.md', 'results_ivr_final/complete_summary.md', 'results_ivr_final/run_manifest.json', 'results_real/summary_by_system.csv'])",
+      "accessed_at": "2026-11-09T11:09:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s115",
+      "source_type": "documented source",
+      "source_url": "https://codeload.github.com/tukka25/graph-reflex/tar.gz/47859bd29c9a1d9fb9034581dba70465d42360a0",
+      "title": "Source R29-S115: codeload.github.com",
+      "claim": "graph-reflex at pin: STaRK metric code and results; Harness + Jev Hit@1 0.58 (at 47859bd, ['README.md', 'docs/results.md', 'src/lib/eval/metrics.ts', 'scripts/export-report.ts', '.gitignore'])",
+      "accessed_at": "2026-11-09T11:09:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s116",
+      "source_type": "documented source",
+      "source_url": "https://codeload.github.com/mahirmalik030/Jev-vs-LLMs/tar.gz/4c168e538794af296c6b9fad90f6962aba3199bb",
+      "title": "Source R29-S116: codeload.github.com",
+      "claim": "Jev-vs-LLMs at pin: no results file, no Jev call path in script (at 4c168e5, ['README.md', 'phishing_metrics_evaluation.py', 'phishing_email_detection_2026_dataset.csv'])",
+      "accessed_at": "2026-11-09T11:09:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s117",
+      "source_type": "documented source",
+      "source_url": "https://codeload.github.com/randlee/judge-jev/tar.gz/422f88612351497df23bec7969a248c63df9d841",
+      "title": "Source R29-S117: codeload.github.com",
+      "claim": "judge-jev at pin: compliance-judge tool, not a benchmark (at 422f886, ['README.md', 'docs/adr/adr-jev-product.md'])",
+      "accessed_at": "2026-11-09T11:09:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s118",
+      "source_type": "documented source",
+      "source_url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "title": "Source R29-S118: hightouch.com",
+      "claim": "Reported table: Jev (50% cutoff) 95.6%, Decisions API 97.3%, Opus 99.0%",
+      "accessed_at": "2026-11-09T11:13:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s119",
+      "source_type": "documented source",
+      "source_url": "https://dev.to/pournasserian/decision-models-against-small-llms-jev-kev-laya-and-mammoth-1-on-6662-decisions-1i7k",
+      "title": "Source R29-S119: dev.to",
+      "claim": "DEV.to page has no figures; embeds S120",
+      "accessed_at": "2026-11-09T11:13:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s120",
+      "source_type": "documented source",
+      "source_url": "https://pournasserian.com/writing/decision-models-vs-small-llms-2026",
+      "title": "Source R29-S120: pournasserian.com",
+      "claim": "Reported: Jev 77.2% six-task score; prompt injection Jev 85.2%",
+      "accessed_at": "2026-11-09T11:14:05Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s121",
+      "source_type": "documented source",
+      "source_url": "https://camden.sh/posts/clef-omni-spanish/",
+      "title": "Source R29-S121: camden.sh",
+      "claim": "Reported: wrong answers accepted at P(correct) 0.8933, 0.9185, 0.9421 (Clef-Omni, not Jev)",
+      "accessed_at": "2026-11-09T11:13:51Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s122",
+      "source_type": "documented source",
+      "source_url": "https://hn.algolia.com/api/v1/items/50394904",
+      "title": "Source R29-S122: hn.algolia.com",
+      "claim": "post text has no figures; video not watched",
+      "accessed_at": "2026-11-09T11:13:52Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s200",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/auto-mode",
+      "title": "Source R29-S200: registry.npmjs.org",
+      "claim": "Package auto-mode (repository git+https://github.com/zgeoff/auto-mode.git); dist-tags latest 4.0.0; time 4.0.0 2026-11-08T01:03:42.679Z, 3.1.6 2026-10-31T09:46:02.052Z, 3.0.0 2026-10-20T09:25:33.900Z; no gitHead field in 3.0.0, 3.1.6 or 4.0.0 manifests; bin auto-mode -> dist/cli.js and exports identical in 3.1.6 and 4.0.0",
+      "accessed_at": "2026-11-09T11:07:29Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s201",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/auto-mode/-/auto-mode-4.0.0.tgz",
+      "title": "Source R29-S201: registry.npmjs.org",
+      "claim": "Downloaded and extracted to read only (not installed, not run). Ships dist, mods, policy, package.json, README, LICENSE (no src/). mods/auto-mode/hooks/register.ts sha256 586e15d45988, parse-decision.ts 797ec18da41b, contract/cli-limits.ts 511c96e8b8bb (same as 3.1.6 tarball); vs 3.1.6 only dist/cli.js, dist/index.js, dist/index.d.ts, package.json and hashed dist chunk names differ",
+      "accessed_at": "2026-11-09T11:07:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s202",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/auto-mode/-/auto-mode-3.1.6.tgz",
+      "title": "Source R29-S202: registry.npmjs.org",
+      "claim": "Downloaded and extracted to read only; baseline for the 3.1.6 -> 4.0.0 diff",
+      "accessed_at": "2026-11-09T11:07:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s203",
+      "source_type": "documented source",
+      "source_url": "https://registry.npmjs.org/auto-mode/-/auto-mode-3.0.0.tgz",
+      "title": "Source R29-S203: registry.npmjs.org",
+      "claim": "Downloaded and extracted to read only; mods files hash differently from 3.1.6/4.0.0 (register.ts 788b861bfdb2 vs 586e15d45988)",
+      "accessed_at": "2026-11-09T11:07:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s204",
+      "source_type": "documented source",
+      "source_url": "https://github.com/zgeoff/auto-mode/tags.atom",
+      "title": "Source R29-S204: github.com",
+      "claim": "Tag names are auto-mode-vX.Y.Z; auto-mode-v4.0.0 updated 2026-11-08T00:59:31Z; auto-mode-v3.1.6 2026-10-31T09:42:43Z (outside GitHub API budget)",
+      "accessed_at": "2026-11-09T11:07:45Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s205",
+      "source_type": "documented source",
+      "source_url": "https://codeload.github.com/zgeoff/auto-mode/tar.gz/refs/tags/auto-mode-v4.0.0",
+      "title": "Source R29-S205: codeload.github.com",
+      "claim": "Source tarball read only; pax commit 7b246a75843330146f350cbec28d4710ca446269. Files read: mods/auto-mode/hooks/register.ts L118-120, L198; src/config/config.ts L69, L76-77; mods/auto-mode/contract/cli-limits.ts L2; src/model/classify-with-jev.ts L46-54; mods/auto-mode/hooks/parse-decision.ts L3-33; src/classify-action.ts L234-242, L470-488, L506-520, L524-545; src/config/presets.ts L15; CHANGELOG.md 4.0.0 entry",
+      "accessed_at": "2026-11-09T11:07:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s206",
+      "source_type": "documented source",
+      "source_url": "https://codeload.github.com/zgeoff/auto-mode/tar.gz/refs/tags/auto-mode-v3.1.6",
+      "title": "Source R29-S206: codeload.github.com",
+      "claim": "Source tarball read only; pax commit 382b7a91a34045ee57fc42ae039e99136496e83d. The six cited files are byte-identical to 4.0.0 (sha256 prefixes register.ts 586e15d45988, config.ts 14e9e6fa5659, cli-limits.ts 511c96e8b8bb, classify-with-jev.ts e9ca1cb964a0, parse-decision.ts 797ec18da41b, classify-action.ts 6ff2c32f8a16). 3.1.6 -> 4.0.0 src changes are in src/judge/*, src/config/pick-judge-lane.ts, removal of src/messages/, tests",
+      "accessed_at": "2026-11-09T11:07:58Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s207",
+      "source_type": "documented source",
+      "source_url": "https://codeload.github.com/zgeoff/auto-mode/tar.gz/refs/tags/auto-mode-v3.0.0",
+      "title": "Source R29-S207: codeload.github.com",
+      "claim": "Source tarball read only; pax commit c0b93787892e8e4c9fe71eb926893144860e0404 (matches the page pin c0b9378). Cited-file hashes: register.ts 788b861bfdb2, config.ts 8c50476f3818, cli-limits.ts a31ca91060cd, classify-with-jev.ts 56dad6838ed2, parse-decision.ts b1c7fcac2277, classify-action.ts 15207212734a. STAGES list L228-235 has 6 stages (no classifyReplyChannel)",
+      "accessed_at": "2026-11-09T11:08:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s208",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/spaces/multimodalart/jev-decision-index",
+      "title": "Source R29-S208: huggingface.co",
+      "claim": "Space sha e05cd04cad2b4f8d6c34aaa486ff88f1a9584942, lastModified 2026-11-06T09:10:50Z",
+      "accessed_at": "2026-11-09T11:11:30Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s209",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/api/spaces/multimodalart/jev-decision-index/commits/main",
+      "title": "Source R29-S209: huggingface.co",
+      "claim": "Latest commit e05cd04 (2026-11-06T09:10:50Z, 'Add REAX 1.3, GLiDE 27B/9B/2B/0.8B/0.4B, ...'); earlier f0dbd55, 97e5f3c, f5fa670 (4 Nov), 01156854 (3 Nov) are all model additions",
+      "accessed_at": "2026-11-09T11:11:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s210",
+      "source_type": "documented source",
+      "source_url": "https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/index.json",
+      "title": "Source R29-S210: huggingface.co",
+      "claim": "HTTP 200, 3,724,017 bytes; generated_utc 2026-11-06T09:05:08Z; suite.label 'Decision Index 0.4.1', edition release-v4, headline balanced_skill ('Full score'); 274 models rows plus a separate jev row. jev row: name 'Jev 1.14', version jev-1.14.0, edition 'Lab run, 2026-10-14', scores.balanced_skill 60.24, v03.rank_v 55, v03.rank_tie 12, v03.tied true. models row jev-1.13.0 'Jev 1.13': balanced_skill 59.22, rank_v 64, rank_tie 13 (at e05cd04, data/index.json)",
+      "accessed_at": "2026-11-09T11:11:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s211",
+      "source_type": "documented source",
+      "source_url": "https://docs.typesafe.ai/cookbooks/verify_llm_outputs.md",
+      "title": "Source R29-S211: docs.typesafe.ai",
+      "claim": "HTTP 200, 589 lines, sha256 prefix 9f4b460ba729. TypeSafe's own MuSiQue figures (L29-32, L71, L482-491): jev-1.14.0 on 2026-11-07, 1,000 MuSiQue dev questions answered by gpt-6-luna; 88.5% right; check at risk 0.2 passes 727 (73%), 95.7% right, holds back 273 incl. 84 of 115 wrong; thresholds 0.3/0.5/0.7 table rows. Reported, TypeSafe-attributed",
+      "accessed_at": "2026-11-09T11:11:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s212",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/1ffa4d5b95de29c1d42602a63e25566d6b152ddd/README.md",
+      "title": "Source R29-S212: raw.githubusercontent.com",
+      "claim": "Option-order figures L220-232, L245, L254: same route in all 6 option orders Jev 91.6-91.8%, OpenAI Decisions 64.2%, Microsoft Decision-1 97.2-97.6%; macro-F1 best-worst order 8-10 pts / 25.9 pts / 1.2-1.5 pts; route changed on 41-42 (Jev), 179 (OpenAI), 12-14 (Microsoft) of 500 cases (at 1ffa4d5, README.md)",
+      "accessed_at": "2026-11-09T11:11:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s213",
+      "source_type": "documented source",
+      "source_url": "https://raw.githubusercontent.com/kartikanand73/decision-api-benchmark/HEAD/README.md",
+      "title": "Source R29-S213: raw.githubusercontent.com",
+      "claim": "Byte-identical to the 1ffa4d5 README (cmp)",
+      "accessed_at": "2026-11-09T11:11:32Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s214",
+      "source_type": "documented source",
+      "source_url": "https://github.com/kartikanand73/decision-api-benchmark/commits/main.atom",
+      "title": "Source R29-S214: github.com",
+      "claim": "Latest commit still 1ffa4d5 (2026-10-10T22:53:43Z); no commit after the B41 pin (outside GitHub API budget)",
+      "accessed_at": "2026-11-09T11:11:31Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
+    },
+    {
+      "evidence_id": "r29-s215",
+      "source_type": "documented source",
+      "source_url": "https://artificialanalysis.ai/evaluations/artificial-analysis-decision-index",
+      "title": "Source R29-S215: artificialanalysis.ai",
+      "claim": "HTTP 200; page data lists 21 entries by slug (17 kind decisionModel, 4 llm); Jev 1.14 (typesafe_jev-1-14, host TypeSafe) indexScore 66.95561867565617; no Jev 1.13 entry found; component named 'AA-Omniscience-Decision v1.1'. Methodology not re-read; no page history",
+      "accessed_at": "2026-11-09T11:12:25Z",
+      "relation": "supports",
+      "publication_basis": "linked-summary"
     }
   ]
 }
